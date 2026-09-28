@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-28T18:51Z",
+ "updated": "2026-09-28T18:59Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -10,9 +10,9 @@
    "CBS"
   ],
   "odds": {
-   "details": "CIN -2.5",
+   "details": "CIN -3",
    "over_under": 51.5,
-   "provider": "DraftKings"
+   "provider": "Draft Kings"
   },
   "teams": {
    "CIN": {
@@ -47,16 +47,17 @@
   "venue": "Paycor Stadium"
  },
  "ai": {
-  "overview": "The Jacksonville Jaguars bring their lineal belt to Cincinnati for a matchup between two evenly-matched 2-1 teams. This is only the second time these franchises have met with the belt on the line, and the Jaguars are seeking their first successful defense after winning it recently. The Bengals will be favored by 2.5 points on their home field.",
+  "overview": "The Jacksonville Jaguars bring the Belt Holders championship to Cincinnati in a perfectly balanced matchup between 2-1 teams with an all-time series tied at 13-13. Jacksonville won their current belt just recently and has yet to defend it in this reign, while Cincinnati has held the belt 13 times previously and will look to reclaim it on home turf.",
   "key_matchups": [
-   "Jaguars' recent dominance (35-6, 34-10 wins) vs. Bengals' resilience in close games (both recent wins came by three points or fewer)",
-   "Head-to-head history is perfectly split at 13-13 all-time, but Cincinnati won the most recent meeting 31-27 just last season",
-   "Jacksonville's first belt defense against a Bengals team that has held it 13 times in franchise history, suggesting Cincinnati's championship pedigree"
+   "Jacksonville's explosive offense (35 points last week, 41 and 34 in recent wins) versus Cincinnati's recent defensive struggles (allowing 30 to Pittsburgh)",
+   "Cincinnati's home momentum after winning their last meeting 31-27 in September 2025",
+   "Jacksonville's belt defense inexperience (0 defenses this reign) against a Bengals team familiar with championship pressure (13 previous reigns)"
   ],
-  "betting_angles": "Jacksonville's recent form is imposing with two dominant victories, though they did lose their last road game at Denver. Cincinnati has won back-to-back games and owns the home field advantage with a 2.5-point line. The Elo model gives Jacksonville just a slight 51% edge despite being 2-point underdogs, suggesting the line may slightly favor the home team.",
+  "betting_angles": "The betting line favors Cincinnati by 3 points at home despite the Elo model rating this essentially a coin flip at 51% for Jacksonville. The Bengals have won four of the last five head-to-head meetings, including last month's 31-27 victory, though Jacksonville has shown more offensive firepower recently with back-to-back wins by 24 and 29 points. The perfectly tied all-time series and identical 2-1 records suggest this could be the close game the 51.5 over/under implies.",
   "predicted_winner": "Cincinnati Bengals",
   "predicted_score": "Jacksonville Jaguars 24, Cincinnati Bengals 27",
-  "prediction_writeup": "Cincinnati's home-field advantage and recent momentum\u2014winning two straight\u2014give them the edge in a tight matchup. The Bengals have proven they can win close games, and they'll be hungry to reclaim a belt they've held 13 times before. Jacksonville's powerful recent wins are impressive, but this is their first defense and they're traveling on the road. The line suggesting Cincinnati by 2.5 aligns with a competitive game that tips slightly toward the Bengals' side.",
-  "written": "2026-09-28"
+  "prediction_writeup": "Cincinnati gets the nod in a tight one based on home field advantage and recent dominance in this matchup, having won the last meeting just three weeks ago by the same 31-27 margin. While Jacksonville's offense has been rolling with 35 and 41-point performances, they've also shown vulnerability with losses to Denver and Buffalo in their recent stretch. The Bengals are coming off a competitive road loss to Pittsburgh where they scored 27, and playing at home where the 3-point line suggests oddsmakers see them as the marginal favorite. In a series tied 13-13 all-time, the belt changes hands in another close one.",
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
  }
 }

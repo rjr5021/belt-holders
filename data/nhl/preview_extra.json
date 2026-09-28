@@ -1,6 +1,6 @@
 {
  "key": "CAR|FLA|2026-09-29",
- "updated": "2026-09-28T18:51Z",
+ "updated": "2026-09-28T18:59Z",
  "start_utc": "2026-09-29T21:00Z",
  "espn": {
   "event_id": "401891773",
@@ -12,7 +12,7 @@
   "odds": {
    "details": "CAR -125",
    "over_under": 6.5,
-   "provider": "DraftKings"
+   "provider": "Draft Kings"
   },
   "teams": {
    "CAR": {
@@ -39,16 +39,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Carolina's dominant 69-32 season and current belt reign face a Florida team surging with back-to-back wins over Detroit and New York. The Hurricanes have held the belt through two defenses already and own a commanding 76-69 all-time record against their division rival, but the Panthers have proven capable of upsetting them\u2014including a 5-2 victory just over a month ago.",
+  "overview": "The Carolina Hurricanes put their lineal championship belt on the line against the Florida Panthers in what promises to be a compelling matchup between two teams riding hot streaks. Carolina has defended the belt twice in this reign and enters with a 69-32 record, while Florida sits at 40-42 but has been surging lately. The belt will change hands based solely on the outcome of this game, with no committee or poll involved.",
   "key_matchups": [
-   "Carolina's elite regular season form (69 wins) versus Florida's recent hot streak (8-1 and 3-2 in last two games)",
-   "Head-to-head volatility: these teams have played five times recently with wildly divergent results (9-1 Carolina, then 5-2 Florida, then 4-3 Florida)",
-   "Belt defense momentum: Can Carolina extend their reign to three consecutive defenses, or will Florida capitalize on their current form to claim the belt?"
+   "Elite vs. resurgent: Carolina's 69-32 regular season dominance meets Florida's 3-game win streak that includes an 8-1 demolition of Detroit",
+   "Recent history heavily favors the Hurricanes, who won the last head-to-head meeting 9-1 and hold a 76-69-11 edge all-time",
+   "Both teams fresh off playoff-caliber performances: Carolina just finished a playoff series with Vegas, while Florida has outscored opponents 17-5 in their last three"
   ],
-  "betting_angles": "Carolina enters as clear favorites with a 68% win probability and the betting line reflects confidence in their 69-32 record, but Florida's recent form\u2014winning three straight\u2014suggests they're peaking at the right moment. The Hurricanes' vulnerability is on display in the head-to-head: they've been inconsistent against the Panthers lately despite dominating the season series, and Florida's 8-1 win over Detroit shows their offensive firepower.",
+  "betting_angles": "The Elo model's 68% win probability for Carolina aligns with the -125 moneyline, suggesting the market sees this as a clear but not overwhelming home favorite situation. Carolina's superior 69-32 record contrasts sharply with Florida's 40-42 mark, though both teams arrive on identical 3-game winning streaks. The over/under of 6.5 sits at an interesting spot given Carolina's recent 9-1 drubbing of Florida in their last meeting and Florida's offensive explosion in their 8-1 win over Detroit.",
   "predicted_winner": "Carolina Hurricanes",
   "predicted_score": "Carolina Hurricanes 4, Florida Panthers 2",
-  "prediction_writeup": "Carolina's elite regular season record and the 68% model probability make them the logical choice despite Florida's recent surge. The Hurricanes have successfully defended the belt twice already and hold a clear edge in the all-time series, suggesting they have the experience and depth to handle a hot Panthers team. However, this is closer than the line suggests\u2014Florida has proven they can beat Carolina (three of the last five matchups), and their current 8-1, 3-2 form shows genuine momentum. Expect Carolina to win, but don't be surprised if Florida makes it competitive.",
-  "written": "2026-09-28"
+  "prediction_writeup": "Carolina's overwhelming regular season record of 69-32 and home ice advantage should prove decisive against a Florida team that finished 40-42. While both teams are riding 3-game winning streaks, the Hurricanes' recent playoff experience against Vegas and their dominant 9-1 victory over Florida back in January suggest a higher gear. The Panthers have shown they can score in bunches with that 8-1 win over Detroit, so they won't go quietly. Carolina defends the belt for a third consecutive time in what should be a competitive but ultimately controlled home victory.",
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
  }
 }
