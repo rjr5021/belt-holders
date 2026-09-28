@@ -290,5 +290,53 @@
   ],
   "written": "2026-09-28",
   "model": "claude-sonnet-4-5"
+ },
+ "TEX|MIN|2026-09-27": {
+  "date": "2026-09-27",
+  "holder": "TEX",
+  "opponent": "MIN",
+  "outcome": "changed",
+  "headline": "Twins Take Belt with 6-4 Victory Over Rangers",
+  "recap": [
+   "The Minnesota Twins claimed the lineal championship belt with a 6-4 victory over the Texas Rangers at Target Field. Minnesota built an early advantage with single runs in the first and third innings, then added two more in the fifth to take control of the game.",
+   "The Twins tacked on insurance runs with two in the fifth inning and another in the eighth, building a cushion that would prove necessary. Texas mounted a late comeback attempt, scoring once in the eighth and twice in the ninth, but fell short of completing the rally.",
+   "With the victory, Minnesota becomes the new belt holder, wresting the lineal championship away from Texas. The Twins will now put the belt on the line in their next game as the current champions."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "Minnesota Twins",
+    "home_away": "home",
+    "periods": [
+     "1",
+     "0",
+     "2",
+     "0",
+     "2",
+     "0",
+     "0",
+     "1"
+    ],
+    "score": "6"
+   },
+   {
+    "team": "Texas Rangers",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "2"
+    ],
+    "score": "4"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
  }
 }
