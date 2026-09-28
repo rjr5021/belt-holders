@@ -393,22 +393,62 @@ def build_home(datas):
 
 
 def college_strip():
-    """The two college belts (sister sites), with live holders when their
-    api/current.json answers at build time."""
+    """The two college belts (sister sites) as holder-colored tiles, like the
+    league board. Holders and next games come from each site's
+    api/current.json; school colors from the College Basketball Belt repo's
+    team list (every Division I school). Falls back to plain ink tiles."""
     import urllib.request
 
-    def holder(url):
-        try:
-            with urllib.request.urlopen(url, timeout=8) as r:
-                return json.loads(r.read().decode("utf-8")).get("holder")
-        except Exception:
-            return None
+    def fetch(url):
+        for u in (url, url.replace("https://", "http://", 1)):  # http while a new site's certificate is pending
+            try:
+                with urllib.request.urlopen(u, timeout=10) as r:
+                    return json.loads(r.read().decode("utf-8"))
+            except Exception:
+                continue
+        return None
 
+    teams = fetch("https://raw.githubusercontent.com/rjr5021/college-basketball-belt/main/data/teams.json") or []
+    colors = {t.get("school"): (t.get("primaryColor"), t.get("secondaryColor")) for t in teams if t.get("school")}
     cards = []
     for label, site, api in (("College football", "https://collegefootballbelt.com/", "https://collegefootballbelt.com/api/current.json"),
                              ("College basketball", "https://collegebasketballbelt.com/", "https://collegebasketballbelt.com/api/current.json")):
-        h = holder(api)
-        cards.append(f'<a class="college" href="{site}"><span class="mono">{label} · sister site</span><b class="disp">{e(h) + " holds it" if h else label + " belt"}</b><span class="mono go">{site.split("//")[1].rstrip("/")} →</span></a>')
+        j = fetch(api) or {}
+        h = j.get("holder")
+        p_, s_ = colors.get(h, (None, None))
+        p_ = f"#{p_.lstrip('#')}" if p_ else "#211a12"
+        s_ = f"#{s_.lstrip('#')}" if s_ else None
+        top, bottom, ink, accent = plate(p_, s_)
+        domain = site.split("//")[1].rstrip("/")
+        ngd = (j.get("next_game") or {}).get("date")
+        st = ""
+        if ngd:
+            out = (date.fromisoformat(ngd) - date.today()).days
+            st = "In season" if out <= 14 else f"Opens {d_short(ngd)}"
+        status = f'<span class="mono status"><i></i>{st}</span>' if st else ""
+        if h:
+            bits = []
+            if j.get("team_reign_number"):
+                bits.append(f"{ordinal(j['team_reign_number'])} reign")
+            k = "Holder" + (f" · {bits[0]}" if bits else "")
+            since = f"Holding since {d_short(j['since'], True)}" if j.get("since") else ""
+            if j.get("defenses") is not None:
+                since += f" · {plural(j['defenses'], 'defense')}"
+            ng = j.get("next_game") or {}
+            if ng.get("opponent") and ng.get("date"):
+                where = "vs." if ng.get("is_home") or ng.get("neutral") else "at"
+                foot = f'<span class="disp">{where} {e(ng["opponent"])}</span><span class="mono">{weekday(ng["date"])} {d_short(ng["date"])}</span>'
+            else:
+                foot = f'<span class="disp">{domain}</span><span class="mono">→</span>'
+            body = f'<div class="mono k">{k}</div><div class="disp name" style="{fit(h)}">{e(h)}</div><p>{since}.</p>'
+        else:
+            body = f'<div class="mono k">The lineal title</div><div class="disp name">{label} belt</div><p>Who holds it right now.</p>'
+            foot = f'<span class="disp">{domain}</span><span class="mono">→</span>'
+        cards.append(f"""<a class="tile college-tile" href="{site}" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
+  <div class="tile-head"><span class="disp">{label}</span>{status}</div>
+  <div class="tile-body">{body}</div>
+  <div class="tile-foot">{foot}</div>
+</a>""")
     return f'<div class="colleges">{"".join(cards)}</div>'
 
 
