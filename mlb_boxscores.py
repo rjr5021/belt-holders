@@ -22,6 +22,7 @@ PKS = os.path.join("data", "mlb", "box", "pk_map.json")
 SCHED = "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate={y}-02-01&endDate={y}-12-15&gameType=R,F,D,L,W,S"
 BOXURL = "https://statsapi.mlb.com/api/v1/game/{pk}/boxscore"
 MAX_PER_RUN = int(os.environ.get("MLB_BOX_MAX", "1500"))
+DEADLINE = time.time() + 60 * float(os.environ.get("BOX_MINUTES", "25"))   # stop and save before the job's time limit
 ORDER = ["AB", "R", "H", "HR", "RBI", "BB", "SO", "IP", "HA", "ER", "K", "BBA"]
 
 
@@ -69,8 +70,21 @@ def main():
             pks[str(bg["n"])] = int(tail)
         else:
             need[bg["season"]].append(bg)
-    for y in sorted(need):
+    def save():
+        os.makedirs(os.path.dirname(BOX), exist_ok=True)
+        with open(PKS, "w") as f:
+            json.dump(pks, f, separators=(",", ":"))
+        box_store.save_all("mlb", games, {str(bg["n"]): bg["season"] for bg in d["belt_games"]},
+                           {"source": "https://statsapi.mlb.com", "cols": ORDER})
+
+    for y in sorted(need, reverse=True):
+        if time.time() > DEADLINE:
+            print("time budget reached while mapping seasons; the rest next run")
+            break
         j = get(SCHED.format(y=y))
+        if not j:
+            print(f"{y}: schedule unavailable; will retry next run")
+            continue
         by = defaultdict(list)
         for dt in (j or {}).get("dates", []):
             for g in dt.get("games", []):
@@ -89,9 +103,16 @@ def main():
     # ---- box scores, newest first
     todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and pks.get(str(bg["n"]))]
     print(f"{len(games):,} box scores on file, {len(todo):,} to fetch; this run: up to {MAX_PER_RUN}")
-    for bg in todo[:MAX_PER_RUN]:
+    for i, bg in enumerate(todo[:MAX_PER_RUN]):
+        if time.time() > DEADLINE:
+            print(f"time budget reached after {i} box scores; the rest next run")
+            break
+        if i and i % 200 == 0:
+            save()
         pk = pks[str(bg["n"])]
-        j = get(BOXURL.format(pk=pk)) or {}
+        j = get(BOXURL.format(pk=pk))
+        if j is None:
+            continue          # couldn't reach it: try again next run
         players = []
         for side, key in (("h", "home"), ("a", "away")):
             for p in ((j.get("teams") or {}).get(key) or {}).get("players", {}).values():
@@ -107,11 +128,7 @@ def main():
                                 num(pit.get("strikeOuts")), num(pit.get("baseOnBalls"))])
         games[str(bg["n"])] = {"gid": pk, "players": players}
         time.sleep(0.05)
-    os.makedirs(os.path.dirname(BOX), exist_ok=True)
-    with open(PKS, "w") as f:
-        json.dump(pks, f, separators=(",", ":"))
-    box_store.save_all("mlb", games, {str(bg["n"]): bg["season"] for bg in d["belt_games"]},
-                       {"source": "https://statsapi.mlb.com", "cols": ORDER})
+    save()
     have = [int(k) for k, v in games.items() if v["players"]]
     print(f"{len(have):,} belt games with box scores" + (f"; earliest #{min(have)}" if have else ""))
 

@@ -21,6 +21,7 @@ import urllib.request
 OUT = os.path.join("data", "nhl", "box", "belt_box.json")
 URL = "https://api-web.nhle.com/v1/gamecenter/{gid}/boxscore"
 MAX_PER_RUN = int(os.environ.get("NHL_BOX_MAX", "1500"))
+DEADLINE = time.time() + 60 * float(os.environ.get("BOX_MINUTES", "25"))   # stop and save before the job's time limit
 ORDER = ["G", "A", "PTS", "PM", "PIM", "SOG", "HIT", "SV", "SA"]
 
 
@@ -35,7 +36,7 @@ def get(url, tries=3):
             time.sleep(2 * (i + 1))
         except Exception:  # noqa: BLE001
             time.sleep(2 * (i + 1))
-    return None
+    return False          # couldn't reach it (not a 404): try again next run
 
 
 def n_(v):
@@ -69,18 +70,26 @@ def main():
     todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and str(bg.get("game_id", "")).isdigit()]
     print(f"{len(games):,} on file, {len(todo):,} to fetch; this run: up to {MAX_PER_RUN}")
     got = 0
-    for bg in todo[:MAX_PER_RUN]:
+    season_of = {str(bg["n"]): bg["season"] for bg in d["belt_games"]}
+    meta = {"source": "https://api-web.nhle.com", "cols": ORDER}
+    for i, bg in enumerate(todo[:MAX_PER_RUN]):
+        if time.time() > DEADLINE:
+            print(f"time budget reached after {i} games; the rest next run")
+            break
+        if i and i % 200 == 0:
+            box_store.save_all("nhl", games, season_of, meta)
         gid = bg["game_id"]
         j = get(URL.format(gid=gid))
+        if j is False:
+            continue
         pbg = (j or {}).get("playerByGameStats") or {}
         players = rows(pbg.get("homeTeam") or {}, "h") + rows(pbg.get("awayTeam") or {}, "a")
         games[str(bg["n"])] = {"gid": gid, "players": players}
         got += bool(players)
         time.sleep(0.05)
-    box_store.save_all("nhl", games, {str(bg["n"]): bg["season"] for bg in d["belt_games"]},
-                       {"source": "https://api-web.nhle.com", "cols": ORDER})
+    box_store.save_all("nhl", games, season_of, meta)
     with_players = [int(k) for k, v in games.items() if v["players"]]
-    print(f"fetched {min(len(todo), MAX_PER_RUN)} (with players: {got}); {len(with_players):,} belt games have box scores"
+    print(f"fetched this run (with players: {got}); {len(with_players):,} belt games have box scores"
           + (f"; earliest belt game with one: #{min(with_players)}" if with_players else ""))
 
 
