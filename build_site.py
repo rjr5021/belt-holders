@@ -245,6 +245,8 @@ def holder_plate_big(lg, data):
       <div class="meta mono"><span>{weekday(ng['date'])} {d_short(ng['date'])} · {kickoff_12h(ng.get('kickoff'))}</span><span>{e(spread)}</span></div>
       {f'<div class="meta mono"><span>{e(ng["stadium"])}</span></div>' if ng.get("stadium") else ""}
     </aside>"""
+    if not ng and data.get("status") == "In season":
+        won += " Their season is over, so the belt sits out the postseason and opens next season with them."
     days = cur["days"]
     return f"""<section class="plate" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
   <div class="plate-grid">
