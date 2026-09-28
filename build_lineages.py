@@ -114,6 +114,8 @@ def build(league, refresh=True, today=None):
                      for g in fut if holder in (g["home"], g["away"])][:40],
         "meet": {t: [g["date"], g["home"]] for g in reversed(fut) if holder in (g["home"], g["away"])
                  for t in [g["away"] if g["home"] == holder else g["home"]]},
+        "what_if": M.what_if(league["key"], games, belt_games, reigns, league["tie_rule"], recent, today,
+                              league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
         "losers": M.losers(league["key"], games, league["tie_rule"], recent, today,
                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
     }
