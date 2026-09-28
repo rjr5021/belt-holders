@@ -64,11 +64,8 @@ def rows(team_block, side):
 def main():
     with open(os.path.join("data", "nhl", "lineage.json")) as f:
         d = json.load(f)
-    data = {"source": "https://api-web.nhle.com", "cols": ORDER, "games": {}}
-    if os.path.exists(OUT):
-        with open(OUT) as f:
-            data = json.load(f)
-    games = data["games"]
+    import box_store
+    games = box_store.load_all("nhl")
     todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and str(bg.get("game_id", "")).isdigit()]
     print(f"{len(games):,} on file, {len(todo):,} to fetch; this run: up to {MAX_PER_RUN}")
     got = 0
@@ -80,9 +77,8 @@ def main():
         games[str(bg["n"])] = {"gid": gid, "players": players}
         got += bool(players)
         time.sleep(0.05)
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w") as f:
-        json.dump(data, f, separators=(",", ":"))
+    box_store.save_all("nhl", games, {str(bg["n"]): bg["season"] for bg in d["belt_games"]},
+                       {"source": "https://api-web.nhle.com", "cols": ORDER})
     with_players = [int(k) for k, v in games.items() if v["players"]]
     print(f"fetched {min(len(todo), MAX_PER_RUN)} (with players: {got}); {len(with_players):,} belt games have box scores"
           + (f"; earliest belt game with one: #{min(with_players)}" if with_players else ""))

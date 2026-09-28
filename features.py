@@ -1947,6 +1947,11 @@ BOX_SCHEMA = {
             "totals": ["YDS", "TD", "PYD", "RYD", "RECYD", "SCK", "DINT"], "key": "YDS",
             "leaders": [("PYD", "Passing yards"), ("RYD", "Rushing yards"), ("RECYD", "Receiving yards"), ("TD", "Touchdowns"), ("SCK", "Sacks"), ("DINT", "Interceptions")],
             "source": 'Player stats since 1999: <a href="https://github.com/nflverse/nflverse-data">nflverse</a> (CC-BY 4.0).'},
+    "mlb": {"cols": ["AB", "R", "H", "HR", "RBI", "BB", "SO", "IP", "HA", "ER", "K", "BBA"], "since": {},
+            "show": ["AB", "R", "H", "HR", "RBI", "BB", "SO", "IP", "HA", "ER", "K"],
+            "totals": ["H", "HR", "RBI", "R", "K", "IP"], "key": "H",
+            "leaders": [("H", "Hits"), ("HR", "Home runs"), ("RBI", "RBIs"), ("K", "Strikeouts (pitching)"), ("R", "Runs"), ("IP", "Innings pitched")],
+            "source": "Box scores: MLB's Stats API (statsapi.mlb.com). HA, ER, K are pitching."},
     "nhl": {"cols": ["G", "A", "PTS", "PM", "PIM", "SOG", "HIT", "SV", "SA"], "since": {},
             "show": ["G", "A", "PTS", ("+/-", "PM", "PM"), "PIM", "SOG", "HIT", "SV", "SA"],
             "totals": ["PTS", "G", "A", "SV", "HIT", "PIM"], "key": "PTS",
@@ -1956,11 +1961,18 @@ BOX_SCHEMA = {
 
 
 def _box(lg):
-    p = os.path.join("data", lg.get("key", ""), "box", "belt_box.json")
-    if os.path.exists(p):
-        with open(p) as f:
-            return (json.load(f) or {}).get("games") or {}
-    return {}
+    import glob
+    out = {}
+    for p in sorted(glob.glob(os.path.join("data", lg.get("key", "_"), "box", "*.json"))):
+        name = os.path.basename(p)
+        if not (name[:4].isdigit() or name == "belt_box.json"):
+            continue
+        try:
+            with open(p) as f:
+                out.update((json.load(f) or {}).get("games") or {})
+        except ValueError:
+            continue
+    return out
 
 
 def _stat_rows(lg, box):

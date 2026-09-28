@@ -137,11 +137,10 @@ def main():
                 num(pick(row, "fieldGoalsMade", "FGM")), num(pick(row, "fieldGoalsAttempted", "FGA")),
                 num(pick(row, "threePointersMade", "FG3M")), num(pick(row, "threePointersAttempted", "FG3A")),
                 num(pick(row, "freeThrowsMade", "FTM")), num(pick(row, "freeThrowsAttempted", "FTA"))])
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    import box_store
     res = {str(k): v for k, v in sorted(out.items())}
-    with open(OUT, "w") as f:
-        json.dump({"source": f"https://www.kaggle.com/datasets/{DATASET}", "license": "CC0",
-                   "games": res}, f, separators=(",", ":"))
+    box_store.save_all("nba", res, {str(bg["n"]): bg["season"] for bg in belt},
+                       {"source": f"https://www.kaggle.com/datasets/{DATASET}", "license": "CC0"})
     first = min((int(k) for k in res), default=None)
     print(f"wrote box scores for {len(res):,} belt games ({sum(len(v['players']) for v in res.values()):,} player lines)"
           + (f"; earliest belt game with a box score: #{first}" if first else ""))

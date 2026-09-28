@@ -124,10 +124,9 @@ def main():
                 g["players"][pid] = [pid, name, side] + stats
     for g in out.values():
         g["players"] = list(g["players"].values())
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w") as f:
-        json.dump({"source": "https://github.com/nflverse/nflverse-data", "license": "CC-BY 4.0", "cols": ORDER, "games": out},
-                  f, separators=(",", ":"))
+    import box_store
+    box_store.save_all("nfl", out, {str(bg["n"]): bg["season"] for bg in d["belt_games"]},
+                       {"source": "https://github.com/nflverse/nflverse-data", "license": "CC-BY 4.0", "cols": ORDER})
     print(f"wrote {len(out)} belt games, {sum(len(g['players']) for g in out.values()):,} player lines")
 
 
