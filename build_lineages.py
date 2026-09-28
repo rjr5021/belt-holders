@@ -107,7 +107,11 @@ def build(league, refresh=True, today=None):
     models = {
         "elo": {t: round(v) for t, v in ratings.items() if t in recent},
         "elo_rank": top_elo, "hfa": hfa, "tree": tree, "outlook": look,
+        "standings": M.standings(games, reigns),
         "champions": M.champions(games, reigns),
+        "schedule": [[g["date"], g["home"], g["away"], g.get("kickoff") or g.get("start_et"), g.get("season_type", "regular"),
+                      round(M.win_prob(ratings, hfa, g["home"], g["away"], g.get("neutral"), holder=holder), 3)]
+                     for g in fut if holder in (g["home"], g["away"])][:40],
         "meet": {t: [g["date"], g["home"]] for g in reversed(fut) if holder in (g["home"], g["away"])
                  for t in [g["away"] if g["home"] == holder else g["home"]]},
         "losers": M.losers(league["key"], games, league["tie_rule"], recent, today,
