@@ -1941,6 +1941,17 @@ BOX_SCHEMA = {
             "leaders": [("PTS", "Points"), ("REB", "Rebounds"), ("AST", "Assists"), ("STL", "Steals"), ("BLK", "Blocks"), ("3PM", "Threes")],
             "source": ('Player box scores: <a href="https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores">'
                        'Historical NBA Data and Player Box Scores</a> by Eoin Moore (CC0).')},
+    "nfl": {"cols": ["CMP", "ATT", "PYD", "PTD", "INT", "CAR", "RYD", "RTD", "REC", "TGT", "RECYD", "RECTD", "TKL", "SCK", "DINT", "FGM", "FGA"],
+            "since": {}, "derived": {"YDS": ["PYD", "RYD", "RECYD"], "TD": ["PTD", "RTD", "RECTD"]},
+            "show": [("C/ATT", "CMP", "ATT"), "PYD", "PTD", "INT", "CAR", "RYD", "RTD", "REC", "RECYD", "RECTD", "TKL", "SCK", "DINT"],
+            "totals": ["YDS", "TD", "PYD", "RYD", "RECYD", "SCK", "DINT"], "key": "YDS",
+            "leaders": [("PYD", "Passing yards"), ("RYD", "Rushing yards"), ("RECYD", "Receiving yards"), ("TD", "Touchdowns"), ("SCK", "Sacks"), ("DINT", "Interceptions")],
+            "source": 'Player stats since 1999: <a href="https://github.com/nflverse/nflverse-data">nflverse</a> (CC-BY 4.0).'},
+    "nhl": {"cols": ["G", "A", "PTS", "PM", "PIM", "SOG", "HIT", "SV", "SA"], "since": {},
+            "show": ["G", "A", "PTS", ("+/-", "PM", "PM"), "PIM", "SOG", "HIT", "SV", "SA"],
+            "totals": ["PTS", "G", "A", "SV", "HIT", "PIM"], "key": "PTS",
+            "leaders": [("G", "Goals"), ("A", "Assists"), ("PTS", "Points"), ("SV", "Saves"), ("HIT", "Hits"), ("PIM", "Penalty minutes")],
+            "source": 'Box scores: the NHL\'s own game center.'},
 }
 
 
@@ -2001,6 +2012,9 @@ def build_players(lg, d):
             team = home if side == "h" else away
             opp = away if side == "h" else home
             stats = {c: val(row, c, s) for c in cols}
+            for dk, parts in (sc.get("derived") or {}).items():
+                vals = [stats.get(x_) for x_ in parts]
+                stats[dk] = sum(v for v in vals if v is not None) if any(v is not None for v in vals) else None
             if (stats.get("FGA") is not None and stats.get("FGM") is not None and stats["FGA"] < stats["FGM"]):
                 stats["FGA"] = None
             won = (hp > ap) if side == "h" else (ap > hp)
@@ -2031,8 +2045,8 @@ def build_players(lg, d):
         head = "".join(f'<th class="mono r">{e(c if isinstance(c, str) else c[0])}</th>' for c in sc["show"])
 
         def cell(stats, c):
-            if isinstance(c, str):
-                v = stats.get(c)
+            if isinstance(c, str) or c[1] == c[2]:
+                v = stats.get(c if isinstance(c, str) else c[1])
                 return "—" if v is None else (f"{v:g}" if isinstance(v, float) else str(v))
             m, a = stats.get(c[1]), stats.get(c[2])
             return "—" if m is None or a is None else f"{m}-{a}"
@@ -2137,8 +2151,8 @@ def box_html(lg, d, bg):
             teams.append(team)
 
     def cell(stats, c):
-        if isinstance(c, str):
-            v = stats.get(c)
+        if isinstance(c, str) or c[1] == c[2]:
+            v = stats.get(c if isinstance(c, str) else c[1])
             return "—" if v is None else (f"{v:g}" if isinstance(v, float) else str(v))
         m, a = stats.get(c[1]), stats.get(c[2])
         return "—" if m is None or a is None else f"{m}-{a}"
