@@ -1,6 +1,6 @@
 {
  "key": "NYK|PHI|2026-10-20",
- "updated": "2026-09-28T19:36Z",
+ "updated": "2026-09-28T19:47Z",
  "start_utc": "2026-10-20T23:00Z",
  "espn": {
   "event_id": "401909089",
@@ -12,7 +12,7 @@
   "odds": {
    "details": "NY -5.5",
    "over_under": 231.5,
-   "provider": "Draft Kings"
+   "provider": "DraftKings"
   },
   "teams": {
    "NYK": {
