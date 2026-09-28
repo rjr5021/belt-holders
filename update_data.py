@@ -37,10 +37,10 @@ try:
 except Exception:  # pragma: no cover
     ET = timezone(timedelta(hours=-5))
 
-# ESPN turns away requests that claim to be a desktop browser from a data
-# center, so the default is an honest bot string; NBA.com's static files
-# want the browser one.
-UA = "BeltHolders/1.0 (+https://beltholders.com)"
+# ESPN turns away requests from data centers that send a custom User-Agent
+# (browser-style or bot-style); the plain Python default gets through.
+# NBA.com's static files want the browser one.
+UA = None  # Python's default "Python-urllib/3.x" -- the one ESPN verifiably accepts
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 FIELDS = ["id", "date", "season", "season_type", "home", "away", "home_points", "away_points",
           "neutral", "note", "source"]
@@ -50,7 +50,7 @@ def get(url, tries=4, as_json=True, ua=UA):
     last = None
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": "application/json,text/csv,*/*"})
+            req = urllib.request.Request(url, headers={"User-Agent": ua} if ua else {})
             with urllib.request.urlopen(req, timeout=60) as r:
                 body = r.read().decode("utf-8")
             return json.loads(body) if as_json else body
@@ -156,7 +156,7 @@ def update_nhl(full=False):
 
 URL_538 = "https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv"
 URL_NBA_SCHED = "https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/{y}/league/00_full_schedule.json"
-URL_ESPN_DAY = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={d}&limit=100"
+URL_ESPN_DAY = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={d}"
 NBA_FIRST_ESPN_SEASON = 2025          # 2025-26; data.nba.com's feed stops updating after 2024-25
 NBA_SCHED_SEASONS = range(2015, 2025)  # 2015-16 .. 2024-25
 
