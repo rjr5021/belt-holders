@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-28T20:56Z",
+ "updated": "2026-09-28T22:28Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -10,9 +10,9 @@
    "CBS"
   ],
   "odds": {
-   "details": "CIN -3",
+   "details": "CIN -2.5",
    "over_under": 51.5,
-   "provider": "Draft Kings"
+   "provider": "DraftKings"
   },
   "teams": {
    "CIN": {
