@@ -315,7 +315,7 @@ def build_home(datas):
             top, bottom, ink, accent = plate(p, s)
             ng = d.get("next_game")
             foot = (f'<span class="disp">{"at" if not ng["holder_home"] else "vs."} {e(lg["short_name"](ng["challenger"]))}</span><span class="mono">{weekday(ng["date"])} {d_short(ng["date"])}</span>'
-                    if ng else '<span class="disp">Offseason</span><span class="mono"></span>')
+                    if ng else f'<span class="disp">{"Season over" if d["status"] == "In season" else "Offseason"}</span><span class="mono"></span>')
             how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
                    if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
             tiles.append(f"""<a class="tile" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
@@ -566,7 +566,6 @@ def build_static_pages(datas):
 <h2 class="disp">League notes</h2>
 {nfl_line}
 {other_notes}
-<p><b>MLB.</b> Coming by Opening Day.</p>
 <h2 class="disp">Sources</h2>
 <p>NFL results from 1920–2020 come from FiveThirtyEight's public NFL game archive; 2021 onward from the open nflverse project. {" ".join(lg["sources"] for lg in LIVE if lg.get("sources"))} The data is updated automatically every couple of hours.</p>
 </section>"""

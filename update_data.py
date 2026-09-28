@@ -4,6 +4,7 @@ Refresh the game files that the NHL and NBA adapters read:
 
     data/nhl/games.csv   data/nhl/upcoming.json
     data/nba/games.csv   data/nba/upcoming.json
+    data/mlb/games.csv   data/mlb/upcoming.json
 
 These are committed to the repo. The first run backfills every season (a few
 minutes); after that each run only refetches the current season, so the
@@ -18,6 +19,8 @@ Sources (no API keys):
   NBA  FiveThirtyEight nbaallelo.csv     1946-47 through 2014-15 (frozen)
        data.nba.com full schedules       2015-16 through 2024-25 (frozen)
        ESPN scoreboard, one day per call 2025-26 onward, plus the upcoming schedule
+  MLB  Retrosheet game logs (GitHub mirror) every NL/AL game 1876 on + postseason
+       MLB Stats API                     seasons Retrosheet hasn't published yet, plus upcoming
 
 The NFL adapter reads its sources directly and isn't handled here.
 """
@@ -325,14 +328,128 @@ def update_nba(full=False):
     write_json(os.path.join("data", "nba", "upcoming.json"), upcoming)
 
 
+# ===================================================================== MLB ==
+
+RETRO = "https://raw.githubusercontent.com/chadwickbureau/retrosheet/master"
+MLB_API = ("https://statsapi.mlb.com/api/v1/schedule?sportId=1&season={y}&gameType=R,F,D,L,W")
+MLB_POST_FILES = ["GLWC", "GLDV", "GLLC", "GLWS"]  # wild card, division, LCS, World Series
+
+
+def _retro_rows(text, season_type, leagues_only=True):
+    rows = []
+    for r in csv.reader(io.StringIO(text)):
+        if len(r) < 15:
+            continue
+        if leagues_only and not (r[4] in ("NL", "AL") and r[7] in ("NL", "AL")):
+            continue
+        d = r[0]
+        date_iso = f"{d[:4]}-{d[4:6]}-{d[6:8]}"
+        try:
+            vs, hs = int(r[9]), int(r[10])
+        except ValueError:
+            continue
+        forfeit = (r[14] or "").strip()
+        note = ""
+        if forfeit == "V":
+            vs, hs, note = 9, 0, "forfeit"
+        elif forfeit == "H":
+            vs, hs, note = 0, 9, "forfeit"
+        rows.append({
+            "id": f"{date_iso}-{r[1] or '0'}-{r[6]}", "date": date_iso, "season": int(d[:4]),
+            "season_type": season_type, "home": r[6], "away": r[3],
+            "home_points": hs, "away_points": vs, "neutral": "", "note": note, "source": "retro",
+        })
+    return rows
+
+
+def _retro_season(y):
+    for name in (f"GL{y}.TXT", f"gl{y}.txt", f"GL{y}.txt", f"gl{y}.TXT"):
+        try:
+            return get(f"{RETRO}/seasons/{y}/{name}", as_json=False, tries=1)
+        except RuntimeError:
+            continue
+    return None
+
+
+def _mlb_api_season(y):
+    j = get(MLB_API.format(y=y))
+    done, upcoming = [], []
+    for day in j.get("dates", []):
+        for g in day.get("games", []):
+            st = g.get("status", {})
+            detail = st.get("detailedState", "")
+            h, a = g["teams"]["home"], g["teams"]["away"]
+            start = datetime.fromisoformat(g["gameDate"].replace("Z", "+00:00")).astimezone(ET)
+            row = {
+                "id": f"{g.get('officialDate', day['date'])}-{g.get('gameNumber', 1)}-{g['gamePk']}",
+                "date": g.get("officialDate") or day["date"], "season": int(g.get("season", y)),
+                "season_type": "regular" if g.get("gameType") == "R" else "postseason",
+                "home": f"m{h['team']['id']}", "away": f"m{a['team']['id']}",
+                "neutral": "", "source": "mlbapi",
+            }
+            if st.get("abstractGameState") == "Final" and "score" in h and "score" in a \
+                    and not detail.startswith(("Postponed", "Cancelled", "Suspended")):
+                row.update(home_points=int(h["score"]), away_points=int(a["score"]), note="")
+                done.append(row)
+            elif st.get("abstractGameState") == "Preview" and not detail.startswith(("Postponed", "Cancelled")):
+                row["start_et"] = None if st.get("startTimeTBD") else start.strftime("%H:%M")
+                row["venue"] = (g.get("venue") or {}).get("name")
+                row["series"] = g.get("seriesDescription")
+                row["if_necessary"] = g.get("ifNecessary") == "Y"
+                upcoming.append(row)
+    return done, upcoming
+
+
+def update_mlb(full=False):
+    print("[mlb] updating")
+    path = os.path.join("data", "mlb", "games.csv")
+    rows = [] if full else read_csv(path)
+    this_year = today_et().year
+    if not rows:
+        last_retro = None
+        for y in range(1876, this_year + 1):
+            text = _retro_season(y)
+            if text is None:
+                if y >= this_year - 1:
+                    break
+                print(f"  Retrosheet {y}: missing")
+                continue
+            got = _retro_rows(text, "regular")
+            rows += got
+            last_retro = y
+            time.sleep(0.1)
+        print(f"  Retrosheet regular seasons through {last_retro}: {len(rows):,} games")
+        for f in MLB_POST_FILES:
+            got = [r for r in _retro_rows(get(f"{RETRO}/gamelog/{f}.TXT", as_json=False), "postseason", leagues_only=False)
+                   if r["season"] <= last_retro]
+            print(f"  Retrosheet {f}: {len(got)} games")
+            rows += got
+    retro_last = max(int(r["season"]) for r in rows if r["source"] == "retro")
+    rows = [r for r in rows if r["source"] != "mlbapi"]
+    upcoming = []
+    for y in range(retro_last + 1, this_year + 1):
+        try:
+            done, up = _mlb_api_season(y)
+        except Exception as e:  # keep the Retrosheet history even if the live feed is down
+            print(f"  MLB API {y} failed: {e}")
+            continue
+        rows += done
+        upcoming += up
+        print(f"  MLB API {y}: {len(done):,} final, {len(up)} upcoming")
+    write_csv(path, rows)
+    today = today_et().isoformat()
+    upcoming = sorted((u for u in upcoming if u["date"] >= today), key=lambda u: (u["date"], u.get("start_et") or ""))
+    write_json(os.path.join("data", "mlb", "upcoming.json"), upcoming)
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     full = "--full" in sys.argv
-    leagues = args or ["nhl", "nba"]
+    leagues = args or ["nhl", "nba", "mlb"]
     failed = []
     for lg in leagues:
         try:
-            {"nhl": update_nhl, "nba": update_nba}[lg](full=full)
+            {"nhl": update_nhl, "nba": update_nba, "mlb": update_mlb}[lg](full=full)
         except Exception as e:  # keep the last good files; the build still runs
             print(f"[{lg}] update failed: {e}")
             failed.append(lg)
