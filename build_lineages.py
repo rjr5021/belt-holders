@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""
+Compute every live league's belt lineage with the shared engine and write
+data/<league>/lineage.json for build_site.py.
+
+    python3 build_lineages.py            # fetch fresh data, rebuild all leagues
+    python3 build_lineages.py --offline  # use the cached CSVs only
+
+The engine (belt_engine.py) is the same file the College Football Belt
+uses -- copy it over whenever the football repo's copy changes.
+"""
+
+import json
+import os
+import sys
+from collections import Counter, defaultdict
+from datetime import date
+
+import belt_engine
+from leagues import LIVE
+
+
+def days_between(a, b):
+    return (date.fromisoformat(b) - date.fromisoformat(a)).days
+
+
+def build(league, refresh=True, today=None):
+    today = today or date.today().isoformat()
+    games, upcoming = league["load_games"](refresh=refresh)
+    first_date = games[0]["date"]
+    belt_games, reigns, vacancies = belt_engine.resolve_vacancies(
+        games, league["tie_rule"], None, None, league["recent_teams"](games), today,
+        first_game_date=first_date)
+
+    # --- tidy the reigns: numbering, lengths, era names --------------------
+    counts = Counter()
+    for r in reigns:
+        counts[r["team"]] += 1
+        r["reign_no"] = counts[r["team"]]
+        end = r.get("end_date") or today
+        r["days"] = max(0, days_between(r["start_date"], end))
+        season = int(r["start_date"][:4])
+        r["name"] = league["team_name"](r["team"], season)
+    for i, r in enumerate(reigns):
+        r["index"] = i + 1
+
+    current = reigns[-1]
+    holder = current["team"]
+
+    # --- the holder's next game ------------------------------------------
+    next_game = None
+    for g in upcoming:
+        if holder in (g["home"], g["away"]) and g["date"] >= today:
+            next_game = {**g, "holder": holder,
+                         "challenger": g["away"] if g["home"] == holder else g["home"],
+                         "holder_home": g["home"] == holder}
+            break
+
+    # --- records -----------------------------------------------------------
+    total_days, n_reigns, n_def = defaultdict(int), Counter(), Counter()
+    for r in reigns:
+        total_days[r["team"]] += r["days"]
+        n_reigns[r["team"]] += 1
+        n_def[r["team"]] += r.get("defenses", 0)
+    playoff_changes = sum(1 for bg in belt_games
+                          if bg["outcome"] == "changed" and bg["season_type"] != "regular")
+    records = {
+        "most_days": sorted(total_days.items(), key=lambda kv: -kv[1])[:10],
+        "most_reigns": n_reigns.most_common(10),
+        "most_defenses_total": n_def.most_common(10),
+        "longest_reigns": [
+            {"team": r["team"], "name": r["name"], "start_date": r["start_date"],
+             "end_date": r.get("end_date"), "defenses": r.get("defenses", 0), "days": r["days"]}
+            for r in sorted(reigns, key=lambda r: (-r.get("defenses", 0), -r["days"]))[:10]],
+        "playoff_changes": playoff_changes,
+        "belt_games": len(belt_games),
+        "programs": len(n_reigns),
+    }
+
+    out = {
+        "league": league["key"], "name": league["name"], "long_name": league["long_name"],
+        "generated": today, "first_game": belt_games[0] if belt_games else None,
+        "reigns": reigns, "belt_games": belt_games, "vacancies": vacancies,
+        "current": current, "next_game": next_game,
+        "status": league["season_status"](today, upcoming), "records": records,
+    }
+    os.makedirs(os.path.join("data", league["key"]), exist_ok=True)
+    path = os.path.join("data", league["key"], "lineage.json")
+    with open(path, "w") as f:
+        json.dump(out, f, indent=1, default=str)
+    print(f"[{league['key']}] {len(reigns)} reigns, {len(belt_games)} belt games, "
+          f"{len(vacancies)} vacancies; holder {current['name']} since {current['start_date']}"
+          + (f"; next {next_game['date']} vs {next_game['challenger']}" if next_game else ""))
+    return out
+
+
+def main():
+    refresh = "--offline" not in sys.argv
+    for league in LIVE:
+        build(league, refresh=refresh)
+
+
+if __name__ == "__main__":
+    main()
