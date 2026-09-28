@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: data-box
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -39,5 +39,4 @@ jobs:
           git add -A data/nba/box
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "NBA belt box scores [skip ci]"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4; do git pull --rebase && git push && break; sleep $((i * 7)); done
