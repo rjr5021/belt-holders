@@ -1,0 +1,62 @@
+{
+ "key": "JAX|CIN|2026-10-04",
+ "updated": "2026-09-28T18:51Z",
+ "start_utc": "2026-10-04T17:00Z",
+ "espn": {
+  "event_id": "401872969",
+  "start_utc": "2026-10-04T17:00Z",
+  "state": "pre",
+  "tv": [
+   "CBS"
+  ],
+  "odds": {
+   "details": "CIN -2.5",
+   "over_under": 51.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "CIN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "abbr": "CIN",
+    "record": "2-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "JAX": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "abbr": "JAX",
+    "record": "2-1",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Paycor Stadium",
+   "city": "Cincinnati",
+   "state": "OH",
+   "indoor": false
+  }
+ },
+ "weather": {
+  "temp_f": 68,
+  "feels_like_f": 66,
+  "precip_chance": 33,
+  "wind_mph": 6,
+  "condition": "Partly cloudy",
+  "as_of": "2026-09-28",
+  "venue": "Paycor Stadium"
+ },
+ "ai": {
+  "overview": "The Jacksonville Jaguars bring their lineal belt to Cincinnati for a matchup between two evenly-matched 2-1 teams. This is only the second time these franchises have met with the belt on the line, and the Jaguars are seeking their first successful defense after winning it recently. The Bengals will be favored by 2.5 points on their home field.",
+  "key_matchups": [
+   "Jaguars' recent dominance (35-6, 34-10 wins) vs. Bengals' resilience in close games (both recent wins came by three points or fewer)",
+   "Head-to-head history is perfectly split at 13-13 all-time, but Cincinnati won the most recent meeting 31-27 just last season",
+   "Jacksonville's first belt defense against a Bengals team that has held it 13 times in franchise history, suggesting Cincinnati's championship pedigree"
+  ],
+  "betting_angles": "Jacksonville's recent form is imposing with two dominant victories, though they did lose their last road game at Denver. Cincinnati has won back-to-back games and owns the home field advantage with a 2.5-point line. The Elo model gives Jacksonville just a slight 51% edge despite being 2-point underdogs, suggesting the line may slightly favor the home team.",
+  "predicted_winner": "Cincinnati Bengals",
+  "predicted_score": "Jacksonville Jaguars 24, Cincinnati Bengals 27",
+  "prediction_writeup": "Cincinnati's home-field advantage and recent momentum\u2014winning two straight\u2014give them the edge in a tight matchup. The Bengals have proven they can win close games, and they'll be hungry to reclaim a belt they've held 13 times before. Jacksonville's powerful recent wins are impressive, but this is their first defense and they're traveling on the road. The line suggesting Cincinnati by 2.5 aligns with a competitive game that tips slightly toward the Bengals' side.",
+  "written": "2026-09-28"
+ }
+}

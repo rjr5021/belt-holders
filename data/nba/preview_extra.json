@@ -1,0 +1,54 @@
+{
+ "key": "NYK|PHI|2026-10-20",
+ "updated": "2026-09-28T18:51Z",
+ "start_utc": "2026-10-20T23:00Z",
+ "espn": {
+  "event_id": "401909089",
+  "start_utc": "2026-10-20T23:00Z",
+  "state": "pre",
+  "tv": [
+   "NBC"
+  ],
+  "odds": {
+   "details": "NY -5.5",
+   "over_under": 231.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
+    "record": "0-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "PHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "abbr": "PHI",
+    "record": "0-0",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Madison Square Garden",
+   "city": "New York",
+   "state": "NY",
+   "indoor": true
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "The New York Knicks bring their lineal championship belt home to Madison Square Garden against a Philadelphia 76ers team hungry for redemption. The Knicks have dominated this matchup recently, winning four straight against Philly and capturing the belt in the process, while the 76ers look to reclaim territory they once held 200 times in belt history.",
+  "key_matchups": [
+   "Knicks' 70-win season form vs. 76ers' 50-44 record: New York's superior regular season performance is backed up by their 4-1 playoff record against Philadelphia this spring",
+   "Head-to-head dominance: The 76ers haven't beaten the Knicks in five consecutive matchups dating back to February, including four playoff losses by an average margin of over 20 points",
+   "Belt momentum: The Knicks have only defended once since claiming the belt, facing a 76ers squad with lengthy belt history (200 previous reigns) seeking an upset"
+  ],
+  "betting_angles": "New York's 70-win season and dominant recent form against Philadelphia\u2014including a 46-point dismantling in their last playoff meeting\u2014align with the 83% Elo model prediction. The five-point spread seems modest given the Knicks' 4-1 record versus Philly since February and the stark difference in regular season records. Philadelphia's inability to score consistently in recent meetings (94, 98, 102, 114 points across four straight losses) suggests the under at 231.5 has appeal if New York's defense continues to stifle them.",
+  "predicted_winner": "New York Knicks",
+  "predicted_score": "New York Knicks 108, Philadelphia 76ers 99",
+  "prediction_writeup": "The Knicks' 70-win season, combined with their complete playoff dominance over the 76ers (including two 40+ point victories), makes them the clear chalk pick to hold the belt. Philadelphia has shown no ability to solve New York's defense in five straight meetings, and while a playoff environment can shift momentum, the 76ers' recent scoring droughts suggest they'll struggle to keep pace. The Knicks' superior depth and conditioning advantages evident in their 20-game win differential should carry over, especially with the belt on the line at home. Look for a similar defensive suffocation that limited the 76ers to 98 and 94 points in their last two losses to New York.",
+  "written": "2026-09-28"
+ }
+}
