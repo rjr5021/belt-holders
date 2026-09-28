@@ -17,6 +17,7 @@ from collections import Counter, defaultdict
 from datetime import date
 
 import belt_engine
+import belt_extras as X
 from leagues import LIVE
 
 
@@ -88,7 +89,13 @@ def build(league, refresh=True, today=None):
         "programs": len(n_reigns),
     }
 
+    recent = league["recent_teams"](games)
+    X.annotate(league, games, belt_games, reigns)
+    records.update(X.extra_records(league, belt_games, reigns, recent, today))
     out = {
+        "seasons": X.seasons(league, games, belt_games, reigns, today),
+        "rivalries": X.rivalries(league, belt_games),
+        "preview": X.preview(league, games, belt_games, reigns, next_game, today),
         "league": league["key"], "name": league["name"], "long_name": league["long_name"],
         "generated": today, "first_game": belt_games[0] if belt_games else None,
         "reigns": reigns, "belt_games": belt_games, "vacancies": vacancies,

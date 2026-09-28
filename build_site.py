@@ -29,7 +29,7 @@ SITE_URL = "https://beltholders.com"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = ""            # e.g. "beltholders" once the GoatCounter site exists
-STYLES_VERSION = "1"
+STYLES_VERSION = "2"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -140,6 +140,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
             nav.append(f'<a href="/{key}/"{cls}>{label}</a>')
         else:
             nav.append(f'<span class="soon" title="Coming soon">{label}</span>')
+    nav.append(f'<a href="/stories/"{" class=on" if active == "stories" else ""}>Stories</a>')
     nav.append(f'<a href="/rules/"{" class=on" if active == "rules" else ""}>Rules</a>')
     nav.append(f'<a href="/about/"{" class=on" if active == "about" else ""}>About</a>')
     canonical = SITE_URL + path
@@ -179,7 +180,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <header class="top">
   <a class="brand" href="/">{LOGO}<span>Belt Holders</span></a>
   <nav class="primary mono" aria-label="Leagues">{"".join(nav)}</nav>
-  <a class="pill mono" href="#alerts">Get belt alerts</a>
+  <div class="topright"><a class="searchlink" href="/search/" aria-label="Search"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11 L15 15"/></svg></a><a class="pill mono" href="#alerts">Get belt alerts</a></div>
 </header>
 <main id="main">
 {body}
@@ -244,6 +245,7 @@ def holder_plate_big(lg, data):
       </div>
       <div class="meta mono"><span>{weekday(ng['date'])} {d_short(ng['date'])} · {kickoff_12h(ng.get('kickoff'))}</span><span>{e(spread)}</span></div>
       {f'<div class="meta mono"><span>{e(ng["stadium"])}</span></div>' if ng.get("stadium") else ""}
+      <a class="mono prevlink" href="/{lg['key']}/next/">Game preview →</a>
     </aside>"""
     if not ng and data.get("status") == "In season":
         won += " Their season is over, so the belt sits out the postseason and opens next season with them."
@@ -371,6 +373,7 @@ def build_home(datas):
   <div class="head"><h2 class="disp">Latest title changes</h2><span class="mono note">Every league, newest first</span></div>
   <ol class="feed">{feed_rows}</ol>
 </section>
+{home_extras(datas)}
 <section class="rules-band">
   <div class="wrap rules-grid">
     <div><div class="kicker">The rules, short version</div><h2 class="disp">No committee.<br>No polls.<br>Just the scoreboard.</h2><a class="mono more" href="/rules/">Read the full ruleset →</a></div>
@@ -387,6 +390,17 @@ def build_home(datas):
 </section>"""
     write("index.html", page("Belt Holders — the lineal championship belt for every league", body, path="/",
                              description="Who holds the lineal championship belt in the NFL, NBA, NHL and MLB. Beat the champ, take the belt — tracked game by game since each league began."))
+
+
+def home_extras(datas):
+    import site_extras
+    today = date.today()
+    items = site_extras.otd_items(datas).get(f"{today:%m-%d}", [])
+    otd = (f'<section class="wrap block"><div class="head"><h2 class="disp">Today in belt history</h2><a class="mono more" href="/on-this-day/">All of {MONTHS_LONG[today.month - 1]} {today.day} →</a></div>'
+           f'{site_extras.otd_list(items, 6)}</section>') if items else ""
+    stories = "".join(f'<a class="storycard" href="/stories/{lg["key"]}-{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b></a>'
+                      for lg in LIVE for sl_, t in [("longest-reigns", f"The longest reigns in {lg['name']} belt history")])
+    return otd + f'<section class="wrap block"><div class="head"><h2 class="disp">Stories</h2><a class="mono more" href="/stories/">All stories →</a></div><div class="storygrid">{stories}</div></section>'
 
 
 def build_league(lg, d):
@@ -431,10 +445,18 @@ def first_game_block(lg, d):
 
 def subnav(lg, on):
     key = lg["key"]
-    items = [("current", f"/{key}/", "Current"), ("history", f"/{key}/history/", "Full history"),
-             ("records", f"/{key}/records/", "Records"), ("teams", f"/{key}/teams/", "Teams")]
+    items = [("current", f"/{key}/", "Current"), ("next", f"/{key}/next/", "Next defense"),
+             ("history", f"/{key}/history/", "Full history"), ("seasons", f"/{key}/seasons/", "Seasons"),
+             ("records", f"/{key}/records/", "Records"), ("teams", f"/{key}/teams/", "Teams"),
+             ("rivalries", f"/{key}/rivalries/", "Rivalries"), ("compare", f"/{key}/compare/", "Compare")]
     links = "".join(f'<a href="{h}"{" class=on" if k == on else ""}>{t}</a>' for k, h, t in items)
     return f'<nav class="subnav mono" aria-label="{lg["name"]} sections"><span>{e(lg["long_name"])}</span>{links}</nav>'
+
+
+def reign_link(lg, d, r):
+    import site_extras
+    d.setdefault("_bg", {bg["n"]: bg for bg in d["belt_games"]})
+    return site_extras.reign_url(lg, d, r)
 
 
 def build_history(lg, d):
@@ -450,7 +472,7 @@ def build_history(lg, d):
         how = (f"beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)}" if r.get("won_from")
                else ("reclaimed (previous holder folded)" if r.get("reclaimed_after") else "first game"))
         flag = " · vacated" if r.get("vacated") else ""
-        rows.append(f"""<tr><td class="mono n">{r['index']}</td><td><i style="background:{p}"></i><a href="/{key}/teams/{slug(lg['team_name'](r['team']))}/">{e(r['name'])}</a><small>{how}{flag}</small></td>
+        rows.append(f"""<tr><td class="mono n"><a href="{reign_link(lg, d, r)}">{r['index']}</a></td><td><i style="background:{p}"></i><a href="/{key}/teams/{slug(lg['team_name'](r['team']))}/">{e(r['name'])}</a><small>{how}{flag}</small></td>
 <td class="mono">{d_short(r['start_date'], True)}</td><td class="mono">{d_short(r['end_date'], True) if r.get('end_date') else 'Holding'}</td><td class="mono r">{r.get('defenses', 0)} · {r['days']:,}d</td></tr>""")
     decades = sorted({int(r["start_date"][:3] + "0") for r in d["reigns"]}, reverse=True)
     jump = "".join(f'<a href="#d{x}">{x}s</a>' for x in decades)
@@ -477,6 +499,11 @@ def build_records(lg, d):
         record_card("Most reigns", [(name(t), v) for t, v in rec["most_reigns"]]),
         record_card("Most defenses in one reign", [(f"{r['name']}, {season_text(lg, r)}", r["defenses"]) for r in rec["longest_reigns"]]),
         record_card("Most successful defenses (all reigns)", [(name(t), v) for t, v in rec["most_defenses_total"]]),
+        record_card("Most defenses in one season", [(f"{name(x['team'], x['season'])}, {season_text(lg, x)}", x["defenses"]) for x in rec.get("most_defenses_season", [])]),
+        record_card("Most belt games played", [(name(t), f"{v:,}") for t, v in rec.get("most_belt_games", [])]),
+        record_card("Busiest seasons (title changes)", [(season_text(lg, {"season": s_, "start_date": str(s_)}), v) for s_, v in rec.get("busiest_seasons", [])]),
+        record_card("Longest current droughts", [(name(x["team"]), f"{x['days']:,} days") for x in rec.get("droughts", [])]),
+        record_card("Most title takeovers from one team", [(f"{name(x['winner'])} from {name(x['loser'])}", x["times"]) for x in rec.get("top_takeovers", [])]),
     ])
     body = f"""{subnav(lg, "records")}
 <section class="wrap block">
@@ -487,6 +514,7 @@ def build_records(lg, d):
     <div><b class="disp">{rec['programs']}</b><span class="mono">Franchises have held it</span></div>
     <div><b class="disp">{rec['playoff_changes']}</b><span class="mono">Title changes in the playoffs</span></div>
   </div>
+  {f'<p class="intro">Never held the {lg["name"]} belt: {", ".join(name(t) for t in rec["never_held"])}.</p>' if rec.get("never_held") else ""}
   <div class="cards4">{cards}</div>
 </section>"""
     write(f"{key}/records/index.html", page(f"{lg['name']} belt records", body, path=f"/{key}/records/", active=key,
@@ -534,10 +562,17 @@ def build_team(lg, d, team, rs):
     <div class="stats"><div><b class="disp">{len(rs)}</b><span class="mono">Reigns</span></div><div><b class="disp">{days:,}</b><span class="mono">Days held</span></div><div><b class="disp">{defs}</b><span class="mono">Defenses</span></div><div><b class="disp">{rs[0]['start_date'][:4]}</b><span class="mono">First reign</span></div></div>
   </div>
 </section>
-<section class="wrap block"><div class="head"><h2 class="disp">Every reign</h2></div><ol class="chain">{rows}</ol></section>"""
+<section class="wrap block"><div class="head"><h2 class="disp">Every reign</h2></div><ol class="chain">{rows}</ol></section>
+{team_extras_html(lg, d, team)}"""
     write(f"{key}/teams/{slug(tname)}/index.html", page(f"{tname} and the {lg['name']} belt", body,
                                                          path=f"/{key}/teams/{slug(tname)}/", active=key,
                                                          description=f"{tname}: {plural(len(rs), 'reign')} with the lineal {lg['name']} championship belt, {days:,} days held."))
+
+
+def team_extras_html(lg, d, team):
+    import site_extras
+    d.setdefault("_bg", {bg["n"]: bg for bg in d["belt_games"]})
+    return site_extras.team_extras(lg, d, team)
 
 
 def build_static_pages(datas):
@@ -657,6 +692,8 @@ def main():
         build_history(lg, d)
         build_records(lg, d)
         build_teams(lg, d)
+    import site_extras
+    site_extras.build_all(datas)
     build_static_pages(datas)
     build_feed(datas)
     build_sitemap()
