@@ -476,10 +476,13 @@ def build_league(lg, d):
         record_card("Most defenses in one reign", [(f"{r['name']}, {season_text(lg, r)}", r["defenses"]) for r in rec["longest_reigns"][:5]]),
         record_card("Most reigns", [(name(t), v) for t, v in rec["most_reigns"][:5]]),
     ])
+    import sys
     import features
+    features.init(sys.modules[__name__], lambda x: "/" + x["key"])
     body = f"""{subnav(lg, "current")}
 {features.live_box(lg, d)}
 {holder_plate_big(lg, d)}
+{features.latest_recap_card(lg, d)}
 <section class="wrap split">
   <div>
     <div class="head"><h2 class="disp">Chain of custody</h2><a class="mono more" href="/{key}/history/">All {len(d['reigns']):,} reigns →</a></div>
@@ -756,7 +759,7 @@ def build_api(datas):
 
 
 def copy_assets():
-    for f in ("styles.css", "favicon.png", "apple-touch-icon.png", "icon-512.png", "og.png"):
+    for f in ("styles.css", "favicon.png", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
 
 
