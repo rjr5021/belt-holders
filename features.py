@@ -454,7 +454,7 @@ def build_decades(lg, d):
         page(lg, f"The {lg['name']} belt in the {dec}s", body, f"decades/{dec}s/",
              f"The lineal {lg['name']} championship belt in the {dec}s: {len(changes)} title changes, {len(days)} holders, and who held it longest.")
         cards.append(f'<a class="deccard" href="{b(lg)}/decades/{dec}s/"><b class="disp">{dec}s</b><div class="decbar sm">{bar}</div>'
-                     f'<span class="mono">{len(changes):,} changes · {e(lg["short_name"](top[0][0])) if top else ""} held it most</span></a>')
+                     f'<span class="mono">{S.plural(len(changes), "change")} · {e(lg["short_name"](top[0][0])) if top else ""} held it most</span></a>')
     body = f"""{S.subnav(lg, "more")}
 <section class="wrap block">
   <div class="head"><h1 class="disp">The {e(lg['name'])} belt, decade by decade</h1></div>
@@ -907,7 +907,8 @@ def build(lg, d):
     build_my_team(lg, d)
     build_daily(lg, d)
     build_trivia(lg, d)
-    build_feed(lg, d)
+    if lg.get("feed", True):
+        build_feed(lg, d)
     build_ics(lg, d)
     build_badge(lg, d)
     build_more(lg, d)
