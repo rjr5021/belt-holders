@@ -1,5 +1,6 @@
 # NFL (nflverse, 1999+), MLB (Stats API) and NHL (NHL game center) box scores for belt
-# games. The MLB and NHL backfills run in chunks, so this runs every 6 hours.
+# games. The MLB and NHL backfills run in chunks (BOX_MINUTES each per run), so this
+# runs every 6 hours; each league commits its own progress as soon as it finishes.
 name: NFL, NHL and MLB box scores
 
 on:
@@ -14,31 +15,51 @@ concurrency:
   group: box
   cancel-in-progress: false
 
+env:
+  BOX_MINUTES: "25"
+
 jobs:
   box:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build lineages
-        run: python build_lineages.py
-      - name: NFL box scores
-        run: python nfl_boxscores.py
-        continue-on-error: true
-      - name: MLB box scores
-        run: python mlb_boxscores.py
-        continue-on-error: true
-      - name: NHL box scores
-        run: python nhl_boxscores.py
-        continue-on-error: true
-      - name: Commit
+      - name: Git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/nfl/box data/nhl/box data/mlb/box
+      - name: Build lineages
+        run: python build_lineages.py
+      - name: NFL box scores
+        run: python -u nfl_boxscores.py
+        continue-on-error: true
+      - name: Commit NFL
+        if: always()
+        run: |
+          git add -A data/nfl/box
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "NFL/NHL/MLB belt box scores [skip ci]"
+          git commit -m "NFL belt box scores [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
+      - name: MLB box scores
+        run: python -u mlb_boxscores.py
+        continue-on-error: true
+      - name: Commit MLB
+        if: always()
+        run: |
+          git add -A data/mlb/box
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "MLB belt box scores [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
+      - name: NHL box scores
+        run: python -u nhl_boxscores.py
+        continue-on-error: true
+      - name: Commit NHL
+        if: always()
+        run: |
+          git add -A data/nhl/box
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "NHL belt box scores [skip ci]"
           for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
