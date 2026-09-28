@@ -20,6 +20,7 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 from datetime import date, datetime
 
 from leagues import COMING, LIVE, ORDER
@@ -41,6 +42,7 @@ e = html.escape
 # ------------------------------------------------------------- helpers ---
 
 def slug(s):
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
@@ -261,6 +263,13 @@ def holder_plate_big(lg, data):
 </section>"""
 
 
+def season_text(lg, r):
+    """'1977' for the NFL, '1976–77' for leagues whose seasons span two years."""
+    season = r.get("season") or int(r["start_date"][:4])
+    fn = lg.get("season_label")
+    return fn(season) if fn else str(season)
+
+
 def won_score_text(r):
     """The score of the game that started reign `r`, winner first."""
     hp, ap = (int(x) for x in r["won_score"].split("-"))
@@ -273,7 +282,7 @@ def chain_rows(lg, reigns, n=8, compact=False):
         p, _ = lg["team_colors"](r["team"])
         how = ""
         if r.get("won_from"):
-            how = f"Beat {e(lg['team_name'](r['won_from'], int(r['start_date'][:4])))} {won_score_text(r)}"
+            how = f"Beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)}"
         elif r.get("reclaimed_after"):
             how = f"Reclaimed after {e(lg['team_name'](r['reclaimed_after']))} folded"
         elif r["index"] == 1:
@@ -331,7 +340,7 @@ def build_home(datas):
                 changes.append((r["start_date"], lg, r))
     changes.sort(key=lambda x: x[0], reverse=True)
     feed_rows = "".join(
-        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], int(r['start_date'][:4])))} {won_score_text(r)} and took the belt</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
+        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)} and took the belt</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
         for _, lg, r in changes[:6])
 
     nfl = datas.get("nfl")
@@ -385,7 +394,7 @@ def build_league(lg, d):
     cur = d["current"]
     cards = "".join([
         record_card("Most days holding the belt", [(name(t), f"{v:,}") for t, v in rec["most_days"][:5]]),
-        record_card("Most defenses in one reign", [(f"{r['name']}, {r['start_date'][:4]}", r["defenses"]) for r in rec["longest_reigns"][:5]]),
+        record_card("Most defenses in one reign", [(f"{r['name']}, {season_text(lg, r)}", r["defenses"]) for r in rec["longest_reigns"][:5]]),
         record_card("Most reigns", [(name(t), v) for t, v in rec["most_reigns"][:5]]),
     ])
     body = f"""{subnav(lg, "current")}
@@ -436,7 +445,7 @@ def build_history(lg, d):
             rows.append(f'<tr class="dec" id="d{dec}"><th colspan="5" class="disp">{dec}s</th></tr>')
             last_decade = dec
         p, _ = lg["team_colors"](r["team"])
-        how = (f"beat {e(lg['team_name'](r['won_from'], int(r['start_date'][:4])))} {won_score_text(r)}" if r.get("won_from")
+        how = (f"beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)}" if r.get("won_from")
                else ("reclaimed (previous holder folded)" if r.get("reclaimed_after") else "first game"))
         flag = " · vacated" if r.get("vacated") else ""
         rows.append(f"""<tr><td class="mono n">{r['index']}</td><td><i style="background:{p}"></i><a href="/{key}/teams/{slug(lg['team_name'](r['team']))}/">{e(r['name'])}</a><small>{how}{flag}</small></td>
@@ -464,7 +473,7 @@ def build_records(lg, d):
     cards = "".join([
         record_card("Most days holding the belt (all reigns)", [(name(t), f"{v:,}") for t, v in rec["most_days"]]),
         record_card("Most reigns", [(name(t), v) for t, v in rec["most_reigns"]]),
-        record_card("Most defenses in one reign", [(f"{r['name']}, {r['start_date'][:4]}", r["defenses"]) for r in rec["longest_reigns"]]),
+        record_card("Most defenses in one reign", [(f"{r['name']}, {season_text(lg, r)}", r["defenses"]) for r in rec["longest_reigns"]]),
         record_card("Most successful defenses (all reigns)", [(name(t), v) for t, v in rec["most_defenses_total"]]),
     ])
     body = f"""{subnav(lg, "records")}
@@ -513,7 +522,7 @@ def build_team(lg, d, team, rs):
     defs = sum(r.get("defenses", 0) for r in rs)
     holding = rs[-1] is d["reigns"][-1] or (rs[-1].get("end_date") is None)
     rows = "".join(
-        f"""<li><i style="background:{p}"></i><div><span class="disp">{ordinal(r['reign_no'])} reign · {e(r['name'])}</span><small>{('Beat ' + e(lg['team_name'](r['won_from'], int(r['start_date'][:4]))) + ' ' + won_score_text(r)) if r.get('won_from') else ('Reclaimed' if r.get('reclaimed_after') else 'First game')}{(' · lost to ' + e(lg['team_name'](r['lost_to'], int((r.get('end_date') or r['start_date'])[:4])))) if r.get('lost_to') else ''}</small></div><span class="mono when">{d_short(r['start_date'], True)} – {d_short(r['end_date'], True) if r.get('end_date') else 'now'}</span><span class="mono tail">{plural(r['days'], 'day')} · {r.get('defenses', 0)} def.</span></li>"""
+        f"""<li><i style="background:{p}"></i><div><span class="disp">{ordinal(r['reign_no'])} reign · {e(r['name'])}</span><small>{('Beat ' + e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4])))) + ' ' + won_score_text(r)) if r.get('won_from') else ('Reclaimed' if r.get('reclaimed_after') else 'First game')}{(' · lost to ' + e(lg['team_name'](r['lost_to'], (r.get('end_season') or r.get('season') or int(r['start_date'][:4]))))) if r.get('lost_to') else ''}</small></div><span class="mono when">{d_short(r['start_date'], True)} – {d_short(r['end_date'], True) if r.get('end_date') else 'now'}</span><span class="mono tail">{plural(r['days'], 'day')} · {r.get('defenses', 0)} def.</span></li>"""
         for r in reversed(rs))
     body = f"""{subnav(lg, "teams")}
 <section class="plate slim" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
@@ -540,6 +549,8 @@ def build_static_pages(datas):
                     f"only between clubs that were members of the league that season. AFL (1960–69) and AAFC (1946–49) games are included, "
                     f"so those teams could only reach the belt by beating an NFL holder. Franchise histories follow the team through moves "
                     f"and renames (the Rams are one franchise from Cleveland to St. Louis to Los Angeles).</p>")
+    other_notes = "".join(lg["rules_note"](datas[lg["key"]].get("first_game"), lg["team_name"])
+                          for lg in LIVE if lg.get("rules_note"))
     rules = f"""<section class="wrap prose">
 <div class="kicker">The ruleset</div>
 <h1 class="disp">How the belt works</h1>
@@ -548,15 +559,16 @@ def build_static_pages(datas):
 <ol>
 <li><b>It starts at game one.</b> The winner of a league's first game picks up the belt.</li>
 <li><b>Beat the holder, take the belt.</b> Any game counts — regular season or playoffs, home, away or neutral. Preseason and exhibition games don't.</li>
-<li><b>Ties go to the champ.</b> A tie is a successful defense.</li>
+<li><b>Ties go to the champ.</b> A tie is a successful defense. Overtime and shootout wins are wins.</li>
 <li><b>The belt follows the franchise.</b> Relocations and renames don't reset anything.</li>
 <li><b>Folded holders.</b> If the holder's franchise folds or stops playing, the belt goes back to the most recent earlier holder that is still playing, the same rule our sister site, the College Football Belt, uses.</li>
 </ol>
 <h2 class="disp">League notes</h2>
 {nfl_line}
-<p><b>NBA, NHL, MLB.</b> Coming soon, each with its own notes on shootouts, the ABA and WHA, and the early professional leagues.</p>
+{other_notes}
+<p><b>MLB.</b> Coming by Opening Day.</p>
 <h2 class="disp">Sources</h2>
-<p>NFL results from 1920–2020 come from FiveThirtyEight's public NFL game archive; 2021 onward from the open nflverse project. The data is updated automatically after every game day.</p>
+<p>NFL results from 1920–2020 come from FiveThirtyEight's public NFL game archive; 2021 onward from the open nflverse project. {" ".join(lg["sources"] for lg in LIVE if lg.get("sources"))} The data is updated automatically every couple of hours.</p>
 </section>"""
     write("rules/index.html", page("How the belt works", rules, path="/rules/", active="rules",
                                    description="The Belt Holders ruleset: how a lineal championship belt starts, moves and survives ties and folded franchises."))

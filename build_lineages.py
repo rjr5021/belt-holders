@@ -30,7 +30,17 @@ def build(league, refresh=True, today=None):
     first_date = games[0]["date"]
     belt_games, reigns, vacancies = belt_engine.resolve_vacancies(
         games, league["tie_rule"], None, None, league["recent_teams"](games), today,
+        gap_threshold_days=league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS),
         first_game_date=first_date)
+    season_by_date = {}
+    for g in games:
+        season_by_date.setdefault(g["date"], g["season"])
+
+    def season_at(d):
+        if d in season_by_date:
+            return season_by_date[d]
+        earlier = [x for x in season_by_date if x <= d]
+        return season_by_date[max(earlier)] if earlier else games[0]["season"]
 
     # --- tidy the reigns: numbering, lengths, era names --------------------
     counts = Counter()
@@ -39,8 +49,9 @@ def build(league, refresh=True, today=None):
         r["reign_no"] = counts[r["team"]]
         end = r.get("end_date") or today
         r["days"] = max(0, days_between(r["start_date"], end))
-        season = int(r["start_date"][:4])
-        r["name"] = league["team_name"](r["team"], season)
+        r["season"] = season_at(r["start_date"])
+        r["end_season"] = season_at(r["end_date"]) if r.get("end_date") else None
+        r["name"] = league["team_name"](r["team"], r["season"])
     for i, r in enumerate(reigns):
         r["index"] = i + 1
 
@@ -69,7 +80,7 @@ def build(league, refresh=True, today=None):
         "most_reigns": n_reigns.most_common(10),
         "most_defenses_total": n_def.most_common(10),
         "longest_reigns": [
-            {"team": r["team"], "name": r["name"], "start_date": r["start_date"],
+            {"team": r["team"], "name": r["name"], "start_date": r["start_date"], "season": r["season"],
              "end_date": r.get("end_date"), "defenses": r.get("defenses", 0), "days": r["days"]}
             for r in sorted(reigns, key=lambda r: (-r.get("defenses", 0), -r["days"]))[:10]],
         "playoff_changes": playoff_changes,
