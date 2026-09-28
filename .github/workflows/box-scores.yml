@@ -1,0 +1,41 @@
+# NFL (nflverse, 1999+) and NHL (NHL game center) player box scores for belt
+# games. The NHL backfill runs in chunks, so this runs every 6 hours.
+name: NFL and NHL box scores
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  box:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build lineages
+        run: python build_lineages.py
+      - name: NFL box scores
+        run: python nfl_boxscores.py
+        continue-on-error: true
+      - name: NHL box scores
+        run: python nhl_boxscores.py
+        continue-on-error: true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/nfl/box data/nhl/box
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "NFL/NHL belt box scores [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
