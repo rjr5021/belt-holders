@@ -17,6 +17,7 @@ import io
 import json
 import os
 import urllib.request
+from datetime import date, timedelta
 
 OUT = os.path.join("data", "nfl", "box", "belt_box.json")
 URLS = [
@@ -62,22 +63,44 @@ def pick(row, names):
     return None
 
 
+SCHED = "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+
+
 def main():
     with open(os.path.join("data", "nfl", "lineage.json")) as f:
         d = json.load(f)
-    want = {}                      # (season, week, nflverse team) -> (n, side)
+    # ---- nflverse's schedule: match each belt game by date (+/- 1 day) and final score
+    t = get(SCHED)
+    if not t:
+        print("no nflverse schedule; nothing to do")
+        return
+    by = {}
+    games = {}
+    for row in csv.DictReader(io.StringIO(t)):
+        if not row.get("home_score") or int(row.get("season") or 0) < 1999:
+            continue
+        hs, as_ = int(row["home_score"]), int(row["away_score"])
+        games[row["game_id"]] = row
+        for k in (-1, 0, 1):
+            dd = (date.fromisoformat(row["gameday"]) + timedelta(days=k)).isoformat()
+            by.setdefault((dd, max(hs, as_), min(hs, as_)), []).append(row)
+    want = {}                    # nflverse game_id -> (belt n, flipped?)
+    by_team = {}                 # (season, week, nflverse team) -> nflverse game_id
     seasons = set()
     for bg in d["belt_games"]:
-        gid = str(bg.get("game_id") or "")
-        parts = gid.split("_")
-        if bg["season"] < 1999 or len(parts) != 4:
+        if bg["season"] < 1999:
             continue
-        s, w, away, home = int(parts[0]), int(parts[1]), parts[2], parts[3]
-        want[(s, w, home)] = (bg["n"], "h", gid)
-        want[(s, w, away)] = (bg["n"], "a", gid)
-        seasons.add(s)
-    print(f"{len(want) // 2} belt games since 1999 across {len(seasons)} seasons")
-    out = {}
+        hp, ap = (int(x) for x in bg["score"].split("-"))
+        cands = by.get((bg["date"], max(hp, ap), min(hp, ap)), [])
+        if len(cands) != 1:
+            continue
+        row = cands[0]
+        flipped = (int(row["home_score"]), int(row["away_score"])) != (hp, ap)
+        want[row["game_id"]] = (bg["n"], flipped)
+        for side in ("home_team", "away_team"):
+            by_team[(int(row["season"]), int(row["week"]), row[side])] = row["game_id"]
+        seasons.add(int(row["season"]))
+    print(f"{len(want)} belt games since 1999 matched to nflverse games across {len(seasons)} seasons")
     texts = []
     for y in sorted(seasons):
         t = None
@@ -88,31 +111,36 @@ def main():
         if t:
             texts.append(t)
         else:
-            texts = None
-            break
-    if texts is None:
+            print("  no player file for", y)
+    if not texts:
         print("per-season files missing; trying the all-years file")
         t = get(URL_ALL)
         texts = [t] if t else []
         dt = get(URL_DEF)
         if dt:
             texts.append(dt)
+    out = {}
     first = True
     for t in texts:
         r = csv.DictReader(io.StringIO(t))
         if first:
-            print("columns:", r.fieldnames)
+            print("columns:", r.fieldnames[:14], "...")
             first = False
         for row in r:
-            try:
-                s, w = int(row.get("season") or 0), int(row.get("week") or 0)
-            except ValueError:
-                continue
             team = pick(row, ("team", "recent_team", "player_team")) or ""
-            hit = want.get((s, w, team))
+            gid = row.get("game_id")
+            if not gid:
+                try:
+                    gid = by_team.get((int(row.get("season") or 0), int(row.get("week") or 0), team))
+                except ValueError:
+                    gid = None
+            hit = want.get(gid)
             if not hit:
                 continue
-            n, side, gid = hit
+            n, flipped = hit
+            side = "h" if team == games[gid]["home_team"] else "a"
+            if flipped:
+                side = "a" if side == "h" else "h"
             pid = pick(row, ("player_id", "gsis_id")) or "?"
             name = pick(row, ("player_display_name", "player_name")) or "?"
             stats = [num(pick(row, COLS[c])) for c in ORDER]
