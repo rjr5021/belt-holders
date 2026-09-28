@@ -672,6 +672,22 @@ def build_sitemap():
         write("ads.txt", f"google.com, {ADSENSE_PUBLISHER_ID}, DIRECT, f08c47fec0942fa0\n")
 
 
+def build_api(datas):
+    """api/current.json: every league's holder, for the sister sites (the College
+    Football Belt footer reads it at build time) and anyone else."""
+    out = {"site": SITE_URL, "generated": date.today().isoformat(), "leagues": {}}
+    for lg in LIVE:
+        d = datas[lg["key"]]
+        cur, ng = d["current"], d.get("next_game")
+        out["leagues"][lg["key"]] = {
+            "name": lg["name"], "holder": lg["team_name"](cur["team"]), "short": lg["short_name"](cur["team"]),
+            "since": cur["start_date"], "defenses": cur.get("defenses", 0), "reign": cur["reign_no"],
+            "url": f"{SITE_URL}/{lg['key']}/",
+            "next": ({"date": ng["date"], "opponent": lg["team_name"](ng["challenger"]), "home": ng["holder_home"]} if ng else None),
+        }
+    write("api/current.json", json.dumps(out, indent=1))
+
+
 def copy_assets():
     for f in ("styles.css", "favicon.png", "apple-touch-icon.png", "icon-512.png", "og.png"):
         shutil.copy(f, os.path.join(OUT, f))
@@ -695,6 +711,7 @@ def main():
     import site_extras
     site_extras.build_all(datas)
     build_static_pages(datas)
+    build_api(datas)
     build_feed(datas)
     build_sitemap()
     copy_assets()
