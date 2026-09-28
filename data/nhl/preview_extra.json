@@ -1,6 +1,6 @@
 {
  "key": "CAR|FLA|2026-09-29",
- "updated": "2026-09-28T20:29Z",
+ "updated": "2026-09-28T20:46Z",
  "start_utc": "2026-09-29T21:00Z",
  "espn": {
   "event_id": "401891773",
@@ -12,7 +12,7 @@
   "odds": {
    "details": "CAR -125",
    "over_under": 6.5,
-   "provider": "Draft Kings"
+   "provider": "DraftKings"
   },
   "teams": {
    "CAR": {
