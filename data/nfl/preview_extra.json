@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-28T23:05Z",
+ "updated": "2026-09-28T23:35Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -38,11 +38,11 @@
   }
  },
  "weather": {
-  "temp_f": 68,
-  "feels_like_f": 66,
+  "temp_f": 67,
+  "feels_like_f": 70,
   "precip_chance": 28,
-  "wind_mph": 6,
-  "condition": "Partly cloudy",
+  "wind_mph": 4,
+  "condition": "Overcast",
   "as_of": "2026-09-28",
   "venue": "Paycor Stadium"
  },
