@@ -39,4 +39,4 @@ jobs:
           git add -A data/nba/box
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "NBA belt box scores [skip ci]"
-          for i in 1 2 3 4; do git pull --rebase && git push && break; sleep $((i * 7)); done
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
