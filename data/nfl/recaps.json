@@ -1,0 +1,202 @@
+{
+ "PIT|NE|2026-09-20": {
+  "date": "2026-09-20",
+  "holder": "PIT",
+  "opponent": "NE",
+  "outcome": "changed",
+  "headline": "Patriots Claim Belt with Dominant 20-3 Victory Over Steelers",
+  "recap": [
+   "The New England Patriots seized the lineal championship belt with a commanding 20-3 victory over the Pittsburgh Steelers at Gillette Stadium. TreVeyon Henderson got the Patriots rolling early with a 39-yard touchdown rush at 8:22 of the first quarter, setting the tone for a game dominated by the home team. Drake Maye managed the offense efficiently, completing 14 of 22 passes for 208 yards despite an interception, while Romeo Doubs provided the big-play threat with 3 receptions for 96 yards.",
+   "Pittsburgh's offense struggled throughout, managing only a 56-yard Chris Boswell field goal as time expired in the first half. Aaron Rodgers completed 23 of 39 passes for 187 yards but threw an interception and couldn't find the end zone. The Patriots defense, led by Christian Elliss with 12 tackles and a sack, kept the Steelers contained all game. Andy Borregales added field goals of 30 and 45 yards before Elijah Ponder sealed the victory with a 19-yard fumble return for a touchdown in the fourth quarter.",
+   "With the win, New England takes possession of the belt and sends Pittsburgh home empty-handed. The Patriots controlled both sides of the ball, holding the Steelers to just three points while their offense found enough rhythm to pull away comfortably."
+  ],
+  "leaders": [
+   {
+    "team": "NE",
+    "category": "Passing Yards",
+    "player": "Drake Maye",
+    "line": "14/22, 208 YDS, 1 INT"
+   },
+   {
+    "team": "NE",
+    "category": "Rushing Yards",
+    "player": "TreVeyon Henderson",
+    "line": "16 CAR, 76 YDS, 1 TD"
+   },
+   {
+    "team": "NE",
+    "category": "Receiving Yards",
+    "player": "Romeo Doubs",
+    "line": "3 REC, 96 YDS"
+   },
+   {
+    "team": "NE",
+    "category": "Sacks",
+    "player": "Christian Elliss",
+    "line": "1"
+   },
+   {
+    "team": "NE",
+    "category": "Tackles",
+    "player": "Christian Elliss",
+    "line": "12"
+   },
+   {
+    "team": "PIT",
+    "category": "Passing Yards",
+    "player": "Aaron Rodgers",
+    "line": "23/39, 187 YDS, 1 INT"
+   },
+   {
+    "team": "PIT",
+    "category": "Rushing Yards",
+    "player": "Jaylen Warren",
+    "line": "11 CAR, 43 YDS"
+   },
+   {
+    "team": "PIT",
+    "category": "Receiving Yards",
+    "player": "Germie Bernard",
+    "line": "4 REC, 35 YDS"
+   },
+   {
+    "team": "PIT",
+    "category": "Sacks",
+    "player": "T.J. Watt",
+    "line": "1.5"
+   },
+   {
+    "team": "PIT",
+    "category": "Tackles",
+    "player": "Derrick Harmon",
+    "line": "8"
+   }
+  ],
+  "linescore": [
+   {
+    "team": "New England Patriots",
+    "home_away": "home",
+    "periods": [
+     "7",
+     "3",
+     "3",
+     "7"
+    ],
+    "score": "20"
+   },
+   {
+    "team": "Pittsburgh Steelers",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "3",
+     "0",
+     "0"
+    ],
+    "score": "3"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "NE|JAX|2026-09-27": {
+  "date": "2026-09-27",
+  "holder": "NE",
+  "opponent": "JAX",
+  "outcome": "changed",
+  "headline": "Jaguars Dominate Patriots 35-6, Claim Belt at Home",
+  "recap": [
+   "The Jacksonville Jaguars captured the Belt Holders championship with a decisive 35-6 victory over the New England Patriots at EverBank Stadium. After a scoreless first quarter, Jacksonville's offense came alive in the second period with a pair of Trevor Lawrence touchdown passes\u2014a 12-yarder to Josh Cameron and a 10-yarder to Jakobi Meyers\u2014building a 14-3 halftime advantage.",
+   "Lawrence finished 19-of-29 for 182 yards with three touchdowns and one interception, spreading the ball effectively across his receiving corps. The Jaguars exploded in the third quarter with 14 more points, including a 17-yard Lawrence touchdown pass to Parker Washington and a 5-yard rushing score by Chris Rodriguez Jr. Bhayshul Tuten led the ground game with 73 yards and a touchdown on 15 carries, while Meyers paced receivers with 7 catches for 64 yards.",
+   "New England managed only two Andy Borregales field goals despite Drake Maye throwing for 199 yards and Mack Hollins hauling in 6 catches for 87 yards. Maye's two interceptions hampered any comeback hopes. Defensively, Ventrell Miller led Jacksonville with 7 tackles while Carlton Davis III topped New England with 8. The Jaguars now carry the belt forward after their dominant performance."
+  ],
+  "leaders": [
+   {
+    "team": "JAX",
+    "category": "Passing Yards",
+    "player": "Trevor Lawrence",
+    "line": "19/29, 182 YDS, 3 TD, 1 INT"
+   },
+   {
+    "team": "JAX",
+    "category": "Rushing Yards",
+    "player": "Bhayshul Tuten",
+    "line": "15 CAR, 73 YDS, 1 TD"
+   },
+   {
+    "team": "JAX",
+    "category": "Receiving Yards",
+    "player": "Jakobi Meyers",
+    "line": "7 REC, 64 YDS, 1 TD"
+   },
+   {
+    "team": "JAX",
+    "category": "Sacks",
+    "player": "Ruke Orhorhoro",
+    "line": "1"
+   },
+   {
+    "team": "JAX",
+    "category": "Tackles",
+    "player": "Ventrell Miller",
+    "line": "7"
+   },
+   {
+    "team": "NE",
+    "category": "Passing Yards",
+    "player": "Drake Maye",
+    "line": "14/25, 199 YDS, 2 INT"
+   },
+   {
+    "team": "NE",
+    "category": "Rushing Yards",
+    "player": "TreVeyon Henderson",
+    "line": "8 CAR, 23 YDS"
+   },
+   {
+    "team": "NE",
+    "category": "Receiving Yards",
+    "player": "Mack Hollins",
+    "line": "6 REC, 87 YDS"
+   },
+   {
+    "team": "NE",
+    "category": "Sacks",
+    "player": "Elijah Ponder",
+    "line": "0.5"
+   },
+   {
+    "team": "NE",
+    "category": "Tackles",
+    "player": "Carlton Davis III",
+    "line": "8"
+   }
+  ],
+  "linescore": [
+   {
+    "team": "Jacksonville Jaguars",
+    "home_away": "home",
+    "periods": [
+     "0",
+     "14",
+     "14",
+     "7"
+    ],
+    "score": "35"
+   },
+   {
+    "team": "New England Patriots",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "3",
+     "0",
+     "3"
+    ],
+    "score": "6"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ }
+}

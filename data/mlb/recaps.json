@@ -1,0 +1,294 @@
+{
+ "LAA|MIN|2026-09-20": {
+  "date": "2026-09-20",
+  "holder": "LAA",
+  "opponent": "MIN",
+  "outcome": "changed",
+  "headline": "Twins Shut Out Angels 8-0, Claim Belt at Angel Stadium",
+  "recap": [
+   "The Minnesota Twins dominated from start to finish, blanking the Los Angeles Angels 8-0 at Angel Stadium to capture the lineal championship belt. The Twins broke through with two runs in the third inning and never looked back, methodically building their lead throughout the game.",
+   "Minnesota added single runs in the fifth inning and a pair in the sixth before putting the game away with a three-run seventh inning. The Angels were held scoreless across all nine innings, failing to mount any offensive threat as the Twins cruised to victory.",
+   "With the commanding shutout victory, the Twins claim the belt from Los Angeles and take it back to Minnesota. The Angels' tenure as belt holders comes to an end after this decisive defeat."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "Los Angeles Angels",
+    "home_away": "home",
+    "periods": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "score": "0"
+   },
+   {
+    "team": "Minnesota Twins",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "0",
+     "2",
+     "0",
+     "1",
+     "2",
+     "3",
+     "0",
+     "0"
+    ],
+    "score": "8"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "MIN|SF|2026-09-21": {
+  "date": "2026-09-21",
+  "holder": "MIN",
+  "opponent": "SF",
+  "outcome": "changed",
+  "headline": "Giants Capture Belt with 5-2 Victory Over Twins",
+  "recap": [
+   "The San Francisco Giants seized the lineal championship belt with a 5-2 victory over the Minnesota Twins at Oracle Park. The Giants built their advantage early, plating two runs in the first inning and adding two more in the second to take command of the game.",
+   "Minnesota struggled to mount a comeback, managing single runs in the fourth and eighth innings, but it wasn't enough to overcome San Francisco's early surge. The Giants added an insurance run in the fifth inning to extend their lead to 5-1, effectively putting the game out of reach.",
+   "With the win, San Francisco claims the belt from Minnesota, becoming the new holders of the lineal championship. The Giants will look to defend their newly won belt in their next outing."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "San Francisco Giants",
+    "home_away": "home",
+    "periods": [
+     "2",
+     "2",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0"
+    ],
+    "score": "5"
+   },
+   {
+    "team": "Minnesota Twins",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "0",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0"
+    ],
+    "score": "2"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "SF|MIN|2026-09-22": {
+  "date": "2026-09-22",
+  "holder": "SF",
+  "opponent": "MIN",
+  "outcome": "changed",
+  "headline": "Twins Edge Giants 3-2, Claim Belt at Oracle Park",
+  "recap": [
+   "The Minnesota Twins captured the Belt Holders championship with a 3-2 victory over the San Francisco Giants at Oracle Park. After San Francisco scored a run in the second inning to take an early lead, the game remained tight through five scoreless frames.",
+   "Minnesota broke through in the sixth inning with two runs to take the lead, then added an insurance run in the seventh. The Giants mounted a late rally with a run in the ninth inning but fell short, managing just two runs on the day.",
+   "With the win, the Twins seized the lineal championship belt from San Francisco, becoming the new holders. The belt now travels to Minnesota as the Twins await their next challenger."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "San Francisco Giants",
+    "home_away": "home",
+    "periods": [
+     "0",
+     "1",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "1"
+    ],
+    "score": "2"
+   },
+   {
+    "team": "Minnesota Twins",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "2",
+     "1",
+     "0",
+     "0"
+    ],
+    "score": "3"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "MIN|SF|2026-09-23": {
+  "date": "2026-09-23",
+  "holder": "MIN",
+  "opponent": "SF",
+  "outcome": "retained",
+  "headline": "Twins Hold Off Giants to Retain Belt at Oracle Park",
+  "recap": [
+   "The Minnesota Twins successfully defended their championship belt with a 4-2 victory over the San Francisco Giants at Oracle Park. The Twins struck first with a run in the third inning, then added another in the fifth to build their advantage before the Giants briefly threatened.",
+   "San Francisco broke through with two runs in the fourth inning to tie the game, but Minnesota answered with single runs in the fifth and seventh innings to regain control. The Twins then added two more runs in the seventh inning to extend their lead to 4-2, which proved to be the final margin.",
+   "With the victory, Minnesota keeps possession of the belt and will put it on the line in their next game. The Giants' bid to capture the championship fell short despite making it competitive through the middle innings."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "San Francisco Giants",
+    "home_away": "home",
+    "periods": [
+     "0",
+     "0",
+     "0",
+     "2",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "score": "2"
+   },
+   {
+    "team": "Minnesota Twins",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "0",
+     "1",
+     "0",
+     "1",
+     "0",
+     "2",
+     "0",
+     "0"
+    ],
+    "score": "4"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "MIN|TEX|2026-09-25": {
+  "date": "2026-09-25",
+  "holder": "MIN",
+  "opponent": "TEX",
+  "outcome": "retained",
+  "headline": "Twins Crush Rangers 10-2, Retain Belt at Target Field",
+  "recap": [
+   "The Minnesota Twins defended their Belt Holder status with authority, routing the Texas Rangers 10-2 at Target Field. After Texas jumped out to an early 2-0 lead in the first inning, the Twins answered emphatically with a six-run second inning that turned the game decisively in their favor.",
+   "Minnesota continued to pour it on with two more runs in the fourth and another pair in the sixth, while their pitching staff shut down the Rangers completely after that first frame. Texas managed no runs over the final eight innings as the Twins cruised to the lopsided victory.",
+   "With the win, Minnesota successfully defends the belt and will carry it into their next game. The Rangers' quest to claim the championship ends after being thoroughly outplayed following their brief first-inning advantage."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "Minnesota Twins",
+    "home_away": "home",
+    "periods": [
+     "0",
+     "6",
+     "0",
+     "2",
+     "0",
+     "2",
+     "0",
+     "0"
+    ],
+    "score": "10"
+   },
+   {
+    "team": "Texas Rangers",
+    "home_away": "away",
+    "periods": [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "score": "2"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ },
+ "MIN|TEX|2026-09-26": {
+  "date": "2026-09-26",
+  "holder": "MIN",
+  "opponent": "TEX",
+  "outcome": "changed",
+  "headline": "Rangers Seize Belt with 6-2 Victory Over Twins",
+  "recap": [
+   "The Texas Rangers captured the lineal championship belt with a convincing 6-2 victory over the Minnesota Twins at Target Field. Texas struck for four runs in the second inning to seize control of the game and never looked back, adding single runs in the fourth and fifth innings to build a commanding lead.",
+   "Minnesota grabbed an early 1-0 advantage in the first inning, but the Rangers' four-run second inning immediately turned the game in their favor. The Twins managed just one more run in the eighth inning, never threatening to reclaim the lead as Texas cruised to victory.",
+   "With the win, the Rangers claim possession of the belt, wresting it away from Minnesota. The belt now travels with Texas as they continue their season."
+  ],
+  "leaders": [],
+  "linescore": [
+   {
+    "team": "Minnesota Twins",
+    "home_away": "home",
+    "periods": [
+     "1",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "1",
+     "0"
+    ],
+    "score": "2"
+   },
+   {
+    "team": "Texas Rangers",
+    "home_away": "away",
+    "periods": [
+     "0",
+     "4",
+     "0",
+     "1",
+     "1",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "score": "6"
+   }
+  ],
+  "written": "2026-09-28",
+  "model": "claude-sonnet-4-5"
+ }
+}
