@@ -37,16 +37,20 @@ try:
 except Exception:  # pragma: no cover
     ET = timezone(timedelta(hours=-5))
 
-UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
+# ESPN turns away requests that claim to be a desktop browser from a data
+# center, so the default is an honest bot string; NBA.com's static files
+# want the browser one.
+UA = "BeltHolders/1.0 (+https://beltholders.com)"
+BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 FIELDS = ["id", "date", "season", "season_type", "home", "away", "home_points", "away_points",
           "neutral", "note", "source"]
 
 
-def get(url, tries=4, as_json=True):
+def get(url, tries=4, as_json=True, ua=UA):
     last = None
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json,text/csv,*/*"})
+            req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": "application/json,text/csv,*/*"})
             with urllib.request.urlopen(req, timeout=60) as r:
                 body = r.read().decode("utf-8")
             return json.loads(body) if as_json else body
@@ -182,7 +186,7 @@ NBA_TYPES = {"002": "regular", "004": "postseason", "005": "postseason", "006": 
 
 
 def nba_sched_season(y):
-    j = get(URL_NBA_SCHED.format(y=y))
+    j = get(URL_NBA_SCHED.format(y=y), ua=BROWSER_UA)
     rows = []
     for mon in j["lscd"]:
         for g in mon["mscd"]["g"]:
