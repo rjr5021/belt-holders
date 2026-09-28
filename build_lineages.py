@@ -18,6 +18,7 @@ from datetime import date
 
 import belt_engine
 import belt_extras as X
+import belt_models as M
 from leagues import LIVE
 
 
@@ -92,10 +93,31 @@ def build(league, refresh=True, today=None):
     recent = league["recent_teams"](games)
     X.annotate(league, games, belt_games, reigns)
     records.update(X.extra_records(league, belt_games, reigns, recent, today))
+    # --- models: Elo, chance to defend, belt tree, outlook, champions, Losers Belt
+    ratings, hfa = M.elo(league["key"], games)
+    fut = [g for g in upcoming if g["date"] >= today]
+    tree = M.belt_tree(holder, fut, ratings, hfa, 4, today) if fut else None
+    reg = [g for g in fut if g.get("season_type", "regular") == "regular"]
+    look = M.outlook(holder, reg, ratings, hfa, today=today) if reg else None
+    preview = X.preview(league, games, belt_games, reigns, next_game, today)
+    if preview and next_game:
+        preview["holder_win_prob"] = round(M.win_prob(ratings, hfa, next_game["home"], next_game["away"],
+                                                      next_game.get("neutral"), holder=holder), 3)
+    top_elo = sorted(((t, round(v)) for t, v in ratings.items() if t in recent), key=lambda x: -x[1])
+    models = {
+        "elo": {t: round(v) for t, v in ratings.items() if t in recent},
+        "elo_rank": top_elo, "hfa": hfa, "tree": tree, "outlook": look,
+        "champions": M.champions(games, reigns),
+        "meet": {t: [g["date"], g["home"]] for g in reversed(fut) if holder in (g["home"], g["away"])
+                 for t in [g["away"] if g["home"] == holder else g["home"]]},
+        "losers": M.losers(league["key"], games, league["tie_rule"], recent, today,
+                           league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
+    }
     out = {
+        "models": models,
         "seasons": X.seasons(league, games, belt_games, reigns, today),
         "rivalries": X.rivalries(league, belt_games),
-        "preview": X.preview(league, games, belt_games, reigns, next_game, today),
+        "preview": preview,
         "league": league["key"], "name": league["name"], "long_name": league["long_name"],
         "generated": today, "first_game": belt_games[0] if belt_games else None,
         "reigns": reigns, "belt_games": belt_games, "vacancies": vacancies,

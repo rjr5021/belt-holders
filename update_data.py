@@ -160,6 +160,7 @@ def update_nhl(full=False):
 URL_538 = "https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv"
 URL_NBA_SCHED = "https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/{y}/league/00_full_schedule.json"
 URL_ESPN_DAY = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={d}"
+URL_ESPN_TEAM = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{t}/schedule?season={y}&seasontype=2"
 NBA_FIRST_ESPN_SEASON = 2025          # 2025-26; data.nba.com's feed stops updating after 2024-25
 NBA_SCHED_SEASONS = range(2015, 2025)  # 2015-16 .. 2024-25
 
@@ -323,6 +324,34 @@ def update_nba(full=False):
         if len(teams_seen) >= 30:
             break
         d += timedelta(days=1)
+        time.sleep(0.15)
+    # the rest of the season, team by team (the day scan above only reaches a few game days
+    # ahead; season odds need every remaining game). Day-scan rows win: they carry spreads.
+    have = {u["id"] for u in upcoming}
+    season_end_year = today.year + 1 if today.month >= 7 else today.year
+    for tid in range(1, 31):
+        try:
+            j = get(URL_ESPN_TEAM.format(t=tid, y=season_end_year))
+        except Exception as ex:
+            print(f"  ESPN team {tid} schedule failed: {ex}")
+            continue
+        for ev in j.get("events", []):
+            try:
+                comp = ev["competitions"][0]
+                if (comp.get("status") or ev.get("status") or {}).get("type", {}).get("state") != "pre":
+                    continue
+                teams = {c["homeAway"]: c for c in comp["competitors"]}
+                start = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(ET)
+                row = {"id": f"espn-{ev['id']}", "date": start.date().isoformat(), "season": season_end_year - 1,
+                       "season_type": "postseason" if (ev.get("seasonType") or {}).get("type") in (3, 5) else "regular",
+                       "home": teams["home"]["team"]["abbreviation"], "away": teams["away"]["team"]["abbreviation"],
+                       "neutral": "1" if comp.get("neutralSite") else "", "source": "espn",
+                       "start_et": start.strftime("%H:%M"), "venue": (comp.get("venue") or {}).get("fullName"), "spread": None}
+            except (KeyError, IndexError, ValueError, TypeError):
+                continue
+            if row["id"] not in have and row["date"] >= today.isoformat():
+                have.add(row["id"])
+                upcoming.append(row)
         time.sleep(0.15)
     upcoming.sort(key=lambda u: (u["date"], u.get("start_et") or ""))
     write_json(os.path.join("data", "nba", "upcoming.json"), upcoming)

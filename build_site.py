@@ -29,7 +29,7 @@ SITE_URL = "https://beltholders.com"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = ""            # e.g. "beltholders" once the GoatCounter site exists
-STYLES_VERSION = "2"
+STYLES_VERSION = "3"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -172,6 +172,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="/styles.css?v={STYLES_VERSION}">
+<script>try{{var t=localStorage.getItem('belt-theme');if(t)document.documentElement.dataset.theme=t;}}catch(e){{}}</script>
 {ads}{goat}{ld}
 </head>
 <body>
@@ -179,7 +180,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <header class="top">
   <a class="brand" href="/">{LOGO}<span>Belt Holders</span></a>
   <nav class="primary mono" aria-label="Leagues">{"".join(nav)}</nav>
-  <div class="topright"><a class="searchlink" href="/search/" aria-label="Search"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11 L15 15"/></svg></a><a class="pill mono" href="#alerts">Get belt alerts</a></div>
+  <div class="topright"><button class="themebtn" type="button" aria-label="Toggle dark mode" onclick="var r=document.documentElement,d=r.dataset.theme==='dark'||(!r.dataset.theme&&matchMedia('(prefers-color-scheme: dark)').matches);r.dataset.theme=d?'light':'dark';try{{localStorage.setItem('belt-theme',r.dataset.theme);}}catch(e){{}}"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M13.5 9.5A5.5 5.5 0 0 1 6.5 2.5a5.5 5.5 0 1 0 7 7z"/></svg></button><a class="searchlink" href="/search/" aria-label="Search"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11 L15 15"/></svg></a><a class="pill mono" href="#alerts">Get belt alerts</a></div>
 </header>
 <main id="main">
 {body}
@@ -187,7 +188,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 {alerts_block()}
 <footer class="foot mono">
   <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
-  <div class="links"><a href="/privacy/">Privacy</a><a href="mailto:hello@beltholders.com">Contact</a><a href="/feed.xml">RSS</a><span>Not affiliated with any league or team.</span></div>
+  <div class="links"><a href="/privacy/">Privacy</a><a href="mailto:hello@beltholders.com">Contact</a><a href="/feed.xml">RSS</a><a href="/embed/">Embed a badge</a><span>Not affiliated with any league or team.</span></div>
 </footer>
 </body>
 </html>
@@ -232,6 +233,7 @@ def holder_plate_big(lg, data):
         if ng.get("spread") is not None:
             fav = ng["home"] if ng["spread"] > 0 else ng["away"]
             spread = f"{fav} −{abs(ng['spread']):g}" if ng["spread"] else "Pick ’em"
+        prob = (data.get("preview") or {}).get("holder_win_prob")
         nxt_first = "First defense" if cur.get("defenses", 0) == 0 else "Next defense"
         won += f" {nxt_first} {weekday(ng['date'])}, {d_short(ng['date'])}."
         cp, cs = lg["team_colors"](ng["challenger"])
@@ -244,6 +246,7 @@ def holder_plate_big(lg, data):
       </div>
       <div class="meta mono"><span>{weekday(ng['date'])} {d_short(ng['date'])} · {kickoff_12h(ng.get('kickoff'))}</span><span>{e(spread)}</span></div>
       {f'<div class="meta mono"><span>{e(ng["stadium"])}</span></div>' if ng.get("stadium") else ""}
+      {f'<div class="meta mono"><span>Chance to defend: {round(prob * 100)}%</span><a href="/{lg["key"]}/outlook/">Belt tree →</a></div>' if prob is not None else ""}
       <a class="mono prevlink" href="/{lg['key']}/next/">Game preview →</a>
     </aside>"""
     if not ng and data.get("status") == "In season":
@@ -473,7 +476,9 @@ def build_league(lg, d):
         record_card("Most defenses in one reign", [(f"{r['name']}, {season_text(lg, r)}", r["defenses"]) for r in rec["longest_reigns"][:5]]),
         record_card("Most reigns", [(name(t), v) for t, v in rec["most_reigns"][:5]]),
     ])
+    import features
     body = f"""{subnav(lg, "current")}
+{features.live_box(lg, d)}
 {holder_plate_big(lg, d)}
 <section class="wrap split">
   <div>
@@ -506,10 +511,11 @@ def first_game_block(lg, d):
 def subnav(lg, on):
     key = lg["key"]
     items = [("current", f"/{key}/", "Current"), ("next", f"/{key}/next/", "Next defense"),
+             ("outlook", f"/{key}/outlook/", "Outlook"),
              ("history", f"/{key}/history/", "Full history"), ("seasons", f"/{key}/seasons/", "Seasons"),
              ("records", f"/{key}/records/", "Records"), ("teams", f"/{key}/teams/", "Teams"),
              ("rivalries", f"/{key}/rivalries/", "Rivalries"), ("compare", f"/{key}/compare/", "Compare"),
-             ("stories", f"/{key}/stories/", "Stories")]
+             ("stories", f"/{key}/stories/", "Stories"), ("more", f"/{key}/more/", "More")]
     links = "".join(f'<a href="{h}"{" class=on" if k == on else ""}>{t}</a>' for k, h, t in items)
     return f'<nav class="subnav mono" aria-label="{lg["name"]} sections"><span>{e(lg["long_name"])}</span>{links}</nav>'
 
