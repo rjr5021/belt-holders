@@ -147,7 +147,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
     goat = (f'<script data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
             if GOATCOUNTER_CODE else "")
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
-    full_title = title if title.endswith("Belt Holders") else f"{title} · Belt Holders"
+    full_title = title if "Belt Holders" in title else f"{title} · Belt Holders"
     return f"""<!doctype html>
 <html lang="en">
 <head>
