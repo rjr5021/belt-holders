@@ -462,8 +462,10 @@ def stories_for(lg, d):
     dr = rec.get("droughts", [])
     never = rec.get("never_held", [])
     parts = [f"<p>Every active {lg['name']} franchise and how long it's been since it last held the belt. The belt moves constantly, so a long wait usually means a franchise keeps losing the one game that matters.</p>"]
-    if never:
+    if never and len(never) <= 40:
         parts.append(f"<h2 class=\"disp\">Never held it</h2><p>{', '.join(team_link(lg, t) for t in never)}.</p>")
+    elif never:
+        parts.append(f"<h2 class=\"disp\">Never held it</h2><p>{len(never)} current programs have never held the belt.</p>")
     parts.append("<h2 class=\"disp\">The longest waits</h2><ol>" + "".join(
         f"<li>{team_link(lg, x['team'])}: last held it {S.d_long(x['last'])}, {S.plural(x['days'], 'day')} ago.</li>" for x in dr) + "</ol>")
     out.append(("droughts", f"Waiting for the {lg['name']} belt: the longest droughts",
@@ -507,16 +509,25 @@ def build_stories(datas):
     cards = []
     for lg in LIVE:
         d = datas[lg["key"]]
+        key = lg["key"]
+        mine = []
         for sslug, title, dek, html in stories_for(lg, d):
-            url = f"/stories/{lg['key']}-{sslug}/"
-            body = f"""<section class="wrap prose story"><div class="kicker">{lg['long_name']} · story</div><h1 class="disp">{e(title)}</h1><p class="dek">{e(dek)}</p>{html}
-<p class="mono more"><a href="/stories/">More stories →</a></p></section>"""
+            url = f"/{key}/stories/{sslug}/"
+            body = f"""{S.subnav(lg, "stories")}
+<section class="wrap prose story"><div class="kicker">{lg['long_name']} · story</div><h1 class="disp">{e(title)}</h1><p class="dek">{e(dek)}</p>{html}
+<p class="mono more"><a href="/{key}/stories/">More {lg['name']} stories →</a></p></section>"""
             ld = {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": dek,
                   "dateModified": d["generated"], "publisher": {"@type": "Organization", "name": "Belt Holders"}}
-            S.write(url.strip("/") + "/index.html", S.page(title, body, path=url, jsonld=ld, description=dek))
-            cards.append((lg, title, dek, url))
+            S.write(url.strip("/") + "/index.html", S.page(title, body, path=url, active=key, jsonld=ld, description=dek))
+            mine.append((lg, title, dek, url))
+        lis = "".join(f'<a class="storycard" href="{u}"><b class="disp">{e(t)}</b><span>{e(dk)}</span></a>' for _, t, dk, u in mine)
+        body = f"""{S.subnav(lg, "stories")}
+<section class="wrap block"><div class="head"><h1 class="disp">{lg['name']} belt stories</h1><span class="mono note">Written from the data, updated with every game</span></div><div class="storygrid">{lis}</div></section>"""
+        S.write(f"{key}/stories/index.html", S.page(f"{lg['name']} belt stories", body, path=f"/{key}/stories/", active=key,
+                                                    description=f"Long reads on the lineal {lg['name']} championship belt: the longest reigns, the longest droughts, the wildest seasons and the rivalries that decided it."))
+        cards += mine
     lis = "".join(f'<a class="storycard" href="{u}"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b><span>{e(dk)}</span></a>' for lg, t, dk, u in cards)
-    body = f"""<section class="wrap block"><div class="head"><h1 class="disp">Stories</h1><span class="mono note">Written from the data, updated with every game</span></div><div class="storygrid">{lis}</div></section>"""
+    body = f"""<section class="wrap block"><div class="head"><h1 class="disp">Stories</h1><span class="mono note">Every league</span></div><div class="storygrid">{lis}</div></section>"""
     S.write("stories/index.html", S.page("Stories", body, path="/stories/",
                                          description="Long reads on the lineal championship belts: the longest reigns, the longest droughts, the wildest seasons and the rivalries that decided them."))
     return cards

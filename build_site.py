@@ -140,7 +140,6 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
             nav.append(f'<a href="/{key}/"{cls}>{label}</a>')
         else:
             nav.append(f'<span class="soon" title="Coming soon">{label}</span>')
-    nav.append(f'<a href="/stories/"{" class=on" if active == "stories" else ""}>Stories</a>')
     nav.append(f'<a href="/rules/"{" class=on" if active == "rules" else ""}>Rules</a>')
     nav.append(f'<a href="/about/"{" class=on" if active == "about" else ""}>About</a>')
     canonical = SITE_URL + path
@@ -368,6 +367,7 @@ def build_home(datas):
       <div class="btns"><a class="btn dark mono" href="/rules/">How it works</a><a class="btn mono" href="#alerts">Get belt alerts</a></div></div>
   </div>
   <div class="tiles">{"".join(tiles)}</div>
+  {college_strip()}
 </section>
 <section class="wrap block">
   <div class="head"><h2 class="disp">Latest title changes</h2><span class="mono note">Every league, newest first</span></div>
@@ -376,7 +376,7 @@ def build_home(datas):
 {home_extras(datas)}
 <section class="rules-band">
   <div class="wrap rules-grid">
-    <div><div class="kicker">The rules, short version</div><h2 class="disp">No committee.<br>No polls.<br>Just the scoreboard.</h2><a class="mono more" href="/rules/">Read the full ruleset →</a></div>
+    <div><div class="kicker">The rules, short version</div><h2 class="disp">One belt.<br>Every game.<br>Win and it's yours.</h2><a class="mono more" href="/rules/">Read the full ruleset →</a></div>
     <div class="steps">
       <div><b class="disp">01</b><h3 class="disp">It starts at game one</h3><p>The winner of each league's first game picks up the belt. Everything since is one unbroken line.</p></div>
       <div><b class="disp">02</b><h3 class="disp">Beat the holder, take it</h3><p>Regular season or playoffs, home or away. A win over the holder is the only way the belt moves.</p></div>
@@ -392,13 +392,33 @@ def build_home(datas):
                              description="Who holds the lineal championship belt in the NFL, NBA, NHL and MLB. Beat the champ, take the belt — tracked game by game since each league began."))
 
 
+def college_strip():
+    """The two college belts (sister sites), with live holders when their
+    api/current.json answers at build time."""
+    import urllib.request
+
+    def holder(url):
+        try:
+            with urllib.request.urlopen(url, timeout=8) as r:
+                return json.loads(r.read().decode("utf-8")).get("holder")
+        except Exception:
+            return None
+
+    cards = []
+    for label, site, api in (("College football", "https://collegefootballbelt.com/", "https://collegefootballbelt.com/api/current.json"),
+                             ("College basketball", "https://collegebasketballbelt.com/", "https://collegebasketballbelt.com/api/current.json")):
+        h = holder(api)
+        cards.append(f'<a class="college" href="{site}"><span class="mono">{label} · sister site</span><b class="disp">{e(h) + " holds it" if h else label + " belt"}</b><span class="mono go">{site.split("//")[1].rstrip("/")} →</span></a>')
+    return f'<div class="colleges">{"".join(cards)}</div>'
+
+
 def home_extras(datas):
     import site_extras
     today = date.today()
     items = site_extras.otd_items(datas).get(f"{today:%m-%d}", [])
     otd = (f'<section class="wrap block"><div class="head"><h2 class="disp">Today in belt history</h2><a class="mono more" href="/on-this-day/">All of {MONTHS_LONG[today.month - 1]} {today.day} →</a></div>'
            f'{site_extras.otd_list(items, 6)}</section>') if items else ""
-    stories = "".join(f'<a class="storycard" href="/stories/{lg["key"]}-{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b></a>'
+    stories = "".join(f'<a class="storycard" href="/{lg["key"]}/stories/{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b></a>'
                       for lg in LIVE for sl_, t in [("longest-reigns", f"The longest reigns in {lg['name']} belt history")])
     return otd + f'<section class="wrap block"><div class="head"><h2 class="disp">Stories</h2><a class="mono more" href="/stories/">All stories →</a></div><div class="storygrid">{stories}</div></section>'
 
@@ -448,7 +468,8 @@ def subnav(lg, on):
     items = [("current", f"/{key}/", "Current"), ("next", f"/{key}/next/", "Next defense"),
              ("history", f"/{key}/history/", "Full history"), ("seasons", f"/{key}/seasons/", "Seasons"),
              ("records", f"/{key}/records/", "Records"), ("teams", f"/{key}/teams/", "Teams"),
-             ("rivalries", f"/{key}/rivalries/", "Rivalries"), ("compare", f"/{key}/compare/", "Compare")]
+             ("rivalries", f"/{key}/rivalries/", "Rivalries"), ("compare", f"/{key}/compare/", "Compare"),
+             ("stories", f"/{key}/stories/", "Stories")]
     links = "".join(f'<a href="{h}"{" class=on" if k == on else ""}>{t}</a>' for k, h, t in items)
     return f'<nav class="subnav mono" aria-label="{lg["name"]} sections"><span>{e(lg["long_name"])}</span>{links}</nav>'
 
