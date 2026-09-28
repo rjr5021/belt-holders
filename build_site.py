@@ -29,7 +29,7 @@ SITE_URL = "https://beltholders.com"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = ""            # e.g. "beltholders" once the GoatCounter site exists
-STYLES_VERSION = "3"
+STYLES_VERSION = "4"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
