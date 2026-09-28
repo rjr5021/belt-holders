@@ -116,6 +116,9 @@ def build(league, refresh=True, today=None):
                  for t in [g["away"] if g["home"] == holder else g["home"]]},
         "what_if": M.what_if(league["key"], games, belt_games, reigns, league["tie_rule"], recent, today,
                               league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
+        "groups": {k: {"label": lab, **gb} for k, (lab, pred) in M.pro_groups(league["key"]).items()
+                   for gb in [M.group_belt(games, pred, league["tie_rule"], recent, today,
+                                           league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS), fut)] if gb},
         "losers": M.losers(league["key"], games, league["tie_rule"], recent, today,
                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
     }

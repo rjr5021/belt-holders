@@ -142,6 +142,8 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
             nav.append(f'<span class="soon" title="Coming soon">{label}</span>')
     nav.append(f'<a href="/rules/"{" class=on" if active == "rules" else ""}>Rules</a>')
     nav.append(f'<a href="/about/"{" class=on" if active == "about" else ""}>About</a>')
+    if og_image == "/og.png" and active in [lg["key"] for lg in LIVE]:
+        og_image = f"/{active}/og.png"
     canonical = SITE_URL + path
     ads = (f'<meta name="google-adsense-account" content="ca-{ADSENSE_PUBLISHER_ID}">'
            f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{ADSENSE_PUBLISHER_ID}" crossorigin="anonymous"></script>'
@@ -168,6 +170,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <meta name="twitter:site" content="@thebeltholders">
 <link rel="icon" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#211a12">
 <link rel="alternate" type="application/rss+xml" title="Belt Holders — title changes" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -758,6 +761,22 @@ def build_api(datas):
     write("api/current.json", json.dumps(out, indent=1))
 
 
+def build_meta_files(datas):
+    lines = ["# Belt Holders", "", "> Lineal championship belts for the NFL, NBA, NHL and MLB. The belt passes to whoever beats the holder, game by game, back to each league's first game. Updated every two hours.", ""]
+    for lg in LIVE:
+        d = datas[lg["key"]]
+        cur = d["current"]
+        lines += [f"## {lg['long_name']}", f"- Current holder: {cur['name']} (since {cur['start_date']}, {cur.get('defenses', 0)} defenses)",
+                  f"- [Current holder and next defense]({SITE_URL}/{lg['key']}/)", f"- [Every reign]({SITE_URL}/{lg['key']}/history/)",
+                  f"- [Records]({SITE_URL}/{lg['key']}/records/)", f"- [Data downloads (CSV)]({SITE_URL}/{lg['key']}/data/)", ""]
+    lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com"]
+    write("llms.txt", "\n".join(lines) + "\n")
+    write("manifest.json", json.dumps({"name": "Belt Holders", "short_name": "Belt Holders", "start_url": "/", "display": "standalone",
+                                       "background_color": "#e7e2d5", "theme_color": "#211a12",
+                                       "icons": [{"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                                                 {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}]}, indent=1))
+
+
 def copy_assets():
     for f in ("styles.css", "favicon.png", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
@@ -783,6 +802,7 @@ def main():
     build_static_pages(datas)
     build_api(datas)
     build_feed(datas)
+    build_meta_files(datas)
     build_sitemap()
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
