@@ -29,6 +29,7 @@ from datetime import date, datetime
 from leagues import COMING, GROUPS, LIVE, ORDER, PRIMARY
 
 SITE_URL = "https://beltholders.com"
+SITE_NAME = "Belt Holders"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
@@ -139,6 +140,45 @@ NOINDEX = set()      # paths written with a noindex robots tag; build_sitemap le
 TITLE_SUFFIX = " | Belt Holders"
 TITLE_MAX = 65
 
+# NET-6: a BreadcrumbList on every inner page, built from the path. A segment gets a crumb only when it
+# names a league or one of these sections (each has its own index page; main() checks that they exist).
+CRUMB_SECTIONS = {"games": "Belt games", "players": "Players", "teams": "Teams", "reigns": "Reigns", "seasons": "Seasons",
+                  "rivalries": "Rivalries", "history": "History", "decades": "Decades", "losers-belt": "Losers belt",
+                  "leagues": "Leagues", "stories": "Stories", "on-this-day": "On this day"}
+CRUMB_REFS = set()
+
+
+def auto_crumbs(path, title):
+    segs = [x for x in path.strip("/").split("/") if x]
+    if not segs or path.endswith(".html"):
+        return None
+    names = {lg["key"]: f"{lg['name']} belt" for lg in LIVE}
+    items, acc = [("Belt Holders", "/")], ""
+    for i, sg in enumerate(segs[:-1]):
+        acc += "/" + sg
+        label = names.get(sg) if i == 0 else CRUMB_SECTIONS.get(sg)
+        if i == 0 and not label:
+            label = CRUMB_SECTIONS.get(sg)
+        if label:
+            items.append((label, acc + "/"))
+            CRUMB_REFS.add(acc + "/")
+    items.append((title, path))
+    return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE_URL + u}
+                                                           for i, (n, u) in enumerate(items)]}
+
+
+def ld_graph(jsonld, path, title, extra_top=()):
+    """All of a page's JSON-LD in one @graph, plus the automatic breadcrumbs when the page has none."""
+    items = [dict(x) for x in (jsonld if isinstance(jsonld, list) else [jsonld] if jsonld else [])]
+    for x in items:
+        x.pop("@context", None)
+    if path != "/" and not any(x.get("@type") == "BreadcrumbList" for x in items):
+        bc = auto_crumbs(path, title)
+        if bc:
+            items.append(bc)
+    items = list(extra_top) + items
+    return {"@context": "https://schema.org", "@graph": items} if items else None
+
 
 def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None, robots=None, og_title=None):
     if robots and "noindex" in robots:
@@ -170,10 +210,9 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
                     "logo": SITE_URL + "/icon-512.png", "sameAs": ['https://x.com/thebeltholders', 'https://www.instagram.com/thebeltholders', 'https://collegefootballbelt.com', 'https://collegebasketballbelt.com']},
                    {"@type": "WebSite", "@id": SITE_URL + "/#site", "name": 'Belt Holders', "url": SITE_URL + "/", "publisher": {"@id": SITE_URL + "/#org"},
                     "potentialAction": {"@type": "SearchAction", "target": SITE_URL + "/search/?q={query}", "query-input": "required name=query"}}]
-        extra = [dict(x) for x in (jsonld if isinstance(jsonld, list) else [jsonld] if jsonld else [])]
-        for x in extra:
-            x.pop("@context", None)
-        jsonld = {"@context": "https://schema.org", "@graph": site_ld + extra}
+    else:
+        site_ld = []
+    jsonld = ld_graph(jsonld, path, title, site_ld)
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
     full_title = og_title or (title if "Belt Holders" in title else f"{title} · Belt Holders")   # og:title keeps the long form
     # BH-10: the <title> gets the " | Belt Holders" suffix only while it stays within 65 characters
@@ -1035,6 +1074,9 @@ def main():
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"Built {n} files into {OUT}/")
+    gone = sorted(x for x in CRUMB_REFS if not os.path.exists(os.path.join(OUT, x.strip("/"), "index.html")))
+    if gone:
+        print(f"WARNING: {len(gone)} breadcrumb targets have no page: {gone[:8]}")
     import indexnow
     indexnow.write(OUT)
 
