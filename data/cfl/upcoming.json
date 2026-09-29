@@ -1,0 +1,162 @@
+[
+ {
+  "id": "cfl-2026-10-02-SSK-CGY",
+  "date": "2026-10-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSK",
+  "away": "CGY",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-02-OTT-HAM",
+  "date": "2026-10-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OTT",
+  "away": "HAM",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-03-TOR-BC",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "TOR",
+  "away": "BC",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-03-MTL-WPG",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "MTL",
+  "away": "WPG",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-09-BC-OTT",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "BC",
+  "away": "OTT",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-09-HAM-EDM",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "HAM",
+  "away": "EDM",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-10-WPG-CGY",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "WPG",
+  "away": "CGY",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-12-MTL-SSK",
+  "date": "2026-10-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "MTL",
+  "away": "SSK",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-16-EDM-WPG",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "EDM",
+  "away": "WPG",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-16-OTT-TOR",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OTT",
+  "away": "TOR",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-17-CGY-BC",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CGY",
+  "away": "BC",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-17-SSK-MTL",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSK",
+  "away": "MTL",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-23-BC-WPG",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "BC",
+  "away": "WPG",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-23-TOR-MTL",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "TOR",
+  "away": "MTL",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-24-SSK-EDM",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSK",
+  "away": "EDM",
+  "neutral": "",
+  "start_et": null
+ },
+ {
+  "id": "cfl-2026-10-24-HAM-OTT",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "HAM",
+  "away": "OTT",
+  "neutral": "",
+  "start_et": null
+ }
+]
