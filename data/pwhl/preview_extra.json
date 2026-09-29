@@ -1,20 +1,20 @@
 {
  "key": "VAN|SEA|2026-12-05",
- "updated": "2026-09-29T18:35Z",
+ "updated": "2026-09-29T18:39Z",
  "start_utc": "2026-12-05T20:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Vancouver Goldeneyes put their Belt Holders championship on the line when they host the Seattle Torrent on December 5th. Vancouver captured the belt in their current reign and has defended it once, while Seattle has never held the belt in franchise history. This marks the first time these division rivals will meet with the lineal title at stake.",
+  "overview": "The Vancouver Goldeneyes put their Belt Holders championship on the line when they host the Seattle Torrent on December 5th. Vancouver has defended the belt once in their current reign and will look to extend their dominance over Seattle, having won all four meetings in the all-time series. This marks the first time these teams have ever met with the belt at stake.",
   "key_matchups": [
-   "Vancouver's four-game winning streak versus Seattle's recent stumble after a narrow 1-2 loss to Montr\u00e9al",
-   "The Goldeneyes' perfect 4-0 all-time record against the Torrent, including two meetings earlier this season",
-   "Seattle's quest to finally capture the belt after never holding it, facing a confident Vancouver squad riding momentum"
+   "Vancouver's four-game winning streak versus Seattle's recent 2-1 loss to Montr\u00e9al\u2014momentum clearly favors the home side",
+   "Seattle seeking their first-ever belt and their first-ever win against Vancouver after going 0-4 in the all-time series",
+   "Recent high-scoring affairs between these teams, with three of the last four meetings decided by one goal"
   ],
-  "betting_angles": "Vancouver enters as a 65% favorite per the Elo model, backed by a four-game winning streak and a perfect 4-0 head-to-head record against Seattle. The Torrent's 9-21 record and recent loss suggest they're struggling, though they did push Vancouver to 6-5 and 5-4 margins in two of their last meetings. Recent games between these teams have consistently been high-scoring affairs, with three of the last four meetings featuring at least 7 total goals.",
+  "betting_angles": "Vancouver holds every statistical advantage: a four-game winning streak, 4-0 all-time dominance over Seattle, and a 65% win probability from the Elo model. Seattle comes in on a loss and sits at 9-21 on the season compared to Vancouver's 12-18 mark. The recent head-to-head meetings have been tight affairs with narrow margins, though Vancouver prevailed in all four, suggesting close games that ultimately break the Goldeneyes' way.",
   "predicted_winner": "Vancouver Goldeneyes",
-  "predicted_score": "Vancouver Goldeneyes 5, Seattle Torrent 3",
-  "prediction_writeup": "Vancouver's perfect head-to-head record against Seattle and current four-game winning streak make them the clear favorite to retain the belt. While Seattle has never beaten the Goldeneyes in four tries, they have shown the ability to score against this opponent, putting up 5 goals in their most recent meeting despite the loss. The Torrent's 9-21 record and recent defeat to Montr\u00e9al suggest they lack the form to overcome Vancouver's home-ice advantage and momentum. Expect another high-scoring affair, but the Goldeneyes should have enough firepower to keep the belt for at least one more defense.",
+  "predicted_score": "Vancouver Goldeneyes 4, Seattle Torrent 3",
+  "prediction_writeup": "Vancouver has owned this matchup historically, winning all four meetings including both encounters earlier this season by 4-1 and 6-5 margins. The Goldeneyes are riding a four-game winning streak and have the home ice advantage. While Seattle has shown they can score\u2014evidenced by the 5-6 and 5-4 results in recent games\u2014they haven't figured out how to finish against Vancouver. Expect another tight, high-scoring contest, but the trends and Elo model both point to the belt staying in Vancouver.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }
