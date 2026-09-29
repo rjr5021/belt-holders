@@ -857,9 +857,11 @@ def main():
     if missing:
         print("no lineage yet, skipping:", missing)
         LIVE[:] = [lg for lg in LIVE if lg["key"] not in missing]
+    import features
     for lg in LIVE:
         with open(os.path.join("data", lg["key"], "lineage.json")) as f:
             datas[lg["key"]] = json.load(f)
+        features.plan_game_pages(lg, datas[lg["key"]])      # which games get their own page (BH-2)
     build_home(datas)
     build_leagues_page(datas)
     for lg in LIVE:

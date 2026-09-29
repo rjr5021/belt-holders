@@ -41,3 +41,21 @@ team names and colors, and add its `LEAGUE` dict to `LIVE` in `leagues.py`
 - `ADSENSE_PUBLISHER_ID` — set to `pub-3317069252410560` once the site is
   approved in AdSense (adds the ad script and ads.txt).
 - `GOATCOUNTER_CODE` — set once a GoatCounter site exists.
+
+## Site budget
+
+GitHub Pages refuses a published site over 1 GB and times out deployments after 10 minutes.
+`deploy.yml` fails the build when `site/` passes 900 MB on disk (the "Site size guard" step
+prints the size in each run's summary). The levers, all in `features.py` (shared with the
+College Basketball Belt repo):
+
+- `MIN_PLAYER_GAMES` (3): players with fewer belt games are table rows, not pages.
+- Game pages: only title changes that opened a reign of 5+ defenses, the current reign or
+  the first game on record, games with a box score, and games with a recap get
+  `games/<n>/`. Every other belt game is the `#g<n>` anchor on its season page
+  (`plan_game_pages`).
+- `BOX_PAGES_FROM` ({"mlb": 1988}): older box scores aren't rendered, and
+  `mlb_boxscores.py` stops its backfill at the same season (`MLB_BOX_FROM`).
+
+On 2026-09-29 these took the site from 1,002 MB / 51,807 files to about 744 MB / 29,900 files.
+

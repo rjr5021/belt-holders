@@ -22,6 +22,9 @@ PKS = os.path.join("data", "mlb", "box", "pk_map.json")
 SCHED = "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate={y}-02-01&endDate={y}-12-15&gameType=R,F,D,L,W,S"
 BOXURL = "https://statsapi.mlb.com/api/v1/game/{pk}/boxscore"
 MAX_PER_RUN = int(os.environ.get("MLB_BOX_MAX", "1500"))
+# Oldest season to fetch (BH-2/BH-15): matches features.BOX_PAGES_FROM["mlb"]; older box
+# scores wouldn't be rendered, and each season adds to the repo and the site budget.
+FROM_SEASON = int(os.environ.get("MLB_BOX_FROM", "1988"))
 DEADLINE = time.time() + 60 * float(os.environ.get("BOX_MINUTES", "25"))   # stop and save before the job's time limit
 ORDER = ["AB", "R", "H", "HR", "RBI", "BB", "SO", "IP", "HA", "ER", "K", "BBA"]
 
@@ -68,7 +71,7 @@ def main():
         tail = gid.rsplit("-", 1)[-1]
         if tail.isdigit() and len(tail) >= 5:          # MLB API games carry the id already
             pks[str(bg["n"])] = int(tail)
-        else:
+        elif bg["season"] >= FROM_SEASON:
             need[bg["season"]].append(bg)
     def save():
         os.makedirs(os.path.dirname(BOX), exist_ok=True)
@@ -101,7 +104,7 @@ def main():
         print(f"{y}: mapped {sum(1 for bg in need[y] if pks.get(str(bg['n'])))} of {len(need[y])}")
         time.sleep(0.1)
     # ---- box scores, newest first
-    todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and pks.get(str(bg["n"]))]
+    todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and pks.get(str(bg["n"])) and bg["season"] >= FROM_SEASON]
     print(f"{len(games):,} box scores on file, {len(todo):,} to fetch; this run: up to {MAX_PER_RUN}")
     for i, bg in enumerate(todo[:MAX_PER_RUN]):
         if time.time() > DEADLINE:
