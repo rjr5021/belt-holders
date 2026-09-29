@@ -364,7 +364,61 @@ def update_pwhl():
                          "note": note, "source": "fastRhockey"})
         elif d >= today.isoformat():
             upcoming.append({**base, "start_et": None})
+    try:
+        extra, extra_up = pwhl_hockeytech(rows, today)
+    except Exception as e:  # noqa: BLE001 -- the league feed must never block fastRhockey's own update
+        print(f"[pwhl] HockeyTech supplement failed: {type(e).__name__}: {e}")
+        extra, extra_up = [], []
+    rows += extra
+    if extra_up:          # the league's own schedule is the fresher one
+        upcoming = extra_up
     write("pwhl", rows, upcoming)
+
+
+# BH-14: the PWHL's own stats feed (HockeyTech, the one thepwhl.com's schedule page reads, with the
+# public client key embedded in that page). fastRhockey's schedule file only fills in once a
+# season is underway, so the belt showed no next game all offseason. This adds the current
+# seasons' fixtures and any results fastRhockey doesn't have yet (same game ids, so no duplicates).
+HOCKEYTECH = "https://lscluster.hockeytech.com/feed/index.php?feed=modulekit&key=694cfeed58c932ee&client_code=pwhl&fmt=json"
+
+
+def _pwhl_season_year(name):
+    m = re.match(r"(\d{4})-\d{2}", name or "")
+    if m:
+        return int(m.group(1))                  # "2026-27 Regular Season" -> 2026
+    m = re.match(r"(\d{4})", name or "")
+    return int(m.group(1)) - 1 if m else None   # "2026 Playoffs" -> the 2025-26 season
+
+
+def pwhl_hockeytech(rows, today):
+    seasons = ((get(HOCKEYTECH + "&view=seasons", as_json=True) or {}).get("SiteKit") or {}).get("Seasons") or []
+    have = {r["id"] for r in rows}
+    done, up = [], []
+    for s in seasons:
+        if s.get("career") != "1" or (s.get("end_date") or "") < (today - timedelta(days=45)).isoformat():
+            continue                            # preseason games don't count; skip seasons long over
+        year = _pwhl_season_year(s.get("season_name"))
+        sched = ((get(HOCKEYTECH + f"&view=schedule&season_id={s['season_id']}", as_json=True) or {}).get("SiteKit") or {}).get("Schedule") or []
+        for g in sched:
+            gid = f"pwhl-{g['game_id']}"
+            base = {"id": gid, "date": g["date_played"], "season": year,
+                    "season_type": "postseason" if s.get("playoff") == "1" else "regular",
+                    "home": str(g["home_team"]), "away": str(g["visiting_team"]), "neutral": ""}
+            if g.get("final") == "1":
+                if gid not in have:
+                    note = "SO" if g.get("shootout") == "1" else ("OT" if g.get("overtime") == "1" else "")
+                    done.append({**base, "home_points": int(g["home_goal_count"]), "away_points": int(g["visiting_goal_count"]),
+                                 "note": note, "source": "hockeytech"})
+            elif g["date_played"] >= today.isoformat():
+                t = None if g.get("time_tbd") == "1" else (g.get("GameDateISO8601") or "")
+                if t:
+                    try:
+                        t = datetime.fromisoformat(t).astimezone(ET).strftime("%H:%M")
+                    except ValueError:
+                        t = None
+                up.append({**base, "start_et": t})
+    print(f"[pwhl] HockeyTech: {len(done)} results fastRhockey doesn't have, {len(up)} upcoming")
+    return done, up
 
 
 # ========================================================== ESPN helpers ==
