@@ -497,7 +497,7 @@ def college_strip():
   <div class="tile-body">{body}</div>
   <div class="tile-foot">{foot}</div>
 </a>""")
-    return f'<div class="colleges">{"".join(cards)}</div>'
+    return f'<div class="head sub-head"><h2 class="disp">College</h2></div><div class="colleges">{"".join(cards)}</div>'
 
 
 def home_extras(datas):
