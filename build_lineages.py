@@ -127,7 +127,7 @@ def build(league, refresh=True, today=None):
     }
     out = {
         "models": models,
-        "seasons": X.seasons(league, games, belt_games, reigns, today),
+        "seasons": X.seasons(league, games, belt_games, reigns, today, upcoming),
         "rivalries": X.rivalries(league, belt_games),
         "preview": preview,
         "league": league["key"], "name": league["name"], "long_name": league["long_name"],
