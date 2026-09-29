@@ -1,6 +1,7 @@
-# NFL (nflverse, 1999+), MLB (Stats API) and NHL (NHL game center) box scores for belt
-# games. The MLB and NHL backfills run in chunks (BOX_MINUTES each per run), so this
-# runs every 6 hours; each league commits its own progress as soon as it finishes.
+# NFL (nflverse, 1999+), MLB (Stats API, 1988+) and NHL (NHL game center) box scores for
+# belt games. One job per league (BH-15), so a slow MLB backfill can't starve the NHL and
+# one league's failure shows on its own. The backfills run in chunks (BOX_MINUTES each
+# per run), every 6 hours; each job commits its own league's progress.
 name: NFL, NHL and MLB box scores
 
 on:
@@ -11,17 +12,20 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: box
-  cancel-in-progress: false
-
 env:
   BOX_MINUTES: "25"
 
 jobs:
   box:
     runs-on: ubuntu-latest
-    timeout-minutes: 110
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        league: [nfl, mlb, nhl]
+    concurrency:
+      group: box-${{ matrix.league }}
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,33 +37,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Build lineages
         run: python build_lineages.py
-      - name: NFL box scores
-        run: python -u nfl_boxscores.py
-        continue-on-error: true
-      - name: Commit NFL
+      - name: Box scores
+        # No continue-on-error: a run where every request fails exits 1 and shows red (NET-2).
+        run: python -u ${{ matrix.league }}_boxscores.py
+      - name: Commit
         if: always()
         run: |
-          git add -A data/nfl/box
+          git add -A data/${{ matrix.league }}/box
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "NFL belt box scores [skip ci]"
-          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
-      - name: MLB box scores
-        run: python -u mlb_boxscores.py
-        continue-on-error: true
-      - name: Commit MLB
-        if: always()
-        run: |
-          git add -A data/mlb/box
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "MLB belt box scores [skip ci]"
-          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
-      - name: NHL box scores
-        run: python -u nhl_boxscores.py
-        continue-on-error: true
-      - name: Commit NHL
-        if: always()
-        run: |
-          git add -A data/nhl/box
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "NHL belt box scores [skip ci]"
-          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
+          L=$(echo ${{ matrix.league }} | tr a-z A-Z)
+          git commit -m "$L belt box scores [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 9)); done
