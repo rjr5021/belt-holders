@@ -15,6 +15,7 @@ the College Basketball Belt's team list). Everything degrades to plain links if 
 
 import json
 import os
+import re
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -150,22 +151,43 @@ def _card(S, b, today):
 </a>"""
 
 
+ESPN_EXTRA = {"cfb": "football/college-football", "cbb": "basketball/mens-college-basketball",
+              "wcbb": "basketball/womens-college-basketball"}
+
+
+def _espn_path(key):
+    return F.ESPN.get(key) or ESPN_EXTRA.get(key)
+
+
 def _game_row(S, b, today):
     e = S.e
     n = b["next"]
+    names = [x for x in (b.get("holder"), b.get("holder_short"), n.get("opponent"), n.get("opponent_short")) if x]
+    live = (f' data-espn="{_espn_path(b["key"])}" data-names="{e("|".join(names))}"') if _espn_path(b["key"]) else ""
     where = "vs." if n["home"] or n["neutral"] else "at"
     t = S.kickoff_12h(n.get("time_et")) if n.get("time_et") else "Time TBA"
     odds = f'{round(n["win_prob"] * 100)}% to defend' if n.get("win_prob") is not None else ""
     tv = e(n["tv"]) if n.get("tv") else ""
-    return (f'<tr data-date="{n["date"]}"><td class="mono">{t}</td><td><span class="mono lg">{e(b["short"])}</span></td>'
-            f'<td><i style="background:{b["colors"][0]}"></i><b>{e(b["holder_short"])}</b> {where} {e(n["opponent_short"] or n["opponent"] or "")}</td>'
+    return (f'<tr data-date="{n["date"]}"{live}><td class="mono">{t}</td><td><span class="mono lg">{e(b["short"])}</span></td>'
+            f'<td><i style="background:{b["colors"][0]}"></i><b>{e(b["holder_short"])}</b> {where} {e(n["opponent_short"] or n["opponent"] or "")}'
+            f'<span class="mono livescore"></span></td>'
             f'<td class="mono">{odds}</td><td class="mono">{tv}</td><td class="r"><a class="mono" href="{n["url"]}">Preview →</a></td></tr>')
 
 
 TODAY_JS = """<script>(function(){try{var p=new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York"}).format(new Date());
 document.querySelectorAll("[data-day]").forEach(function(s){if(s.dataset.day<p)s.remove();});
 var t=document.querySelector("[data-day='"+p+"'] h2");if(t)t.textContent="Today";
-var tm=new Date(Date.parse(p+"T12:00:00Z")+864e5).toISOString().slice(0,10),u=document.querySelector("[data-day='"+tm+"'] h2");if(u)u.textContent="Tomorrow";}catch(e){}})();</script>"""
+var tm=new Date(Date.parse(p+"T12:00:00Z")+864e5).toISOString().slice(0,10),u=document.querySelector("[data-day='"+tm+"'] h2");if(u)u.textContent="Tomorrow";
+/* Phase 4 (audit 7.1): live scores for today's belt games, from ESPN's public scoreboards */
+var rows=[].slice.call(document.querySelectorAll("tr[data-espn][data-date='"+p+"']"));if(!rows.length||!window.fetch)return;
+var low=function(x){return String(x||"").toLowerCase();},paths={};rows.forEach(function(r){(paths[r.dataset.espn]=paths[r.dataset.espn]||[]).push(r);});
+function tick(){Object.keys(paths).forEach(function(path){fetch("https://site.api.espn.com/apis/site/v2/sports/"+path+"/scoreboard?dates="+p.replace(/-/g,"")+"&limit=400").then(function(r){return r.json();}).then(function(j){
+paths[path].forEach(function(row){var names=row.dataset.names.split("|").map(low);(j.events||[]).some(function(ev){var c=ev.competitions[0].competitors;
+var hit=function(x){var tm=x.team||{};return [tm.displayName,tm.shortDisplayName,tm.name,tm.location].some(function(n){return names.indexOf(low(n))>=0;});};
+if(!(hit(c[0])&&hit(c[1])))return false;var st=ev.status.type;if(st.state==="pre")return true;
+var sc=c.map(function(x){return (x.team.abbreviation||x.team.shortDisplayName)+" "+x.score;}).join(" \u2013 ");
+row.querySelector(".livescore").textContent=" \u00b7 "+(st.state==="in"?"LIVE ":"")+sc+" \u00b7 "+(st.shortDetail||"");row.classList.toggle("islive",st.state==="in");return true;});});}).catch(function(){});});}
+tick();setInterval(tick,60000);}catch(e){}})();</script>"""
 
 
 def build_pages(S, datas):
@@ -179,8 +201,9 @@ def build_pages(S, datas):
   <div class="head"><h1 class="disp">Every belt right now</h1><span class="mono note">{len(bs)} lineal belts · {len(playing)} on the line this week</span></div>
   <p class="intro">Every lineal championship we track, on one page: the {len(bs) - 3} pro leagues here at Belt Holders, plus the college football belt and the men's and women's college basketball belts. Soonest belt game first.{(' Frozen right now: ' + ', '.join(S.e(b['short']) + ' (' + S.e(b['holder_short']) + ')' for b in frozen) + ', done for the season but still holding.') if frozen else ''}</p>
   <div class="tiles small">{cards}</div>
-  <p class="mono more"><a href="/today/">Belt games today and this week →</a> · <a href="/api/network.json">network.json</a></p>
-</section>"""
+  <p class="mono more"><a href="/today/">Belt games today and this week →</a> · <a href="/network/doubles/">Double belts →</a> · <a href="/network/cities/">Belt cities →</a> · <a href="/all/feed.xml">Every title change (RSS)</a> · <a href="/api/network.json">network.json</a></p>
+</section>
+{widgets_html(S, datas, today)}"""
     S.write("all/index.html", S.page("Every belt right now", body, path="/all/", active="leagues",
                                      description=f"All {len(bs)} lineal championship belts on one page: NFL, NBA, NHL, MLB, soccer, college football and college basketball. Who holds each one and when it's next on the line."))
     by_day = {}
@@ -242,7 +265,8 @@ def college_changes():
             line = (f'<li><span class="mono lg">{H.escape(label)}</span><i style="background:var(--brass)"></i>'
                     f'<div>{H.escape(w)} beat {H.escape(l)} {_winner_first(g.get("score"))} and took the belt</div>'
                     f'<a class="mono when" href="{link(g)}">{g["date"][:4]}</a></li>')
-            by.setdefault(g["date"][5:10], []).append({"date": g["date"], "html": line})
+            by.setdefault(g["date"][5:10], []).append({"date": g["date"], "html": line, "belt": label, "w": w, "l": l,
+                                                       "score": _winner_first(g.get("score")), "url": link(g)})
     for k in by:
         by[k].sort(key=lambda x: x["date"], reverse=True)
     _CACHE["otd"] = by
@@ -315,3 +339,173 @@ def build_network_feed(S, out="site", limit=100):
             "<description>Every lineal title change on every belt: the pro leagues on Belt Holders, college football and men's and women's college basketball.</description>"
             f"<lastBuildDate>{now}</lastBuildDate>{body}</channel></rss>")
     return len(items)
+
+
+# ------------------------------------------------ Phase 4: cross-belt widgets --
+
+def widgets_html(S, datas, today=None):
+    """Audit 7.20 on the homepage and /all/: belts that moved this week, the longest current
+    reigns across every belt, and this week's upset watch (holders under 40% to defend)."""
+    from leagues import LIVE
+    e = S.e
+    today = today or date.today()
+    week_ago = (today - timedelta(days=7)).isoformat()
+    moved = []
+    for lg in LIVE:
+        for r in datas[lg["key"]]["reigns"]:
+            if r.get("won_from") and r["start_date"] >= week_ago:
+                moved.append((r["start_date"], lg["name"], lg["short_name"](r["team"]), lg["short_name"](r["won_from"]),
+                              f"/{lg['key']}/"))
+    for items in college_changes().values():
+        for x in items:
+            if x["date"] >= week_ago:
+                moved.append((x["date"], x["belt"], x["w"], x["l"], x["url"]))
+    moved.sort(reverse=True)
+    bs = belts(datas)
+    longest = sorted((b for b in bs if b.get("since")), key=lambda b: b["since"])[:5]
+    week = (today + timedelta(days=7)).isoformat()
+    upsets = sorted((b for b in bs if b.get("next") and b["next"].get("win_prob") is not None
+                     and b["next"]["date"] <= week and b["next"]["win_prob"] < 0.4), key=lambda b: b["next"]["win_prob"])
+    li = lambda rows: "".join(rows) or '<li><span class="mono">Nothing yet this week.</span></li>'
+    c1 = li(f'<li><span><b>{e(w)}</b> took the {e(belt)} belt from {e(l)}</span><a class="mono" href="{u}">{S.d_short(dt)}</a></li>'
+            for dt, belt, w, l, u in moved[:6])
+    c2 = li(f'<li><span><b>{e(b["holder_short"])}</b> · {e(b["short"])}</span><b class="mono">{(today - date.fromisoformat(b["since"])).days:,} days</b></li>'
+            for b in longest)
+    c3 = li(f'<li><span><b>{e(b["holder_short"])}</b> ({e(b["short"])}) {"vs." if b["next"]["home"] or b["next"]["neutral"] else "at"} {e(b["next"]["opponent_short"] or "")}</span>'
+            f'<b class="mono">{round(b["next"]["win_prob"] * 100)}% to defend</b></li>' for b in upsets[:6])
+    return f"""<section class="wrap block">
+  <div class="head"><h2 class="disp">Across every belt</h2><span class="mono note">All 19 belts, updated every two hours</span></div>
+  <div class="three">
+    <div class="card"><div class="kicker">Belts that moved this week</div><ol class="lb">{c1}</ol></div>
+    <div class="card"><div class="kicker">Longest current reigns</div><ol class="lb">{c2}</ol></div>
+    <div class="card"><div class="kicker">Upset watch: under 40% to defend</div><ol class="lb">{c3}</ol></div>
+  </div>
+</section>"""
+
+
+# --------------------------------------------- Phase 4: doubles and cities --
+
+def _intervals(reigns, today):
+    for r in reigns:
+        s = r.get("start_date")
+        if not s:
+            continue
+        yield s, (r.get("end_date") or today.isoformat())
+
+
+def build_doubles(S, today=None):
+    """Audit 5.6: schools that held two college belts at once (football, men's and women's
+    basketball), from the three sites' api/reigns.json."""
+    e = S.e
+    today = today or date.today()
+    srcs = [("Football", "https://collegefootballbelt.com/api/reigns.json"),
+            ("Men's hoops", "https://collegebasketballbelt.com/api/reigns.json"),
+            ("Women's hoops", "https://collegebasketballbelt.com/women/api/reigns.json")]
+    norm = lambda n: re.sub(r"[^a-z0-9]+", "-", (n or "").lower()).strip("-")
+    by = {}
+    got = 0
+    for belt, api in srcs:
+        j = fetch(api) or {}
+        rs = j.get("reigns") or []
+        got += bool(rs)
+        for r in rs:
+            name = r.get("name") or r.get("team")
+            by.setdefault(norm(name), {"name": name, "belts": {}})["belts"].setdefault(belt, []).append(r)
+    if got < 2:        # the sister sites didn't answer this build: keep the URL alive, out of the index
+        S.write("network/doubles/index.html", S.page("Double belts: schools that held two at once",
+                """<section class="wrap prose"><div class="kicker">The belt network</div><h1 class="disp">Double belts</h1>
+<p>Schools that held two lineal college belts at once. The college sites didn't answer this build, so the list is back on the next one.</p>
+<p><a href="/all/">Every belt right now →</a></p></section>""", path="/network/doubles/", active="leagues",
+                description="Schools that held two lineal college belts at once.", robots="noindex,follow"))
+        return 0
+    rows, now = [], []
+    for k, x in by.items():
+        bl = list(x["belts"].items())
+        for i in range(len(bl)):
+            for j in range(i + 1, len(bl)):
+                (b1, r1), (b2, r2) = bl[i], bl[j]
+                for s1, e1 in _intervals(r1, today):
+                    for s2, e2 in _intervals(r2, today):
+                        lo, hi = max(s1, s2), min(e1, e2)
+                        if lo <= hi:
+                            days = (date.fromisoformat(hi) - date.fromisoformat(lo)).days + 1
+                            rows.append((days, x["name"], b1, b2, lo, hi))
+                            if hi >= today.isoformat():
+                                now.append((x["name"], b1, b2, lo))
+    rows.sort(key=lambda r: (-r[0], r[4]))
+    schools = len({r[1] for r in rows})
+    trs = "".join(f'<tr><td>{e(n)}</td><td class="mono">{e(a)} + {e(b)}</td><td class="mono">{S.d_short(lo, True)}</td>'
+                  f'<td class="mono">{"now" if hi >= today.isoformat() else S.d_short(hi, True)}</td><td class="mono r">{d:,}</td></tr>'
+                  for d, n, a, b, lo, hi in rows)
+    lede = ("Right now: " + "; ".join(f"{e(n)} holds the {e(a).lower()} and {e(b).lower()} belts, together since {S.d_long(lo)}" for n, a, b, lo in now) + "."
+            if now else "Nobody holds two college belts at the moment.")
+    body = f"""<section class="wrap block">
+  <div class="kicker">The belt network</div>
+  <div class="head"><h1 class="disp">Double belts</h1><span class="mono note">{len(rows)} stretches · {schools} schools</span></div>
+  <p class="intro">Schools that held two lineal college belts at the same time: the College Football Belt, and the men's and women's College Basketball Belts. {lede}</p>
+  <div class="tablewrap"><table class="history"><thead><tr><th class="mono">School</th><th class="mono">Belts</th><th class="mono">From</th><th class="mono">To</th><th class="mono r">Days</th></tr></thead><tbody>{trs}</tbody></table></div>
+  <p class="mono more"><a href="/all/">Every belt right now →</a> · <a href="/network/cities/">Belt cities →</a></p>
+</section>"""
+    S.write("network/doubles/index.html", S.page("Double belts: schools that held two at once", body, path="/network/doubles/", active="leagues",
+                                                 description=f"{schools} schools have held two lineal college belts at once, football and basketball. Every overlap, longest first."))
+    return len(rows)
+
+
+METRO = {"Brooklyn": "New York", "Newark": "New York", "East Rutherford": "New York", "Foxborough": "Boston",
+         "Landover": "Washington", "Sunrise": "Miami", "Anaheim": "Los Angeles", "Oakland": "San Francisco Bay Area",
+         "San Francisco": "San Francisco Bay Area", "San Jose": "San Francisco Bay Area", "Arlington": "Dallas",
+         "Glendale": "Phoenix", "Tempe": "Phoenix", "Inglewood": "Los Angeles", "Frisco": "Dallas"}
+
+
+def build_cities(S, datas, today=None):
+    """Audit 5.6: which cities hold the most pro belts right now, and ever."""
+    from leagues import LIVE
+    e = S.e
+    today = today or date.today()
+    days, now, spans = {}, {}, []
+    for lg in LIVE:
+        d = datas[lg["key"]]
+        for r in d["reigns"]:
+            season = r.get("season") or int(r["start_date"][:4])
+            pl = F._place(lg, r["team"], season)
+            if not pl:
+                continue
+            city = METRO.get(pl[0], pl[0])
+            end = r.get("end_date") or today.isoformat()
+            days.setdefault(city, {}).setdefault(lg["name"], 0)
+            days[city][lg["name"]] += r.get("days") or 0
+            spans.append((city, r["start_date"], end, lg["name"]))
+            if not r.get("end_date"):
+                now.setdefault(city, []).append((lg["name"], lg["short_name"](r["team"])))
+    if not days:
+        return 0
+    # most belts held at once, per city (sweep over start/end events)
+    best = {}
+    ev = {}
+    for city, s0, e0, lgn in spans:
+        ev.setdefault(city, []).extend([(s0, 1, lgn), (e0, -1, lgn)])     # [start, end): the day a belt moves counts once
+    for city, xs in ev.items():
+        xs.sort(key=lambda x: (x[0], x[1]))
+        cur = 0
+        for dt, step, lgn in xs:
+            cur += step
+            if cur > best.get(city, (0, ""))[0]:
+                best[city] = (cur, dt)
+    tot = sorted(((sum(v.values()), c) for c, v in days.items()), reverse=True)[:25]
+    rows = "".join(f'<tr><td class="mono n">{i}</td><td>{e(c)}</td><td class="mono r">{t:,}</td><td class="mono r">{best.get(c, (0,))[0]}</td>'
+                   f'<td class="mono">{S.d_short(best[c][1], True) if c in best else ""}</td><td class="mono">{e(", ".join(sorted(days[c], key=lambda k: -days[c][k])[:4]))}</td></tr>'
+                   for i, (t, c) in enumerate(tot, 1))
+    nowrows = sorted(now.items(), key=lambda kv: -len(kv[1]))
+    nl = "".join(f'<li><span><b>{e(c)}</b>: {e(", ".join(f"{a} ({b})" for a, b in v))}</span><b class="mono">{len(v)}</b></li>' for c, v in nowrows[:10])
+    body = f"""<section class="wrap block">
+  <div class="kicker">The belt network</div>
+  <div class="head"><h1 class="disp">Belt cities</h1><span class="mono note">North American pro leagues</span></div>
+  <p class="intro">Where the pro belts live: the cities holding the most belts right now, and the ones that have held them longest across every league, with the most belts each city ever held at once. Suburban stadiums count for their metro area.</p>
+  <div class="card"><div class="kicker">Right now</div><ol class="lb">{nl}</ol></div>
+  <h2 class="disp sub">All-time, by days held</h2>
+  <div class="tablewrap"><table class="history"><thead><tr><th class="mono">#</th><th class="mono">City</th><th class="mono r">Days held</th><th class="mono r">Most at once</th><th class="mono">First reached</th><th class="mono">Leagues</th></tr></thead><tbody>{rows}</tbody></table></div>
+  <p class="mono more"><a href="/all/">Every belt right now →</a> · <a href="/network/doubles/">Double belts →</a></p>
+</section>"""
+    S.write("network/cities/index.html", S.page("Belt cities: where the pro belts live", body, path="/network/cities/", active="leagues",
+                                                description="Which cities hold the most lineal pro championship belts right now, and which have held them longest across the NFL, NBA, NHL, MLB and more."))
+    return len(tot)

@@ -406,6 +406,15 @@ def network_stories():
     return network.network_stories()
 
 
+def _network_widgets(datas):
+    import network
+    try:
+        return network.widgets_html(sys.modules[__name__], datas)
+    except Exception as ex:  # noqa: BLE001 -- a widget must never take the homepage down
+        print("network widgets skipped:", ex)
+        return ""
+
+
 def frozen_note(datas):
     """BH-12: one line on the homepage when a belt is frozen (its holder is out while the league plays on)."""
     fz = [(lg, datas[lg["key"]]) for lg in LIVE if features.belt_state(lg, datas[lg["key"]])["state"] == "postseason_holder_out"]
@@ -483,6 +492,7 @@ def build_home(datas):
   {more_leagues(datas)}
   {college_strip()}
 </section>
+{_network_widgets(datas)}
 <section class="wrap block">
   <div class="head"><h2 class="disp">Latest title changes</h2><span class="mono note">Every league, newest first</span></div>
   <ol class="feed">{feed_rows}</ol>
@@ -1015,6 +1025,8 @@ def main():
     import network                      # the belt network: api/network.json, network-bar.js, /all/, /today/
     network.build_network_json(sys.modules[__name__], datas)
     network.build_pages(sys.modules[__name__], datas)
+    network.build_doubles(sys.modules[__name__])
+    network.build_cities(sys.modules[__name__], datas)
     build_offline()
     build_feed(datas)
     build_meta_files(datas)
