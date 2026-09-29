@@ -164,6 +164,16 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
            if ADSENSE_PUBLISHER_ID else "")
     goat = (f'<script data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
             if GOATCOUNTER_CODE else "")
+    if path == "/":
+        # BH-16/CBB-8/NET-4: Organization + WebSite (with the site search) on the homepage, sameAs the network
+        site_ld = [{"@type": "Organization", "@id": SITE_URL + "/#org", "name": 'Belt Holders', "url": SITE_URL + "/",
+                    "logo": SITE_URL + "/icon-512.png", "sameAs": ['https://x.com/thebeltholders', 'https://www.instagram.com/thebeltholders', 'https://collegefootballbelt.com', 'https://collegebasketballbelt.com']},
+                   {"@type": "WebSite", "@id": SITE_URL + "/#site", "name": 'Belt Holders', "url": SITE_URL + "/", "publisher": {"@id": SITE_URL + "/#org"},
+                    "potentialAction": {"@type": "SearchAction", "target": SITE_URL + "/search/?q={query}", "query-input": "required name=query"}}]
+        extra = [dict(x) for x in (jsonld if isinstance(jsonld, list) else [jsonld] if jsonld else [])]
+        for x in extra:
+            x.pop("@context", None)
+        jsonld = {"@context": "https://schema.org", "@graph": site_ld + extra}
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
     full_title = og_title or (title if "Belt Holders" in title else f"{title} · Belt Holders")   # og:title keeps the long form
     # BH-10: the <title> gets the " | Belt Holders" suffix only while it stays within 65 characters
@@ -184,7 +194,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <meta property="og:image" content="{SITE_URL}{og_image}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@thebeltholders">
-<link rel="icon" href="/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#211a12">
 <link rel="alternate" type="application/rss+xml" title="Belt Holders — title changes" href="/feed.xml">
@@ -216,7 +226,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 
 def alerts_block():
     feed = f"{SITE_URL}/feed.xml"
-    return f"""<section id="alerts" class="alerts">
+    return f"""<section id="alerts" class="alerts" aria-label="Belt alerts">
   <div>
     <h2 class="disp">Know the second a belt changes hands</h2>
     <p>One email per title change. Nothing else.</p>
@@ -487,13 +497,11 @@ def college_strip():
     import urllib.request
 
     def fetch(url):
-        for u in (url, url.replace("https://", "http://", 1)):  # http while a new site's certificate is pending
-            try:
-                with urllib.request.urlopen(u, timeout=10) as r:
-                    return json.loads(r.read().decode("utf-8"))
-            except Exception:
-                continue
-        return None
+        try:          # HTTPS only now that every sister site enforces it (BH-16)
+            with urllib.request.urlopen(url, timeout=10) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except Exception:
+            return None
 
     teams = fetch("https://raw.githubusercontent.com/rjr5021/college-basketball-belt/main/data/teams.json") or []
     colors = {t.get("school"): (t.get("primaryColor"), t.get("secondaryColor")) for t in teams if t.get("school")}
@@ -928,14 +936,15 @@ def build_api(datas):
 
 
 def build_meta_files(datas):
-    lines = ["# Belt Holders", "", "> Lineal championship belts for the NFL, NBA, NHL and MLB. The belt passes to whoever beats the holder, game by game, back to each league's first game. Updated every two hours.", ""]
+    names = [lg["name"] for lg in LIVE]
+    lines = ["# Belt Holders", "", f"> Lineal championship belts for {len(LIVE)} leagues: {', '.join(names[:-1])} and {names[-1]}. The belt passes to whoever beats the holder, game by game, back to each league's first game. Updated every two hours.", ""]
     for lg in LIVE:
         d = datas[lg["key"]]
         cur = d["current"]
         lines += [f"## {lg['long_name']}", f"- Current holder: {cur['name']} (since {cur['start_date']}, {plural(cur.get('defenses', 0), 'defense')})",
                   f"- [Current holder and next defense]({SITE_URL}/{lg['key']}/)", f"- [Every reign]({SITE_URL}/{lg['key']}/history/)",
                   f"- [Records]({SITE_URL}/{lg['key']}/records/)", f"- [Data downloads (CSV)]({SITE_URL}/{lg['key']}/data/)", ""]
-    lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com"]
+    lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com (men's and women's belts)"]
     write("llms.txt", "\n".join(lines) + "\n")
     write("manifest.json", json.dumps({"name": "Belt Holders", "short_name": "Belt Holders", "start_url": "/", "display": "standalone",
                                        "background_color": "#e7e2d5", "theme_color": "#211a12",
@@ -944,7 +953,7 @@ def build_meta_files(datas):
 
 
 def copy_assets():
-    for f in ("styles.css", "favicon.png", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
+    for f in ("styles.css", "favicon.png", "favicon.ico", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
 
 
