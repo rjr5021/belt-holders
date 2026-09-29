@@ -99,7 +99,10 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
         "sport": sport, "load_games": load_games, "recent_teams": recent_teams, "team_name": team_name,
         "team_colors": team_colors, "short_name": short_name, "season_status": season_status,
         "season_label": label, "live": True, "gap_days": gap_days, "rules_note": lambda *a, **k: rules,
-        "sources": sources, "time_word": time_word, "unit": unit, "post_word": post_word,
+        "sources": sources, "time_word": time_word, "unit": unit, "post_word": post_word, "post_tag": post_word,
+        "unit_one": {"clubs": "club", "nations": "nation", "teams": "team"}.get(unit, unit.rstrip("s")),
+        # club and national-team names read as singular ("Bayern Munich defends"); nicknames as plural ("the Aces defend")
+        "singular": unit in ("clubs", "nations"),
     }
     if champions_note:
         lg["champions_note"] = champions_note

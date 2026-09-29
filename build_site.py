@@ -543,8 +543,8 @@ def build_league(lg, d):
 {first_game_block(lg, d)}"""
     ld = {"@context": "https://schema.org", "@type": "SportsTeam", "name": cur["name"], "sport": lg.get("sport", ""),
           "award": f"{lg['long_name']} (lineal), {ordinal(cur['reign_no'])} reign since {cur['start_date']}"}
-    write(f"{key}/index.html", page(f"{lg['long_name']}: {cur['name']} hold it", body, path=f"/{key}/", active=key,
-                                     description=f"{cur['name']} hold the lineal {lg['name']} championship belt. Chain of custody, records and the next title defense, tracked since {lg['first_season']}.",
+    write(f"{key}/index.html", page(f"{lg['long_name']}: {cur['name']} {features.verb(lg, 'hold', 'holds')} it", body, path=f"/{key}/", active=key,
+                                     description=f"{cur['name']} {features.verb(lg, 'hold', 'holds')} the lineal {lg['name']} championship belt. Chain of custody, records and the next title defense, tracked since {lg['first_season']}.",
                                      jsonld=ld))
 
 
@@ -898,7 +898,7 @@ def build_meta_files(datas):
     for lg in LIVE:
         d = datas[lg["key"]]
         cur = d["current"]
-        lines += [f"## {lg['long_name']}", f"- Current holder: {cur['name']} (since {cur['start_date']}, {cur.get('defenses', 0)} defenses)",
+        lines += [f"## {lg['long_name']}", f"- Current holder: {cur['name']} (since {cur['start_date']}, {plural(cur.get('defenses', 0), 'defense')})",
                   f"- [Current holder and next defense]({SITE_URL}/{lg['key']}/)", f"- [Every reign]({SITE_URL}/{lg['key']}/history/)",
                   f"- [Records]({SITE_URL}/{lg['key']}/records/)", f"- [Data downloads (CSV)]({SITE_URL}/{lg['key']}/data/)", ""]
     lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com"]
