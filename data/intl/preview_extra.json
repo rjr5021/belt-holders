@@ -1,3 +1,21 @@
 {
- "key": null
+ "key": "Spain|Croatia|2026-09-29",
+ "updated": "2026-09-29T16:34Z",
+ "start_utc": "2026-09-29T18:45Z",
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "Spain bring a 9-game belt defense streak into this home clash with Croatia, riding a perfect 5-match winning run that includes impressive victories over England, Argentina, and France. Croatia arrive with modest form but experience as former belt holders, having claimed it twice before in their history. This marks the first time these two nations have ever met with the lineal championship on the line.",
+  "key_matchups": [
+   "Spain's perfect 5-game winning streak versus Croatia's inconsistent 5-4 season record",
+   "Home advantage for Spain, who have dominated recent head-to-head meetings with 4 straight wins including 3-0 in their last encounter",
+   "Croatia's playoff struggles (2-2 record) against Spain's flawless playoff form (4-0 in their last 5)"
+  ],
+  "betting_angles": "Spain's recent form is exceptional, with 5 consecutive wins including narrow but consistent playoff victories, while Croatia have alternated between highs and lows all season at 5-4. The head-to-head history heavily favors Spain with 7 wins in 11 meetings, including four straight victories since 2018, three of those by multiple goals. The 72% Elo probability aligns with Spain's 10-0-3 record and their dominant run through playoff competition.",
+  "predicted_winner": "Spain",
+  "predicted_score": "Spain 2, Croatia 1",
+  "prediction_writeup": "Spain have been relentless in their current run, navigating five straight wins including four playoff battles where they've shown the ability to grind out tight results. Their 10-0-3 season record and 9 successful belt defenses demonstrate consistency that Croatia's 5-4 mark cannot match. While Croatia have proven capable of competitive performances and hold two previous belt reigns in their history, their recent playoff record of 2-2 and the four-game losing streak to Spain suggest they'll struggle to break through. Spain's recent narrow wins indicate they may not dominate, but their home advantage and superior form should be enough to extend the belt reign to 10 defenses.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
 }

@@ -1,0 +1,18 @@
+{
+ "Spain|England|2026-09-26": {
+  "date": "2026-09-26",
+  "holder": "Spain",
+  "opponent": "England",
+  "outcome": "retained",
+  "headline": "Spain Keeps Belt with 3-2 Victory Over England",
+  "recap": [
+   "Spain successfully defended the lineal championship belt with a hard-fought 3-2 victory over England in UEFA Nations League action. The closely contested match saw Spain hold off the home side to retain possession of the prestigious belt.",
+   "Having entered the match as belt holders, Spain needed a result to keep the championship in their possession. The narrow one-goal margin proved sufficient as they turned back England's challenge on home soil.",
+   "With the victory, Spain maintains its reign as lineal champion. The belt will remain with Spain until their next opponent manages to defeat them and claim the championship for themselves."
+  ],
+  "leaders": [],
+  "linescore": [],
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}
