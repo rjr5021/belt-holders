@@ -58,6 +58,15 @@ jobs:
       - name: Share images
         run: pip install pillow && python og_images.py || for l in nfl nba nhl mlb; do cp site/og.png site/$l/og.png; done
         continue-on-error: true
+      - name: Site size guard (GitHub Pages rejects sites over 1 GB)
+        run: |
+          kb=$(du -sk site | cut -f1); files=$(find site -type f | wc -l)
+          echo "site: $((kb / 1024)) MB on disk, $files files"
+          echo "### Site budget: $((kb / 1024)) MB, $files files (limit 900 MB)" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$kb" -gt 921600 ]; then
+            echo "::error::The built site is $((kb / 1024)) MB, over the 900 MB budget (Pages limit 1 GB). Lower features.BOX_PAGES_FROM / MIN_PLAYER_GAMES or cut pages before deploying."
+            exit 1
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
