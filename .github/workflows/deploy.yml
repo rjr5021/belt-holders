@@ -64,7 +64,8 @@ jobs:
         continue-on-error: true
       - name: Site size guard (GitHub Pages rejects sites over 1 GB)
         run: |
-          kb=$(du -sk site | cut -f1); files=$(find site -type f | wc -l)
+          # --apparent-size: the bytes Pages counts, not 4 KB disk blocks (33k small files overstate it by ~200 MB)
+          kb=$(du -sk --apparent-size site | cut -f1); files=$(find site -type f | wc -l)
           echo "site: $((kb / 1024)) MB on disk, $files files"
           echo "### Site budget: $((kb / 1024)) MB, $files files (limit 900 MB)" >> "$GITHUB_STEP_SUMMARY"
           if [ "$kb" -gt 921600 ]; then
