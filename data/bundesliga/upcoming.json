@@ -1,0 +1,2432 @@
+[
+ {
+  "id": "of-2026-36",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "Werder Bremen",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-37",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Bayer Leverkusen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-38",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "VfB Stuttgart",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-39",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "SV Elversberg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-40",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Hamburger SV",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-41",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Bayern Munchen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-42",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "Eintracht Frankfurt",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-43",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Bor. Monchengladbach",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-44",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "FC Schalke 04",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-45",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "1. FC Koln",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-46",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Borussia Dortmund",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-47",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "VfB Stuttgart",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-48",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "SC Paderborn 07",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-49",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "FC Augsburg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-50",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "1. FSV Mainz 05",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-51",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "RasenBallsport Leipzig",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-52",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "SC Freiburg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-53",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "1899 Hoffenheim",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-54",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Bor. Monchengladbach",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-55",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Werder Bremen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-56",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "FC Schalke 04",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-57",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "SV Elversberg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-58",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Hamburger SV",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-59",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "1. FC Union Berlin",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-60",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "Eintracht Frankfurt",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-61",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Bayer Leverkusen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-62",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "Bayern Munchen",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-63",
+  "date": "2026-10-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "1. FSV Mainz 05",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-64",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "SC Paderborn 07",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-65",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "RasenBallsport Leipzig",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-66",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "SC Freiburg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-67",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "1899 Hoffenheim",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-68",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "VfB Stuttgart",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Borussia Dortmund",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "1. FC Koln",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Hamburger SV",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-11-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Bor. Monchengladbach",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "FC Augsburg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "SV Elversberg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Bayern Munchen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Eintracht Frankfurt",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Werder Bremen",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Bayer Leverkusen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "1. FC Union Berlin",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "FC Schalke 04",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-11-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "1. FC Koln",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "SC Paderborn 07",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "RasenBallsport Leipzig",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "SC Freiburg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Borussia Dortmund",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "1899 Hoffenheim",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "VfB Stuttgart",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "1. FSV Mainz 05",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Hamburger SV",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-11-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Bor. Monchengladbach",
+  "start_et": "20:30"
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "SV Elversberg",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "1. FC Union Berlin",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "FC Schalke 04",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Bayern Munchen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Eintracht Frankfurt",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "RasenBallsport Leipzig",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "FC Augsburg",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "Bayer Leverkusen",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "Bayer Leverkusen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Eintracht Frankfurt",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "SC Paderborn 07",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "Borussia Dortmund",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "VfB Stuttgart",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Werder Bremen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "1899 Hoffenheim",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Hamburger SV",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Bor. Monchengladbach",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eintracht Frankfurt",
+  "away": "SV Elversberg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Paderborn 07",
+  "away": "1. FC Union Berlin",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "VfB Stuttgart",
+  "away": "RasenBallsport Leipzig",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Borussia Dortmund",
+  "away": "1. FC Koln",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hamburger SV",
+  "away": "SC Freiburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayer Leverkusen",
+  "away": "Bayern Munchen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Werder Bremen",
+  "away": "FC Schalke 04",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bor. Monchengladbach",
+  "away": "FC Augsburg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1899 Hoffenheim",
+  "away": "1. FSV Mainz 05",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RasenBallsport Leipzig",
+  "away": "1899 Hoffenheim",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Union Berlin",
+  "away": "Bor. Monchengladbach",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FSV Mainz 05",
+  "away": "VfB Stuttgart",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Schalke 04",
+  "away": "Bayer Leverkusen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SV Elversberg",
+  "away": "Werder Bremen",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bayern Munchen",
+  "away": "Eintracht Frankfurt",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Augsburg",
+  "away": "Hamburger SV",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Freiburg",
+  "away": "Borussia Dortmund",
+  "start_et": "15:30"
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1. FC Koln",
+  "away": "SC Paderborn 07",
+  "start_et": "15:30"
+ }
+]

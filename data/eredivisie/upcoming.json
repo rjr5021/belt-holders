@@ -1,0 +1,2189 @@
+[
+ {
+  "id": "of-2026-63",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "sc Heerenveen",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-64",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "Sparta Rotterdam",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-65",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "AZ Alkmaar",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-66",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "FC Twente",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-67",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "NEC Nijmegen",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-68",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "Willem II",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "SC Cambuur",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "ADO Den Haag",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "FC Groningen",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "SBV Excelsior",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "PSV Eindhoven",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "Feyenoord",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "Willem II",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "Go Ahead Eagles",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "AZ Alkmaar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "AFC Ajax",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "FC Utrecht",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "Fortuna Sittard",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "Telstar",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "PEC Zwolle",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "SC Cambuur",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "sc Heerenveen",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "SBV Excelsior",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "FC Groningen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "Feyenoord",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "AFC Ajax",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "FC Twente",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "Fortuna Sittard",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "NEC Nijmegen",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "Willem II",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "Go Ahead Eagles",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "AZ Alkmaar",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "ADO Den Haag",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "FC Utrecht",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "FC Twente",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "Sparta Rotterdam",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-11-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "PEC Zwolle",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "Telstar",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "Sparta Rotterdam",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "Go Ahead Eagles",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "Feyenoord",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "AFC Ajax",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "FC Groningen",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "PSV Eindhoven",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "NEC Nijmegen",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "PSV Eindhoven",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "SBV Excelsior",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "SC Cambuur",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "PEC Zwolle",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "sc Heerenveen",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "Willem II",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "AZ Alkmaar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "ADO Den Haag",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "Fortuna Sittard",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-11-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "Willem II",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "Telstar",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "Go Ahead Eagles",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "Sparta Rotterdam",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "FC Utrecht",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "sc Heerenveen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "AFC Ajax",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "AZ Alkmaar",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "FC Twente",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2026-12-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "FC Groningen",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "Feyenoord",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "NEC Nijmegen",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "PSV Eindhoven",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "PEC Zwolle",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "SC Cambuur",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "FC Utrecht",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "FC Twente",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "SBV Excelsior",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "Fortuna Sittard",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "Go Ahead Eagles",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "SBV Excelsior",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "Telstar",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "Feyenoord",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "ADO Den Haag",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "NEC Nijmegen",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "SC Cambuur",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2026-12-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "Willem II",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "AZ Alkmaar",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "Sparta Rotterdam",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "sc Heerenveen",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "ADO Den Haag",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "FC Groningen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "FC Twente",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "AFC Ajax",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "PEC Zwolle",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2027-01-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "Fortuna Sittard",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "SBV Excelsior",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "FC Utrecht",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "AFC Ajax",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "sc Heerenveen",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "SC Cambuur",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "PSV Eindhoven",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "Telstar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "Go Ahead Eagles",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2027-01-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "Sparta Rotterdam",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "NEC Nijmegen",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "Feyenoord",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "PEC Zwolle",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "PSV Eindhoven",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "FC Twente",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "AZ Alkmaar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "FC Groningen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "Willem II",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2027-01-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "Fortuna Sittard",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "Telstar",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "PEC Zwolle",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "sc Heerenveen",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "ADO Den Haag",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "SC Cambuur",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "Willem II",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "FC Groningen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "FC Utrecht",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2027-01-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "SBV Excelsior",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "Telstar",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "Go Ahead Eagles",
+  "start_et": "18:45"
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "PSV Eindhoven",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "Fortuna Sittard",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "AFC Ajax",
+  "start_et": "12:15"
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "SC Cambuur",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "Feyenoord",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "NEC Nijmegen",
+  "start_et": "16:45"
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "PEC Zwolle",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "Telstar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "Fortuna Sittard",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "Willem II",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "Go Ahead Eagles",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "SC Cambuur",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "SBV Excelsior",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "PSV Eindhoven",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "PEC Zwolle",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "Feyenoord",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "Go Ahead Eagles",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "SBV Excelsior",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "Telstar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "Willem II",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "SC Cambuur",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "PEC Zwolle",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "Feyenoord",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "PSV Eindhoven",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "Fortuna Sittard",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "SC Cambuur",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "SBV Excelsior",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "Fortuna Sittard",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "PSV Eindhoven",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "Willem II",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "Go Ahead Eagles",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "Feyenoord",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "Telstar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "PEC Zwolle",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "Feyenoord",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "Fortuna Sittard",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "SBV Excelsior",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "PSV Eindhoven",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "Go Ahead Eagles",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "Willem II",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "SC Cambuur",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "Telstar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "PSV Eindhoven",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "FC Utrecht",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "FC Twente",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "ADO Den Haag",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "PEC Zwolle",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "Fortuna Sittard",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "SC Cambuur",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "AZ Alkmaar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "Willem II",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "SBV Excelsior",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "Feyenoord",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "FC Groningen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "Sparta Rotterdam",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "Go Ahead Eagles",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "sc Heerenveen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "AFC Ajax",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "NEC Nijmegen",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "Telstar",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AZ Alkmaar",
+  "away": "PEC Zwolle",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Go Ahead Eagles",
+  "away": "sc Heerenveen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Twente",
+  "away": "Feyenoord",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Ajax",
+  "away": "Sparta Rotterdam",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SBV Excelsior",
+  "away": "ADO Den Haag",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PSV Eindhoven",
+  "away": "NEC Nijmegen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fortuna Sittard",
+  "away": "Willem II",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Utrecht",
+  "away": "Telstar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Groningen",
+  "away": "SC Cambuur",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NEC Nijmegen",
+  "away": "FC Utrecht",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "sc Heerenveen",
+  "away": "PSV Eindhoven",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sparta Rotterdam",
+  "away": "Fortuna Sittard",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SC Cambuur",
+  "away": "AFC Ajax",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "PEC Zwolle",
+  "away": "FC Twente",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Feyenoord",
+  "away": "FC Groningen",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ADO Den Haag",
+  "away": "AZ Alkmaar",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Telstar",
+  "away": "SBV Excelsior",
+  "start_et": "14:30"
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Willem II",
+  "away": "Go Ahead Eagles",
+  "start_et": "14:30"
+ }
+]

@@ -1,0 +1,2351 @@
+[
+ {
+  "id": "of-2026-45",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Olympique Lyon",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-46",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Le Havre AC",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-47",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Angers SCO",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-48",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Paris FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-49",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Le Mans UC 72",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-50",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Toulouse FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-51",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "RC Strasbourg",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-52",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "AJ Auxerre",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-53",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Olympique Marseille",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-54",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Toulouse FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-55",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Paris Saint-Germain",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-56",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "RC Lens",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-57",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Stade Brest",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-58",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Olympique Marseille",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-59",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "AS Monaco",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-60",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Stade Rennes",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-61",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "AJ Auxerre",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-62",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "OGC Nice",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-63",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "OGC Nice",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-64",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "ESTAC Troyes",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-65",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Paris FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-66",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Lille OSC",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-67",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Le Havre AC",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-68",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "RC Strasbourg",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "FC Lorient",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Le Mans UC 72",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Olympique Lyon",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-10-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Paris Saint-Germain",
+  "start_et": "19:00"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-10-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "RC Lens",
+  "start_et": "21:05"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Stade Rennes",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Angers SCO",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Stade Brest",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Le Mans UC 72",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "AJ Auxerre",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "AS Monaco",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Toulouse FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-11-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "RC Strasbourg",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Paris FC",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "ESTAC Troyes",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Lille OSC",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "AS Monaco",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Olympique Lyon",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "FC Lorient",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "OGC Nice",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Olympique Marseille",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-11-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Le Havre AC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Paris Saint-Germain",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "AJ Auxerre",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Toulouse FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Olympique Lyon",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Stade Brest",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Angers SCO",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Stade Rennes",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Le Mans UC 72",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-11-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Paris FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "RC Lens",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Lille OSC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "ESTAC Troyes",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "RC Strasbourg",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "FC Lorient",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Olympique Marseille",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Stade Rennes",
+  "start_et": "17:15"
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "AS Monaco",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Olympique Marseille",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Paris Saint-Germain",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Olympique Marseille",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "RC Lens",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-03-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Olympique Lyon",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Paris Saint-Germain",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "OGC Nice",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "OGC Nice",
+  "away": "AS Monaco",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angers SCO",
+  "away": "Stade Brest",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Lorient",
+  "away": "Olympique Lyon",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ESTAC Troyes",
+  "away": "Paris Saint-Germain",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Mans UC 72",
+  "away": "RC Strasbourg",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Toulouse FC",
+  "away": "AJ Auxerre",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Le Havre AC",
+  "away": "Lille OSC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris FC",
+  "away": "Olympique Marseille",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-05-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Lens",
+  "away": "Stade Rennes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Monaco",
+  "away": "ESTAC Troyes",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Paris Saint-Germain",
+  "away": "Toulouse FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lille OSC",
+  "away": "Le Mans UC 72",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Brest",
+  "away": "RC Lens",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Marseille",
+  "away": "FC Lorient",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Stade Rennes",
+  "away": "Angers SCO",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Olympique Lyon",
+  "away": "Paris FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AJ Auxerre",
+  "away": "Le Havre AC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-05-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "RC Strasbourg",
+  "away": "OGC Nice",
+  "start_et": null
+ }
+]

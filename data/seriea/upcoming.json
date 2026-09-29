@@ -1,0 +1,2972 @@
+[
+ {
+  "id": "of-2026-50",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "ACF Fiorentina",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-51",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Parma FC",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-52",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Frosinone Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-53",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "AS Roma",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-54",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Bologna FC",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-55",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "AC Monza",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-56",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "AC Milan",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-57",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Juventus",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-58",
+  "date": "2026-10-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "AC Venezia",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-59",
+  "date": "2026-10-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Udinese Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-60",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Sassuolo Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-61",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "SSC Napoli",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-62",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Inter",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-63",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Genoa CFC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-64",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "US Lecce",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-65",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Como Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-66",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Atalanta",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-67",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Lazio Roma",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-68",
+  "date": "2026-10-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Cagliari Calcio",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Torino FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "AC Monza",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Bologna FC",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Sassuolo Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "AS Roma",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Parma FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "ACF Fiorentina",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Frosinone Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "AC Venezia",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Juventus",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "AC Milan",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-10-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Lazio Roma",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-10-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Cagliari Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-10-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Como Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-10-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Bologna FC",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-10-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Inter",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-10-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Udinese Calcio",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-10-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Juventus",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-10-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "SSC Napoli",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-10-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "US Lecce",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-10-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Atalanta",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "AC Monza",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "AS Roma",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Inter",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "AC Venezia",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Torino FC",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Cagliari Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Genoa CFC",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "SSC Napoli",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-11-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "ACF Fiorentina",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-11-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Parma FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-11-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Udinese Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "US Lecce",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Frosinone Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Bologna FC",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Sassuolo Calcio",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Lazio Roma",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "AC Milan",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Atalanta",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Como Calcio",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Juventus",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Cagliari Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "US Lecce",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "AS Roma",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Torino FC",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Genoa CFC",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Frosinone Calcio",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Udinese Calcio",
+  "start_et": "18:00"
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Inter",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-11-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "ACF Fiorentina",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-11-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "AC Venezia",
+  "start_et": "20:45"
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-306",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-307",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-308",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-309",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-310",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-311",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-312",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-313",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-314",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-315",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-316",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-317",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-318",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-319",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-320",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-321",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-322",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-323",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-324",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-325",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-326",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-327",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-328",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-329",
+  "date": "2027-04-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-330",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-331",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-332",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-333",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-334",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-335",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-336",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-337",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-338",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-339",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-340",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-341",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-342",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-343",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-344",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-345",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-346",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-347",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-348",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-349",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-350",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-351",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-352",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-353",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-354",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-355",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-356",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-357",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Parma FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-358",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-359",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-360",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AS Roma",
+  "away": "Como Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-361",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Parma FC",
+  "away": "Juventus",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-362",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Torino FC",
+  "away": "SSC Napoli",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-363",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atalanta",
+  "away": "US Lecce",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-364",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Inter",
+  "away": "Lazio Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-365",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Udinese Calcio",
+  "away": "Sassuolo Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-366",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Frosinone Calcio",
+  "away": "Cagliari Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-367",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ACF Fiorentina",
+  "away": "AC Monza",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-368",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Venezia",
+  "away": "AC Milan",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-369",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Genoa CFC",
+  "away": "Bologna FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-370",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Milan",
+  "away": "Udinese Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-371",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Juventus",
+  "away": "Frosinone Calcio",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-372",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AC Monza",
+  "away": "Torino FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-373",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sassuolo Calcio",
+  "away": "Inter",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-374",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cagliari Calcio",
+  "away": "AS Roma",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-375",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lazio Roma",
+  "away": "ACF Fiorentina",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-376",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Como Calcio",
+  "away": "Genoa CFC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-377",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SSC Napoli",
+  "away": "Atalanta",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-378",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "US Lecce",
+  "away": "AC Venezia",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-379",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bologna FC",
+  "away": "Parma FC",
+  "start_et": null
+ }
+]

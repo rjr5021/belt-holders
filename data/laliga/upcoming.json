@@ -1,0 +1,2801 @@
+[
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Espanyol Barcelona",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Athletic Bilbao",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Atletico Madrid",
+  "start_et": "16:15"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Getafe CF",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Villarreal CF",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Celta Vigo",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Deportivo La Coruna",
+  "start_et": "16:15"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "CA Osasuna",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Valencia CF",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-10-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Sevilla FC",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Levante UD",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Atletico Madrid",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Elche CF",
+  "start_et": "16:15"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "FC Barcelona",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Athletic Bilbao",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Racing Santander",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "CD Alaves",
+  "start_et": "16:15"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Real Sociedad",
+  "start_et": "18:30"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Sevilla FC",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-10-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Rayo Vallecano",
+  "start_et": "21:00"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-10-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Athletic Bilbao",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-11-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2026-11-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2026-11-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2026-12-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-02-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-03-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-04-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-306",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-307",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-308",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-309",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-310",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-311",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-312",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-313",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-314",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-315",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-316",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-317",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-318",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-319",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-320",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-321",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-322",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-323",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-324",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-325",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-326",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-327",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-328",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-329",
+  "date": "2027-04-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-330",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-331",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-332",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-333",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-334",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-335",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-336",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-337",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-338",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-339",
+  "date": "2027-05-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-340",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-341",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-342",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-343",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-344",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-345",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-346",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-347",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-348",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-349",
+  "date": "2027-05-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-350",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-351",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-352",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-353",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-354",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-355",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-356",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-357",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "Valencia CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-358",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-359",
+  "date": "2027-05-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-360",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Atletico Madrid",
+  "away": "Athletic Bilbao",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-361",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CD Alaves",
+  "away": "Real Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-362",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sevilla FC",
+  "away": "Getafe CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-363",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Villarreal CF",
+  "away": "CA Osasuna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-364",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Racing Santander",
+  "away": "Levante UD",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-365",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Deportivo La Coruna",
+  "away": "Espanyol Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-366",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rayo Vallecano",
+  "away": "Real Betis",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-367",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "FC Barcelona",
+  "away": "Malaga CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-368",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Valencia CF",
+  "away": "Elche CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-369",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Celta Vigo",
+  "away": "Real Sociedad",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-370",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Levante UD",
+  "away": "Celta Vigo",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-371",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Madrid",
+  "away": "Deportivo La Coruna",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-372",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Betis",
+  "away": "Atletico Madrid",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-373",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Real Sociedad",
+  "away": "Villarreal CF",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-374",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaga CF",
+  "away": "Sevilla FC",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-375",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Elche CF",
+  "away": "Racing Santander",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-376",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Athletic Bilbao",
+  "away": "Rayo Vallecano",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-377",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Espanyol Barcelona",
+  "away": "CD Alaves",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-378",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Getafe CF",
+  "away": "FC Barcelona",
+  "start_et": null
+ },
+ {
+  "id": "of-2026-379",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "CA Osasuna",
+  "away": "Valencia CF",
+  "start_et": null
+ }
+]

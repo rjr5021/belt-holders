@@ -1,0 +1,2972 @@
+[
+ {
+  "id": "of-2026-50",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Leeds United",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-51",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-52",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-53",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-54",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-55",
+  "date": "2026-10-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Tottenham Hotspur",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-56",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Everton",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-57",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Nottingham Forest",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-58",
+  "date": "2026-10-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Manchester City",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-59",
+  "date": "2026-10-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Newcastle United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-60",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Chelsea",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-61",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-62",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-63",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-64",
+  "date": "2026-10-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Aston Villa",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-65",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Sunderland",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-66",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Manchester United",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-67",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Crystal Palace",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-68",
+  "date": "2026-10-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Arsenal",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-69",
+  "date": "2026-10-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Coventry City",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-70",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Nottingham Forest",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-71",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Manchester City",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-72",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-73",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-74",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Tottenham Hotspur",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-75",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Brighton & Hove Albion",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-76",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Newcastle United",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-77",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "AFC Bournemouth",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-78",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Brentford",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-79",
+  "date": "2026-10-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Leeds United",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-80",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Manchester United",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-81",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-82",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-83",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-84",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-85",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-86",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Crystal Palace",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-87",
+  "date": "2026-10-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Fulham",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-88",
+  "date": "2026-11-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Arsenal",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-89",
+  "date": "2026-11-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Everton",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-90",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-91",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-92",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-93",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-94",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-95",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-96",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-97",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-98",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-99",
+  "date": "2026-11-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-100",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-101",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-102",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-103",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-104",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-105",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-106",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-107",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-108",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-109",
+  "date": "2026-11-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-110",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-111",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-112",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-113",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-114",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-115",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-116",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-117",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-118",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-119",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-120",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Fulham",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-121",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Sunderland",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-122",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Nottingham Forest",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-123",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Crystal Palace",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-124",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Everton",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-125",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Arsenal",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-126",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Ipswich Town",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-127",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Leeds United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-128",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Manchester United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-129",
+  "date": "2026-12-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Brighton & Hove Albion",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-130",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-131",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-132",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-133",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-134",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-135",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-136",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-137",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-138",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-139",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-140",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-141",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-142",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-143",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-144",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-145",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-146",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-147",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-148",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-149",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-150",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-151",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-152",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-153",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-154",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-155",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-156",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-157",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-158",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-159",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-160",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Leeds United",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-161",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-162",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-163",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-164",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-165",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Liverpool",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-166",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Manchester City",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-167",
+  "date": "2026-12-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Chelsea",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-168",
+  "date": "2026-12-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Nottingham Forest",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-169",
+  "date": "2026-12-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Arsenal",
+  "start_et": "19:00"
+ },
+ {
+  "id": "of-2026-170",
+  "date": "2026-12-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Leeds United",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-171",
+  "date": "2026-12-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Brighton & Hove Albion",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-172",
+  "date": "2026-12-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Manchester City",
+  "start_et": "20:15"
+ },
+ {
+  "id": "of-2026-173",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Arsenal",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-174",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Brentford",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-175",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Nottingham Forest",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-176",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Sunderland",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-177",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "AFC Bournemouth",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-178",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Liverpool",
+  "start_et": "20:15"
+ },
+ {
+  "id": "of-2026-179",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Chelsea",
+  "start_et": "20:15"
+ },
+ {
+  "id": "of-2026-180",
+  "date": "2027-01-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Everton",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-181",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Manchester United",
+  "start_et": "12:30"
+ },
+ {
+  "id": "of-2026-182",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-183",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-184",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-185",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-186",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-187",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Aston Villa",
+  "start_et": "17:30"
+ },
+ {
+  "id": "of-2026-188",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Newcastle United",
+  "start_et": "14:00"
+ },
+ {
+  "id": "of-2026-189",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Tottenham Hotspur",
+  "start_et": "16:30"
+ },
+ {
+  "id": "of-2026-190",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Brentford",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-191",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "AFC Bournemouth",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-192",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Hull City",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-193",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Aston Villa",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-194",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Liverpool",
+  "start_et": "20:15"
+ },
+ {
+  "id": "of-2026-195",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Tottenham Hotspur",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-196",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Chelsea",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-197",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Coventry City",
+  "start_et": "19:30"
+ },
+ {
+  "id": "of-2026-198",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Manchester City",
+  "start_et": "20:15"
+ },
+ {
+  "id": "of-2026-199",
+  "date": "2027-01-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Newcastle United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-200",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-201",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-202",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-203",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-204",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-205",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-206",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-207",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-208",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-209",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-210",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-211",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-212",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-213",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-214",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-215",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-216",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-217",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-218",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-219",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-220",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-221",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-222",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-223",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-224",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-225",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-226",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-227",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-228",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-229",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-230",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-231",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-232",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-233",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-234",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-235",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-236",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-237",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-238",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-239",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-240",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Leeds United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-241",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Liverpool",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-242",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Sunderland",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-243",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "AFC Bournemouth",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-244",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Brentford",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-245",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Chelsea",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-246",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Nottingham Forest",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-247",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Manchester City",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-248",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Brighton & Hove Albion",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-249",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Arsenal",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-250",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-251",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-252",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-253",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-254",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-255",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-256",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-257",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-258",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-259",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-260",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-261",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-262",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-263",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-264",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-265",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-266",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-267",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-268",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-269",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-270",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Newcastle United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-271",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Tottenham Hotspur",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-272",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Everton",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-273",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Crystal Palace",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-274",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Hull City",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-275",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Manchester United",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-276",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Aston Villa",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-277",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Fulham",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-278",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Ipswich Town",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-279",
+  "date": "2027-03-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Coventry City",
+  "start_et": "20:00"
+ },
+ {
+  "id": "of-2026-280",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-281",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-282",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-283",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-284",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-285",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-286",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-287",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-288",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-289",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-290",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-291",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-292",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-293",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-294",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-295",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-296",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-297",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-298",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-299",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-300",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-301",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-302",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-303",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-304",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-305",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-306",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-307",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-308",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-309",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-310",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-311",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-312",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-313",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-314",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-315",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-316",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-317",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-318",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-319",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-320",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-321",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-322",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-323",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-324",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-325",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-326",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-327",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-328",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-329",
+  "date": "2027-04-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-330",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-331",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-332",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-333",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-334",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-335",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-336",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-337",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-338",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-339",
+  "date": "2027-05-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-340",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-341",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-342",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-343",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-344",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-345",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-346",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-347",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-348",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-349",
+  "date": "2027-05-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-350",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Fulham",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-351",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Leeds United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-352",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Brighton & Hove Albion",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-353",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Newcastle United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-354",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Everton",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-355",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Tottenham Hotspur",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-356",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "AFC Bournemouth",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-357",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "Brentford",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-358",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Manchester City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-359",
+  "date": "2027-05-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Nottingham Forest",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-360",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brentford",
+  "away": "Hull City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-361",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Newcastle United",
+  "away": "Crystal Palace",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-362",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tottenham Hotspur",
+  "away": "Manchester United",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-363",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Leeds United",
+  "away": "Sunderland",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-364",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Brighton & Hove Albion",
+  "away": "Liverpool",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-365",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nottingham Forest",
+  "away": "Ipswich Town",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-366",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "AFC Bournemouth",
+  "away": "Chelsea",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-367",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Fulham",
+  "away": "Coventry City",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-368",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Everton",
+  "away": "Arsenal",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-369",
+  "date": "2027-05-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester City",
+  "away": "Aston Villa",
+  "start_et": "15:00"
+ },
+ {
+  "id": "of-2026-370",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ipswich Town",
+  "away": "Everton",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-371",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Arsenal",
+  "away": "Brighton & Hove Albion",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-372",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liverpool",
+  "away": "AFC Bournemouth",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-373",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Coventry City",
+  "away": "Nottingham Forest",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-374",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Aston Villa",
+  "away": "Tottenham Hotspur",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-375",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hull City",
+  "away": "Newcastle United",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-376",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Manchester United",
+  "away": "Fulham",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-377",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sunderland",
+  "away": "Manchester City",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-378",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Chelsea",
+  "away": "Brentford",
+  "start_et": "16:00"
+ },
+ {
+  "id": "of-2026-379",
+  "date": "2027-05-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Crystal Palace",
+  "away": "Leeds United",
+  "start_et": "16:00"
+ }
+]

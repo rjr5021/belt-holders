@@ -1,0 +1,1630 @@
+id,date,season,season_type,home,away,home_points,away_points,neutral,note,source,home_name,away_name,home_abbr,away_abbr
+espn-365282,2013-04-13,2013,regular,FC Kansas City,Portland Thorns FC,1,1,,,espn,,,FCKC,POR
+espn-365281,2013-04-14,2013,regular,Chicago Stars FC,Seattle Reign FC,1,1,,,espn,,,CHI,SEA
+espn-365280,2013-04-20,2013,regular,Washington Spirit,North Carolina Courage,1,1,,,espn,,,WAS,NC
+espn-365279,2013-04-21,2013,regular,Portland Thorns FC,Seattle Reign FC,2,1,,,espn,,,POR,SEA
+espn-365278,2013-04-26,2013,regular,FC Kansas City,Seattle Reign FC,2,0,,,espn,,,FCKC,SEA
+espn-365275,2013-04-27,2013,regular,Chicago Stars FC,Portland Thorns FC,0,2,,,espn,,,CHI,POR
+espn-365276,2013-04-27,2013,regular,North Carolina Courage,Boston Breakers,1,2,,,espn,,,NC,BOS
+espn-365274,2013-05-01,2013,regular,North Carolina Courage,Gotham FC,2,1,,,espn,,,NC,GFC
+espn-365271,2013-05-04,2013,regular,Boston Breakers,Chicago Stars FC,4,1,,,espn,,,BOS,CHI
+espn-365249,2013-05-08,2013,regular,Gotham FC,Chicago Stars FC,1,1,,,espn,,,GFC,CHI
+espn-365246,2013-05-11,2013,regular,North Carolina Courage,FC Kansas City,2,1,,,espn,,,NC,FCKC
+espn-365247,2013-05-11,2013,regular,Washington Spirit,Boston Breakers,1,1,,,espn,,,WAS,BOS
+espn-365248,2013-05-11,2013,regular,Gotham FC,Seattle Reign FC,2,0,,,espn,,,GFC,SEA
+espn-365245,2013-05-12,2013,regular,Chicago Stars FC,Portland Thorns FC,0,2,,,espn,,,CHI,POR
+espn-365244,2013-05-16,2013,regular,Seattle Reign FC,Washington Spirit,2,4,,,espn,,,SEA,WAS
+espn-365239,2013-05-24,2013,regular,North Carolina Courage,Chicago Stars FC,2,1,,,espn,,,NC,CHI
+espn-365234,2013-06-01,2013,regular,Gotham FC,Boston Breakers,5,1,,,espn,,,GFC,BOS
+espn-365235,2013-06-01,2013,regular,Portland Thorns FC,Chicago Stars FC,0,2,,,espn,,,POR,CHI
+espn-365233,2013-06-05,2013,regular,Boston Breakers,North Carolina Courage,2,2,,,espn,,,BOS,NC
+espn-365231,2013-06-08,2013,regular,Gotham FC,North Carolina Courage,0,3,,,espn,,,GFC,NC
+espn-365227,2013-06-15,2013,regular,Washington Spirit,North Carolina Courage,0,2,,,espn,,,WAS,NC
+espn-365224,2013-06-19,2013,regular,Chicago Stars FC,North Carolina Courage,2,2,,,espn,,,CHI,NC
+espn-365223,2013-06-22,2013,regular,Gotham FC,Portland Thorns FC,0,0,,,espn,,,GFC,POR
+espn-365222,2013-06-23,2013,regular,FC Kansas City,Washington Spirit,2,0,,,espn,,,FCKC,WAS
+espn-365304,2013-06-23,2013,regular,North Carolina Courage,Seattle Reign FC,1,1,,,espn,,,NC,SEA
+espn-365220,2013-06-28,2013,regular,North Carolina Courage,Washington Spirit,4,0,,,espn,,,NC,WAS
+espn-365302,2013-06-30,2013,regular,FC Kansas City,Portland Thorns FC,2,0,,,espn,,,FCKC,POR
+espn-365218,2013-07-03,2013,regular,Seattle Reign FC,Boston Breakers,1,1,,,espn,,,SEA,BOS
+espn-365300,2013-07-03,2013,regular,Washington Spirit,FC Kansas City,1,1,,,espn,,,WAS,FCKC
+espn-365217,2013-07-04,2013,regular,Chicago Stars FC,North Carolina Courage,1,0,,,espn,,,CHI,NC
+espn-365215,2013-07-07,2013,regular,FC Kansas City,North Carolina Courage,0,0,,,espn,,,FCKC,NC
+espn-365298,2013-07-11,2013,regular,Seattle Reign FC,North Carolina Courage,3,2,,,espn,,,SEA,NC
+espn-365213,2013-07-13,2013,regular,Gotham FC,Boston Breakers,0,0,,,espn,,,GFC,BOS
+espn-365212,2013-07-14,2013,regular,Portland Thorns FC,North Carolina Courage,1,1,,,espn,,,POR,NC
+espn-365296,2013-07-14,2013,regular,Seattle Reign FC,Washington Spirit,2,1,,,espn,,,SEA,WAS
+espn-365297,2013-07-14,2013,regular,Chicago Stars FC,FC Kansas City,3,3,,,espn,,,CHI,FCKC
+espn-365295,2013-07-20,2013,regular,FC Kansas City,Seattle Reign FC,2,0,,,espn,,,FCKC,SEA
+espn-365294,2013-07-21,2013,regular,North Carolina Courage,Gotham FC,3,0,,,espn,,,NC,GFC
+espn-365207,2013-07-27,2013,regular,Washington Spirit,Boston Breakers,2,5,,,espn,,,WAS,BOS
+espn-365206,2013-07-28,2013,regular,Portland Thorns FC,Chicago Stars FC,3,3,,,espn,,,POR,CHI
+espn-365293,2013-07-28,2013,regular,Gotham FC,FC Kansas City,0,1,,,espn,,,GFC,FCKC
+espn-365205,2013-07-31,2013,regular,North Carolina Courage,Washington Spirit,3,0,,,espn,,,NC,WAS
+espn-365291,2013-08-03,2013,regular,Boston Breakers,North Carolina Courage,2,2,,,espn,,,BOS,NC
+espn-365203,2013-08-04,2013,regular,Portland Thorns FC,FC Kansas City,2,3,,,espn,,,POR,FCKC
+espn-365202,2013-08-07,2013,regular,Boston Breakers,Portland Thorns FC,2,1,,,espn,,,BOS,POR
+espn-365288,2013-08-07,2013,regular,Washington Spirit,Chicago Stars FC,1,0,,,espn,,,WAS,CHI
+espn-365289,2013-08-07,2013,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-365201,2013-08-10,2013,regular,Chicago Stars FC,Gotham FC,3,3,,,espn,,,CHI,GFC
+espn-365285,2013-08-10,2013,regular,North Carolina Courage,Portland Thorns FC,0,0,,,espn,,,NC,POR
+espn-365286,2013-08-10,2013,regular,Washington Spirit,Seattle Reign FC,1,0,,,espn,,,WAS,SEA
+espn-365287,2013-08-10,2013,regular,Boston Breakers,FC Kansas City,1,0,,,espn,,,BOS,FCKC
+espn-365200,2013-08-17,2013,regular,North Carolina Courage,Boston Breakers,2,1,,,espn,,,NC,BOS
+espn-365199,2013-08-18,2013,regular,FC Kansas City,Chicago Stars FC,1,2,,,espn,,,FCKC,CHI
+espn-628680,2013-08-24,2013,regular,North Carolina Courage,Gotham FC,0,0,,,espn,,,NC,GFC
+espn-628681,2013-08-24,2013,regular,FC Kansas City,Portland Thorns FC,0,0,,,espn,,,FCKC,POR
+espn-628678,2013-08-31,2013,regular,North Carolina Courage,Portland Thorns FC,0,0,,,espn,,,NC,POR
+espn-390195,2014-04-12,2014,regular,FC Kansas City,Gotham FC,1,1,,,espn,,,FCKC,GFC
+espn-390192,2014-04-13,2014,regular,Seattle Reign FC,Boston Breakers,3,0,,,espn,,,SEA,BOS
+espn-390193,2014-04-13,2014,regular,Washington Spirit,North Carolina Courage,1,3,,,espn,,,WAS,NC
+espn-628676,2014-04-13,2014,regular,Washington Spirit,Western New York Flash,1,3,,,espn,,,WAS,Western New York Flash
+espn-390189,2014-04-19,2014,regular,Gotham FC,Portland Thorns FC,1,1,,,espn,,,GFC,POR
+espn-390190,2014-04-19,2014,regular,Chicago Stars FC,North Carolina Courage,1,0,,,espn,,,CHI,NC
+espn-390188,2014-04-20,2014,regular,Boston Breakers,Houston Dash,2,3,,,espn,,,BOS,HOU
+espn-390183,2014-04-27,2014,regular,Seattle Reign FC,Houston Dash,2,0,,,espn,,,SEA,HOU
+espn-390185,2014-04-27,2014,regular,Portland Thorns FC,FC Kansas City,0,0,,,espn,,,POR,FCKC
+espn-390182,2014-04-30,2014,regular,Gotham FC,Seattle Reign FC,0,2,,,espn,,,GFC,SEA
+espn-390178,2014-05-03,2014,regular,North Carolina Courage,Portland Thorns FC,1,1,,,espn,,,NC,POR
+espn-390175,2014-05-07,2014,regular,North Carolina Courage,FC Kansas City,2,1,,,espn,,,NC,FCKC
+espn-390173,2014-05-10,2014,regular,Portland Thorns FC,Seattle Reign FC,0,1,,,espn,,,POR,SEA
+espn-390170,2014-05-11,2014,regular,Chicago Stars FC,Houston Dash,1,0,,,espn,,,CHI,HOU
+espn-390172,2014-05-11,2014,regular,North Carolina Courage,Gotham FC,2,0,,,espn,,,NC,GFC
+espn-390166,2014-05-17,2014,regular,Washington Spirit,North Carolina Courage,3,2,,,espn,,,WAS,NC
+espn-390165,2014-05-18,2014,regular,FC Kansas City,Houston Dash,2,2,,,espn,,,FCKC,HOU
+espn-390161,2014-05-21,2014,regular,Portland Thorns FC,North Carolina Courage,2,1,,,espn,,,POR,NC
+espn-390163,2014-05-21,2014,regular,Washington Spirit,Gotham FC,3,3,,,espn,,,WAS,GFC
+espn-628690,2014-05-21,2014,regular,Portland Thorns FC,Western New York Flash,2,1,,,espn,,,POR,Western New York Flash
+espn-390159,2014-05-24,2014,regular,Portland Thorns FC,Gotham FC,0,1,,,espn,,,POR,GFC
+espn-390157,2014-05-25,2014,regular,Boston Breakers,FC Kansas City,0,2,,,espn,,,BOS,FCKC
+espn-390158,2014-05-25,2014,regular,Seattle Reign FC,North Carolina Courage,2,2,,,espn,,,SEA,NC
+espn-390156,2014-05-26,2014,regular,Washington Spirit,Houston Dash,3,2,,,espn,,,WAS,HOU
+espn-390153,2014-05-31,2014,regular,North Carolina Courage,Houston Dash,1,2,,,espn,,,NC,HOU
+espn-390150,2014-06-04,2014,regular,FC Kansas City,North Carolina Courage,1,0,,,espn,,,FCKC,NC
+espn-628697,2014-06-04,2014,regular,FC Kansas City,Western New York Flash,1,0,,,espn,,,FCKC,Western New York Flash
+espn-390147,2014-06-07,2014,regular,Portland Thorns FC,North Carolina Courage,0,5,,,espn,,,POR,NC
+espn-390143,2014-06-11,2014,regular,Houston Dash,North Carolina Courage,2,1,,,espn,,,HOU,NC
+espn-390141,2014-06-15,2014,regular,Chicago Stars FC,Gotham FC,2,2,,,espn,,,CHI,GFC
+espn-390139,2014-06-18,2014,regular,North Carolina Courage,Chicago Stars FC,2,0,,,espn,,,NC,CHI
+espn-390134,2014-06-22,2014,regular,Gotham FC,Boston Breakers,1,1,,,espn,,,GFC,BOS
+espn-390135,2014-06-22,2014,regular,North Carolina Courage,Seattle Reign FC,1,2,,,espn,,,NC,SEA
+espn-390132,2014-06-27,2014,regular,North Carolina Courage,Boston Breakers,2,1,,,espn,,,NC,BOS
+espn-390129,2014-06-28,2014,regular,Seattle Reign FC,Gotham FC,0,0,,,espn,,,SEA,GFC
+espn-390126,2014-07-02,2014,regular,Washington Spirit,Boston Breakers,3,3,,,espn,,,WAS,BOS
+espn-390128,2014-07-02,2014,regular,North Carolina Courage,Seattle Reign FC,1,2,,,espn,,,NC,SEA
+espn-390124,2014-07-05,2014,regular,Houston Dash,North Carolina Courage,1,4,,,espn,,,HOU,NC
+espn-390121,2014-07-09,2014,regular,Chicago Stars FC,Portland Thorns FC,1,1,,,espn,,,CHI,POR
+espn-390119,2014-07-12,2014,regular,North Carolina Courage,Washington Spirit,0,1,,,espn,,,NC,WAS
+espn-390117,2014-07-13,2014,regular,Portland Thorns FC,FC Kansas City,7,1,,,espn,,,POR,FCKC
+espn-390115,2014-07-17,2014,regular,Houston Dash,Washington Spirit,1,1,,,espn,,,HOU,WAS
+espn-390116,2014-07-17,2014,regular,Chicago Stars FC,Portland Thorns FC,1,1,,,espn,,,CHI,POR
+espn-390114,2014-07-18,2014,regular,North Carolina Courage,FC Kansas City,1,1,,,espn,,,NC,FCKC
+espn-390111,2014-07-20,2014,regular,Seattle Reign FC,Chicago Stars FC,1,1,,,espn,,,SEA,CHI
+espn-390110,2014-07-23,2014,regular,Washington Spirit,Portland Thorns FC,1,1,,,espn,,,WAS,POR
+espn-390109,2014-07-25,2014,regular,North Carolina Courage,Boston Breakers,2,4,,,espn,,,NC,BOS
+espn-390108,2014-07-26,2014,regular,Chicago Stars FC,Houston Dash,0,0,,,espn,,,CHI,HOU
+espn-390103,2014-07-31,2014,regular,Gotham FC,North Carolina Courage,1,0,,,espn,,,GFC,NC
+espn-390099,2014-08-03,2014,regular,Boston Breakers,North Carolina Courage,3,4,,,espn,,,BOS,NC
+espn-390094,2014-08-09,2014,regular,Seattle Reign FC,Washington Spirit,1,1,,,espn,,,SEA,WAS
+espn-390092,2014-08-13,2014,regular,North Carolina Courage,Gotham FC,2,3,,,espn,,,NC,GFC
+espn-390089,2014-08-16,2014,regular,Chicago Stars FC,North Carolina Courage,3,3,,,espn,,,CHI,NC
+espn-405493,2014-08-23,2014,regular,FC Kansas City,Portland Thorns FC,2,0,,,espn,,,FCKC,POR
+espn-405492,2014-08-24,2014,regular,Seattle Reign FC,Washington Spirit,2,1,,,espn,,,SEA,WAS
+espn-405634,2014-08-31,2014,regular,Seattle Reign FC,FC Kansas City,1,2,,,espn,,,SEA,FCKC
+espn-417335,2015-04-10,2015,regular,Houston Dash,Washington Spirit,2,0,,,espn,,,HOU,WAS
+espn-417334,2015-04-11,2015,regular,Portland Thorns FC,Boston Breakers,4,1,,,espn,,,POR,BOS
+espn-417332,2015-04-12,2015,regular,Seattle Reign FC,North Carolina Courage,5,1,,,espn,,,SEA,NC
+espn-417333,2015-04-12,2015,regular,FC Kansas City,Gotham FC,0,1,,,espn,,,FCKC,GFC
+espn-417328,2015-04-18,2015,regular,Chicago Stars FC,Seattle Reign FC,3,2,,,espn,,,CHI,SEA
+espn-417330,2015-04-18,2015,regular,Gotham FC,Houston Dash,1,1,,,espn,,,GFC,HOU
+espn-417331,2015-04-18,2015,regular,Portland Thorns FC,North Carolina Courage,1,0,,,espn,,,POR,NC
+espn-417327,2015-04-23,2015,regular,FC Kansas City,Seattle Reign FC,1,0,,,espn,,,FCKC,SEA
+espn-417326,2015-04-25,2015,regular,Chicago Stars FC,Portland Thorns FC,2,2,,,espn,,,CHI,POR
+espn-417324,2015-04-26,2015,regular,Gotham FC,Washington Spirit,1,3,,,espn,,,GFC,WAS
+espn-417325,2015-04-26,2015,regular,Boston Breakers,Houston Dash,3,2,,,espn,,,BOS,HOU
+espn-417320,2015-05-02,2015,regular,Seattle Reign FC,Washington Spirit,3,1,,,espn,,,SEA,WAS
+espn-417321,2015-05-02,2015,regular,Houston Dash,FC Kansas City,0,2,,,espn,,,HOU,FCKC
+espn-417322,2015-05-02,2015,regular,North Carolina Courage,Boston Breakers,3,1,,,espn,,,NC,BOS
+espn-417323,2015-05-02,2015,regular,Chicago Stars FC,Gotham FC,1,0,,,espn,,,CHI,GFC
+espn-417319,2015-05-08,2015,regular,North Carolina Courage,FC Kansas City,0,1,,,espn,,,NC,FCKC
+espn-417316,2015-05-09,2015,regular,Portland Thorns FC,Washington Spirit,2,2,,,espn,,,POR,WAS
+espn-417317,2015-05-09,2015,regular,Gotham FC,Seattle Reign FC,1,1,,,espn,,,GFC,SEA
+espn-417318,2015-05-09,2015,regular,Chicago Stars FC,Boston Breakers,3,0,,,espn,,,CHI,BOS
+espn-417315,2015-05-14,2015,regular,FC Kansas City,North Carolina Courage,0,0,,,espn,,,FCKC,NC
+espn-417314,2015-05-15,2015,regular,Houston Dash,Chicago Stars FC,2,2,,,espn,,,HOU,CHI
+espn-417312,2015-05-16,2015,regular,Washington Spirit,Gotham FC,1,0,,,espn,,,WAS,GFC
+espn-417313,2015-05-16,2015,regular,Boston Breakers,Portland Thorns FC,1,0,,,espn,,,BOS,POR
+espn-417311,2015-05-22,2015,regular,Boston Breakers,Gotham FC,1,1,,,espn,,,BOS,GFC
+espn-417308,2015-05-23,2015,regular,Portland Thorns FC,Houston Dash,0,1,,,espn,,,POR,HOU
+espn-417309,2015-05-23,2015,regular,FC Kansas City,Chicago Stars FC,1,2,,,espn,,,FCKC,CHI
+espn-417310,2015-05-23,2015,regular,North Carolina Courage,Washington Spirit,3,2,,,espn,,,NC,WAS
+espn-417305,2015-05-30,2015,regular,Seattle Reign FC,Chicago Stars FC,0,0,,,espn,,,SEA,CHI
+espn-417306,2015-05-30,2015,regular,Boston Breakers,FC Kansas City,1,0,,,espn,,,BOS,FCKC
+espn-417307,2015-05-30,2015,regular,Washington Spirit,Portland Thorns FC,2,1,,,espn,,,WAS,POR
+espn-417301,2015-06-06,2015,regular,Houston Dash,Portland Thorns FC,0,0,,,espn,,,HOU,POR
+espn-417302,2015-06-06,2015,regular,Washington Spirit,Boston Breakers,1,1,,,espn,,,WAS,BOS
+espn-417303,2015-06-06,2015,regular,North Carolina Courage,Chicago Stars FC,3,1,,,espn,,,NC,CHI
+espn-417299,2015-06-19,2015,regular,Portland Thorns FC,FC Kansas City,1,1,,,espn,,,POR,FCKC
+espn-417297,2015-06-20,2015,regular,Houston Dash,North Carolina Courage,2,0,,,espn,,,HOU,NC
+espn-417296,2015-06-21,2015,regular,Boston Breakers,Seattle Reign FC,2,3,,,espn,,,BOS,SEA
+espn-417294,2015-06-27,2015,regular,Seattle Reign FC,FC Kansas City,2,1,,,espn,,,SEA,FCKC
+espn-417295,2015-06-27,2015,regular,Washington Spirit,Houston Dash,1,0,,,espn,,,WAS,HOU
+espn-417292,2015-06-28,2015,regular,Gotham FC,Chicago Stars FC,0,3,,,espn,,,GFC,CHI
+espn-417293,2015-06-28,2015,regular,Boston Breakers,North Carolina Courage,0,2,,,espn,,,BOS,NC
+espn-417289,2015-07-03,2015,regular,Portland Thorns FC,Gotham FC,2,1,,,espn,,,POR,GFC
+espn-417290,2015-07-03,2015,regular,FC Kansas City,Washington Spirit,3,0,,,espn,,,FCKC,WAS
+espn-417291,2015-07-03,2015,regular,North Carolina Courage,Seattle Reign FC,1,1,,,espn,,,NC,SEA
+espn-417288,2015-07-09,2015,regular,Boston Breakers,FC Kansas City,2,3,,,espn,,,BOS,FCKC
+espn-417286,2015-07-11,2015,regular,Seattle Reign FC,North Carolina Courage,4,2,,,espn,,,SEA,NC
+espn-417287,2015-07-11,2015,regular,Gotham FC,Portland Thorns FC,1,0,,,espn,,,GFC,POR
+espn-417285,2015-07-12,2015,regular,Houston Dash,Chicago Stars FC,1,2,,,espn,,,HOU,CHI
+espn-417282,2015-07-18,2015,regular,Washington Spirit,Seattle Reign FC,3,0,,,espn,,,WAS,SEA
+espn-417280,2015-07-19,2015,regular,North Carolina Courage,Gotham FC,3,3,,,espn,,,NC,GFC
+espn-417283,2015-07-20,2015,regular,FC Kansas City,Houston Dash,1,1,,,espn,,,FCKC,HOU
+espn-417284,2015-07-22,2015,regular,Boston Breakers,Chicago Stars FC,1,2,,,espn,,,BOS,CHI
+espn-417276,2015-07-25,2015,regular,Gotham FC,Boston Breakers,3,1,,,espn,,,GFC,BOS
+espn-417277,2015-07-25,2015,regular,Washington Spirit,Chicago Stars FC,1,1,,,espn,,,WAS,CHI
+espn-417278,2015-07-25,2015,regular,North Carolina Courage,Houston Dash,0,1,,,espn,,,NC,HOU
+espn-417275,2015-07-26,2015,regular,Seattle Reign FC,Portland Thorns FC,3,0,,,espn,,,SEA,POR
+espn-417273,2015-07-29,2015,regular,Houston Dash,FC Kansas City,3,2,,,espn,,,HOU,FCKC
+espn-417274,2015-07-29,2015,regular,North Carolina Courage,Portland Thorns FC,0,2,,,espn,,,NC,POR
+espn-417269,2015-08-01,2015,regular,Chicago Stars FC,FC Kansas City,2,2,,,espn,,,CHI,FCKC
+espn-417270,2015-08-01,2015,regular,Washington Spirit,Houston Dash,3,1,,,espn,,,WAS,HOU
+espn-417271,2015-08-01,2015,regular,Gotham FC,North Carolina Courage,1,2,,,espn,,,GFC,NC
+espn-417272,2015-08-01,2015,regular,Boston Breakers,Seattle Reign FC,1,2,,,espn,,,BOS,SEA
+espn-417268,2015-08-05,2015,regular,Portland Thorns FC,Boston Breakers,5,2,,,espn,,,POR,BOS
+espn-417265,2015-08-08,2015,regular,FC Kansas City,North Carolina Courage,4,0,,,espn,,,FCKC,NC
+espn-417266,2015-08-08,2015,regular,Boston Breakers,Washington Spirit,2,1,,,espn,,,BOS,WAS
+espn-417264,2015-08-09,2015,regular,Portland Thorns FC,Chicago Stars FC,2,1,,,espn,,,POR,CHI
+espn-417260,2015-08-12,2015,regular,Seattle Reign FC,Houston Dash,2,1,,,espn,,,SEA,HOU
+espn-417261,2015-08-12,2015,regular,FC Kansas City,Portland Thorns FC,3,0,,,espn,,,FCKC,POR
+espn-417262,2015-08-12,2015,regular,Washington Spirit,North Carolina Courage,1,1,,,espn,,,WAS,NC
+espn-417263,2015-08-12,2015,regular,Chicago Stars FC,Gotham FC,1,1,,,espn,,,CHI,GFC
+espn-417257,2015-08-21,2015,regular,Houston Dash,Seattle Reign FC,0,3,,,espn,,,HOU,SEA
+espn-417258,2015-08-22,2015,regular,FC Kansas City,Boston Breakers,3,0,,,espn,,,FCKC,BOS
+espn-417259,2015-08-22,2015,regular,Gotham FC,Portland Thorns FC,1,0,,,espn,,,GFC,POR
+espn-417256,2015-08-23,2015,regular,Chicago Stars FC,North Carolina Courage,0,0,,,espn,,,CHI,NC
+espn-417255,2015-08-26,2015,regular,Seattle Reign FC,Boston Breakers,3,1,,,espn,,,SEA,BOS
+espn-417254,2015-08-27,2015,regular,FC Kansas City,Washington Spirit,0,0,,,espn,,,FCKC,WAS
+espn-417252,2015-08-29,2015,regular,Seattle Reign FC,Gotham FC,1,1,,,espn,,,SEA,GFC
+espn-417253,2015-08-29,2015,regular,North Carolina Courage,Chicago Stars FC,0,2,,,espn,,,NC,CHI
+espn-417250,2015-08-30,2015,regular,Portland Thorns FC,Washington Spirit,3,3,,,espn,,,POR,WAS
+espn-417251,2015-08-30,2015,regular,Houston Dash,Boston Breakers,1,0,,,espn,,,HOU,BOS
+espn-417249,2015-09-04,2015,regular,North Carolina Courage,Portland Thorns FC,3,2,,,espn,,,NC,POR
+espn-417248,2015-09-05,2015,regular,Washington Spirit,Seattle Reign FC,1,2,,,espn,,,WAS,SEA
+espn-417247,2015-09-06,2015,regular,Chicago Stars FC,Houston Dash,1,1,,,espn,,,CHI,HOU
+espn-435292,2015-09-13,2015,regular,Seattle Reign FC,Washington Spirit,3,0,,,espn,,,SEA,WAS
+espn-435293,2015-09-13,2015,regular,Chicago Stars FC,FC Kansas City,0,3,,,espn,,,CHI,FCKC
+espn-435632,2015-10-01,2015,regular,Seattle Reign FC,FC Kansas City,0,1,,,espn,,,SEA,FCKC
+espn-628719,2015-10-01,2015,regular,FC Kansas City,Seattle Reign FC,0,0,,,espn,,,FCKC,SEA
+espn-445467,2016-04-16,2016,regular,Houston Dash,Chicago Stars FC,3,1,,,espn,,,HOU,CHI
+espn-445468,2016-04-16,2016,regular,FC Kansas City,North Carolina Courage,0,1,,,espn,,,FCKC,NC
+espn-445469,2016-04-16,2016,regular,Washington Spirit,Boston Breakers,1,0,,,espn,,,WAS,BOS
+espn-445465,2016-04-17,2016,regular,Portland Thorns FC,Orlando Pride,2,1,,,espn,,,POR,ORL
+espn-445466,2016-04-17,2016,regular,Seattle Reign FC,Gotham FC,1,2,,,espn,,,SEA,GFC
+espn-445462,2016-04-23,2016,regular,FC Kansas City,Portland Thorns FC,1,1,,,espn,,,FCKC,POR
+espn-445463,2016-04-23,2016,regular,Orlando Pride,Houston Dash,3,1,,,espn,,,ORL,HOU
+espn-445464,2016-04-23,2016,regular,Chicago Stars FC,North Carolina Courage,1,0,,,espn,,,CHI,NC
+espn-445460,2016-04-24,2016,regular,Boston Breakers,Seattle Reign FC,0,3,,,espn,,,BOS,SEA
+espn-445461,2016-04-24,2016,regular,Gotham FC,Washington Spirit,1,2,,,espn,,,GFC,WAS
+espn-445458,2016-04-29,2016,regular,Houston Dash,Gotham FC,0,0,,,espn,,,HOU,GFC
+espn-445459,2016-04-29,2016,regular,North Carolina Courage,Washington Spirit,0,3,,,espn,,,NC,WAS
+espn-445455,2016-05-01,2016,regular,Seattle Reign FC,FC Kansas City,1,0,,,espn,,,SEA,FCKC
+espn-445456,2016-05-01,2016,regular,Chicago Stars FC,Orlando Pride,1,0,,,espn,,,CHI,ORL
+espn-445457,2016-05-01,2016,regular,Boston Breakers,Portland Thorns FC,0,1,,,espn,,,BOS,POR
+espn-445451,2016-05-07,2016,regular,FC Kansas City,Houston Dash,1,2,,,espn,,,FCKC,HOU
+espn-445452,2016-05-07,2016,regular,Boston Breakers,Chicago Stars FC,0,1,,,espn,,,BOS,CHI
+espn-445453,2016-05-07,2016,regular,Washington Spirit,Portland Thorns FC,0,0,,,espn,,,WAS,POR
+espn-445454,2016-05-07,2016,regular,Gotham FC,North Carolina Courage,1,2,,,espn,,,GFC,NC
+espn-445450,2016-05-08,2016,regular,Orlando Pride,Seattle Reign FC,2,0,,,espn,,,ORL,SEA
+espn-445448,2016-05-13,2016,regular,FC Kansas City,Chicago Stars FC,0,0,,,espn,,,FCKC,CHI
+espn-445449,2016-05-13,2016,regular,Gotham FC,Boston Breakers,1,0,,,espn,,,GFC,BOS
+espn-445445,2016-05-14,2016,regular,Seattle Reign FC,Portland Thorns FC,1,1,,,espn,,,SEA,POR
+espn-445446,2016-05-14,2016,regular,Orlando Pride,North Carolina Courage,1,0,,,espn,,,ORL,NC
+espn-445447,2016-05-14,2016,regular,Washington Spirit,Houston Dash,1,0,,,espn,,,WAS,HOU
+espn-445444,2016-05-20,2016,regular,Houston Dash,Orlando Pride,0,1,,,espn,,,HOU,ORL
+espn-445442,2016-05-21,2016,regular,Portland Thorns FC,Washington Spirit,4,1,,,espn,,,POR,WAS
+espn-445443,2016-05-21,2016,regular,North Carolina Courage,Gotham FC,5,2,,,espn,,,NC,GFC
+espn-445440,2016-05-22,2016,regular,Seattle Reign FC,Chicago Stars FC,1,2,,,espn,,,SEA,CHI
+espn-445441,2016-05-22,2016,regular,Boston Breakers,FC Kansas City,1,0,,,espn,,,BOS,FCKC
+espn-445439,2016-05-27,2016,regular,North Carolina Courage,Boston Breakers,4,0,,,espn,,,NC,BOS
+espn-445437,2016-05-28,2016,regular,FC Kansas City,Orlando Pride,2,0,,,espn,,,FCKC,ORL
+espn-445435,2016-05-29,2016,regular,Portland Thorns FC,Seattle Reign FC,0,0,,,espn,,,POR,SEA
+espn-445436,2016-05-29,2016,regular,Chicago Stars FC,Gotham FC,1,1,,,espn,,,CHI,GFC
+espn-445434,2016-06-10,2016,regular,Boston Breakers,Washington Spirit,1,1,,,espn,,,BOS,WAS
+espn-445432,2016-06-11,2016,regular,Gotham FC,FC Kansas City,1,1,,,espn,,,GFC,FCKC
+espn-445433,2016-06-11,2016,regular,North Carolina Courage,Orlando Pride,1,0,,,espn,,,NC,ORL
+espn-445430,2016-06-12,2016,regular,Seattle Reign FC,Houston Dash,1,0,,,espn,,,SEA,HOU
+espn-445431,2016-06-12,2016,regular,Chicago Stars FC,Portland Thorns FC,1,1,,,espn,,,CHI,POR
+espn-445429,2016-06-17,2016,regular,North Carolina Courage,Portland Thorns FC,0,2,,,espn,,,NC,POR
+espn-445427,2016-06-18,2016,regular,Chicago Stars FC,Boston Breakers,3,0,,,espn,,,CHI,BOS
+espn-445428,2016-06-18,2016,regular,Washington Spirit,Orlando Pride,2,0,,,espn,,,WAS,ORL
+espn-445425,2016-06-19,2016,regular,Houston Dash,FC Kansas City,0,1,,,espn,,,HOU,FCKC
+espn-445426,2016-06-19,2016,regular,Gotham FC,Seattle Reign FC,0,0,,,espn,,,GFC,SEA
+espn-445424,2016-06-22,2016,regular,Portland Thorns FC,Chicago Stars FC,2,0,,,espn,,,POR,CHI
+espn-445423,2016-06-23,2016,regular,Orlando Pride,Houston Dash,1,0,,,espn,,,ORL,HOU
+espn-445422,2016-06-24,2016,regular,North Carolina Courage,Boston Breakers,7,1,,,espn,,,NC,BOS
+espn-445420,2016-06-25,2016,regular,FC Kansas City,Seattle Reign FC,0,0,,,espn,,,FCKC,SEA
+espn-445421,2016-06-25,2016,regular,Washington Spirit,Gotham FC,1,2,,,espn,,,WAS,GFC
+espn-445419,2016-06-26,2016,regular,Orlando Pride,Portland Thorns FC,1,2,,,espn,,,ORL,POR
+espn-445418,2016-07-01,2016,regular,North Carolina Courage,Chicago Stars FC,2,0,,,espn,,,NC,CHI
+espn-445415,2016-07-02,2016,regular,Portland Thorns FC,Gotham FC,2,1,,,espn,,,POR,GFC
+espn-445416,2016-07-02,2016,regular,Seattle Reign FC,Boston Breakers,2,0,,,espn,,,SEA,BOS
+espn-445417,2016-07-02,2016,regular,Washington Spirit,FC Kansas City,2,0,,,espn,,,WAS,FCKC
+espn-445411,2016-07-09,2016,regular,Portland Thorns FC,FC Kansas City,1,2,,,espn,,,POR,FCKC
+espn-445412,2016-07-09,2016,regular,Washington Spirit,Chicago Stars FC,2,0,,,espn,,,WAS,CHI
+espn-445413,2016-07-09,2016,regular,Gotham FC,Houston Dash,1,0,,,espn,,,GFC,HOU
+espn-445414,2016-07-09,2016,regular,North Carolina Courage,Seattle Reign FC,3,2,,,espn,,,NC,SEA
+espn-445410,2016-07-10,2016,regular,Orlando Pride,Boston Breakers,2,1,,,espn,,,ORL,BOS
+espn-445406,2016-07-16,2016,regular,Seattle Reign FC,North Carolina Courage,1,1,,,espn,,,SEA,NC
+espn-445407,2016-07-16,2016,regular,Houston Dash,Portland Thorns FC,3,0,,,espn,,,HOU,POR
+espn-445408,2016-07-16,2016,regular,Orlando Pride,Chicago Stars FC,0,1,,,espn,,,ORL,CHI
+espn-445409,2016-07-16,2016,regular,FC Kansas City,Washington Spirit,2,3,,,espn,,,FCKC,WAS
+espn-445405,2016-07-17,2016,regular,Boston Breakers,Gotham FC,2,3,,,espn,,,BOS,GFC
+espn-445401,2016-07-23,2016,regular,Seattle Reign FC,Orlando Pride,5,2,,,espn,,,SEA,ORL
+espn-445402,2016-07-23,2016,regular,Chicago Stars FC,Houston Dash,1,1,,,espn,,,CHI,HOU
+espn-445403,2016-07-23,2016,regular,North Carolina Courage,FC Kansas City,0,1,,,espn,,,NC,FCKC
+espn-445404,2016-07-23,2016,regular,Gotham FC,Washington Spirit,1,0,,,espn,,,GFC,WAS
+espn-445397,2016-07-30,2016,regular,Portland Thorns FC,Seattle Reign FC,1,0,,,espn,,,POR,SEA
+espn-445398,2016-07-30,2016,regular,Houston Dash,North Carolina Courage,3,3,,,espn,,,HOU,NC
+espn-445399,2016-07-30,2016,regular,Chicago Stars FC,FC Kansas City,1,0,,,espn,,,CHI,FCKC
+espn-445396,2016-07-31,2016,regular,Boston Breakers,Orlando Pride,1,0,,,espn,,,BOS,ORL
+espn-445400,2016-07-31,2016,regular,Washington Spirit,Gotham FC,3,1,,,espn,,,WAS,GFC
+espn-445395,2016-08-26,2016,regular,Orlando Pride,Washington Spirit,1,2,,,espn,,,ORL,WAS
+espn-445392,2016-08-27,2016,regular,Gotham FC,Chicago Stars FC,1,3,,,espn,,,GFC,CHI
+espn-445393,2016-08-27,2016,regular,North Carolina Courage,Houston Dash,2,2,,,espn,,,NC,HOU
+espn-445394,2016-08-27,2016,regular,Seattle Reign FC,Portland Thorns FC,3,1,,,espn,,,SEA,POR
+espn-445391,2016-08-28,2016,regular,FC Kansas City,Boston Breakers,0,2,,,espn,,,FCKC,BOS
+espn-445390,2016-08-31,2016,regular,Boston Breakers,Houston Dash,1,3,,,espn,,,BOS,HOU
+espn-445388,2016-09-03,2016,regular,Houston Dash,Orlando Pride,4,2,,,espn,,,HOU,ORL
+espn-445389,2016-09-03,2016,regular,Washington Spirit,North Carolina Courage,1,1,,,espn,,,WAS,NC
+espn-445385,2016-09-04,2016,regular,Portland Thorns FC,Boston Breakers,5,1,,,espn,,,POR,BOS
+espn-445386,2016-09-04,2016,regular,Chicago Stars FC,Seattle Reign FC,2,2,,,espn,,,CHI,SEA
+espn-445387,2016-09-04,2016,regular,FC Kansas City,Gotham FC,2,1,,,espn,,,FCKC,GFC
+espn-445380,2016-09-07,2016,regular,Boston Breakers,North Carolina Courage,2,2,,,espn,,,BOS,NC
+espn-445381,2016-09-07,2016,regular,Portland Thorns FC,Houston Dash,3,0,,,espn,,,POR,HOU
+espn-445382,2016-09-07,2016,regular,Chicago Stars FC,FC Kansas City,2,3,,,espn,,,CHI,FCKC
+espn-445383,2016-09-07,2016,regular,Gotham FC,Orlando Pride,1,1,,,espn,,,GFC,ORL
+espn-445384,2016-09-07,2016,regular,Washington Spirit,Seattle Reign FC,2,1,,,espn,,,WAS,SEA
+espn-445379,2016-09-10,2016,regular,Orlando Pride,Gotham FC,1,2,,,espn,,,ORL,GFC
+espn-445375,2016-09-11,2016,regular,Portland Thorns FC,North Carolina Courage,3,2,,,espn,,,POR,NC
+espn-445376,2016-09-11,2016,regular,Seattle Reign FC,Washington Spirit,2,0,,,espn,,,SEA,WAS
+espn-445377,2016-09-11,2016,regular,Houston Dash,Boston Breakers,4,1,,,espn,,,HOU,BOS
+espn-445378,2016-09-11,2016,regular,FC Kansas City,Chicago Stars FC,0,0,,,espn,,,FCKC,CHI
+espn-445372,2016-09-24,2016,regular,Chicago Stars FC,Washington Spirit,3,1,,,espn,,,CHI,WAS
+espn-445373,2016-09-24,2016,regular,Boston Breakers,North Carolina Courage,0,4,,,espn,,,BOS,NC
+espn-445374,2016-09-24,2016,regular,Orlando Pride,FC Kansas City,1,2,,,espn,,,ORL,FCKC
+espn-445370,2016-09-25,2016,regular,Gotham FC,Portland Thorns FC,1,3,,,espn,,,GFC,POR
+espn-445371,2016-09-25,2016,regular,Houston Dash,Seattle Reign FC,2,3,,,espn,,,HOU,SEA
+espn-467304,2016-09-30,2016,regular,Washington Spirit,Chicago Stars FC,2,1,,OT,espn,,,WAS,CHI
+espn-467303,2016-10-02,2016,regular,Portland Thorns FC,North Carolina Courage,3,4,,OT,espn,,,POR,NC
+espn-467435,2016-10-09,2016,regular,Washington Spirit,North Carolina Courage,2,3,,pens,espn,,,WAS,NC
+espn-475629,2017-04-15,2017,regular,Seattle Reign FC,Gotham FC,1,1,,,espn,,,SEA,GFC
+espn-475630,2017-04-15,2017,regular,Washington Spirit,North Carolina Courage,0,1,,,espn,,,WAS,NC
+espn-475631,2017-04-15,2017,regular,Portland Thorns FC,Orlando Pride,2,0,,,espn,,,POR,ORL
+espn-475632,2017-04-15,2017,regular,Houston Dash,Chicago Stars FC,2,0,,,espn,,,HOU,CHI
+espn-475628,2017-04-16,2017,regular,FC Kansas City,Boston Breakers,2,0,,,espn,,,FCKC,BOS
+espn-475624,2017-04-22,2017,regular,Seattle Reign FC,Houston Dash,5,1,,,espn,,,SEA,HOU
+espn-475625,2017-04-22,2017,regular,North Carolina Courage,Portland Thorns FC,1,0,,,espn,,,NC,POR
+espn-475626,2017-04-22,2017,regular,Chicago Stars FC,FC Kansas City,1,0,,,espn,,,CHI,FCKC
+espn-475627,2017-04-22,2017,regular,Orlando Pride,Washington Spirit,1,1,,,espn,,,ORL,WAS
+espn-475623,2017-04-23,2017,regular,Boston Breakers,Gotham FC,1,0,,,espn,,,BOS,GFC
+espn-475619,2017-04-29,2017,regular,Washington Spirit,Houston Dash,0,1,,,espn,,,WAS,HOU
+espn-475620,2017-04-29,2017,regular,Boston Breakers,Seattle Reign FC,3,0,,,espn,,,BOS,SEA
+espn-475621,2017-04-29,2017,regular,Portland Thorns FC,Chicago Stars FC,1,0,,,espn,,,POR,CHI
+espn-475622,2017-04-29,2017,regular,North Carolina Courage,Orlando Pride,3,1,,,espn,,,NC,ORL
+espn-475618,2017-04-30,2017,regular,Gotham FC,FC Kansas City,1,0,,,espn,,,GFC,FCKC
+espn-475615,2017-05-06,2017,regular,Portland Thorns FC,Seattle Reign FC,2,2,,,espn,,,POR,SEA
+espn-475616,2017-05-06,2017,regular,Chicago Stars FC,Houston Dash,2,0,,,espn,,,CHI,HOU
+espn-475617,2017-05-06,2017,regular,Washington Spirit,Gotham FC,4,3,,,espn,,,WAS,GFC
+espn-475613,2017-05-07,2017,regular,Boston Breakers,North Carolina Courage,0,1,,,espn,,,BOS,NC
+espn-475614,2017-05-07,2017,regular,FC Kansas City,Orlando Pride,1,1,,,espn,,,FCKC,ORL
+espn-475610,2017-05-13,2017,regular,FC Kansas City,Portland Thorns FC,0,0,,,espn,,,FCKC,POR
+espn-475611,2017-05-13,2017,regular,Seattle Reign FC,Washington Spirit,6,2,,,espn,,,SEA,WAS
+espn-475612,2017-05-13,2017,regular,Houston Dash,Gotham FC,1,3,,,espn,,,HOU,GFC
+espn-475608,2017-05-14,2017,regular,Chicago Stars FC,Boston Breakers,1,1,,,espn,,,CHI,BOS
+espn-475609,2017-05-14,2017,regular,Orlando Pride,North Carolina Courage,3,1,,,espn,,,ORL,NC
+espn-475607,2017-05-19,2017,regular,Boston Breakers,Portland Thorns FC,2,2,,,espn,,,BOS,POR
+espn-475605,2017-05-20,2017,regular,Washington Spirit,FC Kansas City,0,1,,,espn,,,WAS,FCKC
+espn-475606,2017-05-20,2017,regular,Gotham FC,Houston Dash,2,1,,,espn,,,GFC,HOU
+espn-475603,2017-05-21,2017,regular,Seattle Reign FC,Orlando Pride,1,1,,,espn,,,SEA,ORL
+espn-475604,2017-05-21,2017,regular,North Carolina Courage,Chicago Stars FC,1,3,,,espn,,,NC,CHI
+espn-475602,2017-05-24,2017,regular,North Carolina Courage,Gotham FC,2,0,,,espn,,,NC,GFC
+espn-475597,2017-05-27,2017,regular,Portland Thorns FC,Boston Breakers,2,0,,,espn,,,POR,BOS
+espn-475598,2017-05-27,2017,regular,FC Kansas City,Washington Spirit,3,2,,,espn,,,FCKC,WAS
+espn-475599,2017-05-27,2017,regular,Gotham FC,Orlando Pride,2,1,,,espn,,,GFC,ORL
+espn-475600,2017-05-27,2017,regular,Chicago Stars FC,North Carolina Courage,3,2,,,espn,,,CHI,NC
+espn-475601,2017-05-27,2017,regular,Houston Dash,Seattle Reign FC,0,2,,,espn,,,HOU,SEA
+espn-475593,2017-06-03,2017,regular,Orlando Pride,Boston Breakers,2,0,,,espn,,,ORL,BOS
+espn-475594,2017-06-03,2017,regular,Washington Spirit,Houston Dash,2,0,,,espn,,,WAS,HOU
+espn-475595,2017-06-03,2017,regular,Gotham FC,Portland Thorns FC,0,2,,,espn,,,GFC,POR
+espn-475596,2017-06-03,2017,regular,North Carolina Courage,FC Kansas City,2,0,,,espn,,,NC,FCKC
+espn-475592,2017-06-04,2017,regular,Chicago Stars FC,Seattle Reign FC,1,0,,,espn,,,CHI,SEA
+espn-475587,2017-06-17,2017,regular,Portland Thorns FC,Gotham FC,1,3,,,espn,,,POR,GFC
+espn-475588,2017-06-17,2017,regular,Houston Dash,Orlando Pride,2,4,,,espn,,,HOU,ORL
+espn-475589,2017-06-17,2017,regular,North Carolina Courage,Boston Breakers,3,1,,,espn,,,NC,BOS
+espn-475590,2017-06-17,2017,regular,FC Kansas City,Seattle Reign FC,1,1,,,espn,,,FCKC,SEA
+espn-475591,2017-06-17,2017,regular,Chicago Stars FC,Washington Spirit,1,1,,,espn,,,CHI,WAS
+espn-475583,2017-06-24,2017,regular,Seattle Reign FC,FC Kansas City,1,1,,,espn,,,SEA,FCKC
+espn-475584,2017-06-24,2017,regular,Washington Spirit,Portland Thorns FC,1,0,,,espn,,,WAS,POR
+espn-475585,2017-06-24,2017,regular,Orlando Pride,Houston Dash,0,2,,,espn,,,ORL,HOU
+espn-475586,2017-06-24,2017,regular,Boston Breakers,North Carolina Courage,0,1,,,espn,,,BOS,NC
+espn-475582,2017-06-25,2017,regular,Chicago Stars FC,Gotham FC,2,1,,,espn,,,CHI,GFC
+espn-475578,2017-06-28,2017,regular,Seattle Reign FC,Chicago Stars FC,2,1,,,espn,,,SEA,CHI
+espn-475579,2017-06-28,2017,regular,Portland Thorns FC,FC Kansas City,3,0,,,espn,,,POR,FCKC
+espn-475580,2017-06-28,2017,regular,Houston Dash,Boston Breakers,0,0,,,espn,,,HOU,BOS
+espn-475581,2017-06-28,2017,regular,Gotham FC,Orlando Pride,2,3,,,espn,,,GFC,ORL
+espn-475574,2017-07-01,2017,regular,Seattle Reign FC,Portland Thorns FC,2,0,,,espn,,,SEA,POR
+espn-475575,2017-07-01,2017,regular,Orlando Pride,Chicago Stars FC,0,1,,,espn,,,ORL,CHI
+espn-475576,2017-07-01,2017,regular,North Carolina Courage,Gotham FC,0,1,,,espn,,,NC,GFC
+espn-475577,2017-07-01,2017,regular,Boston Breakers,Washington Spirit,1,0,,,espn,,,BOS,WAS
+espn-475573,2017-07-02,2017,regular,FC Kansas City,Houston Dash,1,2,,,espn,,,FCKC,HOU
+espn-475572,2017-07-07,2017,regular,Boston Breakers,Chicago Stars FC,0,0,,,espn,,,BOS,CHI
+espn-475568,2017-07-08,2017,regular,Houston Dash,Portland Thorns FC,1,1,,,espn,,,HOU,POR
+espn-475569,2017-07-08,2017,regular,Gotham FC,FC Kansas City,3,2,,,espn,,,GFC,FCKC
+espn-475570,2017-07-08,2017,regular,Washington Spirit,Orlando Pride,2,2,,,espn,,,WAS,ORL
+espn-475571,2017-07-08,2017,regular,North Carolina Courage,Seattle Reign FC,2,0,,,espn,,,NC,SEA
+espn-475563,2017-07-15,2017,regular,Houston Dash,Washington Spirit,2,1,,,espn,,,HOU,WAS
+espn-475564,2017-07-15,2017,regular,Orlando Pride,FC Kansas City,4,1,,,espn,,,ORL,FCKC
+espn-475565,2017-07-15,2017,regular,Gotham FC,Chicago Stars FC,2,2,,,espn,,,GFC,CHI
+espn-475566,2017-07-15,2017,regular,Seattle Reign FC,Boston Breakers,1,1,,,espn,,,SEA,BOS
+espn-475567,2017-07-15,2017,regular,Portland Thorns FC,North Carolina Courage,1,0,,,espn,,,POR,NC
+espn-475558,2017-07-22,2017,regular,Seattle Reign FC,Gotham FC,5,4,,,espn,,,SEA,GFC
+espn-475559,2017-07-22,2017,regular,Portland Thorns FC,Washington Spirit,2,1,,,espn,,,POR,WAS
+espn-475560,2017-07-22,2017,regular,Houston Dash,Boston Breakers,1,0,,,espn,,,HOU,BOS
+espn-475562,2017-07-22,2017,regular,Chicago Stars FC,Orlando Pride,2,1,,,espn,,,CHI,ORL
+espn-475556,2017-08-04,2017,regular,Boston Breakers,FC Kansas City,2,2,,,espn,,,BOS,FCKC
+espn-475557,2017-08-04,2017,regular,Gotham FC,Washington Spirit,1,4,,,espn,,,GFC,WAS
+espn-475553,2017-08-05,2017,regular,Orlando Pride,Chicago Stars FC,1,1,,,espn,,,ORL,CHI
+espn-475554,2017-08-05,2017,regular,Portland Thorns FC,Houston Dash,2,1,,,espn,,,POR,HOU
+espn-475555,2017-08-05,2017,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-475552,2017-08-08,2017,regular,Orlando Pride,Washington Spirit,3,0,,,espn,,,ORL,WAS
+espn-475561,2017-08-10,2017,regular,FC Kansas City,North Carolina Courage,0,1,,,espn,,,FCKC,NC
+espn-475549,2017-08-12,2017,regular,Chicago Stars FC,Portland Thorns FC,2,3,,,espn,,,CHI,POR
+espn-475550,2017-08-12,2017,regular,Washington Spirit,Boston Breakers,2,2,,,espn,,,WAS,BOS
+espn-475551,2017-08-12,2017,regular,Orlando Pride,Gotham FC,5,0,,,espn,,,ORL,GFC
+espn-475547,2017-08-13,2017,regular,Seattle Reign FC,North Carolina Courage,1,2,,,espn,,,SEA,NC
+espn-475548,2017-08-13,2017,regular,Houston Dash,FC Kansas City,0,1,,,espn,,,HOU,FCKC
+espn-475544,2017-08-16,2017,regular,FC Kansas City,Portland Thorns FC,2,1,,,espn,,,FCKC,POR
+espn-475545,2017-08-16,2017,regular,Chicago Stars FC,Seattle Reign FC,1,2,,,espn,,,CHI,SEA
+espn-475546,2017-08-16,2017,regular,Boston Breakers,Houston Dash,1,3,,,espn,,,BOS,HOU
+espn-475540,2017-08-19,2017,regular,Portland Thorns FC,Houston Dash,2,0,,,espn,,,POR,HOU
+espn-475541,2017-08-19,2017,regular,Gotham FC,Seattle Reign FC,5,4,,,espn,,,GFC,SEA
+espn-475542,2017-08-19,2017,regular,Boston Breakers,Orlando Pride,1,2,,,espn,,,BOS,ORL
+espn-475543,2017-08-19,2017,regular,North Carolina Courage,Washington Spirit,2,0,,,espn,,,NC,WAS
+espn-475539,2017-08-20,2017,regular,Chicago Stars FC,FC Kansas City,1,3,,,espn,,,CHI,FCKC
+espn-475535,2017-08-26,2017,regular,Gotham FC,Boston Breakers,1,0,,,espn,,,GFC,BOS
+espn-475536,2017-08-26,2017,regular,Washington Spirit,Chicago Stars FC,1,2,,,espn,,,WAS,CHI
+espn-475537,2017-08-26,2017,regular,FC Kansas City,Orlando Pride,1,2,,,espn,,,FCKC,ORL
+espn-475538,2017-08-26,2017,regular,Seattle Reign FC,Portland Thorns FC,1,2,,,espn,,,SEA,POR
+espn-475533,2017-08-30,2017,regular,Washington Spirit,North Carolina Courage,2,3,,,espn,,,WAS,NC
+espn-475531,2017-09-02,2017,regular,Orlando Pride,Boston Breakers,4,2,,,espn,,,ORL,BOS
+espn-475532,2017-09-02,2017,regular,Portland Thorns FC,Washington Spirit,4,0,,,espn,,,POR,WAS
+espn-475528,2017-09-03,2017,regular,Houston Dash,Seattle Reign FC,0,1,,,espn,,,HOU,SEA
+espn-475529,2017-09-03,2017,regular,Chicago Stars FC,North Carolina Courage,2,1,,,espn,,,CHI,NC
+espn-475530,2017-09-03,2017,regular,FC Kansas City,Gotham FC,4,1,,,espn,,,FCKC,GFC
+espn-475527,2017-09-07,2017,regular,Orlando Pride,Seattle Reign FC,1,1,,,espn,,,ORL,SEA
+espn-475525,2017-09-09,2017,regular,North Carolina Courage,Houston Dash,1,0,,,espn,,,NC,HOU
+espn-475526,2017-09-09,2017,regular,FC Kansas City,Chicago Stars FC,0,0,,,espn,,,FCKC,CHI
+espn-475523,2017-09-10,2017,regular,Boston Breakers,Portland Thorns FC,0,1,,,espn,,,BOS,POR
+espn-475524,2017-09-10,2017,regular,Gotham FC,Washington Spirit,1,2,,,espn,,,GFC,WAS
+espn-475520,2017-09-23,2017,regular,Washington Spirit,Boston Breakers,0,3,,,espn,,,WAS,BOS
+espn-475521,2017-09-23,2017,regular,Orlando Pride,Portland Thorns FC,0,0,,,espn,,,ORL,POR
+espn-475522,2017-09-23,2017,regular,Houston Dash,Chicago Stars FC,2,3,,,espn,,,HOU,CHI
+espn-475654,2017-09-24,2017,regular,Seattle Reign FC,FC Kansas City,0,1,,,espn,,,SEA,FCKC
+espn-475655,2017-09-24,2017,regular,Gotham FC,North Carolina Courage,1,1,,,espn,,,GFC,NC
+espn-475515,2017-09-30,2017,regular,North Carolina Courage,Orlando Pride,2,3,,,espn,,,NC,ORL
+espn-475516,2017-09-30,2017,regular,Boston Breakers,Gotham FC,3,4,,,espn,,,BOS,GFC
+espn-475517,2017-09-30,2017,regular,Portland Thorns FC,Chicago Stars FC,3,1,,,espn,,,POR,CHI
+espn-475518,2017-09-30,2017,regular,Washington Spirit,Seattle Reign FC,2,3,,,espn,,,WAS,SEA
+espn-475519,2017-10-01,2017,regular,FC Kansas City,Houston Dash,1,1,,,espn,,,FCKC,HOU
+espn-497308,2017-10-07,2017,regular,Portland Thorns FC,Orlando Pride,4,1,,,espn,,,POR,ORL
+espn-497307,2017-10-08,2017,regular,North Carolina Courage,Chicago Stars FC,1,0,,,espn,,,NC,CHI
+espn-497559,2017-10-14,2017,regular,Portland Thorns FC,North Carolina Courage,1,0,,,espn,,,POR,NC
+espn-508384,2018-03-24,2018,regular,Seattle Reign FC,Washington Spirit,2,1,,,espn,,,SEA,WAS
+espn-508385,2018-03-24,2018,regular,Orlando Pride,Utah Royals,1,1,,,espn,,,ORL,UTA
+espn-508386,2018-03-24,2018,regular,North Carolina Courage,Portland Thorns FC,1,0,,,espn,,,NC,POR
+espn-508383,2018-03-25,2018,regular,Houston Dash,Chicago Stars FC,1,1,,,espn,,,HOU,CHI
+espn-508382,2018-03-30,2018,regular,Houston Dash,Utah Royals,0,0,,,espn,,,HOU,UTA
+espn-508379,2018-03-31,2018,regular,Chicago Stars FC,Portland Thorns FC,2,3,,,espn,,,CHI,POR
+espn-508380,2018-03-31,2018,regular,Washington Spirit,Orlando Pride,2,0,,,espn,,,WAS,ORL
+espn-508381,2018-03-31,2018,regular,North Carolina Courage,Gotham FC,1,0,,,espn,,,NC,GFC
+espn-508377,2018-04-14,2018,regular,Washington Spirit,North Carolina Courage,2,4,,,espn,,,WAS,NC
+espn-508378,2018-04-14,2018,regular,Utah Royals,Chicago Stars FC,0,1,,,espn,,,UTA,CHI
+espn-508375,2018-04-15,2018,regular,Portland Thorns FC,Orlando Pride,2,1,,,espn,,,POR,ORL
+espn-508376,2018-04-15,2018,regular,Gotham FC,Seattle Reign FC,0,1,,,espn,,,GFC,SEA
+espn-508373,2018-04-18,2018,regular,Chicago Stars FC,Houston Dash,3,0,,,espn,,,CHI,HOU
+espn-508374,2018-04-18,2018,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-508372,2018-04-20,2018,regular,Portland Thorns FC,Washington Spirit,1,1,,,espn,,,POR,WAS
+espn-508370,2018-04-21,2018,regular,Chicago Stars FC,Gotham FC,1,1,,,espn,,,CHI,GFC
+espn-508371,2018-04-21,2018,regular,North Carolina Courage,Utah Royals,2,2,,,espn,,,NC,UTA
+espn-508369,2018-04-22,2018,regular,Orlando Pride,Houston Dash,1,0,,,espn,,,ORL,HOU
+espn-508365,2018-04-28,2018,regular,Utah Royals,Portland Thorns FC,1,1,,,espn,,,UTA,POR
+espn-508366,2018-04-28,2018,regular,Orlando Pride,Seattle Reign FC,1,1,,,espn,,,ORL,SEA
+espn-508367,2018-04-28,2018,regular,Washington Spirit,Chicago Stars FC,1,1,,,espn,,,WAS,CHI
+espn-508368,2018-04-28,2018,regular,Houston Dash,North Carolina Courage,0,2,,,espn,,,HOU,NC
+espn-508364,2018-05-02,2018,regular,Chicago Stars FC,Orlando Pride,0,2,,,espn,,,CHI,ORL
+espn-508361,2018-05-05,2018,regular,Utah Royals,Washington Spirit,2,0,,,espn,,,UTA,WAS
+espn-508362,2018-05-05,2018,regular,Gotham FC,Houston Dash,2,3,,,espn,,,GFC,HOU
+espn-508363,2018-05-05,2018,regular,Portland Thorns FC,Seattle Reign FC,2,3,,,espn,,,POR,SEA
+espn-508360,2018-05-06,2018,regular,North Carolina Courage,Chicago Stars FC,1,1,,,espn,,,NC,CHI
+espn-508358,2018-05-09,2018,regular,Utah Royals,Orlando Pride,0,0,,,espn,,,UTA,ORL
+espn-508359,2018-05-09,2018,regular,Houston Dash,Portland Thorns FC,1,1,,,espn,,,HOU,POR
+espn-508354,2018-05-12,2018,regular,Seattle Reign FC,Gotham FC,4,1,,,espn,,,SEA,GFC
+espn-508355,2018-05-12,2018,regular,Chicago Stars FC,Houston Dash,2,2,,,espn,,,CHI,HOU
+espn-508356,2018-05-12,2018,regular,North Carolina Courage,Washington Spirit,1,0,,,espn,,,NC,WAS
+espn-508357,2018-05-12,2018,regular,Portland Thorns FC,Orlando Pride,1,2,,,espn,,,POR,ORL
+espn-508350,2018-05-19,2018,regular,Seattle Reign FC,Chicago Stars FC,0,0,,,espn,,,SEA,CHI
+espn-508351,2018-05-19,2018,regular,Gotham FC,North Carolina Courage,1,2,,,espn,,,GFC,NC
+espn-508352,2018-05-19,2018,regular,Washington Spirit,Portland Thorns FC,0,1,,,espn,,,WAS,POR
+espn-508353,2018-05-19,2018,regular,Utah Royals,Houston Dash,1,0,,,espn,,,UTA,HOU
+espn-508347,2018-05-23,2018,regular,Houston Dash,Seattle Reign FC,2,1,,,espn,,,HOU,SEA
+espn-508348,2018-05-23,2018,regular,Orlando Pride,North Carolina Courage,3,4,,,espn,,,ORL,NC
+espn-508349,2018-05-23,2018,regular,Washington Spirit,Gotham FC,1,0,,,espn,,,WAS,GFC
+espn-508346,2018-05-25,2018,regular,Portland Thorns FC,Utah Royals,2,0,,,espn,,,POR,UTA
+espn-508344,2018-05-26,2018,regular,Gotham FC,Seattle Reign FC,0,1,,,espn,,,GFC,SEA
+espn-508345,2018-05-26,2018,regular,Chicago Stars FC,Orlando Pride,2,5,,,espn,,,CHI,ORL
+espn-508343,2018-05-27,2018,regular,Houston Dash,Washington Spirit,3,2,,,espn,,,HOU,WAS
+espn-508342,2018-05-30,2018,regular,Portland Thorns FC,North Carolina Courage,1,4,,,espn,,,POR,NC
+espn-508340,2018-06-02,2018,regular,Gotham FC,Utah Royals,1,2,,,espn,,,GFC,UTA
+espn-508341,2018-06-02,2018,regular,Washington Spirit,Chicago Stars FC,0,2,,,espn,,,WAS,CHI
+espn-508338,2018-06-03,2018,regular,Seattle Reign FC,Orlando Pride,0,0,,,espn,,,SEA,ORL
+espn-508339,2018-06-03,2018,regular,Houston Dash,North Carolina Courage,1,1,,,espn,,,HOU,NC
+espn-508337,2018-06-08,2018,regular,Gotham FC,Washington Spirit,0,0,,,espn,,,GFC,WAS
+espn-508333,2018-06-16,2018,regular,Orlando Pride,Gotham FC,3,2,,,espn,,,ORL,GFC
+espn-508334,2018-06-16,2018,regular,Washington Spirit,Seattle Reign FC,0,0,,,espn,,,WAS,SEA
+espn-508335,2018-06-16,2018,regular,North Carolina Courage,Utah Royals,0,1,,,espn,,,NC,UTA
+espn-508336,2018-06-16,2018,regular,Chicago Stars FC,Portland Thorns FC,1,1,,,espn,,,CHI,POR
+espn-508332,2018-06-22,2018,regular,Houston Dash,Portland Thorns FC,1,3,,,espn,,,HOU,POR
+espn-508329,2018-06-23,2018,regular,Chicago Stars FC,Utah Royals,2,0,,,espn,,,CHI,UTA
+espn-508330,2018-06-23,2018,regular,Seattle Reign FC,North Carolina Courage,1,4,,,espn,,,SEA,NC
+espn-508331,2018-06-23,2018,regular,Washington Spirit,Orlando Pride,0,1,,,espn,,,WAS,ORL
+espn-508326,2018-06-27,2018,regular,Portland Thorns FC,Gotham FC,1,1,,,espn,,,POR,GFC
+espn-508327,2018-06-27,2018,regular,Utah Royals,Seattle Reign FC,0,0,,,espn,,,UTA,SEA
+espn-508328,2018-06-27,2018,regular,Orlando Pride,Houston Dash,1,2,,,espn,,,ORL,HOU
+espn-508323,2018-06-30,2018,regular,Seattle Reign FC,Portland Thorns FC,1,0,,,espn,,,SEA,POR
+espn-508324,2018-06-30,2018,regular,Utah Royals,Gotham FC,3,1,,,espn,,,UTA,GFC
+espn-508325,2018-06-30,2018,regular,Orlando Pride,North Carolina Courage,0,3,,,espn,,,ORL,NC
+espn-508322,2018-07-01,2018,regular,Chicago Stars FC,Washington Spirit,2,0,,,espn,,,CHI,WAS
+espn-508321,2018-07-04,2018,regular,North Carolina Courage,Chicago Stars FC,4,1,,,espn,,,NC,CHI
+espn-508320,2018-07-06,2018,regular,Portland Thorns FC,Utah Royals,4,0,,,espn,,,POR,UTA
+espn-508317,2018-07-07,2018,regular,Seattle Reign FC,Houston Dash,3,1,,,espn,,,SEA,HOU
+espn-508318,2018-07-07,2018,regular,Orlando Pride,Washington Spirit,2,1,,,espn,,,ORL,WAS
+espn-508319,2018-07-07,2018,regular,Gotham FC,Chicago Stars FC,1,3,,,espn,,,GFC,CHI
+espn-508314,2018-07-11,2018,regular,Seattle Reign FC,Utah Royals,1,0,,,espn,,,SEA,UTA
+espn-508315,2018-07-11,2018,regular,Houston Dash,Orlando Pride,3,1,,,espn,,,HOU,ORL
+espn-508316,2018-07-11,2018,regular,North Carolina Courage,Washington Spirit,2,0,,,espn,,,NC,WAS
+espn-508311,2018-07-14,2018,regular,Chicago Stars FC,Seattle Reign FC,1,0,,,espn,,,CHI,SEA
+espn-508312,2018-07-14,2018,regular,Gotham FC,North Carolina Courage,0,4,,,espn,,,GFC,NC
+espn-508313,2018-07-14,2018,regular,Utah Royals,Orlando Pride,1,2,,,espn,,,UTA,ORL
+espn-508310,2018-07-15,2018,regular,Portland Thorns FC,Houston Dash,3,1,,,espn,,,POR,HOU
+espn-508309,2018-07-20,2018,regular,Utah Royals,North Carolina Courage,0,0,,,espn,,,UTA,NC
+espn-508307,2018-07-21,2018,regular,Gotham FC,Portland Thorns FC,1,2,,,espn,,,GFC,POR
+espn-508308,2018-07-21,2018,regular,Orlando Pride,Seattle Reign FC,1,1,,,espn,,,ORL,SEA
+espn-508306,2018-07-22,2018,regular,Washington Spirit,Houston Dash,0,1,,,espn,,,WAS,HOU
+espn-508301,2018-08-05,2018,regular,Seattle Reign FC,Washington Spirit,2,0,,,espn,,,SEA,WAS
+espn-508302,2018-08-05,2018,regular,Houston Dash,Utah Royals,1,2,,,espn,,,HOU,UTA
+espn-508303,2018-08-05,2018,regular,Orlando Pride,Gotham FC,2,2,,,espn,,,ORL,GFC
+espn-508304,2018-08-05,2018,regular,North Carolina Courage,Portland Thorns FC,2,1,,,espn,,,NC,POR
+espn-508300,2018-08-08,2018,regular,Utah Royals,Washington Spirit,1,0,,,espn,,,UTA,WAS
+espn-508299,2018-08-10,2018,regular,Chicago Stars FC,North Carolina Courage,1,1,,,espn,,,CHI,NC
+espn-508296,2018-08-11,2018,regular,Orlando Pride,Portland Thorns FC,0,2,,,espn,,,ORL,POR
+espn-508297,2018-08-11,2018,regular,Gotham FC,Houston Dash,1,2,,,espn,,,GFC,HOU
+espn-508298,2018-08-11,2018,regular,Utah Royals,Seattle Reign FC,0,1,,,espn,,,UTA,SEA
+espn-508295,2018-08-15,2018,regular,Seattle Reign FC,Chicago Stars FC,0,0,,,espn,,,SEA,CHI
+espn-508294,2018-08-17,2018,regular,Houston Dash,Washington Spirit,4,0,,,espn,,,HOU,WAS
+espn-508292,2018-08-18,2018,regular,Gotham FC,Utah Royals,2,2,,,espn,,,GFC,UTA
+espn-508293,2018-08-18,2018,regular,Portland Thorns FC,Chicago Stars FC,2,2,,,espn,,,POR,CHI
+espn-508291,2018-08-19,2018,regular,North Carolina Courage,Orlando Pride,3,0,,,espn,,,NC,ORL
+espn-508290,2018-08-21,2018,regular,Seattle Reign FC,Houston Dash,2,0,,,espn,,,SEA,HOU
+espn-508288,2018-08-22,2018,regular,Portland Thorns FC,Gotham FC,2,1,,,espn,,,POR,GFC
+espn-508289,2018-08-22,2018,regular,Washington Spirit,Utah Royals,0,1,,,espn,,,WAS,UTA
+espn-508284,2018-08-25,2018,regular,Houston Dash,Gotham FC,6,1,,,espn,,,HOU,GFC
+espn-508285,2018-08-25,2018,regular,Washington Spirit,Portland Thorns FC,0,1,,,espn,,,WAS,POR
+espn-508286,2018-08-25,2018,regular,Seattle Reign FC,North Carolina Courage,1,1,,,espn,,,SEA,NC
+espn-508287,2018-08-25,2018,regular,Orlando Pride,Chicago Stars FC,1,3,,,espn,,,ORL,CHI
+espn-508283,2018-09-02,2018,regular,Washington Spirit,Gotham FC,1,1,,,espn,,,WAS,GFC
+espn-526870,2018-09-04,2018,regular,Chicago Stars FC,Gotham FC,5,0,,,espn,,,CHI,GFC
+espn-508282,2018-09-07,2018,regular,Portland Thorns FC,Seattle Reign FC,3,1,,,espn,,,POR,SEA
+espn-508279,2018-09-08,2018,regular,North Carolina Courage,Houston Dash,5,0,,,espn,,,NC,HOU
+espn-508280,2018-09-08,2018,regular,Utah Royals,Chicago Stars FC,2,1,,,espn,,,UTA,CHI
+espn-508281,2018-09-08,2018,regular,Gotham FC,Orlando Pride,1,0,,,espn,,,GFC,ORL
+espn-526950,2018-09-15,2018,regular,Portland Thorns FC,Seattle Reign FC,2,1,,,espn,,,POR,SEA
+espn-527068,2018-09-18,2018,regular,North Carolina Courage,Chicago Stars FC,2,0,,,espn,,,NC,CHI
+espn-527154,2018-09-22,2018,regular,North Carolina Courage,Portland Thorns FC,3,0,,,espn,,,NC,POR
+espn-552763,2019-04-13,2019,regular,North Carolina Courage,Chicago Stars FC,1,1,,,espn,,,NC,CHI
+espn-552764,2019-04-13,2019,regular,Washington Spirit,Gotham FC,2,0,,,espn,,,WAS,GFC
+espn-552761,2019-04-14,2019,regular,Houston Dash,Seattle Reign FC,1,1,,,espn,,,HOU,SEA
+espn-552762,2019-04-14,2019,regular,Orlando Pride,Portland Thorns FC,0,2,,,espn,,,ORL,POR
+espn-552760,2019-04-17,2019,regular,North Carolina Courage,Orlando Pride,5,0,,,espn,,,NC,ORL
+espn-552757,2019-04-20,2019,regular,Utah Royals,Washington Spirit,1,0,,,espn,,,UTA,WAS
+espn-552758,2019-04-20,2019,regular,Gotham FC,Houston Dash,0,1,,,espn,,,GFC,HOU
+espn-552759,2019-04-20,2019,regular,Chicago Stars FC,Portland Thorns FC,4,4,,,espn,,,CHI,POR
+espn-552756,2019-04-21,2019,regular,Seattle Reign FC,Orlando Pride,1,1,,,espn,,,SEA,ORL
+espn-552755,2019-04-27,2019,regular,Orlando Pride,Utah Royals,0,1,,,espn,,,ORL,UTA
+espn-552752,2019-04-28,2019,regular,Houston Dash,North Carolina Courage,1,4,,,espn,,,HOU,NC
+espn-552753,2019-04-28,2019,regular,Gotham FC,Portland Thorns FC,2,2,,,espn,,,GFC,POR
+espn-552754,2019-04-28,2019,regular,Chicago Stars FC,Seattle Reign FC,3,0,,,espn,,,CHI,SEA
+espn-552751,2019-05-03,2019,regular,Utah Royals,Chicago Stars FC,1,0,,,espn,,,UTA,CHI
+espn-552749,2019-05-04,2019,regular,Washington Spirit,Seattle Reign FC,0,0,,,espn,,,WAS,SEA
+espn-552750,2019-05-04,2019,regular,North Carolina Courage,Gotham FC,0,0,,,espn,,,NC,GFC
+espn-552748,2019-05-05,2019,regular,Houston Dash,Orlando Pride,1,0,,,espn,,,HOU,ORL
+espn-552745,2019-05-11,2019,regular,Orlando Pride,Portland Thorns FC,1,3,,,espn,,,ORL,POR
+espn-552746,2019-05-11,2019,regular,Utah Royals,Houston Dash,1,2,,,espn,,,UTA,HOU
+espn-552747,2019-05-11,2019,regular,Gotham FC,Washington Spirit,2,3,,,espn,,,GFC,WAS
+espn-552744,2019-05-12,2019,regular,Chicago Stars FC,North Carolina Courage,3,1,,,espn,,,CHI,NC
+espn-552742,2019-05-18,2019,regular,Washington Spirit,Portland Thorns FC,3,1,,,espn,,,WAS,POR
+espn-552743,2019-05-18,2019,regular,Seattle Reign FC,Gotham FC,2,1,,,espn,,,SEA,GFC
+espn-552740,2019-05-19,2019,regular,Houston Dash,Chicago Stars FC,1,2,,,espn,,,HOU,CHI
+espn-552741,2019-05-19,2019,regular,North Carolina Courage,Utah Royals,1,1,,,espn,,,NC,UTA
+espn-552738,2019-05-25,2019,regular,Utah Royals,Orlando Pride,2,0,,,espn,,,UTA,ORL
+espn-552739,2019-05-25,2019,regular,Gotham FC,Portland Thorns FC,0,1,,,espn,,,GFC,POR
+espn-552737,2019-05-26,2019,regular,Chicago Stars FC,Washington Spirit,0,2,,,espn,,,CHI,WAS
+espn-552736,2019-05-27,2019,regular,Seattle Reign FC,North Carolina Courage,2,1,,,espn,,,SEA,NC
+espn-552734,2019-06-01,2019,regular,Orlando Pride,North Carolina Courage,0,3,,,espn,,,ORL,NC
+espn-552735,2019-06-01,2019,regular,Washington Spirit,Utah Royals,2,0,,,espn,,,WAS,UTA
+espn-552732,2019-06-02,2019,regular,Portland Thorns FC,Chicago Stars FC,3,0,,,espn,,,POR,CHI
+espn-552733,2019-06-02,2019,regular,Seattle Reign FC,Houston Dash,1,1,,,espn,,,SEA,HOU
+espn-552728,2019-06-15,2019,regular,Utah Royals,Gotham FC,1,0,,,espn,,,UTA,GFC
+espn-552729,2019-06-15,2019,regular,Seattle Reign FC,Washington Spirit,1,1,,,espn,,,SEA,WAS
+espn-552730,2019-06-15,2019,regular,Houston Dash,Orlando Pride,2,2,,,espn,,,HOU,ORL
+espn-552731,2019-06-15,2019,regular,North Carolina Courage,Portland Thorns FC,1,1,,,espn,,,NC,POR
+espn-552727,2019-06-21,2019,regular,Portland Thorns FC,Utah Royals,0,0,,,espn,,,POR,UTA
+espn-552725,2019-06-22,2019,regular,Washington Spirit,Houston Dash,0,0,,,espn,,,WAS,HOU
+espn-552726,2019-06-22,2019,regular,Gotham FC,Orlando Pride,1,2,,,espn,,,GFC,ORL
+espn-552724,2019-06-23,2019,regular,Chicago Stars FC,Seattle Reign FC,0,1,,,espn,,,CHI,SEA
+espn-552723,2019-06-28,2019,regular,Utah Royals,Seattle Reign FC,0,2,,,espn,,,UTA,SEA
+espn-552721,2019-06-29,2019,regular,Houston Dash,Portland Thorns FC,1,2,,,espn,,,HOU,POR
+espn-552722,2019-06-29,2019,regular,Washington Spirit,North Carolina Courage,1,2,,,espn,,,WAS,NC
+espn-552720,2019-06-30,2019,regular,Orlando Pride,Chicago Stars FC,2,3,,,espn,,,ORL,CHI
+espn-552718,2019-07-05,2019,regular,Portland Thorns FC,Seattle Reign FC,0,1,,,espn,,,POR,SEA
+espn-552719,2019-07-05,2019,regular,North Carolina Courage,Houston Dash,5,2,,,espn,,,NC,HOU
+espn-552716,2019-07-06,2019,regular,Orlando Pride,Washington Spirit,4,3,,,espn,,,ORL,WAS
+espn-552717,2019-07-06,2019,regular,Chicago Stars FC,Gotham FC,1,2,,,espn,,,CHI,GFC
+espn-552715,2019-07-12,2019,regular,Gotham FC,Utah Royals,1,0,,,espn,,,GFC,UTA
+espn-552713,2019-07-13,2019,regular,Houston Dash,Chicago Stars FC,0,1,,,espn,,,HOU,CHI
+espn-552714,2019-07-13,2019,regular,North Carolina Courage,Seattle Reign FC,2,0,,,espn,,,NC,SEA
+espn-552712,2019-07-14,2019,regular,Portland Thorns FC,Orlando Pride,4,3,,,espn,,,POR,ORL
+espn-552711,2019-07-19,2019,regular,Utah Royals,Portland Thorns FC,2,2,,,espn,,,UTA,POR
+espn-552709,2019-07-20,2019,regular,Orlando Pride,Gotham FC,1,0,,,espn,,,ORL,GFC
+espn-552710,2019-07-20,2019,regular,Washington Spirit,Houston Dash,1,2,,,espn,,,WAS,HOU
+espn-552708,2019-07-21,2019,regular,Chicago Stars FC,North Carolina Courage,2,1,,,espn,,,CHI,NC
+espn-552706,2019-07-24,2019,regular,Portland Thorns FC,Houston Dash,5,0,,,espn,,,POR,HOU
+espn-552707,2019-07-24,2019,regular,Gotham FC,Washington Spirit,0,1,,,espn,,,GFC,WAS
+espn-552705,2019-07-27,2019,regular,Utah Royals,North Carolina Courage,1,2,,,espn,,,UTA,NC
+espn-552703,2019-07-28,2019,regular,Houston Dash,Gotham FC,1,0,,,espn,,,HOU,GFC
+espn-552704,2019-07-28,2019,regular,Seattle Reign FC,Chicago Stars FC,0,4,,,espn,,,SEA,CHI
+espn-552701,2019-08-02,2019,regular,Houston Dash,Seattle Reign FC,0,1,,,espn,,,HOU,SEA
+espn-552699,2019-08-03,2019,regular,Portland Thorns FC,Gotham FC,1,1,,,espn,,,POR,GFC
+espn-552700,2019-08-03,2019,regular,Chicago Stars FC,Utah Royals,2,0,,,espn,,,CHI,UTA
+espn-552702,2019-08-03,2019,regular,North Carolina Courage,Washington Spirit,1,0,,,espn,,,NC,WAS
+espn-552697,2019-08-07,2019,regular,Seattle Reign FC,Portland Thorns FC,1,0,,,espn,,,SEA,POR
+espn-552698,2019-08-07,2019,regular,Utah Royals,Gotham FC,3,0,,,espn,,,UTA,GFC
+espn-552695,2019-08-10,2019,regular,Orlando Pride,Houston Dash,0,1,,,espn,,,ORL,HOU
+espn-552696,2019-08-10,2019,regular,Washington Spirit,Chicago Stars FC,0,1,,,espn,,,WAS,CHI
+espn-552693,2019-08-11,2019,regular,Seattle Reign FC,Utah Royals,1,3,,,espn,,,SEA,UTA
+espn-552694,2019-08-11,2019,regular,Portland Thorns FC,North Carolina Courage,2,1,,,espn,,,POR,NC
+espn-552692,2019-08-14,2019,regular,Gotham FC,Chicago Stars FC,2,1,,,espn,,,GFC,CHI
+espn-552690,2019-08-17,2019,regular,Portland Thorns FC,Washington Spirit,3,1,,,espn,,,POR,WAS
+espn-552691,2019-08-17,2019,regular,Orlando Pride,Utah Royals,0,2,,,espn,,,ORL,UTA
+espn-552689,2019-08-18,2019,regular,Gotham FC,Seattle Reign FC,1,1,,,espn,,,GFC,SEA
+espn-552687,2019-08-21,2019,regular,Chicago Stars FC,Orlando Pride,1,2,,,espn,,,CHI,ORL
+espn-552688,2019-08-21,2019,regular,Washington Spirit,Utah Royals,0,0,,,espn,,,WAS,UTA
+espn-552684,2019-08-24,2019,regular,Houston Dash,Gotham FC,1,2,,,espn,,,HOU,GFC
+espn-552685,2019-08-24,2019,regular,Washington Spirit,Orlando Pride,2,1,,,espn,,,WAS,ORL
+espn-552686,2019-08-24,2019,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-552683,2019-08-25,2019,regular,Portland Thorns FC,Chicago Stars FC,3,0,,,espn,,,POR,CHI
+espn-552681,2019-09-06,2019,regular,Utah Royals,Portland Thorns FC,1,0,,,espn,,,UTA,POR
+espn-552679,2019-09-07,2019,regular,Seattle Reign FC,Orlando Pride,3,1,,,espn,,,SEA,ORL
+espn-552680,2019-09-07,2019,regular,Gotham FC,North Carolina Courage,1,2,,,espn,,,GFC,NC
+espn-552678,2019-09-08,2019,regular,Chicago Stars FC,Houston Dash,3,0,,,espn,,,CHI,HOU
+espn-552676,2019-09-11,2019,regular,Portland Thorns FC,North Carolina Courage,0,6,,,espn,,,POR,NC
+espn-552677,2019-09-11,2019,regular,Orlando Pride,Chicago Stars FC,0,1,,,espn,,,ORL,CHI
+espn-552675,2019-09-13,2019,regular,Houston Dash,Utah Royals,2,1,,,espn,,,HOU,UTA
+espn-552673,2019-09-14,2019,regular,Washington Spirit,Seattle Reign FC,2,2,,,espn,,,WAS,SEA
+espn-552674,2019-09-14,2019,regular,North Carolina Courage,Orlando Pride,6,1,,,espn,,,NC,ORL
+espn-552672,2019-09-15,2019,regular,Gotham FC,Chicago Stars FC,0,3,,,espn,,,GFC,CHI
+espn-552671,2019-09-17,2019,regular,North Carolina Courage,Houston Dash,1,0,,,espn,,,NC,HOU
+espn-552666,2019-09-21,2019,regular,Portland Thorns FC,Houston Dash,1,0,,,espn,,,POR,HOU
+espn-552667,2019-09-21,2019,regular,Seattle Reign FC,Gotham FC,0,1,,,espn,,,SEA,GFC
+espn-552668,2019-09-21,2019,regular,Utah Royals,North Carolina Courage,0,3,,,espn,,,UTA,NC
+espn-552669,2019-09-21,2019,regular,Chicago Stars FC,Washington Spirit,3,1,,,espn,,,CHI,WAS
+espn-552665,2019-09-25,2019,regular,Houston Dash,Washington Spirit,0,0,,,espn,,,HOU,WAS
+espn-552670,2019-09-25,2019,regular,Seattle Reign FC,Utah Royals,2,1,,,espn,,,SEA,UTA
+espn-552663,2019-09-28,2019,regular,Chicago Stars FC,Utah Royals,2,1,,,espn,,,CHI,UTA
+espn-552664,2019-09-28,2019,regular,Washington Spirit,North Carolina Courage,2,1,,,espn,,,WAS,NC
+espn-552661,2019-09-29,2019,regular,Seattle Reign FC,Portland Thorns FC,2,0,,,espn,,,SEA,POR
+espn-552662,2019-09-29,2019,regular,Gotham FC,Orlando Pride,1,1,,,espn,,,GFC,ORL
+espn-552682,2019-10-05,2019,regular,Orlando Pride,Washington Spirit,0,3,,,espn,,,ORL,WAS
+espn-552657,2019-10-12,2019,regular,Portland Thorns FC,Washington Spirit,0,0,,,espn,,,POR,WAS
+espn-552658,2019-10-12,2019,regular,Utah Royals,Houston Dash,2,1,,,espn,,,UTA,HOU
+espn-552659,2019-10-12,2019,regular,Orlando Pride,Seattle Reign FC,2,2,,,espn,,,ORL,SEA
+espn-552660,2019-10-12,2019,regular,North Carolina Courage,Gotham FC,3,2,,,espn,,,NC,GFC
+espn-558162,2019-10-20,2019,regular,Chicago Stars FC,Portland Thorns FC,1,0,,,espn,,,CHI,POR
+espn-558163,2019-10-20,2019,regular,North Carolina Courage,Seattle Reign FC,4,1,,OT,espn,,,NC,SEA
+espn-558560,2019-10-27,2019,regular,North Carolina Courage,Chicago Stars FC,4,0,,,espn,,,NC,CHI
+espn-601841,2021-05-15,2021,regular,Seattle Reign FC,North Carolina Courage,0,0,,,espn,,,SEA,NC
+espn-601842,2021-05-15,2021,regular,Gotham FC,Houston Dash,1,0,,,espn,,,GFC,HOU
+espn-601843,2021-05-15,2021,regular,Racing Louisville FC,Kansas City Current,0,0,,,espn,,,LOU,KC
+espn-601839,2021-05-16,2021,regular,Portland Thorns FC,Chicago Stars FC,5,0,,,espn,,,POR,CHI
+espn-601840,2021-05-16,2021,regular,Orlando Pride,Washington Spirit,1,1,,,espn,,,ORL,WAS
+espn-601838,2021-05-21,2021,regular,Racing Louisville FC,Washington Spirit,2,0,,,espn,,,LOU,WAS
+espn-601836,2021-05-22,2021,regular,Chicago Stars FC,Gotham FC,0,0,,,espn,,,CHI,GFC
+espn-601837,2021-05-22,2021,regular,North Carolina Courage,Orlando Pride,1,2,,,espn,,,NC,ORL
+espn-601834,2021-05-23,2021,regular,Portland Thorns FC,Seattle Reign FC,1,2,,,espn,,,POR,SEA
+espn-601835,2021-05-23,2021,regular,Houston Dash,Kansas City Current,2,2,,,espn,,,HOU,KC
+espn-601831,2021-05-26,2021,regular,Kansas City Current,Chicago Stars FC,0,2,,,espn,,,KC,CHI
+espn-601832,2021-05-26,2021,regular,Washington Spirit,Houston Dash,2,1,,,espn,,,WAS,HOU
+espn-601833,2021-05-26,2021,regular,Orlando Pride,Portland Thorns FC,2,1,,,espn,,,ORL,POR
+espn-601830,2021-05-28,2021,regular,North Carolina Courage,Racing Louisville FC,5,0,,,espn,,,NC,LOU
+espn-601829,2021-05-29,2021,regular,Houston Dash,Chicago Stars FC,2,1,,,espn,,,HOU,CHI
+espn-601826,2021-05-30,2021,regular,Seattle Reign FC,Washington Spirit,0,1,,,espn,,,SEA,WAS
+espn-601827,2021-05-30,2021,regular,Orlando Pride,Kansas City Current,1,0,,,espn,,,ORL,KC
+espn-601828,2021-05-30,2021,regular,Gotham FC,Portland Thorns FC,0,1,,,espn,,,GFC,POR
+espn-601823,2021-06-05,2021,regular,Portland Thorns FC,Racing Louisville FC,3,0,,,espn,,,POR,LOU
+espn-601824,2021-06-05,2021,regular,Gotham FC,Seattle Reign FC,1,0,,,espn,,,GFC,SEA
+espn-601825,2021-06-05,2021,regular,Chicago Stars FC,North Carolina Courage,1,0,,,espn,,,CHI,NC
+espn-601821,2021-06-06,2021,regular,Kansas City Current,Houston Dash,0,1,,,espn,,,KC,HOU
+espn-601822,2021-06-06,2021,regular,Washington Spirit,Orlando Pride,1,1,,,espn,,,WAS,ORL
+espn-601819,2021-06-19,2021,regular,Chicago Stars FC,Washington Spirit,1,1,,,espn,,,CHI,WAS
+espn-601820,2021-06-19,2021,regular,North Carolina Courage,Seattle Reign FC,2,1,,,espn,,,NC,SEA
+espn-601816,2021-06-20,2021,regular,Orlando Pride,Gotham FC,1,1,,,espn,,,ORL,GFC
+espn-601817,2021-06-20,2021,regular,Racing Louisville FC,Houston Dash,1,0,,,espn,,,LOU,HOU
+espn-601818,2021-06-20,2021,regular,Portland Thorns FC,Kansas City Current,1,0,,,espn,,,POR,KC
+espn-601815,2021-06-22,2021,regular,Seattle Reign FC,Chicago Stars FC,2,0,,,espn,,,SEA,CHI
+espn-601813,2021-06-23,2021,regular,Racing Louisville FC,North Carolina Courage,0,2,,,espn,,,LOU,NC
+espn-601814,2021-06-23,2021,regular,Kansas City Current,Orlando Pride,1,3,,,espn,,,KC,ORL
+espn-601808,2021-06-26,2021,regular,Houston Dash,Orlando Pride,2,1,,,espn,,,HOU,ORL
+espn-601809,2021-06-26,2021,regular,Kansas City Current,Washington Spirit,1,2,,,espn,,,KC,WAS
+espn-601810,2021-06-26,2021,regular,North Carolina Courage,Portland Thorns FC,2,0,,,espn,,,NC,POR
+espn-601811,2021-06-26,2021,regular,Seattle Reign FC,Gotham FC,0,3,,,espn,,,SEA,GFC
+espn-601812,2021-06-26,2021,regular,Chicago Stars FC,Racing Louisville FC,0,3,,,espn,,,CHI,LOU
+espn-601805,2021-07-02,2021,regular,Houston Dash,Seattle Reign FC,2,0,,,espn,,,HOU,SEA
+espn-601806,2021-07-02,2021,regular,Washington Spirit,Chicago Stars FC,0,1,,,espn,,,WAS,CHI
+espn-601807,2021-07-02,2021,regular,Gotham FC,Kansas City Current,1,1,,,espn,,,GFC,KC
+espn-601804,2021-07-03,2021,regular,Racing Louisville FC,Portland Thorns FC,0,2,,,espn,,,LOU,POR
+espn-601803,2021-07-04,2021,regular,Orlando Pride,North Carolina Courage,0,2,,,espn,,,ORL,NC
+espn-601802,2021-07-09,2021,regular,Orlando Pride,Racing Louisville FC,1,1,,,espn,,,ORL,LOU
+espn-601801,2021-07-10,2021,regular,Washington Spirit,North Carolina Courage,2,0,,,espn,,,WAS,NC
+espn-601798,2021-07-11,2021,regular,Seattle Reign FC,Kansas City Current,2,0,,,espn,,,SEA,KC
+espn-601799,2021-07-11,2021,regular,Chicago Stars FC,Houston Dash,2,1,,,espn,,,CHI,HOU
+espn-601800,2021-07-11,2021,regular,Portland Thorns FC,Gotham FC,0,0,,,espn,,,POR,GFC
+espn-601797,2021-07-17,2021,regular,North Carolina Courage,Houston Dash,1,2,,,espn,,,NC,HOU
+espn-601794,2021-07-18,2021,regular,Portland Thorns FC,Orlando Pride,2,1,,,espn,,,POR,ORL
+espn-601795,2021-07-18,2021,regular,Chicago Stars FC,Seattle Reign FC,3,1,,,espn,,,CHI,SEA
+espn-601796,2021-07-18,2021,regular,Washington Spirit,Gotham FC,2,3,,,espn,,,WAS,GFC
+espn-601793,2021-07-23,2021,regular,Kansas City Current,North Carolina Courage,0,0,,,espn,,,KC,NC
+espn-601791,2021-07-24,2021,regular,Houston Dash,Portland Thorns FC,0,1,,,espn,,,HOU,POR
+espn-601792,2021-07-24,2021,regular,Orlando Pride,Seattle Reign FC,0,2,,,espn,,,ORL,SEA
+espn-601789,2021-07-25,2021,regular,Gotham FC,Chicago Stars FC,2,1,,,espn,,,GFC,CHI
+espn-601790,2021-07-25,2021,regular,Racing Louisville FC,Washington Spirit,0,2,,,espn,,,LOU,WAS
+espn-601787,2021-07-31,2021,regular,Seattle Reign FC,Racing Louisville FC,2,0,,,espn,,,SEA,LOU
+espn-601788,2021-07-31,2021,regular,North Carolina Courage,Orlando Pride,1,1,,,espn,,,NC,ORL
+espn-601784,2021-08-01,2021,regular,Houston Dash,Gotham FC,1,1,,,espn,,,HOU,GFC
+espn-601785,2021-08-01,2021,regular,Chicago Stars FC,Washington Spirit,3,1,,,espn,,,CHI,WAS
+espn-601786,2021-08-01,2021,regular,Portland Thorns FC,Kansas City Current,2,0,,,espn,,,POR,KC
+espn-601781,2021-08-07,2021,regular,Seattle Reign FC,Houston Dash,5,1,,,espn,,,SEA,HOU
+espn-601782,2021-08-07,2021,regular,Gotham FC,North Carolina Courage,0,1,,,espn,,,GFC,NC
+espn-601783,2021-08-07,2021,regular,Washington Spirit,Portland Thorns FC,0,1,,,espn,,,WAS,POR
+espn-601779,2021-08-08,2021,regular,Chicago Stars FC,Orlando Pride,0,2,,,espn,,,CHI,ORL
+espn-601780,2021-08-08,2021,regular,Racing Louisville FC,Kansas City Current,3,1,,,espn,,,LOU,KC
+espn-601778,2021-08-13,2021,regular,Houston Dash,Washington Spirit,2,2,,,espn,,,HOU,WAS
+espn-601776,2021-08-14,2021,regular,Kansas City Current,Seattle Reign FC,1,0,,,espn,,,KC,SEA
+espn-601777,2021-08-14,2021,regular,Orlando Pride,Portland Thorns FC,1,1,,,espn,,,ORL,POR
+espn-601774,2021-08-15,2021,regular,North Carolina Courage,Chicago Stars FC,1,0,,,espn,,,NC,CHI
+espn-601775,2021-08-15,2021,regular,Gotham FC,Racing Louisville FC,1,1,,,espn,,,GFC,LOU
+espn-601773,2021-08-18,2021,regular,Racing Louisville FC,Chicago Stars FC,1,1,,,espn,,,LOU,CHI
+espn-601771,2021-08-21,2021,regular,Seattle Reign FC,Gotham FC,3,2,,,espn,,,SEA,GFC
+espn-601772,2021-08-21,2021,regular,North Carolina Courage,Kansas City Current,4,0,,,espn,,,NC,KC
+espn-601770,2021-08-22,2021,regular,Washington Spirit,Orlando Pride,2,1,,,espn,,,WAS,ORL
+espn-601768,2021-08-25,2021,regular,Portland Thorns FC,Gotham FC,2,1,,,espn,,,POR,GFC
+espn-601769,2021-08-25,2021,regular,Kansas City Current,Racing Louisville FC,2,1,,,espn,,,KC,LOU
+espn-601767,2021-08-28,2021,regular,Chicago Stars FC,Kansas City Current,3,0,,,espn,,,CHI,KC
+espn-601763,2021-08-29,2021,regular,Seattle Reign FC,Portland Thorns FC,2,1,,,espn,,,SEA,POR
+espn-601764,2021-08-29,2021,regular,Houston Dash,Racing Louisville FC,1,0,,,espn,,,HOU,LOU
+espn-601765,2021-08-29,2021,regular,Washington Spirit,North Carolina Courage,0,0,,,espn,,,WAS,NC
+espn-601766,2021-08-29,2021,regular,Gotham FC,Orlando Pride,0,1,,,espn,,,GFC,ORL
+espn-601762,2021-09-01,2021,regular,Houston Dash,Seattle Reign FC,0,1,,,espn,,,HOU,SEA
+espn-601759,2021-09-04,2021,regular,Portland Thorns FC,Washington Spirit,0,0,,,espn,,,POR,WAS
+espn-601760,2021-09-04,2021,regular,Racing Louisville FC,Seattle Reign FC,1,1,,,espn,,,LOU,SEA
+espn-601761,2021-09-04,2021,regular,Gotham FC,Chicago Stars FC,0,0,,,espn,,,GFC,CHI
+espn-601757,2021-09-05,2021,regular,Kansas City Current,North Carolina Courage,0,0,,,espn,,,KC,NC
+espn-601758,2021-09-05,2021,regular,Orlando Pride,Houston Dash,1,1,,,espn,,,ORL,HOU
+espn-601755,2021-09-10,2021,regular,Houston Dash,Chicago Stars FC,1,1,,,espn,,,HOU,CHI
+espn-601754,2021-09-11,2021,regular,Orlando Pride,Racing Louisville FC,3,1,,,espn,,,ORL,LOU
+espn-601752,2021-09-12,2021,regular,North Carolina Courage,Portland Thorns FC,0,1,,,espn,,,NC,POR
+espn-601753,2021-09-12,2021,regular,Washington Spirit,Seattle Reign FC,0,3,,,espn,,,WAS,SEA
+espn-601750,2021-09-25,2021,regular,Chicago Stars FC,Portland Thorns FC,2,1,,,espn,,,CHI,POR
+espn-601751,2021-09-25,2021,regular,Gotham FC,North Carolina Courage,3,1,,,espn,,,GFC,NC
+espn-601747,2021-09-26,2021,regular,Seattle Reign FC,Orlando Pride,3,0,,,espn,,,SEA,ORL
+espn-601748,2021-09-26,2021,regular,Washington Spirit,Kansas City Current,2,1,,,espn,,,WAS,KC
+espn-601749,2021-09-26,2021,regular,Racing Louisville FC,Houston Dash,0,4,,,espn,,,LOU,HOU
+espn-601739,2021-10-06,2021,regular,Portland Thorns FC,Houston Dash,2,3,,,espn,,,POR,HOU
+espn-601740,2021-10-06,2021,regular,North Carolina Courage,Racing Louisville FC,3,1,,,espn,,,NC,LOU
+espn-601741,2021-10-06,2021,regular,Gotham FC,Washington Spirit,0,0,,,espn,,,GFC,WAS
+espn-601737,2021-10-09,2021,regular,Orlando Pride,Gotham FC,2,3,,,espn,,,ORL,GFC
+espn-601738,2021-10-09,2021,regular,Washington Spirit,Racing Louisville FC,3,0,,,espn,,,WAS,LOU
+espn-601734,2021-10-10,2021,regular,Seattle Reign FC,Chicago Stars FC,3,2,,,espn,,,SEA,CHI
+espn-601735,2021-10-10,2021,regular,Kansas City Current,Portland Thorns FC,0,0,,,espn,,,KC,POR
+espn-601736,2021-10-10,2021,regular,Houston Dash,North Carolina Courage,4,1,,,espn,,,HOU,NC
+espn-601742,2021-10-13,2021,regular,Portland Thorns FC,Seattle Reign FC,1,1,,,espn,,,POR,SEA
+espn-601743,2021-10-13,2021,regular,Kansas City Current,Houston Dash,3,0,,,espn,,,KC,HOU
+espn-601744,2021-10-13,2021,regular,Chicago Stars FC,Orlando Pride,1,0,,,espn,,,CHI,ORL
+espn-601746,2021-10-13,2021,regular,North Carolina Courage,Washington Spirit,1,2,,,espn,,,NC,WAS
+espn-601731,2021-10-16,2021,regular,Seattle Reign FC,Washington Spirit,0,2,,,espn,,,SEA,WAS
+espn-601732,2021-10-16,2021,regular,Chicago Stars FC,Kansas City Current,2,1,,,espn,,,CHI,KC
+espn-601733,2021-10-16,2021,regular,Racing Louisville FC,Orlando Pride,3,1,,,espn,,,LOU,ORL
+espn-601729,2021-10-17,2021,regular,Houston Dash,Portland Thorns FC,0,1,,,espn,,,HOU,POR
+espn-601730,2021-10-17,2021,regular,North Carolina Courage,Gotham FC,0,3,,,espn,,,NC,GFC
+espn-601756,2021-10-22,2021,regular,Kansas City Current,Gotham FC,1,1,,,espn,,,KC,GFC
+espn-601745,2021-10-28,2021,regular,Racing Louisville FC,Gotham FC,1,1,,,espn,,,LOU,GFC
+espn-601728,2021-10-29,2021,regular,Orlando Pride,Chicago Stars FC,0,1,,,espn,,,ORL,CHI
+espn-601726,2021-10-30,2021,regular,Portland Thorns FC,North Carolina Courage,0,0,,,espn,,,POR,NC
+espn-601727,2021-10-30,2021,regular,Kansas City Current,Seattle Reign FC,0,3,,,espn,,,KC,SEA
+espn-601724,2021-10-31,2021,regular,Washington Spirit,Houston Dash,1,0,,,espn,,,WAS,HOU
+espn-601725,2021-10-31,2021,regular,Gotham FC,Racing Louisville FC,1,1,,,espn,,,GFC,LOU
+espn-621414,2021-11-07,2021,regular,Washington Spirit,North Carolina Courage,1,0,,OT,espn,,,WAS,NC
+espn-621415,2021-11-07,2021,regular,Chicago Stars FC,Gotham FC,1,0,,,espn,,,CHI,GFC
+espn-621412,2021-11-14,2021,regular,Portland Thorns FC,Chicago Stars FC,0,2,,,espn,,,POR,CHI
+espn-621413,2021-11-14,2021,regular,Seattle Reign FC,Washington Spirit,1,2,,,espn,,,SEA,WAS
+espn-621801,2021-11-20,2021,regular,Washington Spirit,Chicago Stars FC,2,1,,OT,espn,,,WAS,CHI
+espn-633211,2022-04-29,2022,regular,Angel City FC,North Carolina Courage,2,1,,,espn,,,LA,NC
+espn-633209,2022-04-30,2022,regular,Chicago Stars FC,Racing Louisville FC,2,1,,,espn,,,CHI,LOU
+espn-633210,2022-04-30,2022,regular,Portland Thorns FC,Kansas City Current,3,0,,,espn,,,POR,KC
+espn-633206,2022-05-01,2022,regular,Orlando Pride,Gotham FC,0,3,,,espn,,,ORL,GFC
+espn-633207,2022-05-01,2022,regular,Houston Dash,San Diego Wave FC,0,1,,,espn,,,HOU,SD
+espn-633208,2022-05-01,2022,regular,Washington Spirit,Seattle Reign FC,2,1,,,espn,,,WAS,SEA
+espn-633203,2022-05-07,2022,regular,San Diego Wave FC,Gotham FC,4,0,,,espn,,,SD,GFC
+espn-633200,2022-05-08,2022,regular,Angel City FC,Orlando Pride,0,1,,,espn,,,LA,ORL
+espn-633201,2022-05-08,2022,regular,Seattle Reign FC,Racing Louisville FC,2,2,,,espn,,,SEA,LOU
+espn-633202,2022-05-08,2022,regular,Kansas City Current,Houston Dash,0,2,,,espn,,,KC,HOU
+espn-633199,2022-05-13,2022,regular,Portland Thorns FC,Seattle Reign FC,0,0,,,espn,,,POR,SEA
+espn-633196,2022-05-14,2022,regular,Racing Louisville FC,Houston Dash,1,1,,,espn,,,LOU,HOU
+espn-633198,2022-05-14,2022,regular,Orlando Pride,Kansas City Current,2,2,,,espn,,,ORL,KC
+espn-633194,2022-05-15,2022,regular,Washington Spirit,Angel City FC,0,1,,,espn,,,WAS,LA
+espn-633195,2022-05-15,2022,regular,San Diego Wave FC,Chicago Stars FC,2,1,,,espn,,,SD,CHI
+espn-633191,2022-05-18,2022,regular,Portland Thorns FC,Washington Spirit,1,1,,,espn,,,POR,WAS
+espn-633192,2022-05-18,2022,regular,Racing Louisville FC,San Diego Wave FC,1,0,,,espn,,,LOU,SD
+espn-633193,2022-05-18,2022,regular,North Carolina Courage,Orlando Pride,1,2,,,espn,,,NC,ORL
+espn-633189,2022-05-21,2022,regular,Angel City FC,Kansas City Current,1,0,,,espn,,,LA,KC
+espn-633190,2022-05-21,2022,regular,Portland Thorns FC,Houston Dash,0,2,,,espn,,,POR,HOU
+espn-633185,2022-05-22,2022,regular,Orlando Pride,Chicago Stars FC,2,4,,,espn,,,ORL,CHI
+espn-633186,2022-05-22,2022,regular,Seattle Reign FC,Washington Spirit,0,0,,,espn,,,SEA,WAS
+espn-633187,2022-05-22,2022,regular,Gotham FC,Racing Louisville FC,0,1,,,espn,,,GFC,LOU
+espn-633188,2022-05-22,2022,regular,North Carolina Courage,San Diego Wave FC,0,1,,,espn,,,NC,SD
+espn-633184,2022-05-25,2022,regular,Seattle Reign FC,Kansas City Current,1,0,,,espn,,,SEA,KC
+espn-633183,2022-05-27,2022,regular,Orlando Pride,Washington Spirit,2,2,,,espn,,,ORL,WAS
+espn-633182,2022-05-28,2022,regular,Chicago Stars FC,Portland Thorns FC,2,2,,,espn,,,CHI,POR
+espn-633179,2022-05-29,2022,regular,Angel City FC,Gotham FC,0,1,,,espn,,,LA,GFC
+espn-633180,2022-05-29,2022,regular,Houston Dash,North Carolina Courage,1,1,,,espn,,,HOU,NC
+espn-633181,2022-05-29,2022,regular,Seattle Reign FC,San Diego Wave FC,1,0,,,espn,,,SEA,SD
+espn-633178,2022-05-30,2022,regular,Kansas City Current,Racing Louisville FC,1,0,,,espn,,,KC,LOU
+espn-633177,2022-06-01,2022,regular,Washington Spirit,Chicago Stars FC,1,1,,,espn,,,WAS,CHI
+espn-633175,2022-06-03,2022,regular,Portland Thorns FC,Angel City FC,3,0,,,espn,,,POR,LA
+espn-633176,2022-06-03,2022,regular,Houston Dash,Orlando Pride,5,0,,,espn,,,HOU,ORL
+espn-633171,2022-06-04,2022,regular,Kansas City Current,San Diego Wave FC,2,2,,,espn,,,KC,SD
+espn-633172,2022-06-04,2022,regular,Racing Louisville FC,North Carolina Courage,0,3,,,espn,,,LOU,NC
+espn-633173,2022-06-04,2022,regular,Gotham FC,Washington Spirit,1,0,,,espn,,,GFC,WAS
+espn-633174,2022-06-04,2022,regular,Chicago Stars FC,Seattle Reign FC,1,0,,,espn,,,CHI,SEA
+espn-633163,2022-06-07,2022,regular,Angel City FC,Houston Dash,0,0,,,espn,,,LA,HOU
+espn-633170,2022-06-08,2022,regular,San Diego Wave FC,Portland Thorns FC,2,2,,,espn,,,SD,POR
+espn-633204,2022-06-08,2022,regular,Chicago Stars FC,Washington Spirit,0,0,,,espn,,,CHI,WAS
+espn-633167,2022-06-11,2022,regular,Kansas City Current,Gotham FC,1,0,,,espn,,,KC,GFC
+espn-633168,2022-06-11,2022,regular,Racing Louisville FC,Angel City FC,2,3,,,espn,,,LOU,LA
+espn-633169,2022-06-11,2022,regular,Washington Spirit,North Carolina Courage,2,3,,,espn,,,WAS,NC
+espn-633164,2022-06-12,2022,regular,San Diego Wave FC,Seattle Reign FC,1,1,,,espn,,,SD,SEA
+espn-633165,2022-06-12,2022,regular,Houston Dash,Portland Thorns FC,0,4,,,espn,,,HOU,POR
+espn-633166,2022-06-12,2022,regular,Chicago Stars FC,Orlando Pride,1,0,,,espn,,,CHI,ORL
+espn-633162,2022-06-17,2022,regular,Washington Spirit,Racing Louisville FC,2,2,,,espn,,,WAS,LOU
+espn-633160,2022-06-18,2022,regular,Seattle Reign FC,Angel City FC,1,0,,,espn,,,SEA,LA
+espn-633161,2022-06-18,2022,regular,Kansas City Current,Chicago Stars FC,2,2,,,espn,,,KC,CHI
+espn-633157,2022-06-19,2022,regular,North Carolina Courage,Houston Dash,3,4,,,espn,,,NC,HOU
+espn-633158,2022-06-19,2022,regular,Gotham FC,San Diego Wave FC,0,3,,,espn,,,GFC,SD
+espn-633159,2022-06-19,2022,regular,Portland Thorns FC,Orlando Pride,6,0,,,espn,,,POR,ORL
+espn-633154,2022-07-01,2022,regular,Angel City FC,Portland Thorns FC,1,1,,,espn,,,LA,POR
+espn-633155,2022-07-01,2022,regular,Seattle Reign FC,North Carolina Courage,2,0,,,espn,,,SEA,NC
+espn-633156,2022-07-01,2022,regular,Houston Dash,Kansas City Current,1,2,,,espn,,,HOU,KC
+espn-633152,2022-07-02,2022,regular,Gotham FC,Chicago Stars FC,0,3,,,espn,,,GFC,CHI
+espn-633151,2022-07-03,2022,regular,San Diego Wave FC,Washington Spirit,2,1,,,espn,,,SD,WAS
+espn-633153,2022-07-03,2022,regular,Orlando Pride,Racing Louisville FC,2,2,,,espn,,,ORL,LOU
+espn-633149,2022-07-08,2022,regular,Racing Louisville FC,Gotham FC,1,2,,,espn,,,LOU,GFC
+espn-633150,2022-07-08,2022,regular,Orlando Pride,Houston Dash,1,0,,,espn,,,ORL,HOU
+espn-633148,2022-07-09,2022,regular,Angel City FC,San Diego Wave FC,2,1,,,espn,,,LA,SD
+espn-633145,2022-07-10,2022,regular,Chicago Stars FC,North Carolina Courage,2,2,,,espn,,,CHI,NC
+espn-633146,2022-07-10,2022,regular,Seattle Reign FC,Portland Thorns FC,2,2,,,espn,,,SEA,POR
+espn-633147,2022-07-10,2022,regular,Washington Spirit,Kansas City Current,0,1,,,espn,,,WAS,KC
+espn-633143,2022-07-15,2022,regular,San Diego Wave FC,Racing Louisville FC,0,0,,,espn,,,SD,LOU
+espn-633141,2022-07-16,2022,regular,Portland Thorns FC,Gotham FC,5,0,,,espn,,,POR,GFC
+espn-633142,2022-07-16,2022,regular,Houston Dash,Chicago Stars FC,4,1,,,espn,,,HOU,CHI
+espn-633139,2022-07-17,2022,regular,Kansas City Current,Seattle Reign FC,1,0,,,espn,,,KC,SEA
+espn-633140,2022-07-17,2022,regular,Washington Spirit,Orlando Pride,0,0,,,espn,,,WAS,ORL
+espn-633137,2022-07-29,2022,regular,Racing Louisville FC,Portland Thorns FC,1,2,,,espn,,,LOU,POR
+espn-633138,2022-07-29,2022,regular,North Carolina Courage,Washington Spirit,3,3,,,espn,,,NC,WAS
+espn-633135,2022-07-30,2022,regular,Angel City FC,Seattle Reign FC,2,3,,,espn,,,LA,SEA
+espn-633136,2022-07-30,2022,regular,Chicago Stars FC,San Diego Wave FC,0,1,,,espn,,,CHI,SD
+espn-633133,2022-07-31,2022,regular,Kansas City Current,Orlando Pride,2,2,,,espn,,,KC,ORL
+espn-633134,2022-07-31,2022,regular,Gotham FC,Houston Dash,2,4,,,espn,,,GFC,HOU
+espn-633132,2022-08-02,2022,regular,Racing Louisville FC,Seattle Reign FC,1,1,,,espn,,,LOU,SEA
+espn-633130,2022-08-05,2022,regular,Portland Thorns FC,North Carolina Courage,3,3,,,espn,,,POR,NC
+espn-633131,2022-08-05,2022,regular,Racing Louisville FC,Washington Spirit,1,1,,,espn,,,LOU,WAS
+espn-633126,2022-08-07,2022,regular,Orlando Pride,Angel City FC,2,2,,,espn,,,ORL,LA
+espn-633127,2022-08-07,2022,regular,Seattle Reign FC,Houston Dash,1,2,,,espn,,,SEA,HOU
+espn-633128,2022-08-07,2022,regular,Chicago Stars FC,Gotham FC,2,0,,,espn,,,CHI,GFC
+espn-633129,2022-08-07,2022,regular,San Diego Wave FC,Kansas City Current,1,2,,,espn,,,SD,KC
+espn-633125,2022-08-10,2022,regular,Washington Spirit,Portland Thorns FC,1,2,,,espn,,,WAS,POR
+espn-633124,2022-08-12,2022,regular,Houston Dash,Racing Louisville FC,0,0,,,espn,,,HOU,LOU
+espn-633122,2022-08-13,2022,regular,North Carolina Courage,Kansas City Current,3,4,,,espn,,,NC,KC
+espn-633123,2022-08-13,2022,regular,San Diego Wave FC,Orlando Pride,0,1,,,espn,,,SD,ORL
+espn-633120,2022-08-14,2022,regular,Angel City FC,Chicago Stars FC,1,0,,,espn,,,LA,CHI
+espn-633121,2022-08-14,2022,regular,Seattle Reign FC,Gotham FC,4,1,,,espn,,,SEA,GFC
+espn-633119,2022-08-17,2022,regular,Houston Dash,Gotham FC,2,1,,,espn,,,HOU,GFC
+espn-633118,2022-08-19,2022,regular,Kansas City Current,Angel City FC,1,1,,,espn,,,KC,LA
+espn-633115,2022-08-20,2022,regular,San Diego Wave FC,Houston Dash,3,1,,,espn,,,SD,HOU
+espn-633116,2022-08-20,2022,regular,North Carolina Courage,Chicago Stars FC,4,0,,,espn,,,NC,CHI
+espn-633117,2022-08-20,2022,regular,Gotham FC,Orlando Pride,1,2,,,espn,,,GFC,ORL
+espn-633205,2022-08-24,2022,regular,North Carolina Courage,Portland Thorns FC,3,1,,,espn,,,NC,POR
+espn-633114,2022-08-26,2022,regular,Orlando Pride,Seattle Reign FC,1,2,,,espn,,,ORL,SEA
+espn-633111,2022-08-27,2022,regular,Portland Thorns FC,San Diego Wave FC,0,2,,,espn,,,POR,SD
+espn-633112,2022-08-27,2022,regular,Houston Dash,Washington Spirit,2,2,,,espn,,,HOU,WAS
+espn-633113,2022-08-27,2022,regular,Racing Louisville FC,Chicago Stars FC,0,4,,,espn,,,LOU,CHI
+espn-633109,2022-08-28,2022,regular,Kansas City Current,North Carolina Courage,3,2,,,espn,,,KC,NC
+espn-633110,2022-08-28,2022,regular,Gotham FC,Angel City FC,1,3,,,espn,,,GFC,LA
+espn-633197,2022-09-04,2022,regular,Gotham FC,North Carolina Courage,0,1,,,espn,,,GFC,NC
+espn-633107,2022-09-09,2022,regular,Seattle Reign FC,Chicago Stars FC,2,2,,,espn,,,SEA,CHI
+espn-633108,2022-09-09,2022,regular,Orlando Pride,Portland Thorns FC,0,2,,,espn,,,ORL,POR
+espn-633105,2022-09-10,2022,regular,North Carolina Courage,Racing Louisville FC,5,1,,,espn,,,NC,LOU
+espn-633106,2022-09-10,2022,regular,Washington Spirit,San Diego Wave FC,4,3,,,espn,,,WAS,SD
+espn-633103,2022-09-11,2022,regular,Houston Dash,Angel City FC,1,1,,,espn,,,HOU,LA
+espn-633104,2022-09-11,2022,regular,Gotham FC,Kansas City Current,0,1,,,espn,,,GFC,KC
+espn-633102,2022-09-14,2022,regular,Chicago Stars FC,Kansas City Current,4,0,,,espn,,,CHI,KC
+espn-633144,2022-09-14,2022,regular,North Carolina Courage,Angel City FC,1,0,,,espn,,,NC,LA
+espn-633101,2022-09-16,2022,regular,Racing Louisville FC,Orlando Pride,2,0,,,espn,,,LOU,ORL
+espn-633097,2022-09-17,2022,regular,San Diego Wave FC,Angel City FC,1,0,,,espn,,,SD,LA
+espn-633098,2022-09-17,2022,regular,Chicago Stars FC,Houston Dash,0,1,,,espn,,,CHI,HOU
+espn-633099,2022-09-17,2022,regular,North Carolina Courage,Seattle Reign FC,1,2,,,espn,,,NC,SEA
+espn-633100,2022-09-17,2022,regular,Washington Spirit,Gotham FC,2,0,,,espn,,,WAS,GFC
+espn-633096,2022-09-18,2022,regular,Kansas City Current,Portland Thorns FC,1,1,,,espn,,,KC,POR
+espn-633092,2022-09-21,2022,regular,Angel City FC,Washington Spirit,2,1,,,espn,,,LA,WAS
+espn-633093,2022-09-21,2022,regular,Portland Thorns FC,Racing Louisville FC,3,0,,,espn,,,POR,LOU
+espn-633094,2022-09-21,2022,regular,Orlando Pride,North Carolina Courage,0,3,,,espn,,,ORL,NC
+espn-633095,2022-09-21,2022,regular,Gotham FC,Seattle Reign FC,0,1,,,espn,,,GFC,SEA
+espn-633090,2022-09-24,2022,regular,Houston Dash,Seattle Reign FC,0,2,,,espn,,,HOU,SEA
+espn-633091,2022-09-24,2022,regular,North Carolina Courage,Gotham FC,3,0,,,espn,,,NC,GFC
+espn-633086,2022-09-25,2022,regular,Angel City FC,Racing Louisville FC,1,3,,,espn,,,LA,LOU
+espn-633087,2022-09-25,2022,regular,Orlando Pride,San Diego Wave FC,2,2,,,espn,,,ORL,SD
+espn-633088,2022-09-25,2022,regular,Portland Thorns FC,Chicago Stars FC,3,0,,,espn,,,POR,CHI
+espn-633089,2022-09-25,2022,regular,Kansas City Current,Washington Spirit,3,0,,,espn,,,KC,WAS
+espn-633085,2022-09-30,2022,regular,San Diego Wave FC,North Carolina Courage,0,0,,,espn,,,SD,NC
+espn-633081,2022-10-01,2022,regular,Seattle Reign FC,Orlando Pride,3,0,,,espn,,,SEA,ORL
+espn-633082,2022-10-01,2022,regular,Racing Louisville FC,Kansas City Current,1,0,,,espn,,,LOU,KC
+espn-633083,2022-10-01,2022,regular,Washington Spirit,Houston Dash,1,2,,,espn,,,WAS,HOU
+espn-633084,2022-10-01,2022,regular,Gotham FC,Portland Thorns FC,3,3,,,espn,,,GFC,POR
+espn-633080,2022-10-02,2022,regular,Chicago Stars FC,Angel City FC,2,0,,,espn,,,CHI,LA
+espn-654408,2022-10-16,2022,regular,Houston Dash,Kansas City Current,1,2,,,espn,,,HOU,KC
+espn-654409,2022-10-16,2022,regular,San Diego Wave FC,Chicago Stars FC,2,1,,OT,espn,,,SD,CHI
+espn-654410,2022-10-23,2022,regular,Portland Thorns FC,San Diego Wave FC,2,1,,,espn,,,POR,SD
+espn-654411,2022-10-23,2022,regular,Seattle Reign FC,Kansas City Current,0,2,,,espn,,,SEA,KC
+espn-655660,2022-10-29,2022,regular,Portland Thorns FC,Kansas City Current,2,0,,,espn,,,POR,KC
+espn-665431,2023-03-25,2023,regular,North Carolina Courage,Kansas City Current,1,0,,,espn,,,NC,KC
+espn-665432,2023-03-25,2023,regular,San Diego Wave FC,Chicago Stars FC,3,2,,,espn,,,SD,CHI
+espn-665433,2023-03-26,2023,regular,Washington Spirit,Seattle Reign FC,1,0,,,espn,,,WAS,SEA
+espn-665434,2023-03-26,2023,regular,Portland Thorns FC,Orlando Pride,4,0,,,espn,,,POR,ORL
+espn-665435,2023-03-26,2023,regular,Houston Dash,Racing Louisville FC,0,0,,,espn,,,HOU,LOU
+espn-665436,2023-03-26,2023,regular,Angel City FC,Gotham FC,1,2,,,espn,,,LA,GFC
+espn-665437,2023-04-01,2023,regular,Kansas City Current,Portland Thorns FC,1,4,,,espn,,,KC,POR
+espn-665438,2023-04-01,2023,regular,Chicago Stars FC,Houston Dash,1,2,,,espn,,,CHI,HOU
+espn-665439,2023-04-01,2023,regular,Racing Louisville FC,Washington Spirit,2,2,,,espn,,,LOU,WAS
+espn-665440,2023-04-01,2023,regular,Gotham FC,Seattle Reign FC,0,2,,,espn,,,GFC,SEA
+espn-665441,2023-04-01,2023,regular,San Diego Wave FC,North Carolina Courage,3,1,,,espn,,,SD,NC
+espn-665442,2023-04-02,2023,regular,Orlando Pride,Angel City FC,1,2,,,espn,,,ORL,LA
+espn-665443,2023-04-14,2023,regular,Portland Thorns FC,Houston Dash,1,1,,,espn,,,POR,HOU
+espn-665444,2023-04-15,2023,regular,Orlando Pride,Gotham FC,0,2,,,espn,,,ORL,GFC
+espn-665445,2023-04-15,2023,regular,North Carolina Courage,Washington Spirit,1,2,,,espn,,,NC,WAS
+espn-665446,2023-04-15,2023,regular,Chicago Stars FC,Kansas City Current,4,2,,,espn,,,CHI,KC
+espn-665447,2023-04-15,2023,regular,Angel City FC,Racing Louisville FC,2,2,,,espn,,,LA,LOU
+espn-665448,2023-04-15,2023,regular,Seattle Reign FC,San Diego Wave FC,1,0,,,espn,,,SEA,SD
+espn-665450,2023-04-22,2023,regular,Seattle Reign FC,Chicago Stars FC,5,2,,,espn,,,SEA,CHI
+espn-665451,2023-04-22,2023,regular,Washington Spirit,Houston Dash,0,0,,,espn,,,WAS,HOU
+espn-665452,2023-04-22,2023,regular,Gotham FC,North Carolina Courage,1,0,,,espn,,,GFC,NC
+espn-665453,2023-04-22,2023,regular,Portland Thorns FC,Racing Louisville FC,2,0,,,espn,,,POR,LOU
+espn-665449,2023-04-23,2023,regular,Kansas City Current,Orlando Pride,2,0,,,espn,,,KC,ORL
+espn-665454,2023-04-23,2023,regular,Angel City FC,San Diego Wave FC,0,2,,,espn,,,LA,SD
+espn-665455,2023-04-28,2023,regular,Houston Dash,North Carolina Courage,0,1,,,espn,,,HOU,NC
+espn-665456,2023-04-29,2023,regular,Racing Louisville FC,Seattle Reign FC,2,2,,,espn,,,LOU,SEA
+espn-665457,2023-04-29,2023,regular,Chicago Stars FC,Washington Spirit,1,1,,,espn,,,CHI,WAS
+espn-665458,2023-04-29,2023,regular,San Diego Wave FC,Orlando Pride,1,3,,,espn,,,SD,ORL
+espn-665459,2023-04-29,2023,regular,Portland Thorns FC,Angel City FC,3,3,,,espn,,,POR,LA
+espn-665460,2023-04-30,2023,regular,Kansas City Current,Gotham FC,2,0,,,espn,,,KC,GFC
+espn-665461,2023-05-06,2023,regular,Washington Spirit,San Diego Wave FC,3,1,,,espn,,,WAS,SD
+espn-665462,2023-05-06,2023,regular,Orlando Pride,Racing Louisville FC,1,0,,,espn,,,ORL,LOU
+espn-665463,2023-05-06,2023,regular,North Carolina Courage,Portland Thorns FC,3,3,,,espn,,,NC,POR
+espn-665464,2023-05-06,2023,regular,Seattle Reign FC,Houston Dash,2,0,,,espn,,,SEA,HOU
+espn-665465,2023-05-07,2023,regular,Chicago Stars FC,Gotham FC,1,2,,,espn,,,CHI,GFC
+espn-665466,2023-05-07,2023,regular,Angel City FC,Kansas City Current,3,2,,,espn,,,LA,KC
+espn-665467,2023-05-12,2023,regular,Racing Louisville FC,Chicago Stars FC,3,0,,,espn,,,LOU,CHI
+espn-665468,2023-05-12,2023,regular,Houston Dash,Portland Thorns FC,2,1,,,espn,,,HOU,POR
+espn-665469,2023-05-13,2023,regular,Angel City FC,Washington Spirit,0,1,,,espn,,,LA,WAS
+espn-665470,2023-05-14,2023,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-665471,2023-05-14,2023,regular,Gotham FC,Orlando Pride,0,0,,,espn,,,GFC,ORL
+espn-665472,2023-05-14,2023,regular,Kansas City Current,San Diego Wave FC,0,2,,,espn,,,KC,SD
+espn-665473,2023-05-20,2023,regular,Orlando Pride,Washington Spirit,2,1,,,espn,,,ORL,WAS
+espn-665474,2023-05-20,2023,regular,North Carolina Courage,Angel City FC,0,0,,,espn,,,NC,LA
+espn-665475,2023-05-20,2023,regular,Kansas City Current,Racing Louisville FC,0,2,,,espn,,,KC,LOU
+espn-665476,2023-05-20,2023,regular,Houston Dash,San Diego Wave FC,0,3,,,espn,,,HOU,SD
+espn-665477,2023-05-21,2023,regular,Portland Thorns FC,Chicago Stars FC,4,0,,,espn,,,POR,CHI
+espn-665478,2023-05-21,2023,regular,Seattle Reign FC,Gotham FC,1,4,,,espn,,,SEA,GFC
+espn-665479,2023-05-26,2023,regular,Kansas City Current,Houston Dash,0,2,,,espn,,,KC,HOU
+espn-665480,2023-05-26,2023,regular,San Diego Wave FC,Portland Thorns FC,1,1,,,espn,,,SD,POR
+espn-665481,2023-05-27,2023,regular,Seattle Reign FC,Angel City FC,4,1,,,espn,,,SEA,LA
+espn-665482,2023-05-27,2023,regular,Racing Louisville FC,North Carolina Courage,1,2,,,espn,,,LOU,NC
+espn-665483,2023-05-27,2023,regular,Chicago Stars FC,Orlando Pride,1,0,,,espn,,,CHI,ORL
+espn-665484,2023-05-28,2023,regular,Washington Spirit,Gotham FC,1,1,,,espn,,,WAS,GFC
+espn-665485,2023-06-03,2023,regular,Seattle Reign FC,Portland Thorns FC,0,2,,,espn,,,SEA,POR
+espn-665486,2023-06-03,2023,regular,Washington Spirit,Racing Louisville FC,1,1,,,espn,,,WAS,LOU
+espn-665487,2023-06-03,2023,regular,Houston Dash,Orlando Pride,2,0,,,espn,,,HOU,ORL
+espn-665488,2023-06-03,2023,regular,Kansas City Current,North Carolina Courage,1,0,,,espn,,,KC,NC
+espn-665489,2023-06-04,2023,regular,Gotham FC,San Diego Wave FC,0,1,,,espn,,,GFC,SD
+espn-665490,2023-06-05,2023,regular,Angel City FC,Chicago Stars FC,1,2,,,espn,,,LA,CHI
+espn-665491,2023-06-09,2023,regular,Racing Louisville FC,San Diego Wave FC,0,0,,,espn,,,LOU,SD
+espn-665492,2023-06-10,2023,regular,Chicago Stars FC,North Carolina Courage,0,5,,,espn,,,CHI,NC
+espn-665493,2023-06-10,2023,regular,Washington Spirit,Angel City FC,2,1,,,espn,,,WAS,LA
+espn-665494,2023-06-10,2023,regular,Seattle Reign FC,Kansas City Current,2,1,,,espn,,,SEA,KC
+espn-665495,2023-06-11,2023,regular,Houston Dash,Gotham FC,1,1,,,espn,,,HOU,GFC
+espn-665496,2023-06-11,2023,regular,Orlando Pride,Portland Thorns FC,3,1,,,espn,,,ORL,POR
+espn-665497,2023-06-17,2023,regular,San Diego Wave FC,Angel City FC,1,2,,,espn,,,SD,LA
+espn-665498,2023-06-17,2023,regular,North Carolina Courage,Orlando Pride,3,0,,,espn,,,NC,ORL
+espn-665499,2023-06-17,2023,regular,Houston Dash,Seattle Reign FC,0,0,,,espn,,,HOU,SEA
+espn-665500,2023-06-18,2023,regular,Racing Louisville FC,Gotham FC,2,0,,,espn,,,LOU,GFC
+espn-665501,2023-06-18,2023,regular,Chicago Stars FC,Portland Thorns FC,2,3,,,espn,,,CHI,POR
+espn-665502,2023-06-18,2023,regular,Kansas City Current,Washington Spirit,2,3,,,espn,,,KC,WAS
+espn-665503,2023-06-23,2023,regular,Portland Thorns FC,Washington Spirit,4,2,,,espn,,,POR,WAS
+espn-665504,2023-06-24,2023,regular,North Carolina Courage,Racing Louisville FC,1,0,,,espn,,,NC,LOU
+espn-665505,2023-06-24,2023,regular,Orlando Pride,Kansas City Current,1,2,,,espn,,,ORL,KC
+espn-665506,2023-06-24,2023,regular,San Diego Wave FC,Seattle Reign FC,1,2,,,espn,,,SD,SEA
+espn-665507,2023-06-25,2023,regular,Gotham FC,Chicago Stars FC,2,1,,,espn,,,GFC,CHI
+espn-665508,2023-06-25,2023,regular,Angel City FC,Houston Dash,0,0,,,espn,,,LA,HOU
+espn-665509,2023-07-01,2023,regular,Seattle Reign FC,Racing Louisville FC,2,2,,,espn,,,SEA,LOU
+espn-665510,2023-07-01,2023,regular,Washington Spirit,Orlando Pride,0,3,,,espn,,,WAS,ORL
+espn-665511,2023-07-01,2023,regular,North Carolina Courage,Houston Dash,1,0,,,espn,,,NC,HOU
+espn-665512,2023-07-01,2023,regular,Chicago Stars FC,San Diego Wave FC,1,0,,,espn,,,CHI,SD
+espn-665513,2023-07-01,2023,regular,Portland Thorns FC,Kansas City Current,0,1,,,espn,,,POR,KC
+espn-665514,2023-07-02,2023,regular,Gotham FC,Angel City FC,0,0,,,espn,,,GFC,LA
+espn-665515,2023-07-07,2023,regular,Orlando Pride,Seattle Reign FC,1,0,,,espn,,,ORL,SEA
+espn-665516,2023-07-07,2023,regular,Racing Louisville FC,Kansas City Current,2,1,,,espn,,,LOU,KC
+espn-665517,2023-07-07,2023,regular,Houston Dash,Chicago Stars FC,0,1,,,espn,,,HOU,CHI
+espn-665518,2023-07-08,2023,regular,San Diego Wave FC,Washington Spirit,2,2,,,espn,,,SD,WAS
+espn-665519,2023-07-09,2023,regular,Gotham FC,Portland Thorns FC,2,1,,,espn,,,GFC,POR
+espn-665520,2023-07-09,2023,regular,Angel City FC,North Carolina Courage,2,1,,,espn,,,LA,NC
+espn-665521,2023-08-18,2023,regular,Kansas City Current,Seattle Reign FC,1,0,,,espn,,,KC,SEA
+espn-665522,2023-08-19,2023,regular,Racing Louisville FC,Angel City FC,1,1,,,espn,,,LOU,LA
+espn-665523,2023-08-19,2023,regular,Houston Dash,Washington Spirit,1,1,,,espn,,,HOU,WAS
+espn-665524,2023-08-19,2023,regular,San Diego Wave FC,Gotham FC,2,1,,,espn,,,SD,GFC
+espn-665525,2023-08-20,2023,regular,Orlando Pride,Chicago Stars FC,5,0,,,espn,,,ORL,CHI
+espn-665526,2023-08-20,2023,regular,Portland Thorns FC,North Carolina Courage,2,1,,,espn,,,POR,NC
+espn-665527,2023-08-25,2023,regular,Orlando Pride,San Diego Wave FC,1,2,,,espn,,,ORL,SD
+espn-665528,2023-08-26,2023,regular,Houston Dash,Kansas City Current,1,1,,,espn,,,HOU,KC
+espn-665529,2023-08-27,2023,regular,North Carolina Courage,Chicago Stars FC,1,1,,,espn,,,NC,CHI
+espn-665530,2023-08-27,2023,regular,Washington Spirit,Portland Thorns FC,1,1,,,espn,,,WAS,POR
+espn-665531,2023-08-27,2023,regular,Gotham FC,Racing Louisville FC,0,0,,,espn,,,GFC,LOU
+espn-665532,2023-08-27,2023,regular,Angel City FC,Seattle Reign FC,2,1,,,espn,,,LA,SEA
+espn-665533,2023-09-01,2023,regular,Kansas City Current,Angel City FC,0,1,,,espn,,,KC,LA
+espn-665534,2023-09-02,2023,regular,North Carolina Courage,Gotham FC,3,3,,,espn,,,NC,GFC
+espn-665535,2023-09-02,2023,regular,Racing Louisville FC,Portland Thorns FC,2,1,,,espn,,,LOU,POR
+espn-665536,2023-09-03,2023,regular,Washington Spirit,Chicago Stars FC,0,2,,,espn,,,WAS,CHI
+espn-665537,2023-09-03,2023,regular,Seattle Reign FC,Orlando Pride,1,0,,,espn,,,SEA,ORL
+espn-665538,2023-09-03,2023,regular,San Diego Wave FC,Houston Dash,1,0,,,espn,,,SD,HOU
+espn-665539,2023-09-15,2023,regular,Racing Louisville FC,Houston Dash,0,1,,,espn,,,LOU,HOU
+espn-665540,2023-09-16,2023,regular,Gotham FC,Washington Spirit,2,0,,,espn,,,GFC,WAS
+espn-665541,2023-09-16,2023,regular,San Diego Wave FC,Kansas City Current,1,2,,,espn,,,SD,KC
+espn-665542,2023-09-16,2023,regular,Portland Thorns FC,Seattle Reign FC,2,0,,,espn,,,POR,SEA
+espn-665543,2023-09-17,2023,regular,Chicago Stars FC,Angel City FC,2,2,,,espn,,,CHI,LA
+espn-665544,2023-09-17,2023,regular,Orlando Pride,North Carolina Courage,2,1,,,espn,,,ORL,NC
+espn-665546,2023-09-30,2023,regular,Washington Spirit,Kansas City Current,2,1,,,espn,,,WAS,KC
+espn-665547,2023-09-30,2023,regular,Chicago Stars FC,Racing Louisville FC,1,0,,,espn,,,CHI,LOU
+espn-665548,2023-09-30,2023,regular,Portland Thorns FC,San Diego Wave FC,0,2,,,espn,,,POR,SD
+espn-665549,2023-10-01,2023,regular,Gotham FC,Houston Dash,0,2,,,espn,,,GFC,HOU
+espn-665550,2023-10-01,2023,regular,Seattle Reign FC,North Carolina Courage,1,1,,,espn,,,SEA,NC
+espn-665545,2023-10-02,2023,regular,Angel City FC,Orlando Pride,0,1,,,espn,,,LA,ORL
+espn-665551,2023-10-06,2023,regular,Racing Louisville FC,Orlando Pride,3,2,,,espn,,,LOU,ORL
+espn-665552,2023-10-06,2023,regular,Seattle Reign FC,Washington Spirit,0,0,,,espn,,,SEA,WAS
+espn-665553,2023-10-07,2023,regular,Portland Thorns FC,Gotham FC,1,0,,,espn,,,POR,GFC
+espn-665554,2023-10-07,2023,regular,North Carolina Courage,San Diego Wave FC,0,0,,,espn,,,NC,SD
+espn-665555,2023-10-07,2023,regular,Kansas City Current,Chicago Stars FC,6,3,,,espn,,,KC,CHI
+espn-665556,2023-10-08,2023,regular,Houston Dash,Angel City FC,1,2,,,espn,,,HOU,LA
+espn-665557,2023-10-15,2023,regular,Angel City FC,Portland Thorns FC,5,1,,,espn,,,LA,POR
+espn-665558,2023-10-15,2023,regular,Chicago Stars FC,Seattle Reign FC,0,3,,,espn,,,CHI,SEA
+espn-665559,2023-10-15,2023,regular,Gotham FC,Kansas City Current,2,2,,,espn,,,GFC,KC
+espn-665560,2023-10-15,2023,regular,Orlando Pride,Houston Dash,1,0,,,espn,,,ORL,HOU
+espn-665561,2023-10-15,2023,regular,San Diego Wave FC,Racing Louisville FC,2,0,,,espn,,,SD,LOU
+espn-665562,2023-10-15,2023,regular,Washington Spirit,North Carolina Courage,0,1,,,espn,,,WAS,NC
+espn-689361,2023-10-20,2023,regular,Seattle Reign FC,Angel City FC,1,0,,,espn,,,SEA,LA
+espn-689362,2023-10-22,2023,regular,North Carolina Courage,Gotham FC,0,2,,,espn,,,NC,GFC
+espn-689363,2023-11-05,2023,regular,Portland Thorns FC,Gotham FC,0,1,,OT,espn,,,POR,GFC
+espn-689364,2023-11-05,2023,regular,San Diego Wave FC,Seattle Reign FC,0,1,,,espn,,,SD,SEA
+espn-689937,2023-11-11,2023,regular,Seattle Reign FC,Gotham FC,1,2,,,espn,,,SEA,GFC
+espn-697858,2024-03-16,2024,regular,Kansas City Current,Portland Thorns FC,5,4,,,espn,,,KC,POR
+espn-697859,2024-03-16,2024,regular,Racing Louisville FC,Orlando Pride,2,2,,,espn,,,LOU,ORL
+espn-697860,2024-03-16,2024,regular,North Carolina Courage,Houston Dash,5,1,,,espn,,,NC,HOU
+espn-697861,2024-03-16,2024,regular,Utah Royals,Chicago Stars FC,0,2,,,espn,,,UTA,CHI
+espn-697862,2024-03-17,2024,regular,Angel City FC,Bay FC,0,1,,,espn,,,LA,BAY
+espn-697863,2024-03-17,2024,regular,Seattle Reign FC,Washington Spirit,1,0,,,espn,,,SEA,WAS
+espn-697864,2024-03-22,2024,regular,Orlando Pride,Angel City FC,1,1,,,espn,,,ORL,LA
+espn-697865,2024-03-22,2024,regular,Utah Royals,North Carolina Courage,2,1,,,espn,,,UTA,NC
+espn-697866,2024-03-23,2024,regular,Chicago Stars FC,Seattle Reign FC,2,1,,,espn,,,CHI,SEA
+espn-697867,2024-03-23,2024,regular,Washington Spirit,Bay FC,2,1,,,espn,,,WAS,BAY
+espn-697868,2024-03-23,2024,regular,Houston Dash,Racing Louisville FC,0,0,,,espn,,,HOU,LOU
+espn-697869,2024-03-23,2024,regular,San Diego Wave FC,Kansas City Current,1,2,,,espn,,,SD,KC
+espn-697870,2024-03-24,2024,regular,Portland Thorns FC,Gotham FC,0,1,,,espn,,,POR,GFC
+espn-697871,2024-03-29,2024,regular,Orlando Pride,Chicago Stars FC,1,1,,,espn,,,ORL,CHI
+espn-697872,2024-03-29,2024,regular,San Diego Wave FC,Seattle Reign FC,1,0,,,espn,,,SD,SEA
+espn-697873,2024-03-30,2024,regular,Kansas City Current,Angel City FC,4,2,,,espn,,,KC,LA
+espn-697874,2024-03-30,2024,regular,North Carolina Courage,Gotham FC,1,0,,,espn,,,NC,GFC
+espn-697875,2024-03-30,2024,regular,Portland Thorns FC,Racing Louisville FC,2,2,,,espn,,,POR,LOU
+espn-697876,2024-03-30,2024,regular,Bay FC,Houston Dash,2,3,,,espn,,,BAY,HOU
+espn-697877,2024-03-31,2024,regular,Washington Spirit,Utah Royals,2,1,,,espn,,,WAS,UTA
+espn-697878,2024-04-12,2024,regular,Houston Dash,Washington Spirit,1,3,,,espn,,,HOU,WAS
+espn-697879,2024-04-12,2024,regular,Utah Royals,Orlando Pride,0,1,,,espn,,,UTA,ORL
+espn-697880,2024-04-13,2024,regular,North Carolina Courage,Portland Thorns FC,2,0,,,espn,,,NC,POR
+espn-697881,2024-04-13,2024,regular,Racing Louisville FC,San Diego Wave FC,0,0,,,espn,,,LOU,SD
+espn-697882,2024-04-13,2024,regular,Chicago Stars FC,Angel City FC,0,1,,,espn,,,CHI,LA
+espn-697883,2024-04-14,2024,regular,Gotham FC,Kansas City Current,1,1,,,espn,,,GFC,KC
+espn-697884,2024-04-14,2024,regular,Bay FC,Seattle Reign FC,3,2,,,espn,,,BAY,SEA
+espn-697885,2024-04-19,2024,regular,Orlando Pride,San Diego Wave FC,1,0,,,espn,,,ORL,SD
+espn-697886,2024-04-20,2024,regular,Washington Spirit,Gotham FC,2,0,,,espn,,,WAS,GFC
+espn-697887,2024-04-20,2024,regular,Racing Louisville FC,Utah Royals,5,1,,,espn,,,LOU,UTA
+espn-697888,2024-04-20,2024,regular,Kansas City Current,Bay FC,5,2,,,espn,,,KC,BAY
+espn-697889,2024-04-20,2024,regular,Portland Thorns FC,Houston Dash,4,1,,,espn,,,POR,HOU
+espn-697890,2024-04-21,2024,regular,Seattle Reign FC,Chicago Stars FC,1,2,,,espn,,,SEA,CHI
+espn-697891,2024-04-21,2024,regular,Angel City FC,North Carolina Courage,2,1,,,espn,,,LA,NC
+espn-697892,2024-04-26,2024,regular,Washington Spirit,Orlando Pride,2,3,,,espn,,,WAS,ORL
+espn-697893,2024-04-26,2024,regular,Angel City FC,Kansas City Current,1,3,,,espn,,,LA,KC
+espn-697894,2024-04-27,2024,regular,North Carolina Courage,Seattle Reign FC,1,0,,,espn,,,NC,SEA
+espn-697895,2024-04-27,2024,regular,Chicago Stars FC,Portland Thorns FC,0,2,,,espn,,,CHI,POR
+espn-697896,2024-04-27,2024,regular,Utah Royals,Houston Dash,0,0,,,espn,,,UTA,HOU
+espn-697897,2024-04-27,2024,regular,San Diego Wave FC,Bay FC,2,1,,,espn,,,SD,BAY
+espn-697898,2024-04-28,2024,regular,Gotham FC,Racing Louisville FC,1,1,,,espn,,,GFC,LOU
+espn-697899,2024-05-01,2024,regular,Orlando Pride,North Carolina Courage,4,1,,,espn,,,ORL,NC
+espn-697900,2024-05-01,2024,regular,Chicago Stars FC,Washington Spirit,2,4,,,espn,,,CHI,WAS
+espn-697901,2024-05-01,2024,regular,Bay FC,Portland Thorns FC,2,3,,,espn,,,BAY,POR
+espn-697902,2024-05-03,2024,regular,Utah Royals,Angel City FC,1,2,,,espn,,,UTA,LA
+espn-697903,2024-05-03,2024,regular,Seattle Reign FC,San Diego Wave FC,2,1,,,espn,,,SEA,SD
+espn-697904,2024-05-04,2024,regular,Gotham FC,North Carolina Courage,1,0,,,espn,,,GFC,NC
+espn-697905,2024-05-04,2024,regular,Portland Thorns FC,Washington Spirit,2,1,,,espn,,,POR,WAS
+espn-697906,2024-05-05,2024,regular,Houston Dash,Kansas City Current,1,1,,,espn,,,HOU,KC
+espn-697907,2024-05-05,2024,regular,Orlando Pride,Racing Louisville FC,1,0,,,espn,,,ORL,LOU
+espn-697908,2024-05-05,2024,regular,Bay FC,Chicago Stars FC,1,2,,,espn,,,BAY,CHI
+espn-697909,2024-05-08,2024,regular,Houston Dash,Gotham FC,0,1,,,espn,,,HOU,GFC
+espn-697910,2024-05-08,2024,regular,Seattle Reign FC,Kansas City Current,0,0,,,espn,,,SEA,KC
+espn-697911,2024-05-08,2024,regular,San Diego Wave FC,Utah Royals,2,0,,,espn,,,SD,UTA
+espn-697912,2024-05-10,2024,regular,Racing Louisville FC,Washington Spirit,1,2,,,espn,,,LOU,WAS
+espn-697913,2024-05-11,2024,regular,Orlando Pride,Bay FC,1,0,,,espn,,,ORL,BAY
+espn-697914,2024-05-11,2024,regular,Portland Thorns FC,Seattle Reign FC,4,0,,,espn,,,POR,SEA
+espn-697915,2024-05-12,2024,regular,Chicago Stars FC,Utah Royals,3,1,,,espn,,,CHI,UTA
+espn-697916,2024-05-12,2024,regular,Kansas City Current,North Carolina Courage,1,0,,,espn,,,KC,NC
+espn-697917,2024-05-12,2024,regular,Angel City FC,Houston Dash,0,1,,,espn,,,LA,HOU
+espn-697918,2024-05-12,2024,regular,San Diego Wave FC,Gotham FC,1,1,,,espn,,,SD,GFC
+espn-697919,2024-05-17,2024,regular,North Carolina Courage,Utah Royals,1,0,,,espn,,,NC,UTA
+espn-697920,2024-05-17,2024,regular,Houston Dash,Portland Thorns FC,0,2,,,espn,,,HOU,POR
+espn-697921,2024-05-17,2024,regular,Bay FC,San Diego Wave FC,2,1,,,espn,,,BAY,SD
+espn-697922,2024-05-18,2024,regular,Washington Spirit,Angel City FC,4,2,,,espn,,,WAS,LA
+espn-697923,2024-05-18,2024,regular,Kansas City Current,Racing Louisville FC,3,3,,,espn,,,KC,LOU
+espn-697924,2024-05-19,2024,regular,Gotham FC,Chicago Stars FC,2,1,,,espn,,,GFC,CHI
+espn-697925,2024-05-19,2024,regular,Seattle Reign FC,Orlando Pride,2,3,,,espn,,,SEA,ORL
+espn-697926,2024-05-23,2024,regular,Angel City FC,San Diego Wave FC,0,0,,,espn,,,LA,SD
+espn-697927,2024-05-24,2024,regular,Orlando Pride,Portland Thorns FC,2,1,,,espn,,,ORL,POR
+espn-697928,2024-05-24,2024,regular,Washington Spirit,Seattle Reign FC,3,2,,,espn,,,WAS,SEA
+espn-697929,2024-05-24,2024,regular,Houston Dash,North Carolina Courage,3,0,,,espn,,,HOU,NC
+espn-697930,2024-05-24,2024,regular,Bay FC,Gotham FC,0,2,,,espn,,,BAY,GFC
+espn-697931,2024-05-25,2024,regular,Chicago Stars FC,Racing Louisville FC,0,1,,,espn,,,CHI,LOU
+espn-697932,2024-05-25,2024,regular,Utah Royals,Kansas City Current,0,1,,,espn,,,UTA,KC
+espn-697933,2024-06-07,2024,regular,Racing Louisville FC,Houston Dash,2,0,,,espn,,,LOU,HOU
+espn-697934,2024-06-07,2024,regular,San Diego Wave FC,Orlando Pride,1,1,,,espn,,,SD,ORL
+espn-697935,2024-06-08,2024,regular,Gotham FC,Angel City FC,2,1,,,espn,,,GFC,LA
+espn-697936,2024-06-08,2024,regular,Utah Royals,Washington Spirit,0,1,,,espn,,,UTA,WAS
+espn-697937,2024-06-08,2024,regular,Portland Thorns FC,North Carolina Courage,1,0,,,espn,,,POR,NC
+espn-697938,2024-06-08,2024,regular,Chicago Stars FC,Bay FC,1,2,,,espn,,,CHI,BAY
+espn-697939,2024-06-09,2024,regular,Kansas City Current,Seattle Reign FC,5,2,,,espn,,,KC,SEA
+espn-697940,2024-06-14,2024,regular,Kansas City Current,Chicago Stars FC,2,2,,,espn,,,KC,CHI
+espn-697941,2024-06-15,2024,regular,Racing Louisville FC,Gotham FC,0,2,,,espn,,,LOU,GFC
+espn-697942,2024-06-15,2024,regular,Washington Spirit,San Diego Wave FC,1,1,,,espn,,,WAS,SD
+espn-697943,2024-06-15,2024,regular,North Carolina Courage,Orlando Pride,0,0,,,espn,,,NC,ORL
+espn-697944,2024-06-15,2024,regular,Houston Dash,Angel City FC,0,0,,,espn,,,HOU,LA
+espn-697945,2024-06-16,2024,regular,Seattle Reign FC,Portland Thorns FC,0,0,,,espn,,,SEA,POR
+espn-697946,2024-06-16,2024,regular,Bay FC,Utah Royals,0,1,,,espn,,,BAY,UTA
+espn-697947,2024-06-19,2024,regular,Gotham FC,San Diego Wave FC,2,1,,,espn,,,GFC,SD
+espn-697948,2024-06-19,2024,regular,Angel City FC,Racing Louisville FC,3,2,,,espn,,,LA,LOU
+espn-697949,2024-06-21,2024,regular,Orlando Pride,Utah Royals,6,0,,,espn,,,ORL,UTA
+espn-697950,2024-06-22,2024,regular,Houston Dash,San Diego Wave FC,0,0,,,espn,,,HOU,SD
+espn-697951,2024-06-22,2024,regular,Bay FC,Angel City FC,1,0,,,espn,,,BAY,LA
+espn-697952,2024-06-23,2024,regular,Gotham FC,Washington Spirit,0,2,,,espn,,,GFC,WAS
+espn-697953,2024-06-23,2024,regular,Portland Thorns FC,Kansas City Current,1,4,,,espn,,,POR,KC
+espn-697954,2024-06-23,2024,regular,North Carolina Courage,Chicago Stars FC,3,1,,,espn,,,NC,CHI
+espn-697955,2024-06-23,2024,regular,Seattle Reign FC,Racing Louisville FC,1,1,,,espn,,,SEA,LOU
+espn-697956,2024-06-28,2024,regular,Kansas City Current,Houston Dash,2,0,,,espn,,,KC,HOU
+espn-697957,2024-06-28,2024,regular,San Diego Wave FC,Chicago Stars FC,0,3,,,espn,,,SD,CHI
+espn-697958,2024-06-29,2024,regular,Racing Louisville FC,Bay FC,0,1,,,espn,,,LOU,BAY
+espn-697959,2024-06-29,2024,regular,Washington Spirit,North Carolina Courage,0,1,,,espn,,,WAS,NC
+espn-697960,2024-06-29,2024,regular,Utah Royals,Portland Thorns FC,0,0,,,espn,,,UTA,POR
+espn-697961,2024-06-30,2024,regular,Gotham FC,Seattle Reign FC,1,1,,,espn,,,GFC,SEA
+espn-697962,2024-06-30,2024,regular,Angel City FC,Orlando Pride,0,3,,,espn,,,LA,ORL
+espn-697963,2024-07-05,2024,regular,Portland Thorns FC,San Diego Wave FC,1,0,,,espn,,,POR,SD
+espn-697964,2024-07-06,2024,regular,Chicago Stars FC,Houston Dash,1,0,,,espn,,,CHI,HOU
+espn-697965,2024-07-06,2024,regular,Kansas City Current,Orlando Pride,1,2,,,espn,,,KC,ORL
+espn-697966,2024-07-06,2024,regular,Bay FC,Washington Spirit,0,3,,,espn,,,BAY,WAS
+espn-697967,2024-07-06,2024,regular,Angel City FC,Gotham FC,1,2,,,espn,,,LA,GFC
+espn-697968,2024-07-07,2024,regular,North Carolina Courage,Racing Louisville FC,3,1,,,espn,,,NC,LOU
+espn-697969,2024-07-07,2024,regular,Seattle Reign FC,Utah Royals,1,1,,,espn,,,SEA,UTA
+espn-697970,2024-08-23,2024,regular,Houston Dash,Orlando Pride,0,1,,,espn,,,HOU,ORL
+espn-697971,2024-08-23,2024,regular,Utah Royals,Bay FC,2,1,,,espn,,,UTA,BAY
+espn-697972,2024-08-24,2024,regular,Gotham FC,Portland Thorns FC,2,0,,,espn,,,GFC,POR
+espn-697973,2024-08-24,2024,regular,San Diego Wave FC,Angel City FC,1,2,,,espn,,,SD,LA
+espn-697974,2024-08-24,2024,regular,Racing Louisville FC,Chicago Stars FC,3,1,,,espn,,,LOU,CHI
+espn-697975,2024-08-25,2024,regular,Seattle Reign FC,North Carolina Courage,1,0,,,espn,,,SEA,NC
+espn-697976,2024-08-25,2024,regular,Washington Spirit,Kansas City Current,4,1,,,espn,,,WAS,KC
+espn-697977,2024-08-30,2024,regular,Portland Thorns FC,Bay FC,1,3,,,espn,,,POR,BAY
+espn-697978,2024-08-31,2024,regular,Racing Louisville FC,Seattle Reign FC,2,3,,,espn,,,LOU,SEA
+espn-697979,2024-08-31,2024,regular,Houston Dash,Utah Royals,1,3,,,espn,,,HOU,UTA
+espn-697980,2024-09-01,2024,regular,North Carolina Courage,Kansas City Current,2,1,,,espn,,,NC,KC
+espn-697981,2024-09-01,2024,regular,Angel City FC,Chicago Stars FC,2,1,,,espn,,,LA,CHI
+espn-697982,2024-09-01,2024,regular,Orlando Pride,Gotham FC,2,0,,,espn,,,ORL,GFC
+espn-697983,2024-09-01,2024,regular,San Diego Wave FC,Washington Spirit,1,1,,,espn,,,SD,WAS
+espn-697984,2024-09-06,2024,regular,Angel City FC,Seattle Reign FC,2,3,,,espn,,,LA,SEA
+espn-697985,2024-09-07,2024,regular,Washington Spirit,Portland Thorns FC,2,1,,,espn,,,WAS,POR
+espn-697986,2024-09-07,2024,regular,Kansas City Current,Utah Royals,1,0,,,espn,,,KC,UTA
+espn-697987,2024-09-07,2024,regular,Bay FC,Racing Louisville FC,1,0,,,espn,,,BAY,LOU
+espn-697988,2024-09-08,2024,regular,Gotham FC,Houston Dash,2,1,,,espn,,,GFC,HOU
+espn-697989,2024-09-08,2024,regular,Chicago Stars FC,Orlando Pride,0,1,,,espn,,,CHI,ORL
+espn-697990,2024-09-08,2024,regular,San Diego Wave FC,North Carolina Courage,1,4,,,espn,,,SD,NC
+espn-697991,2024-09-13,2024,regular,Orlando Pride,Kansas City Current,0,0,,,espn,,,ORL,KC
+espn-697992,2024-09-13,2024,regular,North Carolina Courage,Bay FC,1,1,,,espn,,,NC,BAY
+espn-697993,2024-09-13,2024,regular,Portland Thorns FC,Chicago Stars FC,0,1,,,espn,,,POR,CHI
+espn-697994,2024-09-14,2024,regular,Racing Louisville FC,Angel City FC,2,1,,,espn,,,LOU,LA
+espn-697995,2024-09-14,2024,regular,Utah Royals,San Diego Wave FC,1,2,,,espn,,,UTA,SD
+espn-697996,2024-09-15,2024,regular,Washington Spirit,Houston Dash,3,0,,,espn,,,WAS,HOU
+espn-697997,2024-09-16,2024,regular,Seattle Reign FC,Gotham FC,0,2,,,espn,,,SEA,GFC
+espn-697998,2024-09-20,2024,regular,Kansas City Current,Washington Spirit,3,0,,,espn,,,KC,WAS
+espn-697999,2024-09-20,2024,regular,Bay FC,Orlando Pride,0,1,,,espn,,,BAY,ORL
+espn-698000,2024-09-21,2024,regular,Racing Louisville FC,North Carolina Courage,2,1,,,espn,,,LOU,NC
+espn-698001,2024-09-21,2024,regular,Houston Dash,Seattle Reign FC,1,0,,,espn,,,HOU,SEA
+espn-698002,2024-09-21,2024,regular,Chicago Stars FC,San Diego Wave FC,1,0,,,espn,,,CHI,SD
+espn-698003,2024-09-22,2024,regular,Gotham FC,Utah Royals,1,0,,,espn,,,GFC,UTA
+espn-698004,2024-09-23,2024,regular,Angel City FC,Portland Thorns FC,2,2,,,espn,,,LA,POR
+espn-698005,2024-09-27,2024,regular,Angel City FC,Washington Spirit,1,2,,,espn,,,LA,WAS
+espn-698006,2024-09-28,2024,regular,Kansas City Current,Gotham FC,1,1,,,espn,,,KC,GFC
+espn-698007,2024-09-28,2024,regular,Utah Royals,Racing Louisville FC,1,0,,,espn,,,UTA,LOU
+espn-698008,2024-09-28,2024,regular,Orlando Pride,Houston Dash,3,1,,,espn,,,ORL,HOU
+espn-698009,2024-09-28,2024,regular,San Diego Wave FC,Portland Thorns FC,2,0,,,espn,,,SD,POR
+espn-698010,2024-09-29,2024,regular,Chicago Stars FC,North Carolina Courage,1,3,,,espn,,,CHI,NC
+espn-698011,2024-09-29,2024,regular,Seattle Reign FC,Bay FC,0,1,,,espn,,,SEA,BAY
+espn-698012,2024-10-04,2024,regular,Houston Dash,Chicago Stars FC,0,2,,,espn,,,HOU,CHI
+espn-698013,2024-10-04,2024,regular,Seattle Reign FC,Angel City FC,0,1,,,espn,,,SEA,LA
+espn-698014,2024-10-05,2024,regular,North Carolina Courage,San Diego Wave FC,2,1,,,espn,,,NC,SD
+espn-698015,2024-10-05,2024,regular,Gotham FC,Bay FC,5,1,,,espn,,,GFC,BAY
+espn-698016,2024-10-05,2024,regular,Racing Louisville FC,Kansas City Current,0,2,,,espn,,,LOU,KC
+espn-698017,2024-10-05,2024,regular,Portland Thorns FC,Utah Royals,1,2,,,espn,,,POR,UTA
+espn-698018,2024-10-06,2024,regular,Orlando Pride,Washington Spirit,2,0,,,espn,,,ORL,WAS
+espn-698019,2024-10-11,2024,regular,Portland Thorns FC,Orlando Pride,2,0,,,espn,,,POR,ORL
+espn-698020,2024-10-12,2024,regular,Chicago Stars FC,Gotham FC,0,2,,,espn,,,CHI,GFC
+espn-698021,2024-10-12,2024,regular,North Carolina Courage,Angel City FC,1,1,,,espn,,,NC,LA
+espn-698022,2024-10-12,2024,regular,Bay FC,Kansas City Current,0,1,,,espn,,,BAY,KC
+espn-698023,2024-10-13,2024,regular,Utah Royals,Seattle Reign FC,3,0,,,espn,,,UTA,SEA
+espn-698024,2024-10-13,2024,regular,Washington Spirit,Racing Louisville FC,4,1,,,espn,,,WAS,LOU
+espn-698025,2024-10-13,2024,regular,San Diego Wave FC,Houston Dash,0,2,,,espn,,,SD,HOU
+espn-698026,2024-10-18,2024,regular,Seattle Reign FC,Houston Dash,2,1,,,espn,,,SEA,HOU
+espn-698027,2024-10-19,2024,regular,Kansas City Current,San Diego Wave FC,4,1,,,espn,,,KC,SD
+espn-698028,2024-10-19,2024,regular,Racing Louisville FC,Portland Thorns FC,1,0,,,espn,,,LOU,POR
+espn-698029,2024-10-19,2024,regular,Bay FC,North Carolina Courage,1,0,,,espn,,,BAY,NC
+espn-698030,2024-10-20,2024,regular,Washington Spirit,Chicago Stars FC,2,0,,,espn,,,WAS,CHI
+espn-698031,2024-10-20,2024,regular,Gotham FC,Orlando Pride,3,1,,,espn,,,GFC,ORL
+espn-698032,2024-10-20,2024,regular,Angel City FC,Utah Royals,1,1,,,espn,,,LA,UTA
+espn-698033,2024-11-01,2024,regular,Utah Royals,Gotham FC,1,4,,,espn,,,UTA,GFC
+espn-698034,2024-11-01,2024,regular,Portland Thorns FC,Angel City FC,3,0,,,espn,,,POR,LA
+espn-698035,2024-11-02,2024,regular,Orlando Pride,Seattle Reign FC,3,2,,,espn,,,ORL,SEA
+espn-698036,2024-11-02,2024,regular,North Carolina Courage,Washington Spirit,0,1,,,espn,,,NC,WAS
+espn-698037,2024-11-02,2024,regular,Houston Dash,Bay FC,2,3,,,espn,,,HOU,BAY
+espn-698038,2024-11-03,2024,regular,Chicago Stars FC,Kansas City Current,1,3,,,espn,,,CHI,KC
+espn-698039,2024-11-03,2024,regular,San Diego Wave FC,Racing Louisville FC,3,1,,,espn,,,SD,LOU
+espn-712960,2024-11-08,2024,regular,Orlando Pride,Chicago Stars FC,4,1,,,espn,,,ORL,CHI
+espn-712957,2024-11-09,2024,regular,Kansas City Current,North Carolina Courage,1,0,,,espn,,,KC,NC
+espn-712958,2024-11-10,2024,regular,Gotham FC,Portland Thorns FC,2,1,,,espn,,,GFC,POR
+espn-712959,2024-11-10,2024,regular,Washington Spirit,Bay FC,2,1,,OT,espn,,,WAS,BAY
+espn-712961,2024-11-16,2024,regular,Washington Spirit,Gotham FC,2,1,,pens,espn,,,WAS,GFC
+espn-712962,2024-11-17,2024,regular,Orlando Pride,Kansas City Current,3,2,,,espn,,,ORL,KC
+espn-723586,2024-11-23,2024,regular,Orlando Pride,Washington Spirit,1,0,,,espn,,,ORL,WAS
+espn-731390,2025-03-14,2025,regular,Houston Dash,Washington Spirit,1,2,,,espn,,,HOU,WAS
+espn-731391,2025-03-14,2025,regular,Orlando Pride,Chicago Stars FC,6,0,,,espn,,,ORL,CHI
+espn-731392,2025-03-15,2025,regular,Kansas City Current,Portland Thorns FC,3,1,,,espn,,,KC,POR
+espn-731393,2025-03-15,2025,regular,Racing Louisville FC,North Carolina Courage,1,1,,,espn,,,LOU,NC
+espn-731394,2025-03-15,2025,regular,Utah Royals,Bay FC,1,1,,,espn,,,UTA,BAY
+espn-731395,2025-03-15,2025,regular,Seattle Reign FC,Gotham FC,1,1,,,espn,,,SEA,GFC
+espn-731396,2025-03-16,2025,regular,Angel City FC,San Diego Wave FC,1,1,,,espn,,,LA,SD
+espn-731397,2025-03-21,2025,regular,Portland Thorns FC,Angel City FC,1,1,,,espn,,,POR,LA
+espn-731398,2025-03-22,2025,regular,North Carolina Courage,Seattle Reign FC,1,2,,,espn,,,NC,SEA
+espn-731399,2025-03-22,2025,regular,Washington Spirit,Kansas City Current,0,2,,,espn,,,WAS,KC
+espn-731400,2025-03-22,2025,regular,Bay FC,Racing Louisville FC,2,0,,,espn,,,BAY,LOU
+espn-731401,2025-03-22,2025,regular,San Diego Wave FC,Utah Royals,3,2,,,espn,,,SD,UTA
+espn-731402,2025-03-23,2025,regular,Gotham FC,Orlando Pride,0,2,,,espn,,,GFC,ORL
+espn-731403,2025-03-23,2025,regular,Chicago Stars FC,Houston Dash,1,2,,,espn,,,CHI,HOU
+espn-731404,2025-03-28,2025,regular,Houston Dash,Gotham FC,0,0,,,espn,,,HOU,GFC
+espn-731405,2025-03-28,2025,regular,Washington Spirit,Bay FC,2,0,,,espn,,,WAS,BAY
+espn-731406,2025-03-29,2025,regular,Orlando Pride,San Diego Wave FC,2,1,,,espn,,,ORL,SD
+espn-731407,2025-03-29,2025,regular,Kansas City Current,Utah Royals,3,0,,,espn,,,KC,UTA
+espn-731408,2025-03-29,2025,regular,Portland Thorns FC,North Carolina Courage,0,0,,,espn,,,POR,NC
+espn-731409,2025-03-30,2025,regular,Chicago Stars FC,Racing Louisville FC,0,1,,,espn,,,CHI,LOU
+espn-731410,2025-03-30,2025,regular,Angel City FC,Seattle Reign FC,2,1,,,espn,,,LA,SEA
+espn-731411,2025-04-11,2025,regular,Utah Royals,Portland Thorns FC,0,1,,,espn,,,UTA,POR
+espn-731412,2025-04-12,2025,regular,Houston Dash,Angel City FC,1,3,,,espn,,,HOU,LA
+espn-731413,2025-04-12,2025,regular,Racing Louisville FC,Washington Spirit,0,2,,,espn,,,LOU,WAS
+espn-731414,2025-04-12,2025,regular,Seattle Reign FC,Orlando Pride,0,1,,,espn,,,SEA,ORL
+espn-731415,2025-04-12,2025,regular,San Diego Wave FC,Kansas City Current,0,2,,,espn,,,SD,KC
+espn-731416,2025-04-13,2025,regular,Gotham FC,North Carolina Courage,3,1,,,espn,,,GFC,NC
+espn-731417,2025-04-13,2025,regular,Bay FC,Chicago Stars FC,1,2,,,espn,,,BAY,CHI
+espn-731418,2025-04-18,2025,regular,Utah Royals,Chicago Stars FC,1,0,,,espn,,,UTA,CHI
+espn-731419,2025-04-18,2025,regular,Seattle Reign FC,Portland Thorns FC,1,0,,,espn,,,SEA,POR
+espn-731420,2025-04-18,2025,regular,Angel City FC,Gotham FC,0,4,,,espn,,,LA,GFC
+espn-731421,2025-04-19,2025,regular,Racing Louisville FC,San Diego Wave FC,1,4,,,espn,,,LOU,SD
+espn-731422,2025-04-19,2025,regular,Orlando Pride,Washington Spirit,0,1,,,espn,,,ORL,WAS
+espn-731423,2025-04-19,2025,regular,North Carolina Courage,Bay FC,0,1,,,espn,,,NC,BAY
+espn-731424,2025-04-19,2025,regular,Kansas City Current,Houston Dash,2,0,,,espn,,,KC,HOU
+espn-731425,2025-04-22,2025,regular,Portland Thorns FC,Gotham FC,4,1,,,espn,,,POR,GFC
+espn-731426,2025-04-25,2025,regular,Houston Dash,Utah Royals,1,0,,,espn,,,HOU,UTA
+espn-731427,2025-04-25,2025,regular,Orlando Pride,Angel City FC,3,2,,,espn,,,ORL,LA
+espn-731428,2025-04-26,2025,regular,Washington Spirit,Gotham FC,0,3,,,espn,,,WAS,GFC
+espn-731429,2025-04-26,2025,regular,North Carolina Courage,Kansas City Current,3,2,,,espn,,,NC,KC
+espn-731430,2025-04-26,2025,regular,Chicago Stars FC,San Diego Wave FC,0,3,,,espn,,,CHI,SD
+espn-731431,2025-04-26,2025,regular,Bay FC,Seattle Reign FC,1,1,,,espn,,,BAY,SEA
+espn-731432,2025-04-27,2025,regular,Portland Thorns FC,Racing Louisville FC,3,3,,,espn,,,POR,LOU
+espn-731433,2025-05-02,2025,regular,Houston Dash,Racing Louisville FC,1,2,,,espn,,,HOU,LOU
+espn-731434,2025-05-02,2025,regular,Washington Spirit,Angel City FC,3,4,,,espn,,,WAS,LA
+espn-731435,2025-05-02,2025,regular,Seattle Reign FC,Kansas City Current,1,0,,,espn,,,SEA,KC
+espn-731436,2025-05-03,2025,regular,Portland Thorns FC,Orlando Pride,1,0,,,espn,,,POR,ORL
+espn-731437,2025-05-03,2025,regular,Utah Royals,North Carolina Courage,0,2,,,espn,,,UTA,NC
+espn-731438,2025-05-04,2025,regular,Gotham FC,Chicago Stars FC,0,0,,,espn,,,GFC,CHI
+espn-731439,2025-05-04,2025,regular,San Diego Wave FC,Bay FC,2,1,,,espn,,,SD,BAY
+espn-731440,2025-05-09,2025,regular,Racing Louisville FC,Gotham FC,1,0,,,espn,,,LOU,GFC
+espn-731441,2025-05-09,2025,regular,Angel City FC,Utah Royals,2,0,,,espn,,,LA,UTA
+espn-731442,2025-05-10,2025,regular,Chicago Stars FC,Washington Spirit,2,3,,,espn,,,CHI,WAS
+espn-731443,2025-05-10,2025,regular,North Carolina Courage,Orlando Pride,1,1,,,espn,,,NC,ORL
+espn-731444,2025-05-10,2025,regular,San Diego Wave FC,Portland Thorns FC,1,1,,,espn,,,SD,POR
+espn-731445,2025-05-11,2025,regular,Kansas City Current,Bay FC,4,1,,,espn,,,KC,BAY
+espn-731446,2025-05-11,2025,regular,Seattle Reign FC,Houston Dash,0,1,,,espn,,,SEA,HOU
+espn-731447,2025-05-16,2025,regular,Gotham FC,San Diego Wave FC,0,1,,,espn,,,GFC,SD
+espn-731449,2025-05-16,2025,regular,Houston Dash,Portland Thorns FC,1,4,,,espn,,,HOU,POR
+espn-731450,2025-05-16,2025,regular,Orlando Pride,Kansas City Current,0,1,,,espn,,,ORL,KC
+espn-731448,2025-05-17,2025,regular,Racing Louisville FC,Seattle Reign FC,0,1,,,espn,,,LOU,SEA
+espn-731451,2025-05-17,2025,regular,North Carolina Courage,Chicago Stars FC,2,0,,,espn,,,NC,CHI
+espn-731452,2025-05-17,2025,regular,Washington Spirit,Utah Royals,3,3,,,espn,,,WAS,UTA
+espn-731453,2025-05-17,2025,regular,Bay FC,Angel City FC,2,0,,,espn,,,BAY,LA
+espn-731454,2025-05-23,2025,regular,Utah Royals,Orlando Pride,1,3,,,espn,,,UTA,ORL
+espn-731455,2025-05-23,2025,regular,Seattle Reign FC,Washington Spirit,1,2,,,espn,,,SEA,WAS
+espn-731456,2025-05-24,2025,regular,Houston Dash,Bay FC,2,2,,,espn,,,HOU,BAY
+espn-731457,2025-05-24,2025,regular,Chicago Stars FC,Kansas City Current,1,3,,,espn,,,CHI,KC
+espn-731458,2025-05-24,2025,regular,Angel City FC,Racing Louisville FC,2,3,,,espn,,,LA,LOU
+espn-731459,2025-05-25,2025,regular,San Diego Wave FC,North Carolina Courage,5,2,,,espn,,,SD,NC
+espn-731460,2025-06-06,2025,regular,Racing Louisville FC,Utah Royals,3,2,,,espn,,,LOU,UTA
+espn-731461,2025-06-06,2025,regular,San Diego Wave FC,Seattle Reign FC,1,2,,,espn,,,SD,SEA
+espn-731462,2025-06-07,2025,regular,Gotham FC,Kansas City Current,1,2,,,espn,,,GFC,KC
+espn-731463,2025-06-07,2025,regular,Orlando Pride,Houston Dash,1,0,,,espn,,,ORL,HOU
+espn-731464,2025-06-07,2025,regular,Bay FC,Portland Thorns FC,1,0,,,espn,,,BAY,POR
+espn-731465,2025-06-07,2025,regular,Angel City FC,Chicago Stars FC,2,2,,,espn,,,LA,CHI
+espn-731466,2025-06-08,2025,regular,Washington Spirit,North Carolina Courage,3,1,,,espn,,,WAS,NC
+espn-731467,2025-06-13,2025,regular,Houston Dash,San Diego Wave FC,2,3,,,espn,,,HOU,SD
+espn-731468,2025-06-13,2025,regular,Utah Royals,Gotham FC,0,3,,,espn,,,UTA,GFC
+espn-731469,2025-06-13,2025,regular,Bay FC,Orlando Pride,0,1,,,espn,,,BAY,ORL
+espn-731470,2025-06-14,2025,regular,Chicago Stars FC,Seattle Reign FC,2,2,,,espn,,,CHI,SEA
+espn-731471,2025-06-14,2025,regular,Kansas City Current,Racing Louisville FC,4,2,,,espn,,,KC,LOU
+espn-731472,2025-06-14,2025,regular,Angel City FC,North Carolina Courage,1,2,,,espn,,,LA,NC
+espn-731473,2025-06-15,2025,regular,Portland Thorns FC,Washington Spirit,2,0,,,espn,,,POR,WAS
+espn-731474,2025-06-20,2025,regular,Kansas City Current,Angel City FC,1,0,,,espn,,,KC,LA
+espn-731475,2025-06-20,2025,regular,Racing Louisville FC,Orlando Pride,2,0,,,espn,,,LOU,ORL
+espn-731476,2025-06-21,2025,regular,Utah Royals,Seattle Reign FC,1,4,,,espn,,,UTA,SEA
+espn-731477,2025-06-21,2025,regular,Gotham FC,Bay FC,2,1,,,espn,,,GFC,BAY
+espn-731478,2025-06-21,2025,regular,North Carolina Courage,Houston Dash,2,1,,,espn,,,NC,HOU
+espn-731479,2025-06-21,2025,regular,Portland Thorns FC,Chicago Stars FC,1,0,,,espn,,,POR,CHI
+espn-731480,2025-06-22,2025,regular,San Diego Wave FC,Washington Spirit,0,0,,,espn,,,SD,WAS
+espn-731481,2025-08-01,2025,regular,Chicago Stars FC,Gotham FC,1,1,,,espn,,,CHI,GFC
+espn-731482,2025-08-01,2025,regular,Racing Louisville FC,Kansas City Current,0,2,,,espn,,,LOU,KC
+espn-731483,2025-08-01,2025,regular,Seattle Reign FC,Angel City FC,2,0,,,espn,,,SEA,LA
+espn-731484,2025-08-02,2025,regular,North Carolina Courage,San Diego Wave FC,0,0,,,espn,,,NC,SD
+espn-731485,2025-08-02,2025,regular,Bay FC,Houston Dash,2,2,,,espn,,,BAY,HOU
+espn-731486,2025-08-03,2025,regular,Washington Spirit,Portland Thorns FC,2,1,,,espn,,,WAS,POR
+espn-731487,2025-08-03,2025,regular,Orlando Pride,Utah Royals,1,1,,,espn,,,ORL,UTA
+espn-731488,2025-08-08,2025,regular,Houston Dash,North Carolina Courage,2,1,,,espn,,,HOU,NC
+espn-731489,2025-08-08,2025,regular,Utah Royals,Kansas City Current,0,1,,,espn,,,UTA,KC
+espn-731490,2025-08-09,2025,regular,Gotham FC,Washington Spirit,0,0,,,espn,,,GFC,WAS
+espn-731491,2025-08-09,2025,regular,Orlando Pride,Racing Louisville FC,1,1,,,espn,,,ORL,LOU
+espn-731492,2025-08-09,2025,regular,San Diego Wave FC,Angel City FC,1,1,,,espn,,,SD,LA
+espn-731493,2025-08-10,2025,regular,Chicago Stars FC,Bay FC,1,1,,,espn,,,CHI,BAY
+espn-731494,2025-08-10,2025,regular,Portland Thorns FC,Seattle Reign FC,4,2,,,espn,,,POR,SEA
+espn-731495,2025-08-15,2025,regular,Washington Spirit,Racing Louisville FC,2,2,,,espn,,,WAS,LOU
+espn-731496,2025-08-15,2025,regular,Utah Royals,Angel City FC,0,0,,,espn,,,UTA,LA
+espn-731497,2025-08-16,2025,regular,Kansas City Current,Orlando Pride,0,0,,,espn,,,KC,ORL
+espn-731498,2025-08-16,2025,regular,North Carolina Courage,Portland Thorns FC,1,1,,,espn,,,NC,POR
+espn-731499,2025-08-16,2025,regular,Bay FC,San Diego Wave FC,1,2,,,espn,,,BAY,SD
+espn-731500,2025-08-17,2025,regular,Gotham FC,Houston Dash,1,2,,,espn,,,GFC,HOU
+espn-731501,2025-08-18,2025,regular,Seattle Reign FC,Chicago Stars FC,3,3,,,espn,,,SEA,CHI
+espn-731502,2025-08-21,2025,regular,Angel City FC,Orlando Pride,1,0,,,espn,,,LA,ORL
+espn-731503,2025-08-22,2025,regular,Chicago Stars FC,North Carolina Courage,3,3,,,espn,,,CHI,NC
+espn-731504,2025-08-23,2025,regular,Bay FC,Washington Spirit,2,3,,,espn,,,BAY,WAS
+espn-731505,2025-08-23,2025,regular,Gotham FC,Utah Royals,0,0,,,espn,,,GFC,UTA
+espn-731506,2025-08-23,2025,regular,Portland Thorns FC,Kansas City Current,0,2,,,espn,,,POR,KC
+espn-731507,2025-08-24,2025,regular,Houston Dash,Seattle Reign FC,1,1,,,espn,,,HOU,SEA
+espn-731508,2025-08-24,2025,regular,San Diego Wave FC,Racing Louisville FC,0,1,,,espn,,,SD,LOU
+espn-731509,2025-08-29,2025,regular,Racing Louisville FC,Houston Dash,1,1,,,espn,,,LOU,HOU
+espn-731510,2025-08-29,2025,regular,Orlando Pride,Gotham FC,0,2,,,espn,,,ORL,GFC
+espn-731511,2025-08-29,2025,regular,Portland Thorns FC,Utah Royals,1,2,,,espn,,,POR,UTA
+espn-731512,2025-08-29,2025,regular,Seattle Reign FC,San Diego Wave FC,0,0,,,espn,,,SEA,SD
+espn-731513,2025-08-30,2025,regular,Kansas City Current,North Carolina Courage,2,0,,,espn,,,KC,NC
+espn-731514,2025-08-31,2025,regular,Washington Spirit,Chicago Stars FC,1,1,,,espn,,,WAS,CHI
+espn-731515,2025-09-01,2025,regular,Angel City FC,Bay FC,2,1,,,espn,,,LA,BAY
+espn-731516,2025-09-05,2025,regular,Racing Louisville FC,Portland Thorns FC,1,2,,,espn,,,LOU,POR
+espn-731517,2025-09-06,2025,regular,North Carolina Courage,Utah Royals,1,1,,,espn,,,NC,UTA
+espn-731518,2025-09-06,2025,regular,Bay FC,Kansas City Current,0,2,,,espn,,,BAY,KC
+espn-731519,2025-09-07,2025,regular,Chicago Stars FC,Orlando Pride,5,2,,,espn,,,CHI,ORL
+espn-731520,2025-09-07,2025,regular,Washington Spirit,Seattle Reign FC,2,0,,,espn,,,WAS,SEA
+espn-731521,2025-09-07,2025,regular,Gotham FC,Angel City FC,3,1,,,espn,,,GFC,LA
+espn-731522,2025-09-07,2025,regular,San Diego Wave FC,Houston Dash,0,3,,,espn,,,SD,HOU
+espn-731523,2025-09-12,2025,regular,San Diego Wave FC,Gotham FC,0,2,,,espn,,,SD,GFC
+espn-731524,2025-09-13,2025,regular,North Carolina Courage,Angel City FC,2,1,,,espn,,,NC,LA
+espn-731525,2025-09-13,2025,regular,Orlando Pride,Bay FC,1,1,,,espn,,,ORL,BAY
+espn-731526,2025-09-13,2025,regular,Kansas City Current,Washington Spirit,0,0,,,espn,,,KC,WAS
+espn-731527,2025-09-14,2025,regular,Chicago Stars FC,Portland Thorns FC,1,1,,,espn,,,CHI,POR
+espn-731528,2025-09-14,2025,regular,Utah Royals,Houston Dash,2,0,,,espn,,,UTA,HOU
+espn-731529,2025-09-16,2025,regular,Seattle Reign FC,Racing Louisville FC,1,0,,,espn,,,SEA,LOU
+espn-731530,2025-09-18,2025,regular,Angel City FC,Washington Spirit,2,2,,,espn,,,LA,WAS
+espn-731531,2025-09-19,2025,regular,Orlando Pride,North Carolina Courage,0,1,,,espn,,,ORL,NC
+espn-731532,2025-09-19,2025,regular,Houston Dash,Chicago Stars FC,1,0,,,espn,,,HOU,CHI
+espn-731533,2025-09-19,2025,regular,Utah Royals,Racing Louisville FC,3,2,,,espn,,,UTA,LOU
+espn-731534,2025-09-20,2025,regular,Kansas City Current,Seattle Reign FC,2,0,,,espn,,,KC,SEA
+espn-731535,2025-09-20,2025,regular,Portland Thorns FC,San Diego Wave FC,1,1,,,espn,,,POR,SD
+espn-731536,2025-09-21,2025,regular,Bay FC,Gotham FC,1,1,,,espn,,,BAY,GFC
+espn-731537,2025-09-26,2025,regular,Gotham FC,Portland Thorns FC,3,0,,,espn,,,GFC,POR
+espn-731538,2025-09-26,2025,regular,Kansas City Current,Chicago Stars FC,4,1,,,espn,,,KC,CHI
+espn-731539,2025-09-26,2025,regular,San Diego Wave FC,Orlando Pride,1,2,,,espn,,,SD,ORL
+espn-731540,2025-09-27,2025,regular,Racing Louisville FC,Angel City FC,1,0,,,espn,,,LOU,LA
+espn-731541,2025-09-27,2025,regular,Bay FC,Utah Royals,0,2,,,espn,,,BAY,UTA
+espn-731542,2025-09-28,2025,regular,Washington Spirit,Houston Dash,4,0,,,espn,,,WAS,HOU
+espn-731543,2025-09-28,2025,regular,Seattle Reign FC,North Carolina Courage,2,1,,,espn,,,SEA,NC
+espn-731544,2025-10-03,2025,regular,Houston Dash,Orlando Pride,1,1,,,espn,,,HOU,ORL
+espn-731545,2025-10-04,2025,regular,North Carolina Courage,Racing Louisville FC,1,3,,,espn,,,NC,LOU
+espn-731546,2025-10-04,2025,regular,Portland Thorns FC,Bay FC,2,1,,,espn,,,POR,BAY
+espn-731547,2025-10-05,2025,regular,Washington Spirit,San Diego Wave FC,2,1,,,espn,,,WAS,SD
+espn-731548,2025-10-05,2025,regular,Gotham FC,Seattle Reign FC,0,0,,,espn,,,GFC,SEA
+espn-731549,2025-10-05,2025,regular,Chicago Stars FC,Utah Royals,2,2,,,espn,,,CHI,UTA
+espn-731550,2025-10-06,2025,regular,Angel City FC,Kansas City Current,0,1,,,espn,,,LA,KC
+espn-731551,2025-10-10,2025,regular,Racing Louisville FC,Chicago Stars FC,1,1,,,espn,,,LOU,CHI
+espn-731552,2025-10-10,2025,regular,Orlando Pride,Portland Thorns FC,1,0,,,espn,,,ORL,POR
+espn-731553,2025-10-10,2025,regular,Seattle Reign FC,Bay FC,1,1,,,espn,,,SEA,BAY
+espn-731554,2025-10-11,2025,regular,Kansas City Current,Gotham FC,2,0,,,espn,,,KC,GFC
+espn-731555,2025-10-11,2025,regular,North Carolina Courage,Washington Spirit,1,1,,,espn,,,NC,WAS
+espn-731556,2025-10-11,2025,regular,Utah Royals,San Diego Wave FC,2,3,,,espn,,,UTA,SD
+espn-731557,2025-10-12,2025,regular,Angel City FC,Houston Dash,2,0,,,espn,,,LA,HOU
+espn-731558,2025-10-17,2025,regular,Seattle Reign FC,Utah Royals,2,1,,,espn,,,SEA,UTA
+espn-731559,2025-10-17,2025,regular,Bay FC,North Carolina Courage,1,4,,,espn,,,BAY,NC
+espn-731560,2025-10-18,2025,regular,Washington Spirit,Orlando Pride,2,3,,,espn,,,WAS,ORL
+espn-731561,2025-10-18,2025,regular,Houston Dash,Kansas City Current,1,0,,,espn,,,HOU,KC
+espn-731562,2025-10-18,2025,regular,San Diego Wave FC,Chicago Stars FC,6,1,,,espn,,,SD,CHI
+espn-731563,2025-10-19,2025,regular,Gotham FC,Racing Louisville FC,2,2,,,espn,,,GFC,LOU
+espn-731564,2025-10-19,2025,regular,Angel City FC,Portland Thorns FC,0,2,,,espn,,,LA,POR
+espn-731565,2025-11-02,2025,regular,Chicago Stars FC,Angel City FC,2,1,,,espn,,,CHI,LA
+espn-731566,2025-11-02,2025,regular,Kansas City Current,San Diego Wave FC,2,1,,,espn,,,KC,SD
+espn-731567,2025-11-02,2025,regular,North Carolina Courage,Gotham FC,3,2,,,espn,,,NC,GFC
+espn-731568,2025-11-02,2025,regular,Utah Royals,Washington Spirit,1,0,,,espn,,,UTA,WAS
+espn-731569,2025-11-02,2025,regular,Portland Thorns FC,Houston Dash,2,0,,,espn,,,POR,HOU
+espn-731570,2025-11-02,2025,regular,Racing Louisville FC,Bay FC,1,0,,,espn,,,LOU,BAY
+espn-731571,2025-11-02,2025,regular,Orlando Pride,Seattle Reign FC,1,1,,,espn,,,ORL,SEA
+espn-760608,2025-11-07,2025,regular,Orlando Pride,Seattle Reign FC,2,0,,,espn,,,ORL,SEA
+espn-760609,2025-11-08,2025,regular,Washington Spirit,Racing Louisville FC,2,1,,pens,espn,,,WAS,LOU
+espn-760606,2025-11-09,2025,regular,Kansas City Current,Gotham FC,1,2,,OT,espn,,,KC,GFC
+espn-760607,2025-11-09,2025,regular,Portland Thorns FC,San Diego Wave FC,1,0,,OT,espn,,,POR,SD
+espn-760610,2025-11-15,2025,regular,Washington Spirit,Portland Thorns FC,2,0,,,espn,,,WAS,POR
+espn-760611,2025-11-16,2025,regular,Orlando Pride,Gotham FC,0,1,,,espn,,,ORL,GFC
+espn-760618,2025-11-22,2025,regular,Washington Spirit,Gotham FC,0,1,,,espn,,,WAS,GFC
+espn-401853857,2026-03-13,2026,regular,Washington Spirit,Portland Thorns FC,0,1,,,espn,,,WAS,POR
+espn-401853858,2026-03-14,2026,regular,Kansas City Current,Utah Royals,2,1,,,espn,,,KC,UTA
+espn-401853859,2026-03-14,2026,regular,North Carolina Courage,Racing Louisville FC,2,1,,,espn,,,NC,LOU
+espn-401853860,2026-03-14,2026,regular,San Diego Wave FC,Houston Dash,0,1,,,espn,,,SD,HOU
+espn-401854039,2026-03-14,2026,regular,Boston Legacy FC,Gotham FC,0,1,,,espn,,,BOS,GFC
+espn-401854040,2026-03-14,2026,regular,Bay FC,Denver Summit FC,2,1,,,espn,,,BAY,DEN
+espn-401853861,2026-03-15,2026,regular,Orlando Pride,Seattle Reign FC,1,2,,,espn,,,ORL,SEA
+espn-401853862,2026-03-15,2026,regular,Angel City FC,Chicago Stars FC,4,0,,,espn,,,LA,CHI
+espn-401853863,2026-03-20,2026,regular,Racing Louisville FC,Washington Spirit,2,2,,,espn,,,LOU,WAS
+espn-401853864,2026-03-20,2026,regular,Portland Thorns FC,Seattle Reign FC,2,0,,,espn,,,POR,SEA
+espn-401854041,2026-03-20,2026,regular,Orlando Pride,Denver Summit FC,1,1,,,espn,,,ORL,DEN
+espn-401853865,2026-03-21,2026,regular,Gotham FC,North Carolina Courage,0,0,,,espn,,,GFC,NC
+espn-401853866,2026-03-21,2026,regular,Bay FC,Angel City FC,1,3,,,espn,,,BAY,LA
+espn-401854042,2026-03-21,2026,regular,Houston Dash,Boston Legacy FC,3,0,,,espn,,,HOU,BOS
+espn-401853867,2026-03-22,2026,regular,Chicago Stars FC,Kansas City Current,2,1,,,espn,,,CHI,KC
+espn-401853868,2026-03-22,2026,regular,Utah Royals,San Diego Wave FC,1,2,,,espn,,,UTA,SD
+espn-401853869,2026-03-25,2026,regular,Washington Spirit,Utah Royals,1,1,,,espn,,,WAS,UTA
+espn-401853870,2026-03-25,2026,regular,Chicago Stars FC,Orlando Pride,0,3,,,espn,,,CHI,ORL
+espn-401853871,2026-03-25,2026,regular,Seattle Reign FC,Kansas City Current,3,0,,,espn,,,SEA,KC
+espn-401853872,2026-03-25,2026,regular,San Diego Wave FC,Portland Thorns FC,3,1,,,espn,,,SD,POR
+espn-401854043,2026-03-25,2026,regular,Gotham FC,Denver Summit FC,0,2,,,espn,,,GFC,DEN
+espn-401853873,2026-03-27,2026,regular,Angel City FC,Houston Dash,2,1,,,espn,,,LA,HOU
+espn-401853874,2026-03-28,2026,regular,Portland Thorns FC,Kansas City Current,2,0,,,espn,,,POR,KC
+espn-401853875,2026-03-28,2026,regular,Seattle Reign FC,Racing Louisville FC,2,1,,,espn,,,SEA,LOU
+espn-401853876,2026-03-28,2026,regular,North Carolina Courage,Bay FC,1,3,,,espn,,,NC,BAY
+espn-401853877,2026-03-28,2026,regular,San Diego Wave FC,Chicago Stars FC,2,0,,,espn,,,SD,CHI
+espn-401854044,2026-03-28,2026,regular,Boston Legacy FC,Utah Royals,1,2,,,espn,,,BOS,UTA
+espn-401854045,2026-03-28,2026,regular,Denver Summit FC,Washington Spirit,0,0,,,espn,,,DEN,WAS
+espn-401853878,2026-03-29,2026,regular,Gotham FC,Orlando Pride,0,0,,,espn,,,GFC,ORL
+espn-401853879,2026-04-03,2026,regular,Orlando Pride,Angel City FC,2,1,,,espn,,,ORL,LA
+espn-401853880,2026-04-03,2026,regular,Houston Dash,Racing Louisville FC,4,3,,,espn,,,HOU,LOU
+espn-401853881,2026-04-03,2026,regular,Utah Royals,Chicago Stars FC,1,0,,,espn,,,UTA,CHI
+espn-401854046,2026-04-03,2026,regular,Boston Legacy FC,San Diego Wave FC,0,1,,,espn,,,BOS,SD
+espn-401853882,2026-04-04,2026,regular,Kansas City Current,Gotham FC,2,1,,,espn,,,KC,GFC
+espn-401853883,2026-04-04,2026,regular,North Carolina Courage,Portland Thorns FC,2,2,,,espn,,,NC,POR
+espn-401854047,2026-04-04,2026,regular,Seattle Reign FC,Denver Summit FC,0,0,,,espn,,,SEA,DEN
+espn-401853884,2026-04-05,2026,regular,Bay FC,Washington Spirit,0,2,,,espn,,,BAY,WAS
+espn-401853885,2026-04-24,2026,regular,Racing Louisville FC,Orlando Pride,3,2,,,espn,,,LOU,ORL
+espn-401853886,2026-04-24,2026,regular,Washington Spirit,Kansas City Current,4,0,,,espn,,,WAS,KC
+espn-401853887,2026-04-25,2026,regular,Gotham FC,Bay FC,3,0,,,espn,,,GFC,BAY
+espn-401853888,2026-04-25,2026,regular,Houston Dash,North Carolina Courage,0,1,,,espn,,,HOU,NC
+espn-401854048,2026-04-25,2026,regular,Chicago Stars FC,Boston Legacy FC,2,0,,,espn,,,CHI,BOS
+espn-401854049,2026-04-25,2026,regular,Denver Summit FC,San Diego Wave FC,2,3,,,espn,,,DEN,SD
+espn-401853889,2026-04-26,2026,regular,Angel City FC,Portland Thorns FC,1,2,,,espn,,,LA,POR
+espn-401853890,2026-04-26,2026,regular,Seattle Reign FC,Utah Royals,0,3,,,espn,,,SEA,UTA
+espn-401853891,2026-04-29,2026,regular,Washington Spirit,Racing Louisville FC,1,0,,,espn,,,WAS,LOU
+espn-401853892,2026-04-29,2026,regular,Chicago Stars FC,Gotham FC,0,2,,,espn,,,CHI,GFC
+espn-401853893,2026-04-29,2026,regular,Portland Thorns FC,San Diego Wave FC,2,0,,,espn,,,POR,SD
+espn-401854050,2026-04-29,2026,regular,Boston Legacy FC,North Carolina Courage,2,2,,,espn,,,BOS,NC
+espn-401853894,2026-05-01,2026,regular,Houston Dash,Seattle Reign FC,0,0,,,espn,,,HOU,SEA
+espn-401853895,2026-05-02,2026,regular,Orlando Pride,Washington Spirit,2,4,,,espn,,,ORL,WAS
+espn-401853896,2026-05-02,2026,regular,North Carolina Courage,Kansas City Current,1,2,,,espn,,,NC,KC
+espn-401853897,2026-05-02,2026,regular,Angel City FC,Utah Royals,0,1,,,espn,,,LA,UTA
+espn-401853898,2026-05-03,2026,regular,Chicago Stars FC,Portland Thorns FC,0,2,,,espn,,,CHI,POR
+espn-401853899,2026-05-03,2026,regular,Gotham FC,Racing Louisville FC,1,0,,,espn,,,GFC,LOU
+espn-401853900,2026-05-03,2026,regular,San Diego Wave FC,Bay FC,0,1,,,espn,,,SD,BAY
+espn-401854051,2026-05-03,2026,regular,Boston Legacy FC,Denver Summit FC,3,2,,,espn,,,BOS,DEN
+espn-401853901,2026-05-06,2026,regular,Utah Royals,Houston Dash,2,0,,,espn,,,UTA,HOU
+espn-401853902,2026-05-08,2026,regular,Racing Louisville FC,Portland Thorns FC,3,1,,,espn,,,LOU,POR
+espn-401853903,2026-05-08,2026,regular,Orlando Pride,North Carolina Courage,1,0,,,espn,,,ORL,NC
+espn-401853904,2026-05-09,2026,regular,Angel City FC,San Diego Wave FC,1,2,,,espn,,,LA,SD
+espn-401854052,2026-05-09,2026,regular,Gotham FC,Boston Legacy FC,1,1,,,espn,,,GFC,BOS
+espn-401854053,2026-05-09,2026,regular,Houston Dash,Denver Summit FC,1,4,,,espn,,,HOU,DEN
+espn-401853905,2026-05-10,2026,regular,Kansas City Current,Chicago Stars FC,3,0,,,espn,,,KC,CHI
+espn-401853906,2026-05-10,2026,regular,Bay FC,Utah Royals,0,0,,,espn,,,BAY,UTA
+espn-401853907,2026-05-10,2026,regular,Seattle Reign FC,Washington Spirit,0,1,,,espn,,,SEA,WAS
+espn-401854054,2026-05-12,2026,regular,Boston Legacy FC,Orlando Pride,2,1,,,espn,,,BOS,ORL
+espn-401853908,2026-05-15,2026,regular,Kansas City Current,Houston Dash,3,0,,,espn,,,KC,HOU
+espn-401853909,2026-05-15,2026,regular,San Diego Wave FC,Washington Spirit,2,1,,,espn,,,SD,WAS
+espn-401853910,2026-05-15,2026,regular,Seattle Reign FC,Gotham FC,0,2,,,espn,,,SEA,GFC
+espn-401854055,2026-05-15,2026,regular,Bay FC,Boston Legacy FC,1,1,,,espn,,,BAY,BOS
+espn-401853911,2026-05-16,2026,regular,North Carolina Courage,Chicago Stars FC,4,0,,,espn,,,NC,CHI
+espn-401854056,2026-05-16,2026,regular,Denver Summit FC,Orlando Pride,3,1,,,espn,,,DEN,ORL
+espn-401853912,2026-05-17,2026,regular,Portland Thorns FC,Angel City FC,0,0,,,espn,,,POR,LA
+espn-401853913,2026-05-17,2026,regular,Utah Royals,Racing Louisville FC,2,1,,,espn,,,UTA,LOU
+espn-401853914,2026-05-20,2026,regular,Houston Dash,San Diego Wave FC,2,2,,,espn,,,HOU,SD
+espn-401853915,2026-05-20,2026,regular,Portland Thorns FC,Bay FC,2,0,,,espn,,,POR,BAY
+espn-401853916,2026-05-20,2026,regular,Angel City FC,Kansas City Current,2,1,,,espn,,,LA,KC
+espn-401854057,2026-05-22,2026,regular,Boston Legacy FC,Seattle Reign FC,1,2,,,espn,,,BOS,SEA
+espn-401853917,2026-05-23,2026,regular,Racing Louisville FC,North Carolina Courage,1,2,,,espn,,,LOU,NC
+espn-401853918,2026-05-23,2026,regular,Houston Dash,Angel City FC,2,1,,,espn,,,HOU,LA
+espn-401854058,2026-05-23,2026,regular,Utah Royals,Denver Summit FC,2,1,,,espn,,,UTA,DEN
+espn-401853919,2026-05-24,2026,regular,Kansas City Current,Portland Thorns FC,3,1,,,espn,,,KC,POR
+espn-401853920,2026-05-24,2026,regular,Bay FC,Chicago Stars FC,0,1,,,espn,,,BAY,CHI
+espn-401853921,2026-05-24,2026,regular,San Diego Wave FC,Orlando Pride,0,1,,,espn,,,SD,ORL
+espn-401853922,2026-05-29,2026,regular,Orlando Pride,Bay FC,3,1,,,espn,,,ORL,BAY
+espn-401854059,2026-05-29,2026,regular,Racing Louisville FC,Denver Summit FC,0,1,,,espn,,,LOU,DEN
+espn-401853923,2026-05-30,2026,regular,Portland Thorns FC,Utah Royals,2,2,,,espn,,,POR,UTA
+espn-401853924,2026-05-30,2026,regular,Washington Spirit,Seattle Reign FC,2,1,,,espn,,,WAS,SEA
+espn-401854060,2026-05-30,2026,regular,Kansas City Current,Boston Legacy FC,1,0,,,espn,,,KC,BOS
+espn-401853925,2026-05-31,2026,regular,Chicago Stars FC,San Diego Wave FC,0,2,,,espn,,,CHI,SD
+espn-401853926,2026-05-31,2026,regular,Gotham FC,Houston Dash,1,0,,,espn,,,GFC,HOU
+espn-401853927,2026-05-31,2026,regular,Angel City FC,North Carolina Courage,1,2,,,espn,,,LA,NC
+espn-401853928,2026-07-03,2026,regular,Washington Spirit,Houston Dash,2,1,,,espn,,,WAS,HOU
+espn-401853929,2026-07-03,2026,regular,Angel City FC,Orlando Pride,2,0,,,espn,,,LA,ORL
+espn-401854061,2026-07-03,2026,regular,Denver Summit FC,Kansas City Current,0,3,,,espn,,,DEN,KC
+espn-401853930,2026-07-04,2026,regular,North Carolina Courage,Seattle Reign FC,3,1,,,espn,,,NC,SEA
+espn-401853931,2026-07-04,2026,regular,San Diego Wave FC,Gotham FC,2,0,,,espn,,,SD,GFC
+espn-401853932,2026-07-05,2026,regular,Chicago Stars FC,Utah Royals,3,2,,,espn,,,CHI,UTA
+espn-401853933,2026-07-05,2026,regular,Portland Thorns FC,Racing Louisville FC,4,0,,,espn,,,POR,LOU
+espn-401854062,2026-07-05,2026,regular,Boston Legacy FC,Bay FC,2,2,,,espn,,,BOS,BAY
+espn-401853934,2026-07-10,2026,regular,Orlando Pride,Kansas City Current,3,0,,,espn,,,ORL,KC
+espn-401853935,2026-07-10,2026,regular,Racing Louisville FC,Bay FC,0,2,,,espn,,,LOU,BAY
+espn-401853936,2026-07-10,2026,regular,Utah Royals,Gotham FC,1,3,,,espn,,,UTA,GFC
+espn-401854063,2026-07-10,2026,regular,Boston Legacy FC,Chicago Stars FC,2,0,,,espn,,,BOS,CHI
+espn-401853937,2026-07-11,2026,regular,North Carolina Courage,Washington Spirit,0,2,,,espn,,,NC,WAS
+espn-401853938,2026-07-11,2026,regular,San Diego Wave FC,Angel City FC,0,2,,,espn,,,SD,LA
+espn-401853939,2026-07-12,2026,regular,Seattle Reign FC,Portland Thorns FC,2,0,,,espn,,,SEA,POR
+espn-401854064,2026-07-12,2026,regular,Denver Summit FC,Houston Dash,2,2,,,espn,,,DEN,HOU
+espn-401853940,2026-07-15,2026,regular,Gotham FC,Washington Spirit,1,0,,,espn,,,GFC,WAS
+espn-401854065,2026-07-15,2026,regular,Orlando Pride,Boston Legacy FC,0,1,,,espn,,,ORL,BOS
+espn-401853941,2026-07-17,2026,regular,Kansas City Current,San Diego Wave FC,2,2,,,espn,,,KC,SD
+espn-401853942,2026-07-18,2026,regular,Gotham FC,Seattle Reign FC,3,2,,,espn,,,GFC,SEA
+espn-401853943,2026-07-18,2026,regular,Bay FC,North Carolina Courage,3,0,,,espn,,,BAY,NC
+espn-401853944,2026-07-18,2026,regular,Chicago Stars FC,Angel City FC,0,2,,,espn,,,CHI,LA
+espn-401853945,2026-07-18,2026,regular,Racing Louisville FC,Houston Dash,1,1,,,espn,,,LOU,HOU
+espn-401853946,2026-07-18,2026,regular,Utah Royals,Orlando Pride,1,0,,,espn,,,UTA,ORL
+espn-401854066,2026-07-18,2026,regular,Denver Summit FC,Portland Thorns FC,2,1,,,espn,,,DEN,POR
+espn-401854067,2026-07-19,2026,regular,Boston Legacy FC,Washington Spirit,1,2,,,espn,,,BOS,WAS
+espn-401853947,2026-07-24,2026,regular,Orlando Pride,Chicago Stars FC,1,0,,,espn,,,ORL,CHI
+espn-401853948,2026-07-24,2026,regular,Houston Dash,Bay FC,1,0,,,espn,,,HOU,BAY
+espn-401853949,2026-07-24,2026,regular,Portland Thorns FC,Gotham FC,2,2,,,espn,,,POR,GFC
+espn-401853950,2026-07-25,2026,regular,North Carolina Courage,Utah Royals,1,4,,,espn,,,NC,UTA
+espn-401854068,2026-07-25,2026,regular,Boston Legacy FC,Kansas City Current,1,0,,,espn,,,BOS,KC
+espn-401853951,2026-07-26,2026,regular,San Diego Wave FC,Seattle Reign FC,0,2,,,espn,,,SD,SEA
+espn-401853952,2026-07-26,2026,regular,Angel City FC,Racing Louisville FC,1,2,,,espn,,,LA,LOU
+espn-401854069,2026-07-26,2026,regular,Washington Spirit,Denver Summit FC,1,0,,,espn,,,WAS,DEN
+espn-401853953,2026-07-29,2026,regular,Kansas City Current,Racing Louisville FC,5,1,,,espn,,,KC,LOU
+espn-401853954,2026-07-29,2026,regular,Utah Royals,Washington Spirit,0,1,,,espn,,,UTA,WAS
+espn-401853955,2026-07-29,2026,regular,Bay FC,Gotham FC,0,1,,,espn,,,BAY,GFC
+espn-401853956,2026-07-31,2026,regular,North Carolina Courage,Orlando Pride,5,0,,,espn,,,NC,ORL
+espn-401853957,2026-08-01,2026,regular,Racing Louisville FC,Chicago Stars FC,2,1,,,espn,,,LOU,CHI
+espn-401853958,2026-08-01,2026,regular,Kansas City Current,Angel City FC,1,1,,,espn,,,KC,LA
+espn-401853959,2026-08-01,2026,regular,Houston Dash,Gotham FC,0,1,,,espn,,,HOU,GFC
+espn-401853960,2026-08-01,2026,regular,Bay FC,Seattle Reign FC,2,3,,,espn,,,BAY,SEA
+espn-401853961,2026-08-02,2026,regular,Washington Spirit,San Diego Wave FC,0,1,,,espn,,,WAS,SD
+espn-401853962,2026-08-02,2026,regular,Utah Royals,Portland Thorns FC,5,1,,,espn,,,UTA,POR
+espn-401854070,2026-08-02,2026,regular,Denver Summit FC,Boston Legacy FC,1,1,,,espn,,,DEN,BOS
+espn-401854071,2026-08-05,2026,regular,Denver Summit FC,North Carolina Courage,0,2,,,espn,,,DEN,NC
+espn-401853963,2026-08-07,2026,regular,Gotham FC,San Diego Wave FC,1,0,,,espn,,,GFC,SD
+espn-401853965,2026-08-07,2026,regular,Orlando Pride,Racing Louisville FC,1,3,,,espn,,,ORL,LOU
+espn-401853964,2026-08-08,2026,regular,Washington Spirit,North Carolina Courage,3,4,,,espn,,,WAS,NC
+espn-401853966,2026-08-08,2026,regular,Houston Dash,Kansas City Current,1,1,,,espn,,,HOU,KC
+espn-401854072,2026-08-08,2026,regular,Denver Summit FC,Utah Royals,2,1,,,espn,,,DEN,UTA
+espn-401853967,2026-08-09,2026,regular,Chicago Stars FC,Bay FC,0,0,,,espn,,,CHI,BAY
+espn-401853968,2026-08-09,2026,regular,Seattle Reign FC,Angel City FC,2,2,,,espn,,,SEA,LA
+espn-401854073,2026-08-09,2026,regular,Boston Legacy FC,Portland Thorns FC,3,4,,,espn,,,BOS,POR
+espn-401853969,2026-08-14,2026,regular,Gotham FC,Kansas City Current,2,1,,,espn,,,GFC,KC
+espn-401853970,2026-08-14,2026,regular,Seattle Reign FC,Chicago Stars FC,1,0,,,espn,,,SEA,CHI
+espn-401853971,2026-08-14,2026,regular,Utah Royals,Bay FC,3,2,,,espn,,,UTA,BAY
+espn-401854074,2026-08-14,2026,regular,San Diego Wave FC,Denver Summit FC,1,1,,,espn,,,SD,DEN
+espn-401853972,2026-08-15,2026,regular,Portland Thorns FC,Orlando Pride,2,1,,,espn,,,POR,ORL
+espn-401854075,2026-08-15,2026,regular,Racing Louisville FC,Boston Legacy FC,4,1,,,espn,,,LOU,BOS
+espn-401853973,2026-08-16,2026,regular,North Carolina Courage,Houston Dash,2,3,,,espn,,,NC,HOU
+espn-401853974,2026-08-16,2026,regular,Angel City FC,Washington Spirit,1,1,,,espn,,,LA,WAS
+espn-401853975,2026-08-19,2026,regular,Racing Louisville FC,Seattle Reign FC,2,1,,,espn,,,LOU,SEA
+espn-401853976,2026-08-19,2026,regular,Houston Dash,Chicago Stars FC,5,0,,,espn,,,HOU,CHI
+espn-401853977,2026-08-21,2026,regular,San Diego Wave FC,Utah Royals,4,2,,,espn,,,SD,UTA
+espn-401853978,2026-08-22,2026,regular,Kansas City Current,Seattle Reign FC,1,1,,,espn,,,KC,SEA
+espn-401854076,2026-08-22,2026,regular,North Carolina Courage,Boston Legacy FC,2,1,,,espn,,,NC,BOS
+espn-401854077,2026-08-22,2026,regular,Portland Thorns FC,Denver Summit FC,1,0,,,espn,,,POR,DEN
+espn-401853979,2026-08-23,2026,regular,Chicago Stars FC,Racing Louisville FC,3,2,,,espn,,,CHI,LOU
+espn-401853980,2026-08-23,2026,regular,Washington Spirit,Orlando Pride,0,1,,,espn,,,WAS,ORL
+espn-401853981,2026-08-23,2026,regular,Bay FC,Houston Dash,1,0,,,espn,,,BAY,HOU
+espn-401853982,2026-08-23,2026,regular,Angel City FC,Gotham FC,0,0,,,espn,,,LA,GFC
+espn-401853983,2026-08-26,2026,regular,North Carolina Courage,Angel City FC,2,0,,,espn,,,NC,LA
+espn-401853984,2026-08-28,2026,regular,Gotham FC,Portland Thorns FC,1,1,,,espn,,,GFC,POR
+espn-401853985,2026-08-28,2026,regular,San Diego Wave FC,Racing Louisville FC,3,2,,,espn,,,SD,LOU
+espn-401853986,2026-08-29,2026,regular,Kansas City Current,North Carolina Courage,3,2,,,espn,,,KC,NC
+espn-401853987,2026-08-29,2026,regular,Orlando Pride,Utah Royals,1,2,,,espn,,,ORL,UTA
+espn-401854078,2026-08-29,2026,regular,Denver Summit FC,Chicago Stars FC,6,1,,,espn,,,DEN,CHI
+espn-401853988,2026-08-30,2026,regular,Washington Spirit,Bay FC,1,0,,,espn,,,WAS,BAY
+espn-401853989,2026-08-30,2026,regular,Seattle Reign FC,Houston Dash,1,0,,,espn,,,SEA,HOU
+espn-401854079,2026-08-31,2026,regular,Boston Legacy FC,Angel City FC,2,5,,,espn,,,BOS,LA
+espn-401853990,2026-09-04,2026,regular,Bay FC,Kansas City Current,1,2,,,espn,,,BAY,KC
+espn-401854080,2026-09-04,2026,regular,Utah Royals,Boston Legacy FC,1,2,,,espn,,,UTA,BOS
+espn-401853991,2026-09-05,2026,regular,Racing Louisville FC,Angel City FC,0,2,,,espn,,,LOU,LA
+espn-401853992,2026-09-06,2026,regular,Chicago Stars FC,North Carolina Courage,0,6,,,espn,,,CHI,NC
+espn-401853993,2026-09-06,2026,regular,Portland Thorns FC,Washington Spirit,1,2,,,espn,,,POR,WAS
+espn-401853994,2026-09-06,2026,regular,Orlando Pride,Houston Dash,3,1,,,espn,,,ORL,HOU
+espn-401853995,2026-09-06,2026,regular,Seattle Reign FC,San Diego Wave FC,1,0,,,espn,,,SEA,SD
+espn-401854081,2026-09-06,2026,regular,Denver Summit FC,Gotham FC,3,0,,,espn,,,DEN,GFC
+espn-401853996,2026-09-11,2026,regular,Racing Louisville FC,Gotham FC,1,2,,,espn,,,LOU,GFC
+espn-401853997,2026-09-11,2026,regular,Kansas City Current,Orlando Pride,2,2,,,espn,,,KC,ORL
+espn-401854082,2026-09-11,2026,regular,Angel City FC,Denver Summit FC,3,3,,,espn,,,LA,DEN
+espn-401853998,2026-09-12,2026,regular,Seattle Reign FC,Bay FC,2,0,,,espn,,,SEA,BAY
+espn-401853999,2026-09-12,2026,regular,San Diego Wave FC,North Carolina Courage,2,1,,,espn,,,SD,NC
+espn-401854000,2026-09-12,2026,regular,Houston Dash,Utah Royals,0,1,,,espn,,,HOU,UTA
+espn-401854001,2026-09-13,2026,regular,Portland Thorns FC,Chicago Stars FC,1,1,,,espn,,,POR,CHI
+espn-401854083,2026-09-13,2026,regular,Washington Spirit,Boston Legacy FC,0,3,,,espn,,,WAS,BOS
+espn-401854002,2026-09-16,2026,regular,Angel City FC,Seattle Reign FC,3,1,,,espn,,,LA,SEA
+espn-401854084,2026-09-16,2026,regular,Denver Summit FC,Bay FC,2,2,,,espn,,,DEN,BAY
+espn-401854003,2026-09-18,2026,regular,San Diego Wave FC,Kansas City Current,2,0,,,espn,,,SD,KC
+espn-401854004,2026-09-19,2026,regular,Orlando Pride,Portland Thorns FC,1,4,,,espn,,,ORL,POR
+espn-401854005,2026-09-19,2026,regular,North Carolina Courage,Gotham FC,1,2,,,espn,,,NC,GFC
+espn-401854085,2026-09-19,2026,regular,Denver Summit FC,Seattle Reign FC,2,1,,,espn,,,DEN,SEA
+espn-401854006,2026-09-20,2026,regular,Chicago Stars FC,Washington Spirit,0,3,,,espn,,,CHI,WAS
+espn-401854007,2026-09-20,2026,regular,Bay FC,Racing Louisville FC,2,0,,,espn,,,BAY,LOU
+espn-401854008,2026-09-20,2026,regular,Utah Royals,Angel City FC,0,3,,,espn,,,UTA,LA
+espn-401854086,2026-09-20,2026,regular,Boston Legacy FC,Houston Dash,1,2,,,espn,,,BOS,HOU
+espn-401854009,2026-09-25,2026,regular,Racing Louisville FC,San Diego Wave FC,0,2,,,espn,,,LOU,SD
+espn-401854010,2026-09-25,2026,regular,Gotham FC,Chicago Stars FC,3,1,,,espn,,,GFC,CHI
+espn-401854087,2026-09-25,2026,regular,Seattle Reign FC,Boston Legacy FC,2,0,,,espn,,,SEA,BOS
+espn-401854011,2026-09-26,2026,regular,Washington Spirit,Angel City FC,0,1,,,espn,,,WAS,LA
+espn-401854012,2026-09-26,2026,regular,Portland Thorns FC,Houston Dash,1,1,,,espn,,,POR,HOU
+espn-401854088,2026-09-26,2026,regular,Kansas City Current,Denver Summit FC,4,1,,,espn,,,KC,DEN
+espn-401854013,2026-09-27,2026,regular,Bay FC,Orlando Pride,1,3,,,espn,,,BAY,ORL
+espn-401854014,2026-09-27,2026,regular,Utah Royals,North Carolina Courage,2,1,,,espn,,,UTA,NC
