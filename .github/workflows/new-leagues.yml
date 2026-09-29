@@ -1,11 +1,16 @@
 # Game files for the leagues added in October 2026 (new_leagues.py): European top
-# flights, internationals, PWHL, WNBA, MLS, NWSL and women's college basketball.
+# flights, internationals, PWHL, WNBA, MLS, NWSL, women's college basketball and the CFL.
 # The first run backfills everything; later runs refresh recent results and the
 # upcoming schedule. Commits data/<league>/; the next "Update and deploy" run builds.
 name: New leagues data
 
 on:
   workflow_dispatch:
+    inputs:
+      leagues:
+        description: "Leagues to update, space-separated (blank = all)"
+        required: false
+        default: ""
   schedule:
     - cron: "47 */6 * * *"
 
@@ -28,7 +33,7 @@ jobs:
       - name: Fetch
         run: |
           pip install pyarrow
-          python -u new_leagues.py
+          python -u new_leagues.py ${{ github.event.inputs.leagues }}
         continue-on-error: true
       - name: Commit
         if: always()
