@@ -161,6 +161,34 @@ a.tile{color:var(--ink)}
   .alert-form{flex-direction:column}.alert-form input[type=email]{width:100%}
 }
 
+/* ---- College Basketball Belt additions ---- */
+.card.sister{display:flex;flex-direction:column;gap:12px;background:#0c2340;color:#fff;border:none;margin:0}
+.card.sister .kicker{color:#c99700}.card.sister p{margin:0;color:rgba(255,255,255,.82)}.card.sister:hover{filter:brightness(1.1)}
+.big{font-size:36px;font-weight:900;line-height:.92}
+.pace{display:flex;flex-direction:column;gap:14px;margin:0;align-self:start}.pace p{margin:0;color:var(--body)}
+.bars{display:flex;align-items:flex-end;gap:6px;height:96px;padding-top:10px;border-top:1px solid var(--line)}
+.bar{flex:1;background:#cfc4ad}.bar.now{background:#de762c}
+.barlabels{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.barlabels span{flex:1;text-align:center}
+.bracket{margin:8px var(--pad) 0;padding:48px;background:var(--ink);color:var(--paper);display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center}
+.bracket .kicker{color:#e0b567}.bracket h2{margin:12px 0;font-size:56px;line-height:.9;font-weight:900}
+.bracket p{margin:0 0 14px;font-size:18px;color:rgba(231,226,213,.8)}.bracket .more{color:#e0b567}
+.bgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.bgrid>div{display:flex;flex-direction:column;gap:8px;padding:14px;border:1px solid rgba(231,226,213,.2)}
+.bgrid span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(231,226,213,.6)}
+.bgrid b{font-size:24px;font-weight:800;line-height:1}
+.bgrid .hot{background:#de762c;color:var(--ink);border-color:#de762c}.bgrid .hot span{color:var(--ink)}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.three .card{margin:0}
+.intro{font-size:19px;color:var(--body);max-width:860px;margin:0 0 24px}
+.history.march td{font-size:15px}.history.march td:nth-child(2){font-size:18px}.history.march small{margin-left:0}
+@media (max-width:1100px){.bracket{grid-template-columns:1fr}.bgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:1fr}}
+@media (max-width:700px){
+  .brand span{font-size:17px}
+  .primary a{padding:12px 3px;font-size:10px;letter-spacing:.06em}
+  .bracket{padding:26px 18px;margin:0 var(--pad)}.bracket h2{font-size:40px}
+  .history.march td:nth-child(3),.history.march th:nth-child(3){display:table-cell}
+  .history.march td:nth-child(5),.history.march th:nth-child(5){display:none}
+  .big{font-size:30px}
+}
 /* ---- deeper pages ---- */
 .topright{display:flex;align-items:center;gap:14px}.searchlink{color:var(--ink);display:flex}
 .prevlink{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:inherit;opacity:.85;padding-top:10px;border-top:1px solid rgba(255,255,255,.18)}.prevlink:hover{color:inherit;opacity:1}
@@ -273,7 +301,9 @@ ol.degrees{list-style:none;padding:0;margin:0;border-top:1px solid var(--line2)}
 .abtn{display:block;text-align:center;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;padding:11px;margin:10px 0 0;border:1px solid var(--line2);color:var(--ink)}.abtn:hover{border-color:var(--brass);color:var(--ink)}
 .anums{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}.anums b{display:block;font-size:30px;font-weight:900}.anums span{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 @media (max-width:900px){.mhero{grid-template-columns:1fr}.mmid{flex-direction:row;flex-wrap:wrap;gap:6px 14px}.mday{font-size:40px}.stakes{grid-template-columns:1fr 1fr}.stakes>div:nth-child(3){border-left:0}.pv-grid{grid-template-columns:1fr}.pv-aside{position:static}.formcols{grid-template-columns:1fr}}
+
 .gnav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding-top:22px;margin-top:22px;border-top:1px solid var(--line)}
+
 .recapcard{display:block;background:var(--card);border:1px solid var(--line);padding:20px 22px;color:var(--ink)}.recapcard:hover{border-color:var(--brass)}.recapcard b{display:block;font-size:30px;font-weight:800;margin:6px 0}.recapcard p{margin:0;color:var(--body)}.recapcard .mono{font-size:11px;color:var(--muted)}
 .linescore td,.linescore th{padding:6px 8px}.recap{margin-bottom:28px}
 .linescore td:nth-child(n+2){font-size:13px;font-family:"IBM Plex Mono",monospace}
@@ -288,11 +318,14 @@ ol.degrees{list-style:none;padding:0;margin:0;border-top:1px solid var(--line2)}
 th[data-k]{cursor:pointer;user-select:none;white-space:nowrap}th[data-k]:after{content:" ↕";opacity:.35}th.tk-up:after{content:" ↑";opacity:1}th.tk-down:after{content:" ↓";opacity:1}
 .tk-empty{display:none;padding:18px 0;color:var(--muted)}
 tr.cur td{background:rgba(169,127,56,.14)}
+
 .wigrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.wicard{background:var(--card);border:1px solid var(--line);padding:18px 20px}.wicard h3{font-size:26px;margin:6px 0 4px;line-height:1}.wicard p{margin:8px 0}
 @media (max-width:900px){.wigrid{grid-template-columns:1fr}}
+
 .leadgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-bottom:26px}
 .box td,.box th{padding:6px 8px;font-size:13px}.box td small{display:block}
 @media (max-width:900px){.leadgrid{grid-template-columns:1fr}}
+
 .mapbox{position:relative;border:1px solid var(--line);background:var(--card)}.mapbox svg{display:block;width:100%;height:auto}
 .land{fill:var(--paper2);stroke:var(--line2);stroke-width:.6}.borders{fill:none;stroke:var(--line2);stroke-width:.5}
 .city{fill:rgba(169,127,56,.55);stroke:var(--brass);stroke-width:1;cursor:pointer}.city:hover{fill:var(--brass)}
@@ -307,3 +340,10 @@ tr.cur td{background:rgba(169,127,56,.14)}
 .sub-head{margin-top:36px}.sub-head h2{font-size:28px}
 @media (max-width:1100px){.tiles.small{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){.tiles.small{grid-template-columns:1fr}}
+.belts{display:flex;flex:none;border:1px solid var(--ink);border-radius:20px;overflow:hidden;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.brand span,.primary a{white-space:nowrap}
+@media (max-width:1400px){.primary{gap:20px}.topright{gap:10px}}
+.belts a{padding:6px 12px;color:var(--ink);line-height:1}.belts a.on{background:var(--ink);color:var(--paper)}
+@media (max-width:700px){.belts{font-size:10px;letter-spacing:.06em}.belts a{padding:5px 8px}
+  .top .pill{display:none}.brand{gap:8px;min-width:0}.brand span{font-size:16px;white-space:normal;line-height:1.05}}
+@media (max-width:1100px) and (min-width:701px){.top{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px;row-gap:8px}.primary{order:3;width:100%;gap:22px}.top .pill{display:none}}
