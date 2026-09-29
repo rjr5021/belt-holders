@@ -248,12 +248,17 @@ INTL = make("intl", "International", "The International Football Belt", "Soccer"
                      'international football results</a> (CC0).'))
 
 # ------------------------------------------------------------------- PWHL
-PWHL_IDS = {"1": "BOS", "2": "MIN", "3": "MTL", "4": "NY", "5": "OTT", "6": "TOR", "8": "SEA", "9": "VAN"}
+PWHL_IDS = {"1": "BOS", "2": "MIN", "3": "MTL", "4": "NY", "5": "OTT", "6": "TOR", "8": "SEA", "9": "VAN",
+            "10": "DET", "11": "HAM", "12": "VGS", "13": "SJ"}      # 2026-27 expansion clubs
 PWHL_TEAMS = {"BOS": ("#154734", "#ffffff", "Boston"), "MIN": ("#2e1a47", "#a77bca", "Minnesota"), "MTL": ("#862633", "#e8dcc4", "Montréal"),
               "NY": ("#00b2a9", "#1e3a5f", "New York"), "OTT": ("#a6192e", "#111111", "Ottawa"), "TOR": ("#307fe2", "#111111", "Toronto"),
-              "SEA": ("#0b5563", "#e3b33d", "Seattle"), "VAN": ("#0f4d3a", "#d4b36a", "Vancouver")}
+              "SEA": ("#0b5563", "#e3b33d", "Seattle"), "VAN": ("#0f4d3a", "#d4b36a", "Vancouver"),
+              # expansion clubs play as "PWHL <city>" until they're branded; league purple until then
+              "DET": ("#33058d", "#ffffff", "Detroit"), "HAM": ("#33058d", "#ffffff", "Hamilton"),
+              "VGS": ("#33058d", "#ffffff", "Las Vegas"), "SJ": ("#33058d", "#ffffff", "San Jose")}
 PWHL_NAMES = {"BOS": "Boston Fleet", "MIN": "Minnesota Frost", "MTL": "Montréal Victoire", "NY": "New York Sirens",
-              "OTT": "Ottawa Charge", "TOR": "Toronto Sceptres", "SEA": "Seattle Torrent", "VAN": "Vancouver Goldeneyes"}
+              "OTT": "Ottawa Charge", "TOR": "Toronto Sceptres", "SEA": "Seattle Torrent", "VAN": "Vancouver Goldeneyes",
+              "DET": "PWHL Detroit", "HAM": "PWHL Hamilton", "VGS": "PWHL Las Vegas", "SJ": "PWHL San Jose"}
 
 
 def _pwhl_era(c, season):
