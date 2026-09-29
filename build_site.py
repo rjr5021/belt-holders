@@ -216,7 +216,8 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 </main>
 {alerts_block()}
 <footer class="foot mono">
-  <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
+  <div class="belt-network" data-belt-network data-site="bh"><span class="nk">The belt network</span><a href="https://collegefootballbelt.com/"><b>College football</b></a><a href="https://collegebasketballbelt.com/"><b>Men's college hoops</b></a><a href="https://collegebasketballbelt.com/women/"><b>Women's college hoops</b></a><a class="all" href="/all/">Every belt →</a></div>
+  <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://x.com/CollegeFBBelt">@CollegeFBBelt</a><a href="https://x.com/CollegeBBBelt">@CollegeBBBelt</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
   <div class="links"><a href="/privacy/">Privacy</a><a href="mailto:hello@beltholders.com">Contact</a><a href="/feed.xml">RSS</a><a href="/embed/">Embed a badge</a><span>Not affiliated with any league or team.</span></div>
 </footer>
 <script src="/network-bar.js" defer></script>
@@ -465,6 +466,7 @@ def build_home(datas):
   </div>
   <div class="tiles">{"".join(tiles)}</div>
   {frozen_note(datas)}
+  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a></p>
   {more_leagues(datas)}
   {college_strip()}
 </section>
@@ -997,6 +999,10 @@ def main():
     site_extras.build_all(datas)
     build_static_pages(datas)
     build_api(datas)
+    import network                      # the belt network: api/network.json, network-bar.js, /all/, /today/
+    network.build_network_json(sys.modules[__name__], datas)
+    network.build_pages(sys.modules[__name__], datas)
+    build_offline()
     build_feed(datas)
     build_meta_files(datas)
     build_sitemap(datas)
