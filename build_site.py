@@ -23,13 +23,13 @@ import shutil
 import unicodedata
 from datetime import date, datetime
 
-from leagues import COMING, LIVE, ORDER
+from leagues import COMING, GROUPS, LIVE, ORDER, PRIMARY
 
 SITE_URL = "https://beltholders.com"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = ""            # e.g. "beltholders" once the GoatCounter site exists
-STYLES_VERSION = "5"
+STYLES_VERSION = "6"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -132,7 +132,7 @@ LOGO = ('<svg width="40" height="24" viewBox="0 0 40 24" fill="none" aria-hidden
 
 def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None):
     nav = []
-    for key in ORDER:
+    for key in PRIMARY:
         live = any(lg["key"] == key for lg in LIVE)
         label = key.upper()
         cls = ' class="on"' if active == key else ""
@@ -140,6 +140,8 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
             nav.append(f'<a href="/{key}/"{cls}>{label}</a>')
         else:
             nav.append(f'<span class="soon" title="Coming soon">{label}</span>')
+    if len(LIVE) > len(PRIMARY):
+        nav.append(f'<a href="/leagues/"{" class=on" if active == "leagues" or (active and active not in PRIMARY and active in ORDER) else ""}>All leagues</a>')
     nav.append(f'<a href="/rules/"{" class=on" if active == "rules" else ""}>Rules</a>')
     nav.append(f'<a href="/about/"{" class=on" if active == "about" else ""}>About</a>')
     if og_image == "/og.png" and active in [lg["key"] for lg in LIVE]:
@@ -313,9 +315,47 @@ def record_card(title, rows):
 
 # ------------------------------------------------------------- pages -----
 
+def league_tile(lg, d, small=False):
+    key = lg["key"]
+    cur = d["current"]
+    p, s = lg["team_colors"](cur["team"])
+    top, bottom, ink, accent = plate(p, s)
+    ng = d.get("next_game")
+    foot = (f'<span class="disp">{"at" if not ng["holder_home"] else "vs."} {e(lg["short_name"](ng["challenger"]))}</span><span class="mono">{weekday(ng["date"])} {d_short(ng["date"])}</span>'
+            if ng else f'<span class="disp">{"Season over" if d["status"] == "In season" else "Offseason"}</span><span class="mono"></span>')
+    how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
+           if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
+    return f"""<a class="tile{' small' if small else ''}" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
+  <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status"><i></i>{e(d['status'])}</span></div>
+  <div class="tile-body"><div class="mono k">Holder · {ordinal(cur['reign_no'])} reign</div><div class="disp name" style="{fit(cur['name'])}">{e(cur['name'])}</div><p>{how}</p></div>
+  <div class="tile-foot">{foot}</div>
+</a>"""
+
+
+def more_leagues(datas):
+    out = []
+    for label, keys in GROUPS:
+        ts = [league_tile(lg, datas[lg["key"]], small=True) for k in keys for lg in LIVE if lg["key"] == k]
+        if ts:
+            out.append(f'<div class="head sub-head"><h2 class="disp">{e(label)}</h2></div><div class="tiles small">{"".join(ts)}</div>')
+    return "".join(out)
+
+
+def build_leagues_page(datas):
+    main = "".join(league_tile(lg, datas[lg["key"]], small=True) for k in PRIMARY for lg in LIVE if lg["key"] == k)
+    body = f"""<section class="wrap block">
+  <div class="head"><h1 class="disp">Every belt we track</h1><span class="mono note">{len(LIVE)} leagues</span></div>
+  <p class="intro">One belt per league, passed from team to team since each league's first game. Pick a league.</p>
+  <div class="head sub-head"><h2 class="disp">The big four</h2></div><div class="tiles small">{main}</div>
+  {more_leagues(datas)}
+</section>"""
+    write("leagues/index.html", page("Every league's belt", body, path="/leagues/", active="leagues",
+                                     description="Every lineal championship belt on Belt Holders: NFL, NBA, NHL, MLB, MLS, WNBA, NWSL, PWHL, women's college basketball, Europe's top soccer leagues and international soccer."))
+
+
 def build_home(datas):
     tiles = []
-    for key in ORDER:
+    for key in PRIMARY:
         lg = next((l for l in LIVE if l["key"] == key), None)
         if lg:
             d = datas[key]
@@ -373,6 +413,7 @@ def build_home(datas):
       <div class="btns"><a class="btn dark mono" href="/rules/">How it works</a><a class="btn mono" href="#alerts">Get belt alerts</a></div></div>
   </div>
   <div class="tiles">{"".join(tiles)}</div>
+  {more_leagues(datas)}
   {college_strip()}
 </section>
 <section class="wrap block">
@@ -391,11 +432,11 @@ def build_home(datas):
   </div>
 </section>
 <section class="wrap block">
-  <div class="head"><h2 class="disp">The record books</h2><div class="tabs mono">{"".join(f'<a href="/{k}/records/" class="{"on" if k == "nfl" else ""}">{k.upper()}</a>' if any(l["key"] == k for l in LIVE) else f'<span>{k.upper()}</span>' for k in ORDER)}</div></div>
+  <div class="head"><h2 class="disp">The record books</h2><div class="tabs mono">{"".join(f'<a href="/{k}/records/" class="{"on" if k == "nfl" else ""}">{e(next(l["name"] for l in LIVE if l["key"] == k))}</a>' for k in ORDER if any(l["key"] == k for l in LIVE))}</div></div>
   {nums}
 </section>"""
     write("index.html", page("Belt Holders — the lineal championship belt for every league", body, path="/",
-                             description="Who holds the lineal championship belt in the NFL, NBA, NHL and MLB. Beat the champ, take the belt — tracked game by game since each league began."))
+                             description="Who holds the lineal championship belt in the NFL, NBA, NHL, MLB, MLS, WNBA, Premier League and more. Beat the champ, take the belt — tracked game by game since each league began."))
 
 
 def college_strip():
@@ -791,6 +832,7 @@ def main():
         with open(os.path.join("data", lg["key"], "lineage.json")) as f:
             datas[lg["key"]] = json.load(f)
     build_home(datas)
+    build_leagues_page(datas)
     for lg in LIVE:
         d = datas[lg["key"]]
         build_league(lg, d)

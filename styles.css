@@ -302,3 +302,8 @@ tr.cur td{background:rgba(169,127,56,.14)}
 .wlinks line{stroke:var(--ink);stroke-opacity:.18}.wnode{cursor:pointer}.wnode circle{stroke:#fff;stroke-width:1.5}.wnode text{font:500 10px "IBM Plex Mono",monospace;text-anchor:middle;fill:var(--ink)}
 .gcard span.mono{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .mapnote{font-size:11px;fill:var(--muted);letter-spacing:.06em}
+
+.tiles.small{grid-template-columns:repeat(4,minmax(0,1fr))}.tile.small{min-height:250px;gap:14px;padding:20px}.tile.small .name{font-size:clamp(26px,2.6vw,40px)}
+.sub-head{margin-top:36px}.sub-head h2{font-size:28px}
+@media (max-width:1100px){.tiles.small{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.tiles.small{grid-template-columns:1fr}}

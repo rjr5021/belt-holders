@@ -17,7 +17,8 @@ Sources (all free, no keys):
                         ESPN-based schedules 2002 on; ESPN scoreboard for the latest days and upcoming
   MLS                   engsoccerdata 1996-2016; American Soccer Analysis API 2017 on; ESPN for upcoming
   NWSL                  ESPN scoreboard (usa.nwsl), 2013 on
-  Women's college bb    Massey Ratings 1997-98 to 2001-02; sportsdataverse wehoop (ESPN) 2002-03 on
+  Women's college bb    sportsdataverse wehoop (ESPN) 2002-03 on, opened by the 2002 NCAA final
+  CFL                   Wikipedia team-season pages (CC BY-SA), every season since 1958
 
 Team names are kept as each source's "current name" for a franchise, mapped to
 one code per franchise in the league adapters.
@@ -31,6 +32,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta, timezone
@@ -240,10 +242,10 @@ def update_intl():
     today = today_et().isoformat()
     for i, r in enumerate(raw):
         h, a = r["home_team"], r["away_team"]
-        if h not in fifa or a not in fifa:
-            continue
+        if h not in fifa or a not in fifa or r["date"] < "1873-03-08":
+            continue          # the belt starts with the first decisive international: England 4-2 Scotland, 1873
         base = {"id": f"int-{i}", "date": r["date"], "season": int(r["date"][:4]),
-                "season_type": "postseason" if r["tournament"] != "Friendly" else "regular",
+                "season_type": "postseason" if r["tournament"] == "FIFA World Cup" else "regular",
                 "home": h, "away": a, "neutral": "1" if r["neutral"].upper() == "TRUE" else ""}
         if r["home_score"] in ("", "NA"):
             if r["date"] >= today:
@@ -537,6 +539,11 @@ def update_wcbb():
     seasons = range(2003, cur + 1) if not rows else [cur - 1, cur] if today.month <= 4 else [cur]
     keep = [r for r in rows if int(r["season"]) not in seasons]
     got = []
+    cpath = os.path.join("data", "wcbb", "colors.json")
+    colors = {}
+    if os.path.exists(cpath):
+        with open(cpath) as f:
+            colors = json.load(f)
     for y in seasons:
         t = None
         for tag, fname in (("espn_womens_college_basketball_schedules", f"wbb_schedule_{y}.csv"),
@@ -555,6 +562,11 @@ def update_wcbb():
             if st not in ("2", "3"):
                 continue
             gid = r.get("game_id") or r.get("id")
+            for side in ("home", "away"):
+                c, alt = r.get(f"{side}_color"), r.get(f"{side}_alternate_color")
+                if c and c != "NA":
+                    colors[str(r.get(f"{side}_id"))] = ["#" + c.lower(), "#" + (alt if alt and alt != "NA" else "ffffff").lower(),
+                                                        r.get(f"{side}_location") or ""]
             got.append({"id": f"espn-{gid}", "date": (r.get("game_date") or r.get("date"))[:10], "season": y - 1,
                         "season_type": "postseason" if st == "3" else "regular",
                         "home": r.get("home_id"), "away": r.get("away_id"),
@@ -583,13 +595,295 @@ def update_wcbb():
     write("wcbb", rows, [u for u in up if u["date"] >= today.isoformat()])
     with open(os.path.join("data", "wcbb", "names.json"), "w") as f:
         json.dump(names, f, indent=0, sort_keys=True)
+    with open(cpath, "w") as f:
+        json.dump(colors, f, separators=(",", ":"), sort_keys=True)
+
+
+# =================================================================== CFL ==
+# No free, redistributable CFL results file exists, so the CFL comes from the
+# schedule tables on Wikipedia's team-season pages ("1975 Edmonton Eskimos
+# season"), one page per team per year. Every game appears on both teams'
+# pages, which cross-checks the scores; disagreements are logged.
+
+WIKI_API = "https://en.wikipedia.org/w/api.php"
+WIKI_UA = "BeltHoldersBot/1.0 (https://beltholders.com; lineal-title tracker)"
+CFL_FIRST = 1958
+MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def cfl_code(name, season):
+    n = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    n = re.sub(r"\[[^\]]*\]|\*|†|‡|#", "", n).strip()
+    if "ottawa" in n or "rough riders" in n or "redblacks" in n or "renegades" in n:
+        if "redblacks" in n or season >= 2014:
+            return "OTT"
+        if "renegades" in n or season >= 2002:
+            return "REN"
+        return "OTR"
+    table = [("lions", "BC"), ("b.c.", "BC"), ("british columbia", "BC"), ("bc ", "BC"), ("calgary", "CGY"), ("stampeders", "CGY"),
+             ("edmonton", "EDM"), ("eskimos", "EDM"), ("elks", "EDM"), ("saskatchewan", "SSK"), ("roughriders", "SSK"),
+             ("winnipeg", "WPG"), ("blue bombers", "WPG"), ("hamilton", "HAM"), ("tiger-cats", "HAM"), ("tiger cats", "HAM"),
+             ("ticats", "HAM"), ("toronto", "TOR"), ("argonauts", "TOR"), ("montreal", "MTL"), ("alouettes", "MTL"),
+             ("concordes", "MTL"), ("sacramento", "SAC"), ("gold miners", "SAC"), ("san antonio", "SAC"), ("texans", "SAC"),
+             ("las vegas", "LV"), ("posse", "LV"), ("baltimore", "BAL"), ("stallions", "BAL"), ("cflers", "BAL"),
+             ("shreveport", "SHR"), ("pirates", "SHR"), ("birmingham", "BIR"), ("barracudas", "BIR"),
+             ("memphis", "MEM"), ("mad dogs", "MEM")]
+    for k, c in table:
+        if k in n + " ":
+            return c
+    if n.strip() in ("bc",):
+        return "BC"
+    return None
+
+
+class _Tables(__import__("html.parser").parser.HTMLParser):
+    """Every wikitable on a page as rows of cell text, with the section heading above it."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.tables, self.heading = [], ""
+        self._h = None
+        self._t = []          # stack of tables being read: {"heading", "rows", "row", "cell", "wiki"}
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag in ("h2", "h3", "h4"):
+            self._h = []
+        elif tag == "table":
+            self._t.append({"heading": self.heading, "rows": [], "row": None, "cell": None,
+                            "wiki": "wikitable" in (a.get("class") or ""), "spans": {}})
+        elif self._t and tag == "tr":
+            self._t[-1]["row"] = []
+        elif self._t and tag in ("td", "th") and self._t[-1]["row"] is not None:
+            try:
+                rs = int(re.sub(r"\D", "", a.get("rowspan") or "1") or 1)
+            except ValueError:
+                rs = 1
+            self._t[-1]["cell"] = {"text": [], "rowspan": rs}
+        elif tag in ("sup", "style", "script"):
+            self._skip += 1
+        elif tag == "br" and self._t and self._t[-1]["cell"] is not None:
+            self._t[-1]["cell"]["text"].append(" ")
+
+    def handle_endtag(self, tag):
+        if tag in ("h2", "h3", "h4") and self._h is not None:
+            self.heading = re.sub(r"\s+", " ", "".join(self._h)).replace("[edit]", "").strip()
+            self._h = None
+        elif tag in ("sup", "style", "script"):
+            self._skip = max(0, self._skip - 1)
+        elif not self._t:
+            return
+        elif tag in ("td", "th"):
+            t = self._t[-1]
+            if t["cell"] is not None and t["row"] is not None:
+                t["row"].append((re.sub(r"\s+", " ", "".join(t["cell"]["text"])).strip(), t["cell"]["rowspan"]))
+            t["cell"] = None
+        elif tag == "tr":
+            t = self._t[-1]
+            if t["row"] is not None:
+                # fill cells carried down by an earlier rowspan
+                out, col, cells = [], 0, list(t["row"])
+                while cells or any(c >= col for c in t["spans"]):
+                    if col in t["spans"]:
+                        txt, left = t["spans"][col]
+                        out.append(txt)
+                        if left <= 1:
+                            del t["spans"][col]
+                        else:
+                            t["spans"][col] = (txt, left - 1)
+                    elif cells:
+                        txt, rs = cells.pop(0)
+                        out.append(txt)
+                        if rs > 1:
+                            t["spans"][col] = (txt, rs - 1)
+                    else:
+                        break
+                    col += 1
+                t["rows"].append(out)
+            t["row"] = None
+        elif tag == "table":
+            t = self._t.pop()
+            if t["wiki"]:
+                self.tables.append({"heading": t["heading"], "rows": t["rows"]})
+
+    def handle_data(self, data):
+        if self._skip:
+            return
+        if self._h is not None:
+            self._h.append(data)
+        if self._t and self._t[-1]["cell"] is not None:
+            self._t[-1]["cell"]["text"].append(data)
+
+
+_DATE = re.compile(r"(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+)?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})\b", re.I)
+_RES = re.compile(r"^\s*(w|l|t|win|loss|tie|won|lost|tied)\b\.?\s*(?:\(?\s*(?:ot|2ot|3ot)\s*\)?)?\s*(\d{1,3})\s*[–\-—−:]\s*(\d{1,3})", re.I)
+_RES_ONLY = re.compile(r"^\s*(w|l|t|win|loss|tie)\b", re.I)
+_SCORE = re.compile(r"^\s*(\d{1,3})\s*[–\-—−:]\s*(\d{1,3})")
+
+
+def _wiki(params):
+    q = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in {**params, "format": "json", "formatversion": 2}.items())
+    j = get(f"{WIKI_API}?{q}", as_json=True, ua=WIKI_UA)
+    time.sleep(0.4)
+    return j or {}
+
+
+def _cfl_team_pages(y):
+    """Team-season page titles for one CFL season, from the links on the league-season page."""
+    titles, cont = set(), {}
+    for _ in range(10):
+        j = _wiki({"action": "query", "titles": f"{y} CFL season", "prop": "links", "pllimit": "max", "plnamespace": 0, **cont})
+        for p in (j.get("query") or {}).get("pages", []):
+            for l in p.get("links", []):
+                t = l["title"]
+                if re.match(rf"^{y} .+ season$", t) and "CFL" not in t:
+                    if cfl_code(t[5:-7], y):
+                        titles.add(t)
+        if "continue" not in j:
+            break
+        cont = j["continue"]
+    return sorted(titles)
+
+
+def _cfl_page_games(title, y):
+    """(completed, upcoming) games on one team-season page, from that team's side."""
+    team = cfl_code(title[5:-7], y)
+    j = _wiki({"action": "parse", "page": title, "prop": "text", "redirects": 1})
+    html = ((j.get("parse") or {}).get("text")) or ""
+    if not html:
+        return None, []
+    p = _Tables()
+    p.feed(html)
+    done, up = [], []
+    for t in p.tables:
+        head = t["heading"].lower()
+        if "pre-season" in head or "preseason" in head or "pre season" in head or "exhibition" in head:
+            continue
+        post = any(w in head for w in ("playoff", "post-season", "postseason", "grey cup"))
+        for cells in t["rows"]:
+            if len(cells) < 3:
+                continue
+            first = cells[0].strip().upper()
+            if re.fullmatch(r"[A-E]\d?|P\d|PS\d?|PRE.*", first):
+                continue                                   # preseason rows share some tables (game "A", "B")
+            d = opp = res = None
+            home = None
+            for i, c in enumerate(cells):
+                if d is None:
+                    m = _DATE.search(c)
+                    if m and len(c) < 40:
+                        mo, dy = MONTHS[m.group(1).lower()[:3]], int(m.group(2))
+                        try:
+                            d = date(y, mo, dy)
+                        except ValueError:
+                            d = None
+                        continue
+                if opp is None and d is not None:
+                    m = re.match(r"^\s*(vs\.?|versus|at|@|v\.)\s+(.+)$", c, re.I)
+                    if m:
+                        opp = cfl_code(m.group(2), y)
+                        home = m.group(1).lower() not in ("at", "@")
+                        continue
+                if opp is not None and res is None:
+                    m = _RES.match(c)
+                    if m:
+                        res = (m.group(1)[0].upper(), int(m.group(2)), int(m.group(3)))
+                        continue
+                    m = _RES_ONLY.match(c)
+                    if m and i + 1 < len(cells) and _SCORE.match(cells[i + 1]):
+                        s2 = _SCORE.match(cells[i + 1])
+                        res = (m.group(1)[0].upper(), int(s2.group(1)), int(s2.group(2)))
+            if d is None or opp is None or opp == team:
+                continue
+            row_txt = " ".join(cells).lower()
+            is_post = post or "grey cup" in row_txt or "semi-final" in row_txt or "division final" in row_txt
+            neutral = "grey cup" in row_txt
+            g = {"date": d.isoformat(), "team": team, "opp": opp, "home": home, "post": is_post, "neutral": neutral}
+            if res:
+                r, a, b = res
+                hi, lo = max(a, b), min(a, b)
+                us, them = (hi, lo) if r == "W" else (lo, hi) if r == "L" else (a, b)
+                g.update(us=us, them=them)
+                done.append(g)
+            elif d >= today_et() - timedelta(days=2):
+                up.append(g)
+    return done, up
+
+
+def update_cfl():
+    today = today_et()
+    rows = read_existing("cfl")
+    have = {int(r["season"]) for r in rows}
+    seasons = [y for y in range(CFL_FIRST, today.year + 1) if y not in have or y >= today.year - (1 if today.month <= 2 else 0)]
+    seasons = [y for y in seasons if y != 2020]                    # no 2020 season (pandemic)
+    rows = [r for r in rows if int(r["season"]) not in seasons]
+    upcoming = []
+    for y in seasons:
+        pages = _cfl_team_pages(y)
+        sides = []
+        ups = []
+        for t in pages:
+            d, u = _cfl_page_games(t, y)
+            if d:
+                sides += d
+            ups += u
+        # pair the two sides of each game (same teams, dates within a day)
+        games, used = [], set()
+        by_pair = defaultdict(list)
+        for i, g in enumerate(sides):
+            by_pair[frozenset((g["team"], g["opp"]))].append(i)
+        disagree = 0
+        for i, g in enumerate(sides):
+            if i in used:
+                continue
+            used.add(i)
+            mate = None
+            for j2 in by_pair[frozenset((g["team"], g["opp"]))]:
+                h = sides[j2]
+                if j2 in used or h["team"] != g["opp"]:
+                    continue
+                if abs((date.fromisoformat(h["date"]) - date.fromisoformat(g["date"])).days) <= 1:
+                    mate = h
+                    used.add(j2)
+                    break
+            if mate and (mate["us"], mate["them"]) != (g["them"], g["us"]):
+                disagree += 1
+                print(f"  CFL {y}: score differs {g['date']} {g['team']} {g['us']}-{g['them']} {g['opp']} vs "
+                      f"{mate['team']} page {mate['us']}-{mate['them']}")
+            if g["home"] or (g["home"] is None and mate and mate["home"] is False):
+                h_code, a_code, hp, ap = g["team"], g["opp"], g["us"], g["them"]
+            else:
+                h_code, a_code, hp, ap = g["opp"], g["team"], g["them"], g["us"]
+            games.append({"id": f"cfl-{g['date']}-{h_code}-{a_code}", "date": g["date"], "season": y,
+                          "season_type": "postseason" if (g["post"] or (mate and mate["post"])) else "regular",
+                          "home": h_code, "away": a_code, "home_points": hp, "away_points": ap,
+                          "neutral": "1" if g["neutral"] or (mate and mate["neutral"]) else "",
+                          "note": "Grey Cup" if g["neutral"] else "", "source": "wikipedia" if mate else "wikipedia-1side"})
+        one = sum(1 for g in games if g["source"] == "wikipedia-1side")
+        print(f"  CFL {y}: {len(pages)} team pages, {len(games)} games ({one} from one page only, {disagree} score disagreements)")
+        rows += games
+        if y >= today.year - 1:
+            seen = set()
+            for u in ups:
+                k = (u["date"], frozenset((u["team"], u["opp"])))
+                if k in seen:
+                    continue
+                seen.add(k)
+                h, a = (u["team"], u["opp"]) if u["home"] else (u["opp"], u["team"])
+                if any(r["date"] == u["date"] and {r["home"], r["away"]} == {h, a} for r in games):
+                    continue
+                upcoming.append({"id": f"cfl-{u['date']}-{h}-{a}", "date": u["date"], "season": y,
+                                 "season_type": "postseason" if u["post"] else "regular", "home": h, "away": a,
+                                 "neutral": "1" if u["neutral"] else "", "start_et": None})
+    write("cfl", rows, [u for u in upcoming if u["date"] >= today.isoformat()])
 
 
 UPDATERS = {"epl": lambda: update_europe("epl"), "laliga": lambda: update_europe("laliga"),
             "seriea": lambda: update_europe("seriea"), "bundesliga": lambda: update_europe("bundesliga"),
             "ligue1": lambda: update_europe("ligue1"), "eredivisie": lambda: update_europe("eredivisie"),
             "intl": update_intl, "pwhl": update_pwhl, "wnba": update_wnba,
-            "mls": update_mls, "nwsl": update_nwsl, "wcbb": update_wcbb}
+            "mls": update_mls, "nwsl": update_nwsl, "wcbb": update_wcbb, "cfl": update_cfl}
 
 
 def main():

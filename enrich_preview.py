@@ -37,8 +37,11 @@ except ImportError:  # pragma: no cover
     ZoneInfo = None
 
 ESPN = {"nfl": "football/nfl", "nba": "basketball/nba", "nhl": "hockey/nhl", "mlb": "baseball/mlb",
-        "cbb": "basketball/mens-college-basketball"}
-OUTDOOR_SPORTS = ("nfl", "mlb")
+        "cbb": "basketball/mens-college-basketball", "wnba": "basketball/wnba", "mls": "soccer/usa.1",
+        "nwsl": "soccer/usa.nwsl", "epl": "soccer/eng.1", "laliga": "soccer/esp.1", "seriea": "soccer/ita.1",
+        "bundesliga": "soccer/ger.1", "ligue1": "soccer/fra.1", "eredivisie": "soccer/ned.1",
+        "wcbb": "basketball/womens-college-basketball", "intl": "soccer/fifa.friendly"}
+OUTDOOR_SPORTS = ("nfl", "mlb", "mls", "nwsl", "epl", "laliga", "seriea", "bundesliga", "ligue1", "eredivisie", "intl", "cfl")
 MODEL = "claude-sonnet-4-5"   # accurate with numbers; ~1-2 cents per preview
 MAX_TOKENS = 900
 SITE_BLURB = {
@@ -145,7 +148,7 @@ def espn_game(lg, ng):
     if not path:
         return None
     url = f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={ng['date'].replace('-', '')}"
-    if lg.get("key") == "cbb":
+    if lg.get("key") in ("cbb", "wcbb"):
         url += "&groups=50&limit=500"
     j = get_json(url)
     if not j:
