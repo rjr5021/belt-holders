@@ -20,7 +20,10 @@ import json
 import os
 import re
 import shutil
+import sys
 import unicodedata
+
+import features
 from datetime import date, datetime
 
 from leagues import COMING, GROUPS, LIVE, ORDER, PRIMARY
@@ -265,8 +268,9 @@ def holder_plate_big(lg, data):
       {f'<div class="meta mono"><span>Chance to defend: {round(prob * 100)}%</span><a href="/{lg["key"]}/outlook/">Belt tree →</a></div>' if prob is not None else ""}
       <a class="mono prevlink" href="/{lg['key']}/next/">Game preview →</a>
     </aside>"""
-    if not ng and data.get("status") == "In season":
-        won += " Their season is over, so the belt sits out the postseason and opens next season with them."
+    if not ng:
+        import features
+        won += " " + e(features.belt_state(lg, data)["line"])
     days = cur["days"]
     return f"""<section class="plate" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
   <div class="plate-grid">
@@ -332,12 +336,13 @@ def league_tile(lg, d, small=False):
     p, s = lg["team_colors"](cur["team"])
     top, bottom, ink, accent = plate(p, s)
     ng = d.get("next_game")
+    st = features.belt_state(lg, d)
     foot = (f'<span class="disp">{"at" if not ng["holder_home"] else "vs."} {e(lg["short_name"](ng["challenger"]))}</span><span class="mono">{weekday(ng["date"])} {d_short(ng["date"])}</span>'
-            if ng else f'<span class="disp">{"Season over" if d["status"] == "In season" else "Offseason"}</span><span class="mono"></span>')
+            if ng else f'<span class="disp">{e(st["foot"])}</span><span class="mono">{e(st["sub"])}</span>')
     how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
            if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
     return f"""<a class="tile{' small' if small else ''}" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
-  <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status"><i></i>{e(d['status'])}</span></div>
+  <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status{' frozen' if st['state'] == 'postseason_holder_out' else ''}{' delayed' if st.get('delayed') else ''}"{(' title="' + e(st.get('reason', '')) + '"') if st.get('delayed') else ''}><i></i>{e(st['pill'])}</span></div>
   <div class="tile-body"><div class="mono k">Holder · {ordinal(cur['reign_no'])} reign</div><div class="disp name" style="{fit(cur['name'])}">{e(cur['name'])}</div><p>{how}</p></div>
   <div class="tile-foot">{foot}</div>
 </a>"""
@@ -364,6 +369,28 @@ def build_leagues_page(datas):
                                      description="Every lineal championship belt on Belt Holders: NFL, NBA, NHL, MLB, MLS, WNBA, NWSL, PWHL, the CFL, Europe's top soccer leagues and international soccer."))
 
 
+def _health():
+    try:
+        with open(os.path.join("data", "health.json")) as f:
+            return json.load(f).get("leagues", {})
+    except (OSError, ValueError):
+        return {}
+
+
+HEALTH = _health()
+
+
+def frozen_note(datas):
+    """BH-12: one line on the homepage when a belt is frozen (its holder is out while the league plays on)."""
+    fz = [(lg, datas[lg["key"]]) for lg in LIVE if features.belt_state(lg, datas[lg["key"]])["state"] == "postseason_holder_out"]
+    if not fz:
+        return ""
+    bits = [f'<a href="/{lg["key"]}/">{e(lg["name"])}</a> ({e(lg["short_name"](d["current"]["team"]))})' for lg, d in fz]
+    lst = bits[0] if len(bits) == 1 else ", ".join(bits[:-1]) + " and " + bits[-1]
+    return (f'<p class="mono note frozen-note">Belt frozen: {lst} {"is" if len(bits) == 1 else "are"} done for the season, '
+            f'so {"that belt carries" if len(bits) == 1 else "those belts carry"} over to next season.</p>')
+
+
 def build_home(datas):
     tiles = []
     for key in PRIMARY:
@@ -374,12 +401,13 @@ def build_home(datas):
             p, s = lg["team_colors"](cur["team"])
             top, bottom, ink, accent = plate(p, s)
             ng = d.get("next_game")
+            st = features.belt_state(lg, d)
             foot = (f'<span class="disp">{"at" if not ng["holder_home"] else "vs."} {e(lg["short_name"](ng["challenger"]))}</span><span class="mono">{weekday(ng["date"])} {d_short(ng["date"])}</span>'
-                    if ng else f'<span class="disp">{"Season over" if d["status"] == "In season" else "Offseason"}</span><span class="mono"></span>')
+                    if ng else f'<span class="disp">{e(st["foot"])}</span><span class="mono">{e(st["sub"])}</span>')
             how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
                    if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
             tiles.append(f"""<a class="tile" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
-  <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status"><i></i>{e(d['status'])}</span></div>
+  <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status{' frozen' if st['state'] == 'postseason_holder_out' else ''}{' delayed' if st.get('delayed') else ''}"{(' title="' + e(st.get('reason', '')) + '"') if st.get('delayed') else ''}><i></i>{e(st['pill'])}</span></div>
   <div class="tile-body"><div class="mono k">Holder · {ordinal(cur['reign_no'])} reign</div><div class="disp name" style="{fit(cur['name'])}">{e(cur['name'])}</div><p>{how}</p></div>
   <div class="tile-foot">{foot}</div>
 </a>""")
@@ -424,6 +452,7 @@ def build_home(datas):
       <div class="btns"><a class="btn dark mono" href="/rules/">How it works</a><a class="btn mono" href="#alerts">Get belt alerts</a></div></div>
   </div>
   <div class="tiles">{"".join(tiles)}</div>
+  {frozen_note(datas)}
   {more_leagues(datas)}
   {college_strip()}
 </section>
@@ -438,7 +467,7 @@ def build_home(datas):
     <div class="steps">
       <div><b class="disp">01</b><h3 class="disp">It starts at game one</h3><p>The winner of each league's first game picks up the belt. Everything since is one unbroken line.</p></div>
       <div><b class="disp">02</b><h3 class="disp">Beat the holder, take it</h3><p>Regular season or playoffs, home or away. A win over the holder is the only way the belt moves.</p></div>
-      <div><b class="disp">03</b><h3 class="disp">Ties go to the champ</h3><p>A tie is a successful defense. If a holder's franchise folds, the belt goes back to the last holder still playing.</p></div>
+      <div><b class="disp">03</b><h3 class="disp">Ties go to the champ</h3><p>A tie is a successful defense. A holder whose season is over keeps the belt until it plays again. If a holder's franchise folds, the belt goes back to the last holder still playing.</p></div>
     </div>
   </div>
 </section>
@@ -747,6 +776,7 @@ def build_static_pages(datas):
 <li><b>Beat the holder, take the belt.</b> Any game counts — regular season or playoffs, home, away or neutral. Preseason and exhibition games don't.</li>
 <li><b>Ties go to the champ.</b> A tie is a successful defense. Overtime and shootout wins are wins.</li>
 <li><b>The belt follows the franchise.</b> Relocations and renames don't reset anything.</li>
+<li><b>The season ends, the belt stays.</b> A holder whose season is over, whether it missed the playoffs or ran out of games, keeps the belt until it plays again. The belt is frozen until then and opens the next season with that team.</li>
 <li><b>Folded holders.</b> If the holder's franchise folds or stops playing, the belt goes back to the most recent earlier holder that is still playing, the same rule our sister site, the College Football Belt, uses.</li>
 </ol>
 <h2 class="disp">League notes</h2>
@@ -891,7 +921,7 @@ def build_api(datas):
         out["leagues"][lg["key"]] = {
             "name": lg["name"], "holder": lg["team_name"](cur["team"]), "short": lg["short_name"](cur["team"]),
             "since": cur["start_date"], "defenses": cur.get("defenses", 0), "reign": cur["reign_no"],
-            "url": f"{SITE_URL}/{lg['key']}/",
+            "url": f"{SITE_URL}/{lg['key']}/", "state": features.belt_state(lg, d)["state"], "data_ok": (d.get("_health") or {}).get("ok", True),
             "next": ({"date": ng["date"], "opponent": lg["team_name"](ng["challenger"]), "home": ng["holder_home"]} if ng else None),
         }
     write("api/current.json", json.dumps(out, indent=1))
@@ -928,6 +958,7 @@ def main():
         print("no lineage yet, skipping:", missing)
         LIVE[:] = [lg for lg in LIVE if lg["key"] not in missing]
     import features
+    features.init(sys.modules[__name__], lambda x: "/" + x["key"])
     for lg in LIVE:
         with open(os.path.join("data", lg["key"], "lineage.json")) as f:
             datas[lg["key"]] = json.load(f)
