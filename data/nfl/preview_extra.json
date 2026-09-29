@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-28T23:41Z",
+ "updated": "2026-09-29T00:37Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -12,7 +12,7 @@
   "odds": {
    "details": "CIN -2.5",
    "over_under": 51.5,
-   "provider": "DraftKings"
+   "provider": "Draft Kings"
   },
   "teams": {
    "CIN": {
@@ -43,7 +43,7 @@
   "precip_chance": 28,
   "wind_mph": 4,
   "condition": "Overcast",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "venue": "Paycor Stadium"
  },
  "ai": {
