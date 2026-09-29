@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-29T02:36Z",
+ "updated": "2026-09-29T02:49Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -40,7 +40,7 @@
  "weather": {
   "temp_f": 67,
   "feels_like_f": 70,
-  "precip_chance": 28,
+  "precip_chance": 31,
   "wind_mph": 4,
   "condition": "Overcast",
   "as_of": "2026-09-29",
