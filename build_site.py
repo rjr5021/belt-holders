@@ -514,9 +514,7 @@ def college_strip():
 def home_extras(datas):
     import site_extras
     today = date.today()
-    items = site_extras.otd_items(datas).get(f"{today:%m-%d}", [])
-    otd = (f'<section class="wrap block"><div class="head"><h2 class="disp">Today in belt history</h2><a class="mono more" href="/on-this-day/">All of {MONTHS_LONG[today.month - 1]} {today.day} →</a></div>'
-           f'{site_extras.otd_list(items, 6)}</section>') if items else ""
+    otd = site_extras.otd_home(site_extras.otd_items(datas), today)
     stories = "".join(f'<a class="storycard" href="/{lg["key"]}/stories/{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b></a>'
                       for lg in LIVE for sl_, t in [("longest-reigns", f"The longest reigns in {lg['name']} belt history")])
     return otd + f'<section class="wrap block"><div class="head"><h2 class="disp">Stories</h2><a class="mono more" href="/stories/">All stories →</a></div><div class="storygrid">{stories}</div></section>'
