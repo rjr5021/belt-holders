@@ -802,16 +802,75 @@ def build_feed(datas):
     write("feed.xml", xml)
 
 
-def build_sitemap():
-    urls = []
+SITEMAP_MAX = 45000      # the protocol allows 50,000 URLs per file
+
+
+def _is_noindex(path):
+    with open(path, encoding="utf-8") as f:
+        head = f.read(4000)
+    return 'name="robots" content="noindex' in head
+
+
+def _lastmods(datas):
+    """URL -> YYYY-MM-DD from the data: a game's date, a reign's end, a season's last belt
+    game, a team's latest belt game; league hubs change with every build."""
+    out = {}
+    for lg in LIVE:
+        d = datas.get(lg["key"])
+        if not d:
+            continue
+        k = lg["key"]
+        gen = d.get("generated") or date.today().isoformat()
+        out[f"/{k}/"] = gen
+        last_season, last_team = {}, {}
+        for bg in d["belt_games"]:
+            out[f"/{k}/games/{bg['n']}/"] = bg["date"]
+            last_season[bg["season"]] = bg["date"]
+            for t in (bg.get("holder"), bg["opponent"]):
+                if t:
+                    last_team[t] = bg["date"]
+        for sn, dt in last_season.items():
+            out[f"/{k}/seasons/{sn}/"] = dt
+        for r in d["reigns"]:
+            out[f"/{k}/reigns/{r['index']}/"] = r.get("end_date") or gen
+        cur = d["reigns"][-1]["team"] if d["reigns"] else None
+        for t, dt in last_team.items():
+            out[f"/{k}/teams/{slug(lg['team_name'](t))}/"] = gen if t == cur else dt
+    return out
+
+
+def build_sitemap(datas=None):
+    """A sitemap index (BH-1): sitemap.xml lists sitemaps/<league>.xml and sitemaps/site.xml,
+    each under 45,000 URLs. Pages carrying a noindex robots tag and the /wcbb/ redirect stubs
+    stay out; <lastmod> comes from the data where the page has a natural date."""
+    from xml.sax.saxutils import escape
+    lm = _lastmods(datas or {})
+    groups = {}
     for root, _, files in os.walk(OUT):
-        for f in files:
-            if f == "index.html":
-                rel = os.path.relpath(root, OUT).replace(os.sep, "/")
-                urls.append("/" if rel == "." else f"/{rel}/")
-    urls.sort()
-    body = "".join(f"<url><loc>{SITE_URL}{u}</loc></url>" for u in urls)
-    write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>')
+        if "index.html" not in files:
+            continue
+        rel = os.path.relpath(root, OUT).replace(os.sep, "/")
+        u = "/" if rel == "." else f"/{rel}/"
+        if u.startswith("/wcbb/") or _is_noindex(os.path.join(root, "index.html")):
+            continue
+        first = u.strip("/").split("/")[0]
+        key = first if any(lg["key"] == first for lg in LIVE) else "site"
+        groups.setdefault(key, []).append(u)
+    today = date.today().isoformat()
+    index = []
+    for key in sorted(groups):
+        urls = sorted(groups[key])
+        for part in range(0, len(urls), SITEMAP_MAX):
+            chunk = urls[part:part + SITEMAP_MAX]
+            name = key if part == 0 else f"{key}-{part // SITEMAP_MAX + 1}"
+            body = "".join(f"<url><loc>{escape(SITE_URL + u)}</loc>" + (f"<lastmod>{lm[u]}</lastmod>" if u in lm else "") + "</url>"
+                           for u in chunk)
+            write(f"sitemaps/{name}.xml", '<?xml version="1.0" encoding="UTF-8"?>'
+                  f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>')
+            newest = max((lm[u] for u in chunk if u in lm), default=today)
+            index.append(f"<sitemap><loc>{escape(SITE_URL)}/sitemaps/{name}.xml</loc><lastmod>{newest}</lastmod></sitemap>")
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>'
+          f'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{"".join(index)}</sitemapindex>')
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
     write("CNAME", "beltholders.com\n")
     if ADSENSE_PUBLISHER_ID:
@@ -883,7 +942,7 @@ def main():
     build_api(datas)
     build_feed(datas)
     build_meta_files(datas)
-    build_sitemap()
+    build_sitemap(datas)
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"Built {n} files into {OUT}/")
