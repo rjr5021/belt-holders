@@ -392,15 +392,26 @@ def _cfl_era(c, season):
     return None
 
 
-CFL = make("cfl", "CFL", "The CFL Belt", "Canadian football", 1958, teams=CFL_TEAMS, display=CFL_NAMES, era=_cfl_era,
-           gap_days=330, label=lambda y: str(y), unit="teams", post_word="Grey Cup playoffs",
-           rules=("<p><b>CFL.</b> The belt starts with the Canadian Football League's first season, 1958, and counts every "
-                  "regular-season and playoff game, including the Grey Cup. A tie is a successful defense. Teams that folded "
-                  "or moved (the Rough Riders, Renegades and the 1990s U.S. teams) vacate the belt to the most recent "
-                  "earlier holder still playing.</p>"),
-           sources=('CFL results come from the schedule tables on Wikipedia\'s team-season articles '
-                    '(<a href="https://en.wikipedia.org/wiki/List_of_Canadian_Football_League_seasons">list of CFL seasons</a>), '
-                    'used under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; every game is '
+# Wikipedia's CFL team-season pages are complete enough to follow every game from CFL_START on; before
+# that too many teams have no page. The belt opens with the previous Grey Cup, so the reigning champion
+# carries it into CFL_START.
+CFL_START = 1999
+
+
+def _cfl_keep(c, x):
+    s = int(x.get("season") or 0)
+    return s >= CFL_START or (s == CFL_START - 1 and x.get("note") == "Grey Cup")
+
+
+CFL = make("cfl", "CFL", "The CFL Belt", "Canadian football", CFL_START - 1, teams=CFL_TEAMS, display=CFL_NAMES, era=_cfl_era,
+           keep=_cfl_keep, gap_days=330, label=lambda y: str(y), unit="teams", post_word="Grey Cup playoffs",
+           rules=(f"<p><b>CFL.</b> The belt starts with the {CFL_START - 1} Grey Cup: the champion carries it into the "
+                  f"{CFL_START} season, and it counts every regular-season and playoff game since, including the Grey Cup. "
+                  "A tie is a successful defense. Teams that folded or moved (the Rough Riders, Renegades and the 1990s U.S. "
+                  "teams) vacate the belt to the most recent earlier holder still playing.</p>"),
+           sources=('CFL results come from the schedule tables on Wikipedia\'s team-season articles and the playoff brackets on '
+                    'its season articles (<a href="https://en.wikipedia.org/wiki/List_of_Canadian_Football_League_seasons">list of CFL seasons</a>), '
+                    'used under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; each game is '
                     'checked against both teams\' pages.'))
 
 
