@@ -776,6 +776,58 @@ def _cfl_team_pages(y):
     return sorted(by_team.values())
 
 
+def _cfl_bracket(y):
+    """Playoff games from the bracket template on the "<year> CFL season" page:
+    [(date, home, away, home_points, away_points, grey_cup)]. The better seed hosts;
+    the last round is the Grey Cup, at a neutral site."""
+    j = _wiki({"action": "parse", "page": f"{y} CFL season", "prop": "wikitext", "redirects": 1})
+    wt = ((j.get("parse") or {}).get("wikitext")) or ""
+    m = re.search(r"\{\{\s*\d+TeamBracket.*?\n\}\}", wt, re.S)
+    if not m:
+        return []
+    body = m.group(0)
+
+    def clean(v):
+        v = re.sub(r"\{\{\s*nowrap\s*\|(.*?)\}\}", r"\1", v)
+        v = v.replace("'''", "").replace("''", "")
+        v = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", v)
+        return v.strip()
+
+    labels, cells = {}, defaultdict(dict)
+    for line in body.split("\n"):
+        m1 = re.match(r"\s*\|\s*RD(\d+)\s*=\s*(.*)$", line)
+        if m1:
+            labels[int(m1.group(1))] = m1.group(2)
+            continue
+        m2 = re.match(r"\s*\|\s*RD(\d+)-(seed|team|score)(\d+)\s*=\s*(.*)$", line)
+        if m2:
+            rd, what, n, v = int(m2.group(1)), m2.group(2), int(m2.group(3)), clean(m2.group(4))
+            cells[(rd, (n + 1) // 2)][(what, n % 2)] = v
+    last = max([k[0] for k in cells] or [0])
+    out = []
+    for (rd, _), c in sorted(cells.items()):
+        try:
+            t1, t2 = c[("team", 1)], c[("team", 0)]
+            s1, s2 = int(re.sub(r"\D", "", c[("score", 1)])), int(re.sub(r"\D", "", c[("score", 0)]))
+        except (KeyError, ValueError):
+            continue
+        a, b = cfl_code(t1, y), cfl_code(t2, y)
+        dm = _DATE.search(labels.get(rd, ""))
+        if not (a and b and dm):
+            continue
+        try:
+            d = date(y, MONTHS[dm.group(1).lower()[:3]], int(dm.group(2)))
+        except ValueError:
+            continue
+
+        def seed(k):
+            return int(re.sub(r"\D", "", c.get(("seed", k), "")) or 9)
+        if seed(0) < seed(1):
+            a, b, s1, s2 = b, a, s2, s1
+        out.append((d.isoformat(), a, b, s1, s2, rd == last))
+    return out
+
+
 def _cols(rows):
     """(index of first data row, {role: column}) from a table's header rows."""
     head, i = [], 0
@@ -891,7 +943,7 @@ def _cfl_page_games(title, y):
     return done, up
 
 
-CFL_PARSER = 3          # bump to re-read every season after a parser change
+CFL_PARSER = 4          # bump to re-read every season after a parser change
 
 
 def update_cfl():
@@ -958,6 +1010,30 @@ def update_cfl():
                           "neutral": "1" if g["neutral"] or (mate and mate["neutral"]) else "",
                           "note": "Grey Cup" if g["neutral"] or (mate and mate["neutral"]) else "",
                           "source": "wikipedia" if mate else "wikipedia-1side"})
+        # a game one page lists twice, or with a different date: drop the unpaired copy
+        def near(a, b, days):
+            return abs((date.fromisoformat(a) - date.fromisoformat(b)).days) <= days
+        keep = []
+        for g in games:
+            dup = g["source"] == "wikipedia-1side" and any(
+                h is not g and {h["home"], h["away"]} == {g["home"], g["away"]} and near(h["date"], g["date"], 5)
+                and sorted((h["home_points"], h["away_points"])) == sorted((g["home_points"], g["away_points"]))
+                and (h["source"] == "wikipedia" or any(k is h for k in keep)) for h in games)
+            if not dup:
+                keep.append(g)
+        games = keep
+        # playoff games missing from the team pages, from the season page's bracket
+        added = 0
+        for d, hc, ac, hp, ap, grey in _cfl_bracket(y):
+            if any({g["home"], g["away"]} == {hc, ac} and g["season_type"] == "postseason" and near(g["date"], d, 10)
+                   for g in games):
+                continue
+            games.append({"id": f"cfl-{d}-{hc}-{ac}", "date": d, "season": y, "season_type": "postseason",
+                          "home": hc, "away": ac, "home_points": hp, "away_points": ap, "neutral": "1" if grey else "",
+                          "note": "Grey Cup" if grey else "", "source": "wikipedia-bracket"})
+            added += 1
+        if added:
+            print(f"  CFL {y}: {added} playoff games from the bracket")
         one = sum(1 for g in games if g["source"] == "wikipedia-1side")
         print(f"  CFL {y}: {len(pages)} team pages, {len(games)} games ({one} from one page only, {disagree} score disagreements)")
         rows += games
