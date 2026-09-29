@@ -16,6 +16,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.request
 
 OUT = os.path.join("data", "nhl", "box", "belt_box.json")
@@ -25,16 +26,25 @@ DEADLINE = time.time() + 60 * float(os.environ.get("BOX_MINUTES", "25"))   # sto
 ORDER = ["G", "A", "PTS", "PM", "PIM", "SOG", "HIT", "SV", "SA"]
 
 
+UA = {"User-Agent": "Mozilla/5.0 (compatible; beltholders.com box scores; +https://beltholders.com/about/)",
+      "Accept": "application/json"}
+ERRORS = []
+
+
 def get(url, tries=3):
+    # BH-15: the NHL API turns away Python's default user agent, so every request in CI failed
+    # quietly and nothing was ever saved. Send a real UA and keep the last error for the log.
     for i in range(tries):
         try:
-            with urllib.request.urlopen(url, timeout=30) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
+            ERRORS.append(f"HTTP {e.code}")
             time.sleep(2 * (i + 1))
-        except Exception:  # noqa: BLE001
+        except Exception as e:  # noqa: BLE001
+            ERRORS.append(type(e).__name__ + ": " + str(e)[:80])
             time.sleep(2 * (i + 1))
     return False          # couldn't reach it (not a 404): try again next run
 
@@ -69,7 +79,7 @@ def main():
     games = box_store.load_all("nhl")
     todo = [bg for bg in reversed(d["belt_games"]) if str(bg["n"]) not in games and str(bg.get("game_id", "")).isdigit()]
     print(f"{len(games):,} on file, {len(todo):,} to fetch; this run: up to {MAX_PER_RUN}")
-    got = 0
+    got = failed = 0
     season_of = {str(bg["n"]): bg["season"] for bg in d["belt_games"]}
     meta = {"source": "https://api-web.nhle.com", "cols": ORDER}
     for i, bg in enumerate(todo[:MAX_PER_RUN]):
@@ -81,6 +91,7 @@ def main():
         gid = bg["game_id"]
         j = get(URL.format(gid=gid))
         if j is False:
+            failed += 1
             continue
         pbg = (j or {}).get("playerByGameStats") or {}
         players = rows(pbg.get("homeTeam") or {}, "h") + rows(pbg.get("awayTeam") or {}, "a")
@@ -91,6 +102,11 @@ def main():
     with_players = [int(k) for k, v in games.items() if v["players"]]
     print(f"fetched this run (with players: {got}); {len(with_players):,} belt games have box scores"
           + (f"; earliest belt game with one: #{min(with_players)}" if with_players else ""))
+    if failed:
+        print(f"{failed} requests failed; last errors: {sorted(set(ERRORS[-20:]))}")
+    if failed and not got and todo:
+        print("::error::NHL box scores: every request failed this run (see errors above)")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
