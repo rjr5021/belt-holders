@@ -1,0 +1,21 @@
+{
+ "key": "TOR|BC|2026-10-03",
+ "updated": "2026-09-29T02:01Z",
+ "start_utc": null,
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "The Toronto Argonauts put their lineal championship belt on the line for the first time in this reign when they host the BC Lions on October 3rd. Toronto arrives riding a four-game winning streak and a 9-6 record, while BC has won their last two to improve to 8-6. The belt will change hands with a Lions victory, but a Toronto win extends their inaugural reign as belt holder.",
+  "key_matchups": [
+   "Toronto's four-game win streak versus BC's recent momentum after back-to-back victories",
+   "Can the Lions reverse their recent history against Toronto, having lost four of the last five meetings including a 12-26 defeat earlier this season?",
+   "Toronto's ability to win close games, with three of their last four decided by seven points or fewer"
+  ],
+  "betting_angles": "Toronto has won four straight while BC has won two in a row, but the Argos hold a decisive edge in recent head-to-head meetings at 4-1 over the last five. The Elo model rates this nearly a toss-up at 51% for the home side, reflecting both teams' solid form. Toronto's recent games have been tightly contested, with their last win a narrow 30-28 squeaker, while BC has shown more offensive firepower with 48 and 31 points in their last two outings.",
+  "predicted_winner": "Toronto Argonauts",
+  "predicted_score": "Toronto Argonauts 28, BC Lions 24",
+  "prediction_writeup": "Toronto gets the nod to defend the belt in their first attempt, primarily on the strength of their four-game winning streak and home field advantage. The Argonauts have dominated this matchup recently, winning four of the last five including a comfortable 26-12 victory earlier this season. While BC's offense has been explosive lately, Toronto has proven capable of winning tight games, taking three of their last four by a touchdown or less. The near-even Elo projection suggests this will be close, but the Argonauts' current form and home venue give them the edge to keep the belt.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}

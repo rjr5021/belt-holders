@@ -1,0 +1,18 @@
+{
+ "WPG|TOR|2026-09-25": {
+  "date": "2026-09-25",
+  "holder": "WPG",
+  "opponent": "TOR",
+  "outcome": "changed",
+  "headline": "Argonauts Edge Bombers 30-28, Claim CFL Lineal Championship Belt",
+  "recap": [
+   "The Toronto Argonauts captured the CFL lineal championship belt with a thrilling 30-28 victory over the Winnipeg Blue Bombers on the road. The two-point margin proved just enough for Toronto to emerge victorious in a tightly contested battle.",
+   "With the belt on the line, the Argonauts rose to the occasion and dethroned Winnipeg as the lineal champions. Toronto now carries the belt forward as the new holder, having earned it by defeating the previous champion.",
+   "The Argonauts will look to defend their newly won lineal championship in their next outing, while the Blue Bombers will need to work their way back into belt contention by winning games and waiting for another opportunity to reclaim it."
+  ],
+  "leaders": [],
+  "linescore": [],
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}
