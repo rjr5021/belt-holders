@@ -45,7 +45,7 @@ team names and colors, and add its `LEAGUE` dict to `LIVE` in `leagues.py`
 ## Site budget
 
 GitHub Pages refuses a published site over 1 GB and times out deployments after 10 minutes.
-`deploy.yml` fails the build when `site/` passes 900 MB on disk (the "Site size guard" step
+`deploy.yml` fails the build when `site/` passes 900 MB (apparent size, the bytes Pages counts; the "Site size guard" step
 prints the size in each run's summary). The levers, all in `features.py` (shared with the
 College Basketball Belt repo):
 
