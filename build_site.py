@@ -130,7 +130,12 @@ LOGO = ('<svg width="40" height="24" viewBox="0 0 40 24" fill="none" aria-hidden
         '<path d="M20 7 L21.4 10.6 L25 10.8 L22.2 13 L23.2 16.6 L20 14.6 L16.8 16.6 L17.8 13 L15 10.8 L18.6 10.6 Z" fill="#a97f38"/></svg>')
 
 
-def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None):
+NOINDEX = set()      # paths written with a noindex robots tag; build_sitemap leaves them out (BH-1)
+
+
+def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None, robots=None):
+    if robots and "noindex" in robots:
+        NOINDEX.add(path)
     nav = []
     for key in PRIMARY:
         live = any(lg["key"] == key for lg in LIVE)
@@ -161,7 +166,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(description)}">
-<link rel="canonical" href="{canonical}">
+{f'<meta name="robots" content="{robots}">' + chr(10) if robots else ""}<link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Belt Holders">
 <meta property="og:title" content="{e(full_title)}">
@@ -637,6 +642,7 @@ def build_records(lg, d):
 
 
 def build_teams(lg, d):
+    import site_extras
     key = lg["key"]
     by = {}
     for r in d["reigns"]:
@@ -653,9 +659,10 @@ def build_teams(lg, d):
 <section class="wrap block">
   <div class="head"><h1 class="disp">Every franchise that has held the {lg['name']} belt</h1><span class="mono note">{len(by)} franchises · sorted by days held</span></div>
   <div class="teamgrid">{"".join(cards)}</div>
-</section>"""
+</section>
+{site_extras.challengers_section(lg, d)}"""
     write(f"{key}/teams/index.html", page(f"{lg['name']} belt: every team", body, path=f"/{key}/teams/", active=key,
-                                          description=f"Every franchise that has held the lineal {lg['name']} championship belt."))
+                                          description=f"Every franchise that has held the lineal {lg['name']} championship belt, and every one still waiting for it."))
 
 
 def build_team(lg, d, team, rs):
