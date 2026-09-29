@@ -219,6 +219,8 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
   <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
   <div class="links"><a href="/privacy/">Privacy</a><a href="mailto:hello@beltholders.com">Contact</a><a href="/feed.xml">RSS</a><a href="/embed/">Embed a badge</a><span>Not affiliated with any league or team.</span></div>
 </footer>
+<script src="/network-bar.js" defer></script>
+<script>if("serviceWorker" in navigator)addEventListener("load",function(e){{navigator.serviceWorker.register("/sw.js").catch(Boolean);}});</script>
 </body>
 </html>
 """
@@ -952,8 +954,16 @@ def build_meta_files(datas):
                                                  {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}]}, indent=1))
 
 
+def build_offline():
+    """/offline.html for the service worker (sw.js)."""
+    body = """<section class="wrap prose"><div class="kicker">Offline</div><h1 class="disp">No connection</h1>
+<p>You're offline, and this page isn't saved on this device yet. Pages you've already opened still work; the belts will be back when you are.</p>
+<p><a href="/">Back to every belt →</a></p></section>"""
+    write("offline.html", page("You're offline", body, path="/offline.html", description="You're offline.", robots="noindex"))
+
+
 def copy_assets():
-    for f in ("styles.css", "favicon.png", "favicon.ico", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
+    for f in ("sw.js",) + ("styles.css", "favicon.png", "favicon.ico", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
 
 
@@ -991,6 +1001,8 @@ def main():
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"Built {n} files into {OUT}/")
+    import indexnow
+    indexnow.write(OUT)
 
 
 if __name__ == "__main__":
