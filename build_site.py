@@ -828,6 +828,10 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
     datas = {}
+    missing = [lg["key"] for lg in LIVE if not os.path.exists(os.path.join("data", lg["key"], "lineage.json"))]
+    if missing:
+        print("no lineage yet, skipping:", missing)
+        LIVE[:] = [lg for lg in LIVE if lg["key"] not in missing]
     for lg in LIVE:
         with open(os.path.join("data", lg["key"], "lineage.json")) as f:
             datas[lg["key"]] = json.load(f)

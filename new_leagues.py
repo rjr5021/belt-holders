@@ -779,7 +779,10 @@ def _cfl_team_pages(y):
 def _cols(rows):
     """(index of first data row, {role: column}) from a table's header rows."""
     head, i = [], 0
-    while i < len(rows) and rows[i] and all(th for _, th in rows[i]):
+    def is_head(r):
+        low = [txt.lower() for txt, _ in r]
+        return all(th for _, th in r) or (any("opponent" in x for x in low) and any("date" in x for x in low))
+    while i < len(rows) and rows[i] and is_head(rows[i]):
         head.append(rows[i])
         i += 1
     labels = defaultdict(str)
@@ -888,7 +891,7 @@ def _cfl_page_games(title, y):
     return done, up
 
 
-CFL_PARSER = 2          # bump to re-read every season after a parser change
+CFL_PARSER = 3          # bump to re-read every season after a parser change
 
 
 def update_cfl():
@@ -912,30 +915,39 @@ def update_cfl():
             if d:
                 sides += d
             ups += u
-        # pair the two sides of each game (same teams, dates within a day)
-        games, used = [], set()
+        # pair the two sides of each game: same teams with dates within a day; then, for what's
+        # left, same teams and the same final score within five days (one page has the date wrong)
+        games, used, mates = [], set(), {}
         by_pair = defaultdict(list)
         for i, g in enumerate(sides):
             by_pair[frozenset((g["team"], g["opp"]))].append(i)
+        for window, need_score in ((1, False), (5, True)):
+            for i, g in enumerate(sides):
+                if i in used:
+                    continue
+                for j2 in by_pair[frozenset((g["team"], g["opp"]))]:
+                    h = sides[j2]
+                    if j2 == i or j2 in used or h["team"] != g["opp"]:
+                        continue
+                    if abs((date.fromisoformat(h["date"]) - date.fromisoformat(g["date"])).days) > window:
+                        continue
+                    if need_score and sorted((h["us"], h["them"])) != sorted((g["us"], g["them"])):
+                        continue
+                    used.update((i, j2))
+                    mates[i] = j2
+                    break
         disagree = 0
         for i, g in enumerate(sides):
-            if i in used:
+            if i in mates.values():
                 continue
-            used.add(i)
-            mate = None
-            for j2 in by_pair[frozenset((g["team"], g["opp"]))]:
-                h = sides[j2]
-                if j2 in used or h["team"] != g["opp"]:
-                    continue
-                if abs((date.fromisoformat(h["date"]) - date.fromisoformat(g["date"])).days) <= 1:
-                    mate = h
-                    used.add(j2)
-                    break
+            mate = sides[mates[i]] if i in mates else None
             if mate and (mate["us"], mate["them"]) != (g["them"], g["us"]):
                 disagree += 1
                 print(f"  CFL {y}: score differs {g['date']} {g['team']} {g['us']}-{g['them']} {g['opp']} vs "
                       f"{mate['team']} page {mate['us']}-{mate['them']}")
             g_home = g["home"] if g["home"] is not None else (not mate["home"]) if mate and mate["home"] is not None else True
+            if mate and mate["date"] != g["date"] and not g_home:
+                g = {**g, "date": mate["date"]}          # take the home team's page for the date
             if g_home:
                 h_code, a_code, hp, ap = g["team"], g["opp"], g["us"], g["them"]
             else:
@@ -944,7 +956,8 @@ def update_cfl():
                           "season_type": "postseason" if (g["post"] or (mate and mate["post"])) else "regular",
                           "home": h_code, "away": a_code, "home_points": hp, "away_points": ap,
                           "neutral": "1" if g["neutral"] or (mate and mate["neutral"]) else "",
-                          "note": "Grey Cup" if g["neutral"] else "", "source": "wikipedia" if mate else "wikipedia-1side"})
+                          "note": "Grey Cup" if g["neutral"] or (mate and mate["neutral"]) else "",
+                          "source": "wikipedia" if mate else "wikipedia-1side"})
         one = sum(1 for g in games if g["source"] == "wikipedia-1side")
         print(f"  CFL {y}: {len(pages)} team pages, {len(games)} games ({one} from one page only, {disagree} score disagreements)")
         rows += games
