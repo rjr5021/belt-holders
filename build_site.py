@@ -31,6 +31,7 @@ from leagues import COMING, GROUPS, LIVE, ORDER, PRIMARY
 SITE_URL = "https://beltholders.com"
 SITE_NAME = "Belt Holders"
 OUT = "site"
+OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
 STYLES_VERSION = "6"
@@ -206,7 +207,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
             if GOATCOUNTER_CODE else "")
     if path == "/":
         # BH-16/CBB-8/NET-4: Organization + WebSite (with the site search) on the homepage, sameAs the network
-        site_ld = [{"@type": "Organization", "@id": SITE_URL + "/#org", "name": 'Belt Holders', "url": SITE_URL + "/",
+        site_ld = [{"@type": "Organization", "@id": SITE_URL + "/#org", "name": OWNER, "alternateName": 'Belt Holders', "url": SITE_URL + "/",
                     "logo": SITE_URL + "/icon-512.png", "sameAs": ['https://x.com/thebeltholders', 'https://www.instagram.com/thebeltholders', 'https://collegefootballbelt.com', 'https://collegebasketballbelt.com']},
                    {"@type": "WebSite", "@id": SITE_URL + "/#site", "name": 'Belt Holders', "url": SITE_URL + "/", "publisher": {"@id": SITE_URL + "/#org"},
                     "potentialAction": {"@type": "SearchAction", "target": SITE_URL + "/search/?q={query}", "query-input": "required name=query"}}]
@@ -258,6 +259,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
   <div class="belt-network" data-belt-network data-site="bh"><span class="nk">The belt network</span><a href="https://collegefootballbelt.com/"><b>College football</b></a><a href="https://collegebasketballbelt.com/"><b>Men's college hoops</b></a><a href="https://collegebasketballbelt.com/women/"><b>Women's college hoops</b></a><a class="all" href="/all/">Every belt →</a></div>
   <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://x.com/CollegeFBBelt">@CollegeFBBelt</a><a href="https://x.com/CollegeBBBelt">@CollegeBBBelt</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
   <div class="links"><a href="/privacy/">Privacy</a><a href="mailto:hello@beltholders.com">Contact</a><a href="/feed.xml">RSS</a><a href="/embed/">Embed a badge</a><span>Not affiliated with any league or team.</span></div>
+  <div class="links"><span>&copy; {date.today().year} R&amp;O Holdings LLC. All rights reserved.</span></div>
 </footer>
 <script src="/network-bar.js" defer></script>
 <script>if("serviceWorker" in navigator)addEventListener("load",function(e){{navigator.serviceWorker.register("/sw.js").catch(Boolean);}});</script>
@@ -865,7 +867,7 @@ def build_static_pages(datas):
 <div class="kicker">About</div>
 <h1 class="disp">About Belt Holders</h1>
 <p>Belt Holders tracks the lineal championship belt in professional sports: one title per league, passed from team to team only by beating whoever holds it. It's a companion to the <a href="https://collegefootballbelt.com">College Football Belt</a>, which has tracked the same idea in college football since 1869, and the <a href="https://collegebasketballbelt.com">College Basketball Belt</a>.</p>
-<p>The site is independent and fan-run. It isn't affiliated with the NFL, NBA, NHL, MLB, or any team. Team names are used only to identify the teams.</p>
+<p>beltholders.com is operated by R&amp;O Holdings LLC. The site is independent and fan-run. It isn't affiliated with the NFL, NBA, NHL, MLB, or any team. Team names are used only to identify the teams.</p>
 <p>Spot something wrong? Email <a href="mailto:hello@beltholders.com">hello@beltholders.com</a> or find us at <a href="https://x.com/thebeltholders">@thebeltholders</a>.</p>
 </section>"""
     write("about/index.html", page("About", about, path="/about/", active="about",
@@ -884,7 +886,7 @@ def build_static_pages(datas):
 <h2 class="disp">Advertising</h2>
 {ads_text}
 <h2 class="disp">Contact</h2>
-<p><a href="mailto:hello@beltholders.com">hello@beltholders.com</a></p>
+<p>beltholders.com is operated by {e(OWNER)}. Questions about this policy: <a href="mailto:hello@beltholders.com">hello@beltholders.com</a></p>
 </section>"""
     write("privacy/index.html", page("Privacy", privacy, path="/privacy/", description="Belt Holders privacy policy."))
     notfound = """<section class="wrap prose"><div class="kicker">404</div><h1 class="disp">That page lost the belt</h1><p>It's not here anymore. Try the <a href="/">homepage</a> or the <a href="/nfl/">NFL belt</a>.</p></section>"""
