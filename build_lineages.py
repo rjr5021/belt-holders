@@ -94,7 +94,10 @@ def build(league, refresh=True, today=None):
     X.annotate(league, games, belt_games, reigns)
     records.update(X.extra_records(league, belt_games, reigns, recent, today))
     # --- models: Elo, chance to defend, belt tree, outlook, champions, Losers Belt
-    ratings, hfa = M.elo(league["key"], games)
+    # A league whose early years list only the belt holder's games (the hand-built women's
+    # college line) sets full_from: the models that need every team's games start there.
+    full = [g for g in games if g["date"] >= league.get("full_from", "")]
+    ratings, hfa = M.elo(league["key"], full)
     fut = [g for g in upcoming if g["date"] >= today]
     tree = M.belt_tree(holder, fut, ratings, hfa, 4, today) if fut else None
     reg = [g for g in fut if g.get("season_type", "regular") == "regular"]
@@ -107,19 +110,19 @@ def build(league, refresh=True, today=None):
     models = {
         "elo": {t: round(v) for t, v in ratings.items() if t in recent},
         "elo_rank": top_elo, "hfa": hfa, "tree": tree, "outlook": look,
-        "standings": M.standings(games, reigns),
+        "standings": M.standings(full, reigns),
         "champions": M.champions(games, reigns),
         "schedule": [[g["date"], g["home"], g["away"], g.get("kickoff") or g.get("start_et"), g.get("season_type", "regular"),
                       round(M.win_prob(ratings, hfa, g["home"], g["away"], g.get("neutral"), holder=holder), 3)]
                      for g in fut if holder in (g["home"], g["away"])][:40],
         "meet": {t: [g["date"], g["home"]] for g in reversed(fut) if holder in (g["home"], g["away"])
                  for t in [g["away"] if g["home"] == holder else g["home"]]},
-        "what_if": M.what_if(league["key"], games, belt_games, reigns, league["tie_rule"], recent, today,
+        "what_if": M.what_if(league["key"], full, [bg for bg in belt_games if bg["date"] >= league.get("full_from", "")], reigns, league["tie_rule"], recent, today,
                               league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
         "groups": {k: {"label": lab, **gb} for k, (lab, pred) in M.pro_groups(league["key"]).items()
-                   for gb in [M.group_belt(games, pred, league["tie_rule"], recent, today,
+                   for gb in [M.group_belt(full, pred, league["tie_rule"], recent, today,
                                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS), fut)] if gb},
-        "losers": M.losers(league["key"], games, league["tie_rule"], recent, today,
+        "losers": M.losers(league["key"], full, league["tie_rule"], recent, today,
                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
     }
     out = {

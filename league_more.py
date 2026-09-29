@@ -351,18 +351,36 @@ def _wcbb_keep(c, x):
     if s and int(s) >= last and got < 12:
         # the season underway: judge by last completed season too
         got = max(got, _WCBB_COUNTS.get((str(c), str(int(s) - 1)), 0), _WCBB_COUNTS.get((str(c), str(last)), 0))
-    return got >= 12 or x.get("source") == "seed"
+    # the hand-built 1986-2002 chain lists only the holder's games, every one of them against a D-I team
+    return got >= 12 or x.get("source") in ("seed", "hist")
 
 
-WCBB = make("wcbb", "NCAAW", "The Women's College Basketball Belt", "Basketball", 2001, teams=_wcbb_colors,
-            names_file="names.json", keep=_wcbb_keep, gap_days=400, time_word="Tip-off", unit="teams",
+def _wcbb_era(c, season):
+    """Names the 1986-2002 chain's teams went by then (ESPN's files from 2002 on use today's names)."""
+    if int(season) > 2001:
+        return None
+    return {"2433": "Northeast Louisiana", "309": "Southwestern Louisiana", "2623": "Southwest Missouri State",
+            "292": "Texas-Pan American", "2031": "Arkansas-Little Rock"}.get(str(c))
+
+
+WCBB = make("wcbb", "NCAAW", "The Women's College Basketball Belt", "Basketball", 1985, teams=_wcbb_colors,
+            names_file="names.json", keep=_wcbb_keep, era=_wcbb_era, gap_days=400, time_word="Tip-off", unit="teams",
             post_word="NCAA tournament",
-            rules=("<p><b>Women's college basketball.</b> The belt starts with the reigning national champion: UConn, "
-                   "which beat Oklahoma 82–70 in the 2002 NCAA final, carries it into the 2002–03 season. It counts every "
-                   "game between Division I teams, including conference tournaments and the NCAA tournament. "
-                   "Overtime wins count as wins.</p>"),
-            sources=('Women\'s college basketball results come from ESPN, via the <a href="https://github.com/sportsdataverse/wehoop">'
-                     'wehoop</a> project (sportsdataverse, CC BY 4.0).'))
+            rules=("<p><b>Women's college basketball.</b> The belt starts with the reigning national champion: Texas, "
+                   "which finished 34–0 by beating USC 97–81 in the 1986 NCAA final, carries it into the 1986–87 season. "
+                   "It counts every game between Division I teams, including conference tournaments and the NCAA "
+                   "tournament. Overtime wins count as wins.</p>"
+                   "<p>The line from 1986–87 through the 2002 final (UConn 82, Oklahoma 70) was traced game by game from "
+                   "school media guides and record books, box scores and student newspapers. It lists every game the "
+                   "holder played; four wins whose scores haven't turned up yet (Arizona State over Oregon and Oregon "
+                   "State in February 1992, Creighton over Bradley and Northern Iowa in January 1994) are left out, which "
+                   "doesn't change who held the belt.</p>"),
+            sources=('Women\'s college basketball results from 2002–03 on come from ESPN, via the '
+                     '<a href="https://github.com/sportsdataverse/wehoop">wehoop</a> project (sportsdataverse, CC BY 4.0). '
+                     'The 1986–2002 belt line was compiled from schools\' published media guides, record books and box '
+                     'scores (Louisiana Tech, Tennessee, Virginia, USC, North Carolina, Stanford and many more), '
+                     'The Stanford Daily archives and other student newspapers, and Wikipedia season pages.'))
+WCBB["full_from"] = "2002-11-01"     # before this only the belt holder's games are listed
 
 # -------------------------------------------------------------------- CFL
 CFL_TEAMS = {"BC": ("#f15a24", "#111111", "Lions"), "CGY": ("#c8102e", "#111111", "Stampeders"), "EDM": ("#2b5134", "#f2b21b", "Edmonton"),

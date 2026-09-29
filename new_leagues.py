@@ -531,8 +531,8 @@ def update_nwsl():
 # ============================================== Women's college basketball ==
 
 def update_wcbb():
-    """ESPN (via sportsdataverse wehoop) from 2002-03. The belt starts with the reigning
-    champion: UConn beat Oklahoma 82-70 in the 2002 NCAA final, so that game opens the file."""
+    """ESPN (via sportsdataverse wehoop) from 2002-03, after the hand-built 1986-2002 belt line in
+    data/wcbb/hist_1986_2002.csv (it opens with Texas's win in the 1986 NCAA final)."""
     today = today_et()
     rows = read_existing("wcbb")
     cur = today.year + 1 if today.month >= 8 else today.year        # season 2027 = 2026-27
@@ -576,11 +576,16 @@ def update_wcbb():
                         "neutral": "1" if str(r.get("neutral_site")).upper() == "TRUE" else "", "note": "", "source": "espn"})
             n += 1
         print(f"  WBB {y - 1}-{str(y)[2:]}: {n} games")
-    if not rows:
-        got.append({"id": "seed-2002", "date": "2002-03-31", "season": 2001, "season_type": "postseason",
-                    "home": "41", "away": "201", "home_name": "UConn", "away_name": "Oklahoma",
-                    "home_points": 82, "away_points": 70, "neutral": "1", "note": "2002 NCAA final", "source": "seed"})
-    rows = keep + got
+    # the hand-built 1986-2002 belt line (seed: the 1986 NCAA final) lives in its own file and is
+    # always carried into games.csv, which ESPN's files only cover from 2002-03 on
+    hist = []
+    hpath = os.path.join("data", "wcbb", "hist_1986_2002.csv")
+    if os.path.exists(hpath):
+        with open(hpath, newline="", encoding="utf-8") as f:
+            hist = list(csv.DictReader(f))
+    hist_ids = {r["id"] for r in hist}
+    keep = [r for r in keep if r["id"] not in hist_ids and r["id"] != "seed-2002"]
+    rows = hist + keep + got
     done, up = espn_range("basketball/womens-college-basketball", today - timedelta(days=3), today + timedelta(days=30), groups="50")
     for r in done + up:
         r["season"] = today.year if today.month >= 8 else today.year - 1
