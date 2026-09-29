@@ -140,34 +140,6 @@
   "if_necessary": true
  },
  {
-  "id": "2026-10-03-1-849829",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m114",
-  "away": "m5528",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
-  "venue": "Progressive Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
-  "id": "2026-10-03-1-849835",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m139",
-  "away": "m5529",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
-  "venue": "Tropicana Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-03-1-849830",
   "date": "2026-10-03",
   "season": 2026,
@@ -196,6 +168,34 @@
   "if_necessary": false
  },
  {
+  "id": "2026-10-03-1-849829",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m114",
+  "away": "m5528",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "13:00",
+  "venue": "Progressive Field",
+  "series": "AL Division Series",
+  "if_necessary": false
+ },
+ {
+  "id": "2026-10-03-1-849835",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m139",
+  "away": "m5529",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "18:30",
+  "venue": "Tropicana Field",
+  "series": "AL Division Series",
+  "if_necessary": false
+ },
+ {
   "id": "2026-10-04-1-849825",
   "date": "2026-10-04",
   "season": 2026,
@@ -204,7 +204,7 @@
   "away": "m5533",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "16:00",
   "venue": "American Family Field",
   "series": "NL Division Series",
   "if_necessary": false
@@ -218,7 +218,7 @@
   "away": "m5532",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "UNIQLO Field at Dodger Stadium",
   "series": "NL Division Series",
   "if_necessary": false
@@ -232,7 +232,7 @@
   "away": "m5528",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "17:00",
   "venue": "Progressive Field",
   "series": "AL Division Series",
   "if_necessary": false
@@ -246,7 +246,7 @@
   "away": "m5529",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Tropicana Field",
   "series": "AL Division Series",
   "if_necessary": false
