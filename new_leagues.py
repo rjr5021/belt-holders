@@ -629,7 +629,7 @@ def cfl_code(name, season):
              ("shreveport", "SHR"), ("pirates", "SHR"), ("birmingham", "BIR"), ("barracudas", "BIR"),
              ("memphis", "MEM"), ("mad dogs", "MEM")]
     for k, c in table:
-        if k in n + " ":
+        if re.search(r"(?<![a-z])" + re.escape(k.strip()) + r"(?![a-z])", n):
             return c
     if n.strip() in ("bc",):
         return "BC"
@@ -943,7 +943,7 @@ def _cfl_page_games(title, y):
     return done, up
 
 
-CFL_PARSER = 4          # bump to re-read every season after a parser change
+CFL_PARSER = 5          # bump to re-read every season after a parser change
 
 
 def update_cfl():
@@ -965,7 +965,7 @@ def update_cfl():
         for t in pages:
             d, u = _cfl_page_games(t, y)
             if d:
-                sides += d
+                sides += [{**g, "page": t} for g in d]
             ups += u
         # pair the two sides of each game: same teams with dates within a day; then, for what's
         # left, same teams and the same final score within five days (one page has the date wrong)
@@ -973,7 +973,11 @@ def update_cfl():
         by_pair = defaultdict(list)
         for i, g in enumerate(sides):
             by_pair[frozenset((g["team"], g["opp"]))].append(i)
-        for window, need_score in ((1, False), (5, True)):
+        page_rate = {}
+        for window, need_score in ((1, False), (10, True)):
+            if need_score:     # how often each page's games matched the other side in the first pass
+                tot, hit = Counter(g["page"] for g in sides), Counter(sides[i]["page"] for i in used)
+                page_rate = {pg: hit[pg] / tot[pg] for pg in tot}
             for i, g in enumerate(sides):
                 if i in used:
                     continue
@@ -998,8 +1002,10 @@ def update_cfl():
                 print(f"  CFL {y}: score differs {g['date']} {g['team']} {g['us']}-{g['them']} {g['opp']} vs "
                       f"{mate['team']} page {mate['us']}-{mate['them']}")
             g_home = g["home"] if g["home"] is not None else (not mate["home"]) if mate and mate["home"] is not None else True
-            if mate and mate["date"] != g["date"] and not g_home:
-                g = {**g, "date": mate["date"]}          # take the home team's page for the date
+            if mate and mate["date"] != g["date"]:
+                # the page whose other games line up with their opponents' pages has the right date
+                if page_rate.get(mate["page"], 1) > page_rate.get(g["page"], 1):
+                    g = {**g, "date": mate["date"]}
             if g_home:
                 h_code, a_code, hp, ap = g["team"], g["opp"], g["us"], g["them"]
             else:
@@ -1022,9 +1028,14 @@ def update_cfl():
             if not dup:
                 keep.append(g)
         games = keep
-        # playoff games missing from the team pages, from the season page's bracket
+        # the playoffs come from the season page's bracket when it has one (team pages often
+        # leave playoff games out or mislabel them); team-page games from those dates on are dropped
         added = 0
-        for d, hc, ac, hp, ap, grey in _cfl_bracket(y):
+        bracket = _cfl_bracket(y)
+        if len(bracket) >= 3:
+            first_po = min(b[0] for b in bracket)
+            games = [g for g in games if g["date"] < first_po]
+        for d, hc, ac, hp, ap, grey in bracket:
             if any({g["home"], g["away"]} == {hc, ac} and g["season_type"] == "postseason" and near(g["date"], d, 10)
                    for g in games):
                 continue
