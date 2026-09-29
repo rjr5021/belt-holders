@@ -930,9 +930,11 @@ def build_api(datas):
         cur, ng = d["current"], d.get("next_game")
         out["leagues"][lg["key"]] = {
             "name": lg["name"], "holder": lg["team_name"](cur["team"]), "short": lg["short_name"](cur["team"]),
-            "since": cur["start_date"], "defenses": cur.get("defenses", 0), "reign": cur["reign_no"],
+            "since": cur["start_date"], "defenses": cur.get("defenses", 0), "reign": cur["reign_no"], "reign_no": cur["reign_no"],
+            "holder_short": lg["short_name"](cur["team"]), "reigns_url": f"{SITE_URL}/{lg['key']}/api/reigns.json",
+            "games_url": f"{SITE_URL}/{lg['key']}/api/games.json",
             "url": f"{SITE_URL}/{lg['key']}/", "state": features.belt_state(lg, d)["state"], "data_ok": (d.get("_health") or {}).get("ok", True),
-            "next": ({"date": ng["date"], "opponent": lg["team_name"](ng["challenger"]), "home": ng["holder_home"]} if ng else None),
+            "next": features.next_payload(lg, d, SITE_URL),     # a superset of the old {date, opponent, home}
         }
     write("api/current.json", json.dumps(out, indent=1))
 
@@ -946,7 +948,7 @@ def build_meta_files(datas):
         lines += [f"## {lg['long_name']}", f"- Current holder: {cur['name']} (since {cur['start_date']}, {plural(cur.get('defenses', 0), 'defense')})",
                   f"- [Current holder and next defense]({SITE_URL}/{lg['key']}/)", f"- [Every reign]({SITE_URL}/{lg['key']}/history/)",
                   f"- [Records]({SITE_URL}/{lg['key']}/records/)", f"- [Data downloads (CSV)]({SITE_URL}/{lg['key']}/data/)", ""]
-    lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com (men's and women's belts)"]
+    lines += ["## Other", f"- [Rules]({SITE_URL}/rules/)", f"- [JSON API]({SITE_URL}/api/current.json)", f"- [Every belt, all three sites (JSON)]({SITE_URL}/api/network.json)", f"- [Every belt right now]({SITE_URL}/all/)", "- Sister sites: https://collegefootballbelt.com, https://collegebasketballbelt.com (men's and women's belts)"]
     write("llms.txt", "\n".join(lines) + "\n")
     write("manifest.json", json.dumps({"name": "Belt Holders", "short_name": "Belt Holders", "start_url": "/", "display": "standalone",
                                        "background_color": "#e7e2d5", "theme_color": "#211a12",
