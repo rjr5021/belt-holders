@@ -141,8 +141,10 @@ def main():
             side = "h" if team == games[gid]["home_team"] else "a"
             if flipped:
                 side = "a" if side == "h" else "h"
-            pid = pick(row, ("player_id", "gsis_id")) or "?"
-            name = pick(row, ("player_display_name", "player_name")) or "?"
+            pid = pick(row, ("player_id", "gsis_id"))
+            name = pick(row, ("player_display_name", "player_name"))
+            if not pid or pid in ("?", "0") or not name or name in ("?", "Team"):
+                continue      # team-total rows ("Team") and rows with no player id (BH-5)
             stats = [num(pick(row, COLS[c])) for c in ORDER]
             g = out.setdefault(str(n), {"gid": gid, "players": {}})
             prev = g["players"].get(pid)
