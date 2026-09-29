@@ -14,6 +14,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -41,6 +42,9 @@ jobs:
           for i in 1 2 3 4; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 7)); done
       - name: Build lineages
         run: python build_lineages.py
+      - name: Freshness check (NET-2)
+        run: python check_freshness.py
+        continue-on-error: true
       - name: Preview extras (ESPN, weather, AI preview)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -66,6 +70,32 @@ jobs:
           if [ "$kb" -gt 921600 ]; then
             echo "::error::The built site is $((kb / 1024)) MB, over the 900 MB budget (Pages limit 1 GB). Lower features.BOX_PAGES_FROM / MIN_PLAYER_GAMES or cut pages before deploying."
             exit 1
+          fi
+      - name: Open or update the "Data delayed" issue (NET-2)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f data/health.json ] || exit 0
+          python - > /tmp/delayed.md <<'PY'
+          import json
+          h = json.load(open("data/health.json"))["leagues"]
+          for k, v in sorted(h.items()):
+              if not v["ok"]:
+                  print(f"- **{k}**: {v['reason']} (newest result {v.get('newest_result', '?')})")
+          PY
+          n=$(gh issue list --state open --label data-delayed --json number -q '.[0].number' 2>/dev/null || true)
+          if [ ! -s /tmp/delayed.md ]; then
+            echo "all feeds fresh"
+            [ -n "$n" ] && gh issue close "$n" --comment "Every feed is fresh again."
+            exit 0
+          fi
+          if [ -z "$n" ]; then
+            gh label create data-delayed --color B3261E --description "A data feed stopped updating" --force
+            gh issue create --title "Data delayed" --label data-delayed --body-file /tmp/delayed.md
+          elif [ "$(gh issue view "$n" --json body,comments -q '(.comments[-1].body // .body)')" != "$(cat /tmp/delayed.md)" ]; then
+            gh issue comment "$n" --body-file /tmp/delayed.md
           fi
       - uses: actions/upload-pages-artifact@v3
         with:
