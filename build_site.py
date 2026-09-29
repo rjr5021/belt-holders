@@ -242,6 +242,7 @@ def alerts_block():
     <input id="alert-email" type="email" name="btr_email" placeholder="you@example.com" required>
     <button type="submit" class="mono">Sign me up</button>
   </form>
+  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS).</p>
 </section>"""
 
 
@@ -391,6 +392,18 @@ def _health():
 
 
 HEALTH = _health()
+
+
+def otd_extra(k):
+    """site_extras hook: the college belts' title changes on a calendar date (network on-this-day)."""
+    import network
+    return network.otd_extra(k)
+
+
+def network_stories():
+    """site_extras hook: the college sites' stories, for /stories/."""
+    import network
+    return network.network_stories()
 
 
 def frozen_note(datas):
@@ -1005,6 +1018,7 @@ def main():
     build_offline()
     build_feed(datas)
     build_meta_files(datas)
+    network.build_network_feed(sys.modules[__name__], OUT)
     build_sitemap(datas)
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
