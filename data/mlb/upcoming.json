@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-09-29-1-849849",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m117",
-  "away": "m145",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "17:00",
-  "venue": "Daikin Park",
-  "series": "AL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-09-29-1-849851",
   "date": "2026-09-29",
   "season": 2026,
