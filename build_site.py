@@ -971,7 +971,8 @@ def build_sitemap(datas=None):
         for part in range(0, len(urls), SITEMAP_MAX):
             chunk = urls[part:part + SITEMAP_MAX]
             name = key if part == 0 else f"{key}-{part // SITEMAP_MAX + 1}"
-            body = "".join(f"<url><loc>{escape(SITE_URL + u)}</loc>" + (f"<lastmod>{lm[u]}</lastmod>" if u in lm else "") + "</url>"
+            # no <lastmod> for pre-1970 dates: Google reports them as "Invalid date"
+            body = "".join(f"<url><loc>{escape(SITE_URL + u)}</loc>" + (f"<lastmod>{lm[u]}</lastmod>" if lm.get(u, "") >= "1970" else "") + "</url>"
                            for u in chunk)
             write(f"sitemaps/{name}.xml", '<?xml version="1.0" encoding="UTF-8"?>'
                   f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>')
