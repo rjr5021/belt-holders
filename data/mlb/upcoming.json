@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-09-29-1-849845",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m144",
-  "away": "m143",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "14:00",
-  "venue": "Truist Park",
-  "series": "NL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-09-29-1-849849",
   "date": "2026-09-29",
   "season": 2026,
