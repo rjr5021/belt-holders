@@ -814,7 +814,7 @@ def build_static_pages(datas):
 </section>"""
     write("privacy/index.html", page("Privacy", privacy, path="/privacy/", description="Belt Holders privacy policy."))
     notfound = """<section class="wrap prose"><div class="kicker">404</div><h1 class="disp">That page lost the belt</h1><p>It's not here anymore. Try the <a href="/">homepage</a> or the <a href="/nfl/">NFL belt</a>.</p></section>"""
-    write("404.html", page("Page not found", notfound + WCBB_MOVED_JS, path="/404.html", description="Page not found."))
+    write("404.html", page("Page not found", notfound + WCBB_MOVED_JS, path="/404.html", description="Page not found.", robots="noindex"))
     build_wcbb_redirects()
 
 
