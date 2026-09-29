@@ -1,6 +1,6 @@
 {
  "key": "Athletic Bilbao|Rayo Vallecano|2026-10-10",
- "updated": "2026-09-29T01:50Z",
+ "updated": "2026-09-29T01:55Z",
  "start_utc": "2026-10-10T12:00Z",
  "espn": {
   "event_id": "401882849",
@@ -40,16 +40,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Athletic Bilbao brings the Belt Holders lineal championship to Vallecas on October 10th, having defended it twice in their current reign. The Basque side has drawn their last two matches without scoring, while Rayo Vallecano enters off a 1-1 draw at Osasuna in mixed form. Athletic holds a commanding 26-9-11 all-time edge in this fixture.",
+  "overview": "Athletic Bilbao bring the lineal championship belt to Vallecas for a Saturday showdown with Rayo Vallecano. The Basque side have defended the belt twice in their current reign and hold a commanding 26-9-11 all-time advantage in this fixture. A win for Rayo would mark their 10th belt reign in the competition's history.",
   "key_matchups": [
-   "Athletic's scoring drought: The belt holders have managed just one goal across their last two draws after previously putting up 3-0 and 2-0 wins.",
-   "Rayo's defensive vulnerabilities: They've conceded four or more goals twice in their last five matches, including a 5-2 loss at Barcelona.",
-   "Historical dominance vs. recent parity: Athletic won four straight meetings before drawing 1-1 in February, suggesting Rayo may be closing the gap."
+   "Athletic's stingy defense in recent wins (clean sheets vs Atl\u00e9tico Madrid and Celta Vigo) against Rayo's leaky back line that conceded four at Real Madrid and five at Barcelona",
+   "Bilbao's recent offensive drought (just 1 goal in their last 2 draws) vs a Rayo side that has found the net in all five recent matches",
+   "Historical dominance meets current form: Athletic own a 4-0-1 record in the last 5 head-to-head meetings but enter on back-to-back stalemates"
   ],
-  "betting_angles": "Athletic are road underdogs at +130 despite holding the historical advantage, which reflects their recent goalless form and an even 2-2-2 season record. Rayo's 2-3-2 mark and leaky defense contrast with Athletic's tight recent performances (0-0, 1-1). The 41% Elo probability for Athletic suggests value on the visitors, while both teams' scoring inconsistency makes the over/under 2.5 line intriguing given Athletic's two scoreless draws and Rayo's high-scoring affairs.",
+  "betting_angles": "The betting market favors Rayo at home despite Athletic's historical edge, with the visitors getting plus-money at +130. Both teams have drawn frequently of late (Athletic with 2 straight, Rayo just coming off one), and their February meeting ended 1-1, suggesting the under 2.5 could have merit. The Elo model's 41% win probability for Athletic aligns with the underdog price, making this a true toss-up on paper.",
   "predicted_winner": "Athletic Bilbao",
-  "predicted_score": "Athletic Bilbao 2, Rayo Vallecano 1",
-  "prediction_writeup": "Athletic Bilbao should break their scoring drought on the road and retain the belt. Despite back-to-back draws, they showed quality earlier with convincing wins over Atl\u00e9tico Madrid and Celta Vigo. Rayo's defensive issues\u2014shipping nine goals in two heavy defeats recently\u2014favor an Athletic side that has won four of the last five head-to-head meetings. The historical dominance (26-9-11 all-time) and two successful belt defenses already in this reign suggest the Basque club will navigate this tricky away fixture and keep the lineal championship moving forward.",
+  "predicted_score": "Athletic Bilbao 1, Rayo Vallecano 0",
+  "prediction_writeup": "While Athletic have gone cold offensively with back-to-back draws, their defensive foundation remains solid when they get results\u2014witness the clean sheets against Atl\u00e9tico Madrid and Celta Vigo. Rayo's recent form shows vulnerability at the back, conceding nine goals in their three losses this season. Athletic's historical dominance in this matchup (four wins in the last five meetings, including three straight before the February draw) suggests they know how to navigate Vallecas. The belt stays in Bilbao with a narrow, grinding road victory.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }

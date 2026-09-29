@@ -1,6 +1,6 @@
 {
  "key": "Manchester City|Liverpool|2026-10-11",
- "updated": "2026-09-29T01:50Z",
+ "updated": "2026-09-29T01:54Z",
  "start_utc": "2026-10-11T15:30Z",
  "espn": {
   "event_id": "401879264",
@@ -37,16 +37,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Manchester City bring the Belt Holders lineal championship to Anfield on October 11, 2026, having defended it four times in their current reign. Liverpool, who have held the belt a league-leading 79 times previously, will look to reclaim it in front of their home crowd. The two clubs have contested the belt 23 times before in their storied rivalry.",
+  "overview": "Manchester City bring the Belt Holders championship to Anfield on October 11, 2026, having defended it four times in their current reign. The Citizens arrive in scintillating form with five straight victories, while Liverpool have stumbled to three draws in their last five despite their historical dominance in this fixture with 81 all-time wins to City's 47.",
   "key_matchups": [
-   "Manchester City's perfect five-game winning streak against Liverpool's inconsistent form with three draws in their last five",
-   "City's high-scoring attack (13 goals in last 5) versus Liverpool's defensive solidity in recent wins (1-0, 2-0)",
-   "Manchester City have won the last two meetings, including a 3-0 victory at home in November 2025"
+   "City's perfect 5-0 season record versus Liverpool's draw-heavy 2-0-3 start\u2014can the hosts break their recent stalemate pattern?",
+   "City's attacking momentum (12 goals in last 5) against Liverpool's defensive solidity in recent matches (1 goal conceded in last 3)",
+   "Recent head-to-head momentum favors Manchester City with three wins in the last five meetings, including both encounters in 2025-26"
   ],
-  "betting_angles": "Manchester City's flawless 5-0 record and five-game winning streak contrast sharply with Liverpool's 2-0-3 mark and three draws in their last five. The Elo model gives City a 55% edge despite playing at Anfield, where Liverpool historically have held the belt 79 times. The betting line suggests a closely contested match with City as slight favorites, and the over/under of 3.5 reflects City's recent high-scoring form, including the 5-3 thriller against Sunderland.",
+  "betting_angles": "Manchester City's five-match winning streak and undefeated season contrast sharply with Liverpool's three draws in five, yet the 55% Elo probability and +135 betting line suggest bookmakers see a closer contest at Anfield. The over/under of 3.5 appears modest given City's recent high-scoring affairs, though Liverpool have been involved in lower-scoring matches lately. The historical head-to-head heavily favors Liverpool, but recent form and the last two season meetings have gone City's way.",
   "predicted_winner": "Manchester City",
   "predicted_score": "Manchester City 2, Liverpool 1",
-  "prediction_writeup": "Manchester City arrive in exceptional form with five consecutive wins and a perfect 5-0 record this season, while Liverpool have struggled to find consistency with three draws marring their campaign. City have also won the last two head-to-head meetings, including a dominant 3-0 victory. Although Liverpool's Anfield advantage and historical belt success cannot be ignored, City's current momentum and superior form across all metrics suggest they will retain the belt. The Citizens have shown they can win tight matches (back-to-back 1-0 victories over United and Coventry) and high-scoring affairs alike, giving them multiple paths to victory.",
+  "prediction_writeup": "Manchester City's perfect start to the season and five-match winning streak are impossible to ignore, especially against a Liverpool side that has drawn three of five despite decent underlying performances. While Anfield has historically been a fortress against City, the visitors have won two straight in this fixture and appear to have found answers to Liverpool's pressing system. The belt stays with the team in form\u2014City's momentum and clinical finishing in recent weeks should be enough to edge a tight contest and extend their reign to five defenses.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }

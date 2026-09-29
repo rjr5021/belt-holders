@@ -1,6 +1,6 @@
 {
  "key": "AZ Alkmaar|Feyenoord|2026-10-10",
- "updated": "2026-09-29T01:51Z",
+ "updated": "2026-09-29T01:56Z",
  "start_utc": "2026-10-10T16:45Z",
  "espn": {
   "event_id": "401875591",
@@ -39,16 +39,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "AZ Alkmaar brings the Belt Holders lineal championship to De Kuip on October 10th, having successfully defended it 11 times in their current reign. Feyenoord, riding a three-game winning streak with 15 goals scored in that span, will look to reclaim a belt they've held 34 times previously. The visitors are unbeaten in their last four but face a Feyenoord side that has dominated this matchup historically, winning 33 of 61 all-time meetings.",
+  "overview": "AZ Alkmaar brings the lineal championship belt to De Kuip to face Feyenoord on October 10th, with the title passing to whoever wins this Eredivisie clash. The visitors have defended the belt 11 times in their current reign, while Feyenoord\u2014who have held it 34 times previously\u2014will look to reclaim the championship with home advantage.",
   "key_matchups": [
-   "Feyenoord's explosive attack (15 goals in last 3 games) versus AZ's belt-defending resilience (11 successful defenses)",
-   "Home advantage for Feyenoord, who hold a 33-15 all-time edge in this rivalry",
-   "AZ's narrow recent form (1-0, 1-1 results) tested by Feyenoord's demolition jobs (5-0, 7-0 wins)"
+   "Feyenoord's blazing form (three straight wins including 5-0 and 7-0 victories) against AZ's more modest recent result (1-0 vs Telstar)",
+   "AZ's 11-game belt defense streak meets Feyenoord's historical dominance (33-15 all-time edge)",
+   "High-scoring recent meetings (3-3, 1-1 in last two) suggest both sides can find the net despite contrasting recent margins"
   ],
-  "betting_angles": "Feyenoord's scorching form with 15 goals in three games contrasts sharply with AZ's tighter recent results, suggesting the over 3.5 merits attention. The home side's -125 line seems reasonable given their historical dominance (33-15 all-time) and current momentum, though AZ's 6-0-1 record and 38% Elo win probability indicate this is no walkover. Recent head-to-head meetings have been close, with four of the last five ending in draws or one-goal margins, creating tension between Feyenoord's explosive current form and the rivalry's typical tightness.",
+  "betting_angles": "Feyenoord enter as favorites at -125 despite AZ's superior record (6-0-1 vs 5-0-2), likely reflecting home advantage and their explosive recent form with 17 goals in three games. The over/under of 3.5 aligns with their recent head-to-head history, which has produced draws of 3-3 and 1-1 in the last two meetings. AZ's Elo probability of 38% suggests reasonable value on the underdog, though Feyenoord's 33-15 all-time edge and three consecutive wins can't be ignored.",
   "predicted_winner": "Feyenoord",
-  "predicted_score": "AZ Alkmaar 1, Feyenoord 3",
-  "prediction_writeup": "Feyenoord's current form is simply too hot to ignore, with 15 goals across their last three victories including a 7-0 demolition and consecutive 5-0 and 5-2 wins. While AZ have been solid with just one draw blemishing their 6-0-1 record, their recent matches show a team grinding out results rather than dominating, with a 1-0 win and 1-1 draw in their last two. Feyenoord's historical edge at home and their attacking firepower should be enough to wrestle the belt away from the visitors. AZ's 11-defense reign comes to an end at De Kuip, where Feyenoord reclaim what they've held 34 times before.",
+  "predicted_score": "AZ Alkmaar 1, Feyenoord 2",
+  "prediction_writeup": "Feyenoord's overwhelming offensive form\u2014averaging over five goals in their last three wins\u2014should prove too much for AZ at home, even against an undefeated visitor. While AZ have held the belt through 11 defenses and boast a better record, their 1-0 grind against Telstar looks pedestrian compared to Feyenoord's ruthless 5-0 dismantling of Utrecht. Recent head-to-head meetings have been tight, but Feyenoord hold a significant all-time edge at 33-15 and haven't lost to AZ since 2025. The belt changes hands in a narrow Feyenoord victory.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }

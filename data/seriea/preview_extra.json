@@ -1,6 +1,6 @@
 {
  "key": "AS Roma|Como Calcio|2026-10-11",
- "updated": "2026-09-29T01:51Z",
+ "updated": "2026-09-29T01:55Z",
  "start_utc": "2026-10-11T10:30Z",
  "espn": {
   "event_id": "401874940",
@@ -39,16 +39,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "AS Roma bring the Belt Holders lineal championship to Stadio Sinigaglia, where Como Calcio will look to claim the title that changes hands only through on-field results. Roma have successfully defended the belt eight times in their current reign, but Como have held it seven times previously and won the most recent meeting between these sides 2-1 back in March 2026.",
+  "overview": "AS Roma bring their lineal championship belt to Como on October 11th, having defended it eight times in their current reign. The visitors enter on strong form with four wins in their last five, while Como look to bounce back from a shutout loss to Frosinone and reclaim a belt they've held seven times previously.",
   "key_matchups": [
-   "Roma's four-game winning streak before the Inter draw versus Como's stumble at Frosinone after three straight wins",
-   "Como's home advantage and recent 2-1 victory over Roma in March 2026",
-   "The belt has been contested six times between these sides historically, with Como having prior experience as champions"
+   "Roma's recent defensive solidity (two clean sheets in last five) against a Como side that has scored in four of their last five",
+   "Como's home advantage seeking to extend their head-to-head edge, having won three of the last five meetings including a 2-1 victory in March 2026",
+   "Roma's unbeaten start stumbling with one draw versus Como trying to recover momentum after their first loss of the season"
   ],
-  "betting_angles": "The betting line favors Como at home despite Roma's superior season record of 4-0-1 compared to Como's 3-1-1. Roma's recent form shows resilience with four wins in their last five, while Como bounced back from a winless start (draw at Udinese) to win three straight before the Frosinone defeat. The all-time head-to-head leans Roma's way at 13-7-8, but Como have taken two of the last three meetings including that March victory.",
+  "betting_angles": "The betting line favors Como at home despite Roma's superior form, with the Elo model nearly even at 47% for the visitors. The head-to-head history leans slightly toward Roma all-time (13-7-8), but Como have had recent success in this matchup, winning the most recent encounter 2-1. The over/under at 2.5 reflects that four of the last five meetings have featured exactly two or three total goals.",
   "predicted_winner": "AS Roma",
   "predicted_score": "AS Roma 2, Como Calcio 1",
-  "prediction_writeup": "Roma have shown consistency this season with just one blemish, a draw against Inter Milan, and their attacking output has been impressive with four goals scored twice in the last five matches. Como's recent loss at Frosinone suggests vulnerability, and while they possess home advantage and won the March meeting, Roma's overall form appears stronger. The Elo model's 47% rating for Roma seems low given their 4-0-1 record, and Roma's ability to defend the belt eight times in this reign demonstrates championship mettle. A narrow away victory keeps the belt with the visitors.",
+  "prediction_writeup": "Roma's form heading into this match is compelling, with four wins in five games and only a draw against Inter Milan breaking their streak. While Como have shown they can trouble Roma historically, their recent 2-0 loss to Frosinone raises questions about consistency. Roma's strong season record of 4-0-1 and their ability to grind out results, including back-to-back 2-0 and 2-1 wins before the Inter draw, suggests they have the resilience to navigate a tricky away fixture. The belt continues its journey with the visitors in a tight contest.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }

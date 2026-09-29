@@ -1,6 +1,6 @@
 {
  "key": "Bayern Munchen|FC Augsburg|2026-10-10",
- "updated": "2026-09-29T01:51Z",
+ "updated": "2026-09-29T01:55Z",
  "start_utc": "2026-10-10T13:30Z",
  "espn": {
   "event_id": "401884777",
@@ -37,16 +37,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich bring their 14-defense belt reign to FC Augsburg on October 10th, with the lineal championship on the line in a true winner-takes-all format. The Bavarians have been in dominant form lately, including a 7-0 thrashing in their most recent outing, while Augsburg stumbled in their last match. History heavily favors the visitors, who lead the all-time series 23-5-2, though Augsburg memorably took their last meeting 2-1 in January 2026.",
+  "overview": "Bayern Munich brings the Belt Holders lineal championship to Augsburg on October 10th, 2026, having defended it 14 times in their current reign. The belt passes to whoever wins this match, with no committees involved\u2014just pure on-field results tracing back through Bundesliga history. Augsburg has held the belt 9 times previously and will look to claim it again on home soil.",
   "key_matchups": [
-   "Bayern's recent firepower (12 goals in last 2 wins) against an Augsburg defense that conceded 3 at Bremen",
-   "Augsburg's home form advantage, where they've recorded both wins this season (4-1 at Frankfurt, 3-0 vs Schalke)",
-   "Belt pressure on Bayern after 14 successful defenses in this reign, their longest current stretch"
+   "Bayern's explosive attack (12 goals in last 3 wins) against an Augsburg defense that just conceded 3 at Bremen",
+   "Augsburg's home hope after their recent 2-1 upset over Bayern in January 2026",
+   "Bayern's 14-defense belt reign faces a motivated Augsburg side with mixed recent form (2-1-1 record)"
   ],
-  "betting_angles": "The line at -525 reflects Bayern's overwhelming 68% Elo win probability and their dominant recent form, averaging 6 goals in their last two victories. The 4.5 over/under seems calibrated to Bayern's attacking output, as four of their last five matches have featured at least 5 total goals. Augsburg's mixed results (2-1-1) and narrow 2-3 loss last time out suggest they can score but may struggle to contain a Bayern side that just put 7 past Union Berlin.",
+  "betting_angles": "Bayern's recent form is dominant with back-to-back wins including a 7-0 demolition, and they hold a commanding 23-5-2 all-time edge over Augsburg. However, the most recent meeting saw Augsburg pull off a 2-1 upset at Bayern in January. The -525 line and 68% Elo probability reflect Bayern's overwhelming favoritism, though the 4.5 over/under suggests bookmakers expect goals given both teams' recent scoring trends.",
   "predicted_winner": "Bayern Munich",
   "predicted_score": "Bayern Munich 3, FC Augsburg 1",
-  "prediction_writeup": "Bayern Munich's current form is simply too strong to ignore, with 12 goals scored across their last two wins and just one draw marring an otherwise perfect 3-0-1 start. While Augsburg pulled off the upset in their last meeting and have shown they can compete at home with quality wins over Frankfurt and Schalke, their 2-3 loss at Bremen exposed defensive vulnerabilities. The historical dominance (23-5-2 all-time) and Bayern's 14 successful belt defenses in this reign point to another road victory. Augsburg will likely find the net given their attacking quality, but Bayern's firepower should prove too much.",
+  "prediction_writeup": "Bayern Munich enters in scorching form with 14 goals across their last three victories, including that 7-0 thrashing of Union Berlin. While Augsburg did upset Bayern 2-1 in their last meeting and has shown they can score (4 goals at Frankfurt, 3 against Schalke), their recent 3-2 loss at Bremen suggests defensive vulnerabilities. Bayern's 3-0-1 record and dominant head-to-head history (23-5-2) point to the visitors extending their belt reign to 15 defenses. The road setting provides Augsburg some hope, but Bayern's current momentum appears too strong to deny.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }

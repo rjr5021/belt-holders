@@ -1,6 +1,6 @@
 {
  "key": "Paris FC|FC Lorient|2026-10-10",
- "updated": "2026-09-29T01:51Z",
+ "updated": "2026-09-29T01:55Z",
  "start_utc": "2026-10-10T18:45Z",
  "espn": {
   "event_id": "401876445",
@@ -37,16 +37,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC bring the lineal championship belt to Lorient for the first time in this head-to-head series. The visitors are unbeaten in their last three matches and have yet to defend the belt in their current reign, while Lorient have held the hardware six times previously and will look to reclaim it despite arriving on the back of a loss.",
+  "overview": "Paris FC bring the lineal championship belt to Stade du Moustoir for the first time in this rivalry's history. The visitors are unbeaten in their last three matches and riding a fresh win over Strasbourg, while FC Lorient stumbled in their most recent outing at Le Mans. This marks Paris FC's first belt defense since claiming the title.",
   "key_matchups": [
-   "Paris FC's solid form (3-0-2) versus Lorient's struggles (1-2-2) in a statistical mismatch",
-   "First-ever belt defense for Paris FC against a Lorient side with prior championship experience",
-   "Recent head-to-head dominance: Paris FC won the last meeting 2-0 and are unbeaten in two straight against Lorient"
+   "Paris FC's recent attacking form (5 goals in their last 2 wins) against a Lorient defense that has conceded in 4 of their last 5 matches",
+   "FC Lorient's home advantage versus Paris FC's road resilience, having won 3-2 at Marseille and drawn 0-0 at Troyes in recent away fixtures",
+   "Historical edge: Paris FC unbeaten in the all-time series (1-0-1) including a 2-0 home win last season"
   ],
-  "betting_angles": "Paris FC are getting plus money despite superior form, a better record, and head-to-head advantage over the last two meetings. The Elo model sees this as essentially a toss-up at 51%, yet the betting line suggests the market views Lorient as favorites at home. Recent scorelines for both sides suggest tight margins, with four of Paris FC's five recent matches featuring exactly two total goals or fewer.",
+  "betting_angles": "Paris FC's superior form (3-0-2 versus 1-2-2) and three-match unbeaten run contrasts sharply with Lorient's inconsistency and consecutive losses. The +130 line on Paris FC as the road side seems generous given their 51% Elo win probability and head-to-head dominance. Both teams have shown they can score, with Paris FC netting 8 goals in their last 5 and four of those five matches seeing multiple goals, which aligns with the 2.5 over/under.",
   "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 1, FC Lorient 0",
-  "prediction_writeup": "Paris FC have shown resilience with three wins and two draws in their last five, while Lorient limp in having lost their last match and sitting at 1-2-2 overall. The visitors won the most recent meeting 2-0 and remain unbeaten against Lorient in their limited history. While Lorient have home advantage, Paris FC's superior form and head-to-head record should carry them through in what figures to be a tight, low-scoring affair. The belt stays with the visitors in their first defense attempt.",
+  "predicted_score": "Paris FC 2, FC Lorient 1",
+  "prediction_writeup": "Paris FC have the momentum with wins in three of their last four and an unbeaten record against Lorient. Their ability to grind out results on the road, evidenced by the dramatic 3-2 win at Marseille, suggests they can handle a hostile environment. Lorient's home form hasn't been tested in these recent stats, but their overall inconsistency and the fact they've conceded in four straight is concerning. Paris FC should retain the belt in a tight contest, extending their unbeaten streak against Lorient to three matches.",
   "written": "2026-09-29",
   "model": "claude-sonnet-4-5"
  }
