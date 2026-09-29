@@ -972,6 +972,7 @@ def main():
         with open(os.path.join("data", lg["key"], "lineage.json")) as f:
             datas[lg["key"]] = json.load(f)
         features.plan_game_pages(lg, datas[lg["key"]])      # which games get their own page (BH-2)
+        datas[lg["key"]]["_health"] = HEALTH.get(lg["key"])
     build_home(datas)
     build_leagues_page(datas)
     for lg in LIVE:
