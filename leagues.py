@@ -13,7 +13,8 @@ import league_nfl as nfl
 import league_nhl as nhl
 
 # Leagues added in October 2026 go live once their game file exists (new_leagues.py).
-_NEW = [getattr(more, n) for n in ("WNBA", "MLS", "NWSL", "PWHL", "WCBB", "CFL", "EPL", "LALIGA", "SERIEA",
+# Women's college basketball moved to collegebasketballbelt.com/women/ (Sept 2026).
+_NEW = [getattr(more, n) for n in ("WNBA", "MLS", "NWSL", "PWHL", "CFL", "EPL", "LALIGA", "SERIEA",
                                    "BUNDESLIGA", "LIGUE1", "EREDIVISIE", "INTL") if hasattr(more, n)]
 LIVE = [nfl.LEAGUE, nba.LEAGUE, nhl.LEAGUE, mlb.LEAGUE] + [
     lg for lg in _NEW if os.path.exists(os.path.join("data", lg["key"], "games.csv"))]
@@ -22,9 +23,8 @@ LIVE = [nfl.LEAGUE, nba.LEAGUE, nhl.LEAGUE, mlb.LEAGUE] + [
 COMING = []
 
 PRIMARY = ["nfl", "nba", "nhl", "mlb"]
-GROUPS = [("More North American leagues", ["cfl", "mls", "wnba", "nwsl", "pwhl", "wcbb"]),
-          ("European soccer", ["epl", "laliga", "seriea", "bundesliga", "ligue1", "eredivisie"]),
-          ("International", ["intl"])]
+GROUPS = [("More North American leagues", ["cfl", "mls", "wnba", "nwsl", "pwhl"]),
+          ("International soccer", ["epl", "laliga", "seriea", "bundesliga", "ligue1", "eredivisie", "intl"])]
 ORDER = PRIMARY + [k for _, ks in GROUPS for k in ks if any(lg["key"] == k for lg in LIVE)]
 
 

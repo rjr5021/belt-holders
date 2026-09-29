@@ -28,7 +28,7 @@ from leagues import COMING, GROUPS, LIVE, ORDER, PRIMARY
 SITE_URL = "https://beltholders.com"
 OUT = "site"
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
-GOATCOUNTER_CODE = ""            # e.g. "beltholders" once the GoatCounter site exists
+GOATCOUNTER_CODE = "beltholders"
 STYLES_VERSION = "6"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -350,7 +350,7 @@ def build_leagues_page(datas):
   {more_leagues(datas)}
 </section>"""
     write("leagues/index.html", page("Every league's belt", body, path="/leagues/", active="leagues",
-                                     description="Every lineal championship belt on Belt Holders: NFL, NBA, NHL, MLB, MLS, WNBA, NWSL, PWHL, women's college basketball, Europe's top soccer leagues and international soccer."))
+                                     description="Every lineal championship belt on Belt Holders: NFL, NBA, NHL, MLB, MLS, WNBA, NWSL, PWHL, the CFL, Europe's top soccer leagues and international soccer."))
 
 
 def build_home(datas):
@@ -459,14 +459,15 @@ def college_strip():
     colors = {t.get("school"): (t.get("primaryColor"), t.get("secondaryColor")) for t in teams if t.get("school")}
     cards = []
     for label, site, api in (("College football", "https://collegefootballbelt.com/", "https://collegefootballbelt.com/api/current.json"),
-                             ("College basketball", "https://collegebasketballbelt.com/", "https://collegebasketballbelt.com/api/current.json")):
+                             ("College basketball", "https://collegebasketballbelt.com/", "https://collegebasketballbelt.com/api/current.json"),
+                             ("Women's college hoops", "https://collegebasketballbelt.com/women/", "https://collegebasketballbelt.com/women/api/current.json")):
         j = fetch(api) or {}
         h = j.get("holder")
         p_, s_ = colors.get(h, (None, None))
         p_ = f"#{p_.lstrip('#')}" if p_ else "#211a12"
         s_ = f"#{s_.lstrip('#')}" if s_ else None
         top, bottom, ink, accent = plate(p_, s_)
-        domain = site.split("//")[1].rstrip("/")
+        domain = site.split("//")[1].split("/")[0]
         ngd = (j.get("next_game") or {}).get("date")
         st = ""
         if ngd:
@@ -689,6 +690,29 @@ def team_extras_html(lg, d, team):
     return site_extras.team_extras(lg, d, team)
 
 
+# Women's college basketball moved to collegebasketballbelt.com/women/ in September 2026.
+# The old /wcbb/ pages become redirects; anything else under /wcbb/ is caught by the 404
+# page. Season pages were numbered by starting year here and by ending year there, and
+# belt game numbers there don't count the 1986 final that opens the belt.
+WCBB_NEW = "https://collegebasketballbelt.com/women/"
+WCBB_MOVED_JS = """<script>(function(){var p=location.pathname;if(p.indexOf('/wcbb/')!==0)return;var r=p.slice(6);
+var m=r.match(/^seasons\\/(\\d{4})\\/?$/);if(m)r='seasons/'+(+m[1]+1)+'/';
+m=r.match(/^games\\/(\\d+)\\/?$/);if(m)r=(+m[1]>1)?'games/'+(m[1]-1)+'/':'';
+location.replace('""" + WCBB_NEW + """'+r+location.hash);})();</script>"""
+
+
+def build_wcbb_redirects():
+    for sub in ("", "history/", "records/", "teams/", "seasons/", "rivalries/", "compare/", "next/", "outlook/", "more/",
+                "champions/", "timeline/", "what-if/", "losers-belt/", "data/", "schedule/", "standings/", "on-date/",
+                "decades/", "trivia/", "daily/", "states/", "map/", "web/", "splits/", "heartbreak/", "lean/",
+                "defend-or-dethrone/", "degrees/", "my-team/", "conferences/"):
+        to = WCBB_NEW + sub
+        write(f"wcbb/{sub}index.html", f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>The Women's College Basketball Belt has moved</title><link rel="canonical" href="{to}">
+<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={to}"></head>
+<body><p>The Women's College Basketball Belt now lives at <a href="{to}">{to}</a>.</p></body></html>""")
+
+
 def build_static_pages(datas):
     nfl = datas.get("nfl")
     fg = nfl["first_game"] if nfl else None
@@ -749,7 +773,8 @@ def build_static_pages(datas):
 </section>"""
     write("privacy/index.html", page("Privacy", privacy, path="/privacy/", description="Belt Holders privacy policy."))
     notfound = """<section class="wrap prose"><div class="kicker">404</div><h1 class="disp">That page lost the belt</h1><p>It's not here anymore. Try the <a href="/">homepage</a> or the <a href="/nfl/">NFL belt</a>.</p></section>"""
-    write("404.html", page("Page not found", notfound, path="/404.html", description="Page not found."))
+    write("404.html", page("Page not found", notfound + WCBB_MOVED_JS, path="/404.html", description="Page not found."))
+    build_wcbb_redirects()
 
 
 def build_feed(datas):

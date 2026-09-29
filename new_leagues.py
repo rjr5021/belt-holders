@@ -1075,7 +1075,7 @@ UPDATERS = {"epl": lambda: update_europe("epl"), "laliga": lambda: update_europe
             "seriea": lambda: update_europe("seriea"), "bundesliga": lambda: update_europe("bundesliga"),
             "ligue1": lambda: update_europe("ligue1"), "eredivisie": lambda: update_europe("eredivisie"),
             "intl": update_intl, "pwhl": update_pwhl, "wnba": update_wnba,
-            "mls": update_mls, "nwsl": update_nwsl, "wcbb": update_wcbb, "cfl": update_cfl}
+            "mls": update_mls, "nwsl": update_nwsl, "cfl": update_cfl}   # wcbb moved to collegebasketballbelt.com
 
 
 def main():
