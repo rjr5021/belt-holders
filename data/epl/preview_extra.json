@@ -1,0 +1,53 @@
+{
+ "key": "Manchester City|Liverpool|2026-10-11",
+ "updated": "2026-09-29T01:50Z",
+ "start_utc": "2026-10-11T15:30Z",
+ "espn": {
+  "event_id": "401879264",
+  "start_utc": "2026-10-11T15:30Z",
+  "state": "pre",
+  "tv": [],
+  "odds": {
+   "details": "MNC +135",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "Liverpool": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "abbr": "LIV",
+    "record": "2-3-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Manchester City": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "abbr": "MNC",
+    "record": "5-0-0",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Anfield",
+   "city": "Liverpool",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Manchester City bring the Belt Holders lineal championship to Anfield on October 11, 2026, having defended it four times in their current reign. Liverpool, who have held the belt a league-leading 79 times previously, will look to reclaim it in front of their home crowd. The two clubs have contested the belt 23 times before in their storied rivalry.",
+  "key_matchups": [
+   "Manchester City's perfect five-game winning streak against Liverpool's inconsistent form with three draws in their last five",
+   "City's high-scoring attack (13 goals in last 5) versus Liverpool's defensive solidity in recent wins (1-0, 2-0)",
+   "Manchester City have won the last two meetings, including a 3-0 victory at home in November 2025"
+  ],
+  "betting_angles": "Manchester City's flawless 5-0 record and five-game winning streak contrast sharply with Liverpool's 2-0-3 mark and three draws in their last five. The Elo model gives City a 55% edge despite playing at Anfield, where Liverpool historically have held the belt 79 times. The betting line suggests a closely contested match with City as slight favorites, and the over/under of 3.5 reflects City's recent high-scoring form, including the 5-3 thriller against Sunderland.",
+  "predicted_winner": "Manchester City",
+  "predicted_score": "Manchester City 2, Liverpool 1",
+  "prediction_writeup": "Manchester City arrive in exceptional form with five consecutive wins and a perfect 5-0 record this season, while Liverpool have struggled to find consistency with three draws marring their campaign. City have also won the last two head-to-head meetings, including a dominant 3-0 victory. Although Liverpool's Anfield advantage and historical belt success cannot be ignored, City's current momentum and superior form across all metrics suggest they will retain the belt. The Citizens have shown they can win tight matches (back-to-back 1-0 victories over United and Coventry) and high-scoring affairs alike, giving them multiple paths to victory.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}

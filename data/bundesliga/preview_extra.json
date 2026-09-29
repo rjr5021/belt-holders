@@ -1,0 +1,53 @@
+{
+ "key": "Bayern Munchen|FC Augsburg|2026-10-10",
+ "updated": "2026-09-29T01:51Z",
+ "start_utc": "2026-10-10T13:30Z",
+ "espn": {
+  "event_id": "401884777",
+  "start_utc": "2026-10-10T13:30Z",
+  "state": "pre",
+  "tv": [],
+  "odds": {
+   "details": "MUN -525",
+   "over_under": 4.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "FC Augsburg": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+    "abbr": "FCA",
+    "record": "2-1-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Bayern Munchen": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "abbr": "MUN",
+    "record": "3-1-0",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "WWK Arena",
+   "city": "Augsburg",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Bayern Munich bring their 14-defense belt reign to FC Augsburg on October 10th, with the lineal championship on the line in a true winner-takes-all format. The Bavarians have been in dominant form lately, including a 7-0 thrashing in their most recent outing, while Augsburg stumbled in their last match. History heavily favors the visitors, who lead the all-time series 23-5-2, though Augsburg memorably took their last meeting 2-1 in January 2026.",
+  "key_matchups": [
+   "Bayern's recent firepower (12 goals in last 2 wins) against an Augsburg defense that conceded 3 at Bremen",
+   "Augsburg's home form advantage, where they've recorded both wins this season (4-1 at Frankfurt, 3-0 vs Schalke)",
+   "Belt pressure on Bayern after 14 successful defenses in this reign, their longest current stretch"
+  ],
+  "betting_angles": "The line at -525 reflects Bayern's overwhelming 68% Elo win probability and their dominant recent form, averaging 6 goals in their last two victories. The 4.5 over/under seems calibrated to Bayern's attacking output, as four of their last five matches have featured at least 5 total goals. Augsburg's mixed results (2-1-1) and narrow 2-3 loss last time out suggest they can score but may struggle to contain a Bayern side that just put 7 past Union Berlin.",
+  "predicted_winner": "Bayern Munich",
+  "predicted_score": "Bayern Munich 3, FC Augsburg 1",
+  "prediction_writeup": "Bayern Munich's current form is simply too strong to ignore, with 12 goals scored across their last two wins and just one draw marring an otherwise perfect 3-0-1 start. While Augsburg pulled off the upset in their last meeting and have shown they can compete at home with quality wins over Frankfurt and Schalke, their 2-3 loss at Bremen exposed defensive vulnerabilities. The historical dominance (23-5-2 all-time) and Bayern's 14 successful belt defenses in this reign point to another road victory. Augsburg will likely find the net given their attacking quality, but Bayern's firepower should prove too much.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}

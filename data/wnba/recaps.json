@@ -1,0 +1,80 @@
+{
+ "GS|POR|2026-09-22": {
+  "date": "2026-09-22",
+  "holder": "GS",
+  "opponent": "POR",
+  "outcome": "changed",
+  "headline": "Fire Take Belt in OT Thriller Over Valkyries",
+  "recap": [
+   "The Portland Fire claimed the lineal championship belt with a 90-82 overtime victory over the Golden State Valkyries at Moda Center. After Golden State stormed out to a 24-10 lead in the first quarter, Portland steadily climbed back into the game, outscoring the Valkyries 27-16 in the second period to make it competitive. The teams traded baskets through the third and fourth quarters, forcing overtime tied at 77.",
+   "Bridget Carleton led all scorers with 26 points for Portland, while Emily Engstler pulled down 11 rebounds and Jordan Harrison dished out 10 assists. The Fire dominated the extra period, outscoring Golden State 13-5 to seal the victory. Gabby Williams paced the Valkyries with 17 points, and Veronica Burton contributed 8 assists and 7 rebounds in the losing effort.",
+   "With the win, Portland Fire take possession of the WNBA lineal championship belt from Golden State, who had brought it into the contest. The belt now travels back to Portland after the Fire's clutch overtime performance."
+  ],
+  "leaders": [
+   {
+    "team": "POR",
+    "category": "Points",
+    "player": "Bridget Carleton",
+    "line": "26"
+   },
+   {
+    "team": "POR",
+    "category": "Assists",
+    "player": "Jordan Harrison",
+    "line": "10"
+   },
+   {
+    "team": "POR",
+    "category": "Rebounds",
+    "player": "Emily Engstler",
+    "line": "11"
+   },
+   {
+    "team": "GS",
+    "category": "Points",
+    "player": "Gabby Williams",
+    "line": "17"
+   },
+   {
+    "team": "GS",
+    "category": "Assists",
+    "player": "Veronica Burton",
+    "line": "8"
+   },
+   {
+    "team": "GS",
+    "category": "Rebounds",
+    "player": "Veronica Burton",
+    "line": "7"
+   }
+  ],
+  "linescore": [
+   {
+    "team": "Portland Fire",
+    "home_away": "home",
+    "periods": [
+     "10",
+     "27",
+     "21",
+     "19",
+     "13"
+    ],
+    "score": "90"
+   },
+   {
+    "team": "Golden State Valkyries",
+    "home_away": "away",
+    "periods": [
+     "24",
+     "16",
+     "21",
+     "16",
+     "5"
+    ],
+    "score": "82"
+   }
+  ],
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}

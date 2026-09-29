@@ -1,0 +1,55 @@
+{
+ "key": "AZ Alkmaar|Feyenoord|2026-10-10",
+ "updated": "2026-09-29T01:51Z",
+ "start_utc": "2026-10-10T16:45Z",
+ "espn": {
+  "event_id": "401875591",
+  "start_utc": "2026-10-10T16:45Z",
+  "state": "pre",
+  "tv": [
+   "ESPN+"
+  ],
+  "odds": {
+   "details": "FEY -125",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "Feyenoord": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "abbr": "FEY",
+    "record": "5-2-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "AZ Alkmaar": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+    "abbr": "AZ",
+    "record": "6-1-0",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "De Kuip",
+   "city": "Rotterdam",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "AZ Alkmaar brings the Belt Holders lineal championship to De Kuip on October 10th, having successfully defended it 11 times in their current reign. Feyenoord, riding a three-game winning streak with 15 goals scored in that span, will look to reclaim a belt they've held 34 times previously. The visitors are unbeaten in their last four but face a Feyenoord side that has dominated this matchup historically, winning 33 of 61 all-time meetings.",
+  "key_matchups": [
+   "Feyenoord's explosive attack (15 goals in last 3 games) versus AZ's belt-defending resilience (11 successful defenses)",
+   "Home advantage for Feyenoord, who hold a 33-15 all-time edge in this rivalry",
+   "AZ's narrow recent form (1-0, 1-1 results) tested by Feyenoord's demolition jobs (5-0, 7-0 wins)"
+  ],
+  "betting_angles": "Feyenoord's scorching form with 15 goals in three games contrasts sharply with AZ's tighter recent results, suggesting the over 3.5 merits attention. The home side's -125 line seems reasonable given their historical dominance (33-15 all-time) and current momentum, though AZ's 6-0-1 record and 38% Elo win probability indicate this is no walkover. Recent head-to-head meetings have been close, with four of the last five ending in draws or one-goal margins, creating tension between Feyenoord's explosive current form and the rivalry's typical tightness.",
+  "predicted_winner": "Feyenoord",
+  "predicted_score": "AZ Alkmaar 1, Feyenoord 3",
+  "prediction_writeup": "Feyenoord's current form is simply too hot to ignore, with 15 goals across their last three victories including a 7-0 demolition and consecutive 5-0 and 5-2 wins. While AZ have been solid with just one draw blemishing their 6-0-1 record, their recent matches show a team grinding out results rather than dominating, with a 1-0 win and 1-1 draw in their last two. Feyenoord's historical edge at home and their attacking firepower should be enough to wrestle the belt away from the visitors. AZ's 11-defense reign comes to an end at De Kuip, where Feyenoord reclaim what they've held 34 times before.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}

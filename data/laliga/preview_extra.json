@@ -1,0 +1,56 @@
+{
+ "key": "Athletic Bilbao|Rayo Vallecano|2026-10-10",
+ "updated": "2026-09-29T01:50Z",
+ "start_utc": "2026-10-10T12:00Z",
+ "espn": {
+  "event_id": "401882849",
+  "start_utc": "2026-10-10T12:00Z",
+  "state": "pre",
+  "tv": [
+   "ESPN Deportes",
+   "ESPN+"
+  ],
+  "odds": {
+   "details": "ATH +130",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "Rayo Vallecano": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "abbr": "RAY",
+    "record": "2-2-3",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Athletic Bilbao": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "abbr": "ATH",
+    "record": "2-2-2",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Estadio de Vallecas",
+   "city": "Madrid",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Athletic Bilbao brings the Belt Holders lineal championship to Vallecas on October 10th, having defended it twice in their current reign. The Basque side has drawn their last two matches without scoring, while Rayo Vallecano enters off a 1-1 draw at Osasuna in mixed form. Athletic holds a commanding 26-9-11 all-time edge in this fixture.",
+  "key_matchups": [
+   "Athletic's scoring drought: The belt holders have managed just one goal across their last two draws after previously putting up 3-0 and 2-0 wins.",
+   "Rayo's defensive vulnerabilities: They've conceded four or more goals twice in their last five matches, including a 5-2 loss at Barcelona.",
+   "Historical dominance vs. recent parity: Athletic won four straight meetings before drawing 1-1 in February, suggesting Rayo may be closing the gap."
+  ],
+  "betting_angles": "Athletic are road underdogs at +130 despite holding the historical advantage, which reflects their recent goalless form and an even 2-2-2 season record. Rayo's 2-3-2 mark and leaky defense contrast with Athletic's tight recent performances (0-0, 1-1). The 41% Elo probability for Athletic suggests value on the visitors, while both teams' scoring inconsistency makes the over/under 2.5 line intriguing given Athletic's two scoreless draws and Rayo's high-scoring affairs.",
+  "predicted_winner": "Athletic Bilbao",
+  "predicted_score": "Athletic Bilbao 2, Rayo Vallecano 1",
+  "prediction_writeup": "Athletic Bilbao should break their scoring drought on the road and retain the belt. Despite back-to-back draws, they showed quality earlier with convincing wins over Atl\u00e9tico Madrid and Celta Vigo. Rayo's defensive issues\u2014shipping nine goals in two heavy defeats recently\u2014favor an Athletic side that has won four of the last five head-to-head meetings. The historical dominance (26-9-11 all-time) and two successful belt defenses already in this reign suggest the Basque club will navigate this tricky away fixture and keep the lineal championship moving forward.",
+  "written": "2026-09-29",
+  "model": "claude-sonnet-4-5"
+ }
+}
