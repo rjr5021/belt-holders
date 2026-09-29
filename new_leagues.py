@@ -260,7 +260,80 @@ def update_intl():
             hp, ap = (hp + 1, ap) if w == h else (hp, ap + 1)
             base["note_pen"] = "1"
         rows.append({**base, "home_points": hp, "away_points": ap, "note": note, "source": "martj42"})
+    try:
+        extra, extra_up = intl_espn_supplement(rows, fifa, today)
+    except Exception as e:  # noqa: BLE001 -- the supplement must never block martj42's own update
+        print(f"[intl] ESPN supplement failed: {type(e).__name__}: {e}")
+        extra, extra_up = [], []
+    rows += extra
+    have_up = {(u["date"], frozenset((u["home"], u["away"]))) for u in upcoming}
+    upcoming += [u for u in extra_up if (u["date"], frozenset((u["home"], u["away"]))) not in have_up]
     write("intl", rows, upcoming)
+
+
+# BH-14: martj42's file trails the real world by weeks, so the International belt went stale during
+# every international window, with no fixtures at all. ESPN's scoreboards fill the gap: results
+# since martj42's last day, and the next few weeks of fixtures. martj42 stays the record: an ESPN
+# row is dropped as soon as martj42 has the same pairing within a day of it.
+INTL_ESPN = ["fifa.friendly", "uefa.nations", "uefa.euroq", "uefa.euro", "fifa.world",
+             "fifa.worldq.uefa", "fifa.worldq.afc", "fifa.worldq.caf", "fifa.worldq.concacaf",
+             "fifa.worldq.conmebol", "fifa.worldq.ofc", "concacaf.nations.league", "concacaf.gold",
+             "caf.nations", "caf.nations_qual", "afc.asian.cup", "conmebol.america"]
+INTL_COMP = {"fifa.friendly": "Friendly", "uefa.nations": "UEFA Nations League", "uefa.euroq": "UEFA Euro qualification",
+             "uefa.euro": "UEFA Euro", "fifa.world": "FIFA World Cup", "concacaf.nations.league": "CONCACAF Nations League",
+             "concacaf.gold": "Gold Cup", "caf.nations": "African Cup of Nations", "caf.nations_qual": "African Cup of Nations qualification",
+             "afc.asian.cup": "AFC Asian Cup", "conmebol.america": "Copa América"}
+ESPN_TO_MJ = {"Bosnia-Herzegovina": "Bosnia and Herzegovina", "Brunei Darussalam": "Brunei", "Chinese Taipei": "Taiwan",
+              "Congo DR": "DR Congo", "Czechia": "Czech Republic", "Kyrgyz Republic": "Kyrgyzstan",
+              "Sao Tome and Principe": "São Tomé and Príncipe", "Türkiye": "Turkey",
+              "US Virgin Islands": "United States Virgin Islands", "China": "China PR"}
+
+
+def _mj_name(n, known):
+    n = ESPN_TO_MJ.get(n, n)
+    if n.startswith("St. "):
+        n = "Saint " + n[4:]
+    return n if n in known else (ESPN_TO_MJ.get(n) if ESPN_TO_MJ.get(n) in known else None)
+
+
+def intl_espn_supplement(rows, fifa, today, back_days=75, ahead_days=30):
+    from concurrent.futures import ThreadPoolExecutor
+    last = max((r["date"] for r in rows), default=today)
+    start = max(date.fromisoformat(last) - timedelta(days=3), date.fromisoformat(today) - timedelta(days=back_days))
+    end = date.fromisoformat(today) + timedelta(days=ahead_days)
+    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
+    jobs = [(slug, d) for slug in INTL_ESPN for d in days]
+    with ThreadPoolExecutor(8) as ex:
+        res = list(ex.map(lambda j: (j[0], espn_day(f"soccer/{j[0]}", j[1])), jobs))
+    mj = {(r["date"], frozenset((r["home"], r["away"]))) for r in rows}
+    near = lambda d, pair: any((dd, pair) in mj for dd in ((date.fromisoformat(d) + timedelta(days=k)).isoformat() for k in (-1, 0, 1)))
+    done, up, unknown, seen = [], [], Counter(), set()
+    for slug, (fin, pre) in res:
+        comp = INTL_COMP.get(slug, "FIFA World Cup qualification" if slug.startswith("fifa.worldq") else slug)
+        for r in fin + pre:
+            h, a = _mj_name(r["home"], fifa), _mj_name(r["away"], fifa)
+            if not h or not a:
+                unknown.update(x for x, y in ((r["home"], h), (r["away"], a)) if not y)
+                continue
+            pair = frozenset((h, a))
+            if near(r["date"], pair) or (r["date"], pair) in seen:
+                continue
+            seen.add((r["date"], pair))
+            base = {"id": f"int-{r['id']}", "date": r["date"], "season": int(r["date"][:4]),
+                    "season_type": "postseason" if slug == "fifa.world" else "regular",
+                    "home": h, "away": a, "neutral": r.get("neutral", "")}
+            if "home_points" in r:
+                note = comp
+                if r.get("note") == "pens":
+                    w = h if r["home_points"] > r["away_points"] else a
+                    note, base["note_pen"] = f"{comp}; {w} won on penalties", "1"
+                done.append({**base, "home_points": r["home_points"], "away_points": r["away_points"], "note": note, "source": "espn"})
+            elif r["date"] >= today:
+                up.append({**base, "start_et": r.get("start_et"), "tournament": comp})
+    if unknown:
+        print(f"[intl] ESPN teams with no martj42 match (skipped): {dict(unknown.most_common(12))}")
+    print(f"[intl] ESPN supplement: {len(done)} results after martj42's last day ({last}), {len(up)} fixtures")
+    return done, up
 
 
 # ================================================================== PWHL ==
