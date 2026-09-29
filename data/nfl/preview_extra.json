@@ -1,6 +1,6 @@
 {
  "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-29T08:33Z",
+ "updated": "2026-09-29T10:33Z",
  "start_utc": "2026-10-04T17:00Z",
  "espn": {
   "event_id": "401872969",
@@ -12,7 +12,7 @@
   "odds": {
    "details": "CIN -2.5",
    "over_under": 51.5,
-   "provider": "Draft Kings"
+   "provider": "DraftKings"
   },
   "teams": {
    "CIN": {
@@ -40,7 +40,7 @@
  "weather": {
   "temp_f": 68,
   "feels_like_f": 65,
-  "precip_chance": 31,
+  "precip_chance": 25,
   "wind_mph": 7,
   "condition": "Overcast",
   "as_of": "2026-09-29",
