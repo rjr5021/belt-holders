@@ -133,7 +133,11 @@ LOGO = ('<svg width="40" height="24" viewBox="0 0 40 24" fill="none" aria-hidden
 NOINDEX = set()      # paths written with a noindex robots tag; build_sitemap leaves them out (BH-1)
 
 
-def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None, robots=None):
+TITLE_SUFFIX = " | Belt Holders"
+TITLE_MAX = 65
+
+
+def page(title, body, *, path, description, active=None, og_image="/og.png", jsonld=None, robots=None, og_title=None):
     if robots and "noindex" in robots:
         NOINDEX.add(path)
     nav = []
@@ -158,13 +162,15 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
     goat = (f'<script data-goatcounter="https://{GOATCOUNTER_CODE}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
             if GOATCOUNTER_CODE else "")
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
-    full_title = title if "Belt Holders" in title else f"{title} · Belt Holders"
+    full_title = og_title or (title if "Belt Holders" in title else f"{title} · Belt Holders")   # og:title keeps the long form
+    # BH-10: the <title> gets the " | Belt Holders" suffix only while it stays within 65 characters
+    tag_title = title if ("Belt Holders" in title or len(title) + len(TITLE_SUFFIX) > TITLE_MAX) else title + TITLE_SUFFIX
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(full_title)}</title>
+<title>{e(tag_title)}</title>
 <meta name="description" content="{e(description)}">
 {f'<meta name="robots" content="{robots}">' + chr(10) if robots else ""}<link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
