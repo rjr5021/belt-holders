@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401922307",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Fiji",
-  "away": "New Caledonia",
-  "neutral": "",
-  "start_et": "03:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401917065",
   "date": "2026-09-30",
   "season": 2026,
@@ -493,6 +482,17 @@
   "neutral": "",
   "start_et": "22:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401927444",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Vanuatu",
+  "away": "Fiji",
+  "neutral": "",
+  "start_et": "00:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401861111",
