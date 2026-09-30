@@ -11,6 +11,8 @@ What it posts, per enabled league (X_LEAGUES, default "nhl"):
     sudden-death overtime);
   * an end post for every belt game: a short line for a defense, the full treatment
     (card image) for a title change.
+X bills a post with a link at about 13x a plain one, so only the morning post, start
+posts and title changes carry a link to the site; danger posts and defenses don't.
 
 Where the facts come from:
   * which belts are on the line today, holders, defenses, start times and win
@@ -281,8 +283,7 @@ def danger_text(g, ev):
         head = f"\U0001F6A8 SUDDEN DEATH — next goal decides the {g['belt']} belt"
     else:
         head = f"\U0001F6A8 BELT IN DANGER — {g['holder_short']} {verb(g['lg'], 'trail', 'trails')} late"
-    return (f"{head}\n\n{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']} ({ev['detail']}).\n\n"
-            + link(g["next_url"] or g["url"], "live-danger"))
+    return f"{head}\n\n{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']} ({ev['detail']})."
 
 
 def end_text(g, ev):
@@ -295,9 +296,9 @@ def end_text(g, ev):
         n = g["defenses"] + 1
         if ev["hs"] == ev["os"]:
             return (f"\U0001F6E1️ FINAL — a draw, and {g['holder']} {verb(g['lg'], 'keep', 'keeps')} the {g['belt']} belt\n\n"
-                    f"{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']}. Defense #{n} of the reign.\n\n{url}")
+                    f"{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']}. Defense #{n} of the reign.")
         return (f"\U0001F6E1️ FINAL — {g['holder']} {verb(g['lg'], 'defend', 'defends')} the {g['belt']} belt\n\n"
-                f"{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']}{note}. Defense #{n} of the reign.\n\n{url}")
+                f"{g['holder_short']} {ev['hs']}, {g['opponent_short']} {ev['os']}{note}. Defense #{n} of the reign.")
     days = (date.fromisoformat(ev["day"]) - date.fromisoformat(g["since"])).days if g.get("since") else None
     who = g["holder_short"] + ("'" if g["holder_short"].endswith("s") else "'s")
     defs = "without a successful defense" if not g["defenses"] else f"with {g['defenses']} defense{'s' if g['defenses'] != 1 else ''}"
