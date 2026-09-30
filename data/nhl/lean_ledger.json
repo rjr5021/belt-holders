@@ -22,5 +22,19 @@
   "score": "Carolina Hurricanes 4, Washington Capitals 2",
   "made": "2026-09-30",
   "line": null
+ },
+ {
+  "key": "FLA|SJS|2026-10-01",
+  "date": "2026-10-01",
+  "holder": "FLA",
+  "challenger": "SJS",
+  "pick": "FLA",
+  "score": "Florida Panthers 3, San Jose Sharks 2",
+  "made": "2026-09-30",
+  "line": {
+   "details": "FLA -135",
+   "over_under": 6.5,
+   "provider": "Draft Kings"
+  }
  }
 ]
