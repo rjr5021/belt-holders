@@ -229619,3 +229619,4 @@ id,date,season,season_type,home,away,home_points,away_points,neutral,note,source
 2026-09-27-1-824705,2026-09-27,2026,regular,m111,m112,2,6,,,mlbapi
 2026-09-27-1-824948,2026-09-27,2026,regular,m133,m117,0,9,,,mlbapi
 2026-09-29-1-849845,2026-09-29,2026,postseason,m144,m143,5,3,,,mlbapi
+2026-09-29-1-849849,2026-09-29,2026,postseason,m117,m145,3,6,,,mlbapi

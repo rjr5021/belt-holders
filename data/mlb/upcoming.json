@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-09-29-1-849851",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m147",
-  "away": "m111",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Yankee Stadium",
-  "series": "AL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-09-29-1-849843",
   "date": "2026-09-29",
   "season": 2026,
