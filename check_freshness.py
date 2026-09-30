@@ -7,8 +7,9 @@ saying "In season". Run after the data updates and before build_site.py:
     python check_freshness.py          # writes data/health.json, prints a summary
 
 A league is flagged "delayed" when
-  * a game on its schedule is 2+ days past with no result, and no result at all has
-    come in since that date (a single postponed game doesn't trip it), or
+  * a game on its schedule is from yesterday or earlier (checked from 9 a.m. Eastern, so
+    last night's late games have finished) with no result, and no result at all has come
+    in since that date (a single postponed game doesn't trip it), or
   * it's in season, results were coming in, and the newest is more than STALE_DAYS old
     (a season opener after a summer break doesn't trip it).
 build_site.py shows a "Data delayed" pill on that league's tile and page and puts the
@@ -18,12 +19,19 @@ flag in api/current.json; the deploy workflow opens (or comments on) a GitHub is
 import json
 import os
 import sys
-from datetime import date, timedelta
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 STALE_DAYS = 16          # longer than any in-season gap (international breaks, All-Star breaks)
 
 
-def check(lg, today):
+def overdue_cutoff(now_et):
+    """Scheduled games on or before this date should have a result by now: yesterday once
+    it's 9 a.m. Eastern (every game from last night is over), otherwise the day before."""
+    return now_et.date() - timedelta(days=1 if now_et.hour >= 9 else 2)
+
+
+def check(lg, today, cutoff=None):
     try:
         games, upcoming = lg["load_games"](refresh=False)
     except TypeError:
@@ -31,7 +39,8 @@ def check(lg, today):
     except Exception as e:  # noqa: BLE001
         return {"ok": False, "reason": f"couldn't load games: {type(e).__name__}"}
     newest = max((g["date"] for g in games), default="")
-    overdue = sorted(g["date"] for g in upcoming if g["date"] <= (today - timedelta(days=2)).isoformat())
+    cutoff = cutoff or (today - timedelta(days=2))
+    overdue = sorted(g["date"] for g in upcoming if g["date"] <= cutoff.isoformat())
     status = lg["season_status"](today.isoformat(), [g for g in upcoming if g["date"] >= today.isoformat()])
     if overdue and newest < overdue[0]:
         return {"ok": False, "newest_result": newest,
@@ -45,10 +54,11 @@ def check(lg, today):
 
 def main():
     from leagues import LIVE
-    today = date.today()
+    now_et = datetime.now(ZoneInfo("America/New_York"))
+    today = now_et.date()
     out = {"checked": today.isoformat(), "leagues": {}}
     for lg in LIVE:
-        out["leagues"][lg["key"]] = check(lg, today)
+        out["leagues"][lg["key"]] = check(lg, today, overdue_cutoff(now_et))
     bad = {k: v for k, v in out["leagues"].items() if not v["ok"]}
     os.makedirs("data", exist_ok=True)
     with open(os.path.join("data", "health.json"), "w") as f:

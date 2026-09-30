@@ -94,6 +94,9 @@ def today_et():
 # ===================================================================== NHL ==
 
 NHL_API = "https://api.nhle.com/stats/rest/en/game?cayenneExp=season={s}"
+# The NHL's servers refuse Python's default "Python-urllib" user agent (every request fails),
+# the same as the box-score job found (BH-15); send a named one like nhl_boxscores.py does.
+NHL_UA = "Mozilla/5.0 (compatible; beltholders.com game data; +https://beltholders.com/about/)"
 NHL_FINAL_STATES = {5, 6, 7}
 NHL_UPCOMING_STATES = {1, 2, 8, 9}  # FUT, PRE, TBD, PPD
 
@@ -110,7 +113,7 @@ def nhl_note(g):
 
 def nhl_fetch_season(start_year):
     code = f"{start_year}{start_year + 1}"
-    data = get(NHL_API.format(s=code))["data"]
+    data = get(NHL_API.format(s=code), ua=NHL_UA)["data"]
     done, upcoming = [], []
     for g in data:
         if g.get("gameType") not in (2, 3):   # 1 preseason, 4 all-star, 12+ special events
