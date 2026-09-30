@@ -1,0 +1,57 @@
+# Belt-game posts for @thebeltholders on X (x_posts.py): a morning "belts on the line
+# today" post, a "belt in danger" post when a holder trails late, and an end post for
+# every belt game (a card image for a title change). Start posts only for
+# X_START_LEAGUES. Runs every 15 minutes from 9 a.m. to 3 a.m. ET; when a belt game
+# is starting or live, the run stays on and polls every minute until it's final.
+#
+# Turning it on (Settings > Secrets and variables > Actions):
+#   Secrets:   X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET
+#              (the @thebeltholders developer app, read and write)
+#   Variables: X_LIVE = 1        (anything else, or unset: dry run, posts are only printed)
+#              X_LEAGUES = nhl   (space-separated belt keys; add nfl, nba, epl ... later)
+#              X_START_LEAGUES = nfl
+name: X posts (@thebeltholders)
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Post for real (1) or print only (0)"
+        required: false
+        default: "0"
+  schedule:
+    - cron: "*/15 13-23 * * *"
+    - cron: "*/15 0-7 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: x-posts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Install
+        run: pip install tweepy pillow
+      - name: Post
+        env:
+          X_LIVE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.live || vars.X_LIVE || '0' }}
+          X_LEAGUES: ${{ vars.X_LEAGUES || 'nhl' }}
+          X_START_LEAGUES: ${{ vars.X_START_LEAGUES || 'nfl' }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python -u x_posts.py --watch
