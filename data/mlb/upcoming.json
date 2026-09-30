@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-09-30-1-849846",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m117",
-  "away": "m145",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "17:00",
-  "venue": "Daikin Park",
-  "series": "AL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-09-30-1-849848",
   "date": "2026-09-30",
   "season": 2026,
@@ -53,7 +39,7 @@
   "start_et": "14:00",
   "venue": "Truist Park",
   "series": "NL Wild Card Series",
-  "if_necessary": true
+  "if_necessary": false
  },
  {
   "id": "2026-10-01-1-849850",
