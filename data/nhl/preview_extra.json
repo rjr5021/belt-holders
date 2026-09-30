@@ -1,30 +1,28 @@
 {
- "key": "CAR|FLA|2026-09-29",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-09-29T21:00Z",
+ "key": "CAR|WSH|2026-10-02",
+ "updated": "2026-09-30T00:40Z",
+ "start_utc": "2026-10-02T23:00Z",
  "espn": {
-  "event_id": "401891773",
-  "start_utc": "2026-09-29T21:00Z",
+  "event_id": "401892432",
+  "start_utc": "2026-10-02T23:00Z",
   "state": "pre",
   "tv": [
-   "ESPN"
+   "ESPN+",
+   "MNMT",
+   "CARNHL"
   ],
-  "odds": {
-   "details": "CAR -130",
-   "over_under": 6.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
    "CAR": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
     "abbr": "CAR",
-    "record": "0-0-0",
+    "record": "0-0-1",
     "rank": null,
     "home_away": "home"
    },
-   "FLA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-    "abbr": "FLA",
+   "WSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
+    "abbr": "WSH",
     "record": "0-0-0",
     "rank": null,
     "home_away": "away"
@@ -39,17 +37,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Carolina Hurricanes put their lineal championship belt on the line against the Florida Panthers in what promises to be a compelling matchup between two teams riding hot streaks. Carolina has defended the belt twice in this reign and enters with a 69-32 record, while Florida sits at 40-42 but has been surging lately. The belt will change hands based solely on the outcome of this game, with no committee or poll involved.",
+  "overview": "The Carolina Hurricanes put their lineal championship belt on the line when they host the Washington Capitals on October 2nd. Carolina has defended the belt twice in this reign and enters on a three-game winning streak that includes playoff victories over Vegas. Washington arrives riding a four-game win streak of their own, setting up a clash between two hot teams with the belt hanging in the balance.",
   "key_matchups": [
-   "Elite vs. resurgent: Carolina's 69-32 regular season dominance meets Florida's 3-game win streak that includes an 8-1 demolition of Detroit",
-   "Recent history heavily favors the Hurricanes, who won the last head-to-head meeting 9-1 and hold a 76-69-11 edge all-time",
-   "Both teams fresh off playoff-caliber performances: Carolina just finished a playoff series with Vegas, while Florida has outscored opponents 17-5 in their last three"
+   "Hot streaks collide: Carolina's 3-game win streak versus Washington's 4-game run",
+   "Carolina's 69-32 regular season record against Washington's 43-39 mark suggests a talent gap",
+   "Washington holds the all-time edge 113-81-14 but enters as significant underdogs per Elo"
   ],
-  "betting_angles": "The Elo model's 68% win probability for Carolina aligns with the -125 moneyline, suggesting the market sees this as a clear but not overwhelming home favorite situation. Carolina's superior 69-32 record contrasts sharply with Florida's 40-42 mark, though both teams arrive on identical 3-game winning streaks. The over/under of 6.5 sits at an interesting spot given Carolina's recent 9-1 drubbing of Florida in their last meeting and Florida's offensive explosion in their 8-1 win over Detroit.",
+  "betting_angles": "Carolina's superior 69-32 record and 68% Elo win probability contrast with Washington's recent head-to-head success, having taken 3 of the last 5 meetings. The Hurricanes appear to be the stronger team on paper, but the Capitals have proven they can win this matchup. Carolina's playoff-tested form from their recent Vegas series may give them an edge at home.",
   "predicted_winner": "Carolina Hurricanes",
-  "predicted_score": "Carolina Hurricanes 4, Florida Panthers 2",
-  "prediction_writeup": "Carolina's overwhelming regular season record of 69-32 and home ice advantage should prove decisive against a Florida team that finished 40-42. While both teams are riding 3-game winning streaks, the Hurricanes' recent playoff experience against Vegas and their dominant 9-1 victory over Florida back in January suggest a higher gear. The Panthers have shown they can score in bunches with that 8-1 win over Detroit, so they won't go quietly. Carolina defends the belt for a third consecutive time in what should be a competitive but ultimately controlled home victory.",
-  "written": "2026-09-28",
+  "predicted_score": "Carolina Hurricanes 4, Washington Capitals 2",
+  "prediction_writeup": "Carolina's dominant 69-32 season and momentum from playoff wins over Vegas should carry them through at home. While Washington has won 3 of the last 5 head-to-head meetings, those were spread across the regular season when contexts varied. The Hurricanes are battle-tested from their recent playoff series and have the home ice advantage. Washington's 43-39 record suggests a team that's streaky but ultimately less consistent than Carolina, and the 68% Elo probability reinforces the talent gap between these clubs.",
+  "written": "2026-09-30",
   "model": "claude-sonnet-4-5"
  }
 }

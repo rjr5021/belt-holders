@@ -12,5 +12,15 @@
    "over_under": 6.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "CAR|WSH|2026-10-02",
+  "date": "2026-10-02",
+  "holder": "CAR",
+  "challenger": "WSH",
+  "pick": "CAR",
+  "score": "Carolina Hurricanes 4, Washington Capitals 2",
+  "made": "2026-09-30",
+  "line": null
  }
 ]
