@@ -384,7 +384,23 @@ def one_pass(st, day):
     return watching
 
 
+def check():
+    """--check: sign in with the X secrets and print which account they post as. Posts nothing."""
+    missing = [k for k in REQUIRED if not os.environ.get(k)]
+    if missing:
+        sys.exit(f"missing secrets: {', '.join(missing)}")
+    import tweepy
+    me = tweepy.Client(consumer_key=os.environ["X_API_KEY"], consumer_secret=os.environ["X_API_KEY_SECRET"],
+                       access_token=os.environ["X_ACCESS_TOKEN"], access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]).get_me()
+    name = me.data.username
+    print(f"The X secrets post as @{name}. X_LIVE variable is {os.environ.get('X_LIVE_VAR') or 'not set'} (1 = posting on).")
+    if name.lower() != "thebeltholders":
+        sys.exit("!! That isn't @thebeltholders: re-run x_authorize.py logged in as @thebeltholders and update the secrets.")
+
+
 def main():
+    if "--check" in sys.argv:
+        return check()
     watch = "--watch" in sys.argv
     print(f"X posts: leagues {LEAGUES}, {'LIVE' if LIVE else 'dry run'}")
     st = load_state()
