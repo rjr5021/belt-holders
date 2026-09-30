@@ -1,101 +1,13 @@
 [
  {
-  "id": "int-espn-401900609",
+  "id": "int-espn-401903234",
   "date": "2026-09-29",
   "season": 2026,
   "season_type": "regular",
-  "home": "British Virgin Islands",
-  "away": "Turks and Caicos Islands",
+  "home": "Mexico",
+  "away": "Peru",
   "neutral": "",
-  "start_et": "15:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401919992",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Benin",
-  "away": "Mauritania",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401919995",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Congo",
-  "away": "Cameroon",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401919993",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Gabon",
-  "away": "Niger",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401919994",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Liberia",
-  "away": "Mali",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401919996",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Somalia",
-  "away": "Ivory Coast",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401900606",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "United States Virgin Islands",
-  "away": "Bahamas",
-  "neutral": "",
-  "start_et": "16:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401900608",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Anguilla",
-  "away": "Aruba",
-  "neutral": "",
-  "start_et": "19:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401905189",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "United States",
-  "away": "Chile",
-  "neutral": "",
-  "start_et": "20:00",
+  "start_et": "21:00",
   "tournament": "Friendly"
  },
  {
@@ -108,17 +20,6 @@
   "neutral": "",
   "start_et": "22:00",
   "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401903234",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Mexico",
-  "away": "Peru",
-  "neutral": "",
-  "start_et": "22:30",
-  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401922308",
