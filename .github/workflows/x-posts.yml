@@ -19,6 +19,10 @@ on:
         description: "Post for real (1) or print only (0)"
         required: false
         default: "0"
+      check:
+        description: "Only check which account the X secrets post as (1)"
+        required: false
+        default: "0"
   schedule:
     - cron: "*/15 13-23 * * *"
     - cron: "*/15 0-7 * * *"
@@ -48,10 +52,11 @@ jobs:
       - name: Post
         env:
           X_LIVE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.live || vars.X_LIVE || '0' }}
+          X_LIVE_VAR: ${{ vars.X_LIVE }}
           X_LEAGUES: ${{ vars.X_LEAGUES || 'nhl' }}
           X_START_LEAGUES: ${{ vars.X_START_LEAGUES || 'nfl' }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: python -u x_posts.py --watch
+        run: python -u x_posts.py ${{ github.event.inputs.check == '1' && '--check' || '--watch' }}
