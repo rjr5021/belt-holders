@@ -1,38 +1,5 @@
 [
  {
-  "id": "int-espn-401903234",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Mexico",
-  "away": "Peru",
-  "neutral": "",
-  "start_et": "21:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401900605",
-  "date": "2026-09-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Belize",
-  "away": "Saint Vincent and the Grenadines",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401922308",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Papua New Guinea",
-  "away": "Solomon Islands",
-  "neutral": "",
-  "start_et": "00:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401922307",
   "date": "2026-09-30",
   "season": 2026,
@@ -51,7 +18,7 @@
   "home": "Seychelles",
   "away": "Sri Lanka",
   "neutral": "",
-  "start_et": "09:00",
+  "start_et": "08:00",
   "tournament": "Friendly"
  },
  {
