@@ -616,17 +616,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401922273",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Morocco",
-  "away": "Mali",
-  "neutral": "",
-  "start_et": "12:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401861121",
   "date": "2026-10-04",
   "season": 2026,
@@ -655,6 +644,17 @@
   "season_type": "regular",
   "home": "Egypt",
   "away": "South Africa",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401922273",
+  "date": "2026-10-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Morocco",
+  "away": "Ghana",
   "neutral": "",
   "start_et": "14:00",
   "tournament": "Friendly"
