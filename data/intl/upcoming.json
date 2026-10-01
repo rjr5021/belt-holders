@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401924629",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Cook Islands",
-  "away": "Tahiti",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401919420",
   "date": "2026-10-01",
   "season": 2026,
