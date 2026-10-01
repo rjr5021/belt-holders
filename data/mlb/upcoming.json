@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-09-30-1-849842",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m135",
-  "away": "m112",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "22:00",
-  "venue": "Petco Park",
-  "series": "NL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-01-1-849844",
   "date": "2026-10-01",
   "season": 2026,
