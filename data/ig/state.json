@@ -1,5 +1,7 @@
 {
- "log": [],
+ "log": [
+  "2026-10-01 11:44 preview nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd9QqkDljOS/"
+ ],
  "pending": {
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01": {
    "belt_name": "The NHL Belt",
@@ -16,6 +18,8 @@
    "since": "2026-09-29"
   }
  },
- "previews": [],
+ "previews": [
+  "nhl|Florida Panthers|San Jose Sharks|2026-10-01"
+ ],
  "results": []
 }
