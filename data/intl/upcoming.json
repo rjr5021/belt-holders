@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401921545",
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Argentina",
-  "away": "Bolivia",
-  "neutral": "",
-  "start_et": "20:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401924629",
   "date": "2026-09-30",
   "season": 2026,
@@ -64,17 +53,6 @@
   "neutral": "",
   "start_et": "12:00",
   "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401906313",
-  "date": "2026-10-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Panama",
-  "away": "New Zealand",
-  "neutral": "",
-  "start_et": "14:00",
-  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401861096",
@@ -161,7 +139,7 @@
   "home": "British Virgin Islands",
   "away": "Montserrat",
   "neutral": "",
-  "start_et": "15:00",
+  "start_et": "16:00",
   "tournament": "CONCACAF Nations League"
  },
  {
@@ -649,6 +627,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401922273",
+  "date": "2026-10-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Morocco",
+  "away": "Mali",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401861121",
   "date": "2026-10-04",
   "season": 2026,
@@ -677,17 +666,6 @@
   "season_type": "regular",
   "home": "Egypt",
   "away": "South Africa",
-  "neutral": "",
-  "start_et": "14:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401922273",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Morocco",
-  "away": "Ghana",
   "neutral": "",
   "start_et": "14:00",
   "tournament": "Friendly"
@@ -759,23 +737,23 @@
   "tournament": "CONCACAF Nations League"
  },
  {
-  "id": "int-espn-401900587",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Turks and Caicos Islands",
-  "away": "British Virgin Islands",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401900585",
   "date": "2026-10-04",
   "season": 2026,
   "season_type": "regular",
   "home": "Bahamas",
   "away": "United States Virgin Islands",
+  "neutral": "",
+  "start_et": "16:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401900587",
+  "date": "2026-10-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Turks and Caicos Islands",
+  "away": "British Virgin Islands",
   "neutral": "",
   "start_et": "16:00",
   "tournament": "CONCACAF Nations League"
@@ -1166,17 +1144,6 @@
   "tournament": "UEFA Nations League"
  },
  {
-  "id": "int-espn-401900572",
-  "date": "2026-10-06",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Montserrat",
-  "away": "Turks and Caicos Islands",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401919990",
   "date": "2026-10-06",
   "season": 2026,
@@ -1197,6 +1164,17 @@
   "neutral": "",
   "start_et": "15:30",
   "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401900572",
+  "date": "2026-10-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Montserrat",
+  "away": "Turks and Caicos Islands",
+  "neutral": "",
+  "start_et": "16:00",
+  "tournament": "CONCACAF Nations League"
  },
  {
   "id": "int-espn-401921408",

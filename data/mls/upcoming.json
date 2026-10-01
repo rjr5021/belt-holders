@@ -1,22 +1,5 @@
 [
  {
-  "id": "espn-761833",
-  "date": "2026-09-30",
-  "season_type": "regular",
-  "home": "Red Bull New York",
-  "away": "St. Louis CITY SC",
-  "home_id": "190",
-  "away_id": "21812",
-  "home_abbr": "RBNY",
-  "away_abbr": "STL",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "19:30",
-  "season": 2026
- },
- {
   "id": "espn-761798",
   "date": "2026-10-01",
   "season_type": "regular",
