@@ -1,0 +1,39 @@
+{
+ "digest": "2026-10-01",
+ "games": {},
+ "log": [
+  [
+   "2026-10-01T09:15-04:00",
+   "digest",
+   1
+  ]
+ ],
+ "today": {
+  "day": "2026-10-01",
+  "games": [
+   {
+    "belt": "NHL",
+    "colors": [
+     "#041e42",
+     "#c8102e"
+    ],
+    "defenses": 0,
+    "holder": "Florida Panthers",
+    "holder_short": "Panthers",
+    "home": false,
+    "lg": "nhl",
+    "name": "The NHL Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "San Jose Sharks",
+    "opponent_short": "Sharks",
+    "reign_no": 55,
+    "since": "2026-09-29",
+    "time_et": "22:00",
+    "tv": null,
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.532
+   }
+  ]
+ }
+}
