@@ -68,7 +68,7 @@ BRAND = SITE_CFG.get("brand", "Belt Holders")
 HANDLE = SITE_CFG.get("handle", "@thebeltholders")
 DOMAIN = SITE_CFG.get("domain", "beltholders.com")
 ABOUT = SITE_CFG.get("about", "beltholders.com, which tracks lineal championship belts in pro sports")
-LEAGUES = [x for x in os.environ.get("IG_LEAGUES", SITE_CFG.get("leagues", "nhl")).replace(",", " ").split() if x]
+LEAGUES = [x for x in (os.environ.get("IG_LEAGUES") or SITE_CFG.get("leagues", "nhl")).replace(",", " ").split() if x]
 REQUIRED = ("IG_ACCESS_TOKEN", "IG_BUSINESS_ACCOUNT_ID")
 DRY = os.environ.get("IG_DRY_RUN") == "1"
 LIVE = (not DRY) and os.environ.get("IG_LIVE", "1") == "1" and all(os.environ.get(k) for k in REQUIRED)
@@ -88,6 +88,30 @@ ESPN = {"nfl": "football/nfl", "nba": "basketball/nba", "nhl": "hockey/nhl", "ml
 SPORT = {"nfl": "football", "cfl": "football", "nba": "basketball", "wnba": "basketball", "nhl": "hockey",
          "pwhl": "hockey", "mlb": "baseball", "cbb": "basketball", "wcbb": "basketball"}
 EST = {"nhl": 1917, "nfl": 1920, "nba": 1946, "mlb": 1876}
+COLLEGE = {"cbb", "wcbb", "cfb"}
+EMOJI = {"hockey": "🏒", "basketball": "🏀", "football": "🏈", "baseball": "⚾"}
+
+
+def the(lg, name):
+    """'the Panthers' for pro nicknames, plain 'Michigan' for colleges."""
+    return name if lg in COLLEGE else f"the {name}"
+
+
+def cap1(text):
+    return text[:1].upper() + text[1:]
+
+
+def vb(lg, plural, singular):
+    """Pro nicknames are plural ('the Panthers hold'), schools singular ('Michigan holds')."""
+    return singular if lg in COLLEGE else plural
+
+
+def poss(name):
+    return name + ("'" if name.endswith("s") else "'s")
+
+
+def unit(lg):
+    return "program" if lg in COLLEGE else "franchise"
 
 
 # ------------------------------------------------------------------ basics --
@@ -517,15 +541,19 @@ BELT_SVG = """<svg class="belt" viewBox="0 0 260 150" fill="none">
 </svg>"""
 
 
-def header(lg, belt_name, est=None):
+def header(lg, belt_name, est=None, right=None):
     est = est or EST.get(lg)
-    right = f"{belt_name} · Since {est}" if est else belt_name
+    if not right:
+        if fold(belt_name) == fold(BRAND):
+            right = f"Est. {est} · Lineal title" if est else "Lineal title"
+        else:
+            right = f"{belt_name} · Since {est}" if est else belt_name
     return f"""<div class="hdr">
   <div class="brand">
     <svg width="52" height="34" viewBox="0 0 34 22" fill="none"><rect x="0" y="8" width="34" height="6" rx="1" fill="#211a12"/><rect x="3" y="6" width="6" height="10" rx="1" fill="#a97f38"/><rect x="25" y="6" width="6" height="10" rx="1" fill="#a97f38"/><path d="M17 0 L24 4 L24 18 L17 22 L10 18 L10 4 Z" fill="#a97f38" stroke="#211a12" stroke-width="1.5"/><circle cx="17" cy="11" r="3.5" fill="#211a12"/></svg>
-    <div class="disp wm">{esc(BRAND)}</div>
+    <div class="disp wm" style="white-space:nowrap">{esc(BRAND)}</div>
   </div>
-  <div class="mono est">{esc(right)}</div>
+  <div class="mono est" style="white-space:nowrap">{esc(right)}</div>
 </div>
 <div class="rule"></div>"""
 
@@ -853,21 +881,21 @@ def build_preview(lg, belt, workdir):
     }
     cap = claude_caption("preview", facts, lg) or {
         "caption": (f"{days_held:,} {'day' if days_held == 1 else 'days'}. {defenses} "
-                    f"{'defense' if defenses == 1 else 'defenses'}. One belt. The {oshort} get their shot {day_part(kick)}. 🏆\n\n"
-                    f"The {holder} hold {belt.get('name')}" + (f", taken from the {won_from} on {since:%b} {since.day}" if won_from else "")
-                    + f" — the franchise's {ordinal(reign_no)} reign." + (f" Belt game No. {game_no:,}." if game_no else "") + "\n\n"
+                    f"{'defense' if defenses == 1 else 'defenses'}. One belt. {cap1(the(lg, oshort))} {vb(lg, 'get their', 'gets its')} shot {day_part(kick)}. 🏆\n\n"
+                    f"{cap1(the(lg, holder))} {vb(lg, 'hold', 'holds')} {belt.get('name')}" + (f", taken from {the(lg, won_from)} on {since:%b} {since.day}" if won_from else "")
+                    + f" — the {unit(lg)}'s {ordinal(reign_no)} reign." + (f" Belt game No. {game_no:,}." if game_no else "") + "\n\n"
                     "No committee, no poll — beat the holder, take the belt.\n\n"
-                    f"🏒 {kick.astimezone(ET):%a} · {clock(kick)} ET" + (f" · {' + '.join(nets[:2])}" if nets else "")
+                    f"{EMOJI.get(SPORT.get(lg), '⚽')} {kick.astimezone(ET):%a} · {clock(kick)} ET" + (f" · {' + '.join(nets[:2])}" if nets else "")
                     + (f" · {venue}" if venue else "") + "\n🔗 Preview and the full chain of custody → link in bio\n\n"
                     + facts["hashtag_suggestion"]), "note_bold": "", "note_rest": ""}
     nb = cap.get("note_bold") or (f"{len(met)} belt games between these two." if met else "First belt game between these two.")
-    nr = cap.get("note_rest") or (f"The {hshort} took the belt on {since:%b} {since.day}.")
+    nr = cap.get("note_rest") or (f"{cap1(the(lg, hshort))} took the belt on {since:%b} {since.day}.")
 
     lp, la = team_colors(ht, data)
     rp, ra = team_colors(ot, data)
     cl = panel_colors(lp, la)
     cr = panel_colors(distinct_right(cl[0], rp, ra), [])
-    body = f"""{header(lg, belt.get('name') or lg.upper(), data.get('est'))}
+    body = f"""{header(lg, belt.get('name') or lg.upper(), data.get('est'), data.get('header'))}
 <div class="mono kicker"><span class="dot"></span>{('Belt game No. ' + f'{game_no:,}' + ' · ') if game_no else ''}{esc(day_part(kick))}</div>
 <div class="disp h1">Belt on <span class="thin">the line</span></div>
 <div class="mono when">{when}</div>
@@ -957,14 +985,14 @@ def build_result(p, workdir, summ=None):
         h1 = 'New <span class="thin">champion</span>'
         when_tail = f"<b>{esc(wt.get('abbreviation') or winner)}</b>'s {ordinal(o_n + 1)} reign begins"
         role_l, role_r = f"New holder · {ordinal(o_n + 1)} reign", f"Dethroned · {days_held:,} {'day' if days_held == 1 else 'days'}"
-        capline = f"Moves to {city}" if city else f"Goes to the {wshort}"
+        capline = f"Moves to {city}" if city else f"Goes to {the(lg, wshort)}"
         tile1 = (f"{days_held:,}", f"Days {lt.get('abbreviation') or lshort} held it")
     else:
         h1 = 'Belt <span class="thin">defended</span>'
         when_tail = f"<b>{ordinal(defense_no)} defense</b> this reign"
         role_l = "Holder · retains" if not tie else "Holder · retains on a tie"
         role_r = f"Challenger · last held {o_last}" if o_last else "Challenger · never held it"
-        capline = f"Stays in {city}" if city else f"Stays with the {wshort}"
+        capline = f"Stays in {city}" if city else f"Stays with {the(lg, wshort)}"
         tile1 = (f"{days_held:,}", "Days held this reign")
     tiles = [tile1, stand or (f"{w_pts}–{l_pts}", "Final")]
     if nxt:
@@ -1003,16 +1031,16 @@ def build_result(p, workdir, summ=None):
     if not cap:
         nl = ""
         if nxt:
-            nl = (f"Next up: {'vs.' if nxt['home'] else 'at'} the {nxt['opp_short'] or nxt['opp']}, "
+            nl = (f"Next up: {'vs.' if nxt['home'] else 'at'} {the(lg, nxt['opp_short'] or nxt['opp'])}, "
                   f"{nxt['date']:%a} {nxt['date']:%b} {nxt['date'].day}, {clock(nxt['dt'])} ET. Beat the holder, take the belt.\n\n")
         lead = (f"{p.get('belt_name')} has a new home. 🏆\n\n{winner} {w_pts}, {loser} {l_pts}{(' (' + extra + ')') if extra else ''}. "
-                f"The {wshort} take the belt and end the {lshort}' run at {days_held:,} {'day' if days_held == 1 else 'days'}.\n\n") if changed else \
-               (f"The belt stays with the {wshort}. 🏆\n\n{winner} {w_pts}, {loser} {l_pts}{(' (' + extra + ')') if extra else ''}. "
+                f"{cap1(the(lg, wshort))} {vb(lg, 'take', 'takes')} the belt and {vb(lg, 'end', 'ends')} {poss(the(lg, lshort))} run at {days_held:,} {'day' if days_held == 1 else 'days'}.\n\n") if changed else \
+               (f"The belt stays with {the(lg, wshort)}. 🏆\n\n{winner} {w_pts}, {loser} {l_pts}{(' (' + extra + ')') if extra else ''}. "
                 f"Defense No. {defense_no} of the reign.\n\n")
         cap = {"caption": lead + (f"Belt game No. {game_no:,} is in the books.\n\n" if game_no else "") + nl
                + "🔗 Box score and the full chain of custody → link in bio\n\n" + facts["hashtag_suggestion"],
                "note_bold": "", "note_rest": ""}
-    nb = cap.get("note_bold") or (f"The {wshort} take the belt." if changed else f"The {wshort} hold on.")
+    nb = cap.get("note_bold") or (cap1(the(lg, wshort)) + (f" {vb(lg, 'take', 'takes')} the belt." if changed else f" {vb(lg, 'hold', 'holds')} on."))
     nr = cap.get("note_rest") or f"Final: {winner} {w_pts}, {loser} {l_pts}{(' (' + extra + ')') if extra else ''}."
 
     lp, la = team_colors(wt, data)
@@ -1020,7 +1048,7 @@ def build_result(p, workdir, summ=None):
     cl = panel_colors(lp, la)
     cr = panel_colors(distinct_right(cl[0], rp, ra), [])
     final_kick = f"Final/{extra}" if extra else "Final"
-    body = f"""{header(lg, p.get('belt_name') or lg.upper(), data.get('est'))}
+    body = f"""{header(lg, p.get('belt_name') or lg.upper(), data.get('est'), data.get('header'))}
 <div class="mono kicker"><span class="dot"></span>{('Belt game No. ' + f'{game_no:,}' + ' · ') if game_no else ''}{final_kick}</div>
 <div class="disp h1">{h1}</div>
 <div class="mono when"><b>{esc(short_date(gday))}</b><span class="sep">·</span>{esc(venue)}<span class="sep">·</span>{when_tail}</div>
