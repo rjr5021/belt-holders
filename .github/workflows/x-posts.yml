@@ -60,3 +60,19 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: python -u x_posts.py ${{ github.event.inputs.check == '1' && '--check' || '--watch' }}
+      # Instagram (ig_posts.py, 2026-10-01): "Belt on the Line" on game day from 10 AM ET,
+      # "Belt Defended" / "New Champion" right after the final -- this step runs once the
+      # X step above has stopped watching the game. Needs IG_ACCESS_TOKEN and
+      # IG_BUSINESS_ACCOUNT_ID (the @thebeltholders Instagram account); does nothing
+      # without them. Variables: IG_LEAGUES (default nhl), IG_LIVE (0 = print only).
+      # A manual run with check=1 also checks the Instagram token and makes sample
+      # cards (data/ig/check/) without posting.
+      - name: Instagram
+        if: always()
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          IG_LIVE: ${{ vars.IG_LIVE || '1' }}
+          IG_LEAGUES: ${{ vars.IG_LEAGUES || 'nhl' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -u ig_posts.py ${{ github.event.inputs.check == '1' && '--check' || '' }}
