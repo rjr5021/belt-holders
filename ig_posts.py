@@ -708,6 +708,8 @@ Facts for this post (use ONLY these -- never add a stat, record, streak, injury,
 Rules:
 - Same shape: a punchy first line ending in 🏆, short paragraphs, then {"a 'Next up' paragraph" if kind == "result" else f"a '{emoji} day · time · TV · arena' line"}, then a '🔗 ... → link in bio' line, then one line of 8-11 hashtags.
 - Hashtags: start with {SITE_CFG.get('tags', '#BeltHolders')} and #{facts.get('league_tag')}Belt, then both teams' common tags (e.g. #FlaPanthers style only if you're sure; otherwise the plain team names), #{facts.get('league_tag')} and an ABBRvsABBR tag.
+- These are pro (or college) teams: say "franchise" or "club" for pros, never "program" unless it's a college team.
+- The italic note and the caption must not misstate when or where anything happened: a preview is about an upcoming game (the holder won the belt earlier, in the game in the facts), never "begins its reign tonight".
 - No @mentions, no links, no hype exclamation marks. En dash in scores (4–2).
 - Under 1,500 characters.
 - Also a two-line italic note for the bottom of the card: a bold first sentence of at most 45 characters, then at most 115 more characters.
