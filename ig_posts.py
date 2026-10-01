@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
-Instagram posts for @thebeltholders (2026-10-01, Bob: "lets set up thebeltholders
-now, hockey is here" -- every belt game gets a preview and a result).
+Instagram posts for the belt network's accounts (2026-10-01, Bob: "lets set up
+thebeltholders now, hockey is here" / "can we link up collegebbbelt now too?") --
+every belt game gets a preview and a result. One file, byte-identical in the
+belt-holders repo (@thebeltholders: NHL, NFL, ...) and the college-basketball-belt
+repo (@collegebbbelt: cbb, wcbb); which account, brand and belts it serves comes
+from that repo's ig_data.json "_site" block.
 
 For each enabled belt (IG_LEAGUES, default "nhl"):
   * "Belt on the Line" -- once on game day, from 10 AM ET (or as soon as the job
@@ -51,7 +55,6 @@ from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SITE = "https://beltholders.com"
 ET = ZoneInfo("America/New_York")
 STATE = os.path.join(HERE, "data", "ig", "state.json")
 STATE_REL = "data/ig/state.json"
@@ -59,7 +62,13 @@ IMAGES_REL = "data/ig/images"
 CHECK_REL = "data/ig/check"
 TEMPLATE_DIR = os.path.join(HERE, "ig_templates")
 DATA_PATH = os.path.join(HERE, "ig_data.json")
-LEAGUES = [x for x in os.environ.get("IG_LEAGUES", "nhl").replace(",", " ").split() if x]
+SITE_CFG = (json.load(open(DATA_PATH)) if os.path.exists(DATA_PATH) else {}).get("_site") or {}
+NETWORK = SITE_CFG.get("network", "https://beltholders.com/api/network.json")
+BRAND = SITE_CFG.get("brand", "Belt Holders")
+HANDLE = SITE_CFG.get("handle", "@thebeltholders")
+DOMAIN = SITE_CFG.get("domain", "beltholders.com")
+ABOUT = SITE_CFG.get("about", "beltholders.com, which tracks lineal championship belts in pro sports")
+LEAGUES = [x for x in os.environ.get("IG_LEAGUES", SITE_CFG.get("leagues", "nhl")).replace(",", " ").split() if x]
 REQUIRED = ("IG_ACCESS_TOKEN", "IG_BUSINESS_ACCOUNT_ID")
 DRY = os.environ.get("IG_DRY_RUN") == "1"
 LIVE = (not DRY) and os.environ.get("IG_LIVE", "1") == "1" and all(os.environ.get(k) for k in REQUIRED)
@@ -74,9 +83,10 @@ W, H = 1080, 1350
 ESPN = {"nfl": "football/nfl", "nba": "basketball/nba", "nhl": "hockey/nhl", "mlb": "baseball/mlb",
         "wnba": "basketball/wnba", "mls": "soccer/usa.1", "nwsl": "soccer/usa.nwsl", "epl": "soccer/eng.1",
         "laliga": "soccer/esp.1", "seriea": "soccer/ita.1", "bundesliga": "soccer/ger.1", "ligue1": "soccer/fra.1",
-        "eredivisie": "soccer/ned.1", "cfl": "football/cfl"}
+        "eredivisie": "soccer/ned.1", "cfl": "football/cfl",
+        "cbb": "basketball/mens-college-basketball", "wcbb": "basketball/womens-college-basketball"}
 SPORT = {"nfl": "football", "cfl": "football", "nba": "basketball", "wnba": "basketball", "nhl": "hockey",
-         "pwhl": "hockey", "mlb": "baseball"}
+         "pwhl": "hockey", "mlb": "baseball", "cbb": "basketball", "wcbb": "basketball"}
 EST = {"nhl": 1917, "nfl": 1920, "nba": 1946, "mlb": 1876}
 
 
@@ -253,19 +263,33 @@ def team_colors(espn_team, data):
 # ------------------------------------------------------------------- data --
 
 def network_belt(lg):
-    net = get_json(f"{SITE}/api/network.json")
+    net = get_json(NETWORK)
     for b in net.get("belts") or []:
         if b.get("key") == lg:
             return b
     raise RuntimeError(f"no {lg} belt in network.json")
 
 
+_BELT_URL = {}
+
+
+def belt_url(lg):
+    """The belt's own site section (https://beltholders.com/nhl/, https://collegebasketballbelt.com/women/)."""
+    if lg not in _BELT_URL:
+        try:
+            _BELT_URL[lg] = network_belt(lg).get("url")
+        except Exception:  # noqa: BLE001
+            _BELT_URL[lg] = None
+        _BELT_URL[lg] = (_BELT_URL[lg] or f"https://{DOMAIN}/{lg}/").rstrip("/") + "/"
+    return _BELT_URL[lg]
+
+
 def site_games(lg):
-    return (get_json(f"{SITE}/{lg}/api/games.json") or {}).get("belt_games") or []
+    return (get_json(belt_url(lg) + "api/games.json") or {}).get("belt_games") or []
 
 
 def site_reigns(lg):
-    return (get_json(f"{SITE}/{lg}/api/reigns.json") or {}).get("reigns") or []
+    return (get_json(belt_url(lg) + "api/reigns.json") or {}).get("reigns") or []
 
 
 def history(reigns, name, before):
@@ -401,6 +425,19 @@ def scoring_plays(summ):
     return out[:20]
 
 
+def leaders(summ, team_id):
+    """{category: (name, displayValue)} from ESPN's leaders block."""
+    out = {}
+    for blk in summ.get("leaders") or []:
+        if str((blk.get("team") or {}).get("id")) != str(team_id):
+            continue
+        for cat in blk.get("leaders") or []:
+            if cat.get("leaders"):
+                ld = cat["leaders"][0]
+                out[cat.get("name")] = ((ld.get("athlete") or {}).get("displayName", ""), ld.get("displayValue", ""))
+    return out
+
+
 def last_name(full):
     parts = [x for x in (full or "").split() if x]
     while len(parts) > 1 and parts[-1].rstrip(".").lower() in ("jr", "sr", "ii", "iii", "iv"):
@@ -420,6 +457,13 @@ def standout(lg, summ, team_id, won_by_shutout):
             return (str(gl[1]), f"{last_name(gl[0])} · {'saves, shutout' if gl[2] == 0 else 'saves'}"), sk
         if sk:
             return (str(sk[0][1] + sk[0][2]), f"{last_name(sk[0][0])} · points"), sk
+    if SPORT.get(lg) == "basketball":
+        ld = leaders(summ, team_id)
+        if ld.get("points"):
+            name, val = ld["points"]
+            m = re.match(r"\d+", str(val))
+            if m:
+                return (m.group(0), f"{last_name(name)} · points"), []
     return None, []
 
 
@@ -473,21 +517,21 @@ BELT_SVG = """<svg class="belt" viewBox="0 0 260 150" fill="none">
 </svg>"""
 
 
-def header(lg, belt_name):
-    est = EST.get(lg)
+def header(lg, belt_name, est=None):
+    est = est or EST.get(lg)
     right = f"{belt_name} · Since {est}" if est else belt_name
     return f"""<div class="hdr">
   <div class="brand">
     <svg width="52" height="34" viewBox="0 0 34 22" fill="none"><rect x="0" y="8" width="34" height="6" rx="1" fill="#211a12"/><rect x="3" y="6" width="6" height="10" rx="1" fill="#a97f38"/><rect x="25" y="6" width="6" height="10" rx="1" fill="#a97f38"/><path d="M17 0 L24 4 L24 18 L17 22 L10 18 L10 4 Z" fill="#a97f38" stroke="#211a12" stroke-width="1.5"/><circle cx="17" cy="11" r="3.5" fill="#211a12"/></svg>
-    <div class="disp wm">Belt Holders</div>
+    <div class="disp wm">{esc(BRAND)}</div>
   </div>
   <div class="mono est">{esc(right)}</div>
 </div>
 <div class="rule"></div>"""
 
 
-FOOT = """<div class="mono foot"><span>@thebeltholders</span><span class="url">beltholders.com</span></div>
-<div class="grain"></div>"""
+FOOT = (f'<div class="mono foot"><span>{html.escape(HANDLE)}</span><span class="url">{html.escape(DOMAIN)}</span></div>'
+        '\n<div class="grain"></div>')
 
 FIT_JS = """() => {
   const fit = (el, min, box) => {
@@ -547,10 +591,15 @@ def ensure_playwright():
     except ImportError:
         subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
     if not os.environ.get("IG_CHROMIUM_PATH"):
-        args = [sys.executable, "-m", "playwright", "install", "chromium"]
-        if os.environ.get("GITHUB_ACTIONS") == "true":
-            args.insert(4, "--with-deps")
-        subprocess.run(args, check=True)
+        # GitHub's Ubuntu runners already ship Google Chrome with everything it
+        # needs; using it skips a browser download and an apt-get of system
+        # libraries that once took 7+ minutes (2026-10-01).
+        for exe in ("/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/bin/chromium-browser"):
+            if os.path.exists(exe):
+                os.environ["IG_CHROMIUM_PATH"] = exe
+                break
+        else:
+            subprocess.run([sys.executable, "-m", "playwright", "install", "chromium"], check=True)
     _PW = True
 
 
@@ -643,7 +692,7 @@ def claude_caption(kind, facts, lg):
     what = "the result of the belt game that just ended" if kind == "result" else "a preview of today's belt game"
     sport = SPORT.get(lg, "soccer")
     emoji = {"hockey": "🏒", "basketball": "🏀", "football": "🏈", "baseball": "⚾"}.get(sport, "⚽")
-    prompt = f"""You write the Instagram captions for @thebeltholders, the account for beltholders.com, which tracks lineal championship belts in pro sports (whoever beats the holder takes the belt). This post is about {facts.get('belt_name')}.
+    prompt = f"""You write the Instagram captions for {HANDLE}, the account for {ABOUT} (whoever beats the holder takes the belt). This post is about {facts.get('belt_name')}.
 
 Write {what}. Match the voice, length and structure of this caption from the sister account @CollegeFBBelt (a college football example -- adapt it to {sport}):
 
@@ -658,7 +707,7 @@ Facts for this post (use ONLY these -- never add a stat, record, streak, injury,
 
 Rules:
 - Same shape: a punchy first line ending in 🏆, short paragraphs, then {"a 'Next up' paragraph" if kind == "result" else f"a '{emoji} day · time · TV · arena' line"}, then a '🔗 ... → link in bio' line, then one line of 8-11 hashtags.
-- Hashtags: start with #BeltHolders and #{facts.get('league_tag')}Belt, then both teams' common tags (e.g. #FlaPanthers style only if you're sure; otherwise the plain team names), #{facts.get('league_tag')} and an ABBRvsABBR tag.
+- Hashtags: start with {SITE_CFG.get('tags', '#BeltHolders')} and #{facts.get('league_tag')}Belt, then both teams' common tags (e.g. #FlaPanthers style only if you're sure; otherwise the plain team names), #{facts.get('league_tag')} and an ABBRvsABBR tag.
 - No @mentions, no links, no hype exclamation marks. En dash in scores (4–2).
 - Under 1,500 characters.
 - Also a two-line italic note for the bottom of the card: a bold first sentence of at most 45 characters, then at most 115 more characters.
@@ -675,7 +724,8 @@ Reply with JSON only: {{"caption": "...", "note_bold": "...", "note_rest": "..."
             text = "".join(b.get("text", "") for b in out.get("content", []) if b.get("type") == "text")
             res = json.loads(re.search(r"\{.*\}", text, re.S).group(0))
             cap = (res.get("caption") or "").strip()
-            if not cap or len(cap) > 2200 or "#BeltHolders" not in cap or cap.count("#") > 30:
+            first_tag = SITE_CFG.get("tags", "#BeltHolders").split()[0]
+            if not cap or len(cap) > 2200 or first_tag not in cap or cap.count("#") > 30:
                 raise ValueError("caption failed checks")
             for must in facts.get("must_mention", []):
                 if str(must) not in cap:
@@ -691,7 +741,7 @@ Reply with JSON only: {{"caption": "...", "note_bold": "...", "note_rest": "..."
 
 
 def hashtags(lg, a, a_abbr, b, b_abbr):
-    tags = ["BeltHolders", f"{lg.upper()}Belt", a, b, lg.upper(), f"{a_abbr}vs{b_abbr}"]
+    tags = SITE_CFG.get("tags", "#BeltHolders").replace("#", "").split() + [f"{lg.upper()}Belt", a, b, lg.upper(), f"{a_abbr}vs{b_abbr}"]
     out, seen = [], set()
     for t in tags:
         t = re.sub(r"[^A-Za-z0-9]", "", unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode())
@@ -815,7 +865,7 @@ def build_preview(lg, belt, workdir):
     rp, ra = team_colors(ot, data)
     cl = panel_colors(lp, la)
     cr = panel_colors(distinct_right(cl[0], rp, ra), [])
-    body = f"""{header(lg, belt.get('name') or lg.upper())}
+    body = f"""{header(lg, belt.get('name') or lg.upper(), data.get('est'))}
 <div class="mono kicker"><span class="dot"></span>{('Belt game No. ' + f'{game_no:,}' + ' · ') if game_no else ''}{esc(day_part(kick))}</div>
 <div class="disp h1">Belt on <span class="thin">the line</span></div>
 <div class="mono when">{when}</div>
@@ -891,6 +941,14 @@ def build_result(p, workdir, summ=None):
             if ppg is not None and ppo is not None:
                 bits.append(f"<b>{esc(ppg)}/{esc(ppo)}</b> power play")
             return " · ".join(bits)
+        if SPORT.get(lg) == "basketball":
+            fg, reb = team_stat(summ, tid, "fieldGoalPct"), team_stat(summ, tid, "totalRebounds")
+            bits = []
+            if fg is not None:
+                bits.append(f"<b>{esc(fg)}%</b> FG")
+            if reb is not None:
+                bits.append(f"<b>{esc(reb)}</b> rebounds")
+            return " · ".join(bits)
         return ""
 
     if changed:
@@ -928,7 +986,8 @@ def build_result(p, workdir, summ=None):
         "where_the_belt_goes": city,
         "period_by_period": {c["team"].get("abbreviation"): [x.get("displayValue") for x in (c.get("linescores") or [])]
                              for c in comp["competitors"]},
-        "scoring": scoring_plays(summ),
+        "scoring": scoring_plays(summ) if SPORT.get(lg) in ("hockey", "football", "soccer", None) else [],
+        "winner_leaders": leaders(summ, wt["id"]), "loser_leaders": leaders(summ, lt["id"]),
         "winner_scorers_goals_assists": [{"name": n, "goals": g, "assists": a} for n, g, a in sk[:5]],
         "winner_goalie": dict(zip(("name", "saves", "goals_against"), goalie_line(summ, wt["id"]) or ())) or None,
         "shots": {wshort: team_stat(summ, wt["id"], "shotsTotal"), lshort: team_stat(summ, lt["id"], "shotsTotal")},
@@ -959,7 +1018,7 @@ def build_result(p, workdir, summ=None):
     cl = panel_colors(lp, la)
     cr = panel_colors(distinct_right(cl[0], rp, ra), [])
     final_kick = f"Final/{extra}" if extra else "Final"
-    body = f"""{header(lg, p.get('belt_name') or lg.upper())}
+    body = f"""{header(lg, p.get('belt_name') or lg.upper(), data.get('est'))}
 <div class="mono kicker"><span class="dot"></span>{('Belt game No. ' + f'{game_no:,}' + ' · ') if game_no else ''}{final_kick}</div>
 <div class="disp h1">{h1}</div>
 <div class="mono when"><b>{esc(short_date(gday))}</b><span class="sep">·</span>{esc(venue)}<span class="sep">·</span>{when_tail}</div>

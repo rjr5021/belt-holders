@@ -1,5 +1,14 @@
 {
   "_about": "Instagram data for ig_posts.py (@thebeltholders), per league. team_handles: official team accounts (verified on Instagram) tagged on the photo; network_handles: the national TV network's account; locations: Instagram/Facebook place IDs per ESPN arena name (the post's location); cities: where the belt 'stays in' / 'moves to' when ESPN's team location isn't a city. Anything missing is left off the post and noted in the run summary. Checked 2026-10-01.",
+  "_site": {
+    "brand": "Belt Holders",
+    "handle": "@thebeltholders",
+    "domain": "beltholders.com",
+    "about": "beltholders.com, which tracks lineal championship belts in pro sports",
+    "network": "https://beltholders.com/api/network.json",
+    "leagues": "nhl",
+    "tags": "#BeltHolders"
+  },
   "nhl": {
     "team_handles": {
       "Anaheim Ducks": "anaheimducks",
@@ -88,6 +97,7 @@
       "Vegas Golden Knights": "Las Vegas",
       "Tampa Bay Lightning": "Tampa",
       "Anaheim Ducks": "Anaheim"
-    }
+    },
+    "est": 1917
   }
 }
