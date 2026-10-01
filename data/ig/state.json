@@ -1,0 +1,21 @@
+{
+ "log": [],
+ "pending": {
+  "nhl|Florida Panthers|San Jose Sharks|2026-10-01": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-01",
+   "defenses": 0,
+   "espn_id": "401891823",
+   "game_no": 8434,
+   "holder": "Florida Panthers",
+   "holder_short": "Panthers",
+   "lg": "nhl",
+   "opponent": "San Jose Sharks",
+   "opponent_short": "Sharks",
+   "reign_no": 55,
+   "since": "2026-09-29"
+  }
+ },
+ "previews": [],
+ "results": []
+}
