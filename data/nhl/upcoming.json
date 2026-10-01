@@ -1,27 +1,5 @@
 [
  {
-  "id": 2026020006,
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 4,
-  "away": 5,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "19:30"
- },
- {
-  "id": 2026020008,
-  "date": "2026-09-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 10,
-  "away": 2,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "19:30"
- },
- {
   "id": 2026020007,
   "date": "2026-09-30",
   "season": 2026,
