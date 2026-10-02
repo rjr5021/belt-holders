@@ -34,7 +34,11 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "11"
+STYLES_VERSION = "12"
+# 7.15 / 7.14: the belt-picks Cloudflare Worker (global Beat-the-lean leaderboard + web push). Empty = off.
+PICKS_API = os.environ.get("PICKS_API", "https://belt-picks.rjr5021.workers.dev")
+PICKS_SITE = {"*": "bh"}
+PUSH_PUBLIC_KEY = "BEwm5LoAu5EOVoMq8prjAcv1D1PIShNARTz3d7R5Z7mH9OEpKaqq97pQWqlpAnXe7vWsNoJ7lM42-1y_vdgepow"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -291,8 +295,28 @@ def alerts_block(path="/"):
     <input id="alert-email" type="email" name="btr_email" placeholder="you@example.com" required>
     <button type="submit" class="mono">Sign me up</button>
   </form>
-  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS) · <a href="/digest/">the weekly digest</a> · <a href="/all/belt.ics">every belt game on your calendar</a> (one subscription, all leagues and the college belts).</p>
+  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS) · <a href="/digest/">the weekly digest</a> · <a href="/all/belt.ics">every belt game on your calendar</a> (one subscription, all leagues and the college belts).{push_button(path)}</p>
 </section>"""
+
+
+def push_button(path="/"):
+    """7.14: a web-push subscribe button for the belt the page belongs to (or every belt), when the Worker is configured."""
+    if not (PICKS_API and PUSH_PUBLIC_KEY and "PLACEHOLDER" not in PICKS_API):
+        return ""
+    seg = path.strip("/").split("/")[0] if path else ""
+    lg = next((x for x in LIVE if x["key"] == seg), None)
+    belt = f"bh:{lg['key']}" if lg else "all"
+    label = f"Push alerts: the {lg['name']} belt" if lg else "Push alerts: every belt"
+    return (f' <button type="button" class="mono pushbtn" id="pushbtn" data-belt="{belt}" data-label="{e(label)}" hidden>{e(label)}</button>'
+            f'<script>(function(){{var b=document.getElementById("pushbtn");if(!b||!("PushManager" in window)||!("serviceWorker" in navigator)||!("Notification" in window))return;'
+            f'var API={json.dumps(PICKS_API)},PUB={json.dumps(PUSH_PUBLIC_KEY)},belt=b.dataset.belt,K="belt-push-"+belt;'
+            'function u8(s){s=(s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/");var r=atob(s),a=new Uint8Array(r.length);for(var i=0;i<r.length;i++)a[i]=r.charCodeAt(i);return a;}'
+            'function paint(on){b.textContent=on?b.dataset.label.replace("Push alerts:","Push alerts on:")+" ✓":b.dataset.label;b.dataset.on=on?"1":"";}'
+            'var on=false;try{on=!!localStorage.getItem(K);}catch(e){}paint(on);b.hidden=false;'
+            'b.onclick=function(){navigator.serviceWorker.ready.then(function(reg){if(b.dataset.on){return reg.pushManager.getSubscription().then(function(sub){if(sub){fetch(API+"/unsubscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({belt:belt,endpoint:sub.endpoint})});}'
+            'try{localStorage.removeItem(K);}catch(e){}paint(false);});}'
+            'return Notification.requestPermission().then(function(p){if(p!=="granted")return;return reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:u8(PUB)}).then(function(sub){return fetch(API+"/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({belt:belt,sub:sub.toJSON()})}).then(function(r){if(r.ok){try{localStorage.setItem(K,"1");}catch(e){}paint(true);}});});});}).catch(function(){});};'
+            '})();</script>')
 
 
 # ------------------------------------------------------------- pieces ----
@@ -597,7 +621,7 @@ def build_home(datas):
   <div class="tiles">{"".join(tiles)}</div>
   {features.home_live_script([(lg, datas[lg["key"]]) for lg in LIVE])}
   {frozen_note(datas)}
-  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a> · <a href="/my-belts/">My belts →</a> · <a href="/digest/">This week's digest →</a> · <a href="/daily/">The Daily Belt →</a></p>
+  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a> · <a href="/my-belts/">My belts →</a> · <a href="/digest/">This week's digest →</a> · <a href="/daily/">The Daily Belt →</a>{' · <a href="/leaderboard/">Beat the lean: leaderboard →</a>' if features.picks_api() else ''}</p>
   {more_leagues(datas)}
   {college_strip()}
 </section>
@@ -1330,6 +1354,10 @@ def main():
     network.build_network_feed(sys.modules[__name__], OUT)
     network.build_network_ics(sys.modules[__name__], datas, OUT)      # feature 7.11: /all/belt.ics
     network.build_digest(sys.modules[__name__], datas, OUT)            # feature 7.10: /digest/ and digest/feed.xml
+    try:
+        network.build_network_leaderboard(sys.modules[__name__], OUT)   # feature 7.15: /leaderboard/, every belt
+    except Exception as ex:  # noqa: BLE001
+        print(f"network leaderboard skipped: {ex}")
     try:
         network.build_network_daily(sys.modules[__name__], datas, OUT)  # feature 7.12: /daily/, five belts a day
     except Exception as ex:  # noqa: BLE001 -- a puzzle must never break the deploy

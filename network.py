@@ -932,3 +932,37 @@ fetch('/daily/data.json').then(function(r){{return r.json();}}).then(function(j)
     S.write("daily/index.html", S.page("The Daily Belt: five belts a day, one puzzle for the whole network", body, path="/daily/", active="leagues",
                                       description=f"The Daily Belt, network edition: five real belt games a day from {nbelts} belts (NFL to college football to the Premier League). Defend or dethrone? Share your grid, keep your streak."))
     return nbelts
+
+
+# ------------------------------------------------- Beat the lean, every belt (7.15) --
+
+def build_network_leaderboard(S, out="site"):
+    """/leaderboard/: the Worker's site=all standings -- every call on every belt, summed per player."""
+    api = getattr(S, "PICKS_API", "") or ""
+    if not api or "PLACEHOLDER" in api:
+        return
+    e = S.e
+    body = f"""<section class="wrap block">
+  <div class="kicker">Beat the lean · every belt</div>
+  <div class="head"><h1 class="disp">The network leaderboard</h1><span class="mono note" id="lbmeta"></span></div>
+  <p class="intro">Every call on every belt game across the network, pro leagues and the college belts alike, graded against the results and summed per player. Make a call on any belt's next game and you are on it; the name you enter there is the one shown here.</p>
+  <p class="plain" id="lbyou"></p>
+  <div class="tablewrap"><table class="history keep3"><thead><tr><th class="mono">#</th><th class="mono">Name</th><th class="mono r">W</th><th class="mono r">L</th><th class="mono r">Open</th></tr></thead><tbody id="lbrows"><tr><td colspan="5">Loading the standings…</td></tr></tbody></table></div>
+  <p class="mono more"><a href="/today/">This week's belt games →</a> · <a href="/all/">Every belt right now →</a></p>
+  <p class="plain">How it works: each belt's next-game page has a "Beat the lean" box; one call per game, locked at the start, graded when the result is in. Standings count wins first, then fewer losses; "open" is a call on a game not yet played. Per-belt tables live on each belt's own leaderboard page. Nothing identifies you but the name you choose; the ranking refreshes every ten minutes.</p>
+</section>
+<script>
+(function(){{
+var API={json.dumps(api)},u='';try{{u=localStorage.getItem('belt-uid')||'';}}catch(e){{}}
+function esc(s){{return String(s).replace(/[&<>]/g,function(c){{return {{'&':'&amp;','<':'&lt;','>':'&gt;'}}[c];}});}}
+fetch(API+'/standings?site=all'+(u?'&uid='+u:'')).then(function(r){{return r.json();}}).then(function(j){{
+ document.getElementById('lbmeta').textContent=(j.players||0)+' player'+(j.players===1?'':'s')+' · '+(j.belts||0)+' belt'+(j.belts===1?'':'s');
+ var rows=(j.top||[]).map(function(p){{return '<tr><td class="mono">'+p.rank+'</td><td>'+esc(p.name)+'</td><td class="mono r">'+p.w+'</td><td class="mono r">'+p.l+'</td><td class="mono r">'+p.pending+'</td></tr>';}}).join('');
+ document.getElementById('lbrows').innerHTML=rows||'<tr><td colspan="5">No calls yet. Be the first.</td></tr>';
+ if(j.you)document.getElementById('lbyou').innerHTML='You: <b>'+esc(j.you.name)+'</b>, '+j.you.w+'–'+j.you.l+(j.you.pending?' with '+j.you.pending+' open':'')+', ranked '+j.you.rank+' of '+j.players+'.';
+}}).catch(function(){{document.getElementById('lbrows').innerHTML='<tr><td colspan="5">The leaderboard did not load; try again in a minute.</td></tr>';}});
+}})();
+</script>"""
+    S.write("leaderboard/index.html", S.page("Beat the lean: the belt network leaderboard", body, path="/leaderboard/", active="leagues",
+                                            description="Every call on every belt game across the belt network, graded against the results and summed per player.",
+                                            robots="noindex,follow"))

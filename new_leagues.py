@@ -1280,36 +1280,55 @@ ESPN_SIMPLE = {
 }
 
 
-def update_espn_simple(key):
+def update_espn_simple(key, workers=4, checkpoint=240):
+    """Day-by-day ESPN backfill, four days in flight at a time, with a checkpoint write every `checkpoint`
+    days so a run that hits the job timeout keeps what it fetched; the next run resumes from the last
+    stored date when that is more than 30 days old (an unfinished backfill), otherwise it refreshes the
+    last three weeks and the next 45 days."""
+    from concurrent.futures import ThreadPoolExecutor
     path, first, season_of, off, codes = ESPN_SIMPLE[key]
     today = today_et()
     rows = read_existing(key)
     if not rows:
         start = first
     else:
-        start = today - timedelta(days=21)
-        rows = [r for r in rows if r["date"] < start.isoformat()]
-    done, up = [], []
+        last = date.fromisoformat(max(r["date"] for r in rows))
+        if last < today - timedelta(days=30):
+            start = last + timedelta(days=1)
+            print(f"[{key}] resuming the backfill from {start}")
+        else:
+            start = today - timedelta(days=21)
+            rows = [r for r in rows if r["date"] < start.isoformat()]
+    days = []
     d = start
     while d <= today + timedelta(days=45):
         if d.month in off and d < today - timedelta(days=21):
-            # skip the offseason a month at a time (the belt data has nothing to gain there)
-            d = date(d.year + (d.month == 12), d.month % 12 + 1, 1)
+            d = date(d.year + (d.month == 12), d.month % 12 + 1, 1)   # skip the offseason a month at a time
             continue
-        x, y = espn_day(path, d)
-        done += x
-        up += y
+        days.append(d)
         d += timedelta(days=1)
-        time.sleep(0.1)
-    for r in done + up:
+
+    def finish(r):
         r["season"] = season_of(date.fromisoformat(r["date"]))
         if codes == "abbr":           # college teams: the abbreviation is the code, the school name shows
             r["home_name"], r["away_name"] = r.get("home_loc") or r["home"], r.get("away_loc") or r["away"]
             r["home"], r["away"] = _espn_abbr(r, "home"), _espn_abbr(r, "away")
         else:
             r["home_name"], r["away_name"] = r["home"], r["away"]
+        return r
+
+    done, up = [], []
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for i in range(0, len(days), checkpoint):
+            chunk = days[i:i + checkpoint]
+            for x, y in ex.map(lambda dd: espn_day(path, dd), chunk):
+                done += [finish(r) for r in x]
+                up += [finish(r) for r in y]
+            if i + checkpoint < len(days):
+                write(key, merge(rows, done), [])          # checkpoint: partial data survives a timeout
+                print(f"[{key}] through {chunk[-1]}: {len(done):,} games so far")
     rows = merge(rows, done)
-    by_season = Counter(r["season"] for r in rows)
+    by_season = Counter(int(r["season"]) for r in rows)
     print(f"[{key}] games per season: {dict(sorted(by_season.items()))}")
     write(key, rows, [u for u in up if u["date"] >= today.isoformat()])
 
