@@ -1,0 +1,12 @@
+# The belt network's picks + push Worker (7.15 / 7.14). Deployed from the Cloudflare dashboard on
+# 2026-10-02 (belt-picks.rjr5021.workers.dev); this file lets `npx wrangler deploy` do the same.
+name = "belt-picks"
+main = "belt-picks.js"
+compatibility_date = "2025-07-18"
+
+[[kv_namespaces]]
+binding = "BELT"
+id = "4a6c463d8e6a40349a9fe9c430d312f6"
+
+# Secrets (set in the dashboard or with `wrangler secret put`): NOTIFY_KEY, VAPID_PRIVATE_JWK.
+# Plain vars: VAPID_PUBLIC (the key the sites use to subscribe), VAPID_SUBJECT (mailto:hello@beltholders.com).
