@@ -1,0 +1,59 @@
+{
+ "key": "ATX|NSH|2026-10-10",
+ "updated": "2026-10-02T21:51Z",
+ "start_utc": "2026-10-11T00:30Z",
+ "espn": {
+  "event_id": "761856",
+  "start_utc": "2026-10-11T00:30Z",
+  "state": "pre",
+  "tv": [
+   "Apple TV"
+  ],
+  "odds": {
+   "details": "NSH -120",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "ATX": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+    "abbr": "ATX",
+    "record": "7-10-10",
+    "rank": null,
+    "home_away": "home"
+   },
+   "NSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+    "abbr": "NSH",
+    "record": "18-6-3",
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Q2 Stadium",
+   "city": "Austin, Texas",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Austin FC host Nashville SC on October 10, 2026, with the lineal championship belt on the line for the first time in this rivalry. Austin FC have defended the belt 5 times in their current reign but enter as underdogs according to Elo ratings. Nashville SC, with an 18-3-6 record, arrive in strong form seeking to reclaim a belt they've held twice before.",
+  "key_matchups": [
+   "Austin FC's recent draw streak (last 2 games tied) against Nashville SC's momentum (won last 2)",
+   "Season records tell contrasting stories: Nashville SC 18-3-6 versus Austin FC 7-10-10",
+   "Nashville SC seeking revenge for the 0-2 loss in the most recent meeting on 2024-08-24"
+  ],
+  "betting_angles": "The form contrast is stark: Nashville SC have won their last 2 games while Austin FC have tied their last 2, and the season records show Nashville SC (18-3-6) far ahead of Austin FC (7-10-10). The all-time head-to-head slightly favors Nashville SC with 2 wins to Austin FC's 1, though Austin FC won the most recent meeting 2-0. Despite home advantage and current belt possession, Austin FC are rated as underdogs by Elo, which aligns with Nashville SC's superior form and record.",
+  "predicted_winner": "Nashville SC",
+  "predicted_score": "Austin FC 1, Nashville SC 2",
+  "prediction_writeup": "Nashville SC's 18-3-6 record and current two-game winning streak suggest they're operating at a different level than Austin FC, who sit at 7-10-10 and haven't won in their last 5 games. While Austin FC took the most recent meeting 2-0 in August 2024, that result looks like an outlier given the broader context. The Elo model favoring Nashville SC as road favorites is telling, especially against a home side that has struggled to find victories. Nashville SC have held the belt twice before and should have the quality to end Austin FC's 5-defense reign and reclaim it.",
+  "written": "2026-10-02",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
+}
