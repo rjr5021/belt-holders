@@ -536,7 +536,7 @@ def build_digest(S, datas, out="site"):
         body = f"""<section class="wrap block">
   <div class="kicker">The weekly digest · every belt</div>
   <div class="head"><h1 class="disp">{"This week in the belts" if current else "The belts, week of " + S.d_short(start.isoformat())}</h1><span class="mono note">{e(label)}</span></div>
-  <p class="intro">{S.plural(len(w['changes']), 'title change')} across the belt network and {S.plural(w['played'], 'pro belt game')} this week. <a href="/digest/feed.xml">Get this as a weekly email (RSS)</a> · <a href="/all/">every belt right now →</a></p>
+  <p class="intro">{S.plural(len(w['changes']), 'title change')} across the belt network and {S.plural(w['played'], 'pro belt game')} this week. <a href="#alerts">Get this as a weekly email</a> · <a href="/digest/feed.xml">RSS</a> · <a href="/all/">every belt right now →</a></p>
   <h2 class="disp sub">Changed hands</h2>
   {ch_html}
   {f'<h2 class="disp sub">Coming up</h2><div class="tablewrap"><table class="history"><thead><tr><th class="mono">When</th><th class="mono">Belt game</th><th class="mono">TV</th><th></th></tr></thead><tbody>{up}</tbody></table></div>' if up else ''}

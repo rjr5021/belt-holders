@@ -34,7 +34,7 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "9"
+STYLES_VERSION = "10"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -254,7 +254,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <main id="main">
 {body}
 </main>
-{alerts_block()}
+{alerts_block(path)}
 <footer class="foot mono">
   <div class="belt-network" data-belt-network data-site="bh"><span class="nk">The belt network</span><a href="https://collegefootballbelt.com/"><b>College football</b></a><a href="https://collegebasketballbelt.com/"><b>Men's college hoops</b></a><a href="https://collegebasketballbelt.com/women/"><b>Women's college hoops</b></a><a class="all" href="/all/">Every belt →</a></div>
   <div class="links"><a href="https://collegefootballbelt.com">collegefootballbelt.com</a><a href="https://collegebasketballbelt.com">collegebasketballbelt.com</a><a href="https://x.com/thebeltholders">@thebeltholders</a><a href="https://x.com/CollegeFBBelt">@CollegeFBBelt</a><a href="https://x.com/CollegeBBBelt">@CollegeBBBelt</a><a href="https://instagram.com/thebeltholders">Instagram</a></div>
@@ -268,17 +268,25 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 """
 
 
-def alerts_block():
+def alerts_block(path="/"):
+    """The footer signup: one Blogtrottr form, with a choice of feed -- the title-change feed (one email per
+    change) or the weekly digest feed (feature 7.10; one email a week). The digest pages pre-select the digest."""
     feed = f"{SITE_URL}/feed.xml"
+    digest = f"{SITE_URL}/digest/feed.xml"
+    weekly = path.startswith("/digest/")
     return f"""<section id="alerts" class="alerts" aria-label="Belt alerts">
   <div>
     <h2 class="disp">Know the second a belt changes hands</h2>
-    <p>One email per title change. Nothing else.</p>
+    <p>One email per title change, or one a week with every belt in it. Nothing else.</p>
   </div>
   <form class="alert-form" action="https://blogtrottr.com" method="post" target="_blank">
     <input type="hidden" name="lang" value="en_US">
-    <input type="hidden" name="btr_url" value="{feed}">
     <input type="hidden" name="schedule_type" value="0">
+    <label for="alert-what" class="sr">What to send</label>
+    <select id="alert-what" name="btr_url" class="mono">
+      <option value="{feed}"{"" if weekly else " selected"}>Every title change</option>
+      <option value="{digest}"{" selected" if weekly else ""}>The weekly digest</option>
+    </select>
     <label for="alert-email" class="sr">Email address</label>
     <input id="alert-email" type="email" name="btr_email" placeholder="you@example.com" required>
     <button type="submit" class="mono">Sign me up</button>
@@ -1073,7 +1081,7 @@ def build_static_pages(datas):
 <h1 class="disp">Privacy policy</h1>
 <p>Last updated {d_long(date.today().isoformat())}.</p>
 <h2 class="disp">What we collect</h2>
-<p>Nothing that identifies you. There are no accounts and no forms that send data to us. The email alert form sends your address to Blogtrottr, a third-party service, which emails you when our title-change feed updates; their privacy policy covers that address.</p>
+<p>Nothing that identifies you. There are no accounts and no forms that send data to us. The email signup form sends your address to Blogtrottr, a third-party service, which emails you when the feed you picked (our title-change feed, or the weekly digest feed) updates; their privacy policy covers that address.</p>
 <h2 class="disp">Analytics</h2>
 <p>{"We use GoatCounter, a privacy-friendly analytics service that doesn't use cookies or collect personal data, to count page views." if GOATCOUNTER_CODE else "We don't run analytics yet."}</p>
 <h2 class="disp">Advertising</h2>
