@@ -1,0 +1,122 @@
+id,date,season,season_type,home,away,home_points,away_points,neutral,note,source,home_name,away_name,home_abbr,away_abbr
+espn-401638299,2024-03-30,2024,regular,Arlington Renegades,Birmingham Stallions,14,27,,,espn,Arlington Renegades,Birmingham Stallions,ARL,BIR
+espn-401638300,2024-03-30,2024,regular,Michigan Panthers,St. Louis Battlehawks,18,16,,,espn,Michigan Panthers,St. Louis Battlehawks,MIC,STL
+espn-401638301,2024-03-31,2024,regular,San Antonio Brahmas,D.C. Defenders,27,12,,,espn,San Antonio Brahmas,D.C. Defenders,SA,DC
+espn-401638302,2024-03-31,2024,regular,Houston Roughnecks,Memphis Showboats,12,18,,,espn,Houston Roughnecks,Memphis Showboats,HOU,MEM
+espn-401638304,2024-04-06,2024,regular,St. Louis Battlehawks,Arlington Renegades,27,24,,,espn,St. Louis Battlehawks,Arlington Renegades,STL,ARL
+espn-401638305,2024-04-07,2024,regular,Michigan Panthers,Birmingham Stallions,13,20,,,espn,Michigan Panthers,Birmingham Stallions,MIC,BIR
+espn-401638306,2024-04-07,2024,regular,D.C. Defenders,Houston Roughnecks,23,18,,,espn,D.C. Defenders,Houston Roughnecks,DC,HOU
+espn-401638307,2024-04-13,2024,regular,Arlington Renegades,D.C. Defenders,28,29,,,espn,Arlington Renegades,D.C. Defenders,ARL,DC
+espn-401638308,2024-04-13,2024,regular,Birmingham Stallions,Memphis Showboats,33,14,,,espn,Birmingham Stallions,Memphis Showboats,BIR,MEM
+espn-401638309,2024-04-14,2024,regular,Michigan Panthers,Houston Roughnecks,34,20,,,espn,Michigan Panthers,Houston Roughnecks,MIC,HOU
+espn-401638310,2024-04-14,2024,regular,San Antonio Brahmas,St. Louis Battlehawks,24,31,,,espn,San Antonio Brahmas,St. Louis Battlehawks,SA,STL
+espn-401638311,2024-04-20,2024,regular,St. Louis Battlehawks,Memphis Showboats,32,17,,,espn,St. Louis Battlehawks,Memphis Showboats,STL,MEM
+espn-401638312,2024-04-20,2024,regular,Birmingham Stallions,D.C. Defenders,20,18,,,espn,Birmingham Stallions,D.C. Defenders,BIR,DC
+espn-401638314,2024-04-21,2024,regular,Houston Roughnecks,Arlington Renegades,17,9,,,espn,Houston Roughnecks,Arlington Renegades,HOU,ARL
+espn-401638315,2024-04-27,2024,regular,Arlington Renegades,San Antonio Brahmas,15,25,,,espn,Arlington Renegades,San Antonio Brahmas,ARL,SA
+espn-401638316,2024-04-27,2024,regular,Houston Roughnecks,Birmingham Stallions,9,32,,,espn,Houston Roughnecks,Birmingham Stallions,HOU,BIR
+espn-401638317,2024-04-28,2024,regular,D.C. Defenders,St. Louis Battlehawks,12,45,,,espn,D.C. Defenders,St. Louis Battlehawks,DC,STL
+espn-401638319,2024-05-04,2024,regular,Memphis Showboats,Birmingham Stallions,21,39,,,espn,Memphis Showboats,Birmingham Stallions,MEM,BIR
+espn-401638320,2024-05-04,2024,regular,St. Louis Battlehawks,Houston Roughnecks,22,8,,,espn,St. Louis Battlehawks,Houston Roughnecks,STL,HOU
+espn-401638321,2024-05-05,2024,regular,Michigan Panthers,Arlington Renegades,28,27,,,espn,Michigan Panthers,Arlington Renegades,MIC,ARL
+espn-401638322,2024-05-05,2024,regular,D.C. Defenders,San Antonio Brahmas,18,12,,,espn,D.C. Defenders,San Antonio Brahmas,DC,SA
+espn-401638323,2024-05-11,2024,regular,Arlington Renegades,Memphis Showboats,47,23,,,espn,Arlington Renegades,Memphis Showboats,ARL,MEM
+espn-401638324,2024-05-11,2024,regular,Birmingham Stallions,St. Louis Battlehawks,30,26,,,espn,Birmingham Stallions,St. Louis Battlehawks,BIR,STL
+espn-401638325,2024-05-12,2024,regular,D.C. Defenders,Michigan Panthers,9,22,,,espn,D.C. Defenders,Michigan Panthers,DC,MIC
+espn-401638326,2024-05-12,2024,regular,Houston Roughnecks,San Antonio Brahmas,12,15,,,espn,Houston Roughnecks,San Antonio Brahmas,HOU,SA
+espn-401638328,2024-05-18,2024,regular,Birmingham Stallions,Houston Roughnecks,35,28,,,espn,Birmingham Stallions,Houston Roughnecks,BIR,HOU
+espn-401638329,2024-05-19,2024,regular,St. Louis Battlehawks,D.C. Defenders,26,21,,,espn,St. Louis Battlehawks,D.C. Defenders,STL,DC
+espn-401638330,2024-05-19,2024,regular,San Antonio Brahmas,Arlington Renegades,20,15,,,espn,San Antonio Brahmas,Arlington Renegades,SA,ARL
+espn-401638331,2024-05-25,2024,regular,Arlington Renegades,St. Louis Battlehawks,36,22,,,espn,Arlington Renegades,St. Louis Battlehawks,ARL,STL
+espn-401638332,2024-05-25,2024,regular,San Antonio Brahmas,Birmingham Stallions,18,9,,,espn,San Antonio Brahmas,Birmingham Stallions,SA,BIR
+espn-401638333,2024-05-26,2024,regular,Memphis Showboats,D.C. Defenders,21,36,,,espn,Memphis Showboats,D.C. Defenders,MEM,DC
+espn-401638334,2024-05-26,2024,regular,Houston Roughnecks,Michigan Panthers,22,26,,,espn,Houston Roughnecks,Michigan Panthers,HOU,MIC
+espn-401638335,2024-06-01,2024,regular,Birmingham Stallions,Michigan Panthers,20,19,,,espn,Birmingham Stallions,Michigan Panthers,BIR,MIC
+espn-401638336,2024-06-01,2024,regular,St. Louis Battlehawks,San Antonio Brahmas,13,12,,,espn,St. Louis Battlehawks,San Antonio Brahmas,STL,SA
+espn-401638337,2024-06-02,2024,regular,D.C. Defenders,Arlington Renegades,31,32,,,espn,D.C. Defenders,Arlington Renegades,DC,ARL
+espn-401638338,2024-06-02,2024,regular,Memphis Showboats,Houston Roughnecks,19,12,,,espn,Memphis Showboats,Houston Roughnecks,MEM,HOU
+espn-401671987,2024-06-08,2024,postseason,Birmingham Stallions,Michigan Panthers,31,18,,,espn,Birmingham Stallions,Michigan Panthers,BIR,MIC
+espn-401671988,2024-06-09,2024,postseason,St. Louis Battlehawks,San Antonio Brahmas,15,25,,,espn,St. Louis Battlehawks,San Antonio Brahmas,STL,SA
+espn-401671989,2024-06-16,2024,postseason,San Antonio Brahmas,Birmingham Stallions,0,25,1,,espn,San Antonio Brahmas,Birmingham Stallions,SA,BIR
+espn-401743446,2025-03-28,2025,regular,Houston Roughnecks,St. Louis Battlehawks,6,31,,,espn,Houston Roughnecks,St. Louis Battlehawks,HOU,STL
+espn-401743447,2025-03-29,2025,regular,Arlington Renegades,San Antonio Brahmas,33,9,,,espn,Arlington Renegades,San Antonio Brahmas,ARL,SA
+espn-401743449,2025-03-30,2025,regular,D.C. Defenders,Birmingham Stallions,18,11,,,espn,D.C. Defenders,Birmingham Stallions,DC,BIR
+espn-401743450,2025-04-04,2025,regular,Michigan Panthers,Birmingham Stallions,12,21,,,espn,Michigan Panthers,Birmingham Stallions,MIC,BIR
+espn-401743451,2025-04-05,2025,regular,D.C. Defenders,Memphis Showboats,17,12,,,espn,D.C. Defenders,Memphis Showboats,DC,MEM
+espn-401743452,2025-04-06,2025,regular,Arlington Renegades,Houston Roughnecks,11,9,,,espn,Arlington Renegades,Houston Roughnecks,ARL,HOU
+espn-401743453,2025-04-06,2025,regular,St. Louis Battlehawks,San Antonio Brahmas,26,9,,,espn,St. Louis Battlehawks,San Antonio Brahmas,STL,SA
+espn-401743454,2025-04-11,2025,regular,Birmingham Stallions,Arlington Renegades,10,9,,,espn,Birmingham Stallions,Arlington Renegades,BIR,ARL
+espn-401743455,2025-04-12,2025,regular,Memphis Showboats,Houston Roughnecks,17,18,,,espn,Memphis Showboats,Houston Roughnecks,MEM,HOU
+espn-401743457,2025-04-13,2025,regular,St. Louis Battlehawks,D.C. Defenders,15,27,,,espn,St. Louis Battlehawks,D.C. Defenders,STL,DC
+espn-401743479,2025-04-19,2025,regular,Arlington Renegades,St. Louis Battlehawks,30,15,,,espn,Arlington Renegades,St. Louis Battlehawks,ARL,STL
+espn-401743480,2025-04-19,2025,regular,Houston Roughnecks,Birmingham Stallions,16,23,,,espn,Houston Roughnecks,Birmingham Stallions,HOU,BIR
+espn-401743481,2025-04-20,2025,regular,D.C. Defenders,San Antonio Brahmas,18,24,,,espn,D.C. Defenders,San Antonio Brahmas,DC,SA
+espn-401743482,2025-04-25,2025,regular,Birmingham Stallions,Memphis Showboats,20,24,,OT,espn,Birmingham Stallions,Memphis Showboats,BIR,MEM
+espn-401743483,2025-04-26,2025,regular,St. Louis Battlehawks,Michigan Panthers,32,27,,,espn,St. Louis Battlehawks,Michigan Panthers,STL,MIC
+espn-401743484,2025-04-27,2025,regular,Arlington Renegades,D.C. Defenders,33,37,,,espn,Arlington Renegades,D.C. Defenders,ARL,DC
+espn-401743485,2025-04-27,2025,regular,San Antonio Brahmas,Houston Roughnecks,3,27,,,espn,San Antonio Brahmas,Houston Roughnecks,SA,HOU
+espn-401743486,2025-05-02,2025,regular,St. Louis Battlehawks,Arlington Renegades,12,6,,,espn,St. Louis Battlehawks,Arlington Renegades,STL,ARL
+espn-401743487,2025-05-03,2025,regular,Houston Roughnecks,Memphis Showboats,21,20,,,espn,Houston Roughnecks,Memphis Showboats,HOU,MEM
+espn-401743488,2025-05-04,2025,regular,Michigan Panthers,D.C. Defenders,38,14,,,espn,Michigan Panthers,D.C. Defenders,MIC,DC
+espn-401743489,2025-05-04,2025,regular,Birmingham Stallions,San Antonio Brahmas,26,3,,,espn,Birmingham Stallions,San Antonio Brahmas,BIR,SA
+espn-401743490,2025-05-09,2025,regular,San Antonio Brahmas,D.C. Defenders,24,32,,,espn,San Antonio Brahmas,D.C. Defenders,SA,DC
+espn-401743491,2025-05-10,2025,regular,Arlington Renegades,Michigan Panthers,24,25,,,espn,Arlington Renegades,Michigan Panthers,ARL,MIC
+espn-401743492,2025-05-11,2025,regular,Birmingham Stallions,Houston Roughnecks,33,25,,,espn,Birmingham Stallions,Houston Roughnecks,BIR,HOU
+espn-401743493,2025-05-11,2025,regular,Memphis Showboats,St. Louis Battlehawks,9,19,,,espn,Memphis Showboats,St. Louis Battlehawks,MEM,STL
+espn-401743495,2025-05-17,2025,regular,Houston Roughnecks,Michigan Panthers,18,30,,,espn,Houston Roughnecks,Michigan Panthers,HOU,MIC
+espn-401743496,2025-05-17,2025,regular,St. Louis Battlehawks,Birmingham Stallions,29,28,,,espn,St. Louis Battlehawks,Birmingham Stallions,STL,BIR
+espn-401743497,2025-05-18,2025,regular,D.C. Defenders,Arlington Renegades,33,30,,,espn,D.C. Defenders,Arlington Renegades,DC,ARL
+espn-401743498,2025-05-23,2025,regular,San Antonio Brahmas,St. Louis Battlehawks,13,39,,,espn,San Antonio Brahmas,St. Louis Battlehawks,SA,STL
+espn-401743499,2025-05-24,2025,regular,Memphis Showboats,Arlington Renegades,12,30,,,espn,Memphis Showboats,Arlington Renegades,MEM,ARL
+espn-401743500,2025-05-24,2025,regular,Birmingham Stallions,Michigan Panthers,26,22,,,espn,Birmingham Stallions,Michigan Panthers,BIR,MIC
+espn-401743501,2025-05-25,2025,regular,Houston Roughnecks,D.C. Defenders,24,21,,,espn,Houston Roughnecks,D.C. Defenders,HOU,DC
+espn-401743502,2025-05-30,2025,regular,D.C. Defenders,St. Louis Battlehawks,8,13,,,espn,D.C. Defenders,St. Louis Battlehawks,DC,STL
+espn-401743503,2025-05-31,2025,regular,Michigan Panthers,Houston Roughnecks,12,19,,,espn,Michigan Panthers,Houston Roughnecks,MIC,HOU
+espn-401743504,2025-06-01,2025,regular,San Antonio Brahmas,Arlington Renegades,6,23,,,espn,San Antonio Brahmas,Arlington Renegades,SA,ARL
+espn-401743505,2025-06-01,2025,regular,Memphis Showboats,Birmingham Stallions,9,46,,,espn,Memphis Showboats,Birmingham Stallions,MEM,BIR
+espn-401743506,2025-06-08,2025,postseason,Birmingham Stallions,Michigan Panthers,29,44,1,,espn,Birmingham Stallions,Michigan Panthers,BIR,MIC
+espn-401743507,2025-06-08,2025,postseason,St. Louis Battlehawks,D.C. Defenders,18,36,1,,espn,St. Louis Battlehawks,D.C. Defenders,STL,DC
+espn-401743508,2025-06-14,2025,postseason,Michigan Panthers,D.C. Defenders,34,58,1,,espn,Michigan Panthers,D.C. Defenders,MIC,DC
+espn-401857524,2026-03-27,2026,regular,Louisville Kings,Birmingham Stallions,13,15,,,espn,Louisville Kings,Birmingham Stallions,LOU,BHAM
+espn-401857525,2026-03-28,2026,regular,St. Louis Battlehawks,DC Defenders,16,10,,,espn,St. Louis Battlehawks,DC Defenders,STL,DC
+espn-401857526,2026-03-28,2026,regular,Dallas Renegades,Houston Gamblers,36,17,,,espn,Dallas Renegades,Houston Gamblers,DAL,HOU
+espn-401857527,2026-03-29,2026,regular,Orlando Storm,Columbus Aviators,23,16,,,espn,Orlando Storm,Columbus Aviators,ORL,CLB
+espn-401857528,2026-04-03,2026,regular,Columbus Aviators,DC Defenders,26,44,,,espn,Columbus Aviators,DC Defenders,CLB,DC
+espn-401857529,2026-04-04,2026,regular,Orlando Storm,Louisville Kings,19,9,,,espn,Orlando Storm,Louisville Kings,ORL,LOU
+espn-401857530,2026-04-05,2026,regular,Houston Gamblers,Birmingham Stallions,22,20,,,espn,Houston Gamblers,Birmingham Stallions,HOU,BHAM
+espn-401857531,2026-04-07,2026,regular,Dallas Renegades,St. Louis Battlehawks,31,15,,,espn,Dallas Renegades,St. Louis Battlehawks,DAL,STL
+espn-401857532,2026-04-10,2026,regular,Louisville Kings,Orlando Storm,27,29,,OT,espn,Louisville Kings,Orlando Storm,LOU,ORL
+espn-401857533,2026-04-11,2026,regular,DC Defenders,Houston Gamblers,45,7,,,espn,DC Defenders,Houston Gamblers,DC,HOU
+espn-401857534,2026-04-12,2026,regular,Dallas Renegades,Columbus Aviators,28,23,,,espn,Dallas Renegades,Columbus Aviators,DAL,CLB
+espn-401857535,2026-04-12,2026,regular,St. Louis Battlehawks,Birmingham Stallions,34,30,,,espn,St. Louis Battlehawks,Birmingham Stallions,STL,BHAM
+espn-401857536,2026-04-16,2026,regular,Houston Gamblers,Louisville Kings,22,24,,OT,espn,Houston Gamblers,Louisville Kings,HOU,LOU
+espn-401857537,2026-04-17,2026,regular,Columbus Aviators,Dallas Renegades,28,14,,,espn,Columbus Aviators,Dallas Renegades,CLB,DAL
+espn-401857538,2026-04-18,2026,regular,DC Defenders,St. Louis Battlehawks,28,22,,,espn,DC Defenders,St. Louis Battlehawks,DC,STL
+espn-401857539,2026-04-18,2026,regular,Birmingham Stallions,Orlando Storm,0,16,,,espn,Birmingham Stallions,Orlando Storm,BHAM,ORL
+espn-401857540,2026-04-24,2026,regular,Birmingham Stallions,DC Defenders,28,45,,,espn,Birmingham Stallions,DC Defenders,BHAM,DC
+espn-401857541,2026-04-25,2026,regular,Orlando Storm,St. Louis Battlehawks,17,25,,,espn,Orlando Storm,St. Louis Battlehawks,ORL,STL
+espn-401857542,2026-04-26,2026,regular,Houston Gamblers,Columbus Aviators,17,13,,,espn,Houston Gamblers,Columbus Aviators,HOU,CLB
+espn-401857543,2026-04-26,2026,regular,Dallas Renegades,Louisville Kings,25,47,,,espn,Dallas Renegades,Louisville Kings,DAL,LOU
+espn-401857544,2026-04-30,2026,regular,Louisville Kings,St. Louis Battlehawks,3,16,,,espn,Louisville Kings,St. Louis Battlehawks,LOU,STL
+espn-401857545,2026-05-01,2026,regular,Columbus Aviators,Houston Gamblers,24,17,,,espn,Columbus Aviators,Houston Gamblers,CLB,HOU
+espn-401857546,2026-05-02,2026,regular,DC Defenders,Dallas Renegades,24,6,,,espn,DC Defenders,Dallas Renegades,DC,DAL
+espn-401857547,2026-05-03,2026,regular,Orlando Storm,Birmingham Stallions,17,20,,,espn,Orlando Storm,Birmingham Stallions,ORL,BHAM
+espn-401857548,2026-05-08,2026,regular,St. Louis Battlehawks,Columbus Aviators,31,20,,,espn,St. Louis Battlehawks,Columbus Aviators,STL,CLB
+espn-401857549,2026-05-09,2026,regular,DC Defenders,Louisville Kings,13,30,,,espn,DC Defenders,Louisville Kings,DC,LOU
+espn-401857550,2026-05-09,2026,regular,Birmingham Stallions,Dallas Renegades,21,17,,OT,espn,Birmingham Stallions,Dallas Renegades,BHAM,DAL
+espn-401857551,2026-05-10,2026,regular,Houston Gamblers,Orlando Storm,23,24,,,espn,Houston Gamblers,Orlando Storm,HOU,ORL
+espn-401857552,2026-05-15,2026,regular,Dallas Renegades,Orlando Storm,24,31,,,espn,Dallas Renegades,Orlando Storm,DAL,ORL
+espn-401857553,2026-05-16,2026,regular,Louisville Kings,DC Defenders,33,30,,,espn,Louisville Kings,DC Defenders,LOU,DC
+espn-401857554,2026-05-16,2026,regular,St. Louis Battlehawks,Houston Gamblers,16,23,,,espn,St. Louis Battlehawks,Houston Gamblers,STL,HOU
+espn-401857555,2026-05-17,2026,regular,Birmingham Stallions,Columbus Aviators,14,3,,,espn,Birmingham Stallions,Columbus Aviators,BHAM,CLB
+espn-401857556,2026-05-22,2026,regular,Orlando Storm,DC Defenders,27,19,,,espn,Orlando Storm,DC Defenders,ORL,DC
+espn-401857557,2026-05-23,2026,regular,Columbus Aviators,Birmingham Stallions,36,29,,,espn,Columbus Aviators,Birmingham Stallions,CLB,BHAM
+espn-401857558,2026-05-24,2026,regular,Louisville Kings,Dallas Renegades,37,23,,,espn,Louisville Kings,Dallas Renegades,LOU,DAL
+espn-401857559,2026-05-24,2026,regular,Houston Gamblers,St. Louis Battlehawks,15,21,,,espn,Houston Gamblers,St. Louis Battlehawks,HOU,STL
+espn-401857560,2026-05-29,2026,regular,St. Louis Battlehawks,Dallas Renegades,16,20,,,espn,St. Louis Battlehawks,Dallas Renegades,STL,DAL
+espn-401857561,2026-05-30,2026,regular,Birmingham Stallions,Houston Gamblers,13,26,,,espn,Birmingham Stallions,Houston Gamblers,BHAM,HOU
+espn-401857562,2026-05-31,2026,regular,DC Defenders,Orlando Storm,23,29,,,espn,DC Defenders,Orlando Storm,DC,ORL
+espn-401857563,2026-05-31,2026,regular,Columbus Aviators,Louisville Kings,27,42,,,espn,Columbus Aviators,Louisville Kings,CLB,LOU
+espn-401857564,2026-06-07,2026,postseason,Orlando Storm,DC Defenders,22,28,1,,espn,Orlando Storm,DC Defenders,ORL,DC
+espn-401857565,2026-06-07,2026,postseason,St. Louis Battlehawks,Louisville Kings,20,29,,,espn,St. Louis Battlehawks,Louisville Kings,STL,LOU
+espn-401857566,2026-06-13,2026,postseason,Louisville Kings,DC Defenders,27,20,1,,espn,Louisville Kings,DC Defenders,LOU,DC
