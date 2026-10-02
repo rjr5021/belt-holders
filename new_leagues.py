@@ -114,6 +114,25 @@ EUROPE = {  # key: (engsoccerdata file, top-tier filter, openfootball code)
     "ligue1": ("france", lambda r: r["tier"] == "1", "fr.1"),
     "eredivisie": ("holland", lambda r: r.get("tier", "1") == "1", "nl.1"),
 }
+# openfootball lists kickoffs in the league's own local time (N-1): "12:30" for an English
+# lunchtime game is 12:30 BST, not ET. Convert through the league's zone before storing start_et.
+EUROPE_TZ = {"en.1": "Europe/London", "es.1": "Europe/Madrid", "it.1": "Europe/Rome", "de.1": "Europe/Berlin",
+             "fr.1": "Europe/Paris", "nl.1": "Europe/Amsterdam"}
+
+
+def _of_local_to_et(code, d, t):
+    """(date, 'HH:MM') in the league's local zone -> (ET date, ET 'HH:MM'); a missing or
+    unparseable time stays TBA (None) and keeps the local date."""
+    if not t or not re.fullmatch(r"\d{1,2}:\d{2}", str(t).strip()):
+        return d, None
+    try:
+        local = datetime.fromisoformat(f"{d}T{str(t).strip().zfill(5)}").replace(tzinfo=ZoneInfo(EUROPE_TZ.get(code, "UTC")))
+    except (ValueError, NameError):
+        return d, None
+    et = local.astimezone(ET)
+    return et.date().isoformat(), et.strftime("%H:%M")
+
+
 # openfootball names our history file spells differently (checked by hand)
 OF_FIX = {"Málaga CF": "Malaga CF", "Real Racing Club de Santander": "Racing Santander",
           "ES Troyes AC": "ESTAC Troyes", "RC Deportivo La Coruña": "Deportivo La Coruna",
@@ -216,8 +235,9 @@ def update_europe(key):
                              "home": h, "away": a, "home_points": int(s[0]), "away_points": int(s[1]),
                              "neutral": "", "note": "", "source": "openfootball"})
             elif m["date"] >= today:
-                upcoming.append({"id": f"of-{y}-{i}", "date": m["date"], "season": y, "season_type": "regular",
-                                 "home": h, "away": a, "start_et": m.get("time")})
+                d_et, t_et = _of_local_to_et(code, m["date"], m.get("time"))
+                upcoming.append({"id": f"of-{y}-{i}", "date": d_et, "season": y, "season_type": "regular",
+                                 "home": h, "away": a, "start_et": t_et})
         y += 1
     if unknown:
         print(f"  [{key}] names matched by spelling:", sorted(unknown))
@@ -465,7 +485,11 @@ def espn_day(path, d, groups=None):
             row.update(home_points=hp, away_points=ap, note=note)
             done.append(row)
         elif status.get("state") == "pre":
-            row["start_et"] = None if status.get("name") == "STATUS_TBD" else start.strftime("%H:%M")
+            # N-2: ESPN parks unscheduled tips at midnight ET with timeValid=false; that's TBA, not 12:00 AM.
+            tv = comp.get("timeValid")
+            hhmm = start.strftime("%H:%M")
+            tba = status.get("name") == "STATUS_TBD" or tv is False or (tv is None and hhmm == "00:00")
+            row["start_et"] = None if tba else hhmm
             up.append(row)
     return done, up
 
@@ -1193,9 +1217,46 @@ def update_cfl():
                 upcoming.append({"id": f"cfl-{u['date']}-{h}-{a}", "date": u["date"], "season": y,
                                  "season_type": "postseason" if u["post"] else "regular", "home": h, "away": a,
                                  "neutral": "1" if u["neutral"] else "", "start_et": None})
-    write("cfl", rows, [u for u in upcoming if u["date"] >= today.isoformat()])
+    upcoming = [u for u in upcoming if u["date"] >= today.isoformat()]
+    _cfl_times_from_espn(upcoming, today)
+    write("cfl", rows, upcoming)
     with open(meta_path, "w") as f:
         json.dump({"parser": CFL_PARSER}, f)
+
+
+def _cfl_times_from_espn(upcoming, today):
+    """B-6 (audit #2): Wikipedia's schedule tables have no kickoff times, so every CFL game showed
+    "Time TBA". ESPN's CFL scoreboard has them; match its next three weeks of fixtures to ours by
+    date and team and copy the ET start."""
+    if not upcoming:
+        return
+    seen = {}
+    try:
+        for i in range(0, 22):
+            _, up = espn_day("football/cfl", today + timedelta(days=i))
+            for u in up:
+                h = cfl_code(u["home"], u.get("season_year") or today.year)
+                a = cfl_code(u["away"], u.get("season_year") or today.year)
+                if h and a and u.get("start_et"):
+                    seen[(u["date"], frozenset((h, a)))] = u["start_et"]
+    except Exception as ex:  # noqa: BLE001 -- times are a nicety; never fail the data run for them
+        print(f"  CFL: ESPN times skipped ({ex})")
+        return
+    hits = 0
+    for u in upcoming:
+        t = seen.get((u["date"], frozenset((u["home"], u["away"]))))
+        if not t:
+            # ESPN's date is ET; a late-evening western kickoff can sit a day off the schedule table
+            for delta in (-1, 1):
+                d2 = (date.fromisoformat(u["date"]) + timedelta(days=delta)).isoformat()
+                t = seen.get((d2, frozenset((u["home"], u["away"]))))
+                if t:
+                    u["date"] = d2
+                    break
+        if t:
+            u["start_et"] = t
+            hits += 1
+    print(f"  CFL: {hits} of {len(upcoming)} upcoming games got a kickoff time from ESPN")
 
 
 UPDATERS = {"epl": lambda: update_europe("epl"), "laliga": lambda: update_europe("laliga"),

@@ -25,9 +25,14 @@ def _auto_short(name):
     return s.strip() or name
 
 
+def _ko(t):
+    """A stored kickoff, or None when the source had none (N-2: "" and the midnight-ET placeholder are TBA)."""
+    return t if t and t != "00:00" else None
+
+
 def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None, display=None, tie_rule="holder",
          gap_days=200, label=season_label, rules="", sources="", time_word="Kickoff", unit="clubs",
-         post_word="postseason", champions_note=None, names_file=None, era=None, keep=None):
+         post_word="postseason", champions_note=None, names_file=None, era=None, keep=None, venues=None):
     teams = teams or {}          # code -> (primary, secondary[, short]), or a function of the code
     aliases = aliases or {}      # raw team value in the files -> code
     display = display or {}      # code -> display name
@@ -70,7 +75,7 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
                 continue
             upcoming.append({"id": u["id"], "date": u["date"], "season": int(u.get("season") or u["date"][:4]),
                              "season_type": u.get("season_type") or "regular", "home": h, "away": a,
-                             "neutral": u.get("neutral") == "1", "kickoff": u.get("start_et")})
+                             "neutral": u.get("neutral") == "1", "kickoff": _ko(u.get("start_et"))})
         games.sort(key=lambda g: (g["date"], g["season_type"] != "regular", str(g["id"])))
         return games, upcoming
 
@@ -100,6 +105,7 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
         "team_colors": team_colors, "short_name": short_name, "season_status": season_status,
         "season_label": label, "live": True, "gap_days": gap_days, "rules_note": lambda *a, **k: rules,
         "sources": sources, "time_word": time_word, "unit": unit, "post_word": post_word, "post_tag": post_word,
+        "home_venues": venues or {},     # B-7: club -> (stadium, city) when the fixtures carry no venue
         "unit_one": {"clubs": "club", "nations": "nation", "teams": "team"}.get(unit, unit.rstrip("s")),
         # club and national-team names read as singular ("Bayern Munich defends"); nicknames as plural ("the Aces defend")
         "singular": unit in ("clubs", "nations"),
@@ -112,6 +118,7 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
 SOCCER_RULES = ("A draw is a successful defense. In a knockout game settled on penalties, the shootout winner takes "
                 "(or keeps) the belt. A holder that drops out of the league, by relegation, vacates the belt, which "
                 "goes back to the most recent earlier holder still in the league.")
+from venues_soccer import VENUES as _VENUES   # B-7 (audit #2)
 ESD = ('<a href="https://github.com/jalapic/engsoccerdata">engsoccerdata</a> (James Curley, GPL)')
 OPENF = '<a href="https://github.com/openfootball/football.json">openfootball</a> (public domain)'
 
@@ -136,7 +143,7 @@ EPL = make("epl", "Premier League", "The English Football Belt", "Soccer", 1888,
     "Middlesbrough": ("#e11b22", "#ffffff"), "Norwich City": ("#00a650", "#fff200", "Norwich"),
     "Stoke City": ("#e03a3e", "#1b449c", "Stoke"), "Watford": ("#fbee23", "#ed2127"),
 }, rules=f"<p><b>Premier League.</b> The belt starts with the first Football League game in 1888 and follows England's top flight: the First Division until 1992, the Premier League since. {SOCCER_RULES}</p>",
-    sources=f"English top-flight results since 1888 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"English top-flight results since 1888 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["epl"])
 
 # ------------------------------------------------------------------ Spain
 LALIGA = make("laliga", "La Liga", "The La Liga Belt", "Soccer", 1928, teams={
@@ -156,7 +163,7 @@ LALIGA = make("laliga", "La Liga", "The La Liga Belt", "Soccer", 1928, teams={
 }, display={"Deportivo La Coruna": "Deportivo La Coruña", "Malaga CF": "Málaga CF", "CD Malaga": "CD Málaga",
             "Atletico Madrid": "Atlético Madrid", "CD Alaves": "Deportivo Alavés", "Espanyol Barcelona": "Espanyol"},
     rules=f"<p><b>La Liga.</b> The belt starts with Spain's first league game in February 1929. {SOCCER_RULES}</p>",
-    sources=f"La Liga results since 1929 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"La Liga results since 1929 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["laliga"])
 
 # ------------------------------------------------------------------ Italy
 SERIEA = make("seriea", "Serie A", "The Serie A Belt", "Soccer", 1929, teams={
@@ -171,7 +178,7 @@ SERIEA = make("seriea", "Serie A", "The Serie A Belt", "Soccer", 1929, teams={
     "Empoli FC": ("#00579c", "#ffffff", "Empoli"), "Sampdoria": ("#1b5497", "#ffffff"),
 }, display={"Lazio Roma": "Lazio", "Inter": "Inter Milan"},
     rules=f"<p><b>Serie A.</b> The belt starts with the first round of the single-table Serie A in October 1929. {SOCCER_RULES}</p>",
-    sources=f"Serie A results since 1929 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"Serie A results since 1929 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["seriea"])
 
 # ---------------------------------------------------------------- Germany
 BUNDESLIGA = make("bundesliga", "Bundesliga", "The Bundesliga Belt", "Soccer", 1963, teams={
@@ -189,7 +196,7 @@ BUNDESLIGA = make("bundesliga", "Bundesliga", "The Bundesliga Belt", "Soccer", 1
 }, display={"Bayern Munchen": "Bayern Munich", "1. FC Koln": "1. FC Köln", "Bor. Monchengladbach": "Borussia Mönchengladbach",
             "RasenBallsport Leipzig": "RB Leipzig", "1899 Hoffenheim": "TSG Hoffenheim", "Borussia Monchengladbach": "Borussia Mönchengladbach"},
     rules=f"<p><b>Bundesliga.</b> The belt starts with the Bundesliga's first matchday in August 1963. {SOCCER_RULES}</p>",
-    sources=f"Bundesliga results since 1963 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"Bundesliga results since 1963 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["bundesliga"])
 
 # ----------------------------------------------------------------- France
 LIGUE1 = make("ligue1", "Ligue 1", "The Ligue 1 Belt", "Soccer", 1938, teams={
@@ -204,7 +211,7 @@ LIGUE1 = make("ligue1", "Ligue 1", "The Ligue 1 Belt", "Soccer", 1938, teams={
     "Montpellier HSC": ("#f36f21", "#1b3a8c", "Montpellier"), "Stade Reims": ("#e3001b", "#ffffff", "Reims"),
 }, display={"AS Saint-Etienne": "AS Saint-Étienne", "Le Mans UC 72": "Le Mans"},
     rules=f"<p><b>Ligue 1.</b> The belt starts with the 1937–38 French first division, the first season with a full, dated fixture list in the archive (earlier seasons' games carry placeholder dates, so their order is unknown). {SOCCER_RULES}</p>",
-    sources=f"French top-flight results since 1937–38 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"French top-flight results since 1937–38 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["ligue1"])
 
 # ------------------------------------------------------------ Netherlands
 EREDIVISIE = make("eredivisie", "Eredivisie", "The Eredivisie Belt", "Soccer", 1956, teams={
@@ -218,7 +225,7 @@ EREDIVISIE = make("eredivisie", "Eredivisie", "The Eredivisie Belt", "Soccer", 1
     "FC Volendam": ("#f58220", "#111111", "Volendam"), "Heracles Almelo": ("#111111", "#ffffff", "Heracles"),
     "NAC Breda": ("#fdd100", "#111111", "NAC"), "Vitesse": ("#fdd100", "#111111"),
 }, rules=f"<p><b>Eredivisie.</b> The belt starts with the Eredivisie's first season, 1956–57. {SOCCER_RULES}</p>",
-    sources=f"Eredivisie results since 1956 come from {ESD}, and from {OPENF} since 2025–26.")
+    sources=f"Eredivisie results since 1956 come from {ESD}, and from {OPENF} since 2025–26.", venues=_VENUES["eredivisie"])
 
 # ---------------------------------------------------------- International
 INTL_COLORS = {

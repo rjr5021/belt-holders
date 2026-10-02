@@ -214,7 +214,7 @@ def build_pages(S, datas):
         rows = "".join(_game_row(S, b, today) for b in sorted(by_day[dstr], key=lambda b: b["next"].get("time_et") or "99"))
         days.append(f'<section class="block" data-day="{dstr}"><h2 class="disp sub">{S.weekday(dstr)}, {S.d_long(dstr)}</h2>'
                     f'<div class="tablewrap"><table class="history"><thead><tr><th class="mono">ET</th><th class="mono">Belt</th><th class="mono">Game</th>'
-                    f'<th class="mono">Holder</th><th class="mono">TV</th><th><span class="sr">Preview</span></th></tr></thead><tbody>{rows}</tbody></table></div></section>')
+                    f'<th class="mono">Defend odds</th><th class="mono">TV</th><th><span class="sr">Preview</span></th></tr></thead><tbody>{rows}</tbody></table></div></section>')
     body = f"""<section class="wrap block">
   <div class="kicker">The belt network</div>
   <div class="head"><h1 class="disp">Belt games this week</h1><span class="mono note">Every sport · times Eastern</span></div>
@@ -343,9 +343,11 @@ def build_network_feed(S, out="site", limit=100):
 
 # ------------------------------------------------ Phase 4: cross-belt widgets --
 
-def widgets_html(S, datas, today=None):
+def widgets_html(S, datas, today=None, moved_card=True):
     """Audit 7.20 on the homepage and /all/: belts that moved this week, the longest current
-    reigns across every belt, and this week's upset watch (holders under 40% to defend)."""
+    reigns across every belt, and this week's upset watch (holders under 40% to defend).
+    B-4 (audit #2): the homepage already lists the latest title changes right below this block,
+    so it passes moved_card=False and gets the next belt games on the line instead."""
     from leagues import LIVE
     e = S.e
     today = today or date.today()
@@ -373,10 +375,18 @@ def widgets_html(S, datas, today=None):
             for b in longest)
     c3 = li(f'<li><span><b>{e(b["holder_short"])}</b> ({e(b["short"])}) {"vs." if b["next"]["home"] or b["next"]["neutral"] else "at"} {e(b["next"]["opponent_short"] or "")}</span>'
             f'<b class="mono">{round(b["next"]["win_prob"] * 100)}% to defend</b></li>' for b in upsets[:6])
+    if moved_card:
+        first = f'<div class="card"><div class="kicker">Belts that moved this week</div><ol class="lb">{c1}</ol></div>'
+    else:
+        soon = sorted((b for b in bs if b.get("next") and b["next"].get("date") and b["next"]["date"] >= today.isoformat()),
+                      key=lambda b: (b["next"]["date"], b["next"].get("time_et") or "99"))[:6]
+        c0 = li(f'<li><span><b>{e(b["holder_short"])}</b> ({e(b["short"])}) {"vs." if b["next"]["home"] or b["next"]["neutral"] else "at"} {e(b["next"]["opponent_short"] or "")}</span>'
+                f'<a class="mono" href="{b["next"]["url"]}">{S.d_short(b["next"]["date"])}</a></li>' for b in soon)
+        first = f'<div class="card"><div class="kicker">Next on the line</div><ol class="lb">{c0}</ol></div>'
     return f"""<section class="wrap block">
   <div class="head"><h2 class="disp">Across every belt</h2><span class="mono note">All 19 belts, updated every two hours</span></div>
   <div class="three">
-    <div class="card"><div class="kicker">Belts that moved this week</div><ol class="lb">{c1}</ol></div>
+    {first}
     <div class="card"><div class="kicker">Longest current reigns</div><ol class="lb">{c2}</ol></div>
     <div class="card"><div class="kicker">Upset watch: under 40% to defend</div><ol class="lb">{c3}</ol></div>
   </div>

@@ -34,7 +34,7 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "6"
+STYLES_VERSION = "7"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -66,7 +66,7 @@ def weekday(iso):
 
 
 def kickoff_12h(hhmm):
-    if not hhmm:
+    if not hhmm or hhmm == "00:00":      # N-2: the midnight placeholder means the time isn't set
         return "Time TBA"
     h, m = (int(x) for x in hhmm.split(":")[:2])
     ap = "AM" if h < 12 else "PM"
@@ -238,8 +238,8 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#211a12">
 <link rel="alternate" type="application/rss+xml" title="Belt Holders — title changes" href="/feed.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="preconnect" href="https://a.espncdn.com">
+<link rel="preload" href="/fonts/big-shoulders-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/spectral-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css?v={STYLES_VERSION}">
 <script>try{{var t=localStorage.getItem('belt-theme');if(t)document.documentElement.dataset.theme=t;}}catch(e){{}}</script>
 {ads}{goat}{ld}
@@ -345,10 +345,16 @@ def holder_plate_big(lg, data):
 
 
 def season_text(lg, r):
-    """'1977' for the NFL, '1976–77' for leagues whose seasons span two years."""
+    """'1977' for the NFL, '1976–77' for leagues whose seasons span two years; a reign that ran
+    across seasons shows the span ('1971–74'), not just the season it started (audit #2, C-2)."""
     season = r.get("season") or int(r["start_date"][:4])
     fn = lg.get("season_label")
-    return fn(season) if fn else str(season)
+    first = fn(season) if fn else str(season)
+    end = r.get("end_season")
+    if end and end > season:
+        last = fn(end) if fn else str(end)
+        return f"{first.split('–')[0]}–{last[-2:]}" if len(first.split('–')[0]) == 4 and last[-2:].isdigit() else f"{first} to {last}"
+    return first
 
 
 def won_score_text(r):
@@ -450,7 +456,7 @@ def network_stories():
 def _network_widgets(datas):
     import network
     try:
-        return network.widgets_html(sys.modules[__name__], datas)
+        return network.widgets_html(sys.modules[__name__], datas, moved_card=False)
     except Exception as ex:  # noqa: BLE001 -- a widget must never take the homepage down
         print("network widgets skipped:", ex)
         return ""
@@ -467,7 +473,53 @@ def frozen_note(datas):
             f'so {"that belt carries" if len(bits) == 1 else "those belts carry"} over to next season.</p>')
 
 
+def home_faq(datas):
+    """Audit #2 (6.9): plain-language answers for the rich result, visible on the page and in FAQPage JSON-LD."""
+    today = date.today()
+    q = [("What is a lineal championship belt?",
+          "A lineal championship belt is a title that changes hands only when the holder loses. Each league's belt starts with the winner of the league's "
+          "first game, and it passes to whoever beats the holder, game by game: regular season, playoffs, home or away. Nothing is voted on. "
+          "Belt Holders tracks one for every pro league, with the college belts on their sister sites.")]
+    for key in PRIMARY:
+        lg = next((l for l in LIVE if l["key"] == key), None)
+        if not lg:
+            continue
+        d = datas[key]
+        cur = d["current"]
+        name = lg["team_name"](cur["team"])
+        days = (today - date.fromisoformat(cur["start_date"])).days
+        st = features.belt_state(lg, d)
+        ng = d.get("next_game")
+        took = (f"took it from {lg['team_name'](cur['won_from'])}, {won_score_text(cur)}, on {d_long(cur['start_date'])}" if cur.get("won_from")
+                else f"picked it up on {d_long(cur['start_date'])}")
+        nxt = ""
+        if ng:
+            where = "vs." if ng["holder_home"] else "at"
+            nxt = f" The next belt game is {lg['short_name'](cur['team'])} {where} {lg['team_name'](ng['challenger'])} on {d_long(ng['date'])}."
+        elif st["state"] == "postseason_holder_out":
+            nxt = f" {lg['short_name'](cur['team'])} {verb_s(lg, 'are', 'is')} done for the season, so the belt carries over to next season."
+        q.append((f"Who holds the {lg['name']} belt right now?",
+                  f"{name} {verb_s(lg, 'hold', 'holds')} the {lg['name']} belt: {took}, with {plural(cur.get('defenses', 0), 'defense')} since "
+                  f"({plural(days, 'day')} and counting, {features.poss(lg['short_name'](cur['team']))} {ordinal(cur['reign_no'])} reign).{nxt}"))
+    q.append(("What happens when the holder's season ends?",
+              "The belt waits. A holder that is eliminated, or whose league goes into its offseason, keeps the belt until its next game, so a belt can be "
+              "\"frozen\" through a postseason the holder isn't in. If a franchise folds or drops out of the league, the belt goes back to the most recent "
+              "earlier holder that is still playing."))
+    q.append(("Do ties, overtime and shootouts count?",
+              "A tie is a successful defense; the belt only moves on a loss. Overtime and shootout results count the way the league counts them. "
+              "Preseason, exhibition and All-Star games don't count at all."))
+    items = "".join(f'<div class="faq"><h3 class="disp">{e(qq)}</h3><p>{e(a)}</p></div>' for qq, a in q)
+    html = f'<section class="wrap block"><div class="head"><div class="kicker">Straight answers</div><h2 class="disp">Belt FAQ</h2></div><div class="faqgrid">{items}</div></section>'
+    ld = {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": qq, "acceptedAnswer": {"@type": "Answer", "text": a}} for qq, a in q]}
+    return html, ld
+
+
+def verb_s(lg, plural_form, singular_form):
+    return singular_form if lg.get("singular") else plural_form
+
+
 def build_home(datas):
+    faq_html, faq_ld = home_faq(datas)
     tiles = []
     for key in PRIMARY:
         lg = next((l for l in LIVE if l["key"] == key), None)
@@ -552,9 +604,11 @@ def build_home(datas):
 <section class="wrap block">
   <div class="head"><h2 class="disp">The record books</h2><div class="tabs mono">{"".join(f'<a href="/{k}/records/" class="{"on" if k == "nfl" else ""}">{e(next(l["name"] for l in LIVE if l["key"] == k))}</a>' for k in ORDER if any(l["key"] == k for l in LIVE))}</div></div>
   {nums}
-</section>"""
+</section>
+{faq_html}"""
     write("index.html", page("Belt Holders — the lineal championship belt for every league", body, path="/",
-                             description="Who holds the lineal championship belt in the NFL, NBA, NHL, MLB, MLS, WNBA, Premier League and more. Beat the champ, take the belt — tracked game by game since each league began."))
+                             description="Who holds the lineal championship belt in the NFL, NBA, NHL, MLB, MLS, WNBA, Premier League and more. Beat the champ, take the belt — tracked game by game since each league began.",
+                             jsonld=faq_ld))
 
 
 def college_strip():
@@ -620,8 +674,17 @@ def home_extras(datas):
     import site_extras
     today = date.today()
     otd = site_extras.otd_home(site_extras.otd_items(datas), today)
-    stories = "".join(f'<a class="storycard" href="/{lg["key"]}/stories/{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(t)}</b></a>'
-                      for lg in LIVE for sl_, t in [("longest-reigns", f"The longest reigns in {lg['name']} belt history")])
+    # B-5 (audit #2): one story per league, the kind rotating so the grid isn't sixteen "longest reigns" cards
+    kinds = [("longest-reigns", lambda lg, d: f"The longest reigns in {lg['name']} belt history"),
+             ("droughts", lambda lg, d: f"Waiting for the {lg['name']} belt: the longest droughts"),
+             ("wildest-seasons", lambda lg, d: f"The {lg['name']} belt's wildest and quietest seasons"),
+             ("rivalries", lambda lg, d: f"The rivalries that decided the {lg['name']} belt"),
+             ("how-it-got-here", lambda lg, d: f"How the {lg['name']} belt got to {d['reigns'][-1]['name']}")]
+    cards = []
+    for i, lg in enumerate(LIVE):
+        sl_, title = kinds[i % len(kinds)]
+        cards.append(f'<a class="storycard" href="/{lg["key"]}/stories/{sl_}/"><span class="mono lg">{lg["name"]}</span><b class="disp">{e(title(lg, datas[lg["key"]]))}</b></a>')
+    stories = "".join(cards)
     return otd + f'<section class="wrap block"><div class="head"><h2 class="disp">Stories</h2><a class="mono more" href="/stories/">All stories →</a></div><div class="storygrid">{stories}</div></section>'
 
 
@@ -790,7 +853,7 @@ def build_team(lg, d, team, rs):
   <div class="wrap-in">
     <div class="kicker dot">{'Current holder' if holding else lg['long_name']}</div>
     <h1 class="disp holder" style="{fit(tname)}">{e(tname)}</h1>
-    <div class="stats"><div><b class="disp">{len(rs)}</b><span class="mono">Reigns</span></div><div><b class="disp">{days:,}</b><span class="mono">Days held</span></div><div><b class="disp">{defs}</b><span class="mono">Defenses</span></div><div><b class="disp">{rs[0]['start_date'][:4]}</b><span class="mono">First reign</span></div></div>
+    <div class="stats"><div><b class="disp">{len(rs)}</b><span class="mono">{'Reign' if len(rs) == 1 else 'Reigns'}</span></div><div><b class="disp">{days:,}</b><span class="mono">Days held</span></div><div><b class="disp">{defs}</b><span class="mono">{'Defense' if defs == 1 else 'Defenses'}</span></div><div><b class="disp">{rs[0]['start_date'][:4]}</b><span class="mono">First reign</span></div></div>
   </div>
 </section>
 <section class="wrap block"><div class="head"><h2 class="disp">Every reign</h2></div><ol class="chain">{rows}</ol></section>
@@ -815,6 +878,13 @@ WCBB_MOVED_JS = """<script>(function(){var p=location.pathname;if(p.indexOf('/wc
 var m=r.match(/^seasons\\/(\\d{4})\\/?$/);if(m)r='seasons/'+(+m[1]+1)+'/';
 m=r.match(/^games\\/(\\d+)\\/?$/);if(m)r=(+m[1]>1)?'games/'+(m[1]-1)+'/':'';
 location.replace('""" + WCBB_NEW + """'+r+location.hash);})();</script>"""
+# B-2 (audit #2): player slugs changed when the NHL names were filled in ("g-howe-8448000" became
+# "gordie-howe-8448000"). The id is the slug's tail, so an old URL is sent to the current slug.
+PLAYER_MOVED_JS = """<script>(function(){var m=location.pathname.match(/^\\/([a-z0-9]+)\\/players\\/([a-z0-9-]+)\\/?$/);if(!m)return;
+var lg=m[1],slug=m[2],parts=slug.split('-'),cands=[];
+for(var i=1;i<=3&&i<parts.length;i++)cands.push(parts.slice(-i).join('-'));
+fetch('/'+lg+'/players/ids.json').then(function(r){return r.json();}).then(function(ids){
+for(var i=0;i<cands.length;i++){var s=ids[cands[i]];if(s&&s!==slug){location.replace('/'+lg+'/players/'+s+'/'+location.hash);return;}}}).catch(function(){});})();</script>"""
 
 
 def build_wcbb_redirects():
@@ -890,7 +960,7 @@ def build_static_pages(datas):
 </section>"""
     write("privacy/index.html", page("Privacy", privacy, path="/privacy/", description="Belt Holders privacy policy."))
     notfound = """<section class="wrap prose"><div class="kicker">404</div><h1 class="disp">That page lost the belt</h1><p>It's not here anymore. Try the <a href="/">homepage</a> or the <a href="/nfl/">NFL belt</a>.</p></section>"""
-    write("404.html", page("Page not found", notfound + WCBB_MOVED_JS, path="/404.html", description="Page not found.", robots="noindex"))
+    write("404.html", page("Page not found", notfound + WCBB_MOVED_JS + PLAYER_MOVED_JS, path="/404.html", description="Page not found.", robots="noindex"))
     build_wcbb_redirects()
 
 
@@ -1034,6 +1104,11 @@ def build_offline():
 def copy_assets():
     for f in ("sw.js",) + ("styles.css", "favicon.png", "favicon.ico", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
+    # N-6 (audit #2): the site serves its own fonts (the files the Instagram cards already use)
+    os.makedirs(os.path.join(OUT, "fonts"), exist_ok=True)
+    for f in os.listdir(os.path.join("ig_templates", "fonts")):
+        if f.endswith(".woff2") or f == "OFL.txt":
+            shutil.copy(os.path.join("ig_templates", "fonts", f), os.path.join(OUT, "fonts", f))
 
 
 def main():

@@ -21,6 +21,13 @@ import urllib.request
 
 OUT = os.path.join("data", "nhl", "box", "belt_box.json")
 URL = "https://api-web.nhle.com/v1/gamecenter/{gid}/boxscore"
+# B-2 (audit #2): the box scores abbreviate every name ("G. Howe"), so player pages, the leaders
+# boards and search all showed initials, and ten pages were titled "D. Smith in NHL belt games".
+# The player landing endpoint has the full name; resolve NAMES_PER_RUN ids a run into
+# data/nhl/players.json (id -> full name), which features.build_players reads.
+NAMES = os.path.join("data", "nhl", "players.json")
+LANDING = "https://api-web.nhle.com/v1/player/{pid}/landing"
+NAMES_PER_RUN = int(os.environ.get("NHL_NAMES_MAX", "1200"))
 MAX_PER_RUN = int(os.environ.get("NHL_BOX_MAX", "1500"))
 DEADLINE = time.time() + 60 * float(os.environ.get("BOX_MINUTES", "25"))   # stop and save before the job's time limit
 ORDER = ["G", "A", "PTS", "PM", "PIM", "SOG", "HIT", "SV", "SA"]
@@ -107,6 +114,53 @@ def main():
     if failed and not got and todo:
         print("::error::NHL box scores: every request failed this run (see errors above)")
         sys.exit(1)
+    resolve_names(games)
+
+
+def resolve_names(games):
+    """Fill data/nhl/players.json with full names for every player id in the box scores (B-2)."""
+    try:
+        with open(NAMES) as f:
+            names = json.load(f)
+    except (OSError, ValueError):
+        names = {}
+    ids = []
+    seen = set(names)
+    for g in games.values():
+        for row in g.get("players") or []:
+            pid = str(row[0])
+            if pid not in seen and pid.isdigit():
+                seen.add(pid)
+                ids.append(pid)
+    if not ids:
+        print(f"player names: all {len(names):,} resolved")
+        return
+    print(f"player names: {len(names):,} on file, {len(ids):,} to resolve; this run: up to {NAMES_PER_RUN}")
+    got = 0
+    for i, pid in enumerate(ids[:NAMES_PER_RUN]):
+        if time.time() > DEADLINE:
+            print(f"time budget reached after {i} names; the rest next run")
+            break
+        j = get(LANDING.format(pid=pid))
+        if j is False:
+            continue
+        if not j:
+            names[pid] = ""          # 404: no landing page; keep the abbreviated name, don't ask again
+            continue
+        first = ((j.get("firstName") or {}).get("default") or "").strip()
+        last = ((j.get("lastName") or {}).get("default") or "").strip()
+        if first and last:
+            names[pid] = f"{first} {last}"
+            got += 1
+        else:
+            names[pid] = ""
+        if i and i % 100 == 0:
+            with open(NAMES, "w") as f:
+                json.dump(names, f, separators=(",", ":"), ensure_ascii=False, sort_keys=True)
+        time.sleep(0.05)
+    with open(NAMES, "w") as f:
+        json.dump(names, f, separators=(",", ":"), ensure_ascii=False, sort_keys=True)
+    print(f"player names: resolved {got} this run; {sum(1 for v in names.values() if v):,} full names on file")
 
 
 if __name__ == "__main__":
