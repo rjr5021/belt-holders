@@ -341,6 +341,29 @@ def build_network_feed(S, out="site", limit=100):
     return len(items)
 
 
+def build_network_ics(S, datas, out="site"):
+    """/all/belt.ics (feature 7.11, audit #2): one calendar subscription with every belt game on every
+    belt -- the pro leagues' events from this build, plus the college sites' belt.ics feeds fetched at
+    build time (their VEVENT blocks are copied through unchanged, alarms included)."""
+    import re as _re
+    from leagues import LIVE
+    events = []
+    for lg in LIVE:
+        events += (datas.get(lg["key"]) or {}).get("_ics_events") or []
+    for url in ("https://collegefootballbelt.com/belt.ics", "https://collegebasketballbelt.com/belt.ics",
+                "https://collegebasketballbelt.com/women/belt.ics"):
+        txt = _fetch_text(url)
+        if txt:
+            events += ["\r\n".join(l for l in blk.replace("\r\n", "\n").split("\n") if l.strip())
+                       for blk in _re.findall(r"BEGIN:VEVENT.*?END:VEVENT", txt, _re.S)]
+    cal = "\r\n".join(["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Belt Holders//Every belt//EN", "CALSCALE:GREGORIAN",
+                       "X-WR-CALNAME:Every belt game (the belt network)", "X-WR-TIMEZONE:America/New_York",
+                       "X-WR-CALDESC:Every lineal-belt title defense across the belt network: the pro leagues on beltholders.com\\, college football and men's and women's college basketball. One subscription instead of nineteen.",
+                       "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H", *events, "END:VCALENDAR"]) + "\r\n"
+    S.write("all/belt.ics", cal)
+    return len(events)
+
+
 # ------------------------------------------------ Phase 4: cross-belt widgets --
 
 def widgets_html(S, datas, today=None, moved_card=True):

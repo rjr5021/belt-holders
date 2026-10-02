@@ -34,7 +34,7 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "7"
+STYLES_VERSION = "8"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -194,7 +194,7 @@ def page(title, body, *, path, description, active=None, og_image="/og.png", jso
         else:
             nav.append(f'<span class="soon" title="Coming soon">{label}</span>')
     if len(LIVE) > len(PRIMARY):
-        nav.append(f'<a href="/leagues/"{" class=on" if active == "leagues" or (active and active not in PRIMARY and active in ORDER) else ""}>All leagues</a>')
+        nav.append(f'<a href="/leagues/"{" class=on" if active == "leagues" or (active and active not in PRIMARY and active in ORDER) else ""}><span class="lw">All </span>leagues</a>')
     nav.append(f'<a href="/rules/"{" class=on" if active == "rules" else ""}>Rules</a>')
     nav.append(f'<a href="/about/"{" class=on" if active == "about" else ""}>About</a>')
     if og_image == "/og.png" and active in [lg["key"] for lg in LIVE]:
@@ -283,7 +283,7 @@ def alerts_block():
     <input id="alert-email" type="email" name="btr_email" placeholder="you@example.com" required>
     <button type="submit" class="mono">Sign me up</button>
   </form>
-  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS).</p>
+  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS) · <a href="/all/belt.ics">every belt game on your calendar</a> (one subscription, all leagues and the college belts).</p>
 </section>"""
 
 
@@ -402,7 +402,7 @@ def league_tile(lg, d, small=False):
             if ng else f'<span class="disp">{e(st["foot"])}</span><span class="mono">{e(st["sub"])}</span>')
     how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
            if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
-    return f"""<a class="tile{' small' if small else ''}" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
+    return f"""<a class="tile{' small' if small else ''}" data-key="{key}" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
   <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status{' frozen' if st['state'] == 'postseason_holder_out' else ''}{' delayed' if st.get('delayed') else ''}"{(' title="' + e(st.get('reason', '')) + '"') if st.get('delayed') else ''}><i></i>{e(st['pill'])}</span></div>
   <div class="tile-body"><div class="mono k">Holder · {ordinal(cur['reign_no'])} reign</div><div class="disp name" style="{fit(cur['name'])}">{e(cur['name'])}</div><p>{how}</p></div>
   <div class="tile-foot">{foot}</div>
@@ -425,6 +425,7 @@ def build_leagues_page(datas):
   <p class="intro">One belt per league, passed from team to team since each league's first game. Pick a league.</p>
   <div class="head sub-head"><h2 class="disp">The big four</h2></div><div class="tiles small">{main}</div>
   {more_leagues(datas)}
+  {features.home_live_script([(lg, datas[lg["key"]]) for lg in LIVE])}
 </section>"""
     write("leagues/index.html", page("Every league's belt", body, path="/leagues/", active="leagues",
                                      description="Every lineal championship belt on Belt Holders: NFL, NBA, NHL, MLB, MLS, WNBA, NWSL, PWHL, the CFL, Europe's top soccer leagues and international soccer."))
@@ -534,7 +535,7 @@ def build_home(datas):
                     if ng else f'<span class="disp">{e(st["foot"])}</span><span class="mono">{e(st["sub"])}</span>')
             how = (f"Beat {e(lg['team_name'](cur['won_from']))} {won_score_text(cur)}, {d_short(cur['start_date'])}."
                    if cur.get("won_from") else f"Holding since {d_short(cur['start_date'], True)}.")
-            tiles.append(f"""<a class="tile" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
+            tiles.append(f"""<a class="tile" data-key="{key}" href="/{key}/" style="--top:{top};--bottom:{bottom};--ink:{ink};--accent:{accent}">
   <div class="tile-head"><span class="disp">{lg['name']}</span><span class="mono status{' frozen' if st['state'] == 'postseason_holder_out' else ''}{' delayed' if st.get('delayed') else ''}"{(' title="' + e(st.get('reason', '')) + '"') if st.get('delayed') else ''}><i></i>{e(st['pill'])}</span></div>
   <div class="tile-body"><div class="mono k">Holder · {ordinal(cur['reign_no'])} reign</div><div class="disp name" style="{fit(cur['name'])}">{e(cur['name'])}</div><p>{how}</p></div>
   <div class="tile-foot">{foot}</div>
@@ -556,7 +557,7 @@ def build_home(datas):
                 changes.append((r["start_date"], lg, r))
     changes.sort(key=lambda x: x[0], reverse=True)
     feed_rows = "".join(
-        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)} and took the belt</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
+        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)} and took the belt{f' <a class="mono" href="{features.news_url(lg, r)}">Story →</a>' if r.get('opened_by') else ''}</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
         for _, lg, r in changes[:6])
 
     nfl = datas.get("nfl")
@@ -580,6 +581,7 @@ def build_home(datas):
       <div class="btns"><a class="btn dark mono" href="/rules/">How it works</a><a class="btn mono" href="#alerts">Get belt alerts</a></div></div>
   </div>
   <div class="tiles">{"".join(tiles)}</div>
+  {features.home_live_script([(lg, datas[lg["key"]]) for lg in LIVE])}
   {frozen_note(datas)}
   <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a></p>
   {more_leagues(datas)}
@@ -737,7 +739,7 @@ def subnav(lg, on):
     key = lg["key"]
     items = [("current", f"/{key}/", "Current"), ("next", f"/{key}/next/", "Next defense"),
              ("outlook", f"/{key}/outlook/", "Outlook"),
-             ("history", f"/{key}/history/", "Full history"), ("seasons", f"/{key}/seasons/", "Seasons"),
+             ("history", f"/{key}/history/", "Full history"), ("news", f"/{key}/news/", "News"), ("seasons", f"/{key}/seasons/", "Seasons"),
              ("records", f"/{key}/records/", "Records"), ("teams", f"/{key}/teams/", "Teams"),
              ("rivalries", f"/{key}/rivalries/", "Rivalries"), ("compare", f"/{key}/compare/", "Compare"),
              ("stories", f"/{key}/stories/", "Stories"), ("more", f"/{key}/more/", "More")]
@@ -825,7 +827,7 @@ def build_teams(lg, d):
         p, s = lg["team_colors"](team)
         days = sum(r["days"] for r in rs)
         last = rs[-1]
-        cards.append(f'<a class="teamcard" href="/{key}/teams/{slug(tname)}/"><i style="background:{p}"></i><b class="disp">{e(tname)}</b><span class="mono">{plural(len(rs), "reign")} · {days:,} days · last {last["start_date"][:4]}</span></a>')
+        cards.append(f'<a class="teamcard" href="/{key}/teams/{slug(tname)}/"><i style="background:{p}"></i><b class="disp">{e(tname)}</b><span class="mono">{plural(len(rs), "reign")} · {plural(days, "day")} · last {last["start_date"][:4]}</span></a>')
         build_team(lg, d, team, rs)
     body = f"""{subnav(lg, "teams")}
 <section class="wrap block">
@@ -860,7 +862,7 @@ def build_team(lg, d, team, rs):
 {team_extras_html(lg, d, team)}"""
     write(f"{key}/teams/{slug(tname)}/index.html", page(f"{tname} and the {lg['name']} belt", body,
                                                          path=f"/{key}/teams/{slug(tname)}/", active=key,
-                                                         description=f"{tname}: {plural(len(rs), 'reign')} with the lineal {lg['name']} championship belt, {days:,} days held."))
+                                                         description=f"{tname}: {plural(len(rs), 'reign')} with the lineal {lg['name']} championship belt, {plural(days, 'day')} held."))
 
 
 def team_extras_html(lg, d, team):
@@ -885,6 +887,23 @@ var lg=m[1],slug=m[2],parts=slug.split('-'),cands=[];
 for(var i=1;i<=3&&i<parts.length;i++)cands.push(parts.slice(-i).join('-'));
 fetch('/'+lg+'/players/ids.json').then(function(r){return r.json();}).then(function(ids){
 for(var i=0;i<cands.length;i++){var s=ids[cands[i]];if(s&&s!==slug){location.replace('/'+lg+'/players/'+s+'/'+location.hash);return;}}}).catch(function(){});})();</script>"""
+
+
+def build_network_news(datas, limit=60):
+    """/news/: the newest title changes on every pro belt, as links to the dated articles (feature 7.2).
+    The matching feed is /all/feed.xml, whose items now link to the articles."""
+    arts = [a for lg in LIVE for a in (datas[lg["key"]].get("_news") or [])]
+    arts.sort(key=lambda a: a["date"], reverse=True)
+    arts = arts[:limit]
+    lis = "".join(f'<li><span class="mono lg">{e(a["league"])}</span><i style="background:{a["color"]}"></i><div><a href="{a["url"]}"><b class="disp">{e(a["title"])}</b></a><span>{e(a["dek"])}</span></div><span class="mono when">{d_short(a["date"], True)}</span></li>'
+                  for a in arts)
+    body = f"""<section class="wrap block">
+  <div class="head"><h1 class="disp">Belt news</h1><span class="mono note">every pro belt · newest first</span></div>
+  <p class="intro">Every time one of the pro belts changes hands, as a dated article: who took it, whose reign ended and what comes next. <a href="/all/feed.xml">RSS feed</a> · <a href="/all/">Every belt right now →</a></p>
+  <ul class="feed news">{lis}</ul>
+</section>"""
+    write("news/index.html", page("Belt news: every title change, every league", body, path="/news/", active="leagues",
+                                  description="Dated articles on every change of hands across the pro-league lineal championship belts: NFL, NBA, NHL, MLB, soccer and more."))
 
 
 def build_wcbb_redirects():
@@ -928,6 +947,7 @@ def build_static_pages(datas):
 <h2 class="disp">League notes</h2>
 {nfl_line}
 {other_notes}
+{__import__("site_extras").rulesets_html("pro")}
 <h2 class="disp">Sources</h2>
 <p>NFL results from 1920–2020 come from FiveThirtyEight's public NFL game archive; 2021 onward from the open nflverse project. {" ".join(lg["sources"] for lg in LIVE if lg.get("sources"))} The data is updated automatically every couple of hours.</p>
 </section>"""
@@ -1120,6 +1140,11 @@ def main():
     if missing:
         print("no lineage yet, skipping:", missing)
         LIVE[:] = [lg for lg in LIVE if lg["key"] not in missing]
+    only = {k for k in os.environ.get("BELT_ONLY", "").split(",") if k}      # local dev: BELT_ONLY=nhl,epl builds a subset
+    if only:
+        LIVE[:] = [lg for lg in LIVE if lg["key"] in only]
+        PRIMARY[:] = [k for k in PRIMARY if k in only]
+        ORDER[:] = [k for k in ORDER if k in only]
     import features
     features.init(sys.modules[__name__], lambda x: "/" + x["key"])
     for lg in LIVE:
@@ -1134,9 +1159,11 @@ def main():
         build_league(lg, d)
         build_history(lg, d)
         build_records(lg, d)
-        build_teams(lg, d)
     import site_extras
     site_extras.build_all(datas)
+    for lg in LIVE:
+        build_teams(lg, datas[lg["key"]])      # after build_all: team pages list players from d["_players"] (audit #2, 6.2)
+    build_network_news(datas)
     build_static_pages(datas)
     build_api(datas)
     import network                      # the belt network: api/network.json, network-bar.js, /all/, /today/
@@ -1148,6 +1175,7 @@ def main():
     build_feed(datas)
     build_meta_files(datas)
     network.build_network_feed(sys.modules[__name__], OUT)
+    network.build_network_ics(sys.modules[__name__], datas, OUT)      # feature 7.11: /all/belt.ics
     build_sitemap(datas)
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
