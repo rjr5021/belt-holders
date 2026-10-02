@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401900596",
-  "date": "2026-10-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Nicaragua",
-  "away": "Costa Rica",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401918509",
   "date": "2026-10-02",
   "season": 2026,
@@ -213,8 +202,8 @@
   "date": "2026-10-03",
   "season": 2026,
   "season_type": "regular",
-  "home": "Vanuatu",
-  "away": "Fiji",
+  "home": "Fiji",
+  "away": "Vanuatu",
   "neutral": "",
   "start_et": "00:00",
   "tournament": "Friendly"
@@ -635,6 +624,17 @@
   "away": "Sri Lanka",
   "neutral": "",
   "start_et": "11:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401928087",
+  "date": "2026-10-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rwanda",
+  "away": "Kenya",
+  "neutral": "",
+  "start_et": "12:00",
   "tournament": "Friendly"
  },
  {

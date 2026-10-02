@@ -1,22 +1,5 @@
 [
  {
-  "id": "espn-401918022",
-  "date": "2026-10-01",
-  "season_type": "postseason",
-  "home": "LV",
-  "away": "IND",
-  "home_id": "17",
-  "away_id": "5",
-  "home_abbr": "LV",
-  "away_abbr": "IND",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 3,
-  "start_et": "21:00",
-  "season": 2026
- },
- {
   "id": "espn-401918294",
   "date": "2026-10-02",
   "season_type": "postseason",

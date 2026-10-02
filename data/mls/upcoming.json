@@ -1,22 +1,5 @@
 [
  {
-  "id": "espn-761798",
-  "date": "2026-10-01",
-  "season_type": "regular",
-  "home": "Seattle Sounders FC",
-  "away": "Sporting Kansas City",
-  "home_id": "9726",
-  "away_id": "186",
-  "home_abbr": "SEA",
-  "away_abbr": "SKC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "21:30",
-  "season": 2026
- },
- {
   "id": "espn-761660",
   "date": "2026-10-06",
   "season_type": "regular",
