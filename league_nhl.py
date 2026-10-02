@@ -109,6 +109,13 @@ DEFUNCT_COLORS = ("#5b5140", "#cfc4ad")
 
 _ERA = {}  # (franchise, season) -> name that season
 
+# Renames the stats API hides behind one team id, so games.csv can't tell the eras apart:
+# (franchise, first season, last season, name in those seasons). Seasons are start years.
+RENAMES = [
+    ("ANA", 1993, 2005, "Mighty Ducks of Anaheim"),   # Anaheim Ducks from 2006-07
+    ("CHI", 1926, 1985, "Chicago Black Hawks"),       # one word from 1986-87
+]
+
 
 def _load_eras():
     if _ERA:
@@ -127,8 +134,12 @@ def _load_eras():
 
 def team_name(code, season=None):
     if season is not None:
+        s = int(season)
+        for c, first, last, name in RENAMES:
+            if c == code and first <= s <= last:
+                return name
         _load_eras()
-        n = _ERA.get((code, int(season)))
+        n = _ERA.get((code, s))
         if n:
             return n
     return TEAMS.get(code, (code,))[0]
