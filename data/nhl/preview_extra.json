@@ -1,25 +1,25 @@
 {
- "key": "FLA|SJS|2026-10-01",
- "updated": "2026-09-30T15:33Z",
- "start_utc": "2026-10-02T02:00Z",
+ "key": "FLA|ANA|2026-10-04",
+ "updated": "2026-10-02T00:39Z",
+ "start_utc": "2026-10-05T00:00Z",
  "espn": {
-  "event_id": "401891823",
-  "start_utc": "2026-10-02T02:00Z",
+  "event_id": "401891778",
+  "start_utc": "2026-10-05T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN+",
    "Scripps Sports",
-   "NBC Sports BA"
+   "KCOP",
+   "Prime Video (Local)"
   ],
   "odds": {
-   "details": "FLA -135",
+   "details": "FLA -125",
    "over_under": 6.5,
-   "provider": "Draft Kings"
+   "provider": "DraftKings"
   },
   "teams": {
-   "SJS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-    "abbr": "SJ",
+   "ANA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
+    "abbr": "ANA",
     "record": "0-0-0",
     "rank": null,
     "home_away": "home"
@@ -33,25 +33,25 @@
    }
   },
   "venue": {
-   "name": "SAP Center at San Jose",
-   "city": "San Jose",
+   "name": "Honda Center",
+   "city": "Anaheim",
    "state": "CA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Florida Panthers bring the Belt Holders lineal championship to SAP Center to face the San Jose Sharks on October 1, 2026. Florida captured the belt in their most recent reign but haven't yet defended it, making this their first title defense. San Jose, a 40-time former belt holder, will look to reclaim the championship on home ice.",
+  "overview": "The Florida Panthers bring the lineal championship belt to Anaheim for the 2026-27 season opener for the Ducks. Florida enters on a four-game winning streak and is looking to defend the belt for the first time in this current reign. This marks just the second time these teams have met with the belt on the line.",
   "key_matchups": [
-   "Florida's four-game winning streak, including back-to-back shutout and near-shutout performances, against a Sharks team coming off a dominant 6-1 road victory",
-   "Head-to-head history favors Florida 25-16-7 all-time, but San Jose won both meetings in early 2026 by a combined 7-2 margin",
-   "Florida's recent defensive tightening (allowing just 3 goals in their last 3 wins) versus San Jose's inconsistent form with three losses in their last five"
+   "Florida's hot streak (four straight wins, including a 1-0 shutout last time out) versus Anaheim coming off two playoff losses to Vegas",
+   "Anaheim's home advantage and recent head-to-head success (7-3 and 3-2 wins last November) against the defending belt holder",
+   "Contrasting recent form: Panthers averaging over 4 goals during their win streak while the Ducks were held to 3 or fewer in 4 of their last 5"
   ],
-  "betting_angles": "The betting line shows Florida as a modest road favorite at -135, which aligns closely with the 53% Elo projection, suggesting efficient market pricing. Florida's four-game winning streak and 1-0 record this season contrast with San Jose's mixed recent form, though the Sharks dominated both 2026 head-to-head meetings. The over/under at 6.5 reflects Florida's recent defensive stinginess, having gone under that total in four of their last five games.",
+  "betting_angles": "The betting line slightly favors Florida at -125 despite this being a road game, which aligns with their current four-game winning streak and 1-0 season record. However, Anaheim won both meetings late last season by a combined 10-6 margin, suggesting the Ducks have had recent success against this opponent. The 49% Elo rating for Florida indicates this matchup is essentially a coin flip, making the road favorite position interesting given the head-to-head history.",
   "predicted_winner": "Florida Panthers",
-  "predicted_score": "Florida Panthers 3, San Jose Sharks 2",
-  "prediction_writeup": "Florida's four-game winning streak and tightening defense give them the edge despite San Jose's recent head-to-head dominance. The Panthers have allowed just three goals over their last three victories, showing a defensive commitment that should travel well. While the Sharks bounced back with a convincing 6-1 win in Winnipeg, their 1-3 stretch before that suggests inconsistency. Florida's momentum and road warrior mentality, evidenced by wins in Carolina and Toronto during this streak, should be enough to defend the belt in a close contest.",
-  "written": "2026-09-30",
+  "predicted_score": "Florida Panthers 4, Anaheim Ducks 2",
+  "prediction_writeup": "Florida's momentum is undeniable with four consecutive wins, including strong offensive performances like the 8-1 drubbing of Detroit and 6-2 win at Toronto. While Anaheim won both meetings last November, those games came nearly a year ago and the Ducks are coming off playoff elimination losses. The Panthers have already played a regular season game this year (1-0 win at Carolina) while Anaheim is opening its season, which could give Florida an early conditioning edge. The close Elo rating and betting line suggest a tight game, but Florida's current form tips the scale.",
+  "written": "2026-10-02",
   "model": "claude-sonnet-4-5"
  }
 }

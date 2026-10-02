@@ -36,5 +36,19 @@
    "over_under": 6.5,
    "provider": "Draft Kings"
   }
+ },
+ {
+  "key": "FLA|ANA|2026-10-04",
+  "date": "2026-10-04",
+  "holder": "FLA",
+  "challenger": "ANA",
+  "pick": "FLA",
+  "score": "Florida Panthers 4, Anaheim Ducks 2",
+  "made": "2026-10-02",
+  "line": {
+   "details": "FLA -125",
+   "over_under": 6.5,
+   "provider": "DraftKings"
+  }
  }
 ]
