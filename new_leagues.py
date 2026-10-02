@@ -465,6 +465,7 @@ def espn_day(path, d, groups=None):
                "away": a["team"].get("displayName") or a["team"].get("name"),
                "home_id": h["team"].get("id"), "away_id": a["team"].get("id"),
                "home_abbr": h["team"].get("abbreviation"), "away_abbr": a["team"].get("abbreviation"),
+               "home_loc": h["team"].get("location"), "away_loc": a["team"].get("location"),
                "neutral": "1" if comp.get("neutralSite") else "", "source": "espn",
                "season_year": (ev.get("season") or {}).get("year"), "stype": stype}
         status = ev["status"]["type"]
@@ -1259,11 +1260,66 @@ def _cfl_times_from_espn(upcoming, today):
     print(f"  CFL: {hits} of {len(upcoming)} upcoming games got a kickoff time from ESPN")
 
 
+# ============================== ESPN-only leagues added 2026-10-02 (7.9) ==
+# Liga MX, the UFL, NCAA men's hockey, the AFL and the NRL: day-by-day ESPN scoreboards, nothing else.
+# The first run backfills from `first`; later runs refresh the last three weeks and the next 45 days.
+# `season_of(date)` labels the season; `off` lists the months with no games (skipped on backfill).
+
+def _season_split(month):
+    """season = the year the season started, for leagues whose season straddles New Year."""
+    return lambda d: d.year if d.month >= month else d.year - 1
+
+
+ESPN_SIMPLE = {
+    # key: (ESPN path, first day, season_of, offseason months, team code source)
+    "ligamx": ("soccer/mex.1", date(2013, 7, 1), _season_split(7), (6,), "name"),
+    "ufl": ("football/ufl", date(2024, 3, 1), lambda d: d.year, (7, 8, 9, 10, 11, 12, 1, 2), "name"),
+    "ncaah": ("hockey/mens-college-hockey", date(2013, 10, 1), _season_split(8), (5, 6, 7, 8, 9), "abbr"),
+    "afl": ("australian-football/afl", date(2014, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),
+    "nrl": ("rugby-league/nrl", date(2014, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),
+}
+
+
+def update_espn_simple(key):
+    path, first, season_of, off, codes = ESPN_SIMPLE[key]
+    today = today_et()
+    rows = read_existing(key)
+    if not rows:
+        start = first
+    else:
+        start = today - timedelta(days=21)
+        rows = [r for r in rows if r["date"] < start.isoformat()]
+    done, up = [], []
+    d = start
+    while d <= today + timedelta(days=45):
+        if d.month in off and d < today - timedelta(days=21):
+            # skip the offseason a month at a time (the belt data has nothing to gain there)
+            d = date(d.year + (d.month == 12), d.month % 12 + 1, 1)
+            continue
+        x, y = espn_day(path, d)
+        done += x
+        up += y
+        d += timedelta(days=1)
+        time.sleep(0.1)
+    for r in done + up:
+        r["season"] = season_of(date.fromisoformat(r["date"]))
+        if codes == "abbr":           # college teams: the abbreviation is the code, the school name shows
+            r["home_name"], r["away_name"] = r.get("home_loc") or r["home"], r.get("away_loc") or r["away"]
+            r["home"], r["away"] = _espn_abbr(r, "home"), _espn_abbr(r, "away")
+        else:
+            r["home_name"], r["away_name"] = r["home"], r["away"]
+    rows = merge(rows, done)
+    by_season = Counter(r["season"] for r in rows)
+    print(f"[{key}] games per season: {dict(sorted(by_season.items()))}")
+    write(key, rows, [u for u in up if u["date"] >= today.isoformat()])
+
+
 UPDATERS = {"epl": lambda: update_europe("epl"), "laliga": lambda: update_europe("laliga"),
             "seriea": lambda: update_europe("seriea"), "bundesliga": lambda: update_europe("bundesliga"),
             "ligue1": lambda: update_europe("ligue1"), "eredivisie": lambda: update_europe("eredivisie"),
             "intl": update_intl, "pwhl": update_pwhl, "wnba": update_wnba,
-            "mls": update_mls, "nwsl": update_nwsl, "cfl": update_cfl}   # wcbb moved to collegebasketballbelt.com
+            "mls": update_mls, "nwsl": update_nwsl, "cfl": update_cfl,   # wcbb moved to collegebasketballbelt.com
+            **{k: (lambda k=k: update_espn_simple(k)) for k in ESPN_SIMPLE}}
 
 
 def main():

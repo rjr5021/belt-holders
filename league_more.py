@@ -45,12 +45,27 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
             return aliases(raw, season)
         return aliases.get(raw, raw)
 
+    _names_loaded = []
+
     def _load_names():
-        if names_file and not _names:
+        """Display names for codes with no `display` entry: names.json when the league has one, otherwise
+        the home_name/away_name columns of games.csv (ESPN leagues) -- read once, in whichever process
+        needs them (build_site.py never calls load_games)."""
+        if _names_loaded:
+            return
+        _names_loaded.append(True)
+        if names_file:
             p = os.path.join(data_dir, names_file)
             if os.path.exists(p):
                 with open(p) as f:
                     _names.update(json.load(f))
+            return
+        p = os.path.join(data_dir, "games.csv")
+        if os.path.exists(p):
+            for x in read_games_csv(p):
+                for side in ("home", "away"):
+                    if x.get(f"{side}_name"):
+                        _names.setdefault(code(x[side], int(x["season"])), x[f"{side}_name"])
 
     def load_games(refresh=True):
         rows = read_games_csv(os.path.join(data_dir, "games.csv"))
@@ -108,7 +123,7 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
         "home_venues": venues or {},     # B-7: club -> (stadium, city) when the fixtures carry no venue
         "unit_one": {"clubs": "club", "nations": "nation", "teams": "team"}.get(unit, unit.rstrip("s")),
         # club and national-team names read as singular ("Bayern Munich defends"); nicknames as plural ("the Aces defend")
-        "singular": unit in ("clubs", "nations"),
+        "singular": unit in ("clubs", "nations", "programs"),
     }
     if champions_note:
         lg["champions_note"] = champions_note
@@ -564,3 +579,136 @@ NWSL = make("nwsl", "NWSL", "The NWSL Belt", "Soccer", 2013, teams=NWSL_TEAMS, a
                    "playoff and Challenge Cup game ESPN lists. A draw is a successful defense; a game settled on penalties goes "
                    "to the shootout winner.</p>"),
             sources="NWSL results and upcoming games come from ESPN's public scoreboard.")
+
+
+# =============================================== leagues added 2026-10-02 ==
+# Audit #2, 7.9: more belts through the ESPN scoreboard (new_leagues.py: espn_simple). Clubs are
+# matched by keyword in ESPN's display name, so a renamed or relocated club keeps one code; a club
+# with no entry still works (its ESPN name shows, in neutral colors).
+
+# ------------------------------------------------------------- Liga MX
+LIGAMX_CODE = _keyword_code([
+    ("america", "AME"), ("guadalajara", "GDL"), ("chivas", "GDL"), ("cruz azul", "CAZ"), ("pumas", "PUM"), ("unam", "PUM"),
+    ("monterrey", "MTY"), ("tigres", "TIG"), ("uanl", "TIG"), ("toluca", "TOL"), ("santos", "SAN"), ("leon", "LEO"),
+    ("pachuca", "PAC"), ("atlas", "ATS"), ("necaxa", "NEC"), ("puebla", "PUE"), ("queretaro", "QRO"), ("tijuana", "TIJ"),
+    ("xolos", "TIJ"), ("juarez", "JUA"), ("mazatlan", "MAZ"), ("atletico san luis", "ASL"), ("atletico de san luis", "ASL"),
+    ("san luis", "SLP"), ("morelia", "MOR"), ("monarcas", "MOR"), ("veracruz", "VER"), ("tiburones", "VER"), ("lobos", "LOB"),
+    ("chiapas", "CHS"), ("jaguares", "CHS"), ("dorados", "DOR"), ("atlante", "ATE"), ("tecos", "TEC"), ("estudiantes", "TEC"),
+    ("indios", "IND")])
+LIGAMX_TEAMS = {"AME": ("#ffe600", "#002b7f", "América"), "GDL": ("#c8102e", "#0b2a5b", "Chivas"), "CAZ": ("#1f4e9c", "#ffffff", "Cruz Azul"),
+                "PUM": ("#1b2a5b", "#c2a24d", "Pumas"), "MTY": ("#0d2240", "#ffffff", "Rayados"), "TIG": ("#f7b500", "#1e3a8a", "Tigres"),
+                "TOL": ("#c8102e", "#ffffff", "Toluca"), "SAN": ("#0f7a3d", "#ffffff", "Santos"), "LEO": ("#0a7a3c", "#ffffff", "León"),
+                "PAC": ("#1f4e9c", "#ffffff", "Pachuca"), "ATS": ("#c8102e", "#111111", "Atlas"), "NEC": ("#c8102e", "#ffffff", "Necaxa"),
+                "PUE": ("#1f4e9c", "#ffffff", "Puebla"), "QRO": ("#1f4e9c", "#111111", "Querétaro"), "TIJ": ("#c8102e", "#111111", "Xolos"),
+                "JUA": ("#0a7a3c", "#c8102e", "Juárez"), "MAZ": ("#5b2c82", "#ffffff", "Mazatlán"), "ASL": ("#c8102e", "#1f4e9c", "San Luis"),
+                "SLP": (None, None, "San Luis"), "MOR": (None, None, "Morelia"), "VER": (None, None, "Veracruz"), "LOB": (None, None, "Lobos BUAP"),
+                "CHS": (None, None, "Chiapas"), "DOR": (None, None, "Dorados"), "ATE": (None, None, "Atlante"), "TEC": (None, None, "Tecos"),
+                "IND": (None, None, "Indios")}
+LIGAMX_NAMES = {"AME": "Club América", "GDL": "Guadalajara", "CAZ": "Cruz Azul", "PUM": "Pumas UNAM", "MTY": "Monterrey",
+                "TIG": "Tigres UANL", "TOL": "Toluca", "SAN": "Santos Laguna", "LEO": "León", "PAC": "Pachuca", "ATS": "Atlas",
+                "NEC": "Necaxa", "PUE": "Puebla", "QRO": "Querétaro", "TIJ": "Tijuana", "JUA": "FC Juárez", "MAZ": "Mazatlán",
+                "ASL": "Atlético San Luis", "SLP": "San Luis", "MOR": "Monarcas Morelia", "VER": "Veracruz", "LOB": "Lobos BUAP",
+                "CHS": "Chiapas", "DOR": "Dorados de Sinaloa", "ATE": "Atlante", "TEC": "Estudiantes Tecos", "IND": "Indios"}
+LIGAMX = make("ligamx", "Liga MX", "The Liga MX Belt", "Soccer", 2013, teams=LIGAMX_TEAMS, aliases=LIGAMX_CODE, display=LIGAMX_NAMES,
+              gap_days=200, post_word="Liguilla",
+              rules=("<p><b>Liga MX.</b> The belt starts with the opening round of the 2013 Apertura and counts every Apertura and "
+                     "Clausura game, Liguilla included; a season on this site is the Apertura and the Clausura that follows it. "
+                     + SOCCER_RULES + "</p>"),
+              sources="Liga MX results and upcoming games come from ESPN's public scoreboard.")
+
+# ----------------------------------------------------------------- UFL
+UFL_CODE = _keyword_code([
+    ("stallions", "BHM"), ("battlehawks", "STL"), ("panthers", "MICH"), ("defenders", "DC"), ("renegades", "ARL"),
+    ("roughnecks", "HOU"), ("showboats", "MEM"), ("brahmas", "SA")])
+UFL_TEAMS = {"BHM": ("#c8102e", "#111111", "Stallions"), "STL": ("#1e3a8a", "#a5acaf", "Battlehawks"), "MICH": ("#0b2a5b", "#00a3ad", "Panthers"),
+             "DC": ("#c8102e", "#111111", "Defenders"), "ARL": ("#1f4e9c", "#f58220", "Renegades"), "HOU": ("#f58220", "#111111", "Roughnecks"),
+             "MEM": ("#002f6c", "#ffd100", "Showboats"), "SA": ("#6d3e0e", "#111111", "Brahmas")}
+UFL_NAMES = {"BHM": "Birmingham Stallions", "STL": "St. Louis Battlehawks", "MICH": "Michigan Panthers", "DC": "DC Defenders",
+             "ARL": "Arlington Renegades", "HOU": "Houston Roughnecks", "MEM": "Memphis Showboats", "SA": "San Antonio Brahmas"}
+UFL = make("ufl", "UFL", "The UFL Belt", "American football", 2024, teams=UFL_TEAMS, aliases=UFL_CODE, display=UFL_NAMES, gap_days=330,
+           label=lambda y: str(y), unit="teams", post_word="playoffs",
+           rules=("<p><b>UFL.</b> The belt starts with the merged league's first game in March 2024 and counts every regular-season "
+                  "and playoff game, the championship included. A team that moves keeps the belt; one that folds vacates it to the "
+                  "most recent earlier holder still playing.</p>"),
+           sources="UFL results and upcoming games come from ESPN's public scoreboard.")
+
+# -------------------------------------------------- NCAA men's hockey
+NCAAH_COLORS = {"BC": ("#8a100b", "#b29d6c", "Boston College"), "BU": ("#cc0000", "#ffffff", "Boston U"), "MICH": ("#00274c", "#ffcb05", "Michigan"),
+                "MINN": ("#7a0019", "#ffcc33", "Minnesota"), "UND": ("#009a44", "#111111", "North Dakota"), "DEN": ("#8b2332", "#8b6f4e", "Denver"),
+                "WIS": ("#c5050c", "#ffffff", "Wisconsin"), "MSU": ("#18453b", "#ffffff", "Michigan State"), "MAINE": ("#003263", "#b0d7ff", "Maine"),
+                "QUIN": ("#003865", "#f2a900", "Quinnipiac"), "UMD": ("#7a0019", "#ffcc33", "Minnesota Duluth"), "PROV": ("#111111", "#8a8d8f", "Providence"),
+                "UNION": ("#862633", "#ffffff", "Union"), "YALE": ("#00356b", "#ffffff", "Yale"), "COR": ("#b31b1b", "#ffffff", "Cornell"),
+                "HARV": ("#a51c30", "#ffffff", "Harvard"), "ND": ("#0c2340", "#c99700", "Notre Dame"), "OSU": ("#bb0000", "#666666", "Ohio State"),
+                "PSU": ("#041e42", "#ffffff", "Penn State"), "WMU": ("#532e1f", "#f1c500", "Western Michigan"), "MASS": ("#881c1c", "#ffffff", "UMass"),
+                "NE": ("#c8102e", "#111111", "Northeastern"), "SCSU": ("#bf0a30", "#111111", "St. Cloud State"), "CC": ("#111111", "#c6a964", "Colorado College"),
+                "OMA": ("#d71920", "#111111", "Omaha"), "MSUM": ("#5d2b8a", "#ffc72c", "Minnesota State"), "UNH": ("#041e42", "#ffffff", "New Hampshire"),
+                "UVM": ("#154734", "#ffd100", "Vermont"), "CLAR": ("#004a2f", "#ffd100", "Clarkson"), "UCONN": ("#000e2f", "#ffffff", "UConn"),
+                "ARST": ("#0c2340", "#ac1a2f", "Arizona State"), "LSSU": ("#003c71", "#ffffff", "Lake Superior"), "MIA": ("#b61e2e", "#ffffff", "Miami (OH)"),
+                "DART": ("#00693e", "#ffffff", "Dartmouth"), "PRIN": ("#e77500", "#111111", "Princeton"), "RPI": ("#d6001c", "#ffffff", "RPI"),
+                "MERC": ("#002f6c", "#f2a900", "Merrimack"), "UML": ("#0067b1", "#c8102e", "UMass Lowell"), "BGSU": ("#4f2c1d", "#ff7300", "Bowling Green"),
+                "MTU": ("#ffcd00", "#111111", "Michigan Tech"), "NMU": ("#0d5e2e", "#ffcd00", "Northern Michigan"), "FSU": ("#b6151b", "#ffcd00", "Ferris State"),
+                "AFA": ("#003087", "#8a8d8f", "Air Force"), "ARMY": ("#111111", "#d4bf91", "Army"), "BEMI": ("#00573e", "#ffffff", "Bemidji State"),
+                "SHU": ("#c8102e", "#111111", "Sacred Heart"), "HC": ("#602d89", "#ffffff", "Holy Cross"), "LIU": ("#0033a0", "#8ab8e6", "LIU"),
+                "AIC": ("#ffcd00", "#111111", "AIC"), "RIT": ("#f76902", "#111111", "RIT"), "CAN": ("#003da5", "#ffd100", "Canisius"),
+                "NIAG": ("#582c83", "#ffffff", "Niagara"), "MERH": ("#00a3e0", "#0b2a5b", "Mercyhurst"), "ALSK": ("#236192", "#ffcd00", "Alaska"),
+                "AKA": ("#00583d", "#ffcd00", "Alaska Anchorage"), "AUG": ("#002147", "#ffcd00", "Augustana"), "LIND": ("#862633", "#ffffff", "Lindenwood"),
+                "STON": ("#bb0000", "#ffffff", "Stonehill"), "CSU": ("#00843d", "#ffffff", "Colgate"), "BROWN": ("#4e3629", "#c8102e", "Brown"),
+                "SLU": ("#a60f2b", "#ffffff", "St. Lawrence"), "UAH": ("#0033a0", "#ffffff", "Alabama Huntsville"), "ROB": ("#14234b", "#a6192e", "Robert Morris"),
+                "MINST": ("#5d2b8a", "#ffc72c", "Minnesota State"), "BSU": ("#00573e", "#ffffff", "Bemidji State"), "STHOM": ("#512d6d", "#9e9e9e", "St. Thomas")}
+
+
+def _ncaah_colors(c):
+    return NCAAH_COLORS.get(c)
+
+
+NCAAH = make("ncaah", "NCAA Hockey", "The College Hockey Belt", "Ice hockey", 2013, teams=_ncaah_colors, gap_days=200,
+             time_word="Puck drop", unit="programs", post_word="NCAA tournament",
+             rules=("<p><b>College hockey.</b> The belt starts with the 2013–14 season opener and counts every Division I men's game "
+                    "ESPN lists: non-conference, conference, conference tournaments and the NCAA tournament through the Frozen Four. "
+                    "A tie is a successful defense; a game decided in overtime or a shootout goes to the winner on the scoreboard.</p>"),
+             sources="College hockey results and upcoming games come from ESPN's public scoreboard.")
+
+# ----------------------------------------------------------------- AFL
+AFL_CODE = _keyword_code([
+    ("port adelaide", "PA"), ("adelaide", "ADE"), ("brisbane", "BL"), ("carlton", "CAR"), ("collingwood", "COL"), ("essendon", "ESS"),
+    ("fremantle", "FRE"), ("geelong", "GEE"), ("gold coast", "GC"), ("gws", "GWS"), ("giants", "GWS"), ("greater western", "GWS"),
+    ("hawthorn", "HAW"), ("north melbourne", "NM"), ("kangaroos", "NM"), ("melbourne", "MEL"), ("richmond", "RIC"),
+    ("st kilda", "STK"), ("sydney", "SYD"), ("swans", "SYD"), ("west coast", "WCE"), ("bulldogs", "WB"), ("footscray", "WB")])
+AFL_TEAMS = {"ADE": ("#002b5c", "#e21937", "Crows"), "BL": ("#a30046", "#fdbe57", "Lions"), "CAR": ("#0e1e2d", "#ffffff", "Blues"),
+             "COL": ("#111111", "#ffffff", "Magpies"), "ESS": ("#cc2031", "#111111", "Bombers"), "FRE": ("#2a0d54", "#ffffff", "Dockers"),
+             "GEE": ("#1c3c63", "#ffffff", "Cats"), "GC": ("#e02112", "#f5b300", "Suns"), "GWS": ("#f15c22", "#2b2b2b", "Giants"),
+             "HAW": ("#4d2004", "#fbbf15", "Hawks"), "MEL": ("#0f1131", "#cc2031", "Demons"), "NM": ("#013b9f", "#ffffff", "Kangaroos"),
+             "PA": ("#008aab", "#111111", "Power"), "RIC": ("#111111", "#ffd200", "Tigers"), "STK": ("#ed0f05", "#111111", "Saints"),
+             "SYD": ("#ed171f", "#ffffff", "Swans"), "WCE": ("#003087", "#f2a900", "Eagles"), "WB": ("#014896", "#c60c30", "Bulldogs")}
+AFL_NAMES = {"ADE": "Adelaide Crows", "BL": "Brisbane Lions", "CAR": "Carlton", "COL": "Collingwood", "ESS": "Essendon",
+             "FRE": "Fremantle", "GEE": "Geelong", "GC": "Gold Coast Suns", "GWS": "GWS Giants", "HAW": "Hawthorn", "MEL": "Melbourne",
+             "NM": "North Melbourne", "PA": "Port Adelaide", "RIC": "Richmond", "STK": "St Kilda", "SYD": "Sydney Swans",
+             "WCE": "West Coast Eagles", "WB": "Western Bulldogs"}
+AFL = make("afl", "AFL", "The AFL Belt", "Australian rules football", 2014, teams=AFL_TEAMS, aliases=AFL_CODE, display=AFL_NAMES,
+           gap_days=330, label=lambda y: str(y), time_word="First bounce", post_word="finals",
+           rules=("<p><b>AFL.</b> The belt starts with round one of the 2014 season and counts every home-and-away and finals game, "
+                  "the Grand Final included. A draw is a successful defense.</p>"),
+           sources="AFL results and upcoming games come from ESPN's public scoreboard.")
+
+# ----------------------------------------------------------------- NRL
+NRL_CODE = _keyword_code([
+    ("broncos", "BRI"), ("raiders", "CBR"), ("bulldogs", "CBY"), ("sharks", "CRO"), ("dolphins", "DOL"), ("titans", "GCT"),
+    ("sea eagles", "MAN"), ("manly", "MAN"), ("storm", "MEL"), ("knights", "NEW"), ("warriors", "NZW"), ("cowboys", "NQL"),
+    ("eels", "PAR"), ("panthers", "PEN"), ("rabbitohs", "SOU"), ("dragons", "SGI"), ("roosters", "SYD"), ("tigers", "WST"),
+    ("bears", "PER")])
+NRL_TEAMS = {"BRI": ("#6d2077", "#fdb913", "Broncos"), "CBR": ("#95c11f", "#111111", "Raiders"), "CBY": ("#0b2a5b", "#ffffff", "Bulldogs"),
+             "CRO": ("#00a9e0", "#111111", "Sharks"), "DOL": ("#c8102e", "#f5b300", "Dolphins"), "GCT": ("#00a9e0", "#f5b300", "Titans"),
+             "MAN": ("#6f163f", "#ffffff", "Sea Eagles"), "MEL": ("#4b2a7c", "#ffd200", "Storm"), "NEW": ("#003087", "#c8102e", "Knights"),
+             "NZW": ("#111111", "#00a9e0", "Warriors"), "NQL": ("#002b5c", "#f5b300", "Cowboys"), "PAR": ("#003087", "#f5b300", "Eels"),
+             "PEN": ("#111111", "#ff69b4", "Panthers"), "SOU": ("#0a6b3a", "#c8102e", "Rabbitohs"), "SGI": ("#c8102e", "#ffffff", "Dragons"),
+             "SYD": ("#c8102e", "#003087", "Roosters"), "WST": ("#f47920", "#111111", "Wests Tigers"), "PER": ("#c8102e", "#111111", "Bears")}
+NRL_NAMES = {"BRI": "Brisbane Broncos", "CBR": "Canberra Raiders", "CBY": "Canterbury Bulldogs", "CRO": "Cronulla Sharks",
+             "DOL": "Dolphins", "GCT": "Gold Coast Titans", "MAN": "Manly Sea Eagles", "MEL": "Melbourne Storm",
+             "NEW": "Newcastle Knights", "NZW": "New Zealand Warriors", "NQL": "North Queensland Cowboys", "PAR": "Parramatta Eels",
+             "PEN": "Penrith Panthers", "SOU": "South Sydney Rabbitohs", "SGI": "St George Illawarra Dragons", "SYD": "Sydney Roosters",
+             "WST": "Wests Tigers", "PER": "Perth Bears"}
+NRL = make("nrl", "NRL", "The NRL Belt", "Rugby league", 2014, teams=NRL_TEAMS, aliases=NRL_CODE, display=NRL_NAMES,
+           gap_days=330, label=lambda y: str(y), unit="teams", post_word="finals",
+           rules=("<p><b>NRL.</b> The belt starts with round one of the 2014 season and counts every regular-season and finals game, "
+                  "the Grand Final included. A draw is a successful defense.</p>"),
+           sources="NRL results and upcoming games come from ESPN's public scoreboard.")
