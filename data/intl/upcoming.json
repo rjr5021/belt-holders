@@ -7,18 +7,7 @@
   "home": "DR Congo",
   "away": "Uganda",
   "neutral": "",
-  "start_et": "07:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401902634",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "South Korea",
-  "away": "Venezuela",
-  "neutral": "",
-  "start_et": "07:00",
+  "start_et": "09:00",
   "tournament": "Friendly"
  },
  {
@@ -456,7 +445,7 @@
   "season": 2026,
   "season_type": "regular",
   "home": "Morocco",
-  "away": "Ghana",
+  "away": "Mali",
   "neutral": "",
   "start_et": "14:00",
   "tournament": "Friendly"
@@ -616,6 +605,17 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401918508",
+  "date": "2026-10-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Uganda",
+  "away": "DR Congo",
+  "neutral": "",
+  "start_et": "09:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401912454",
   "date": "2026-10-05",
   "season": 2026,
@@ -647,17 +647,6 @@
   "neutral": "",
   "start_et": "12:00",
   "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401918508",
-  "date": "2026-10-05",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Uganda",
-  "away": "DR Congo",
-  "neutral": "",
-  "start_et": "14:00",
-  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401896386",

@@ -10,22 +10,22 @@
   "start_et": "15:00"
  },
  {
-  "id": "pwhl-367",
-  "date": "2026-12-05",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "13",
-  "away": "2",
-  "neutral": "",
-  "start_et": "19:00"
- },
- {
   "id": "pwhl-366",
   "date": "2026-12-05",
   "season": 2026,
   "season_type": "regular",
   "home": "3",
   "away": "11",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-367",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "2",
   "neutral": "",
   "start_et": "19:00"
  },
@@ -80,6 +80,26 @@
   "start_et": "19:00"
  },
  {
+  "id": "pwhl-377",
+  "date": "2026-12-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "8",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-378",
+  "date": "2026-12-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "2",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
   "id": "pwhl-373",
   "date": "2026-12-12",
   "season": 2026,
@@ -90,14 +110,34 @@
   "start_et": "12:00"
  },
  {
-  "id": "pwhl-374",
-  "date": "2026-12-13",
+  "id": "pwhl-379",
+  "date": "2026-12-12",
   "season": 2026,
   "season_type": "regular",
-  "home": "11",
-  "away": "5",
+  "home": "3",
+  "away": "13",
   "neutral": "",
   "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-380",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-381",
+  "date": "2026-12-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "12",
+  "neutral": "",
+  "start_et": "21:00"
  },
  {
   "id": "pwhl-375",
@@ -110,6 +150,86 @@
   "start_et": "14:00"
  },
  {
+  "id": "pwhl-374",
+  "date": "2026-12-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "5",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-382",
+  "date": "2026-12-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "13",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-383",
+  "date": "2026-12-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "3",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-385",
+  "date": "2026-12-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-384",
+  "date": "2026-12-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "13",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-386",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "9",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-387",
+  "date": "2026-12-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-388",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "3",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
   "id": "pwhl-376",
   "date": "2026-12-20",
   "season": 2026,
@@ -118,5 +238,1555 @@
   "away": "12",
   "neutral": "",
   "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-389",
+  "date": "2026-12-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-390",
+  "date": "2026-12-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "1",
+  "neutral": "",
+  "start_et": "21:30"
+ },
+ {
+  "id": "pwhl-391",
+  "date": "2026-12-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-392",
+  "date": "2026-12-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "1",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-393",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "5",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-394",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "6",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-395",
+  "date": "2026-12-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-396",
+  "date": "2026-12-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "4",
+  "neutral": "",
+  "start_et": "16:00"
+ },
+ {
+  "id": "pwhl-397",
+  "date": "2026-12-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "2",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-398",
+  "date": "2026-12-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "6",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-399",
+  "date": "2026-12-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "11",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-400",
+  "date": "2026-12-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "4",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-401",
+  "date": "2026-12-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "1",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-402",
+  "date": "2026-12-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "4",
+  "neutral": "",
+  "start_et": "17:00"
+ },
+ {
+  "id": "pwhl-403",
+  "date": "2026-12-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "11",
+  "neutral": "",
+  "start_et": "20:00"
+ },
+ {
+  "id": "pwhl-404",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "5",
+  "neutral": "",
+  "start_et": "12:00"
+ },
+ {
+  "id": "pwhl-405",
+  "date": "2027-01-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-406",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "13",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-407",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "12",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-408",
+  "date": "2027-01-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "3",
+  "neutral": "",
+  "start_et": "18:00"
+ },
+ {
+  "id": "pwhl-409",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-410",
+  "date": "2027-01-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "5",
+  "neutral": "",
+  "start_et": "21:30"
+ },
+ {
+  "id": "pwhl-411",
+  "date": "2027-01-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-412",
+  "date": "2027-01-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-413",
+  "date": "2027-01-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "5",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-414",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "6",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-415",
+  "date": "2027-01-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-416",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "11",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-417",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "5",
+  "neutral": "",
+  "start_et": "17:00"
+ },
+ {
+  "id": "pwhl-418",
+  "date": "2027-01-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "3",
+  "neutral": "",
+  "start_et": "20:30"
+ },
+ {
+  "id": "pwhl-419",
+  "date": "2027-01-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "3",
+  "neutral": "",
+  "start_et": "21:00"
+ },
+ {
+  "id": "pwhl-420",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-421",
+  "date": "2027-01-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "12",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-422",
+  "date": "2027-01-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "11",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-423",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "2",
+  "neutral": "",
+  "start_et": "12:00"
+ },
+ {
+  "id": "pwhl-424",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "11",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-425",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "8",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-426",
+  "date": "2027-01-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "3",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-427",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "1",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-428",
+  "date": "2027-01-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "10",
+  "neutral": "",
+  "start_et": "15:30"
+ },
+ {
+  "id": "pwhl-429",
+  "date": "2027-01-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "2",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-430",
+  "date": "2027-01-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "11",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-431",
+  "date": "2027-01-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "3",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-432",
+  "date": "2027-01-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "11",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-433",
+  "date": "2027-01-22",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "6",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-434",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "1",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-436",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-435",
+  "date": "2027-01-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "2",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-437",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "8",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-438",
+  "date": "2027-01-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "6",
+  "neutral": "",
+  "start_et": "16:00"
+ },
+ {
+  "id": "pwhl-439",
+  "date": "2027-01-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-440",
+  "date": "2027-01-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-441",
+  "date": "2027-01-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "13",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-442",
+  "date": "2027-01-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-443",
+  "date": "2027-01-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "6",
+  "neutral": "",
+  "start_et": "21:30"
+ },
+ {
+  "id": "pwhl-444",
+  "date": "2027-01-29",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-445",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "6",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-446",
+  "date": "2027-01-30",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "13",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-447",
+  "date": "2027-01-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "3",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-448",
+  "date": "2027-02-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "1",
+  "neutral": "",
+  "start_et": "18:30"
+ },
+ {
+  "id": "pwhl-449",
+  "date": "2027-02-02",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-450",
+  "date": "2027-02-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "11",
+  "neutral": "",
+  "start_et": "18:30"
+ },
+ {
+  "id": "pwhl-452",
+  "date": "2027-02-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-451",
+  "date": "2027-02-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "2",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-453",
+  "date": "2027-02-04",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "9",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-454",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "13",
+  "neutral": "",
+  "start_et": "12:30"
+ },
+ {
+  "id": "pwhl-455",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "3",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-456",
+  "date": "2027-02-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-457",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "8",
+  "neutral": "",
+  "start_et": "15:30"
+ },
+ {
+  "id": "pwhl-458",
+  "date": "2027-02-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "12",
+  "neutral": "",
+  "start_et": "18:00"
+ },
+ {
+  "id": "pwhl-460",
+  "date": "2027-02-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "13",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-459",
+  "date": "2027-02-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-461",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-462",
+  "date": "2027-02-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "2",
+  "neutral": "",
+  "start_et": "21:30"
+ },
+ {
+  "id": "pwhl-463",
+  "date": "2027-02-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "8",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-464",
+  "date": "2027-02-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-465",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "9",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-466",
+  "date": "2027-02-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "10",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-467",
+  "date": "2027-02-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "6",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-468",
+  "date": "2027-02-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "5",
+  "neutral": "",
+  "start_et": "17:00"
+ },
+ {
+  "id": "pwhl-471",
+  "date": "2027-02-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-470",
+  "date": "2027-02-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-469",
+  "date": "2027-02-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "6",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-472",
+  "date": "2027-02-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "5",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-473",
+  "date": "2027-02-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "11",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-474",
+  "date": "2027-02-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "9",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-475",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "3",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-477",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-476",
+  "date": "2027-02-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-478",
+  "date": "2027-02-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-479",
+  "date": "2027-02-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-480",
+  "date": "2027-02-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "3",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-482",
+  "date": "2027-02-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-481",
+  "date": "2027-02-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-483",
+  "date": "2027-02-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-484",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "2",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-485",
+  "date": "2027-02-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-487",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "3",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-489",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "13",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-486",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-488",
+  "date": "2027-02-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-490",
+  "date": "2027-03-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-491",
+  "date": "2027-03-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "11",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-492",
+  "date": "2027-03-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-493",
+  "date": "2027-03-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "8",
+  "neutral": "",
+  "start_et": "21:30"
+ },
+ {
+  "id": "pwhl-495",
+  "date": "2027-03-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "2",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-494",
+  "date": "2027-03-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-497",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "10",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-496",
+  "date": "2027-03-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "13",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-499",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "2",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-498",
+  "date": "2027-03-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "11",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-500",
+  "date": "2027-03-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-501",
+  "date": "2027-03-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-502",
+  "date": "2027-03-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "2",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-503",
+  "date": "2027-03-19",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "12",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-504",
+  "date": "2027-03-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "10",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-505",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "13",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-506",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "3",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-507",
+  "date": "2027-03-21",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "9",
+  "neutral": "",
+  "start_et": "16:30"
+ },
+ {
+  "id": "pwhl-508",
+  "date": "2027-03-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-509",
+  "date": "2027-03-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "12",
+  "neutral": "",
+  "start_et": "11:00"
+ },
+ {
+  "id": "pwhl-510",
+  "date": "2027-03-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-511",
+  "date": "2027-03-25",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "10",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-513",
+  "date": "2027-03-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "8",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-512",
+  "date": "2027-03-26",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "9",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-514",
+  "date": "2027-03-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "6",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-515",
+  "date": "2027-03-27",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "12",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-517",
+  "date": "2027-03-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "8",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-516",
+  "date": "2027-03-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "2",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-518",
+  "date": "2027-03-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "9",
+  "neutral": "",
+  "start_et": "17:00"
+ },
+ {
+  "id": "pwhl-519",
+  "date": "2027-03-31",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "6",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-520",
+  "date": "2027-04-01",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "13",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-521",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "11",
+  "neutral": "",
+  "start_et": "14:00"
+ },
+ {
+  "id": "pwhl-522",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "6",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-523",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "10",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-524",
+  "date": "2027-04-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "4",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:30"
+ },
+ {
+  "id": "pwhl-525",
+  "date": "2027-04-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "9",
+  "neutral": "",
+  "start_et": "21:00"
+ },
+ {
+  "id": "pwhl-526",
+  "date": "2027-04-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "3",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-527",
+  "date": "2027-04-07",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "13",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-528",
+  "date": "2027-04-08",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "1",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-529",
+  "date": "2027-04-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "3",
+  "away": "5",
+  "neutral": "",
+  "start_et": "19:30"
+ },
+ {
+  "id": "pwhl-530",
+  "date": "2027-04-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "2",
+  "neutral": "",
+  "start_et": "21:00"
+ },
+ {
+  "id": "pwhl-531",
+  "date": "2027-04-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "13",
+  "away": "9",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-532",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "11",
+  "neutral": "",
+  "start_et": "15:00"
+ },
+ {
+  "id": "pwhl-533",
+  "date": "2027-04-10",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:30"
+ },
+ {
+  "id": "pwhl-534",
+  "date": "2027-04-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "10",
+  "away": "2",
+  "neutral": "",
+  "start_et": "13:00"
+ },
+ {
+  "id": "pwhl-535",
+  "date": "2027-04-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "6",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-536",
+  "date": "2027-04-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "12",
+  "away": "10",
+  "neutral": "",
+  "start_et": "22:00"
+ },
+ {
+  "id": "pwhl-537",
+  "date": "2027-04-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "4",
+  "neutral": "",
+  "start_et": "19:00"
+ },
+ {
+  "id": "pwhl-538",
+  "date": "2027-04-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "2",
+  "away": "12",
+  "neutral": "",
+  "start_et": "00:00"
+ },
+ {
+  "id": "pwhl-539",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "1",
+  "away": "6",
+  "neutral": "",
+  "start_et": "00:00"
+ },
+ {
+  "id": "pwhl-540",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "8",
+  "away": "13",
+  "neutral": "",
+  "start_et": "00:00"
+ },
+ {
+  "id": "pwhl-541",
+  "date": "2027-04-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "9",
+  "away": "10",
+  "neutral": "",
+  "start_et": "00:00"
+ },
+ {
+  "id": "pwhl-543",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "5",
+  "away": "3",
+  "neutral": "",
+  "start_et": "00:00"
+ },
+ {
+  "id": "pwhl-542",
+  "date": "2027-04-18",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "11",
+  "away": "4",
+  "neutral": "",
+  "start_et": "00:00"
  }
 ]
