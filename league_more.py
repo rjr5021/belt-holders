@@ -589,7 +589,7 @@ NWSL = make("nwsl", "NWSL", "The NWSL Belt", "Soccer", 2013, teams=NWSL_TEAMS, a
 # ------------------------------------------------------------- Liga MX
 LIGAMX_CODE = _keyword_code([
     ("america", "AME"), ("guadalajara", "GDL"), ("chivas", "GDL"), ("cruz azul", "CAZ"), ("pumas", "PUM"), ("unam", "PUM"),
-    ("monterrey", "MTY"), ("tigres", "TIG"), ("uanl", "TIG"), ("toluca", "TOL"), ("santos", "SAN"), ("leon", "LEO"),
+    ("monterrey", "MTY"), ("tigres", "TIG"), ("uanl", "TIG"), ("toluca", "TOL"), ("santos", "SAN"), ("leones negros", "UDG"), ("leon", "LEO"),
     ("pachuca", "PAC"), ("atlas", "ATS"), ("necaxa", "NEC"), ("puebla", "PUE"), ("queretaro", "QRO"), ("tijuana", "TIJ"),
     ("xolos", "TIJ"), ("juarez", "JUA"), ("mazatlan", "MAZ"), ("atletico san luis", "ASL"), ("atletico de san luis", "ASL"),
     ("san luis", "SLP"), ("morelia", "MOR"), ("monarcas", "MOR"), ("veracruz", "VER"), ("tiburones", "VER"), ("lobos", "LOB"),
@@ -602,13 +602,14 @@ LIGAMX_TEAMS = {"AME": ("#ffe600", "#002b7f", "América"), "GDL": ("#c8102e", "#
                 "PUE": ("#1f4e9c", "#ffffff", "Puebla"), "QRO": ("#1f4e9c", "#111111", "Querétaro"), "TIJ": ("#c8102e", "#111111", "Xolos"),
                 "JUA": ("#0a7a3c", "#c8102e", "Juárez"), "MAZ": ("#5b2c82", "#ffffff", "Mazatlán"), "ASL": ("#c8102e", "#1f4e9c", "San Luis"),
                 "SLP": (None, None, "San Luis"), "MOR": (None, None, "Morelia"), "VER": (None, None, "Veracruz"), "LOB": (None, None, "Lobos BUAP"),
-                "CHS": (None, None, "Chiapas"), "DOR": (None, None, "Dorados"), "ATE": (None, None, "Atlante"), "TEC": (None, None, "Tecos"),
-                "IND": (None, None, "Indios")}
+                "CHS": (None, None, "Chiapas"), "DOR": (None, None, "Dorados"), "ATE": ("#1f3a93", "#c8102e", "Atlante"), "TEC": (None, None, "Tecos"),
+                "IND": (None, None, "Indios"), "UDG": (None, None, "Leones Negros")}
 LIGAMX_NAMES = {"AME": "Club América", "GDL": "Guadalajara", "CAZ": "Cruz Azul", "PUM": "Pumas UNAM", "MTY": "Monterrey",
                 "TIG": "Tigres UANL", "TOL": "Toluca", "SAN": "Santos Laguna", "LEO": "León", "PAC": "Pachuca", "ATS": "Atlas",
                 "NEC": "Necaxa", "PUE": "Puebla", "QRO": "Querétaro", "TIJ": "Tijuana", "JUA": "FC Juárez", "MAZ": "Mazatlán",
                 "ASL": "Atlético San Luis", "SLP": "San Luis", "MOR": "Monarcas Morelia", "VER": "Veracruz", "LOB": "Lobos BUAP",
-                "CHS": "Chiapas", "DOR": "Dorados de Sinaloa", "ATE": "Atlante", "TEC": "Estudiantes Tecos", "IND": "Indios"}
+                "CHS": "Chiapas", "DOR": "Dorados de Sinaloa", "ATE": "Atlante", "TEC": "Estudiantes Tecos", "IND": "Indios",
+                "UDG": "Leones Negros UdeG"}
 LIGAMX = make("ligamx", "Liga MX", "The Liga MX Belt", "Soccer", 2013, teams=LIGAMX_TEAMS, aliases=LIGAMX_CODE, display=LIGAMX_NAMES,
               gap_days=200, post_word="Liguilla",
               rules=("<p><b>Liga MX.</b> The belt starts with the opening round of the 2013 Apertura and counts every Apertura and "
@@ -619,17 +620,32 @@ LIGAMX = make("ligamx", "Liga MX", "The Liga MX Belt", "Soccer", 2013, teams=LIG
 # ----------------------------------------------------------------- UFL
 UFL_CODE = _keyword_code([
     ("stallions", "BHM"), ("battlehawks", "STL"), ("panthers", "MICH"), ("defenders", "DC"), ("renegades", "ARL"),
-    ("roughnecks", "HOU"), ("showboats", "MEM"), ("brahmas", "SA")])
-UFL_TEAMS = {"BHM": ("#c8102e", "#111111", "Stallions"), "STL": ("#1e3a8a", "#a5acaf", "Battlehawks"), "MICH": ("#0b2a5b", "#00a3ad", "Panthers"),
-             "DC": ("#c8102e", "#111111", "Defenders"), "ARL": ("#1f4e9c", "#f58220", "Renegades"), "HOU": ("#f58220", "#111111", "Roughnecks"),
-             "MEM": ("#002f6c", "#ffd100", "Showboats"), "SA": ("#6d3e0e", "#111111", "Brahmas")}
+    ("roughnecks", "HOU"), ("gamblers", "HOU"), ("showboats", "MEM"), ("brahmas", "SA"), ("aviators", "CBS"), ("kings", "LOU"),
+    ("storm", "ORL")])
+UFL_TEAMS = {"BHM": ("#c8102e", "#111111", "Stallions"), "STL": ("#1e3a8a", "#a5acaf", "Battlehawks"), "DC": ("#c8102e", "#111111", "Defenders"),
+             "ARL": ("#1f4e9c", "#f58220", "Renegades"), "HOU": ("#f58220", "#111111", "Gamblers"), "CBS": ("#1f4e9c", "#c0c0c0", "Aviators"),
+             "LOU": ("#5b2c82", "#ffd100", "Kings"), "ORL": ("#0b2a5b", "#00a3ad", "Storm"),
+             "MICH": (None, None, "Panthers"), "MEM": (None, None, "Showboats"), "SA": (None, None, "Brahmas")}
 UFL_NAMES = {"BHM": "Birmingham Stallions", "STL": "St. Louis Battlehawks", "MICH": "Michigan Panthers", "DC": "DC Defenders",
-             "ARL": "Arlington Renegades", "HOU": "Houston Roughnecks", "MEM": "Memphis Showboats", "SA": "San Antonio Brahmas"}
-UFL = make("ufl", "UFL", "The UFL Belt", "American football", 2024, teams=UFL_TEAMS, aliases=UFL_CODE, display=UFL_NAMES, gap_days=330,
+             "ARL": "Dallas Renegades", "HOU": "Houston Gamblers", "MEM": "Memphis Showboats", "SA": "San Antonio Brahmas",
+             "CBS": "Columbus Aviators", "LOU": "Louisville Kings", "ORL": "Orlando Storm"}
+
+
+def _ufl_era(c, season):
+    s = int(season)
+    if c == "ARL" and s <= 2025:
+        return "Arlington Renegades"
+    if c == "HOU" and s <= 2025:
+        return "Houston Roughnecks"
+    return None
+
+
+UFL = make("ufl", "UFL", "The UFL Belt", "American football", 2024, teams=UFL_TEAMS, aliases=UFL_CODE, display=UFL_NAMES, era=_ufl_era, gap_days=330,
            label=lambda y: str(y), unit="teams", post_word="playoffs",
            rules=("<p><b>UFL.</b> The belt starts with the merged league's first game in March 2024 and counts every regular-season "
-                  "and playoff game, the championship included. A team that moves keeps the belt; one that folds vacates it to the "
-                  "most recent earlier holder still playing.</p>"),
+                  "and playoff game, the championship included. A renamed team keeps the belt (the Renegades and the Gamblers); the "
+                  "three clubs that left after 2025 vacate it to the most recent earlier holder still playing, since the league "
+                  "named no successors for them.</p>"),
            sources="UFL results and upcoming games come from ESPN's public scoreboard.")
 
 # -------------------------------------------------- NCAA men's hockey
