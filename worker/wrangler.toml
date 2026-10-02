@@ -3,6 +3,7 @@
 name = "belt-picks"
 main = "belt-picks.js"
 compatibility_date = "2025-07-18"
+keep_vars = true          # keep the VAPID_PUBLIC / VAPID_SUBJECT vars set in the dashboard
 
 [[kv_namespaces]]
 binding = "BELT"
