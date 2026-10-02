@@ -1,6 +1,10 @@
 {
  "digest": "2026-10-01",
- "games": {},
+ "games": {
+  "nhl|2026-10-01|floridapanthers|sanjosesharks": {
+   "danger": "2026-10-02T00:48-04:00"
+  }
+ },
  "log": [
   [
    "2026-10-01T09:15-04:00",
