@@ -6,7 +6,7 @@
   "season_type": "regular",
   "home": "Genoa CFC",
   "away": "ACF Fiorentina",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-51",
@@ -15,7 +15,7 @@
   "season_type": "regular",
   "home": "Inter",
   "away": "Parma FC",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-52",
@@ -24,7 +24,7 @@
   "season_type": "regular",
   "home": "SSC Napoli",
   "away": "Frosinone Calcio",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-53",
@@ -33,7 +33,7 @@
   "season_type": "regular",
   "home": "Como Calcio",
   "away": "AS Roma",
-  "start_et": "12:30"
+  "start_et": "06:30"
  },
  {
   "id": "of-2026-54",
@@ -42,7 +42,7 @@
   "season_type": "regular",
   "home": "US Lecce",
   "away": "Bologna FC",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-55",
@@ -51,7 +51,7 @@
   "season_type": "regular",
   "home": "Lazio Roma",
   "away": "AC Monza",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-56",
@@ -60,7 +60,7 @@
   "season_type": "regular",
   "home": "Sassuolo Calcio",
   "away": "AC Milan",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-57",
@@ -69,7 +69,7 @@
   "season_type": "regular",
   "home": "Cagliari Calcio",
   "away": "Juventus",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-58",
@@ -78,7 +78,7 @@
   "season_type": "regular",
   "home": "Atalanta",
   "away": "AC Venezia",
-  "start_et": "18:30"
+  "start_et": "12:30"
  },
  {
   "id": "of-2026-59",
@@ -87,7 +87,7 @@
   "season_type": "regular",
   "home": "Torino FC",
   "away": "Udinese Calcio",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-60",
@@ -96,7 +96,7 @@
   "season_type": "regular",
   "home": "Frosinone Calcio",
   "away": "Sassuolo Calcio",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-61",
@@ -105,7 +105,7 @@
   "season_type": "regular",
   "home": "AC Venezia",
   "away": "SSC Napoli",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-62",
@@ -114,7 +114,7 @@
   "season_type": "regular",
   "home": "Bologna FC",
   "away": "Inter",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-63",
@@ -123,7 +123,7 @@
   "season_type": "regular",
   "home": "AS Roma",
   "away": "Genoa CFC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-64",
@@ -132,7 +132,7 @@
   "season_type": "regular",
   "home": "Udinese Calcio",
   "away": "US Lecce",
-  "start_et": "12:30"
+  "start_et": "06:30"
  },
  {
   "id": "of-2026-65",
@@ -141,7 +141,7 @@
   "season_type": "regular",
   "home": "ACF Fiorentina",
   "away": "Como Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-66",
@@ -150,7 +150,7 @@
   "season_type": "regular",
   "home": "AC Milan",
   "away": "Atalanta",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-67",
@@ -159,7 +159,7 @@
   "season_type": "regular",
   "home": "Juventus",
   "away": "Lazio Roma",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-68",
@@ -168,7 +168,7 @@
   "season_type": "regular",
   "home": "AC Monza",
   "away": "Cagliari Calcio",
-  "start_et": "18:30"
+  "start_et": "12:30"
  },
  {
   "id": "of-2026-69",
@@ -177,7 +177,7 @@
   "season_type": "regular",
   "home": "Parma FC",
   "away": "Torino FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-70",
@@ -186,7 +186,7 @@
   "season_type": "regular",
   "home": "Torino FC",
   "away": "AC Monza",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-71",
@@ -195,7 +195,7 @@
   "season_type": "regular",
   "home": "Cagliari Calcio",
   "away": "Bologna FC",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-72",
@@ -204,7 +204,7 @@
   "season_type": "regular",
   "home": "Como Calcio",
   "away": "Sassuolo Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-73",
@@ -213,7 +213,7 @@
   "season_type": "regular",
   "home": "SSC Napoli",
   "away": "AS Roma",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-74",
@@ -222,7 +222,7 @@
   "season_type": "regular",
   "home": "Lazio Roma",
   "away": "Parma FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-75",
@@ -231,7 +231,7 @@
   "season_type": "regular",
   "home": "Inter",
   "away": "ACF Fiorentina",
-  "start_et": "12:30"
+  "start_et": "07:30"
  },
  {
   "id": "of-2026-76",
@@ -240,7 +240,7 @@
   "season_type": "regular",
   "home": "Atalanta",
   "away": "Frosinone Calcio",
-  "start_et": "15:00"
+  "start_et": "10:00"
  },
  {
   "id": "of-2026-77",
@@ -249,7 +249,7 @@
   "season_type": "regular",
   "home": "Genoa CFC",
   "away": "AC Venezia",
-  "start_et": "15:00"
+  "start_et": "10:00"
  },
  {
   "id": "of-2026-78",
@@ -258,7 +258,7 @@
   "season_type": "regular",
   "home": "US Lecce",
   "away": "Juventus",
-  "start_et": "18:00"
+  "start_et": "13:00"
  },
  {
   "id": "of-2026-79",
@@ -267,7 +267,7 @@
   "season_type": "regular",
   "home": "Udinese Calcio",
   "away": "AC Milan",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-80",
@@ -276,7 +276,7 @@
   "season_type": "regular",
   "home": "Sassuolo Calcio",
   "away": "Lazio Roma",
-  "start_et": "18:30"
+  "start_et": "13:30"
  },
  {
   "id": "of-2026-81",
@@ -285,7 +285,7 @@
   "season_type": "regular",
   "home": "AS Roma",
   "away": "Cagliari Calcio",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-82",
@@ -294,7 +294,7 @@
   "season_type": "regular",
   "home": "Torino FC",
   "away": "Como Calcio",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-83",
@@ -303,7 +303,7 @@
   "season_type": "regular",
   "home": "AC Milan",
   "away": "Bologna FC",
-  "start_et": "18:30"
+  "start_et": "13:30"
  },
  {
   "id": "of-2026-84",
@@ -312,7 +312,7 @@
   "season_type": "regular",
   "home": "AC Venezia",
   "away": "Inter",
-  "start_et": "18:30"
+  "start_et": "13:30"
  },
  {
   "id": "of-2026-85",
@@ -321,7 +321,7 @@
   "season_type": "regular",
   "home": "Parma FC",
   "away": "Udinese Calcio",
-  "start_et": "18:30"
+  "start_et": "13:30"
  },
  {
   "id": "of-2026-86",
@@ -330,7 +330,7 @@
   "season_type": "regular",
   "home": "Genoa CFC",
   "away": "Juventus",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-87",
@@ -339,7 +339,7 @@
   "season_type": "regular",
   "home": "AC Monza",
   "away": "SSC Napoli",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-88",
@@ -348,7 +348,7 @@
   "season_type": "regular",
   "home": "Frosinone Calcio",
   "away": "US Lecce",
-  "start_et": "18:30"
+  "start_et": "13:30"
  },
  {
   "id": "of-2026-89",
@@ -357,7 +357,7 @@
   "season_type": "regular",
   "home": "ACF Fiorentina",
   "away": "Atalanta",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-90",
@@ -366,7 +366,7 @@
   "season_type": "regular",
   "home": "Bologna FC",
   "away": "AC Monza",
-  "start_et": "15:00"
+  "start_et": "10:00"
  },
  {
   "id": "of-2026-91",
@@ -375,7 +375,7 @@
   "season_type": "regular",
   "home": "Udinese Calcio",
   "away": "AS Roma",
-  "start_et": "18:00"
+  "start_et": "13:00"
  },
  {
   "id": "of-2026-92",
@@ -384,7 +384,7 @@
   "season_type": "regular",
   "home": "AC Milan",
   "away": "Inter",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-93",
@@ -393,7 +393,7 @@
   "season_type": "regular",
   "home": "Como Calcio",
   "away": "AC Venezia",
-  "start_et": "12:30"
+  "start_et": "06:30"
  },
  {
   "id": "of-2026-94",
@@ -402,7 +402,7 @@
   "season_type": "regular",
   "home": "Frosinone Calcio",
   "away": "Torino FC",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-95",
@@ -411,7 +411,7 @@
   "season_type": "regular",
   "home": "Lazio Roma",
   "away": "Cagliari Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-96",
@@ -420,7 +420,7 @@
   "season_type": "regular",
   "home": "US Lecce",
   "away": "Genoa CFC",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-97",
@@ -429,7 +429,7 @@
   "season_type": "regular",
   "home": "Juventus",
   "away": "SSC Napoli",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-98",
@@ -438,7 +438,7 @@
   "season_type": "regular",
   "home": "Sassuolo Calcio",
   "away": "ACF Fiorentina",
-  "start_et": "18:30"
+  "start_et": "12:30"
  },
  {
   "id": "of-2026-99",
@@ -447,7 +447,7 @@
   "season_type": "regular",
   "home": "Atalanta",
   "away": "Parma FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-100",
@@ -456,7 +456,7 @@
   "season_type": "regular",
   "home": "AC Venezia",
   "away": "Udinese Calcio",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-101",
@@ -465,7 +465,7 @@
   "season_type": "regular",
   "home": "Torino FC",
   "away": "US Lecce",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-102",
@@ -474,7 +474,7 @@
   "season_type": "regular",
   "home": "Cagliari Calcio",
   "away": "Frosinone Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-103",
@@ -483,7 +483,7 @@
   "season_type": "regular",
   "home": "Parma FC",
   "away": "Bologna FC",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-104",
@@ -492,7 +492,7 @@
   "season_type": "regular",
   "home": "AS Roma",
   "away": "Sassuolo Calcio",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-105",
@@ -501,7 +501,7 @@
   "season_type": "regular",
   "home": "SSC Napoli",
   "away": "Lazio Roma",
-  "start_et": "12:30"
+  "start_et": "06:30"
  },
  {
   "id": "of-2026-106",
@@ -510,7 +510,7 @@
   "season_type": "regular",
   "home": "Genoa CFC",
   "away": "AC Milan",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-107",
@@ -519,7 +519,7 @@
   "season_type": "regular",
   "home": "AC Monza",
   "away": "Atalanta",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-108",
@@ -528,7 +528,7 @@
   "season_type": "regular",
   "home": "Inter",
   "away": "Como Calcio",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-109",
@@ -537,7 +537,7 @@
   "season_type": "regular",
   "home": "ACF Fiorentina",
   "away": "Juventus",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-110",
@@ -546,7 +546,7 @@
   "season_type": "regular",
   "home": "Como Calcio",
   "away": "Cagliari Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-111",
@@ -555,7 +555,7 @@
   "season_type": "regular",
   "home": "Lazio Roma",
   "away": "US Lecce",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-112",
@@ -564,7 +564,7 @@
   "season_type": "regular",
   "home": "Parma FC",
   "away": "AS Roma",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-113",
@@ -573,7 +573,7 @@
   "season_type": "regular",
   "home": "SSC Napoli",
   "away": "Torino FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-114",
@@ -582,7 +582,7 @@
   "season_type": "regular",
   "home": "Sassuolo Calcio",
   "away": "Genoa CFC",
-  "start_et": "12:30"
+  "start_et": "06:30"
  },
  {
   "id": "of-2026-115",
@@ -591,7 +591,7 @@
   "season_type": "regular",
   "home": "AC Milan",
   "away": "Frosinone Calcio",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-116",
@@ -600,7 +600,7 @@
   "season_type": "regular",
   "home": "Bologna FC",
   "away": "Udinese Calcio",
-  "start_et": "18:00"
+  "start_et": "12:00"
  },
  {
   "id": "of-2026-117",
@@ -609,7 +609,7 @@
   "season_type": "regular",
   "home": "Atalanta",
   "away": "Inter",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-118",
@@ -618,7 +618,7 @@
   "season_type": "regular",
   "home": "AC Monza",
   "away": "ACF Fiorentina",
-  "start_et": "18:30"
+  "start_et": "12:30"
  },
  {
   "id": "of-2026-119",
@@ -627,7 +627,7 @@
   "season_type": "regular",
   "home": "Juventus",
   "away": "AC Venezia",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-120",

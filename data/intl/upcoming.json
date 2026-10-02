@@ -1,137 +1,5 @@
 [
  {
-  "id": "int-espn-401918509",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DR Congo",
-  "away": "Uganda",
-  "neutral": "",
-  "start_et": "09:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401861101",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Kazakhstan",
-  "away": "Moldova",
-  "neutral": "",
-  "start_et": "10:00",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401923178",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Mauritius",
-  "away": "Sri Lanka",
-  "neutral": "",
-  "start_et": "11:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401861104",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Cyprus",
-  "away": "Armenia",
-  "neutral": "",
-  "start_et": "12:00",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861105",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Latvia",
-  "away": "Montenegro",
-  "neutral": "",
-  "start_et": "12:00",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861109",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Belgium",
-  "away": "Turkey",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861107",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Bosnia and Herzegovina",
-  "away": "Sweden",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861110",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Faroe Islands",
-  "away": "Slovakia",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861103",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "France",
-  "away": "Italy",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861102",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Hungary",
-  "away": "Georgia",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861108",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Poland",
-  "away": "Romania",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861106",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Ukraine",
-  "away": "Northern Ireland",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
   "id": "int-espn-401900591",
   "date": "2026-10-02",
   "season": 2026,
@@ -185,6 +53,17 @@
   "neutral": "",
   "start_et": "22:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401912238",
+  "date": "2026-10-03",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sri Lanka",
+  "away": "Djibouti",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401927444",
@@ -281,17 +160,6 @@
   "season_type": "regular",
   "home": "Canada",
   "away": "Peru",
-  "neutral": "",
-  "start_et": "14:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401912238",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Sri Lanka",
-  "away": "Djibouti",
   "neutral": "",
   "start_et": "14:00",
   "tournament": "Friendly"

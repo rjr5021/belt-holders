@@ -230,6 +230,16 @@
   "start_et": "14:00"
  },
  {
+  "id": "pwhl-544",
+  "date": "2026-12-20",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "6",
+  "away": "13",
+  "neutral": "",
+  "start_et": "16:00"
+ },
+ {
   "id": "pwhl-376",
   "date": "2026-12-20",
   "season": 2026,
@@ -1447,7 +1457,7 @@
   "home": "5",
   "away": "12",
   "neutral": "",
-  "start_et": "11:00"
+  "start_et": null
  },
  {
   "id": "pwhl-510",
@@ -1737,7 +1747,7 @@
   "home": "2",
   "away": "12",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  },
  {
   "id": "pwhl-539",
@@ -1747,7 +1757,7 @@
   "home": "1",
   "away": "6",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  },
  {
   "id": "pwhl-540",
@@ -1757,7 +1767,7 @@
   "home": "8",
   "away": "13",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  },
  {
   "id": "pwhl-541",
@@ -1767,7 +1777,7 @@
   "home": "9",
   "away": "10",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  },
  {
   "id": "pwhl-543",
@@ -1777,7 +1787,7 @@
   "home": "5",
   "away": "3",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  },
  {
   "id": "pwhl-542",
@@ -1787,6 +1797,6 @@
   "home": "11",
   "away": "4",
   "neutral": "",
-  "start_et": "00:00"
+  "start_et": null
  }
 ]

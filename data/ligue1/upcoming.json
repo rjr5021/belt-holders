@@ -6,7 +6,7 @@
   "season_type": "regular",
   "home": "RC Lens",
   "away": "Olympique Lyon",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-46",
@@ -15,7 +15,7 @@
   "season_type": "regular",
   "home": "Lille OSC",
   "away": "Le Havre AC",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-47",
@@ -24,7 +24,7 @@
   "season_type": "regular",
   "home": "Stade Brest",
   "away": "Angers SCO",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-48",
@@ -33,7 +33,7 @@
   "season_type": "regular",
   "home": "FC Lorient",
   "away": "Paris FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-49",
@@ -42,7 +42,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "Le Mans UC 72",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-50",
@@ -51,7 +51,7 @@
   "season_type": "regular",
   "home": "AS Monaco",
   "away": "Toulouse FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-51",
@@ -60,7 +60,7 @@
   "season_type": "regular",
   "home": "OGC Nice",
   "away": "RC Strasbourg",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-52",
@@ -69,7 +69,7 @@
   "season_type": "regular",
   "home": "Stade Rennes",
   "away": "AJ Auxerre",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-53",
@@ -78,7 +78,7 @@
   "season_type": "regular",
   "home": "ESTAC Troyes",
   "away": "Olympique Marseille",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-54",
@@ -87,7 +87,7 @@
   "season_type": "regular",
   "home": "Le Mans UC 72",
   "away": "Toulouse FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-55",
@@ -96,7 +96,7 @@
   "season_type": "regular",
   "home": "RC Strasbourg",
   "away": "Paris Saint-Germain",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-56",
@@ -105,7 +105,7 @@
   "season_type": "regular",
   "home": "ESTAC Troyes",
   "away": "RC Lens",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-57",
@@ -114,7 +114,7 @@
   "season_type": "regular",
   "home": "Lille OSC",
   "away": "Stade Brest",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-58",
@@ -123,7 +123,7 @@
   "season_type": "regular",
   "home": "Angers SCO",
   "away": "Olympique Marseille",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-59",
@@ -132,7 +132,7 @@
   "season_type": "regular",
   "home": "FC Lorient",
   "away": "AS Monaco",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-60",
@@ -141,7 +141,7 @@
   "season_type": "regular",
   "home": "Paris FC",
   "away": "Stade Rennes",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-61",
@@ -150,7 +150,7 @@
   "season_type": "regular",
   "home": "Le Havre AC",
   "away": "AJ Auxerre",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-62",
@@ -159,7 +159,7 @@
   "season_type": "regular",
   "home": "Olympique Lyon",
   "away": "OGC Nice",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-63",
@@ -168,7 +168,7 @@
   "season_type": "regular",
   "home": "Stade Brest",
   "away": "OGC Nice",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-64",
@@ -177,7 +177,7 @@
   "season_type": "regular",
   "home": "Toulouse FC",
   "away": "ESTAC Troyes",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-65",
@@ -186,7 +186,7 @@
   "season_type": "regular",
   "home": "RC Lens",
   "away": "Paris FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-66",
@@ -195,7 +195,7 @@
   "season_type": "regular",
   "home": "AS Monaco",
   "away": "Lille OSC",
-  "start_et": "15:00"
+  "start_et": "10:00"
  },
  {
   "id": "of-2026-67",
@@ -204,7 +204,7 @@
   "season_type": "regular",
   "home": "Olympique Marseille",
   "away": "Le Havre AC",
-  "start_et": "17:15"
+  "start_et": "12:15"
  },
  {
   "id": "of-2026-68",
@@ -213,7 +213,7 @@
   "season_type": "regular",
   "home": "Stade Rennes",
   "away": "RC Strasbourg",
-  "start_et": "17:15"
+  "start_et": "12:15"
  },
  {
   "id": "of-2026-69",
@@ -222,7 +222,7 @@
   "season_type": "regular",
   "home": "Angers SCO",
   "away": "FC Lorient",
-  "start_et": "17:15"
+  "start_et": "12:15"
  },
  {
   "id": "of-2026-70",
@@ -231,7 +231,7 @@
   "season_type": "regular",
   "home": "AJ Auxerre",
   "away": "Le Mans UC 72",
-  "start_et": "17:15"
+  "start_et": "12:15"
  },
  {
   "id": "of-2026-71",
@@ -240,7 +240,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "Olympique Lyon",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-72",
@@ -249,7 +249,7 @@
   "season_type": "regular",
   "home": "Le Havre AC",
   "away": "Paris Saint-Germain",
-  "start_et": "19:00"
+  "start_et": "14:00"
  },
  {
   "id": "of-2026-73",
@@ -258,7 +258,7 @@
   "season_type": "regular",
   "home": "Lille OSC",
   "away": "RC Lens",
-  "start_et": "21:05"
+  "start_et": "16:05"
  },
  {
   "id": "of-2026-74",
@@ -267,7 +267,7 @@
   "season_type": "regular",
   "home": "OGC Nice",
   "away": "Stade Rennes",
-  "start_et": "17:15"
+  "start_et": "12:15"
  },
  {
   "id": "of-2026-75",
@@ -276,7 +276,7 @@
   "season_type": "regular",
   "home": "Olympique Lyon",
   "away": "Angers SCO",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-76",
@@ -285,7 +285,7 @@
   "season_type": "regular",
   "home": "FC Lorient",
   "away": "Stade Brest",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-77",
@@ -294,7 +294,7 @@
   "season_type": "regular",
   "home": "ESTAC Troyes",
   "away": "Le Mans UC 72",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-78",
@@ -303,7 +303,7 @@
   "season_type": "regular",
   "home": "RC Strasbourg",
   "away": "AJ Auxerre",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-79",
@@ -312,7 +312,7 @@
   "season_type": "regular",
   "home": "Paris FC",
   "away": "AS Monaco",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-80",
@@ -321,7 +321,7 @@
   "season_type": "regular",
   "home": "Olympique Marseille",
   "away": "Toulouse FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-81",
@@ -330,7 +330,7 @@
   "season_type": "regular",
   "home": "Toulouse FC",
   "away": "RC Strasbourg",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-82",
@@ -339,7 +339,7 @@
   "season_type": "regular",
   "home": "AJ Auxerre",
   "away": "Paris FC",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-83",
@@ -348,7 +348,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "ESTAC Troyes",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-84",
@@ -357,7 +357,7 @@
   "season_type": "regular",
   "home": "Stade Rennes",
   "away": "Lille OSC",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-85",
@@ -366,7 +366,7 @@
   "season_type": "regular",
   "home": "Le Mans UC 72",
   "away": "AS Monaco",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-86",
@@ -375,7 +375,7 @@
   "season_type": "regular",
   "home": "Stade Brest",
   "away": "Olympique Lyon",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-87",
@@ -384,7 +384,7 @@
   "season_type": "regular",
   "home": "Le Havre AC",
   "away": "FC Lorient",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-88",
@@ -393,7 +393,7 @@
   "season_type": "regular",
   "home": "Angers SCO",
   "away": "OGC Nice",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-89",
@@ -402,7 +402,7 @@
   "season_type": "regular",
   "home": "RC Lens",
   "away": "Olympique Marseille",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-90",
@@ -411,7 +411,7 @@
   "season_type": "regular",
   "home": "ESTAC Troyes",
   "away": "Le Havre AC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-91",
@@ -420,7 +420,7 @@
   "season_type": "regular",
   "home": "OGC Nice",
   "away": "Paris Saint-Germain",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-92",
@@ -429,7 +429,7 @@
   "season_type": "regular",
   "home": "AS Monaco",
   "away": "AJ Auxerre",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-93",
@@ -438,7 +438,7 @@
   "season_type": "regular",
   "home": "RC Lens",
   "away": "Toulouse FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-94",
@@ -447,7 +447,7 @@
   "season_type": "regular",
   "home": "Lille OSC",
   "away": "Olympique Lyon",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-95",
@@ -456,7 +456,7 @@
   "season_type": "regular",
   "home": "RC Strasbourg",
   "away": "Stade Brest",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-96",
@@ -465,7 +465,7 @@
   "season_type": "regular",
   "home": "Paris FC",
   "away": "Angers SCO",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-97",
@@ -474,7 +474,7 @@
   "season_type": "regular",
   "home": "FC Lorient",
   "away": "Stade Rennes",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-98",
@@ -483,7 +483,7 @@
   "season_type": "regular",
   "home": "Olympique Marseille",
   "away": "Le Mans UC 72",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-99",
@@ -492,7 +492,7 @@
   "season_type": "regular",
   "home": "Stade Brest",
   "away": "Paris FC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-100",
@@ -501,7 +501,7 @@
   "season_type": "regular",
   "home": "Angers SCO",
   "away": "RC Lens",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-101",
@@ -510,7 +510,7 @@
   "season_type": "regular",
   "home": "Le Mans UC 72",
   "away": "Lille OSC",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-102",
@@ -519,7 +519,7 @@
   "season_type": "regular",
   "home": "OGC Nice",
   "away": "ESTAC Troyes",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-103",
@@ -528,7 +528,7 @@
   "season_type": "regular",
   "home": "Le Havre AC",
   "away": "RC Strasbourg",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-104",
@@ -537,7 +537,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "FC Lorient",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-105",
@@ -546,7 +546,7 @@
   "season_type": "regular",
   "home": "AJ Auxerre",
   "away": "Olympique Marseille",
-  "start_et": "15:00"
+  "start_et": "09:00"
  },
  {
   "id": "of-2026-106",
@@ -555,7 +555,7 @@
   "season_type": "regular",
   "home": "Toulouse FC",
   "away": "Stade Rennes",
-  "start_et": "17:15"
+  "start_et": "11:15"
  },
  {
   "id": "of-2026-107",
@@ -564,7 +564,7 @@
   "season_type": "regular",
   "home": "Olympique Lyon",
   "away": "AS Monaco",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-108",
@@ -726,7 +726,7 @@
   "season_type": "regular",
   "home": "Olympique Lyon",
   "away": "Olympique Marseille",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-126",
@@ -807,7 +807,7 @@
   "season_type": "regular",
   "home": "RC Lens",
   "away": "Paris Saint-Germain",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-135",
@@ -1131,7 +1131,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "Olympique Marseille",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-171",
@@ -1374,7 +1374,7 @@
   "season_type": "regular",
   "home": "Paris Saint-Germain",
   "away": "RC Lens",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-198",
@@ -1617,7 +1617,7 @@
   "season_type": "regular",
   "home": "Olympique Marseille",
   "away": "Olympique Lyon",
-  "start_et": "20:45"
+  "start_et": "15:45"
  },
  {
   "id": "of-2026-225",
@@ -2103,7 +2103,7 @@
   "season_type": "regular",
   "home": "Olympique Lyon",
   "away": "Paris Saint-Germain",
-  "start_et": "20:45"
+  "start_et": "14:45"
  },
  {
   "id": "of-2026-279",
