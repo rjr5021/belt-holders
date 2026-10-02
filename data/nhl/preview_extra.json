@@ -1,56 +1,52 @@
 {
- "key": "FLA|ANA|2026-10-04",
- "updated": "2026-10-02T00:39Z",
- "start_utc": "2026-10-05T00:00Z",
+ "key": "SJS|LAK|2026-10-03",
+ "updated": "2026-10-02T06:37Z",
+ "start_utc": "2026-10-04T02:00Z",
  "espn": {
-  "event_id": "401891778",
-  "start_utc": "2026-10-05T00:00Z",
+  "event_id": "401892441",
+  "start_utc": "2026-10-04T02:00Z",
   "state": "pre",
   "tv": [
-   "Scripps Sports",
-   "KCOP",
-   "Prime Video (Local)"
+   "ESPN+",
+   "NBC Sports BA",
+   "ABTV"
   ],
-  "odds": {
-   "details": "FLA -125",
-   "over_under": 6.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "ANA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
-    "abbr": "ANA",
-    "record": "0-0-0",
+   "SJS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+    "abbr": "SJ",
+    "record": "1-0-0",
     "rank": null,
     "home_away": "home"
    },
-   "FLA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-    "abbr": "FLA",
-    "record": "1-0-0",
+   "LAK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
+    "abbr": "LA",
+    "record": "0-1-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Honda Center",
-   "city": "Anaheim",
+   "name": "SAP Center at San Jose",
+   "city": "San Jose",
    "state": "CA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Florida Panthers bring the lineal championship belt to Anaheim for the 2026-27 season opener for the Ducks. Florida enters on a four-game winning streak and is looking to defend the belt for the first time in this current reign. This marks just the second time these teams have met with the belt on the line.",
+  "overview": "The San Jose Sharks put their lineal championship belt on the line for the first time in this reign as they host the Los Angeles Kings. This belt has changed hands through every game result since the NHL's inception, with no polls or committees involved\u2014only on-ice outcomes matter. The Sharks claimed the belt with their 4-3 victory over Florida and now face a Kings team desperate to reverse their fortunes.",
   "key_matchups": [
-   "Florida's hot streak (four straight wins, including a 1-0 shutout last time out) versus Anaheim coming off two playoff losses to Vegas",
-   "Anaheim's home advantage and recent head-to-head success (7-3 and 3-2 wins last November) against the defending belt holder",
-   "Contrasting recent form: Panthers averaging over 4 goals during their win streak while the Ducks were held to 3 or fewer in 4 of their last 5"
+   "Sharks riding momentum with wins in 3 of their last 4 games versus Kings mired in a brutal 5-game losing streak dating back to the playoffs",
+   "Recent head-to-head history favors San Jose, who have taken 3 of the last 5 meetings including both matchups in January 2026",
+   "First belt defense of San Jose's current reign against a Kings franchise that has held the belt 81 times previously"
   ],
-  "betting_angles": "The betting line slightly favors Florida at -125 despite this being a road game, which aligns with their current four-game winning streak and 1-0 season record. However, Anaheim won both meetings late last season by a combined 10-6 margin, suggesting the Ducks have had recent success against this opponent. The 49% Elo rating for Florida indicates this matchup is essentially a coin flip, making the road favorite position interesting given the head-to-head history.",
-  "predicted_winner": "Florida Panthers",
-  "predicted_score": "Florida Panthers 4, Anaheim Ducks 2",
-  "prediction_writeup": "Florida's momentum is undeniable with four consecutive wins, including strong offensive performances like the 8-1 drubbing of Detroit and 6-2 win at Toronto. While Anaheim won both meetings last November, those games came nearly a year ago and the Ducks are coming off playoff elimination losses. The Panthers have already played a regular season game this year (1-0 win at Carolina) while Anaheim is opening its season, which could give Florida an early conditioning edge. The close Elo rating and betting line suggest a tight game, but Florida's current form tips the scale.",
+  "betting_angles": "The form contrast is stark: San Jose has won two straight and three of four, while Los Angeles enters on a five-game slide that includes four playoff losses to Colorado. The Sharks hold a slight edge in the all-time series at 110-91-7 and have won three of the last five head-to-head meetings. The Elo model's 54% projection for San Jose aligns with their home ice advantage and superior recent form, though the narrow margin suggests this could be competitive.",
+  "predicted_winner": "San Jose Sharks",
+  "predicted_score": "San Jose Sharks 4, Los Angeles Kings 2",
+  "prediction_writeup": "San Jose's momentum\u2014winning two straight and posting a dominant 6-1 victory at Winnipeg just two games ago\u2014stands in sharp contrast to Los Angeles limping through five consecutive defeats. The Kings haven't won since the regular season ended, carrying playoff disappointment into the new campaign with an ugly 4-8 loss to Colorado in their opener. While San Jose has shown they can win tight games (4-3 over Florida, 3-2 at Nashville), they've also demonstrated offensive firepower when clicking. The Sharks defend their belt successfully at home.",
   "written": "2026-10-02",
   "model": "claude-sonnet-4-5"
  }

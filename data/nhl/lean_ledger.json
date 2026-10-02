@@ -50,5 +50,15 @@
    "over_under": 6.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "SJS|LAK|2026-10-03",
+  "date": "2026-10-03",
+  "holder": "SJS",
+  "challenger": "LAK",
+  "pick": "SJS",
+  "score": "San Jose Sharks 4, Los Angeles Kings 2",
+  "made": "2026-10-02",
+  "line": null
  }
 ]
