@@ -43,7 +43,7 @@ jobs:
       - name: Commit
         if: always()
         run: |
-          git add -A data/${{ matrix.league }}/box
+          git add -A data/${{ matrix.league }}/box data/${{ matrix.league }}/players.json
           git diff --cached --quiet && echo "no changes" && exit 0
           L=$(echo ${{ matrix.league }} | tr a-z A-Z)
           git commit -m "$L belt box scores [skip ci]"

@@ -73,6 +73,8 @@ jobs:
         continue-on-error: true
       - name: Build site
         run: python build_site.py
+      - name: Site audit (audit #2, 6.10 -- broken links, sitemap, template leftovers)
+        run: pip install lxml -q && python audit_site.py site beltholders.com /tmp/audit --ci
       - name: Share images
         run: pip install pillow && python og_images.py || for l in nfl nba nhl mlb; do cp site/og.png site/$l/og.png; done
         continue-on-error: true
@@ -82,6 +84,13 @@ jobs:
           kb=$(du -sk --apparent-size site | cut -f1); files=$(find site -type f | wc -l)
           echo "site: $((kb / 1024)) MB on disk, $files files"
           echo "### Site budget: $((kb / 1024)) MB, $files files (limit 900 MB)" >> "$GITHUB_STEP_SUMMARY"
+          # B-1 (audit #2): where the bytes are, so growth shows before the guard trips
+          { echo; echo "| Section | MB | files |"; echo "|---|---:|---:|";
+            for d in site/*/; do echo "| ${d#site/} | $(( $(du -sk --apparent-size "$d" | cut -f1) / 1024 )) | $(find "$d" -type f | wc -l) |"; done | sort -t'|' -k3 -rn | head -24;
+            echo; echo "Largest page types: players $(( $(du -skc --apparent-size site/*/players 2>/dev/null | tail -1 | cut -f1) / 1024 )) MB, games $(( $(du -skc --apparent-size site/*/games 2>/dev/null | tail -1 | cut -f1) / 1024 )) MB"; } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$kb" -gt 819200 ]; then
+            echo "::warning::The built site is $((kb / 1024)) MB, over the 800 MB soft limit. Trim before it reaches the 900 MB guard."
+          fi
           if [ "$kb" -gt 921600 ]; then
             echo "::error::The built site is $((kb / 1024)) MB, over the 900 MB budget (Pages limit 1 GB). Lower features.BOX_PAGES_FROM / MIN_PLAYER_GAMES or cut pages before deploying."
             exit 1
