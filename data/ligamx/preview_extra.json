@@ -1,0 +1,25 @@
+{
+ "key": "ATE|QRO|2026-10-10",
+ "updated": "2026-10-02T22:29Z",
+ "start_utc": "2026-10-10T23:00Z",
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "Atlante bring the lineal championship belt to Quer\u00e9taro on October 10th, 2026, having just claimed it with zero defenses in their current reign. Quer\u00e9taro, who have held the belt 8 times previously, will be looking to reclaim the crown in what marks the first time these two sides have ever met with the belt on the line.",
+  "key_matchups": [
+   "Quer\u00e9taro's superior season record (5-2-2) against Atlante's struggling 2-3-5 form",
+   "Home advantage for Quer\u00e9taro, who won 3-1 at Atlas and 2-0 at Guadalajara in recent road victories",
+   "Atlante's recent 4-2 win over Monterrey showing attacking potential despite an otherwise inconsistent stretch"
+  ],
+  "betting_angles": "Quer\u00e9taro enter as Elo favorites with the better season record at 5-2-2 compared to Atlante's 2-3-5 mark. The head-to-head history is perfectly split at one win apiece across their two all-time meetings, though both occurred over a decade ago in 2013 and 2014. Quer\u00e9taro have won their last 1 game while Atlante have also won their last 1, but the visitors have drawn three of their previous four before that recent victory.",
+  "predicted_winner": "Quer\u00e9taro",
+  "predicted_score": "Atlante 1, Quer\u00e9taro 2",
+  "prediction_writeup": "Quer\u00e9taro's 5-2-2 record this season stands in stark contrast to Atlante's 2-3-5 mark, and the Elo model backing the home side reinforces that gap in class. While Atlante showed life with their 4-2 victory over Monterrey, they had managed just one goal across their previous three matches. Quer\u00e9taro have been clinical lately with wins of 2-0, 1-0, and 3-1 in three of their last four outings. With home advantage and the statistical edge across the board, Quer\u00e9taro should reclaim the belt they've held 8 times before.",
+  "written": "2026-10-02",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
+}
