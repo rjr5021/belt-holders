@@ -124,6 +124,8 @@ def build(league, refresh=True, today=None):
                                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS), fut)] if gb},
         "losers": M.losers(league["key"], full, league["tie_rule"], recent, today,
                            league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),
+        "alt_starts": M.alt_starts(league, full, [bg for bg in belt_games if bg["date"] >= league.get("full_from", "")], reigns, league["tie_rule"], recent, today,
+                                   league.get("gap_days", belt_engine.GAP_THRESHOLD_DAYS)),     # 7.3 (audit #2)
     }
     out = {
         "models": models,
@@ -137,6 +139,19 @@ def build(league, refresh=True, today=None):
         "status": league["season_status"](today, upcoming), "records": records,
     }
     os.makedirs(os.path.join("data", league["key"]), exist_ok=True)
+    # Feature 7.7 (audit #2): one belt power-ranking snapshot per ISO week, kept in the repo
+    # (deploy.yml commits data/), so /<lg>/rankings/<week>/ pages are dated history, not a redraw.
+    if look and look.get("odds"):
+        iso = date.fromisoformat(today).isocalendar()
+        wk_dir = os.path.join("data", league["key"], "rankings")
+        wk_path = os.path.join(wk_dir, f"{iso[0]}-W{iso[1]:02d}.json")
+        if not os.path.exists(wk_path):
+            os.makedirs(wk_dir, exist_ok=True)
+            with open(wk_path, "w") as f:
+                json.dump({"week": f"{iso[0]}-W{iso[1]:02d}", "date": today, "holder": holder, "holder_since": current["start_date"],
+                           "defenses": current.get("defenses", 0), "through": look.get("through"), "sims": look.get("sims"),
+                           "odds": look["odds"][:30], "elo": top_elo[:30],
+                           "next": [next_game["date"], next_game["challenger"], next_game["holder_home"]] if next_game else None}, f, separators=(",", ":"))
     path = os.path.join("data", league["key"], "lineage.json")
     with open(path, "w") as f:
         json.dump(out, f, indent=1, default=str)

@@ -253,4 +253,7 @@ LEAGUE = {
     "tie_rule": TIE_RULE, "sport": "American football", "load_games": load_games, "recent_teams": recent_teams,
     "team_name": team_name, "team_colors": team_colors, "short_name": short_name,
     "season_status": season_status, "live": True,
+    # 7.3 (audit #2): the same belt started at an era boundary
+    "alt_starts": [{"season": 1970, "label": "since the 1970 merger", "why": "The NFL and AFL merged into one league for the 1970 season; this belt starts with that season's first game."},
+                   {"season": 1966, "label": "since the first Super Bowl season", "why": "The first Super Bowl season, 1966: the belt starts with the first game of the year that ended in Super Bowl I."}],
 }

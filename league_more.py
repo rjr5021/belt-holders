@@ -32,7 +32,7 @@ def _ko(t):
 
 def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None, display=None, tie_rule="holder",
          gap_days=200, label=season_label, rules="", sources="", time_word="Kickoff", unit="clubs",
-         post_word="postseason", champions_note=None, names_file=None, era=None, keep=None, venues=None):
+         post_word="postseason", champions_note=None, names_file=None, era=None, keep=None, venues=None, alt_starts=None):
     teams = teams or {}          # code -> (primary, secondary[, short]), or a function of the code
     aliases = aliases or {}      # raw team value in the files -> code
     display = display or {}      # code -> display name
@@ -112,6 +112,8 @@ def make(key, name, long_name, sport, first_season, *, teams=None, aliases=None,
     }
     if champions_note:
         lg["champions_note"] = champions_note
+    if alt_starts:
+        lg["alt_starts"] = alt_starts        # 7.3 (audit #2)
     return lg
 
 
@@ -123,7 +125,8 @@ ESD = ('<a href="https://github.com/jalapic/engsoccerdata">engsoccerdata</a> (Ja
 OPENF = '<a href="https://github.com/openfootball/football.json">openfootball</a> (public domain)'
 
 # ---------------------------------------------------------------- England
-EPL = make("epl", "Premier League", "The English Football Belt", "Soccer", 1888, teams={
+EPL = make("epl", "Premier League", "The English Football Belt", "Soccer", 1888, alt_starts=[
+    {"season": 1992, "label": "since the Premier League began", "why": "The Premier League replaced the First Division for 1992–93; this belt starts with that season's first match instead of the Football League's 1888 opener."}], teams={
     "Arsenal": ("#ef0107", "#063672"), "Aston Villa": ("#670e36", "#95bfe5"), "AFC Bournemouth": ("#da291c", "#111111", "Bournemouth"),
     "Brentford": ("#e30613", "#140e0c"), "Brighton & Hove Albion": ("#0057b8", "#ffffff", "Brighton"),
     "Chelsea": ("#034694", "#dba111"), "Coventry City": ("#59cbe8", "#1d1d1b", "Coventry"),
@@ -245,6 +248,8 @@ INTL_COLORS = {
 }
 INTL = make("intl", "International", "The International Football Belt", "Soccer", 1873, teams=INTL_COLORS, gap_days=1100,
             label=lambda y: str(y), unit="nations", post_word="World Cup",
+            alt_starts=[{"key": "nasazzi", "season": 1930, "start_date": "1930-07-30", "label": "since the first World Cup final (Nasazzi's Baton)",
+                         "why": "Nasazzi's Baton starts with the first World Cup winners: Uruguay beat Argentina 4–2 in the 1930 final in Montevideo, and the title has passed on the pitch ever since."}],
             champions_note="Here the champion is the World Cup winner, in World Cup years.",
             rules=("<p><b>International.</b> The men's international belt starts with the first decisive international, "
                    "England 4–2 Scotland at the Kennington Oval on March 8, 1873 (the first, in Glasgow in 1872, was a 0–0 draw), and counts every full international between "

@@ -189,4 +189,6 @@ LEAGUE = {
     "season_status": season_status, "season_label": season_label, "live": True,
     "gap_days": 800,  # the 2004-05 lockout wiped out a whole season
     "rules_note": rules_note, "sources": SOURCES, "time_word": "Puck drop",
+    "alt_starts": [{"season": 1967, "label": "since the 1967 expansion", "why": "The league doubled from six teams to twelve for 1967–68; this belt starts with that season's first game."},
+                   {"season": 1942, "label": "since the Original Six era began", "why": "From 1942–43 the NHL was the six-team league fans remember; this belt starts with that season's opener."}],
 }

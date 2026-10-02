@@ -34,7 +34,7 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "8"
+STYLES_VERSION = "9"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -283,7 +283,7 @@ def alerts_block():
     <input id="alert-email" type="email" name="btr_email" placeholder="you@example.com" required>
     <button type="submit" class="mono">Sign me up</button>
   </form>
-  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS) · <a href="/all/belt.ics">every belt game on your calendar</a> (one subscription, all leagues and the college belts).</p>
+  <p class="mono note net-feed">Or follow every belt at once: <a href="/all/feed.xml">the belt network feed</a> (RSS) · <a href="/digest/">the weekly digest</a> · <a href="/all/belt.ics">every belt game on your calendar</a> (one subscription, all leagues and the college belts).</p>
 </section>"""
 
 
@@ -454,6 +454,12 @@ def network_stories():
     return network.network_stories()
 
 
+def cross_stories(datas):
+    """site_extras hook (6.3): the stories that span leagues, written to /stories/<slug>/."""
+    import network
+    return network.cross_stories(sys.modules[__name__], datas)
+
+
 def _network_widgets(datas):
     import network
     try:
@@ -557,7 +563,7 @@ def build_home(datas):
                 changes.append((r["start_date"], lg, r))
     changes.sort(key=lambda x: x[0], reverse=True)
     feed_rows = "".join(
-        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)} and took the belt{f' <a class="mono" href="{features.news_url(lg, r)}">Story →</a>' if r.get('opened_by') else ''}</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
+        f"""<li><span class="mono lg">{lg['name']}</span><i style="background:{lg['team_colors'](r['team'])[0]}"></i><div><b class="disp">{e(r['name'])}</b> beat {e(lg['team_name'](r['won_from'], r.get('season', int(r['start_date'][:4]))))} {won_score_text(r)} and took the belt{f' <a class="mono" href="{features.news_href(lg, datas[lg["key"]], r)}">Story →</a>' if "/news/" in features.news_href(lg, datas[lg["key"]], r) else ''}</div><span class="mono when">{d_short(r['start_date'], True)}</span></li>"""
         for _, lg, r in changes[:6])
 
     nfl = datas.get("nfl")
@@ -583,7 +589,7 @@ def build_home(datas):
   <div class="tiles">{"".join(tiles)}</div>
   {features.home_live_script([(lg, datas[lg["key"]]) for lg in LIVE])}
   {frozen_note(datas)}
-  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a></p>
+  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a> · <a href="/my-belts/">My belts →</a> · <a href="/digest/">This week's digest →</a></p>
   {more_leagues(datas)}
   {college_strip()}
 </section>
@@ -889,6 +895,103 @@ fetch('/'+lg+'/players/ids.json').then(function(r){return r.json();}).then(funct
 for(var i=0;i<cands.length;i++){var s=ids[cands[i]];if(s&&s!==slug){location.replace('/'+lg+'/players/'+s+'/'+location.hash);return;}}}).catch(function(){});})();</script>"""
 
 
+def build_my_belts(datas):
+    """/my-belts/ (feature 7.13, audit #2): pick a team in every pro league once; one page shows every belt
+    your teams hold or could win, the next shot and the odds, from each league's my-team/data.json."""
+    teams = {}
+    for lg in LIVE:
+        d = datas[lg["key"]]
+        recent = set((d.get("models") or {}).get("elo") or {})
+        teams[lg["key"]] = {"name": lg["name"], "sport": lg.get("sport", ""), "teams": {t: lg["team_name"](t) for t in sorted(recent, key=lambda t: lg["team_name"](t))}}
+    write("my-belts/teams.json", json.dumps(teams, separators=(",", ":")))
+    groups = []
+    for label, keys in [("The big four", PRIMARY)] + GROUPS:
+        sel = "".join(
+            f'<label><span class="mono">{e(next(l["name"] for l in LIVE if l["key"] == k))}</span><select data-lg="{k}"><option value="">—</option>'
+            + "".join(f'<option value="{t}">{e(nm)}</option>' for t, nm in teams[k]["teams"].items()) + "</select></label>"
+            for k in keys if k in teams)
+        if sel:
+            groups.append(f'<fieldset class="mb-group"><legend class="kicker">{e(label)}</legend>{sel}</fieldset>')
+    body = f"""<section class="wrap block">
+  <div class="head"><h1 class="disp">My belts</h1><span class="mono note">Pick once; this device remembers</span></div>
+  <p class="intro">Your teams across every pro belt on one page: who holds each belt, your next shot at it and the odds. College football and college basketball have their own: <a href="https://collegefootballbelt.com/my-team.html">CFB My Team</a>, <a href="https://collegebasketballbelt.com/my-team/">men's hoops</a>, <a href="https://collegebasketballbelt.com/women/my-team/">women's hoops</a>.</p>
+  <form class="mb-form mono" onsubmit="return false">{"".join(groups)}</form>
+  <div id="mbout" class="mb-out"></div>
+</section>
+<script>
+(function(){{
+var K='belt-mybelts',O=document.getElementById('mbout'),sels=document.querySelectorAll('select[data-lg]'),picks={{}},cache={{}};
+var MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fd(d){{var p=d.split('-');return MO[+p[1]-1]+' '+(+p[2])+', '+p[0];}}
+function pc(p){{return p==null?'—':(p>0&&p<.01?'<1%':Math.round(p*100)+'%');}}
+function days(d){{return Math.round((Date.now()-new Date(d+'T00:00:00'))/864e5);}}
+function ink(h){{var c=(h||'#333').replace('#','');if(c.length===3)c=c.replace(/(.)/g,'$1$1');var r=parseInt(c.slice(0,2),16)/255,g=parseInt(c.slice(2,4),16)/255,b=parseInt(c.slice(4,6),16)/255;function f(v){{return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);}}return (.2126*f(r)+.7152*f(g)+.0722*f(b))>.4?'#211a12':'#fff';}}
+try{{picks=JSON.parse(localStorage.getItem(K)||'{{}}')||{{}};}}catch(e){{picks={{}};}}
+sels.forEach(function(s){{if(picks[s.dataset.lg])s.value=picks[s.dataset.lg];s.onchange=function(){{if(s.value)picks[s.dataset.lg]=s.value;else delete picks[s.dataset.lg];try{{localStorage.setItem(K,JSON.stringify(picks));}}catch(e){{}}render();}};}});
+function load(lg){{if(cache[lg])return Promise.resolve(cache[lg]);return fetch('/'+lg+'/my-team/data.json').then(function(r){{return r.json();}}).then(function(j){{cache[lg]=j;return j;}});}}
+function render(){{
+ var keys=Object.keys(picks);if(!keys.length){{O.innerHTML='<p class="mono note">Pick a team or two above.</p>';return;}}
+ Promise.all(keys.map(load)).then(function(ds){{
+  var holding=[],rest=[];
+  keys.forEach(function(lg,i){{var x=ds[i][picks[lg]];if(!x)return;var name=document.querySelector('select[data-lg="'+lg+'"]').closest('label').querySelector('span').textContent;
+   var s=[];
+   if(x.holder)s.push('<b>Holds the belt</b>'+(x.last?' since '+fd(x.last[0]):'')+'.');
+   else if(x.meet)s.push('Next shot: '+fd(x.meet[0])+' '+(x.meet[1]===picks[lg]?'at home':'on the road')+', if nobody takes it first.');
+   else s.push('No game against the holder on the schedule yet.');
+   if(x.odds!=null)s.push('Chance to hold it when the season ends: '+pc(x.odds)+'.');
+   if(!x.holder&&x.last&&x.last[1])s.push(days(x.last[1]).toLocaleString()+' days since they last held it.');
+   if(!x.holder&&!x.last)s.push('Never held it.');
+   var card='<a class="tile small" href="/'+lg+'/" style="--top:'+x.color+';--bottom:'+x.color+';--ink:'+ink(x.color)+';--accent:'+ink(x.color)+'"><div class="tile-head"><span class="disp">'+name+'</span><span class="mono status"><i></i>'+(x.holder?'HOLDER':(x.meet?'NEXT SHOT '+x.meet[0].slice(5).replace('-','/'):'WAITING'))+'</span></div><div class="tile-body"><div class="disp name">'+x.name+'</div><p>'+s.join(' ')+'</p></div><div class="tile-foot"><span class="disp">'+x.reigns+' reign'+(x.reigns===1?'':'s')+' · '+x.days.toLocaleString()+' days held</span><span class="mono">→</span></div></a>';
+   (x.holder?holding:rest).push(card);}});
+  O.innerHTML='<div class="tiles small">'+holding.concat(rest).join('')+'</div>';
+ }}).catch(function(){{O.innerHTML='<p class="mono note">The belt data did not load; try again in a minute.</p>';}});
+}}
+render();
+}})();
+</script>"""
+    write("my-belts/index.html", page("My belts: your teams across every pro belt", body, path="/my-belts/", active="leagues",
+                                      description="Pick your team in every pro league once and see which belts they hold, their next shot at each belt and the odds, all on one page."))
+
+
+def build_ufwc_page(datas):
+    """/intl/ufwc/ (feature 7.4, audit #2): how the International belt relates to the Unofficial Football
+    World Championships and Nasazzi's Baton -- the established lineal titles people search for."""
+    lg = next((l for l in LIVE if l["key"] == "intl"), None)
+    d = datas.get("intl") if lg else None
+    if not d:
+        return
+    cur = d["current"]
+    nz = next((a for a in (d.get("models") or {}).get("alt_starts") or [] if a["key"] == "nasazzi"), None)
+    nz_html = ""
+    if nz:
+        nz_html = (f"<p>Nasazzi's Baton, named for Uruguay's 1930 captain José Nasazzi, runs the same idea from the first World Cup final: Uruguay 4–2 Argentina in Montevideo on July 30, 1930. "
+                   f"We run that line too, under our rules. It rejoined the main belt on {d_long(nz['rejoin'])}, {plural(len([x for x in nz['apart'] if x[2] < nz['rejoin']]), 'reign')} in, and has been the same belt ever since. "
+                   f'<a href="/intl/eras/nasazzi/">The Baton line, and the record book since 1930 →</a></p>' if nz.get("rejoin") else
+                   f'<p>Nasazzi\'s Baton runs the same idea from the first World Cup final in 1930. <a href="/intl/eras/nasazzi/">Our version of that line →</a></p>')
+    body = f"""{subnav(lg, "more")}
+<section class="wrap prose">
+<div class="kicker">The International belt · the UFWC</div>
+<h1 class="disp">The International belt and the Unofficial Football World Championships</h1>
+<p>The Unofficial Football World Championships (UFWC) is the best-known lineal title in football: a championship that passes from nation to nation on the pitch, traced back by Paul Brown and the <a href="https://www.ufwc.co.uk/">ufwc.co.uk</a> community. Our International belt follows the same idea, so it's worth saying plainly where the two agree and where they can part.</p>
+<h2 class="disp">Where they agree</h2>
+<ol>
+<li><b>The same first champion.</b> Both start with the first decisive international: England 4–2 Scotland at the Kennington Oval on March 8, 1873. The first international of all, Scotland 0–0 England in Glasgow in 1872, crowned nobody.</li>
+<li><b>Beat the holder, take the title.</b> The holder's next full international is a title match, whatever the competition: friendly, qualifier or tournament.</li>
+<li><b>Draws stay with the holder.</b> A drawn title match is a successful defense.</li>
+<li><b>Extra time and penalties count.</b> A knockout match is decided by its final outcome, so a shootout winner takes (or keeps) the title.</li>
+</ol>
+<h2 class="disp">Where they can differ</h2>
+<p>Which matches count. The UFWC follows the list of full international "A" matches as the governing bodies recognise them, and its keepers have had to rule on individual games over the years. Our belt is computed automatically, every few hours, from Mart Jürisoo's open dataset of international results, counting every match between national teams that have played World Cup qualifying. One disputed friendly in 150 years is enough to send the two titles down different roads for a while, and sometimes they are in different hands. Right now our belt says <b>{e(cur['name'])}</b>, holding since {d_long(cur['start_date'])} with {plural(cur.get('defenses', 0), 'defense')}; the UFWC's own site lists its current champion.</p>
+<p>Neither is "official". Both are the same question asked of the record: who last beat the team that last beat the team that last beat the first winners?</p>
+<h2 class="disp">Nasazzi's Baton</h2>
+{nz_html}
+<h2 class="disp">Follow the belt</h2>
+<p><a href="/intl/">The current holder and next defense</a> · <a href="/intl/history/">every reign since 1873</a> · <a href="/intl/droughts/">days since each nation last held it</a> · <a href="/intl/feed.xml">RSS</a> · <a href="/intl/belt.ics">calendar</a>.</p>
+</section>"""
+    write("intl/ufwc/index.html", page("The International belt vs. the Unofficial Football World Championships", body, path="/intl/ufwc/", active="intl",
+                                       description="How our International Football Belt relates to the Unofficial Football World Championships (UFWC) and Nasazzi's Baton: the same 1873 origin and rules, where the lines can differ, and who holds each today."))
+
+
 def build_network_news(datas, limit=60):
     """/news/: the newest title changes on every pro belt, as links to the dated articles (feature 7.2).
     The matching feed is /all/feed.xml, whose items now link to the articles."""
@@ -1094,6 +1197,46 @@ def build_api(datas):
             "next": features.next_payload(lg, d, SITE_URL),     # a superset of the old {date, opponent, home}
         }
     write("api/current.json", json.dumps(out, indent=1))
+    write("api/openapi.json", json.dumps(openapi_spec(), indent=1))      # feature 7.8 (audit #2)
+
+
+def openapi_spec():
+    """An OpenAPI 3.1 description of the belt network's read-only JSON API (every endpoint is a static
+    file regenerated by the builds), so the data shows up in API directories and dataset search."""
+    keys = [lg["key"] for lg in LIVE]
+    belt = {"type": "object", "properties": {
+        "name": {"type": "string"}, "holder": {"type": "string"}, "holder_short": {"type": "string"}, "since": {"type": "string", "format": "date"},
+        "defenses": {"type": "integer"}, "reign_no": {"type": "integer"}, "state": {"type": "string", "description": "in_season_next_game, offseason_schedule_pending, postseason_holder_out, ..."},
+        "data_ok": {"type": "boolean"}, "url": {"type": "string", "format": "uri"},
+        "next": {"type": ["object", "null"], "properties": {"date": {"type": "string", "format": "date"}, "time_et": {"type": ["string", "null"], "description": "HH:MM Eastern, null when not set"},
+                 "opponent": {"type": "string"}, "opponent_short": {"type": "string"}, "home": {"type": "boolean"}, "neutral": {"type": "boolean"},
+                 "venue": {"type": ["string", "null"]}, "city": {"type": ["string", "null"]}, "tv": {"type": ["string", "null"]}, "win_prob": {"type": ["number", "null"]}, "url": {"type": "string", "format": "uri"}}}}}
+    reign = {"type": "object", "properties": {"index": {"type": "integer"}, "team": {"type": "string"}, "name": {"type": "string"}, "reign_no": {"type": "integer"},
+             "start_date": {"type": "string", "format": "date"}, "end_date": {"type": ["string", "null"], "format": "date"}, "days": {"type": "integer"},
+             "defenses": {"type": "integer"}, "won_from": {"type": ["string", "null"]}, "won_from_name": {"type": ["string", "null"]}, "opened_by": {"type": ["integer", "null"], "description": "belt game number that opened the reign"}}}
+    game = {"type": "object", "properties": {"n": {"type": "integer"}, "date": {"type": "string", "format": "date"}, "season": {"type": "integer"}, "season_type": {"type": "string"},
+            "holder": {"type": ["string", "null"]}, "holder_name": {"type": ["string", "null"]}, "opponent": {"type": "string"}, "opponent_name": {"type": "string"},
+            "home": {"type": "string"}, "neutral": {"type": "boolean"}, "score": {"type": "string", "description": "home-away"}, "outcome": {"type": "string", "enum": ["established", "retained", "changed", "retained (tie)"]},
+            "new_holder": {"type": "string"}, "new_holder_name": {"type": "string"}, "ot": {"type": "boolean"}}}
+    paths = {
+        "/api/current.json": {"get": {"summary": "Every pro belt's holder and next defense", "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"type": "object", "properties": {
+            "site": {"type": "string"}, "generated": {"type": "string", "format": "date"}, "leagues": {"type": "object", "additionalProperties": belt}}}}}}}}},
+        "/api/network.json": {"get": {"summary": "Every belt on all three sites (pro, college football, men's and women's college basketball)", "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"type": "object", "properties": {
+            "generated": {"type": "string"}, "belts": {"type": "array", "items": {"allOf": [belt, {"type": "object", "properties": {"key": {"type": "string"}, "sport": {"type": "string"}, "site": {"type": "string"}, "short": {"type": "string"}, "colors": {"type": "array", "items": {"type": "string"}}, "badge": {"type": ["string", "null"]}, "feed": {"type": ["string", "null"]}, "ok": {"type": "boolean"}}}]}}}}}}}}}},
+        "/{league}/api/reigns.json": {"get": {"summary": "Every reign of one belt", "parameters": [{"name": "league", "in": "path", "required": True, "schema": {"type": "string", "enum": keys}}],
+                                       "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"type": "object", "properties": {"belt": {"type": "string"}, "generated_at": {"type": "string"}, "reigns": {"type": "array", "items": reign}}}}}}}}},
+        "/{league}/api/games.json": {"get": {"summary": "Every belt game of one belt", "parameters": [{"name": "league", "in": "path", "required": True, "schema": {"type": "string", "enum": keys}}],
+                                      "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"type": "object", "properties": {"belt": {"type": "string"}, "generated_at": {"type": "string"}, "belt_games": {"type": "array", "items": game}}}}}}}}},
+        "/{league}/data/reigns.csv": {"get": {"summary": "Every reign as CSV", "parameters": [{"name": "league", "in": "path", "required": True, "schema": {"type": "string", "enum": keys}}], "responses": {"200": {"description": "OK", "content": {"text/csv": {}}}}}},
+        "/{league}/data/belt-games.csv": {"get": {"summary": "Every belt game as CSV", "parameters": [{"name": "league", "in": "path", "required": True, "schema": {"type": "string", "enum": keys}}], "responses": {"200": {"description": "OK", "content": {"text/csv": {}}}}}},
+        "/all/feed.xml": {"get": {"summary": "RSS: every title change on every belt", "responses": {"200": {"description": "OK", "content": {"application/rss+xml": {}}}}}},
+        "/all/belt.ics": {"get": {"summary": "iCalendar: every upcoming belt game on every belt", "responses": {"200": {"description": "OK", "content": {"text/calendar": {}}}}}},
+    }
+    return {"openapi": "3.1.0",
+            "info": {"title": "Belt Holders API", "version": date.today().isoformat(), "summary": "Lineal championship belts for every league, as static JSON, CSV, RSS and iCalendar.",
+                     "description": "Read-only. Every file is regenerated by the site build every couple of hours; no keys, no rate limits beyond GitHub Pages' own. Data is CC BY 4.0: credit beltholders.com. The sister sites publish the same shapes at https://collegefootballbelt.com/api/current.json and https://collegebasketballbelt.com/api/current.json (women's belt under /women/api/).",
+                     "contact": {"name": OWNER, "url": SITE_URL + "/about/"}, "license": {"name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/"}},
+            "servers": [{"url": SITE_URL}], "paths": paths}
 
 
 def build_meta_files(datas):
@@ -1164,6 +1307,8 @@ def main():
     for lg in LIVE:
         build_teams(lg, datas[lg["key"]])      # after build_all: team pages list players from d["_players"] (audit #2, 6.2)
     build_network_news(datas)
+    build_ufwc_page(datas)
+    build_my_belts(datas)
     build_static_pages(datas)
     build_api(datas)
     import network                      # the belt network: api/network.json, network-bar.js, /all/, /today/
@@ -1176,6 +1321,7 @@ def main():
     build_meta_files(datas)
     network.build_network_feed(sys.modules[__name__], OUT)
     network.build_network_ics(sys.modules[__name__], datas, OUT)      # feature 7.11: /all/belt.ics
+    network.build_digest(sys.modules[__name__], datas, OUT)            # feature 7.10: /digest/ and digest/feed.xml
     build_sitemap(datas)
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))

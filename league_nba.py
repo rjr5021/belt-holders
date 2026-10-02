@@ -212,4 +212,6 @@ LEAGUE = {
     "team_name": team_name, "team_colors": team_colors, "short_name": short_name,
     "season_status": season_status, "season_label": season_label, "live": True,
     "rules_note": rules_note, "sources": SOURCES, "time_word": "Tip-off",
+    "alt_starts": [{"season": 1976, "label": "since the 1976 ABA merger", "why": "Four ABA teams joined for 1976–77; this belt starts with that season's first game."},
+                   {"season": 1949, "label": "since the NBA took its name", "why": "The BAA absorbed the NBL and became the NBA for 1949–50; this belt starts there instead of with the BAA's 1946 opener."}],
 }

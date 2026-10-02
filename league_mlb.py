@@ -208,4 +208,6 @@ LEAGUE = {
     "team_name": team_name, "team_colors": team_colors, "short_name": short_name,
     "season_status": season_status, "live": True,
     "rules_note": rules_note, "sources": SOURCES, "time_word": "First pitch",
+    "alt_starts": [{"season": 1969, "label": "since the 1969 divisional split", "why": "Both leagues split into divisions and added a playoff round in 1969; this belt starts with that season's first game."},
+                   {"season": 1901, "label": "since the American League arrived", "why": "The American League's first season as a major league, 1901; this belt skips the National League's 1876–1900 years."}],
 }
