@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-01-1-849844",
-  "date": "2026-10-01",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m144",
-  "away": "m143",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Truist Park",
-  "series": "NL Wild Card Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-03-1-849829",
   "date": "2026-10-03",
   "season": 2026,
@@ -126,20 +112,6 @@
   "if_necessary": false
  },
  {
-  "id": "2026-10-06-1-849826",
-  "date": "2026-10-06",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m135",
-  "away": "m158",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
-  "venue": "Petco Park",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-06-1-849819",
   "date": "2026-10-06",
   "season": 2026,
@@ -148,8 +120,22 @@
   "away": "m119",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "18:00",
   "venue": "NL Stadium",
+  "series": "NL Division Series",
+  "if_necessary": false
+ },
+ {
+  "id": "2026-10-06-1-849826",
+  "date": "2026-10-06",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m135",
+  "away": "m158",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "21:30",
+  "venue": "Petco Park",
   "series": "NL Division Series",
   "if_necessary": false
  },
@@ -162,10 +148,24 @@
   "away": "m114",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "16:00",
   "venue": "Rate Field",
   "series": "AL Division Series",
   "if_necessary": false
+ },
+ {
+  "id": "2026-10-07-1-849822",
+  "date": "2026-10-07",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m5532",
+  "away": "m119",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "18:00",
+  "venue": "NL Stadium",
+  "series": "NL Division Series",
+  "if_necessary": true
  },
  {
   "id": "2026-10-07-1-849838",
@@ -176,7 +176,7 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Yankee Stadium",
   "series": "AL Division Series",
   "if_necessary": false
@@ -190,22 +190,8 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "22:00",
   "venue": "Petco Park",
-  "series": "NL Division Series",
-  "if_necessary": true
- },
- {
-  "id": "2026-10-07-1-849822",
-  "date": "2026-10-07",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m5532",
-  "away": "m119",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
-  "venue": "NL Stadium",
   "series": "NL Division Series",
   "if_necessary": true
  },
@@ -218,7 +204,7 @@
   "away": "m114",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "17:00",
   "venue": "Rate Field",
   "series": "AL Division Series",
   "if_necessary": true
@@ -232,7 +218,7 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Yankee Stadium",
   "series": "AL Division Series",
   "if_necessary": true
@@ -246,7 +232,7 @@
   "away": "m135",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "16:30",
   "venue": "American Family Field",
   "series": "NL Division Series",
   "if_necessary": true
@@ -260,7 +246,7 @@
   "away": "m5532",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "UNIQLO Field at Dodger Stadium",
   "series": "NL Division Series",
   "if_necessary": true
@@ -274,7 +260,7 @@
   "away": "m145",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "17:00",
   "venue": "Progressive Field",
   "series": "AL Division Series",
   "if_necessary": true
@@ -288,7 +274,7 @@
   "away": "m147",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Tropicana Field",
   "series": "AL Division Series",
   "if_necessary": true
