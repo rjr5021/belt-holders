@@ -34,7 +34,7 @@ OUT = "site"
 OWNER = "R&O Holdings LLC"      # the company that owns and operates the site (formed 2026-09-29)
 ADSENSE_PUBLISHER_ID = ""        # "pub-3317069252410560" once beltholders.com is approved
 GOATCOUNTER_CODE = "beltholders"
-STYLES_VERSION = "10"
+STYLES_VERSION = "11"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -597,7 +597,7 @@ def build_home(datas):
   <div class="tiles">{"".join(tiles)}</div>
   {features.home_live_script([(lg, datas[lg["key"]]) for lg in LIVE])}
   {frozen_note(datas)}
-  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a> · <a href="/my-belts/">My belts →</a> · <a href="/digest/">This week's digest →</a></p>
+  <p class="mono more net-links"><a href="/all/">Every belt right now, college included →</a> · <a href="/today/">Belt games this week →</a> · <a href="/my-belts/">My belts →</a> · <a href="/digest/">This week's digest →</a> · <a href="/daily/">The Daily Belt →</a></p>
   {more_leagues(datas)}
   {college_strip()}
 </section>
@@ -1330,6 +1330,10 @@ def main():
     network.build_network_feed(sys.modules[__name__], OUT)
     network.build_network_ics(sys.modules[__name__], datas, OUT)      # feature 7.11: /all/belt.ics
     network.build_digest(sys.modules[__name__], datas, OUT)            # feature 7.10: /digest/ and digest/feed.xml
+    try:
+        network.build_network_daily(sys.modules[__name__], datas, OUT)  # feature 7.12: /daily/, five belts a day
+    except Exception as ex:  # noqa: BLE001 -- a puzzle must never break the deploy
+        print(f"network daily skipped: {ex}")
     build_sitemap(datas)
     copy_assets()
     n = sum(len(fs) for _, _, fs in os.walk(OUT))

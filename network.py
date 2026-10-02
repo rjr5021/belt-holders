@@ -771,3 +771,164 @@ def build_cities(S, datas, today=None):
     S.write("network/cities/index.html", S.page("Belt cities: where the pro belts live", body, path="/network/cities/", active="leagues",
                                                 description="Which cities hold the most lineal pro championship belts right now, and which have held them longest across the NFL, NBA, NHL, MLB and more."))
     return len(tot)
+
+
+# ------------------------------------------------ the Daily Belt, network edition (7.12) --
+
+DAILY_POOL = 60          # games per belt in the rotation (half title changes, half defenses)
+DAILY_ROUNDS = 5         # belts per day
+DAILY_EPOCH = "2026-10-02"   # puzzle #1
+
+
+def _daily_pool_pro(lg, d, rng):
+    """Pool rows for one pro belt: [date, holder, challenger, where (1 home/0 road/2 neutral), changed, score, url]."""
+    n = lg["team_name"]
+    rows = []
+    for bg in d["belt_games"]:
+        if not bg.get("holder") or bg["outcome"].endswith("(tie)") or "-" not in (bg.get("score") or ""):
+            continue
+        where = 2 if bg.get("neutral") else 1 if bg["home"] == bg["holder"] else 0
+        rows.append([bg["date"], n(bg["holder"], bg["season"]), n(bg["opponent"], bg["season"]), where,
+                     1 if bg["outcome"] == "changed" else 0, F._winner_score(bg), SITE + F.game_url(lg, bg)])
+    return _daily_sample(rows, rng)
+
+
+def _daily_sample(rows, rng):
+    ch = [r for r in rows if r[4]]
+    de = [r for r in rows if not r[4]]
+    half = DAILY_POOL // 2
+    out = rng.sample(ch, min(half, len(ch))) + rng.sample(de, min(DAILY_POOL - min(half, len(ch)), len(de)))
+    rng.shuffle(out)
+    return out
+
+
+def _daily_pool_college(key, rng):
+    """The college belts' belt-games CSVs (fetched at build time; skipped when unreachable)."""
+    import csv
+    import io
+    srcs = {"cfb": ("https://collegefootballbelt.com/data/belt_games.csv", "https://collegefootballbelt.com/games/{id}.html"),
+            "cbb": ("https://collegebasketballbelt.com/data/belt-games.csv", "https://collegebasketballbelt.com/seasons/{season}/"),
+            "wcbb": ("https://collegebasketballbelt.com/women/data/belt-games.csv", "https://collegebasketballbelt.com/women/seasons/{season}/")}
+    url, link = srcs[key]
+    txt = _fetch_text(url)
+    if not txt:
+        return []
+    rows = []
+    for r in csv.DictReader(io.StringIO(txt)):
+        try:
+            if key == "cfb":
+                if not r.get("holder"):
+                    continue
+                hp, ap = int(r["home_points"]), int(r["away_points"])
+                if hp == ap:
+                    continue
+                where = 2 if r.get("neutral_site") in ("1", "True", "true") else 1 if r["home"] == r["holder"] else 0
+                changed = 1 if (r.get("new_holder") and r["new_holder"] != r["holder"]) else 0
+                rows.append([r["date"], r["holder"], r["opponent"], where, changed, f"{max(hp, ap)}–{min(hp, ap)}", link.format(id=r["game_id"])])
+            else:
+                if not r.get("holder") or r["outcome"].endswith("(tie)"):
+                    continue
+                hp, ap = (int(x) for x in r["score_home_away"].split("-"))
+                where = 1 if r["home_team"] == r["holder"] else 0
+                rows.append([r["date"], r["holder"], r["opponent"], where, 1 if r["outcome"] == "changed" else 0,
+                             f"{max(hp, ap)}–{min(hp, ap)}", link.format(season=r["season"])])
+        except (KeyError, ValueError):
+            continue
+    return _daily_sample(rows, rng)
+
+
+def build_network_daily(S, datas, out="site"):
+    """/daily/: five real belt games a day from five different belts, the same five for everyone; call each
+    one (defend or dethrone), get a Wordle-style emoji grid to share, keep a streak. Pools are rebuilt on
+    every build from the lineages (and the college sites' CSVs), so the rotation follows the belts."""
+    import random
+    from leagues import LIVE
+    rng = random.Random("daily-belt-network")
+    e = S.e
+    belts_ = {}
+    for lg in LIVE:
+        d = datas.get(lg["key"])
+        if not d:
+            continue
+        pool = _daily_pool_pro(lg, d, rng)
+        if len(pool) >= 10:
+            belts_[lg["key"]] = {"name": lg["name"], "long": lg["long_name"], "unit": lg.get("unit_one", "team"),
+                                 "daily": f"{SITE}/{lg['key']}/daily/", "home": f"{SITE}/{lg['key']}/", "pool": pool}
+    for key, _sport, name, short, site, _api, _badge, _feed in COLLEGE:
+        pool = _daily_pool_college(key, rng)
+        if len(pool) >= 10:
+            belts_[key] = {"name": short, "long": name, "unit": "program", "daily": site + "daily.html" if key == "cfb" else site + "daily/",
+                           "home": site, "pool": pool}
+    S.write("daily/data.json", json.dumps({"epoch": DAILY_EPOCH, "rounds": DAILY_ROUNDS, "belts": belts_}, separators=(",", ":")))
+    nbelts = len(belts_)
+    games = sum(len(b["pool"]) for b in belts_.values())
+    chips = "".join(f'<a class="chip" href="{b["daily"]}">{e(b["name"])}</a>' for b in belts_.values())
+    body = f"""<section class="wrap block">
+  <div class="kicker">The Daily Belt · network edition</div>
+  <div class="head"><h1 class="disp">Five belts a day</h1><span class="mono note" id="dd"></span></div>
+  <p class="intro">Five real belt games from five different belts, the same five for everyone today. Each one shows the game as it stood beforehand: the holder put the belt on the line against a challenger. Call it: did they defend it, or did the challenger take it?</p>
+  <div id="dq" class="quiz"></div>
+  <div id="dres" class="dres" hidden>
+    <p class="big" id="dsum"></p>
+    <p class="grid mono" id="dgrid"></p>
+    <p class="mono note" id="dstats"></p>
+    <p class="mono more"><button class="mono" id="dshare" type="button">Share your grid</button> <button class="mono" id="dcard" type="button">Save a results card</button></p>
+    <canvas id="dcanvas" width="1200" height="630" hidden></canvas>
+  </div>
+  <p class="plain">How it works: {DAILY_ROUNDS} games a day, drawn from {games:,} belt games across {nbelts} belts, from the NFL to college football to the Premier League, in a rotation that is the same for everyone and changes at midnight. A green square is a right call, a red one is wrong; the grid is the thing to share. Your streak counts the days in a row you have played, and it stays on this device. Each belt also has its own daily game, one title change a day: {chips}</p>
+</section>
+<script>
+(function(){{
+var MO=['January','February','March','April','May','June','July','August','September','October','November','December'];
+function fd(d){{var p=d.split('-');return MO[+p[1]-1]+' '+(+p[2])+', '+p[0];}}
+var now=new Date(),td=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
+var day=Math.floor(Date.parse(td+'T12:00:00Z')/864e5),num=day-Math.floor(Date.parse('{DAILY_EPOCH}T12:00:00Z')/864e5)+1;
+document.getElementById('dd').textContent=fd(td)+' · #'+num;
+var K='belt-daily-net',st={{}};try{{st=JSON.parse(localStorage.getItem(K)||'{{}}');}}catch(e){{}}
+var Q=document.getElementById('dq'),R=document.getElementById('dres'),D=null,rounds=[],picks=[];
+function rnd(seed){{var x=seed%2147483647;if(x<=0)x+=2147483646;return function(){{x=x*16807%2147483647;return (x-1)/2147483646;}};}}
+function build(){{
+ var keys=Object.keys(D.belts).sort(),r=rnd(day*7919+13);
+ for(var i=keys.length-1;i>0;i--){{var j=Math.floor(r()*(i+1)),t=keys[i];keys[i]=keys[j];keys[j]=t;}}
+ keys.slice(0,D.rounds).forEach(function(k,i){{var b=D.belts[k],g=b.pool[Math.floor(r()*b.pool.length)];rounds.push({{key:k,b:b,g:g}});}});
+}}
+function render(){{
+ Q.innerHTML=rounds.map(function(x,i){{var g=x.g,b=x.b;
+  return '<div class="tqi" data-i="'+i+'"><p class="mono note">'+(i+1)+' of '+rounds.length+' · '+b.long+'</p><p class="big">'+fd(g[0])+'. <b>'+g[1]+'</b> put the belt on the line '+(g[3]===2?'on neutral ground against ':g[3]===1?'at home against ':'on the road at ')+'<b>'+g[2]+'</b>.</p><div class="opts"><button class="mono" data-v="0">'+g[1]+' defend it</button><button class="mono" data-v="1">'+g[2]+' take it</button></div><p class="reveal"></p></div>';}}).join('');
+ Q.querySelectorAll('.tqi').forEach(function(box){{var i=+box.dataset.i;box.querySelectorAll('button').forEach(function(btn){{btn.onclick=function(){{if(picks[i]!==undefined)return;answer(i,+btn.dataset.v);}};}});}});
+}}
+function answer(i,v){{
+ var x=rounds[i],g=x.g,ok=v===g[4];picks[i]=v;
+ var box=Q.querySelector('.tqi[data-i="'+i+'"]');
+ box.querySelectorAll('button').forEach(function(b){{b.disabled=true;if((+b.dataset.v)===g[4])b.className+=' right';else if((+b.dataset.v)===v)b.className+=' wrong';}});
+ box.querySelector('.reveal').innerHTML=(ok?'Right. ':'Not quite. ')+(g[4]?g[2]+' won '+g[5]+' and took the belt.':g[1]+' won '+g[5]+' and kept it.')+' <a href="'+g[6]+'">The game →</a>';
+ if(picks.filter(function(p){{return p!==undefined;}}).length===rounds.length)finish();
+}}
+function squares(){{return rounds.map(function(x,i){{return picks[i]===x.g[4]?'🟩':'🟥';}}).join('');}}
+function finish(){{
+ var right=rounds.filter(function(x,i){{return picks[i]===x.g[4];}}).length;
+ if(st.last!==td){{var y=new Date(Date.parse(td+'T12:00:00Z')-864e5).toISOString().slice(0,10);
+  st.streak=(st.last===y)?(st.streak||0)+1:1;st.played=(st.played||0)+1;st.right=(st.right||0)+right;st.best=Math.max(st.best||0,right);st.last=td;st.picks=picks.slice();
+  try{{localStorage.setItem(K,JSON.stringify(st));}}catch(e){{}}}}
+ document.getElementById('dsum').textContent='You got '+right+' of '+rounds.length+'.';
+ document.getElementById('dgrid').textContent=squares();
+ document.getElementById('dstats').textContent='Streak '+(st.streak||1)+' day'+((st.streak||1)===1?'':'s')+' · played '+(st.played||1)+' · best '+(st.best||right)+' of '+rounds.length;
+ R.hidden=false;
+}}
+function shareText(){{return 'The Daily Belt #'+num+' · '+rounds.filter(function(x,i){{return picks[i]===x.g[4];}}).length+'/'+rounds.length+'\\n'+squares()+'\\n'+rounds.map(function(x){{return x.b.name;}}).join(' · ')+'\\n{SITE}/daily/';}}
+document.getElementById('dshare').onclick=function(){{var t=shareText();if(navigator.share){{navigator.share({{text:t}}).catch(function(){{}});}}else if(navigator.clipboard){{navigator.clipboard.writeText(t).then(function(){{document.getElementById('dshare').textContent='Copied';}});}}}};
+document.getElementById('dcard').onclick=function(){{
+ var c=document.getElementById('dcanvas'),x=c.getContext('2d');x.fillStyle='#211a12';x.fillRect(0,0,1200,630);
+ x.fillStyle='#c9a24b';x.font='bold 34px "IBM Plex Mono",monospace';x.fillText('THE DAILY BELT  #'+num,80,110);
+ x.fillStyle='#efe8da';x.font='bold 96px "Big Shoulders Display",Impact,sans-serif';
+ var right=rounds.filter(function(r,i){{return picks[i]===r.g[4];}}).length;x.fillText(right+' OF '+rounds.length,80,230);
+ rounds.forEach(function(r,i){{x.fillStyle=picks[i]===r.g[4]?'#2f6b3a':'#8a2d22';x.fillRect(80+i*120,290,100,100);x.fillStyle='#efe8da';x.font='22px "IBM Plex Mono",monospace';x.fillText(r.b.name.slice(0,9),80+i*120,430);}});
+ x.fillStyle='#c9a24b';x.font='28px "IBM Plex Mono",monospace';x.fillText(fd(td)+'  ·  beltholders.com/daily',80,560);
+ var a=document.createElement('a');a.download='daily-belt-'+num+'.png';a.href=c.toDataURL('image/png');a.click();}};
+fetch('/daily/data.json').then(function(r){{return r.json();}}).then(function(j){{D=j;build();render();
+ if(st.last===td&&st.picks){{st.picks.forEach(function(v,i){{if(v!==undefined&&v!==null)answer(i,v);}});}}}});
+}})();
+</script>"""
+    S.write("daily/index.html", S.page("The Daily Belt: five belts a day, one puzzle for the whole network", body, path="/daily/", active="leagues",
+                                      description=f"The Daily Belt, network edition: five real belt games a day from {nbelts} belts (NFL to college football to the Premier League). Defend or dethrone? Share your grid, keep your streak."))
+    return nbelts
