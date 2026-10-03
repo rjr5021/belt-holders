@@ -299,16 +299,26 @@ def alerts_block(path="/"):
 </section>"""
 
 
+def push_enabled():
+    return bool(PICKS_API and PUSH_PUBLIC_KEY and "PLACEHOLDER" not in PICKS_API)
+
+
 def push_button(path="/"):
-    """7.14: a web-push subscribe button for the belt the page belongs to (or every belt), when the Worker is configured."""
-    if not (PICKS_API and PUSH_PUBLIC_KEY and "PLACEHOLDER" not in PICKS_API):
+    """7.14: a web-push subscribe button for the belt the page belongs to (or every belt), when the Worker is configured.
+    The code lives in one shared /push.js (B-1: inline it was 1.5 KB on each of 40,000 pages, 60 MB of the 1 GB Pages cap)."""
+    if not push_enabled():
         return ""
     seg = path.strip("/").split("/")[0] if path else ""
     lg = next((x for x in LIVE if x["key"] == seg), None)
     belt = f"bh:{lg['key']}" if lg else "all"
     label = f"Push alerts: the {lg['name']} belt" if lg else "Push alerts: every belt"
     return (f' <button type="button" class="mono pushbtn" id="pushbtn" data-belt="{belt}" data-label="{e(label)}" hidden>{e(label)}</button>'
-            f'<script>(function(){{var b=document.getElementById("pushbtn");if(!b||!("PushManager" in window)||!("serviceWorker" in navigator)||!("Notification" in window))return;'
+            '<script src="/push.js" defer></script>')
+
+
+def push_js():
+    """The subscribe/unsubscribe code behind push_button(), written once as /push.js (loaded deferred, so the button exists)."""
+    return ('(function(){var b=document.getElementById("pushbtn");if(!b||!("PushManager" in window)||!("serviceWorker" in navigator)||!("Notification" in window))return;'
             f'var API={json.dumps(PICKS_API)},PUB={json.dumps(PUSH_PUBLIC_KEY)},belt=b.dataset.belt,K="belt-push-"+belt;'
             'function u8(s){s=(s+"=".repeat((4-s.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/");var r=atob(s),a=new Uint8Array(r.length);for(var i=0;i<r.length;i++)a[i]=r.charCodeAt(i);return a;}'
             'function paint(on){b.textContent=on?b.dataset.label.replace("Push alerts:","Push alerts on:")+" ✓":b.dataset.label;b.dataset.on=on?"1":"";}'
@@ -316,7 +326,7 @@ def push_button(path="/"):
             'b.onclick=function(){navigator.serviceWorker.ready.then(function(reg){if(b.dataset.on){return reg.pushManager.getSubscription().then(function(sub){if(sub){fetch(API+"/unsubscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({belt:belt,endpoint:sub.endpoint})});}'
             'try{localStorage.removeItem(K);}catch(e){}paint(false);});}'
             'return Notification.requestPermission().then(function(p){if(p!=="granted")return;return reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:u8(PUB)}).then(function(sub){return fetch(API+"/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({belt:belt,sub:sub.toJSON()})}).then(function(r){if(r.ok){try{localStorage.setItem(K,"1");}catch(e){}paint(true);}});});});}).catch(function(){});};'
-            '})();</script>')
+            '})();\n')
 
 
 # ------------------------------------------------------------- pieces ----
@@ -1299,6 +1309,8 @@ def build_offline():
 def copy_assets():
     for f in ("sw.js",) + ("styles.css", "favicon.png", "favicon.ico", "apple-touch-icon.png", "icon-512.png", "og.png", "tablekit.js"):
         shutil.copy(f, os.path.join(OUT, f))
+    if push_enabled():
+        write("push.js", push_js())
     # N-6 (audit #2): the site serves its own fonts (the files the Instagram cards already use)
     os.makedirs(os.path.join(OUT, "fonts"), exist_ok=True)
     for f in os.listdir(os.path.join("ig_templates", "fonts")):

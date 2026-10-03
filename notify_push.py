@@ -7,6 +7,7 @@ Env: PICKS_API (the Worker's URL), NOTIFY_KEY (its secret). Both absent = nothin
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 from datetime import date
 
@@ -52,6 +53,9 @@ def main():
                 if r.get("queued"):
                     sent += 1
                     print(f"[{lg['key']}] {belt}: queued {r['queued']} ({title})")
+            except urllib.error.HTTPError as ex:   # the body says whether it was the Worker (JSON) or Cloudflare's edge (HTML)
+                detail = ex.read(300).decode("utf-8", "replace").strip().replace("\n", " ")
+                print(f"[{lg['key']}] {belt}: HTTP {ex.code}: {detail[:200]}")
             except Exception as ex:  # noqa: BLE001 -- never fail the deploy over a notification
                 print(f"[{lg['key']}] {belt}: {type(ex).__name__}: {ex}")
     print(f"notify_push: {sent} notifications queued")

@@ -741,6 +741,7 @@ NRL_NAMES = {"BRI": "Brisbane Broncos", "CBR": "Canberra Raiders", "CBY": "Cante
              "PEN": "Penrith Panthers", "SOU": "South Sydney Rabbitohs", "SGI": "St George Illawarra Dragons", "SYD": "Sydney Roosters",
              "WST": "Wests Tigers", "PER": "Perth Bears"}
 NRL = make("nrl", "NRL", "The NRL Belt", "Rugby league", 2017, teams=NRL_TEAMS, aliases=NRL_CODE, display=NRL_NAMES,
+           keep=lambda c, x: c in NRL_TEAMS,     # ESPN files State of Origin (Queensland v New South Wales) under the NRL; clubs only
            gap_days=330, label=lambda y: str(y), unit="teams", post_word="finals",
            rules=("<p><b>NRL.</b> The belt starts with round one of the 2017 season (as far back as ESPN's results go) and counts every regular-season and finals game, "
                   "the Grand Final included. A draw is a successful defense.</p>"),
