@@ -1,25 +1,5 @@
 [
  {
-  "id": "cfl-2026-10-02-SSK-CGY",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SSK",
-  "away": "CGY",
-  "neutral": "",
-  "start_et": null
- },
- {
-  "id": "cfl-2026-10-02-OTT-HAM",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "OTT",
-  "away": "HAM",
-  "neutral": "",
-  "start_et": null
- },
- {
   "id": "cfl-2026-10-03-TOR-BC",
   "date": "2026-10-03",
   "season": 2026,

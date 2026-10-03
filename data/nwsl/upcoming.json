@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854016",
-  "date": "2026-10-02",
-  "season_type": "regular",
-  "home": "Seattle Reign FC",
-  "away": "North Carolina Courage",
-  "home_id": "15363",
-  "away_id": "15366",
-  "home_abbr": "SEA",
-  "away_abbr": "NC",
-  "home_loc": "Seattle Reign FC",
-  "away_loc": "North Carolina Courage",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "22:00",
-  "season": 2026
- },
- {
   "id": "espn-401854017",
   "date": "2026-10-03",
   "season_type": "regular",

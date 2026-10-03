@@ -1,38 +1,5 @@
 [
  {
-  "id": "int-espn-401900602",
-  "date": "2026-10-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "El Salvador",
-  "away": "Jamaica",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401912238",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Sri Lanka",
-  "away": "Djibouti",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401927444",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Fiji",
-  "away": "Vanuatu",
-  "neutral": "",
-  "start_et": "00:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401861111",
   "date": "2026-10-03",
   "season": 2026,
@@ -814,6 +781,17 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401905332",
+  "date": "2026-10-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Colombia",
+  "away": "Peru",
+  "neutral": "",
+  "start_et": "19:45",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401905188",
   "date": "2026-10-06",
   "season": 2026,
@@ -833,17 +811,6 @@
   "away": "Chile",
   "neutral": "",
   "start_et": "22:30",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401905332",
-  "date": "2026-10-06",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Colombia",
-  "away": "Peru",
-  "neutral": "",
-  "start_et": "23:00",
   "tournament": "Friendly"
  }
 ]
