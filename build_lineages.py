@@ -29,6 +29,12 @@ def days_between(a, b):
 def build(league, refresh=True, today=None):
     today = today or date.today().isoformat()
     games, upcoming = league["load_games"](refresh=refresh)
+    if not games:
+        # A league with nothing on file yet (2026-10-03: NRL's games.csv came back empty from
+        # ESPN) is skipped, not fatal -- one empty league used to stop every other belt's
+        # build, the deploy and the box-score jobs. Its old lineage.json, if any, stays.
+        print(f"[{league['key']}] no games on file -- skipped this run")
+        return None
     first_date = games[0]["date"]
     belt_games, reigns, vacancies = belt_engine.resolve_vacancies(
         games, league["tie_rule"], None, None, league["recent_teams"](games), today,
