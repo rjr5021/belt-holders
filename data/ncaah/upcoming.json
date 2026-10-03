@@ -315,6 +315,27 @@
   "away_name": "Boston University"
  },
  {
+  "id": "espn-401904641",
+  "date": "2026-10-04",
+  "season_type": "regular",
+  "home": "MTU",
+  "away": "MINN",
+  "home_id": "2392",
+  "away_id": "135",
+  "home_abbr": "MTU",
+  "away_abbr": "MINN",
+  "home_loc": "Michigan Tech",
+  "away_loc": "Minnesota",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2027,
+  "stype": 2,
+  "start_et": "15:07",
+  "season": 2026,
+  "home_name": "Michigan Tech",
+  "away_name": "Minnesota"
+ },
+ {
   "id": "espn-401904458",
   "date": "2026-10-08",
   "season_type": "regular",
@@ -1863,7 +1884,7 @@
   "source": "espn",
   "season_year": 2027,
   "stype": 2,
-  "start_et": "18:00",
+  "start_et": "17:30",
   "season": 2026,
   "home_name": "Massachusetts",
   "away_name": "Northeastern"
