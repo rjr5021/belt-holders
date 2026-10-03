@@ -1275,8 +1275,8 @@ ESPN_SIMPLE = {
     "ligamx": ("soccer/mex.1", date(2013, 7, 1), _season_split(7), (6,), "name"),
     "ufl": ("football/ufl", date(2024, 3, 1), lambda d: d.year, (7, 8, 9, 10, 11, 12, 1, 2), "name"),
     "ncaah": ("hockey/mens-college-hockey", date(2013, 10, 1), _season_split(8), (5, 6, 7, 8, 9), "abbr"),
-    "afl": ("australian-football/afl", date(2014, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),
-    "nrl": ("rugby-league/nrl", date(2014, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),
+    "afl": ("australian-football/afl", date(2017, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),
+    "nrl": ("rugby-league/3", date(2017, 3, 1), lambda d: d.year, (11, 12, 1, 2), "name"),     # ESPN's NRL is league id 3
 }
 
 

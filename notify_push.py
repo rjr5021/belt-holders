@@ -8,6 +8,7 @@ import json
 import os
 import sys
 import urllib.request
+from datetime import date
 
 from leagues import LIVE
 
@@ -37,6 +38,8 @@ def main():
         cur = d.get("current") or {}
         if not cur.get("team") or not cur.get("start_date"):
             continue
+        if (date.today() - date.fromisoformat(cur["start_date"])).days > 3:
+            continue        # old news: only a reign that started in the last three days is announced
         name = cur.get("name") or lg["team_name"](cur["team"], cur.get("season"))
         reign = f"{cur.get('index', '')}-{cur['start_date']}"
         won = f" Beat {lg['team_name'](cur['won_from'], cur.get('season'))} {cur.get('won_score', '').replace('-', '–')}." if cur.get("won_from") else ""

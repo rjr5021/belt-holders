@@ -649,36 +649,53 @@ UFL = make("ufl", "UFL", "The UFL Belt", "American football", 2024, teams=UFL_TE
            sources="UFL results and upcoming games come from ESPN's public scoreboard.")
 
 # -------------------------------------------------- NCAA men's hockey
-NCAAH_COLORS = {"BC": ("#8a100b", "#b29d6c", "Boston College"), "BU": ("#cc0000", "#ffffff", "Boston U"), "MICH": ("#00274c", "#ffcb05", "Michigan"),
-                "MINN": ("#7a0019", "#ffcc33", "Minnesota"), "UND": ("#009a44", "#111111", "North Dakota"), "DEN": ("#8b2332", "#8b6f4e", "Denver"),
-                "WIS": ("#c5050c", "#ffffff", "Wisconsin"), "MSU": ("#18453b", "#ffffff", "Michigan State"), "MAINE": ("#003263", "#b0d7ff", "Maine"),
-                "QUIN": ("#003865", "#f2a900", "Quinnipiac"), "UMD": ("#7a0019", "#ffcc33", "Minnesota Duluth"), "PROV": ("#111111", "#8a8d8f", "Providence"),
-                "UNION": ("#862633", "#ffffff", "Union"), "YALE": ("#00356b", "#ffffff", "Yale"), "COR": ("#b31b1b", "#ffffff", "Cornell"),
-                "HARV": ("#a51c30", "#ffffff", "Harvard"), "ND": ("#0c2340", "#c99700", "Notre Dame"), "OSU": ("#bb0000", "#666666", "Ohio State"),
-                "PSU": ("#041e42", "#ffffff", "Penn State"), "WMU": ("#532e1f", "#f1c500", "Western Michigan"), "MASS": ("#881c1c", "#ffffff", "UMass"),
-                "NE": ("#c8102e", "#111111", "Northeastern"), "SCSU": ("#bf0a30", "#111111", "St. Cloud State"), "CC": ("#111111", "#c6a964", "Colorado College"),
-                "OMA": ("#d71920", "#111111", "Omaha"), "MSUM": ("#5d2b8a", "#ffc72c", "Minnesota State"), "UNH": ("#041e42", "#ffffff", "New Hampshire"),
-                "UVM": ("#154734", "#ffd100", "Vermont"), "CLAR": ("#004a2f", "#ffd100", "Clarkson"), "UCONN": ("#000e2f", "#ffffff", "UConn"),
-                "ARST": ("#0c2340", "#ac1a2f", "Arizona State"), "LSSU": ("#003c71", "#ffffff", "Lake Superior"), "MIA": ("#b61e2e", "#ffffff", "Miami (OH)"),
-                "DART": ("#00693e", "#ffffff", "Dartmouth"), "PRIN": ("#e77500", "#111111", "Princeton"), "RPI": ("#d6001c", "#ffffff", "RPI"),
-                "MERC": ("#002f6c", "#f2a900", "Merrimack"), "UML": ("#0067b1", "#c8102e", "UMass Lowell"), "BGSU": ("#4f2c1d", "#ff7300", "Bowling Green"),
-                "MTU": ("#ffcd00", "#111111", "Michigan Tech"), "NMU": ("#0d5e2e", "#ffcd00", "Northern Michigan"), "FSU": ("#b6151b", "#ffcd00", "Ferris State"),
-                "AFA": ("#003087", "#8a8d8f", "Air Force"), "ARMY": ("#111111", "#d4bf91", "Army"), "BEMI": ("#00573e", "#ffffff", "Bemidji State"),
-                "SHU": ("#c8102e", "#111111", "Sacred Heart"), "HC": ("#602d89", "#ffffff", "Holy Cross"), "LIU": ("#0033a0", "#8ab8e6", "LIU"),
-                "AIC": ("#ffcd00", "#111111", "AIC"), "RIT": ("#f76902", "#111111", "RIT"), "CAN": ("#003da5", "#ffd100", "Canisius"),
-                "NIAG": ("#582c83", "#ffffff", "Niagara"), "MERH": ("#00a3e0", "#0b2a5b", "Mercyhurst"), "ALSK": ("#236192", "#ffcd00", "Alaska"),
-                "AKA": ("#00583d", "#ffcd00", "Alaska Anchorage"), "AUG": ("#002147", "#ffcd00", "Augustana"), "LIND": ("#862633", "#ffffff", "Lindenwood"),
-                "STON": ("#bb0000", "#ffffff", "Stonehill"), "CSU": ("#00843d", "#ffffff", "Colgate"), "BROWN": ("#4e3629", "#c8102e", "Brown"),
-                "SLU": ("#a60f2b", "#ffffff", "St. Lawrence"), "UAH": ("#0033a0", "#ffffff", "Alabama Huntsville"), "ROB": ("#14234b", "#a6192e", "Robert Morris"),
-                "MINST": ("#5d2b8a", "#ffc72c", "Minnesota State"), "BSU": ("#00573e", "#ffffff", "Bemidji State"), "STHOM": ("#512d6d", "#9e9e9e", "St. Thomas")}
+NCAAH_COLORS = {   # keyed by ESPN's abbreviations (the codes in games.csv)
+    "BC": ("#8a100b", "#b29d6c", "Boston College"), "BU": ("#cc0000", "#ffffff", "Boston U"), "MICH": ("#00274c", "#ffcb05", "Michigan"),
+    "MINN": ("#7a0019", "#ffcc33", "Minnesota"), "UND": ("#009a44", "#111111", "North Dakota"), "DEN": ("#8b2332", "#8b6f4e", "Denver"),
+    "WISC": ("#c5050c", "#ffffff", "Wisconsin"), "MSU": ("#18453b", "#ffffff", "Michigan State"), "ME": ("#003263", "#b0d7ff", "Maine"),
+    "QUIN": ("#003865", "#f2a900", "Quinnipiac"), "UMD": ("#7a0019", "#ffcc33", "Minnesota Duluth"), "PROV": ("#111111", "#8a8d8f", "Providence"),
+    "UNNY": ("#862633", "#ffffff", "Union"), "YALE": ("#00356b", "#ffffff", "Yale"), "COR": ("#b31b1b", "#ffffff", "Cornell"),
+    "HARV": ("#a51c30", "#ffffff", "Harvard"), "ND": ("#0c2340", "#c99700", "Notre Dame"), "OSU": ("#bb0000", "#666666", "Ohio State"),
+    "PSU": ("#041e42", "#ffffff", "Penn State"), "WMU": ("#532e1f", "#f1c500", "Western Michigan"), "MASS": ("#881c1c", "#ffffff", "UMass"),
+    "NE": ("#c8102e", "#111111", "Northeastern"), "SCSU": ("#bf0a30", "#111111", "St. Cloud State"), "COLC": ("#111111", "#c6a964", "Colorado College"),
+    "OMA": ("#d71920", "#111111", "Omaha"), "MNST": ("#5d2b8a", "#ffc72c", "Minnesota State"), "UNH": ("#041e42", "#ffffff", "New Hampshire"),
+    "UVM": ("#154734", "#ffd100", "Vermont"), "CLAR": ("#004a2f", "#ffd100", "Clarkson"), "CONN": ("#000e2f", "#ffffff", "UConn"),
+    "ASU": ("#0c2340", "#ac1a2f", "Arizona State"), "LSS": ("#003c71", "#ffffff", "Lake Superior"), "M-OH": ("#b61e2e", "#ffffff", "Miami (OH)"),
+    "DART": ("#00693e", "#ffffff", "Dartmouth"), "PRIN": ("#e77500", "#111111", "Princeton"), "RPI": ("#d6001c", "#ffffff", "RPI"),
+    "MRMK": ("#002f6c", "#f2a900", "Merrimack"), "UML": ("#0067b1", "#c8102e", "UMass Lowell"), "BGSU": ("#4f2c1d", "#ff7300", "Bowling Green"),
+    "MTU": ("#ffcd00", "#111111", "Michigan Tech"), "NMI": ("#0d5e2e", "#ffcd00", "Northern Michigan"), "FRST": ("#b6151b", "#ffcd00", "Ferris State"),
+    "AFA": ("#003087", "#8a8d8f", "Air Force"), "ARMY": ("#111111", "#d4bf91", "Army"), "BST": ("#00573e", "#ffffff", "Bemidji State"),
+    "SHU": ("#c8102e", "#111111", "Sacred Heart"), "HC": ("#602d89", "#ffffff", "Holy Cross"), "LIU": ("#0033a0", "#8ab8e6", "LIU"),
+    "AIC": ("#ffcd00", "#111111", "AIC"), "RIT": ("#f76902", "#111111", "RIT"), "CAN": ("#003da5", "#ffd100", "Canisius"),
+    "NIA": ("#582c83", "#ffffff", "Niagara"), "MERC": ("#00a3e0", "#0b2a5b", "Mercyhurst"), "AKFB": ("#236192", "#ffcd00", "Alaska"),
+    "UAA": ("#00583d", "#ffcd00", "Alaska Anchorage"), "AUSD": ("#002147", "#ffcd00", "Augustana"), "LIN": ("#862633", "#ffffff", "Lindenwood"),
+    "STONEHILL": ("#bb0000", "#ffffff", "Stonehill"), "COLG": ("#821019", "#ffffff", "Colgate"), "BRWN": ("#4e3629", "#c8102e", "Brown"),
+    "USL": ("#a60f2b", "#ffffff", "St. Lawrence"), "AH": ("#0033a0", "#ffffff", "Alabama Huntsville"), "RMU": ("#14234b", "#a6192e", "Robert Morris"),
+    "STMN": ("#512d6d", "#9e9e9e", "St. Thomas"), "BENT": ("#003da5", "#ffffff", "Bentley")}
+NCAAH_NAMES = {"RIT": "RIT", "UML": "UMass Lowell", "LIU": "LIU", "STMN": "St. Thomas", "AUSD": "Augustana", "AKFB": "Alaska", "AH": "Alabama Huntsville"}
+_NCAAH_GAMES = {}
+
+
+def _ncaah_keep(c, x):
+    """Division I only, by the only signal the scoreboard gives: a D-I program plays 25+ games a season, while the
+    D-III schools that appear (early-season exhibitions) show up once or twice. Counted once from games.csv."""
+    if not _NCAAH_GAMES:
+        import csv as _csv
+        p = os.path.join("data", "ncaah", "games.csv")
+        if os.path.exists(p):
+            with open(p, newline="", encoding="utf-8") as f:
+                for r in _csv.DictReader(f):
+                    for side in ("home", "away"):
+                        _NCAAH_GAMES[r[side]] = _NCAAH_GAMES.get(r[side], 0) + 1
+    return _NCAAH_GAMES.get(c, 0) >= 20
 
 
 def _ncaah_colors(c):
     return NCAAH_COLORS.get(c)
 
 
-NCAAH = make("ncaah", "NCAA Hockey", "The College Hockey Belt", "Ice hockey", 2013, teams=_ncaah_colors, gap_days=200,
-             time_word="Puck drop", unit="programs", post_word="NCAA tournament",
+NCAAH = make("ncaah", "NCAA Hockey", "The College Hockey Belt", "Ice hockey", 2013, teams=_ncaah_colors, display=NCAAH_NAMES,
+             keep=_ncaah_keep, gap_days=330, time_word="Puck drop", unit="programs", post_word="NCAA tournament",
              rules=("<p><b>College hockey.</b> The belt starts with the 2013–14 season opener and counts every Division I men's game "
                     "ESPN lists: non-conference, conference, conference tournaments and the NCAA tournament through the Frozen Four. "
                     "A tie is a successful defense; a game decided in overtime or a shootout goes to the winner on the scoreboard.</p>"),
@@ -700,9 +717,9 @@ AFL_NAMES = {"ADE": "Adelaide Crows", "BL": "Brisbane Lions", "CAR": "Carlton", 
              "FRE": "Fremantle", "GEE": "Geelong", "GC": "Gold Coast Suns", "GWS": "GWS Giants", "HAW": "Hawthorn", "MEL": "Melbourne",
              "NM": "North Melbourne", "PA": "Port Adelaide", "RIC": "Richmond", "STK": "St Kilda", "SYD": "Sydney Swans",
              "WCE": "West Coast Eagles", "WB": "Western Bulldogs"}
-AFL = make("afl", "AFL", "The AFL Belt", "Australian rules football", 2014, teams=AFL_TEAMS, aliases=AFL_CODE, display=AFL_NAMES,
+AFL = make("afl", "AFL", "The AFL Belt", "Australian rules football", 2017, teams=AFL_TEAMS, aliases=AFL_CODE, display=AFL_NAMES,
            gap_days=330, label=lambda y: str(y), time_word="First bounce", post_word="finals",
-           rules=("<p><b>AFL.</b> The belt starts with round one of the 2014 season and counts every home-and-away and finals game, "
+           rules=("<p><b>AFL.</b> The belt starts with round one of the 2017 season (as far back as ESPN's results go) and counts every home-and-away and finals game, "
                   "the Grand Final included. A draw is a successful defense.</p>"),
            sources="AFL results and upcoming games come from ESPN's public scoreboard.")
 
@@ -723,8 +740,8 @@ NRL_NAMES = {"BRI": "Brisbane Broncos", "CBR": "Canberra Raiders", "CBY": "Cante
              "NEW": "Newcastle Knights", "NZW": "New Zealand Warriors", "NQL": "North Queensland Cowboys", "PAR": "Parramatta Eels",
              "PEN": "Penrith Panthers", "SOU": "South Sydney Rabbitohs", "SGI": "St George Illawarra Dragons", "SYD": "Sydney Roosters",
              "WST": "Wests Tigers", "PER": "Perth Bears"}
-NRL = make("nrl", "NRL", "The NRL Belt", "Rugby league", 2014, teams=NRL_TEAMS, aliases=NRL_CODE, display=NRL_NAMES,
+NRL = make("nrl", "NRL", "The NRL Belt", "Rugby league", 2017, teams=NRL_TEAMS, aliases=NRL_CODE, display=NRL_NAMES,
            gap_days=330, label=lambda y: str(y), unit="teams", post_word="finals",
-           rules=("<p><b>NRL.</b> The belt starts with round one of the 2014 season and counts every regular-season and finals game, "
+           rules=("<p><b>NRL.</b> The belt starts with round one of the 2017 season (as far back as ESPN's results go) and counts every regular-season and finals game, "
                   "the Grand Final included. A draw is a successful defense.</p>"),
            sources="NRL results and upcoming games come from ESPN's public scoreboard.")
