@@ -1,0 +1,25 @@
+{
+ "key": "SYD|NEW|2026-10-04",
+ "updated": "2026-10-03T19:20Z",
+ "start_utc": "2026-10-04T08:30Z",
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "The Sydney Roosters put their Belt Holders championship on the line for the first time in this reign when they host the Newcastle Knights on October 4th, 2026. The Roosters claimed the belt in their most recent victory and now face a Knights side riding a three-game winning streak. This marks the first time these two sides have ever met with the lineal championship at stake.",
+  "key_matchups": [
+   "Sydney Roosters' recent defensive improvement after conceding 50 to South Sydney versus Newcastle's three-game winning run",
+   "The Roosters' 14-2 all-time head-to-head dominance, including five straight wins in their last five meetings",
+   "Newcastle's road form during their streak (wins at Penrith, New Zealand, and South Sydney) against a Roosters side defending the belt for the first time"
+  ],
+  "betting_angles": "The Roosters hold a commanding 14-2 all-time edge over Newcastle and have won all five recent meetings, though four of those were decided by six points or fewer. Newcastle arrives with momentum from three straight wins including an impressive 22-14 victory at Penrith, while Sydney has won their last two after dropping three in a row. The Elo model favors the Roosters as clear favorites at home with their 18-9 record edging Newcastle's 16-10 mark.",
+  "predicted_winner": "Sydney Roosters",
+  "predicted_score": "Sydney Roosters 28, Newcastle Knights 18",
+  "prediction_writeup": "The Roosters' historical dominance over Newcastle is overwhelming at 14-2, and they've won all five recent encounters including a 23-22 thriller earlier this season. While the Knights bring a three-game winning streak into this contest, Sydney has found form with back-to-back wins including an impressive 36-20 result at the Dolphins. The Roosters' superior season record of 18-9 and home advantage should prove decisive in their first belt defense. Newcastle has held the belt twice before but faces a daunting challenge against a team that owns them historically and is backed by a clear Elo advantage.",
+  "written": "2026-10-03",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
+}
