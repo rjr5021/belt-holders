@@ -1,1 +1,23 @@
-[]
+[
+ {
+  "id": "espn-604845",
+  "date": "2026-10-04",
+  "season_type": "regular",
+  "home": "Roosters",
+  "away": "Knights",
+  "home_id": "289204",
+  "away_id": "289207",
+  "home_abbr": "SYD",
+  "away_abbr": "NEW",
+  "home_loc": null,
+  "away_loc": null,
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 2,
+  "start_et": "04:30",
+  "season": 2026,
+  "home_name": "Roosters",
+  "away_name": "Knights"
+ }
+]

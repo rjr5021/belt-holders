@@ -1,1 +1,2043 @@
 id,date,season,season_type,home,away,home_points,away_points,neutral,note,source,home_name,away_name,home_abbr,away_abbr
+espn-290924,2017-03-02,2017,regular,Sharks,Broncos,18,26,,,espn,Sharks,Broncos,CRO,BRI
+espn-290925,2017-03-03,2017,regular,Bulldogs,Storm,6,12,,,espn,Bulldogs,Storm,CAN,MEL
+espn-290926,2017-03-03,2017,regular,Rabbitohs,Wests Tigers,18,34,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-290927,2017-03-04,2017,regular,Dragons,Panthers,42,10,,,espn,Dragons,Panthers,ST.,PEN
+espn-290928,2017-03-04,2017,regular,Cowboys,Raiders,20,16,,,espn,Cowboys,Raiders,NOR,CAN
+espn-290929,2017-03-04,2017,regular,Titans,Roosters,18,32,,,espn,Titans,Roosters,GOL,SYD
+espn-290930,2017-03-04,2017,regular,Warriors,Knights,26,22,,,espn,Warriors,Knights,NEW,NEW
+espn-290931,2017-03-05,2017,regular,Sea Eagles,Eels,12,20,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-290932,2017-03-09,2017,regular,Roosters,Bulldogs,28,24,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-290933,2017-03-10,2017,regular,Warriors,Storm,10,26,,,espn,Warriors,Storm,NEW,MEL
+espn-290934,2017-03-10,2017,regular,Broncos,Cowboys,20,21,,,espn,Broncos,Cowboys,BRI,NOR
+espn-290935,2017-03-10,2017,regular,Knights,Titans,34,26,,,espn,Knights,Titans,NEW,GOL
+espn-290936,2017-03-11,2017,regular,Sea Eagles,Rabbitohs,18,38,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-290937,2017-03-11,2017,regular,Raiders,Sharks,16,42,,,espn,Raiders,Sharks,CAN,CRO
+espn-290938,2017-03-12,2017,regular,Wests Tigers,Panthers,2,36,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-290939,2017-03-12,2017,regular,Dragons,Eels,16,34,,,espn,Dragons,Eels,ST.,PAR
+espn-290940,2017-03-16,2017,regular,Storm,Broncos,14,12,,,espn,Storm,Broncos,MEL,BRI
+espn-290941,2017-03-17,2017,regular,Bulldogs,Warriors,24,12,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-290942,2017-03-17,2017,regular,Titans,Eels,26,14,,,espn,Titans,Eels,GOL,PAR
+espn-290943,2017-03-18,2017,regular,Knights,Rabbitohs,18,24,,,espn,Knights,Rabbitohs,NEW,SOU
+espn-290944,2017-03-18,2017,regular,Panthers,Roosters,12,14,,,espn,Panthers,Roosters,PEN,SYD
+espn-290945,2017-03-18,2017,regular,Cowboys,Sea Eagles,8,30,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-290946,2017-03-19,2017,regular,Raiders,Wests Tigers,46,6,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-290947,2017-03-19,2017,regular,Sharks,Dragons,10,16,,,espn,Sharks,Dragons,CRO,ST.
+espn-290948,2017-03-23,2017,regular,Rabbitohs,Roosters,6,20,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-290949,2017-03-24,2017,regular,Panthers,Knights,40,0,,,espn,Panthers,Knights,PEN,NEW
+espn-290950,2017-03-24,2017,regular,Broncos,Raiders,13,12,,,espn,Broncos,Raiders,BRI,CAN
+espn-290951,2017-03-25,2017,regular,Sea Eagles,Bulldogs,36,0,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-290952,2017-03-25,2017,regular,Eels,Sharks,6,20,,,espn,Eels,Sharks,PAR,CRO
+espn-290953,2017-03-25,2017,regular,Titans,Cowboys,26,32,,,espn,Titans,Cowboys,GOL,NOR
+espn-290954,2017-03-26,2017,regular,Wests Tigers,Storm,14,22,,,espn,Wests Tigers,Storm,WES,MEL
+espn-290955,2017-03-26,2017,regular,Dragons,Warriors,26,12,,,espn,Dragons,Warriors,ST.,NEW
+espn-290957,2017-03-30,2017,regular,Bulldogs,Broncos,10,7,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-290958,2017-03-31,2017,regular,Roosters,Sea Eagles,12,18,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-290959,2017-03-31,2017,regular,Cowboys,Rabbitohs,20,6,,,espn,Cowboys,Rabbitohs,NOR,SOU
+espn-290960,2017-04-01,2017,regular,Sharks,Knights,19,18,,,espn,Sharks,Knights,CRO,NEW
+espn-290961,2017-04-01,2017,regular,Raiders,Eels,30,18,,,espn,Raiders,Eels,CAN,PAR
+espn-290962,2017-04-01,2017,regular,Storm,Panthers,28,6,,,espn,Storm,Panthers,MEL,PEN
+espn-290963,2017-04-02,2017,regular,Warriors,Titans,28,22,,,espn,Warriors,Titans,NEW,GOL
+espn-290964,2017-04-02,2017,regular,Wests Tigers,Dragons,6,28,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-290965,2017-04-06,2017,regular,Broncos,Roosters,32,8,,,espn,Broncos,Roosters,BRI,SYD
+espn-290966,2017-04-07,2017,regular,Knights,Bulldogs,12,22,,,espn,Knights,Bulldogs,NEW,CAN
+espn-290967,2017-04-07,2017,regular,Panthers,Rabbitohs,20,21,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-290968,2017-04-08,2017,regular,Sea Eagles,Dragons,10,35,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-290969,2017-04-08,2017,regular,Titans,Raiders,16,42,,,espn,Titans,Raiders,GOL,CAN
+espn-290970,2017-04-08,2017,regular,Cowboys,Wests Tigers,16,26,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-290971,2017-04-09,2017,regular,Warriors,Eels,22,10,,,espn,Warriors,Eels,NEW,PAR
+espn-290972,2017-04-09,2017,regular,Storm,Sharks,2,11,,,espn,Storm,Sharks,MEL,CRO
+espn-290973,2017-04-14,2017,regular,Bulldogs,Rabbitohs,24,9,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-290974,2017-04-14,2017,regular,Knights,Roosters,6,24,,,espn,Knights,Roosters,NEW,SYD
+espn-290975,2017-04-14,2017,regular,Broncos,Titans,24,22,,,espn,Broncos,Titans,BRI,GOL
+espn-290976,2017-04-15,2017,regular,Sea Eagles,Storm,26,30,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-290977,2017-04-15,2017,regular,Raiders,Warriors,20,8,,,espn,Raiders,Warriors,CAN,NEW
+espn-290978,2017-04-15,2017,regular,Dragons,Cowboys,28,22,,,espn,Dragons,Cowboys,ST.,NOR
+espn-290979,2017-04-16,2017,regular,Panthers,Sharks,2,28,,,espn,Panthers,Sharks,PEN,CRO
+espn-290980,2017-04-17,2017,regular,Eels,Wests Tigers,26,22,,,espn,Eels,Wests Tigers,PAR,WES
+espn-290981,2017-04-21,2017,regular,Raiders,Sea Eagles,18,20,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-290982,2017-04-21,2017,regular,Rabbitohs,Broncos,24,25,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-290984,2017-04-22,2017,regular,Eels,Panthers,18,12,,,espn,Eels,Panthers,PAR,PEN
+espn-290985,2017-04-22,2017,regular,Cowboys,Knights,24,12,,,espn,Cowboys,Knights,NOR,NEW
+espn-290986,2017-04-22,2017,regular,Sharks,Titans,12,16,,,espn,Sharks,Titans,CRO,GOL
+espn-290987,2017-04-23,2017,regular,Wests Tigers,Bulldogs,18,12,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-290988,2017-04-25,2017,regular,Roosters,Dragons,13,12,,,espn,Roosters,Dragons,SYD,ST.
+espn-290989,2017-04-25,2017,regular,Storm,Warriors,20,14,,,espn,Storm,Warriors,MEL,NEW
+espn-290990,2017-04-27,2017,regular,Broncos,Panthers,32,18,,,espn,Broncos,Panthers,BRI,PEN
+espn-290991,2017-04-28,2017,regular,Rabbitohs,Sea Eagles,8,46,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-290992,2017-04-28,2017,regular,Cowboys,Eels,6,26,,,espn,Cowboys,Eels,NOR,PAR
+espn-290993,2017-04-29,2017,regular,Titans,Knights,38,8,,,espn,Titans,Knights,GOL,NEW
+espn-290994,2017-04-29,2017,regular,Bulldogs,Raiders,16,10,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-290995,2017-04-29,2017,regular,Wests Tigers,Sharks,16,22,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-290996,2017-04-30,2017,regular,Warriors,Roosters,14,13,,,espn,Warriors,Roosters,NEW,SYD
+espn-290997,2017-04-30,2017,regular,Dragons,Storm,22,34,,,espn,Dragons,Storm,ST.,MEL
+espn-290998,2017-05-11,2017,regular,Bulldogs,Cowboys,14,30,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-291000,2017-05-12,2017,regular,Dragons,Sharks,14,18,,,espn,Dragons,Sharks,ST.,CRO
+espn-291001,2017-05-12,2017,regular,Wests Tigers,Rabbitohs,8,28,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-291002,2017-05-13,2017,regular,Panthers,Warriors,36,28,,,espn,Panthers,Warriors,PEN,NEW
+espn-291003,2017-05-13,2017,regular,Storm,Titans,36,38,,,espn,Storm,Titans,MEL,GOL
+espn-291004,2017-05-13,2017,regular,Sea Eagles,Broncos,14,24,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-291005,2017-05-14,2017,regular,Knights,Raiders,34,20,,,espn,Knights,Raiders,NEW,CAN
+espn-291006,2017-05-14,2017,regular,Roosters,Eels,48,10,,,espn,Roosters,Eels,SYD,PAR
+espn-291007,2017-05-18,2017,regular,Sharks,Cowboys,18,14,,,espn,Sharks,Cowboys,CRO,NOR
+espn-291008,2017-05-19,2017,regular,Warriors,Dragons,14,30,,,espn,Warriors,Dragons,NEW,ST.
+espn-291009,2017-05-19,2017,regular,Broncos,Wests Tigers,36,0,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-291010,2017-05-20,2017,regular,Titans,Sea Eagles,10,30,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-291011,2017-05-20,2017,regular,Eels,Raiders,16,22,,,espn,Eels,Raiders,PAR,CAN
+espn-291012,2017-05-21,2017,regular,Knights,Panthers,20,30,,,espn,Knights,Panthers,NEW,PEN
+espn-291013,2017-05-21,2017,regular,Bulldogs,Roosters,18,24,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-291014,2017-05-21,2017,regular,Rabbitohs,Storm,6,14,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-291015,2017-05-26,2017,regular,Rabbitohs,Eels,16,22,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-291016,2017-05-27,2017,regular,Warriors,Broncos,28,10,,,espn,Warriors,Broncos,NEW,BRI
+espn-291017,2017-05-27,2017,regular,Sharks,Bulldogs,9,8,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-291019,2017-05-28,2017,regular,Raiders,Roosters,24,16,,,espn,Raiders,Roosters,CAN,SYD
+espn-291020,2017-06-02,2017,regular,Storm,Knights,40,12,,,espn,Storm,Knights,MEL,NEW
+espn-291021,2017-06-02,2017,regular,Eels,Warriors,32,24,,,espn,Eels,Warriors,PAR,NEW
+espn-291022,2017-06-03,2017,regular,Dragons,Wests Tigers,16,12,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-291024,2017-06-03,2017,regular,Roosters,Broncos,18,16,,,espn,Roosters,Broncos,SYD,BRI
+espn-291026,2017-06-03,2017,regular,Cowboys,Titans,20,8,,,espn,Cowboys,Titans,NOR,GOL
+espn-291027,2017-06-04,2017,regular,Sea Eagles,Raiders,21,20,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-291028,2017-06-04,2017,regular,Bulldogs,Panthers,0,38,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-291029,2017-06-08,2017,regular,Sharks,Storm,13,18,,,espn,Sharks,Storm,CRO,MEL
+espn-291030,2017-06-09,2017,regular,Sea Eagles,Knights,18,14,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-291031,2017-06-09,2017,regular,Broncos,Rabbitohs,24,18,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-291032,2017-06-10,2017,regular,Titans,Warriors,12,34,,,espn,Titans,Warriors,GOL,NEW
+espn-291033,2017-06-10,2017,regular,Panthers,Raiders,24,20,,,espn,Panthers,Raiders,PEN,CAN
+espn-291034,2017-06-10,2017,regular,Eels,Cowboys,6,32,,,espn,Eels,Cowboys,PAR,NOR
+espn-291035,2017-06-11,2017,regular,Wests Tigers,Roosters,18,40,,,espn,Wests Tigers,Roosters,WES,SYD
+espn-291036,2017-06-12,2017,regular,Bulldogs,Dragons,16,2,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-291037,2017-06-16,2017,regular,Rabbitohs,Titans,36,20,,,espn,Rabbitohs,Titans,SOU,GOL
+espn-291038,2017-06-17,2017,regular,Storm,Cowboys,23,22,,,espn,Storm,Cowboys,MEL,NOR
+espn-291039,2017-06-17,2017,regular,Sharks,Wests Tigers,24,22,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-291040,2017-06-18,2017,regular,Eels,Dragons,24,10,,,espn,Eels,Dragons,PAR,ST.
+espn-291041,2017-06-23,2017,regular,Warriors,Bulldogs,21,14,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-291043,2017-06-23,2017,regular,Wests Tigers,Titans,14,26,,,espn,Wests Tigers,Titans,WES,GOL
+espn-291044,2017-06-24,2017,regular,Cowboys,Panthers,14,12,,,espn,Cowboys,Panthers,NOR,PEN
+espn-291045,2017-06-24,2017,regular,Raiders,Broncos,20,30,,,espn,Raiders,Broncos,CAN,BRI
+espn-291047,2017-06-24,2017,regular,Roosters,Storm,25,24,,,espn,Roosters,Storm,SYD,MEL
+espn-291048,2017-06-25,2017,regular,Dragons,Knights,32,28,,,espn,Dragons,Knights,ST.,NEW
+espn-291051,2017-06-25,2017,regular,Sharks,Sea Eagles,18,35,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-291052,2017-06-29,2017,regular,Eels,Bulldogs,13,12,,,espn,Eels,Bulldogs,PAR,CAN
+espn-291054,2017-06-30,2017,regular,Titans,Dragons,20,10,,,espn,Titans,Dragons,GOL,ST.
+espn-291055,2017-06-30,2017,regular,Broncos,Storm,12,42,,,espn,Broncos,Storm,BRI,MEL
+espn-291056,2017-07-01,2017,regular,Roosters,Sharks,12,44,,,espn,Roosters,Sharks,SYD,CRO
+espn-291057,2017-07-01,2017,regular,Sea Eagles,Warriors,26,22,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-291058,2017-07-01,2017,regular,Raiders,Cowboys,18,31,,,espn,Raiders,Cowboys,CAN,NOR
+espn-291060,2017-07-02,2017,regular,Knights,Wests Tigers,12,33,,,espn,Knights,Wests Tigers,NEW,WES
+espn-291061,2017-07-02,2017,regular,Rabbitohs,Panthers,42,14,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-291063,2017-07-07,2017,regular,Roosters,Rabbitohs,14,12,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-291064,2017-07-08,2017,regular,Panthers,Sea Eagles,16,8,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-291065,2017-07-08,2017,regular,Storm,Eels,6,22,,,espn,Storm,Eels,MEL,PAR
+espn-291067,2017-07-09,2017,regular,Bulldogs,Knights,20,18,,,espn,Bulldogs,Knights,CAN,NEW
+espn-291068,2017-07-14,2017,regular,Warriors,Panthers,22,34,,,espn,Warriors,Panthers,NEW,PEN
+espn-291069,2017-07-14,2017,regular,Raiders,Dragons,18,14,,,espn,Raiders,Dragons,CAN,ST.
+espn-291071,2017-07-15,2017,regular,Knights,Broncos,22,34,,,espn,Knights,Broncos,NEW,BRI
+espn-291072,2017-07-15,2017,regular,Titans,Sharks,30,10,,,espn,Titans,Sharks,GOL,CRO
+espn-291073,2017-07-16,2017,regular,Sea Eagles,Wests Tigers,28,16,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-291074,2017-07-16,2017,regular,Rabbitohs,Cowboys,10,23,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-291075,2017-07-20,2017,regular,Broncos,Bulldogs,42,12,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-291076,2017-07-21,2017,regular,Roosters,Knights,28,4,,,espn,Roosters,Knights,SYD,NEW
+espn-291077,2017-07-21,2017,regular,Sharks,Rabbitohs,26,12,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-291079,2017-07-22,2017,regular,Panthers,Titans,24,16,,,espn,Panthers,Titans,PEN,GOL
+espn-291080,2017-07-22,2017,regular,Raiders,Storm,14,20,,,espn,Raiders,Storm,CAN,MEL
+espn-291081,2017-07-22,2017,regular,Cowboys,Warriors,24,12,,,espn,Cowboys,Warriors,NOR,NEW
+espn-291082,2017-07-23,2017,regular,Dragons,Sea Eagles,52,22,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-291084,2017-07-23,2017,regular,Wests Tigers,Eels,16,17,,,espn,Wests Tigers,Eels,WES,PAR
+espn-291090,2017-07-27,2017,regular,Panthers,Bulldogs,16,8,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-291087,2017-07-28,2017,regular,Warriors,Sharks,12,26,,,espn,Warriors,Sharks,NEW,CRO
+espn-291089,2017-07-28,2017,regular,Eels,Broncos,28,14,,,espn,Eels,Broncos,PAR,BRI
+espn-291088,2017-07-29,2017,regular,Knights,Dragons,21,14,,,espn,Knights,Dragons,NEW,ST.
+espn-291091,2017-07-29,2017,regular,Rabbitohs,Raiders,18,32,,,espn,Rabbitohs,Raiders,SOU,CAN
+espn-291092,2017-07-29,2017,regular,Roosters,Cowboys,22,16,,,espn,Roosters,Cowboys,SYD,NOR
+espn-291085,2017-07-30,2017,regular,Titans,Wests Tigers,4,26,,,espn,Titans,Wests Tigers,GOL,WES
+espn-291086,2017-07-30,2017,regular,Storm,Sea Eagles,40,6,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-291093,2017-08-03,2017,regular,Bulldogs,Eels,4,20,,,espn,Bulldogs,Eels,CAN,PAR
+espn-291099,2017-08-04,2017,regular,Cowboys,Storm,8,26,,,espn,Cowboys,Storm,NOR,MEL
+espn-291101,2017-08-04,2017,regular,Dragons,Rabbitohs,24,26,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-291094,2017-08-05,2017,regular,Sharks,Raiders,12,30,,,espn,Sharks,Raiders,CRO,CAN
+espn-291096,2017-08-05,2017,regular,Titans,Broncos,0,54,,,espn,Titans,Broncos,GOL,BRI
+espn-291098,2017-08-05,2017,regular,Knights,Warriors,26,10,,,espn,Knights,Warriors,NEW,NEW
+espn-291097,2017-08-06,2017,regular,Sea Eagles,Roosters,36,18,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-291100,2017-08-06,2017,regular,Panthers,Wests Tigers,28,14,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-291107,2017-08-10,2017,regular,Rabbitohs,Bulldogs,28,14,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-291102,2017-08-11,2017,regular,Broncos,Sharks,32,10,,,espn,Broncos,Sharks,BRI,CRO
+espn-291105,2017-08-11,2017,regular,Eels,Knights,10,29,,,espn,Eels,Knights,PAR,NEW
+espn-291103,2017-08-12,2017,regular,Storm,Roosters,16,13,,,espn,Storm,Roosters,MEL,SYD
+espn-291106,2017-08-12,2017,regular,Panthers,Cowboys,24,16,,,espn,Panthers,Cowboys,PEN,NOR
+espn-291108,2017-08-12,2017,regular,Dragons,Titans,42,16,,,espn,Dragons,Titans,ST.,GOL
+espn-291104,2017-08-13,2017,regular,Warriors,Raiders,16,36,,,espn,Warriors,Raiders,NEW,CAN
+espn-291110,2017-08-13,2017,regular,Wests Tigers,Sea Eagles,30,26,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-291118,2017-08-17,2017,regular,Eels,Titans,30,8,,,espn,Eels,Titans,PAR,GOL
+espn-291111,2017-08-18,2017,regular,Broncos,Dragons,24,12,,,espn,Broncos,Dragons,BRI,ST.
+espn-291119,2017-08-18,2017,regular,Rabbitohs,Warriors,36,18,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-291115,2017-08-19,2017,regular,Knights,Storm,12,44,,,espn,Knights,Storm,NEW,MEL
+espn-291117,2017-08-19,2017,regular,Cowboys,Sharks,16,26,,,espn,Cowboys,Sharks,NOR,CRO
+espn-291120,2017-08-19,2017,regular,Roosters,Wests Tigers,22,18,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-291112,2017-08-20,2017,regular,Raiders,Panthers,22,26,,,espn,Raiders,Panthers,CAN,PEN
+espn-291114,2017-08-20,2017,regular,Bulldogs,Sea Eagles,30,16,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-291121,2017-08-24,2017,regular,Broncos,Eels,34,52,,,espn,Broncos,Eels,BRI,PAR
+espn-291122,2017-08-25,2017,regular,Raiders,Knights,46,28,,,espn,Raiders,Knights,CAN,NEW
+espn-291131,2017-08-25,2017,regular,Wests Tigers,Cowboys,14,22,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-291123,2017-08-26,2017,regular,Sharks,Roosters,14,16,,,espn,Sharks,Roosters,CRO,SYD
+espn-291125,2017-08-26,2017,regular,Titans,Bulldogs,14,26,,,espn,Titans,Bulldogs,GOL,CAN
+espn-291126,2017-08-26,2017,regular,Storm,Rabbitohs,64,6,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-291127,2017-08-27,2017,regular,Warriors,Sea Eagles,21,22,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-291130,2017-08-27,2017,regular,Panthers,Dragons,14,16,,,espn,Panthers,Dragons,PEN,ST.
+espn-291135,2017-08-31,2017,regular,Cowboys,Broncos,10,20,,,espn,Cowboys,Broncos,NOR,BRI
+espn-291136,2017-09-01,2017,regular,Eels,Rabbitohs,22,16,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-291132,2017-09-02,2017,regular,Sea Eagles,Panthers,28,12,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-291133,2017-09-02,2017,regular,Storm,Raiders,32,6,,,espn,Storm,Raiders,MEL,CAN
+espn-291141,2017-09-02,2017,regular,Roosters,Titans,20,16,,,espn,Roosters,Titans,SYD,GOL
+espn-291134,2017-09-03,2017,regular,Knights,Sharks,18,26,,,espn,Knights,Sharks,NEW,CRO
+espn-291140,2017-09-03,2017,regular,Dragons,Bulldogs,20,26,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-291142,2017-09-03,2017,regular,Wests Tigers,Warriors,28,16,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-291144,2017-09-08,2017,regular,Roosters,Broncos,24,22,,,espn,Roosters,Broncos,SYD,BRI
+espn-291146,2017-09-09,2017,regular,Storm,Eels,18,16,,,espn,Storm,Eels,MEL,PAR
+espn-291147,2017-09-09,2017,regular,Sea Eagles,Panthers,10,22,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-291148,2017-09-10,2017,regular,Sharks,Cowboys,14,15,,,espn,Sharks,Cowboys,CRO,NOR
+espn-291150,2017-09-15,2017,regular,Broncos,Panthers,13,6,,,espn,Broncos,Panthers,BRI,PEN
+espn-291151,2017-09-16,2017,regular,Eels,Cowboys,16,24,,,espn,Eels,Cowboys,PAR,NOR
+espn-291153,2017-09-22,2017,regular,Storm,Broncos,30,0,,,espn,Storm,Broncos,MEL,BRI
+espn-291156,2017-09-23,2017,regular,Roosters,Cowboys,16,29,,,espn,Roosters,Cowboys,SYD,NOR
+espn-291157,2017-10-01,2017,regular,Storm,Cowboys,34,6,,,espn,Storm,Cowboys,MEL,NOR
+espn-292370,2018-03-08,2018,regular,Dragons,Broncos,34,12,,,espn,Dragons,Broncos,ST.,BRI
+espn-292371,2018-03-09,2018,regular,Knights,Sea Eagles,19,18,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-292372,2018-03-09,2018,regular,Cowboys,Sharks,20,14,,,espn,Cowboys,Sharks,NOR,CRO
+espn-292373,2018-03-10,2018,regular,Wests Tigers,Roosters,10,8,,,espn,Wests Tigers,Roosters,WES,SYD
+espn-292374,2018-03-10,2018,regular,Rabbitohs,Warriors,20,32,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-292375,2018-03-10,2018,regular,Bulldogs,Storm,18,36,,,espn,Bulldogs,Storm,CAN,MEL
+espn-292376,2018-03-11,2018,regular,Panthers,Eels,24,14,,,espn,Panthers,Eels,PEN,PAR
+espn-292377,2018-03-11,2018,regular,Titans,Raiders,30,28,,,espn,Titans,Raiders,GOL,CAN
+espn-292378,2018-03-15,2018,regular,Sharks,Dragons,16,20,,,espn,Sharks,Dragons,CRO,ST.
+espn-292379,2018-03-16,2018,regular,Roosters,Bulldogs,30,12,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-292380,2018-03-16,2018,regular,Broncos,Cowboys,24,20,,,espn,Broncos,Cowboys,BRI,NOR
+espn-292381,2018-03-17,2018,regular,Warriors,Titans,20,8,,,espn,Warriors,Titans,NEW,GOL
+espn-292382,2018-03-17,2018,regular,Panthers,Rabbitohs,18,14,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-292383,2018-03-17,2018,regular,Storm,Wests Tigers,8,10,,,espn,Storm,Wests Tigers,MEL,WES
+espn-292384,2018-03-18,2018,regular,Sea Eagles,Eels,54,0,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-292385,2018-03-18,2018,regular,Raiders,Knights,28,30,,,espn,Raiders,Knights,CAN,NEW
+espn-292386,2018-03-22,2018,regular,Storm,Cowboys,30,14,,,espn,Storm,Cowboys,MEL,NOR
+espn-292387,2018-03-23,2018,regular,Bulldogs,Panthers,20,18,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-292388,2018-03-23,2018,regular,Wests Tigers,Broncos,7,9,,,espn,Wests Tigers,Broncos,WES,BRI
+espn-292389,2018-03-24,2018,regular,Raiders,Warriors,19,20,,,espn,Raiders,Warriors,CAN,NEW
+espn-292390,2018-03-24,2018,regular,Rabbitohs,Sea Eagles,34,6,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-292391,2018-03-24,2018,regular,Eels,Sharks,4,14,,,espn,Eels,Sharks,PAR,CRO
+espn-292392,2018-03-25,2018,regular,Titans,Dragons,8,54,,,espn,Titans,Dragons,GOL,ST.
+espn-292393,2018-03-25,2018,regular,Roosters,Knights,38,8,,,espn,Roosters,Knights,SYD,NEW
+espn-292394,2018-03-29,2018,regular,Cowboys,Panthers,14,33,,,espn,Cowboys,Panthers,NOR,PEN
+espn-292395,2018-03-30,2018,regular,Rabbitohs,Bulldogs,20,16,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-292396,2018-03-30,2018,regular,Sharks,Storm,14,4,,,espn,Sharks,Storm,CRO,MEL
+espn-292397,2018-03-31,2018,regular,Roosters,Warriors,6,30,,,espn,Roosters,Warriors,SYD,NEW
+espn-292398,2018-03-31,2018,regular,Sea Eagles,Raiders,32,16,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-292399,2018-04-01,2018,regular,Dragons,Knights,30,12,,,espn,Dragons,Knights,ST.,NEW
+espn-292400,2018-04-01,2018,regular,Broncos,Titans,14,26,,,espn,Broncos,Titans,BRI,GOL
+espn-292401,2018-04-02,2018,regular,Wests Tigers,Eels,30,20,,,espn,Wests Tigers,Eels,WES,PAR
+espn-292402,2018-04-05,2018,regular,Raiders,Bulldogs,26,10,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-292403,2018-04-06,2018,regular,Sharks,Roosters,10,28,,,espn,Sharks,Roosters,CRO,SYD
+espn-292404,2018-04-06,2018,regular,Dragons,Rabbitohs,16,12,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-292405,2018-04-07,2018,regular,Wests Tigers,Storm,11,10,,,espn,Wests Tigers,Storm,WES,MEL
+espn-292406,2018-04-07,2018,regular,Warriors,Cowboys,22,12,,,espn,Warriors,Cowboys,NEW,NOR
+espn-292407,2018-04-07,2018,regular,Knights,Broncos,15,10,,,espn,Knights,Broncos,NEW,BRI
+espn-292408,2018-04-08,2018,regular,Titans,Sea Eagles,32,20,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-292409,2018-04-08,2018,regular,Eels,Panthers,6,12,,,espn,Eels,Panthers,PAR,PEN
+espn-292410,2018-04-12,2018,regular,Roosters,Rabbitohs,14,26,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-292411,2018-04-13,2018,regular,Storm,Knights,40,14,,,espn,Storm,Knights,MEL,NEW
+espn-292412,2018-04-13,2018,regular,Dragons,Sharks,40,20,,,espn,Dragons,Sharks,ST.,CRO
+espn-292413,2018-04-14,2018,regular,Warriors,Broncos,18,27,,,espn,Warriors,Broncos,NEW,BRI
+espn-292414,2018-04-14,2018,regular,Cowboys,Bulldogs,10,27,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-292415,2018-04-14,2018,regular,Raiders,Eels,18,2,,,espn,Raiders,Eels,CAN,PAR
+espn-292416,2018-04-15,2018,regular,Panthers,Titans,35,12,,,espn,Panthers,Titans,PEN,GOL
+espn-292417,2018-04-15,2018,regular,Sea Eagles,Wests Tigers,12,38,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-292418,2018-04-19,2018,regular,Bulldogs,Roosters,0,6,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-292419,2018-04-20,2018,regular,Warriors,Dragons,20,12,,,espn,Warriors,Dragons,NEW,ST.
+espn-292420,2018-04-20,2018,regular,Broncos,Storm,20,34,,,espn,Broncos,Storm,BRI,MEL
+espn-292421,2018-04-21,2018,regular,Rabbitohs,Raiders,42,22,,,espn,Rabbitohs,Raiders,SOU,CAN
+espn-292422,2018-04-21,2018,regular,Wests Tigers,Knights,20,22,,,espn,Wests Tigers,Knights,WES,NEW
+espn-292423,2018-04-21,2018,regular,Cowboys,Titans,26,14,,,espn,Cowboys,Titans,NOR,GOL
+espn-292424,2018-04-22,2018,regular,Eels,Sea Eagles,44,10,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-292425,2018-04-22,2018,regular,Sharks,Panthers,26,22,,,espn,Sharks,Panthers,CRO,PEN
+espn-292426,2018-04-25,2018,regular,Storm,Warriors,50,10,,,espn,Storm,Warriors,MEL,NEW
+espn-292427,2018-04-25,2018,regular,Dragons,Roosters,24,8,,,espn,Dragons,Roosters,ST.,SYD
+espn-292428,2018-04-26,2018,regular,Rabbitohs,Broncos,20,24,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-292429,2018-04-27,2018,regular,Sea Eagles,Knights,12,18,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-292430,2018-04-27,2018,regular,Panthers,Bulldogs,22,14,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-292431,2018-04-28,2018,regular,Titans,Sharks,9,10,,,espn,Titans,Sharks,GOL,CRO
+espn-292432,2018-04-28,2018,regular,Cowboys,Raiders,8,18,,,espn,Cowboys,Raiders,NOR,CAN
+espn-292433,2018-04-29,2018,regular,Eels,Wests Tigers,24,22,,,espn,Eels,Wests Tigers,PAR,WES
+espn-292434,2018-05-03,2018,regular,Broncos,Bulldogs,22,20,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-292435,2018-05-04,2018,regular,Knights,Rabbitohs,18,36,,,espn,Knights,Rabbitohs,NEW,SOU
+espn-292436,2018-05-04,2018,regular,Panthers,Cowboys,20,26,,,espn,Panthers,Cowboys,PEN,NOR
+espn-292437,2018-05-05,2018,regular,Raiders,Titans,32,18,,,espn,Raiders,Titans,CAN,GOL
+espn-292438,2018-05-05,2018,regular,Warriors,Wests Tigers,26,4,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-292439,2018-05-05,2018,regular,Sharks,Eels,22,20,,,espn,Sharks,Eels,CRO,PAR
+espn-292440,2018-05-06,2018,regular,Dragons,Storm,34,14,,,espn,Dragons,Storm,ST.,MEL
+espn-292441,2018-05-06,2018,regular,Roosters,Sea Eagles,22,20,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-292442,2018-05-10,2018,regular,Wests Tigers,Cowboys,20,12,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-292443,2018-05-11,2018,regular,Knights,Panthers,18,29,,,espn,Knights,Panthers,NEW,PEN
+espn-292444,2018-05-11,2018,regular,Bulldogs,Eels,20,12,,,espn,Bulldogs,Eels,CAN,PAR
+espn-292445,2018-05-12,2018,regular,Warriors,Roosters,0,32,,,espn,Warriors,Roosters,NEW,SYD
+espn-292446,2018-05-12,2018,regular,Storm,Titans,28,14,,,espn,Storm,Titans,MEL,GOL
+espn-292447,2018-05-12,2018,regular,Sea Eagles,Broncos,38,24,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-292448,2018-05-13,2018,regular,Rabbitohs,Dragons,24,10,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-292449,2018-05-13,2018,regular,Raiders,Sharks,16,24,,,espn,Raiders,Sharks,CAN,CRO
+espn-292450,2018-05-17,2018,regular,Panthers,Wests Tigers,16,2,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-292451,2018-05-18,2018,regular,Eels,Warriors,14,24,,,espn,Eels,Warriors,PAR,NEW
+espn-292452,2018-05-18,2018,regular,Broncos,Roosters,28,22,,,espn,Broncos,Roosters,BRI,SYD
+espn-292453,2018-05-19,2018,regular,Titans,Knights,33,26,,,espn,Titans,Knights,GOL,NEW
+espn-292454,2018-05-19,2018,regular,Cowboys,Rabbitohs,19,20,,,espn,Cowboys,Rabbitohs,NOR,SOU
+espn-292455,2018-05-19,2018,regular,Storm,Sea Eagles,4,24,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-292456,2018-05-20,2018,regular,Dragons,Raiders,25,18,,,espn,Dragons,Raiders,ST.,CAN
+espn-292457,2018-05-20,2018,regular,Sharks,Bulldogs,22,16,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-292458,2018-05-24,2018,regular,Broncos,Eels,18,10,,,espn,Broncos,Eels,BRI,PAR
+espn-292459,2018-05-25,2018,regular,Raiders,Sea Eagles,21,20,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-292460,2018-05-25,2018,regular,Cowboys,Storm,6,7,,,espn,Cowboys,Storm,NOR,MEL
+espn-292461,2018-05-26,2018,regular,Roosters,Titans,34,14,,,espn,Roosters,Titans,SYD,GOL
+espn-292462,2018-05-26,2018,regular,Warriors,Rabbitohs,10,30,,,espn,Warriors,Rabbitohs,NEW,SOU
+espn-292463,2018-05-26,2018,regular,Panthers,Dragons,28,2,,,espn,Panthers,Dragons,PEN,ST.
+espn-292464,2018-05-27,2018,regular,Knights,Sharks,10,48,,,espn,Knights,Sharks,NEW,CRO
+espn-292465,2018-05-27,2018,regular,Wests Tigers,Bulldogs,14,10,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-292466,2018-05-31,2018,regular,Sea Eagles,Cowboys,12,26,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-292467,2018-06-01,2018,regular,Rabbitohs,Sharks,22,14,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-292468,2018-06-02,2018,regular,Eels,Knights,4,30,,,espn,Eels,Knights,PAR,NEW
+espn-292469,2018-06-03,2018,regular,Roosters,Wests Tigers,16,14,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-292470,2018-06-08,2018,regular,Raiders,Panthers,22,23,,,espn,Raiders,Panthers,CAN,PEN
+espn-292471,2018-06-08,2018,regular,Titans,Rabbitohs,16,18,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-292472,2018-06-09,2018,regular,Sea Eagles,Warriors,14,34,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-292473,2018-06-09,2018,regular,Knights,Roosters,16,18,,,espn,Knights,Roosters,NEW,SYD
+espn-292474,2018-06-09,2018,regular,Eels,Cowboys,20,14,,,espn,Eels,Cowboys,PAR,NOR
+espn-292475,2018-06-10,2018,regular,Sharks,Wests Tigers,24,16,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-292476,2018-06-10,2018,regular,Storm,Broncos,32,16,,,espn,Storm,Broncos,MEL,BRI
+espn-292477,2018-06-11,2018,regular,Bulldogs,Dragons,16,18,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-292478,2018-06-14,2018,regular,Eels,Rabbitohs,24,42,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-292479,2018-06-15,2018,regular,Cowboys,Warriors,16,23,,,espn,Cowboys,Warriors,NOR,NEW
+espn-292480,2018-06-15,2018,regular,Roosters,Panthers,32,6,,,espn,Roosters,Panthers,SYD,PEN
+espn-292481,2018-06-16,2018,regular,Bulldogs,Titans,10,32,,,espn,Bulldogs,Titans,CAN,GOL
+espn-292482,2018-06-16,2018,regular,Dragons,Sea Eagles,32,8,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-292483,2018-06-16,2018,regular,Sharks,Broncos,16,20,,,espn,Sharks,Broncos,CRO,BRI
+espn-292484,2018-06-17,2018,regular,Knights,Storm,10,28,,,espn,Knights,Storm,NEW,MEL
+espn-292485,2018-06-17,2018,regular,Wests Tigers,Raiders,12,48,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-292486,2018-06-28,2018,regular,Dragons,Eels,20,18,,,espn,Dragons,Eels,ST.,PAR
+espn-292487,2018-06-29,2018,regular,Warriors,Sharks,15,18,,,espn,Warriors,Sharks,NEW,CRO
+espn-292488,2018-06-29,2018,regular,Roosters,Storm,8,9,,,espn,Roosters,Storm,SYD,MEL
+espn-292489,2018-06-30,2018,regular,Panthers,Sea Eagles,10,18,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-292490,2018-06-30,2018,regular,Knights,Bulldogs,16,36,,,espn,Knights,Bulldogs,NEW,CAN
+espn-292491,2018-06-30,2018,regular,Broncos,Raiders,26,22,,,espn,Broncos,Raiders,BRI,CAN
+espn-292492,2018-07-01,2018,regular,Wests Tigers,Titans,12,30,,,espn,Wests Tigers,Titans,WES,GOL
+espn-292493,2018-07-01,2018,regular,Rabbitohs,Cowboys,21,20,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-292494,2018-07-05,2018,regular,Storm,Dragons,52,30,,,espn,Storm,Dragons,MEL,ST.
+espn-292495,2018-07-06,2018,regular,Panthers,Warriors,36,4,,,espn,Panthers,Warriors,PEN,NEW
+espn-292496,2018-07-07,2018,regular,Bulldogs,Raiders,28,32,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-292497,2018-07-08,2018,regular,Titans,Broncos,0,34,,,espn,Titans,Broncos,GOL,BRI
+espn-292498,2018-07-13,2018,regular,Panthers,Sharks,12,24,,,espn,Panthers,Sharks,PEN,CRO
+espn-292499,2018-07-13,2018,regular,Knights,Eels,18,16,,,espn,Knights,Eels,NEW,PAR
+espn-292500,2018-07-14,2018,regular,Bulldogs,Rabbitohs,6,24,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-292501,2018-07-14,2018,regular,Sea Eagles,Storm,13,14,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-292502,2018-07-14,2018,regular,Raiders,Cowboys,38,12,,,espn,Raiders,Cowboys,CAN,NOR
+espn-292503,2018-07-15,2018,regular,Broncos,Warriors,6,26,,,espn,Broncos,Warriors,BRI,NEW
+espn-292504,2018-07-15,2018,regular,Dragons,Wests Tigers,16,20,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-292505,2018-07-15,2018,regular,Titans,Roosters,12,20,,,espn,Titans,Roosters,GOL,SYD
+espn-292506,2018-07-19,2018,regular,Eels,Bulldogs,14,8,,,espn,Eels,Bulldogs,PAR,CAN
+espn-292507,2018-07-20,2018,regular,Sharks,Raiders,28,24,,,espn,Sharks,Raiders,CRO,CAN
+espn-292508,2018-07-20,2018,regular,Broncos,Panthers,50,18,,,espn,Broncos,Panthers,BRI,PEN
+espn-292509,2018-07-21,2018,regular,Knights,Titans,30,24,,,espn,Knights,Titans,NEW,GOL
+espn-292510,2018-07-21,2018,regular,Wests Tigers,Rabbitohs,22,6,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-292511,2018-07-21,2018,regular,Cowboys,Dragons,10,24,,,espn,Cowboys,Dragons,NOR,ST.
+espn-292512,2018-07-22,2018,regular,Warriors,Storm,6,12,,,espn,Warriors,Storm,NEW,MEL
+espn-292513,2018-07-22,2018,regular,Sea Eagles,Roosters,24,56,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-292514,2018-07-26,2018,regular,Broncos,Sharks,12,10,,,espn,Broncos,Sharks,BRI,CRO
+espn-292515,2018-07-27,2018,regular,Cowboys,Knights,20,18,,,espn,Cowboys,Knights,NOR,NEW
+espn-292516,2018-07-27,2018,regular,Bulldogs,Wests Tigers,16,4,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-292517,2018-07-28,2018,regular,Sea Eagles,Panthers,24,28,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-292518,2018-07-28,2018,regular,Rabbitohs,Eels,26,20,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-292519,2018-07-28,2018,regular,Storm,Raiders,44,10,,,espn,Storm,Raiders,MEL,CAN
+espn-292520,2018-07-29,2018,regular,Titans,Warriors,36,12,,,espn,Titans,Warriors,GOL,NEW
+espn-292521,2018-07-29,2018,regular,Roosters,Dragons,36,18,,,espn,Roosters,Dragons,SYD,ST.
+espn-292522,2018-08-02,2018,regular,Bulldogs,Broncos,36,22,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-292523,2018-08-03,2018,regular,Knights,Wests Tigers,16,25,,,espn,Knights,Wests Tigers,NEW,WES
+espn-292524,2018-08-03,2018,regular,Rabbitohs,Storm,30,20,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-292525,2018-08-04,2018,regular,Dragons,Warriors,12,18,,,espn,Dragons,Warriors,ST.,NEW
+espn-292526,2018-08-04,2018,regular,Eels,Titans,28,12,,,espn,Eels,Titans,PAR,GOL
+espn-292527,2018-08-04,2018,regular,Roosters,Cowboys,26,20,,,espn,Roosters,Cowboys,SYD,NOR
+espn-292528,2018-08-05,2018,regular,Sharks,Sea Eagles,32,33,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-292529,2018-08-05,2018,regular,Panthers,Raiders,40,31,,,espn,Panthers,Raiders,PEN,CAN
+espn-292530,2018-08-09,2018,regular,Cowboys,Broncos,34,30,,,espn,Cowboys,Broncos,NOR,BRI
+espn-292531,2018-08-10,2018,regular,Warriors,Knights,20,4,,,espn,Warriors,Knights,NEW,NEW
+espn-292532,2018-08-10,2018,regular,Rabbitohs,Roosters,14,18,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-292533,2018-08-11,2018,regular,Titans,Panthers,16,17,,,espn,Titans,Panthers,GOL,PEN
+espn-292534,2018-08-11,2018,regular,Sea Eagles,Bulldogs,18,6,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-292535,2018-08-11,2018,regular,Eels,Dragons,40,4,,,espn,Eels,Dragons,PAR,ST.
+espn-292536,2018-08-12,2018,regular,Raiders,Wests Tigers,20,22,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-292537,2018-08-12,2018,regular,Storm,Sharks,14,17,,,espn,Storm,Sharks,MEL,CRO
+espn-292538,2018-08-16,2018,regular,Broncos,Rabbitohs,38,18,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-292539,2018-08-17,2018,regular,Sea Eagles,Titans,34,42,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-292540,2018-08-17,2018,regular,Storm,Eels,20,4,,,espn,Storm,Eels,MEL,PAR
+espn-292541,2018-08-18,2018,regular,Panthers,Knights,12,20,,,espn,Panthers,Knights,PEN,NEW
+espn-292542,2018-08-18,2018,regular,Wests Tigers,Dragons,10,20,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-292543,2018-08-18,2018,regular,Sharks,Cowboys,28,16,,,espn,Sharks,Cowboys,CRO,NOR
+espn-292544,2018-08-19,2018,regular,Bulldogs,Warriors,27,26,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-292545,2018-08-19,2018,regular,Raiders,Roosters,14,12,,,espn,Raiders,Roosters,CAN,SYD
+espn-292546,2018-08-23,2018,regular,Wests Tigers,Sea Eagles,22,20,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-292547,2018-08-24,2018,regular,Warriors,Panthers,36,16,,,espn,Warriors,Panthers,NEW,PEN
+espn-292548,2018-08-24,2018,regular,Cowboys,Eels,44,6,,,espn,Cowboys,Eels,NOR,PAR
+espn-292549,2018-08-25,2018,regular,Raiders,Rabbitohs,24,12,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-292550,2018-08-25,2018,regular,Titans,Storm,8,10,,,espn,Titans,Storm,GOL,MEL
+espn-292551,2018-08-25,2018,regular,Roosters,Broncos,8,22,,,espn,Roosters,Broncos,SYD,BRI
+espn-292552,2018-08-26,2018,regular,Sharks,Knights,38,12,,,espn,Sharks,Knights,CRO,NEW
+espn-292553,2018-08-26,2018,regular,Dragons,Bulldogs,0,38,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-292554,2018-08-30,2018,regular,Rabbitohs,Wests Tigers,51,10,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-292555,2018-08-31,2018,regular,Warriors,Raiders,20,16,,,espn,Warriors,Raiders,NEW,CAN
+espn-292556,2018-08-31,2018,regular,Storm,Panthers,16,22,,,espn,Storm,Panthers,MEL,PEN
+espn-292557,2018-09-01,2018,regular,Knights,Dragons,14,24,,,espn,Knights,Dragons,NEW,ST.
+espn-292558,2018-09-01,2018,regular,Titans,Cowboys,26,30,,,espn,Titans,Cowboys,GOL,NOR
+espn-292559,2018-09-01,2018,regular,Eels,Roosters,10,44,,,espn,Eels,Roosters,PAR,SYD
+espn-292560,2018-09-02,2018,regular,Bulldogs,Sharks,18,30,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-292561,2018-09-02,2018,regular,Broncos,Sea Eagles,48,16,,,espn,Broncos,Sea Eagles,BRI,MAN
+espn-292562,2018-09-07,2018,regular,Storm,Rabbitohs,29,28,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-292563,2018-09-08,2018,regular,Panthers,Warriors,27,12,,,espn,Panthers,Warriors,PEN,NEW
+espn-292564,2018-09-08,2018,regular,Roosters,Sharks,21,12,,,espn,Roosters,Sharks,SYD,CRO
+espn-292565,2018-09-09,2018,regular,Broncos,Dragons,18,48,,,espn,Broncos,Dragons,BRI,ST.
+espn-292566,2018-09-14,2018,regular,Sharks,Panthers,21,20,,,espn,Sharks,Panthers,CRO,PEN
+espn-292567,2018-09-15,2018,regular,Rabbitohs,Dragons,13,12,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-292568,2018-09-21,2018,regular,Storm,Sharks,22,6,,,espn,Storm,Sharks,MEL,CRO
+espn-292569,2018-09-22,2018,regular,Roosters,Rabbitohs,12,4,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-292570,2018-09-30,2018,regular,Roosters,Storm,21,6,,,espn,Roosters,Storm,SYD,MEL
+espn-293698,2019-03-14,2019,regular,Storm,Broncos,22,12,,,espn,Storm,Broncos,MEL,BRI
+espn-293699,2019-03-15,2019,regular,Knights,Sharks,14,8,,,espn,Knights,Sharks,NEW,CRO
+espn-293700,2019-03-15,2019,regular,Roosters,Rabbitohs,16,26,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-293701,2019-03-16,2019,regular,Warriors,Bulldogs,40,6,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-293702,2019-03-16,2019,regular,Wests Tigers,Sea Eagles,20,6,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-293703,2019-03-16,2019,regular,Cowboys,Dragons,24,12,,,espn,Cowboys,Dragons,NOR,ST.
+espn-293704,2019-03-17,2019,regular,Panthers,Eels,12,20,,,espn,Panthers,Eels,PEN,PAR
+espn-293705,2019-03-17,2019,regular,Titans,Raiders,0,21,,,espn,Titans,Raiders,GOL,CAN
+espn-293706,2019-03-21,2019,regular,Dragons,Rabbitohs,18,34,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-293707,2019-03-22,2019,regular,Raiders,Storm,10,22,,,espn,Raiders,Storm,CAN,MEL
+espn-293708,2019-03-22,2019,regular,Broncos,Cowboys,29,10,,,espn,Broncos,Cowboys,BRI,NOR
+espn-293709,2019-03-23,2019,regular,Sharks,Titans,20,6,,,espn,Sharks,Titans,CRO,GOL
+espn-293710,2019-03-23,2019,regular,Knights,Panthers,14,16,,,espn,Knights,Panthers,NEW,PEN
+espn-293711,2019-03-23,2019,regular,Sea Eagles,Roosters,18,26,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-293712,2019-03-24,2019,regular,Bulldogs,Eels,16,36,,,espn,Bulldogs,Eels,CAN,PAR
+espn-293713,2019-03-24,2019,regular,Wests Tigers,Warriors,34,6,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-293714,2019-03-28,2019,regular,Broncos,Dragons,24,25,,,espn,Broncos,Dragons,BRI,ST.
+espn-293715,2019-03-29,2019,regular,Raiders,Knights,17,10,,,espn,Raiders,Knights,CAN,NEW
+espn-293716,2019-03-29,2019,regular,Eels,Roosters,18,32,,,espn,Eels,Roosters,PAR,SYD
+espn-293717,2019-03-30,2019,regular,Sea Eagles,Warriors,46,12,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-293718,2019-03-30,2019,regular,Cowboys,Sharks,16,42,,,espn,Cowboys,Sharks,NOR,CRO
+espn-293719,2019-03-30,2019,regular,Panthers,Storm,2,32,,,espn,Panthers,Storm,PEN,MEL
+espn-293720,2019-03-31,2019,regular,Wests Tigers,Bulldogs,8,22,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-293721,2019-03-31,2019,regular,Rabbitohs,Titans,28,20,,,espn,Rabbitohs,Titans,SOU,GOL
+espn-293722,2019-04-04,2019,regular,Roosters,Broncos,36,4,,,espn,Roosters,Broncos,SYD,BRI
+espn-293723,2019-04-05,2019,regular,Warriors,Titans,26,10,,,espn,Warriors,Titans,NEW,GOL
+espn-293724,2019-04-05,2019,regular,Panthers,Wests Tigers,9,8,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-293725,2019-04-06,2019,regular,Sea Eagles,Rabbitohs,13,12,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-293726,2019-04-06,2019,regular,Cowboys,Raiders,12,30,,,espn,Cowboys,Raiders,NOR,CAN
+espn-293727,2019-04-06,2019,regular,Eels,Sharks,24,12,,,espn,Eels,Sharks,PAR,CRO
+espn-293728,2019-04-07,2019,regular,Storm,Bulldogs,18,16,,,espn,Storm,Bulldogs,MEL,CAN
+espn-293729,2019-04-07,2019,regular,Knights,Dragons,12,13,,,espn,Knights,Dragons,NEW,ST.
+espn-293730,2019-04-11,2019,regular,Broncos,Wests Tigers,16,22,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-293731,2019-04-12,2019,regular,Titans,Panthers,30,24,,,espn,Titans,Panthers,GOL,PEN
+espn-293732,2019-04-12,2019,regular,Cowboys,Storm,12,18,,,espn,Cowboys,Storm,NOR,MEL
+espn-293733,2019-04-13,2019,regular,Rabbitohs,Warriors,28,24,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-293734,2019-04-13,2019,regular,Knights,Sea Eagles,18,26,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-293735,2019-04-13,2019,regular,Sharks,Roosters,16,30,,,espn,Sharks,Roosters,CRO,SYD
+espn-293736,2019-04-14,2019,regular,Dragons,Bulldogs,40,4,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-293737,2019-04-14,2019,regular,Raiders,Eels,19,0,,,espn,Raiders,Eels,CAN,PAR
+espn-293738,2019-04-18,2019,regular,Sharks,Panthers,24,20,,,espn,Sharks,Panthers,CRO,PEN
+espn-293739,2019-04-19,2019,regular,Bulldogs,Rabbitohs,6,14,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-293740,2019-04-19,2019,regular,Storm,Roosters,20,21,,,espn,Storm,Roosters,MEL,SYD
+espn-293741,2019-04-20,2019,regular,Warriors,Cowboys,10,17,,,espn,Warriors,Cowboys,NEW,NOR
+espn-293742,2019-04-20,2019,regular,Dragons,Sea Eagles,12,10,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-293743,2019-04-21,2019,regular,Titans,Knights,38,14,,,espn,Titans,Knights,GOL,NEW
+espn-293744,2019-04-21,2019,regular,Raiders,Broncos,26,22,,,espn,Raiders,Broncos,CAN,BRI
+espn-293745,2019-04-22,2019,regular,Eels,Wests Tigers,51,6,,,espn,Eels,Wests Tigers,PAR,WES
+espn-293746,2019-04-25,2019,regular,Roosters,Dragons,20,10,,,espn,Roosters,Dragons,SYD,ST.
+espn-293747,2019-04-25,2019,regular,Storm,Warriors,13,12,,,espn,Storm,Warriors,MEL,NEW
+espn-293748,2019-04-26,2019,regular,Bulldogs,Cowboys,24,12,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-293749,2019-04-26,2019,regular,Panthers,Rabbitohs,18,22,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-293750,2019-04-27,2019,regular,Wests Tigers,Titans,30,14,,,espn,Wests Tigers,Titans,WES,GOL
+espn-293751,2019-04-27,2019,regular,Broncos,Sharks,29,6,,,espn,Broncos,Sharks,BRI,CRO
+espn-293752,2019-04-28,2019,regular,Sea Eagles,Raiders,24,20,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-293753,2019-04-28,2019,regular,Knights,Eels,28,14,,,espn,Knights,Eels,NEW,PAR
+espn-293754,2019-05-02,2019,regular,Rabbitohs,Broncos,38,6,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-293755,2019-05-03,2019,regular,Cowboys,Titans,28,14,,,espn,Cowboys,Titans,NOR,GOL
+espn-293756,2019-05-03,2019,regular,Sharks,Storm,20,18,,,espn,Sharks,Storm,CRO,MEL
+espn-293757,2019-05-04,2019,regular,Raiders,Panthers,30,12,,,espn,Raiders,Panthers,CAN,PEN
+espn-293758,2019-05-04,2019,regular,Sea Eagles,Bulldogs,18,10,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-293759,2019-05-04,2019,regular,Roosters,Wests Tigers,42,12,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-293760,2019-05-05,2019,regular,Warriors,Knights,18,36,,,espn,Warriors,Knights,NEW,NEW
+espn-293761,2019-05-05,2019,regular,Eels,Dragons,32,18,,,espn,Eels,Dragons,PAR,ST.
+espn-293762,2019-05-09,2019,regular,Titans,Sharks,18,26,,,espn,Titans,Sharks,GOL,CRO
+espn-293763,2019-05-10,2019,regular,Wests Tigers,Panthers,30,4,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-293764,2019-05-10,2019,regular,Sea Eagles,Broncos,10,26,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-293765,2019-05-11,2019,regular,Bulldogs,Knights,10,22,,,espn,Bulldogs,Knights,CAN,NEW
+espn-293766,2019-05-11,2019,regular,Warriors,Dragons,26,18,,,espn,Warriors,Dragons,NEW,ST.
+espn-293767,2019-05-11,2019,regular,Storm,Eels,64,10,,,espn,Storm,Eels,MEL,PAR
+espn-293768,2019-05-12,2019,regular,Roosters,Raiders,30,24,,,espn,Roosters,Raiders,SYD,CAN
+espn-293769,2019-05-12,2019,regular,Rabbitohs,Cowboys,32,16,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-293770,2019-05-16,2019,regular,Storm,Wests Tigers,24,22,,,espn,Storm,Wests Tigers,MEL,WES
+espn-293771,2019-05-17,2019,regular,Panthers,Warriors,10,30,,,espn,Panthers,Warriors,PEN,NEW
+espn-293772,2019-05-17,2019,regular,Broncos,Roosters,15,10,,,espn,Broncos,Roosters,BRI,SYD
+espn-293773,2019-05-18,2019,regular,Titans,Bulldogs,16,22,,,espn,Titans,Bulldogs,GOL,CAN
+espn-293774,2019-05-18,2019,regular,Cowboys,Eels,17,10,,,espn,Cowboys,Eels,NOR,PAR
+espn-293775,2019-05-18,2019,regular,Raiders,Rabbitohs,12,16,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-293776,2019-05-19,2019,regular,Dragons,Knights,12,45,,,espn,Dragons,Knights,ST.,NEW
+espn-293777,2019-05-19,2019,regular,Sharks,Sea Eagles,14,24,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-293778,2019-05-23,2019,regular,Eels,Panthers,10,16,,,espn,Eels,Panthers,PAR,PEN
+espn-293779,2019-05-24,2019,regular,Sea Eagles,Titans,18,36,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-293780,2019-05-24,2019,regular,Knights,Roosters,38,12,,,espn,Knights,Roosters,NEW,SYD
+espn-293781,2019-05-25,2019,regular,Raiders,Cowboys,16,22,,,espn,Raiders,Cowboys,CAN,NOR
+espn-293782,2019-05-25,2019,regular,Warriors,Broncos,2,8,,,espn,Warriors,Broncos,NEW,BRI
+espn-293783,2019-05-25,2019,regular,Rabbitohs,Wests Tigers,32,16,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-293784,2019-05-26,2019,regular,Bulldogs,Storm,6,28,,,espn,Bulldogs,Storm,CAN,MEL
+espn-293785,2019-05-26,2019,regular,Dragons,Sharks,9,22,,,espn,Dragons,Sharks,ST.,CRO
+espn-293786,2019-05-30,2019,regular,Panthers,Sea Eagles,15,12,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-293787,2019-05-31,2019,regular,Eels,Rabbitohs,26,14,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-293788,2019-06-01,2019,regular,Bulldogs,Raiders,10,12,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-293789,2019-06-02,2019,regular,Titans,Cowboys,4,6,,,espn,Titans,Cowboys,GOL,NOR
+espn-293790,2019-06-07,2019,regular,Rabbitohs,Knights,12,20,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-293791,2019-06-07,2019,regular,Wests Tigers,Raiders,0,28,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-293792,2019-06-08,2019,regular,Warriors,Storm,10,32,,,espn,Warriors,Storm,NEW,MEL
+espn-293793,2019-06-08,2019,regular,Sharks,Eels,42,22,,,espn,Sharks,Eels,CRO,PAR
+espn-293794,2019-06-08,2019,regular,Cowboys,Sea Eagles,20,22,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-293795,2019-06-09,2019,regular,Broncos,Titans,18,26,,,espn,Broncos,Titans,BRI,GOL
+espn-293796,2019-06-09,2019,regular,Panthers,Roosters,19,10,,,espn,Panthers,Roosters,PEN,SYD
+espn-293797,2019-06-10,2019,regular,Bulldogs,Dragons,12,36,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-293798,2019-06-13,2019,regular,Raiders,Sharks,22,20,,,espn,Raiders,Sharks,CAN,CRO
+espn-293799,2019-06-14,2019,regular,Titans,Warriors,20,24,,,espn,Titans,Warriors,GOL,NEW
+espn-293800,2019-06-14,2019,regular,Cowboys,Wests Tigers,26,27,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-293801,2019-06-15,2019,regular,Storm,Knights,34,4,,,espn,Storm,Knights,MEL,NEW
+espn-293802,2019-06-15,2019,regular,Rabbitohs,Panthers,18,19,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-293803,2019-06-15,2019,regular,Eels,Broncos,38,10,,,espn,Eels,Broncos,PAR,BRI
+espn-293804,2019-06-16,2019,regular,Sea Eagles,Dragons,34,14,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-293805,2019-06-16,2019,regular,Roosters,Bulldogs,38,12,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-293806,2019-06-27,2019,regular,Wests Tigers,Rabbitohs,14,9,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-293807,2019-06-28,2019,regular,Dragons,Cowboys,22,14,,,espn,Dragons,Cowboys,ST.,NOR
+espn-293808,2019-06-28,2019,regular,Roosters,Storm,12,14,,,espn,Roosters,Storm,SYD,MEL
+espn-293809,2019-06-29,2019,regular,Titans,Sea Eagles,12,30,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-293810,2019-06-29,2019,regular,Knights,Broncos,26,12,,,espn,Knights,Broncos,NEW,BRI
+espn-293811,2019-06-29,2019,regular,Eels,Raiders,22,16,,,espn,Eels,Raiders,PAR,CAN
+espn-293812,2019-06-30,2019,regular,Warriors,Panthers,18,19,,,espn,Warriors,Panthers,NEW,PEN
+espn-293813,2019-06-30,2019,regular,Bulldogs,Sharks,14,12,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-293814,2019-07-04,2019,regular,Dragons,Storm,14,16,,,espn,Dragons,Storm,ST.,MEL
+espn-293815,2019-07-05,2019,regular,Wests Tigers,Roosters,16,24,,,espn,Wests Tigers,Roosters,WES,SYD
+espn-293816,2019-07-06,2019,regular,Knights,Warriors,20,24,,,espn,Knights,Warriors,NEW,NEW
+espn-293817,2019-07-07,2019,regular,Sharks,Broncos,22,24,,,espn,Sharks,Broncos,CRO,BRI
+espn-293818,2019-07-12,2019,regular,Panthers,Titans,24,2,,,espn,Panthers,Titans,PEN,GOL
+espn-293819,2019-07-12,2019,regular,Knights,Bulldogs,14,20,,,espn,Knights,Bulldogs,NEW,CAN
+espn-293820,2019-07-13,2019,regular,Rabbitohs,Sea Eagles,21,20,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-293821,2019-07-13,2019,regular,Broncos,Warriors,18,18,,,espn,Broncos,Warriors,BRI,NEW
+espn-293822,2019-07-13,2019,regular,Storm,Sharks,40,16,,,espn,Storm,Sharks,MEL,CRO
+espn-293823,2019-07-14,2019,regular,Roosters,Cowboys,12,15,,,espn,Roosters,Cowboys,SYD,NOR
+espn-293824,2019-07-14,2019,regular,Wests Tigers,Eels,18,30,,,espn,Wests Tigers,Eels,WES,PAR
+espn-293825,2019-07-14,2019,regular,Dragons,Raiders,14,36,,,espn,Dragons,Raiders,ST.,CAN
+espn-293826,2019-07-18,2019,regular,Broncos,Bulldogs,28,6,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-293827,2019-07-19,2019,regular,Warriors,Sharks,19,18,,,espn,Warriors,Sharks,NEW,CRO
+espn-293828,2019-07-19,2019,regular,Panthers,Dragons,40,18,,,espn,Panthers,Dragons,PEN,ST.
+espn-293829,2019-07-20,2019,regular,Roosters,Knights,48,10,,,espn,Roosters,Knights,SYD,NEW
+espn-293830,2019-07-20,2019,regular,Raiders,Wests Tigers,20,12,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-293831,2019-07-20,2019,regular,Cowboys,Rabbitohs,18,30,,,espn,Cowboys,Rabbitohs,NOR,SOU
+espn-293832,2019-07-21,2019,regular,Titans,Storm,18,38,,,espn,Titans,Storm,GOL,MEL
+espn-293833,2019-07-21,2019,regular,Sea Eagles,Eels,36,24,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-293834,2019-07-25,2019,regular,Sharks,Cowboys,16,14,,,espn,Sharks,Cowboys,CRO,NOR
+espn-293835,2019-07-26,2019,regular,Knights,Wests Tigers,26,28,,,espn,Knights,Wests Tigers,NEW,WES
+espn-293836,2019-07-26,2019,regular,Rabbitohs,Dragons,20,16,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-293837,2019-07-27,2019,regular,Eels,Warriors,24,22,,,espn,Eels,Warriors,PAR,NEW
+espn-293838,2019-07-27,2019,regular,Titans,Broncos,12,34,,,espn,Titans,Broncos,GOL,BRI
+espn-293839,2019-07-27,2019,regular,Storm,Sea Eagles,10,11,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-293840,2019-07-28,2019,regular,Bulldogs,Roosters,12,20,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-293841,2019-07-28,2019,regular,Panthers,Raiders,18,30,,,espn,Panthers,Raiders,PEN,CAN
+espn-293842,2019-08-01,2019,regular,Wests Tigers,Cowboys,28,4,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-293843,2019-08-02,2019,regular,Warriors,Raiders,12,46,,,espn,Warriors,Raiders,NEW,CAN
+espn-293844,2019-08-02,2019,regular,Broncos,Storm,4,40,,,espn,Broncos,Storm,BRI,MEL
+espn-293845,2019-08-03,2019,regular,Sea Eagles,Knights,30,6,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-293846,2019-08-03,2019,regular,Bulldogs,Panthers,16,8,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-293847,2019-08-03,2019,regular,Sharks,Rabbitohs,39,24,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-293848,2019-08-04,2019,regular,Roosters,Titans,58,6,,,espn,Roosters,Titans,SYD,GOL
+espn-293849,2019-08-04,2019,regular,Dragons,Eels,4,12,,,espn,Dragons,Eels,ST.,PAR
+espn-293850,2019-08-08,2019,regular,Cowboys,Broncos,14,18,,,espn,Cowboys,Broncos,NOR,BRI
+espn-293851,2019-08-09,2019,regular,Warriors,Sea Eagles,24,16,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-293852,2019-08-09,2019,regular,Panthers,Sharks,26,20,,,espn,Panthers,Sharks,PEN,CRO
+espn-293853,2019-08-10,2019,regular,Dragons,Titans,40,28,,,espn,Dragons,Titans,ST.,GOL
+espn-293854,2019-08-10,2019,regular,Eels,Knights,20,14,,,espn,Eels,Knights,PAR,NEW
+espn-293855,2019-08-10,2019,regular,Bulldogs,Wests Tigers,18,16,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-293856,2019-08-11,2019,regular,Raiders,Roosters,18,22,,,espn,Raiders,Roosters,CAN,SYD
+espn-293857,2019-08-11,2019,regular,Rabbitohs,Storm,16,26,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-293858,2019-08-15,2019,regular,Sea Eagles,Wests Tigers,32,12,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-293859,2019-08-16,2019,regular,Titans,Eels,12,36,,,espn,Titans,Eels,GOL,PAR
+espn-293860,2019-08-16,2019,regular,Broncos,Panthers,24,12,,,espn,Broncos,Panthers,BRI,PEN
+espn-293861,2019-08-17,2019,regular,Knights,Cowboys,42,6,,,espn,Knights,Cowboys,NEW,NOR
+espn-293862,2019-08-17,2019,regular,Storm,Raiders,18,22,,,espn,Storm,Raiders,MEL,CAN
+espn-293863,2019-08-17,2019,regular,Rabbitohs,Bulldogs,6,14,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-293864,2019-08-18,2019,regular,Roosters,Warriors,42,6,,,espn,Roosters,Warriors,SYD,NEW
+espn-293865,2019-08-18,2019,regular,Sharks,Dragons,18,12,,,espn,Sharks,Dragons,CRO,ST.
+espn-293866,2019-08-22,2019,regular,Eels,Bulldogs,6,12,,,espn,Eels,Bulldogs,PAR,CAN
+espn-293867,2019-08-23,2019,regular,Cowboys,Panthers,24,10,,,espn,Cowboys,Panthers,NOR,PEN
+espn-293868,2019-08-23,2019,regular,Broncos,Rabbitohs,20,22,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-293869,2019-08-24,2019,regular,Sharks,Warriors,42,16,,,espn,Sharks,Warriors,CRO,NEW
+espn-293870,2019-08-24,2019,regular,Wests Tigers,Knights,46,4,,,espn,Wests Tigers,Knights,WES,NEW
+espn-293871,2019-08-24,2019,regular,Dragons,Roosters,12,34,,,espn,Dragons,Roosters,ST.,SYD
+espn-293872,2019-08-25,2019,regular,Storm,Titans,24,8,,,espn,Storm,Titans,MEL,GOL
+espn-293873,2019-08-25,2019,regular,Raiders,Sea Eagles,14,18,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-293874,2019-08-29,2019,regular,Cowboys,Bulldogs,15,8,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-293875,2019-08-30,2019,regular,Warriors,Rabbitohs,10,31,,,espn,Warriors,Rabbitohs,NEW,SOU
+espn-293876,2019-08-30,2019,regular,Broncos,Eels,17,16,,,espn,Broncos,Eels,BRI,PAR
+espn-293877,2019-08-31,2019,regular,Knights,Titans,38,4,,,espn,Knights,Titans,NEW,GOL
+espn-293878,2019-08-31,2019,regular,Sea Eagles,Storm,6,36,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-293879,2019-08-31,2019,regular,Roosters,Panthers,22,6,,,espn,Roosters,Panthers,SYD,PEN
+espn-293880,2019-09-01,2019,regular,Sharks,Raiders,14,15,,,espn,Sharks,Raiders,CRO,CAN
+espn-293881,2019-09-01,2019,regular,Dragons,Wests Tigers,14,42,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-293882,2019-09-05,2019,regular,Rabbitohs,Roosters,16,10,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-293883,2019-09-06,2019,regular,Eels,Sea Eagles,32,16,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-293884,2019-09-06,2019,regular,Storm,Cowboys,24,16,,,espn,Storm,Cowboys,MEL,NOR
+espn-293885,2019-09-07,2019,regular,Raiders,Warriors,20,24,,,espn,Raiders,Warriors,CAN,NEW
+espn-293886,2019-09-07,2019,regular,Bulldogs,Broncos,30,14,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-293887,2019-09-07,2019,regular,Titans,Dragons,16,24,,,espn,Titans,Dragons,GOL,ST.
+espn-293888,2019-09-08,2019,regular,Wests Tigers,Sharks,8,25,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-293889,2019-09-08,2019,regular,Panthers,Knights,54,10,,,espn,Panthers,Knights,PEN,NEW
+espn-293890,2019-09-13,2019,regular,Roosters,Rabbitohs,30,6,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-293891,2019-09-14,2019,regular,Storm,Raiders,10,12,,,espn,Storm,Raiders,MEL,CAN
+espn-293892,2019-09-14,2019,regular,Sea Eagles,Sharks,28,16,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-293893,2019-09-15,2019,regular,Eels,Broncos,58,0,,,espn,Eels,Broncos,PAR,BRI
+espn-293894,2019-09-20,2019,regular,Rabbitohs,Sea Eagles,34,26,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-293895,2019-09-21,2019,regular,Storm,Eels,32,0,,,espn,Storm,Eels,MEL,PAR
+espn-293897,2019-09-27,2019,regular,Raiders,Rabbitohs,16,10,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-293898,2019-09-28,2019,regular,Roosters,Storm,14,6,,,espn,Roosters,Storm,SYD,MEL
+espn-293896,2019-10-06,2019,regular,Roosters,Raiders,14,8,,,espn,Roosters,Raiders,SYD,CAN
+espn-295732,2020-03-12,2020,regular,Eels,Bulldogs,8,2,,,espn,Eels,Bulldogs,PAR,CAN
+espn-295733,2020-03-13,2020,regular,Raiders,Titans,24,6,,,espn,Raiders,Titans,CAN,GOL
+espn-295734,2020-03-13,2020,regular,Cowboys,Broncos,21,28,,,espn,Cowboys,Broncos,NOR,BRI
+espn-295735,2020-03-14,2020,regular,Knights,Warriors,20,0,,,espn,Knights,Warriors,NEW,NEW
+espn-295736,2020-03-14,2020,regular,Rabbitohs,Sharks,22,18,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-295737,2020-03-14,2020,regular,Panthers,Roosters,20,14,,,espn,Panthers,Roosters,PEN,SYD
+espn-295738,2020-03-15,2020,regular,Sea Eagles,Storm,4,18,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-295739,2020-03-15,2020,regular,Dragons,Wests Tigers,14,24,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-295740,2020-03-19,2020,regular,Bulldogs,Cowboys,16,24,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-295741,2020-03-20,2020,regular,Dragons,Panthers,28,32,,,espn,Dragons,Panthers,ST.,PEN
+espn-295742,2020-03-20,2020,regular,Broncos,Rabbitohs,22,18,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-295743,2020-03-21,2020,regular,Warriors,Raiders,6,20,,,espn,Warriors,Raiders,NEW,CAN
+espn-295744,2020-03-21,2020,regular,Roosters,Sea Eagles,8,9,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-295745,2020-03-21,2020,regular,Sharks,Storm,10,12,,,espn,Sharks,Storm,CRO,MEL
+espn-295746,2020-03-22,2020,regular,Wests Tigers,Knights,24,42,,,espn,Wests Tigers,Knights,WES,NEW
+espn-295747,2020-03-22,2020,regular,Titans,Eels,6,46,,,espn,Titans,Eels,GOL,PAR
+espn-592685,2020-05-28,2020,regular,Broncos,Eels,6,34,,,espn,Broncos,Eels,BRI,PAR
+espn-592686,2020-05-29,2020,regular,Cowboys,Titans,36,6,,,espn,Cowboys,Titans,NOR,GOL
+espn-592687,2020-05-29,2020,regular,Roosters,Rabbitohs,28,12,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-592688,2020-05-30,2020,regular,Warriors,Dragons,18,0,,,espn,Warriors,Dragons,NEW,ST.
+espn-592689,2020-05-30,2020,regular,Sharks,Wests Tigers,16,28,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-592690,2020-05-30,2020,regular,Storm,Raiders,6,22,,,espn,Storm,Raiders,MEL,CAN
+espn-592691,2020-05-31,2020,regular,Panthers,Knights,14,14,,,espn,Panthers,Knights,PEN,NEW
+espn-592692,2020-05-31,2020,regular,Sea Eagles,Bulldogs,32,6,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-592693,2020-06-04,2020,regular,Broncos,Roosters,0,59,,,espn,Broncos,Roosters,BRI,SYD
+espn-592694,2020-06-05,2020,regular,Panthers,Warriors,26,0,,,espn,Panthers,Warriors,PEN,NEW
+espn-592695,2020-06-05,2020,regular,Storm,Rabbitohs,22,8,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-592696,2020-06-06,2020,regular,Eels,Sea Eagles,19,16,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-592697,2020-06-06,2020,regular,Cowboys,Sharks,16,26,,,espn,Cowboys,Sharks,NOR,CRO
+espn-592698,2020-06-07,2020,regular,Raiders,Knights,18,34,,,espn,Raiders,Knights,CAN,NEW
+espn-592699,2020-06-07,2020,regular,Titans,Wests Tigers,28,23,,,espn,Titans,Wests Tigers,GOL,WES
+espn-592700,2020-06-08,2020,regular,Bulldogs,Dragons,22,2,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-592701,2020-06-11,2020,regular,Sea Eagles,Broncos,20,18,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-592702,2020-06-12,2020,regular,Warriors,Cowboys,37,26,,,espn,Warriors,Cowboys,NEW,NOR
+espn-592703,2020-06-12,2020,regular,Eels,Panthers,16,10,,,espn,Eels,Panthers,PAR,PEN
+espn-592704,2020-06-13,2020,regular,Rabbitohs,Titans,32,12,,,espn,Rabbitohs,Titans,SOU,GOL
+espn-592705,2020-06-13,2020,regular,Knights,Storm,12,26,,,espn,Knights,Storm,NEW,MEL
+espn-592706,2020-06-13,2020,regular,Wests Tigers,Raiders,6,14,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-592708,2020-06-14,2020,regular,Dragons,Sharks,30,16,,,espn,Dragons,Sharks,ST.,CRO
+espn-592707,2020-06-15,2020,regular,Bulldogs,Roosters,6,42,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-592709,2020-06-18,2020,regular,Knights,Broncos,27,6,,,espn,Knights,Broncos,NEW,BRI
+espn-592710,2020-06-19,2020,regular,Rabbitohs,Warriors,40,12,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-592711,2020-06-19,2020,regular,Panthers,Storm,21,14,,,espn,Panthers,Storm,PEN,MEL
+espn-592712,2020-06-20,2020,regular,Titans,Dragons,8,20,,,espn,Titans,Dragons,GOL,ST.
+espn-592713,2020-06-20,2020,regular,Wests Tigers,Cowboys,36,20,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-592714,2020-06-20,2020,regular,Roosters,Eels,24,10,,,espn,Roosters,Eels,SYD,PAR
+espn-592715,2020-06-21,2020,regular,Raiders,Sea Eagles,6,14,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-592716,2020-06-21,2020,regular,Sharks,Bulldogs,20,18,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-592717,2020-06-25,2020,regular,Panthers,Rabbitohs,20,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-592718,2020-06-26,2020,regular,Storm,Warriors,50,6,,,espn,Storm,Warriors,MEL,NEW
+espn-592719,2020-06-26,2020,regular,Roosters,Dragons,26,12,,,espn,Roosters,Dragons,SYD,ST.
+espn-592720,2020-06-27,2020,regular,Cowboys,Knights,32,20,,,espn,Cowboys,Knights,NOR,NEW
+espn-592721,2020-06-27,2020,regular,Broncos,Titans,12,30,,,espn,Broncos,Titans,BRI,GOL
+espn-592722,2020-06-27,2020,regular,Eels,Raiders,25,24,,,espn,Eels,Raiders,PAR,CAN
+espn-592723,2020-06-28,2020,regular,Sea Eagles,Sharks,22,40,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-592724,2020-06-28,2020,regular,Bulldogs,Wests Tigers,6,34,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-592725,2020-07-02,2020,regular,Storm,Roosters,27,25,,,espn,Storm,Roosters,MEL,SYD
+espn-592726,2020-07-03,2020,regular,Raiders,Dragons,22,16,,,espn,Raiders,Dragons,CAN,ST.
+espn-592727,2020-07-03,2020,regular,Eels,Cowboys,42,4,,,espn,Eels,Cowboys,PAR,NOR
+espn-592728,2020-07-04,2020,regular,Titans,Sharks,10,40,,,espn,Titans,Sharks,GOL,CRO
+espn-592729,2020-07-04,2020,regular,Warriors,Broncos,26,16,,,espn,Warriors,Broncos,NEW,BRI
+espn-592730,2020-07-04,2020,regular,Wests Tigers,Panthers,12,19,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-592731,2020-07-05,2020,regular,Sea Eagles,Knights,12,14,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-592732,2020-07-05,2020,regular,Bulldogs,Rabbitohs,10,26,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-592733,2020-07-09,2020,regular,Cowboys,Roosters,16,42,,,espn,Cowboys,Roosters,NOR,SYD
+espn-592734,2020-07-10,2020,regular,Titans,Warriors,16,12,,,espn,Titans,Warriors,GOL,NEW
+espn-592735,2020-07-10,2020,regular,Rabbitohs,Wests Tigers,18,10,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-592736,2020-07-11,2020,regular,Sharks,Panthers,24,56,,,espn,Sharks,Panthers,CRO,PEN
+espn-592737,2020-07-11,2020,regular,Broncos,Bulldogs,26,8,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-592738,2020-07-11,2020,regular,Raiders,Storm,14,20,,,espn,Raiders,Storm,CAN,MEL
+espn-592739,2020-07-12,2020,regular,Knights,Eels,4,10,,,espn,Knights,Eels,NEW,PAR
+espn-592740,2020-07-12,2020,regular,Dragons,Sea Eagles,34,4,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-592741,2020-07-16,2020,regular,Roosters,Raiders,20,24,,,espn,Roosters,Raiders,SYD,CAN
+espn-592742,2020-07-17,2020,regular,Storm,Titans,42,6,,,espn,Storm,Titans,MEL,GOL
+espn-592743,2020-07-17,2020,regular,Wests Tigers,Broncos,48,0,,,espn,Wests Tigers,Broncos,WES,BRI
+espn-592744,2020-07-18,2020,regular,Dragons,Bulldogs,28,22,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-592745,2020-07-18,2020,regular,Rabbitohs,Knights,18,20,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-592746,2020-07-18,2020,regular,Sea Eagles,Eels,22,18,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-592747,2020-07-19,2020,regular,Warriors,Sharks,10,46,,,espn,Warriors,Sharks,NEW,CRO
+espn-592748,2020-07-19,2020,regular,Panthers,Cowboys,22,10,,,espn,Panthers,Cowboys,PEN,NOR
+espn-592749,2020-07-23,2020,regular,Eels,Wests Tigers,26,16,,,espn,Eels,Wests Tigers,PAR,WES
+espn-592750,2020-07-24,2020,regular,Cowboys,Sea Eagles,12,24,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-592751,2020-07-24,2020,regular,Broncos,Storm,8,46,,,espn,Broncos,Storm,BRI,MEL
+espn-592752,2020-07-25,2020,regular,Warriors,Roosters,10,18,,,espn,Warriors,Roosters,NEW,SYD
+espn-592753,2020-07-25,2020,regular,Sharks,Dragons,28,24,,,espn,Sharks,Dragons,CRO,ST.
+espn-592754,2020-07-25,2020,regular,Raiders,Rabbitohs,18,12,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-592755,2020-07-26,2020,regular,Knights,Bulldogs,12,18,,,espn,Knights,Bulldogs,NEW,CAN
+espn-592756,2020-07-26,2020,regular,Titans,Panthers,14,22,,,espn,Titans,Panthers,GOL,PEN
+espn-592757,2020-07-30,2020,regular,Dragons,Rabbitohs,24,32,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-592758,2020-07-31,2020,regular,Wests Tigers,Warriors,20,26,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-592759,2020-07-31,2020,regular,Broncos,Sharks,26,36,,,espn,Broncos,Sharks,BRI,CRO
+espn-592760,2020-08-01,2020,regular,Roosters,Titans,18,12,,,espn,Roosters,Titans,SYD,GOL
+espn-592761,2020-08-01,2020,regular,Cowboys,Raiders,12,14,,,espn,Cowboys,Raiders,NOR,CAN
+espn-592762,2020-08-01,2020,regular,Sea Eagles,Panthers,12,42,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-592763,2020-08-02,2020,regular,Bulldogs,Eels,16,18,,,espn,Bulldogs,Eels,CAN,PAR
+espn-592764,2020-08-02,2020,regular,Storm,Knights,26,16,,,espn,Storm,Knights,MEL,NEW
+espn-592765,2020-08-06,2020,regular,Dragons,Roosters,16,24,,,espn,Dragons,Roosters,ST.,SYD
+espn-592766,2020-08-07,2020,regular,Sea Eagles,Warriors,22,26,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-592767,2020-08-07,2020,regular,Rabbitohs,Broncos,28,10,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-592768,2020-08-08,2020,regular,Storm,Bulldogs,41,10,,,espn,Storm,Bulldogs,MEL,CAN
+espn-592769,2020-08-08,2020,regular,Knights,Wests Tigers,44,4,,,espn,Knights,Wests Tigers,NEW,WES
+espn-592770,2020-08-08,2020,regular,Panthers,Raiders,28,12,,,espn,Panthers,Raiders,PEN,CAN
+espn-592771,2020-08-09,2020,regular,Titans,Cowboys,30,10,,,espn,Titans,Cowboys,GOL,NOR
+espn-592772,2020-08-09,2020,regular,Sharks,Eels,12,14,,,espn,Sharks,Eels,CRO,PAR
+espn-592773,2020-08-13,2020,regular,Roosters,Storm,6,24,,,espn,Roosters,Storm,SYD,MEL
+espn-592774,2020-08-14,2020,regular,Warriors,Panthers,12,18,,,espn,Warriors,Panthers,NEW,PEN
+espn-592775,2020-08-14,2020,regular,Eels,Dragons,12,14,,,espn,Eels,Dragons,PAR,ST.
+espn-592776,2020-08-15,2020,regular,Sharks,Titans,30,18,,,espn,Sharks,Titans,CRO,GOL
+espn-592777,2020-08-15,2020,regular,Cowboys,Rabbitohs,30,31,,,espn,Cowboys,Rabbitohs,NOR,SOU
+espn-592778,2020-08-15,2020,regular,Raiders,Broncos,36,8,,,espn,Raiders,Broncos,CAN,BRI
+espn-592779,2020-08-16,2020,regular,Wests Tigers,Bulldogs,29,28,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-592780,2020-08-16,2020,regular,Knights,Sea Eagles,26,24,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-592781,2020-08-20,2020,regular,Eels,Storm,14,0,,,espn,Eels,Storm,PAR,MEL
+espn-592782,2020-08-21,2020,regular,Panthers,Sharks,38,12,,,espn,Panthers,Sharks,PEN,CRO
+espn-592783,2020-08-21,2020,regular,Broncos,Dragons,24,28,,,espn,Broncos,Dragons,BRI,ST.
+espn-592784,2020-08-22,2020,regular,Titans,Raiders,16,36,,,espn,Titans,Raiders,GOL,CAN
+espn-592785,2020-08-22,2020,regular,Wests Tigers,Roosters,16,38,,,espn,Wests Tigers,Roosters,WES,SYD
+espn-592786,2020-08-22,2020,regular,Rabbitohs,Sea Eagles,56,16,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-592787,2020-08-23,2020,regular,Bulldogs,Warriors,14,20,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-592788,2020-08-23,2020,regular,Knights,Cowboys,12,0,,,espn,Knights,Cowboys,NEW,NOR
+espn-592789,2020-08-27,2020,regular,Eels,Rabbitohs,0,38,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-592790,2020-08-28,2020,regular,Dragons,Titans,10,14,,,espn,Dragons,Titans,ST.,GOL
+espn-592791,2020-08-28,2020,regular,Roosters,Broncos,58,12,,,espn,Roosters,Broncos,SYD,BRI
+espn-592792,2020-08-29,2020,regular,Warriors,Knights,36,6,,,espn,Warriors,Knights,NEW,NEW
+espn-592793,2020-08-29,2020,regular,Sharks,Cowboys,28,12,,,espn,Sharks,Cowboys,CRO,NOR
+espn-592794,2020-08-29,2020,regular,Panthers,Wests Tigers,30,6,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-592795,2020-08-30,2020,regular,Storm,Sea Eagles,30,6,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-592796,2020-08-30,2020,regular,Raiders,Bulldogs,34,20,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-592797,2020-09-03,2020,regular,Broncos,Panthers,12,25,,,espn,Broncos,Panthers,BRI,PEN
+espn-592798,2020-09-04,2020,regular,Knights,Sharks,38,10,,,espn,Knights,Sharks,NEW,CRO
+espn-592799,2020-09-04,2020,regular,Rabbitohs,Storm,16,22,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-592800,2020-09-05,2020,regular,Bulldogs,Titans,14,18,,,espn,Bulldogs,Titans,CAN,GOL
+espn-592801,2020-09-05,2020,regular,Sea Eagles,Wests Tigers,32,34,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-592802,2020-09-05,2020,regular,Raiders,Roosters,6,18,,,espn,Raiders,Roosters,CAN,SYD
+espn-592803,2020-09-06,2020,regular,Warriors,Eels,18,24,,,espn,Warriors,Eels,NEW,PAR
+espn-592804,2020-09-06,2020,regular,Cowboys,Dragons,23,22,,,espn,Cowboys,Dragons,NOR,ST.
+espn-592805,2020-09-10,2020,regular,Wests Tigers,Rabbitohs,24,26,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-592806,2020-09-11,2020,regular,Bulldogs,Sea Eagles,20,32,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-592807,2020-09-11,2020,regular,Panthers,Eels,20,2,,,espn,Panthers,Eels,PEN,PAR
+espn-592808,2020-09-12,2020,regular,Dragons,Raiders,8,37,,,espn,Dragons,Raiders,ST.,CAN
+espn-592809,2020-09-12,2020,regular,Titans,Broncos,18,6,,,espn,Titans,Broncos,GOL,BRI
+espn-592810,2020-09-12,2020,regular,Roosters,Knights,42,12,,,espn,Roosters,Knights,SYD,NEW
+espn-592811,2020-09-13,2020,regular,Storm,Cowboys,36,20,,,espn,Storm,Cowboys,MEL,NOR
+espn-592812,2020-09-13,2020,regular,Sharks,Warriors,22,14,,,espn,Sharks,Warriors,CRO,NEW
+espn-592813,2020-09-17,2020,regular,Rabbitohs,Bulldogs,16,26,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-592814,2020-09-18,2020,regular,Cowboys,Panthers,12,32,,,espn,Cowboys,Panthers,NOR,PEN
+espn-592815,2020-09-18,2020,regular,Eels,Broncos,26,12,,,espn,Eels,Broncos,PAR,BRI
+espn-592816,2020-09-19,2020,regular,Sea Eagles,Titans,24,42,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-592817,2020-09-19,2020,regular,Storm,Wests Tigers,50,22,,,espn,Storm,Wests Tigers,MEL,WES
+espn-592818,2020-09-19,2020,regular,Roosters,Sharks,34,18,,,espn,Roosters,Sharks,SYD,CRO
+espn-592819,2020-09-20,2020,regular,Raiders,Warriors,26,14,,,espn,Raiders,Warriors,CAN,NEW
+espn-592820,2020-09-20,2020,regular,Knights,Dragons,42,18,,,espn,Knights,Dragons,NEW,ST.
+espn-592821,2020-09-24,2020,regular,Broncos,Cowboys,16,32,,,espn,Broncos,Cowboys,BRI,NOR
+espn-592822,2020-09-25,2020,regular,Titans,Knights,36,6,,,espn,Titans,Knights,GOL,NEW
+espn-592823,2020-09-25,2020,regular,Rabbitohs,Roosters,60,8,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-592824,2020-09-26,2020,regular,Bulldogs,Panthers,0,42,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-592825,2020-09-26,2020,regular,Sharks,Raiders,28,38,,,espn,Sharks,Raiders,CRO,CAN
+espn-592826,2020-09-26,2020,regular,Wests Tigers,Eels,24,28,,,espn,Wests Tigers,Eels,WES,PAR
+espn-592827,2020-09-27,2020,regular,Warriors,Sea Eagles,40,28,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-592828,2020-09-27,2020,regular,Dragons,Storm,30,22,,,espn,Dragons,Storm,ST.,MEL
+espn-592829,2020-10-02,2020,regular,Panthers,Roosters,29,28,,,espn,Panthers,Roosters,PEN,SYD
+espn-592830,2020-10-03,2020,regular,Raiders,Sharks,32,20,,,espn,Raiders,Sharks,CAN,CRO
+espn-592831,2020-10-03,2020,regular,Storm,Eels,36,24,,,espn,Storm,Eels,MEL,PAR
+espn-592832,2020-10-04,2020,regular,Rabbitohs,Knights,46,20,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-592833,2020-10-09,2020,regular,Roosters,Raiders,18,22,,,espn,Roosters,Raiders,SYD,CAN
+espn-592834,2020-10-10,2020,regular,Eels,Rabbitohs,24,38,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-592835,2020-10-16,2020,regular,Storm,Raiders,30,10,,,espn,Storm,Raiders,MEL,CAN
+espn-592836,2020-10-17,2020,regular,Panthers,Rabbitohs,20,16,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-592858,2020-10-25,2020,regular,Panthers,Storm,20,26,,,espn,Panthers,Storm,PEN,MEL
+espn-593229,2021-03-11,2021,regular,Storm,Rabbitohs,26,18,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-593417,2021-03-12,2021,regular,Knights,Bulldogs,32,16,,,espn,Knights,Bulldogs,NEW,CAN
+espn-593418,2021-03-12,2021,regular,Broncos,Eels,16,24,,,espn,Broncos,Eels,BRI,PAR
+espn-593419,2021-03-12,2021,regular,Warriors,Titans,19,6,,,espn,Warriors,Titans,NEW,GOL
+espn-593420,2021-03-13,2021,regular,Roosters,Sea Eagles,46,4,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-593421,2021-03-13,2021,regular,Panthers,Cowboys,24,0,,,espn,Panthers,Cowboys,PEN,NOR
+espn-593206,2021-03-14,2021,regular,Dragons,Sharks,18,32,,,espn,Dragons,Sharks,ST.,CRO
+espn-593422,2021-03-14,2021,regular,Raiders,Wests Tigers,30,12,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-593423,2021-03-18,2021,regular,Eels,Storm,16,12,,,espn,Eels,Storm,PAR,MEL
+espn-593424,2021-03-19,2021,regular,Warriors,Knights,16,20,,,espn,Warriors,Knights,NEW,NEW
+espn-593425,2021-03-19,2021,regular,Titans,Broncos,28,16,,,espn,Titans,Broncos,GOL,BRI
+espn-593426,2021-03-20,2021,regular,Bulldogs,Panthers,0,28,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-593427,2021-03-20,2021,regular,Sea Eagles,Rabbitohs,12,26,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-593428,2021-03-20,2021,regular,Cowboys,Dragons,18,25,,,espn,Cowboys,Dragons,NOR,ST.
+espn-593207,2021-03-21,2021,regular,Sharks,Raiders,10,12,,,espn,Sharks,Raiders,CRO,CAN
+espn-593429,2021-03-21,2021,regular,Wests Tigers,Roosters,6,40,,,espn,Wests Tigers,Roosters,WES,SYD
+espn-593430,2021-03-25,2021,regular,Panthers,Storm,12,10,,,espn,Panthers,Storm,PEN,MEL
+espn-593431,2021-03-26,2021,regular,Dragons,Sea Eagles,38,12,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-593432,2021-03-26,2021,regular,Rabbitohs,Roosters,26,16,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-593433,2021-03-27,2021,regular,Raiders,Warriors,31,34,,,espn,Raiders,Warriors,CAN,NEW
+espn-593434,2021-03-27,2021,regular,Broncos,Bulldogs,24,0,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-593435,2021-03-27,2021,regular,Eels,Sharks,28,4,,,espn,Eels,Sharks,PAR,CRO
+espn-593208,2021-03-28,2021,regular,Cowboys,Titans,8,44,,,espn,Cowboys,Titans,NOR,GOL
+espn-593436,2021-03-28,2021,regular,Knights,Wests Tigers,20,24,,,espn,Knights,Wests Tigers,NEW,WES
+espn-593437,2021-04-01,2021,regular,Sea Eagles,Panthers,6,46,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-593438,2021-04-02,2021,regular,Bulldogs,Rabbitohs,0,38,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-593439,2021-04-02,2021,regular,Storm,Broncos,40,6,,,espn,Storm,Broncos,MEL,BRI
+espn-593440,2021-04-03,2021,regular,Sharks,Cowboys,48,10,,,espn,Sharks,Cowboys,CRO,NOR
+espn-593441,2021-04-03,2021,regular,Titans,Raiders,4,20,,,espn,Titans,Raiders,GOL,CAN
+espn-593442,2021-04-04,2021,regular,Knights,Dragons,13,22,,,espn,Knights,Dragons,NEW,ST.
+espn-593443,2021-04-04,2021,regular,Roosters,Warriors,32,12,,,espn,Roosters,Warriors,SYD,NEW
+espn-593209,2021-04-05,2021,regular,Wests Tigers,Eels,22,36,,,espn,Wests Tigers,Eels,WES,PAR
+espn-593444,2021-04-08,2021,regular,Rabbitohs,Broncos,35,6,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-593445,2021-04-09,2021,regular,Warriors,Sea Eagles,12,13,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-593446,2021-04-09,2021,regular,Panthers,Raiders,30,10,,,espn,Panthers,Raiders,PEN,CAN
+espn-593447,2021-04-10,2021,regular,Titans,Knights,42,16,,,espn,Titans,Knights,GOL,NEW
+espn-593448,2021-04-10,2021,regular,Bulldogs,Storm,18,52,,,espn,Bulldogs,Storm,CAN,MEL
+espn-593449,2021-04-10,2021,regular,Roosters,Sharks,26,18,,,espn,Roosters,Sharks,SYD,CRO
+espn-593210,2021-04-11,2021,regular,Eels,Dragons,12,26,,,espn,Eels,Dragons,PAR,ST.
+espn-593450,2021-04-11,2021,regular,Wests Tigers,Cowboys,30,34,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-593451,2021-04-15,2021,regular,Broncos,Panthers,12,20,,,espn,Broncos,Panthers,BRI,PEN
+espn-593452,2021-04-16,2021,regular,Knights,Sharks,26,22,,,espn,Knights,Sharks,NEW,CRO
+espn-593453,2021-04-16,2021,regular,Storm,Roosters,20,4,,,espn,Storm,Roosters,MEL,SYD
+espn-593454,2021-04-17,2021,regular,Sea Eagles,Titans,36,0,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-593455,2021-04-17,2021,regular,Rabbitohs,Wests Tigers,18,14,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-593456,2021-04-17,2021,regular,Raiders,Eels,10,35,,,espn,Raiders,Eels,CAN,PAR
+espn-593211,2021-04-18,2021,regular,Cowboys,Bulldogs,30,18,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-593457,2021-04-18,2021,regular,Dragons,Warriors,14,20,,,espn,Dragons,Warriors,ST.,NEW
+espn-593458,2021-04-22,2021,regular,Panthers,Knights,24,6,,,espn,Panthers,Knights,PEN,NEW
+espn-593459,2021-04-23,2021,regular,Titans,Rabbitohs,30,40,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-593460,2021-04-23,2021,regular,Eels,Broncos,46,6,,,espn,Eels,Broncos,PAR,BRI
+espn-593461,2021-04-24,2021,regular,Sharks,Bulldogs,12,18,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-593462,2021-04-24,2021,regular,Cowboys,Raiders,26,24,,,espn,Cowboys,Raiders,NOR,CAN
+espn-593463,2021-04-24,2021,regular,Wests Tigers,Sea Eagles,6,40,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-593212,2021-04-25,2021,regular,Storm,Warriors,42,20,,,espn,Storm,Warriors,MEL,NEW
+espn-593464,2021-04-25,2021,regular,Roosters,Dragons,34,10,,,espn,Roosters,Dragons,SYD,ST.
+espn-593465,2021-04-29,2021,regular,Raiders,Rabbitohs,20,34,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-593466,2021-04-30,2021,regular,Storm,Sharks,40,14,,,espn,Storm,Sharks,MEL,CRO
+espn-593467,2021-04-30,2021,regular,Broncos,Titans,36,28,,,espn,Broncos,Titans,BRI,GOL
+espn-593468,2021-05-01,2021,regular,Panthers,Sea Eagles,28,16,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-593469,2021-05-01,2021,regular,Bulldogs,Eels,10,32,,,espn,Bulldogs,Eels,CAN,PAR
+espn-593470,2021-05-01,2021,regular,Knights,Roosters,4,38,,,espn,Knights,Roosters,NEW,SYD
+espn-593213,2021-05-02,2021,regular,Dragons,Wests Tigers,8,16,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-593471,2021-05-02,2021,regular,Warriors,Cowboys,24,20,,,espn,Warriors,Cowboys,NEW,NOR
+espn-593472,2021-05-06,2021,regular,Rabbitohs,Storm,0,50,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-593473,2021-05-07,2021,regular,Panthers,Sharks,48,0,,,espn,Panthers,Sharks,PEN,CRO
+espn-593474,2021-05-07,2021,regular,Eels,Roosters,31,18,,,espn,Eels,Roosters,PAR,SYD
+espn-593475,2021-05-08,2021,regular,Raiders,Knights,16,24,,,espn,Raiders,Knights,CAN,NEW
+espn-593476,2021-05-08,2021,regular,Wests Tigers,Titans,28,36,,,espn,Wests Tigers,Titans,WES,GOL
+espn-593477,2021-05-08,2021,regular,Cowboys,Broncos,19,18,,,espn,Cowboys,Broncos,NOR,BRI
+espn-593214,2021-05-09,2021,regular,Dragons,Bulldogs,32,12,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-593478,2021-05-09,2021,regular,Sea Eagles,Warriors,38,32,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-593479,2021-05-14,2021,regular,Wests Tigers,Knights,36,18,,,espn,Wests Tigers,Knights,WES,NEW
+espn-593480,2021-05-14,2021,regular,Sea Eagles,Broncos,50,6,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-593481,2021-05-15,2021,regular,Bulldogs,Raiders,18,20,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-593482,2021-05-15,2021,regular,Sharks,Rabbitohs,22,32,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-593483,2021-05-15,2021,regular,Roosters,Cowboys,30,16,,,espn,Roosters,Cowboys,SYD,NOR
+espn-593484,2021-05-15,2021,regular,Warriors,Eels,18,34,,,espn,Warriors,Eels,NEW,PAR
+espn-593215,2021-05-16,2021,regular,Titans,Panthers,12,48,,,espn,Titans,Panthers,GOL,PEN
+espn-593485,2021-05-16,2021,regular,Storm,Dragons,44,18,,,espn,Storm,Dragons,MEL,ST.
+espn-593486,2021-05-20,2021,regular,Cowboys,Knights,36,20,,,espn,Cowboys,Knights,NOR,NEW
+espn-593487,2021-05-21,2021,regular,Warriors,Wests Tigers,30,26,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-593488,2021-05-21,2021,regular,Sharks,Dragons,13,12,,,espn,Sharks,Dragons,CRO,ST.
+espn-593489,2021-05-22,2021,regular,Titans,Bulldogs,30,20,,,espn,Titans,Bulldogs,GOL,CAN
+espn-593490,2021-05-22,2021,regular,Roosters,Broncos,16,34,,,espn,Roosters,Broncos,SYD,BRI
+espn-593491,2021-05-22,2021,regular,Raiders,Storm,10,34,,,espn,Raiders,Storm,CAN,MEL
+espn-593216,2021-05-23,2021,regular,Eels,Sea Eagles,6,28,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-593492,2021-05-23,2021,regular,Rabbitohs,Panthers,12,56,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-593493,2021-05-27,2021,regular,Broncos,Storm,12,40,,,espn,Broncos,Storm,BRI,MEL
+espn-593494,2021-05-28,2021,regular,Cowboys,Warriors,29,28,,,espn,Cowboys,Warriors,NOR,NEW
+espn-593495,2021-05-28,2021,regular,Wests Tigers,Dragons,34,18,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-593496,2021-05-29,2021,regular,Panthers,Bulldogs,30,4,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-593497,2021-05-29,2021,regular,Rabbitohs,Eels,38,20,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-593498,2021-05-29,2021,regular,Roosters,Raiders,44,16,,,espn,Roosters,Raiders,SYD,CAN
+espn-593217,2021-05-30,2021,regular,Knights,Sea Eagles,18,10,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-593499,2021-05-30,2021,regular,Sharks,Titans,38,10,,,espn,Sharks,Titans,CRO,GOL
+espn-593500,2021-06-03,2021,regular,Dragons,Broncos,52,24,,,espn,Dragons,Broncos,ST.,BRI
+espn-593501,2021-06-04,2021,regular,Wests Tigers,Panthers,26,6,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-593502,2021-06-05,2021,regular,Storm,Titans,20,14,,,espn,Storm,Titans,MEL,GOL
+espn-593503,2021-06-06,2021,regular,Knights,Eels,4,40,,,espn,Knights,Eels,NEW,PAR
+espn-593814,2021-06-09,2021,regular,Queensland,New South Wales,6,50,,,espn,Queensland,New South Wales,QUE,NEW
+espn-593504,2021-06-11,2021,regular,Sea Eagles,Cowboys,50,18,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-593505,2021-06-11,2021,regular,Sharks,Panthers,19,18,,,espn,Sharks,Panthers,CRO,PEN
+espn-593506,2021-06-12,2021,regular,Titans,Roosters,34,35,,,espn,Titans,Roosters,GOL,SYD
+espn-593507,2021-06-12,2021,regular,Rabbitohs,Knights,24,10,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-593508,2021-06-12,2021,regular,Raiders,Broncos,38,16,,,espn,Raiders,Broncos,CAN,BRI
+espn-593509,2021-06-13,2021,regular,Warriors,Storm,16,42,,,espn,Warriors,Storm,NEW,MEL
+espn-593510,2021-06-13,2021,regular,Eels,Wests Tigers,40,12,,,espn,Eels,Wests Tigers,PAR,WES
+espn-593218,2021-06-14,2021,regular,Bulldogs,Dragons,28,6,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-593511,2021-06-17,2021,regular,Broncos,Rabbitohs,0,46,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-593512,2021-06-18,2021,regular,Cowboys,Sharks,24,26,,,espn,Cowboys,Sharks,NOR,CRO
+espn-593513,2021-06-18,2021,regular,Panthers,Roosters,38,12,,,espn,Panthers,Roosters,PEN,SYD
+espn-593514,2021-06-19,2021,regular,Knights,Warriors,10,6,,,espn,Knights,Warriors,NEW,NEW
+espn-593515,2021-06-19,2021,regular,Dragons,Raiders,22,20,,,espn,Dragons,Raiders,ST.,CAN
+espn-593516,2021-06-19,2021,regular,Storm,Wests Tigers,66,16,,,espn,Storm,Wests Tigers,MEL,WES
+espn-593219,2021-06-20,2021,regular,Titans,Sea Eagles,24,56,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-593517,2021-06-20,2021,regular,Eels,Bulldogs,36,10,,,espn,Eels,Bulldogs,PAR,CAN
+espn-593815,2021-06-27,2021,regular,Queensland,New South Wales,0,26,,,espn,Queensland,New South Wales,QUE,NEW
+espn-593518,2021-07-01,2021,regular,Roosters,Storm,0,46,,,espn,Roosters,Storm,SYD,MEL
+espn-593519,2021-07-02,2021,regular,Warriors,Dragons,18,19,,,espn,Warriors,Dragons,NEW,ST.
+espn-593520,2021-07-02,2021,regular,Panthers,Eels,13,12,,,espn,Panthers,Eels,PEN,PAR
+espn-593521,2021-07-03,2021,regular,Bulldogs,Sea Eagles,0,66,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-593522,2021-07-03,2021,regular,Raiders,Titans,6,44,,,espn,Raiders,Titans,CAN,GOL
+espn-593523,2021-07-03,2021,regular,Knights,Cowboys,38,0,,,espn,Knights,Cowboys,NEW,NOR
+espn-593220,2021-07-04,2021,regular,Wests Tigers,Rabbitohs,22,38,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-593524,2021-07-04,2021,regular,Broncos,Sharks,26,18,,,espn,Broncos,Sharks,BRI,CRO
+espn-593525,2021-07-08,2021,regular,Sea Eagles,Raiders,16,30,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-593526,2021-07-09,2021,regular,Rabbitohs,Cowboys,46,18,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-593527,2021-07-10,2021,regular,Bulldogs,Roosters,16,22,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-593528,2021-07-11,2021,regular,Sharks,Warriors,20,12,,,espn,Sharks,Warriors,CRO,NEW
+espn-593816,2021-07-14,2021,regular,New South Wales,Queensland,18,20,,,espn,New South Wales,Queensland,NEW,QUE
+espn-593529,2021-07-16,2021,regular,Titans,Eels,8,26,,,espn,Titans,Eels,GOL,PAR
+espn-593530,2021-07-16,2021,regular,Sea Eagles,Dragons,32,18,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-593531,2021-07-17,2021,regular,Raiders,Sharks,34,18,,,espn,Raiders,Sharks,CAN,CRO
+espn-593532,2021-07-17,2021,regular,Cowboys,Roosters,18,34,,,espn,Cowboys,Roosters,NOR,SYD
+espn-593533,2021-07-17,2021,regular,Storm,Knights,48,4,,,espn,Storm,Knights,MEL,NEW
+espn-593534,2021-07-17,2021,regular,Warriors,Panthers,16,30,,,espn,Warriors,Panthers,NEW,PEN
+espn-593221,2021-07-18,2021,regular,Rabbitohs,Bulldogs,32,24,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-593535,2021-07-18,2021,regular,Broncos,Wests Tigers,24,42,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-593536,2021-07-22,2021,regular,Eels,Raiders,10,12,,,espn,Eels,Raiders,PAR,CAN
+espn-593537,2021-07-23,2021,regular,Roosters,Knights,28,8,,,espn,Roosters,Knights,SYD,NEW
+espn-593538,2021-07-23,2021,regular,Cowboys,Storm,16,20,,,espn,Cowboys,Storm,NOR,MEL
+espn-593539,2021-07-24,2021,regular,Rabbitohs,Warriors,60,22,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-593540,2021-07-24,2021,regular,Sea Eagles,Wests Tigers,44,24,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-593541,2021-07-24,2021,regular,Panthers,Broncos,18,12,,,espn,Panthers,Broncos,PEN,BRI
+espn-593542,2021-07-24,2021,regular,Dragons,Titans,10,32,,,espn,Dragons,Titans,ST.,GOL
+espn-593222,2021-07-25,2021,regular,Bulldogs,Sharks,24,44,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-593543,2021-07-29,2021,regular,Roosters,Eels,28,0,,,espn,Roosters,Eels,SYD,PAR
+espn-593544,2021-07-30,2021,regular,Wests Tigers,Warriors,16,18,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-593545,2021-07-30,2021,regular,Broncos,Cowboys,37,18,,,espn,Broncos,Cowboys,BRI,NOR
+espn-593547,2021-07-31,2021,regular,Knights,Raiders,34,24,,,espn,Knights,Raiders,NEW,CAN
+espn-593546,2021-08-01,2021,regular,Dragons,Rabbitohs,14,50,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-593548,2021-08-01,2021,regular,Storm,Panthers,37,10,,,espn,Storm,Panthers,MEL,PEN
+espn-593223,2021-08-02,2021,regular,Sharks,Sea Eagles,22,40,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-593549,2021-08-02,2021,regular,Bulldogs,Titans,6,34,,,espn,Bulldogs,Titans,CAN,GOL
+espn-593550,2021-08-05,2021,regular,Knights,Broncos,28,20,,,espn,Knights,Broncos,NEW,BRI
+espn-593551,2021-08-06,2021,regular,Raiders,Dragons,20,12,,,espn,Raiders,Dragons,CAN,ST.
+espn-593552,2021-08-06,2021,regular,Eels,Rabbitohs,12,40,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-593553,2021-08-07,2021,regular,Warriors,Sharks,18,16,,,espn,Warriors,Sharks,NEW,CRO
+espn-593554,2021-08-07,2021,regular,Roosters,Panthers,14,20,,,espn,Roosters,Panthers,SYD,PEN
+espn-593555,2021-08-07,2021,regular,Sea Eagles,Storm,18,28,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-593556,2021-08-07,2021,regular,Bulldogs,Wests Tigers,16,28,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-593224,2021-08-08,2021,regular,Titans,Cowboys,36,14,,,espn,Titans,Cowboys,GOL,NOR
+espn-593557,2021-08-12,2021,regular,Storm,Raiders,26,16,,,espn,Storm,Raiders,MEL,CAN
+espn-593558,2021-08-13,2021,regular,Dragons,Panthers,16,34,,,espn,Dragons,Panthers,ST.,PEN
+espn-593559,2021-08-13,2021,regular,Broncos,Roosters,20,21,,,espn,Broncos,Roosters,BRI,SYD
+espn-593560,2021-08-14,2021,regular,Rabbitohs,Titans,36,6,,,espn,Rabbitohs,Titans,SOU,GOL
+espn-593561,2021-08-14,2021,regular,Cowboys,Wests Tigers,16,24,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-593562,2021-08-14,2021,regular,Sea Eagles,Eels,56,10,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-593563,2021-08-14,2021,regular,Warriors,Bulldogs,24,10,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-593225,2021-08-15,2021,regular,Sharks,Knights,14,16,,,espn,Sharks,Knights,CRO,NEW
+espn-593564,2021-08-19,2021,regular,Titans,Storm,20,34,,,espn,Titans,Storm,GOL,MEL
+espn-593565,2021-08-20,2021,regular,Raiders,Sea Eagles,18,19,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-593566,2021-08-20,2021,regular,Panthers,Rabbitohs,25,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-593567,2021-08-21,2021,regular,Wests Tigers,Sharks,20,50,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-593568,2021-08-21,2021,regular,Bulldogs,Knights,16,22,,,espn,Bulldogs,Knights,CAN,NEW
+espn-593569,2021-08-21,2021,regular,Eels,Cowboys,32,16,,,espn,Eels,Cowboys,PAR,NOR
+espn-593226,2021-08-22,2021,regular,Broncos,Warriors,24,22,,,espn,Broncos,Warriors,BRI,NEW
+espn-593570,2021-08-22,2021,regular,Dragons,Roosters,22,40,,,espn,Dragons,Roosters,ST.,SYD
+espn-593571,2021-08-26,2021,regular,Knights,Titans,15,14,,,espn,Knights,Titans,NEW,GOL
+espn-593572,2021-08-27,2021,regular,Warriors,Raiders,16,28,,,espn,Warriors,Raiders,NEW,CAN
+espn-593573,2021-08-27,2021,regular,Roosters,Rabbitohs,12,54,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-593574,2021-08-28,2021,regular,Dragons,Cowboys,26,38,,,espn,Dragons,Cowboys,ST.,NOR
+espn-593575,2021-08-28,2021,regular,Sharks,Broncos,24,16,,,espn,Sharks,Broncos,CRO,BRI
+espn-593576,2021-08-28,2021,regular,Storm,Eels,10,22,,,espn,Storm,Eels,MEL,PAR
+espn-593577,2021-08-28,2021,regular,Sea Eagles,Bulldogs,36,18,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-593227,2021-08-29,2021,regular,Panthers,Wests Tigers,30,16,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-593578,2021-09-02,2021,regular,Raiders,Roosters,16,40,,,espn,Raiders,Roosters,CAN,SYD
+espn-593579,2021-09-03,2021,regular,Sharks,Storm,16,28,,,espn,Sharks,Storm,CRO,MEL
+espn-593580,2021-09-03,2021,regular,Eels,Panthers,6,40,,,espn,Eels,Panthers,PAR,PEN
+espn-593581,2021-09-04,2021,regular,Broncos,Knights,35,22,,,espn,Broncos,Knights,BRI,NEW
+espn-593582,2021-09-04,2021,regular,Cowboys,Sea Eagles,18,46,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-593583,2021-09-04,2021,regular,Rabbitohs,Dragons,20,16,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-593228,2021-09-05,2021,regular,Wests Tigers,Bulldogs,0,38,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-593584,2021-09-05,2021,regular,Titans,Warriors,44,0,,,espn,Titans,Warriors,GOL,NEW
+espn-593585,2021-09-10,2021,regular,Storm,Sea Eagles,40,12,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-593586,2021-09-11,2021,regular,Roosters,Titans,25,24,,,espn,Roosters,Titans,SYD,GOL
+espn-593587,2021-09-11,2021,regular,Panthers,Rabbitohs,10,16,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-593588,2021-09-12,2021,regular,Eels,Knights,28,20,,,espn,Eels,Knights,PAR,NEW
+espn-593589,2021-09-17,2021,regular,Sea Eagles,Roosters,42,6,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-593590,2021-09-18,2021,regular,Panthers,Eels,8,6,,,espn,Panthers,Eels,PEN,PAR
+espn-593591,2021-09-24,2021,regular,Rabbitohs,Sea Eagles,36,16,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-593592,2021-09-25,2021,regular,Storm,Panthers,6,10,,,espn,Storm,Panthers,MEL,PEN
+espn-593593,2021-10-03,2021,regular,Panthers,Rabbitohs,14,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-594888,2022-03-10,2022,regular,Panthers,Sea Eagles,28,6,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-594889,2022-03-11,2022,regular,Raiders,Sharks,24,19,,,espn,Raiders,Sharks,CAN,CRO
+espn-594890,2022-03-11,2022,regular,Broncos,Rabbitohs,11,4,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-594891,2022-03-11,2022,regular,Roosters,Knights,6,20,,,espn,Roosters,Knights,SYD,NEW
+espn-594892,2022-03-12,2022,regular,Warriors,Dragons,16,28,,,espn,Warriors,Dragons,NEW,ST.
+espn-594893,2022-03-12,2022,regular,Wests Tigers,Storm,16,26,,,espn,Wests Tigers,Storm,WES,MEL
+espn-594894,2022-03-13,2022,regular,Eels,Titans,32,28,,,espn,Eels,Titans,PAR,GOL
+espn-594895,2022-03-13,2022,regular,Cowboys,Bulldogs,4,6,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-594896,2022-03-17,2022,regular,Storm,Rabbitohs,15,14,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-594897,2022-03-18,2022,regular,Dragons,Panthers,16,20,,,espn,Dragons,Panthers,ST.,PEN
+espn-594898,2022-03-18,2022,regular,Roosters,Sea Eagles,26,12,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-594899,2022-03-19,2022,regular,Titans,Warriors,20,18,,,espn,Titans,Warriors,GOL,NEW
+espn-594900,2022-03-19,2022,regular,Sharks,Eels,18,16,,,espn,Sharks,Eels,CRO,PAR
+espn-594901,2022-03-19,2022,regular,Cowboys,Raiders,26,6,,,espn,Cowboys,Raiders,NOR,CAN
+espn-594902,2022-03-20,2022,regular,Knights,Wests Tigers,26,4,,,espn,Knights,Wests Tigers,NEW,WES
+espn-594903,2022-03-20,2022,regular,Bulldogs,Broncos,10,16,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-594904,2022-03-24,2022,regular,Dragons,Sharks,12,36,,,espn,Dragons,Sharks,ST.,CRO
+espn-594905,2022-03-25,2022,regular,Wests Tigers,Warriors,12,16,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-594906,2022-03-25,2022,regular,Rabbitohs,Roosters,28,16,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-594907,2022-03-26,2022,regular,Panthers,Knights,38,20,,,espn,Panthers,Knights,PEN,NEW
+espn-594908,2022-03-26,2022,regular,Storm,Eels,24,28,,,espn,Storm,Eels,MEL,PAR
+espn-594909,2022-03-26,2022,regular,Raiders,Titans,24,22,,,espn,Raiders,Titans,CAN,GOL
+espn-594910,2022-03-27,2022,regular,Broncos,Cowboys,12,38,,,espn,Broncos,Cowboys,BRI,NOR
+espn-594911,2022-03-27,2022,regular,Sea Eagles,Bulldogs,13,12,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-594912,2022-03-31,2022,regular,Titans,Wests Tigers,8,6,,,espn,Titans,Wests Tigers,GOL,WES
+espn-594913,2022-04-01,2022,regular,Sharks,Knights,18,0,,,espn,Sharks,Knights,CRO,NEW
+espn-594914,2022-04-01,2022,regular,Panthers,Rabbitohs,26,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-594915,2022-04-02,2022,regular,Warriors,Broncos,20,6,,,espn,Warriors,Broncos,NEW,BRI
+espn-594916,2022-04-02,2022,regular,Sea Eagles,Raiders,25,6,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-594917,2022-04-02,2022,regular,Cowboys,Roosters,4,28,,,espn,Cowboys,Roosters,NOR,SYD
+espn-594918,2022-04-03,2022,regular,Storm,Bulldogs,44,0,,,espn,Storm,Bulldogs,MEL,CAN
+espn-594919,2022-04-03,2022,regular,Eels,Dragons,48,14,,,espn,Eels,Dragons,PAR,ST.
+espn-594920,2022-04-07,2022,regular,Knights,Sea Eagles,6,30,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-594921,2022-04-08,2022,regular,Warriors,Cowboys,25,24,,,espn,Warriors,Cowboys,NEW,NOR
+espn-594922,2022-04-08,2022,regular,Broncos,Roosters,20,24,,,espn,Broncos,Roosters,BRI,SYD
+espn-594923,2022-04-09,2022,regular,Raiders,Storm,16,30,,,espn,Raiders,Storm,CAN,MEL
+espn-594924,2022-04-09,2022,regular,Rabbitohs,Dragons,24,12,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-594925,2022-04-09,2022,regular,Titans,Eels,20,26,,,espn,Titans,Eels,GOL,PAR
+espn-594926,2022-04-10,2022,regular,Sharks,Wests Tigers,30,4,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-594927,2022-04-10,2022,regular,Bulldogs,Panthers,12,32,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-594928,2022-04-14,2022,regular,Raiders,Cowboys,12,18,,,espn,Raiders,Cowboys,CAN,NOR
+espn-594929,2022-04-15,2022,regular,Rabbitohs,Bulldogs,36,16,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-594930,2022-04-15,2022,regular,Panthers,Broncos,40,12,,,espn,Panthers,Broncos,PEN,BRI
+espn-594931,2022-04-16,2022,regular,Sea Eagles,Titans,26,18,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-594932,2022-04-16,2022,regular,Storm,Sharks,34,18,,,espn,Storm,Sharks,MEL,CRO
+espn-594933,2022-04-17,2022,regular,Roosters,Warriors,22,14,,,espn,Roosters,Warriors,SYD,NEW
+espn-594934,2022-04-17,2022,regular,Dragons,Knights,21,16,,,espn,Dragons,Knights,ST.,NEW
+espn-594935,2022-04-18,2022,regular,Eels,Wests Tigers,20,21,,,espn,Eels,Wests Tigers,PAR,WES
+espn-594936,2022-04-21,2022,regular,Sharks,Sea Eagles,34,22,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-594937,2022-04-22,2022,regular,Broncos,Bulldogs,34,14,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-594938,2022-04-23,2022,regular,Cowboys,Titans,30,4,,,espn,Cowboys,Titans,NOR,GOL
+espn-594939,2022-04-23,2022,regular,Wests Tigers,Rabbitohs,23,22,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-594940,2022-04-24,2022,regular,Knights,Eels,2,39,,,espn,Knights,Eels,NEW,PAR
+espn-594941,2022-04-24,2022,regular,Panthers,Raiders,36,6,,,espn,Panthers,Raiders,PEN,CAN
+espn-594942,2022-04-25,2022,regular,Dragons,Roosters,14,12,,,espn,Dragons,Roosters,ST.,SYD
+espn-594943,2022-04-25,2022,regular,Storm,Warriors,70,10,,,espn,Storm,Warriors,MEL,NEW
+espn-594944,2022-04-28,2022,regular,Broncos,Sharks,16,7,,,espn,Broncos,Sharks,BRI,CRO
+espn-594945,2022-04-29,2022,regular,Titans,Panthers,4,18,,,espn,Titans,Panthers,GOL,PEN
+espn-594946,2022-04-29,2022,regular,Rabbitohs,Sea Eagles,40,22,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-594947,2022-04-30,2022,regular,Warriors,Raiders,21,20,,,espn,Warriors,Raiders,NEW,CAN
+espn-594948,2022-04-30,2022,regular,Bulldogs,Roosters,16,12,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-594949,2022-04-30,2022,regular,Eels,Cowboys,4,35,,,espn,Eels,Cowboys,PAR,NOR
+espn-594950,2022-05-01,2022,regular,Knights,Storm,2,50,,,espn,Knights,Storm,NEW,MEL
+espn-594951,2022-05-01,2022,regular,Dragons,Wests Tigers,12,6,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-594952,2022-05-05,2022,regular,Rabbitohs,Broncos,12,32,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-594953,2022-05-06,2022,regular,Raiders,Bulldogs,14,4,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-594954,2022-05-06,2022,regular,Panthers,Eels,20,22,,,espn,Panthers,Eels,PEN,PAR
+espn-594955,2022-05-07,2022,regular,Sea Eagles,Wests Tigers,36,22,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-594956,2022-05-07,2022,regular,Roosters,Titans,44,16,,,espn,Roosters,Titans,SYD,GOL
+espn-594957,2022-05-07,2022,regular,Cowboys,Knights,36,16,,,espn,Cowboys,Knights,NOR,NEW
+espn-594958,2022-05-08,2022,regular,Storm,Dragons,42,6,,,espn,Storm,Dragons,MEL,ST.
+espn-594959,2022-05-08,2022,regular,Sharks,Warriors,29,10,,,espn,Sharks,Warriors,CRO,NEW
+espn-594960,2022-05-13,2022,regular,Bulldogs,Knights,6,16,,,espn,Bulldogs,Knights,CAN,NEW
+espn-594961,2022-05-13,2022,regular,Sea Eagles,Broncos,0,38,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-594962,2022-05-14,2022,regular,Warriors,Rabbitohs,30,32,,,espn,Warriors,Rabbitohs,NEW,SOU
+espn-594963,2022-05-14,2022,regular,Titans,Dragons,20,16,,,espn,Titans,Dragons,GOL,ST.
+espn-594964,2022-05-14,2022,regular,Storm,Panthers,6,32,,,espn,Storm,Panthers,MEL,PEN
+espn-594965,2022-05-14,2022,regular,Sharks,Raiders,10,30,,,espn,Sharks,Raiders,CRO,CAN
+espn-594966,2022-05-15,2022,regular,Roosters,Eels,31,24,,,espn,Roosters,Eels,SYD,PAR
+espn-594967,2022-05-15,2022,regular,Wests Tigers,Cowboys,12,36,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-594968,2022-05-19,2022,regular,Knights,Broncos,12,36,,,espn,Knights,Broncos,NEW,BRI
+espn-594969,2022-05-20,2022,regular,Wests Tigers,Bulldogs,36,22,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-594970,2022-05-20,2022,regular,Eels,Sea Eagles,22,20,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-594971,2022-05-21,2022,regular,Dragons,Warriors,24,18,,,espn,Dragons,Warriors,ST.,NEW
+espn-594972,2022-05-21,2022,regular,Cowboys,Storm,36,6,,,espn,Cowboys,Storm,NOR,MEL
+espn-594973,2022-05-21,2022,regular,Roosters,Panthers,12,32,,,espn,Roosters,Panthers,SYD,PEN
+espn-594974,2022-05-22,2022,regular,Rabbitohs,Raiders,12,32,,,espn,Rabbitohs,Raiders,SOU,CAN
+espn-594975,2022-05-22,2022,regular,Titans,Sharks,18,25,,,espn,Titans,Sharks,GOL,CRO
+espn-594976,2022-05-26,2022,regular,Storm,Sea Eagles,28,8,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-594977,2022-05-27,2022,regular,Panthers,Cowboys,22,0,,,espn,Panthers,Cowboys,PEN,NOR
+espn-594978,2022-05-27,2022,regular,Broncos,Titans,35,24,,,espn,Broncos,Titans,BRI,GOL
+espn-594979,2022-05-28,2022,regular,Warriors,Knights,16,24,,,espn,Warriors,Knights,NEW,NEW
+espn-594980,2022-05-28,2022,regular,Rabbitohs,Wests Tigers,44,18,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-594981,2022-05-28,2022,regular,Sharks,Roosters,16,36,,,espn,Sharks,Roosters,CRO,SYD
+espn-594982,2022-05-29,2022,regular,Bulldogs,Dragons,24,34,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-594983,2022-05-29,2022,regular,Raiders,Eels,20,28,,,espn,Raiders,Eels,CAN,PAR
+espn-594984,2022-06-02,2022,regular,Titans,Cowboys,6,32,,,espn,Titans,Cowboys,GOL,NOR
+espn-594985,2022-06-03,2022,regular,Panthers,Bulldogs,30,18,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-594986,2022-06-04,2022,regular,Sea Eagles,Warriors,44,12,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-594987,2022-06-05,2022,regular,Raiders,Roosters,22,16,,,espn,Raiders,Roosters,CAN,SYD
+espn-595422,2022-06-08,2022,regular,New South Wales,Queensland,10,16,,,espn,New South Wales,Queensland,NEW,QUE
+espn-594988,2022-06-10,2022,regular,Cowboys,Dragons,31,12,,,espn,Cowboys,Dragons,NOR,ST.
+espn-594989,2022-06-11,2022,regular,Titans,Rabbitohs,16,30,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-594990,2022-06-11,2022,regular,Roosters,Storm,18,26,,,espn,Roosters,Storm,SYD,MEL
+espn-594991,2022-06-11,2022,regular,Broncos,Raiders,24,18,,,espn,Broncos,Raiders,BRI,CAN
+espn-594992,2022-06-12,2022,regular,Wests Tigers,Sea Eagles,4,30,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-594993,2022-06-12,2022,regular,Knights,Panthers,6,42,,,espn,Knights,Panthers,NEW,PEN
+espn-594994,2022-06-12,2022,regular,Warriors,Sharks,16,38,,,espn,Warriors,Sharks,NEW,CRO
+espn-594995,2022-06-13,2022,regular,Bulldogs,Eels,34,4,,,espn,Bulldogs,Eels,CAN,PAR
+espn-594996,2022-06-16,2022,regular,Dragons,Rabbitohs,32,12,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-594997,2022-06-17,2022,regular,Sea Eagles,Cowboys,26,28,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-594998,2022-06-17,2022,regular,Storm,Broncos,32,20,,,espn,Storm,Broncos,MEL,BRI
+espn-594999,2022-06-18,2022,regular,Sharks,Titans,18,10,,,espn,Sharks,Titans,CRO,GOL
+espn-595000,2022-06-18,2022,regular,Warriors,Panthers,6,40,,,espn,Warriors,Panthers,NEW,PEN
+espn-595001,2022-06-18,2022,regular,Eels,Roosters,26,16,,,espn,Eels,Roosters,PAR,SYD
+espn-595002,2022-06-19,2022,regular,Raiders,Knights,20,18,,,espn,Raiders,Knights,CAN,NEW
+espn-595003,2022-06-19,2022,regular,Bulldogs,Wests Tigers,36,12,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-595423,2022-06-26,2022,regular,New South Wales,Queensland,44,12,,,espn,New South Wales,Queensland,NEW,QUE
+espn-595004,2022-06-30,2022,regular,Sea Eagles,Storm,36,30,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-595005,2022-07-01,2022,regular,Knights,Titans,38,12,,,espn,Knights,Titans,NEW,GOL
+espn-595006,2022-07-01,2022,regular,Panthers,Roosters,26,18,,,espn,Panthers,Roosters,PEN,SYD
+espn-595007,2022-07-02,2022,regular,Bulldogs,Sharks,6,18,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-595008,2022-07-02,2022,regular,Cowboys,Broncos,40,26,,,espn,Cowboys,Broncos,NOR,BRI
+espn-595009,2022-07-02,2022,regular,Rabbitohs,Eels,30,12,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-595010,2022-07-03,2022,regular,Warriors,Wests Tigers,22,2,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-595011,2022-07-03,2022,regular,Dragons,Raiders,12,10,,,espn,Dragons,Raiders,ST.,CAN
+espn-595012,2022-07-07,2022,regular,Sharks,Storm,28,6,,,espn,Sharks,Storm,CRO,MEL
+espn-595013,2022-07-08,2022,regular,Knights,Rabbitohs,28,40,,,espn,Knights,Rabbitohs,NEW,SOU
+espn-595014,2022-07-09,2022,regular,Wests Tigers,Eels,20,28,,,espn,Wests Tigers,Eels,WES,PAR
+espn-595015,2022-07-10,2022,regular,Broncos,Dragons,32,18,,,espn,Broncos,Dragons,BRI,ST.
+espn-595424,2022-07-13,2022,regular,Queensland,New South Wales,22,12,,,espn,Queensland,New South Wales,QUE,NEW
+espn-595016,2022-07-15,2022,regular,Cowboys,Sharks,12,26,,,espn,Cowboys,Sharks,NOR,CRO
+espn-595017,2022-07-15,2022,regular,Eels,Warriors,28,18,,,espn,Eels,Warriors,PAR,NEW
+espn-595018,2022-07-16,2022,regular,Roosters,Dragons,54,26,,,espn,Roosters,Dragons,SYD,ST.
+espn-595019,2022-07-16,2022,regular,Sea Eagles,Knights,42,12,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-595020,2022-07-16,2022,regular,Titans,Broncos,12,16,,,espn,Titans,Broncos,GOL,BRI
+espn-595021,2022-07-17,2022,regular,Wests Tigers,Panthers,16,18,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-595022,2022-07-17,2022,regular,Storm,Raiders,16,20,,,espn,Storm,Raiders,MEL,CAN
+espn-595023,2022-07-17,2022,regular,Bulldogs,Rabbitohs,28,36,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-595024,2022-07-21,2022,regular,Eels,Broncos,14,36,,,espn,Eels,Broncos,PAR,BRI
+espn-595025,2022-07-22,2022,regular,Dragons,Sea Eagles,20,6,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-595026,2022-07-22,2022,regular,Knights,Roosters,12,42,,,espn,Knights,Roosters,NEW,SYD
+espn-595027,2022-07-23,2022,regular,Raiders,Warriors,26,14,,,espn,Raiders,Warriors,CAN,NEW
+espn-595028,2022-07-23,2022,regular,Panthers,Sharks,20,10,,,espn,Panthers,Sharks,PEN,CRO
+espn-595029,2022-07-23,2022,regular,Rabbitohs,Storm,24,12,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-595030,2022-07-24,2022,regular,Bulldogs,Titans,36,26,,,espn,Bulldogs,Titans,CAN,GOL
+espn-595031,2022-07-24,2022,regular,Cowboys,Wests Tigers,27,26,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-595032,2022-07-28,2022,regular,Sea Eagles,Roosters,10,20,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-595033,2022-07-29,2022,regular,Warriors,Storm,12,24,,,espn,Warriors,Storm,NEW,MEL
+espn-595034,2022-07-29,2022,regular,Eels,Panthers,34,10,,,espn,Eels,Panthers,PAR,PEN
+espn-595035,2022-07-30,2022,regular,Titans,Raiders,24,36,,,espn,Titans,Raiders,GOL,CAN
+espn-595036,2022-07-30,2022,regular,Sharks,Rabbitohs,21,20,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-595037,2022-07-30,2022,regular,Broncos,Wests Tigers,18,32,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-595038,2022-07-31,2022,regular,Knights,Bulldogs,10,24,,,espn,Knights,Bulldogs,NEW,CAN
+espn-595039,2022-07-31,2022,regular,Dragons,Cowboys,8,34,,,espn,Dragons,Cowboys,ST.,NOR
+espn-595040,2022-08-04,2022,regular,Roosters,Broncos,34,16,,,espn,Roosters,Broncos,SYD,BRI
+espn-595041,2022-08-05,2022,regular,Storm,Titans,32,14,,,espn,Storm,Titans,MEL,GOL
+espn-595042,2022-08-05,2022,regular,Sea Eagles,Eels,20,36,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-595043,2022-08-06,2022,regular,Rabbitohs,Warriors,48,10,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-595044,2022-08-06,2022,regular,Raiders,Panthers,6,26,,,espn,Raiders,Panthers,CAN,PEN
+espn-595045,2022-08-06,2022,regular,Sharks,Dragons,24,18,,,espn,Sharks,Dragons,CRO,ST.
+espn-595046,2022-08-07,2022,regular,Bulldogs,Cowboys,14,28,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-595047,2022-08-07,2022,regular,Wests Tigers,Knights,10,14,,,espn,Wests Tigers,Knights,WES,NEW
+espn-595048,2022-08-11,2022,regular,Panthers,Storm,0,16,,,espn,Panthers,Storm,PEN,MEL
+espn-595049,2022-08-12,2022,regular,Warriors,Bulldogs,42,18,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-595050,2022-08-12,2022,regular,Eels,Rabbitohs,0,26,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-595051,2022-08-13,2022,regular,Roosters,Cowboys,32,18,,,espn,Roosters,Cowboys,SYD,NOR
+espn-595052,2022-08-13,2022,regular,Wests Tigers,Sharks,12,36,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-595053,2022-08-13,2022,regular,Broncos,Knights,28,10,,,espn,Broncos,Knights,BRI,NEW
+espn-595054,2022-08-14,2022,regular,Raiders,Dragons,24,22,,,espn,Raiders,Dragons,CAN,ST.
+espn-595055,2022-08-14,2022,regular,Titans,Sea Eagles,44,24,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-595056,2022-08-18,2022,regular,Rabbitohs,Panthers,22,26,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-595057,2022-08-19,2022,regular,Cowboys,Warriors,48,4,,,espn,Cowboys,Warriors,NOR,NEW
+espn-595058,2022-08-19,2022,regular,Broncos,Storm,12,60,,,espn,Broncos,Storm,BRI,MEL
+espn-595059,2022-08-20,2022,regular,Eels,Bulldogs,42,6,,,espn,Eels,Bulldogs,PAR,CAN
+espn-595060,2022-08-20,2022,regular,Sea Eagles,Sharks,6,40,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-595061,2022-08-20,2022,regular,Roosters,Wests Tigers,72,6,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-595062,2022-08-21,2022,regular,Dragons,Titans,46,26,,,espn,Dragons,Titans,ST.,GOL
+espn-595063,2022-08-21,2022,regular,Knights,Raiders,22,28,,,espn,Knights,Raiders,NEW,CAN
+espn-595064,2022-08-25,2022,regular,Broncos,Eels,6,53,,,espn,Broncos,Eels,BRI,PAR
+espn-595065,2022-08-26,2022,regular,Panthers,Warriors,46,12,,,espn,Panthers,Warriors,PEN,NEW
+espn-595066,2022-08-26,2022,regular,Storm,Roosters,14,18,,,espn,Storm,Roosters,MEL,SYD
+espn-595067,2022-08-27,2022,regular,Raiders,Sea Eagles,48,6,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-595068,2022-08-27,2022,regular,Sharks,Bulldogs,16,0,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-595069,2022-08-27,2022,regular,Rabbitohs,Cowboys,20,10,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-595070,2022-08-28,2022,regular,Wests Tigers,Dragons,22,24,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-595071,2022-08-28,2022,regular,Titans,Knights,36,26,,,espn,Titans,Knights,GOL,NEW
+espn-595072,2022-09-01,2022,regular,Eels,Storm,22,14,,,espn,Eels,Storm,PAR,MEL
+espn-595073,2022-09-02,2022,regular,Bulldogs,Sea Eagles,21,20,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-595074,2022-09-02,2022,regular,Roosters,Rabbitohs,26,16,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-595075,2022-09-03,2022,regular,Warriors,Titans,26,27,,,espn,Warriors,Titans,NEW,GOL
+espn-595076,2022-09-03,2022,regular,Dragons,Broncos,22,12,,,espn,Dragons,Broncos,ST.,BRI
+espn-595077,2022-09-03,2022,regular,Cowboys,Panthers,38,8,,,espn,Cowboys,Panthers,NOR,PEN
+espn-595078,2022-09-04,2022,regular,Knights,Sharks,16,38,,,espn,Knights,Sharks,NEW,CRO
+espn-595079,2022-09-04,2022,regular,Wests Tigers,Raiders,10,56,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-595624,2022-09-09,2022,regular,Panthers,Eels,27,8,,,espn,Panthers,Eels,PEN,PAR
+espn-595625,2022-09-10,2022,regular,Storm,Raiders,20,28,,,espn,Storm,Raiders,MEL,CAN
+espn-595626,2022-09-10,2022,regular,Sharks,Cowboys,30,32,,,espn,Sharks,Cowboys,CRO,NOR
+espn-595627,2022-09-11,2022,regular,Roosters,Rabbitohs,14,30,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-595650,2022-09-16,2022,regular,Eels,Raiders,40,4,,,espn,Eels,Raiders,PAR,CAN
+espn-595651,2022-09-17,2022,regular,Sharks,Rabbitohs,12,38,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-595652,2022-09-23,2022,regular,Cowboys,Eels,20,24,,,espn,Cowboys,Eels,NOR,PAR
+espn-595653,2022-09-24,2022,regular,Panthers,Rabbitohs,32,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-595654,2022-10-02,2022,regular,Panthers,Eels,28,12,,,espn,Panthers,Eels,PEN,PAR
+espn-594314,2023-03-02,2023,regular,Eels,Storm,0,0,,,espn,Eels,Storm,PAR,MEL
+espn-595949,2023-03-02,2023,regular,Eels,Storm,12,16,,,espn,Eels,Storm,PAR,MEL
+espn-595950,2023-03-03,2023,regular,Warriors,Knights,20,12,,,espn,Warriors,Knights,NEW,NEW
+espn-595951,2023-03-03,2023,regular,Panthers,Broncos,12,13,,,espn,Panthers,Broncos,PEN,BRI
+espn-595952,2023-03-03,2023,regular,Sea Eagles,Bulldogs,31,6,,,espn,Sea Eagles,Bulldogs,MAN,CAN
+espn-595953,2023-03-04,2023,regular,Cowboys,Raiders,19,18,,,espn,Cowboys,Raiders,NOR,CAN
+espn-595954,2023-03-04,2023,regular,Sharks,Rabbitohs,18,27,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-595955,2023-03-05,2023,regular,Dolphins,Roosters,28,18,,,espn,Dolphins,Roosters,DOL,SYD
+espn-595956,2023-03-05,2023,regular,Wests Tigers,Titans,10,22,,,espn,Wests Tigers,Titans,WES,GOL
+espn-595957,2023-03-09,2023,regular,Panthers,Rabbitohs,16,10,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-595958,2023-03-10,2023,regular,Eels,Sharks,26,30,,,espn,Eels,Sharks,PAR,CRO
+espn-595959,2023-03-10,2023,regular,Broncos,Cowboys,28,16,,,espn,Broncos,Cowboys,BRI,NOR
+espn-595960,2023-03-10,2023,regular,Roosters,Warriors,20,12,,,espn,Roosters,Warriors,SYD,NEW
+espn-595961,2023-03-11,2023,regular,Dolphins,Raiders,20,14,,,espn,Dolphins,Raiders,DOL,CAN
+espn-595962,2023-03-11,2023,regular,Storm,Bulldogs,12,26,,,espn,Storm,Bulldogs,MEL,CAN
+espn-595963,2023-03-12,2023,regular,Wests Tigers,Knights,12,14,,,espn,Wests Tigers,Knights,WES,NEW
+espn-595964,2023-03-12,2023,regular,Dragons,Titans,32,18,,,espn,Dragons,Titans,ST.,GOL
+espn-595965,2023-03-16,2023,regular,Sea Eagles,Eels,34,30,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-595966,2023-03-17,2023,regular,Knights,Dolphins,20,36,,,espn,Knights,Dolphins,NEW,DOL
+espn-595967,2023-03-17,2023,regular,Roosters,Rabbitohs,20,18,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-595968,2023-03-18,2023,regular,Titans,Storm,38,34,,,espn,Titans,Storm,GOL,MEL
+espn-595969,2023-03-18,2023,regular,Cowboys,Warriors,12,26,,,espn,Cowboys,Warriors,NOR,NEW
+espn-595970,2023-03-18,2023,regular,Broncos,Dragons,40,18,,,espn,Broncos,Dragons,BRI,ST.
+espn-595971,2023-03-19,2023,regular,Bulldogs,Wests Tigers,26,22,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-595972,2023-03-19,2023,regular,Raiders,Sharks,24,20,,,espn,Raiders,Sharks,CAN,CRO
+espn-595973,2023-03-23,2023,regular,Eels,Panthers,17,16,,,espn,Eels,Panthers,PAR,PEN
+espn-595974,2023-03-24,2023,regular,Storm,Wests Tigers,24,12,,,espn,Storm,Wests Tigers,MEL,WES
+espn-595975,2023-03-24,2023,regular,Dolphins,Broncos,12,18,,,espn,Dolphins,Broncos,DOL,BRI
+espn-595976,2023-03-25,2023,regular,Cowboys,Titans,24,12,,,espn,Cowboys,Titans,NOR,GOL
+espn-595977,2023-03-25,2023,regular,Rabbitohs,Sea Eagles,13,12,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-595978,2023-03-25,2023,regular,Warriors,Bulldogs,16,14,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-595979,2023-03-26,2023,regular,Knights,Raiders,24,14,,,espn,Knights,Raiders,NEW,CAN
+espn-595980,2023-03-26,2023,regular,Dragons,Sharks,8,40,,,espn,Dragons,Sharks,ST.,CRO
+espn-595981,2023-03-30,2023,regular,Roosters,Eels,28,20,,,espn,Roosters,Eels,SYD,PAR
+espn-595982,2023-03-31,2023,regular,Raiders,Panthers,12,53,,,espn,Raiders,Panthers,CAN,PEN
+espn-595983,2023-03-31,2023,regular,Rabbitohs,Storm,10,18,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-595984,2023-04-01,2023,regular,Sea Eagles,Knights,32,32,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-595985,2023-04-01,2023,regular,Dragons,Dolphins,38,12,,,espn,Dragons,Dolphins,ST.,DOL
+espn-595986,2023-04-01,2023,regular,Broncos,Wests Tigers,46,12,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-595987,2023-04-02,2023,regular,Sharks,Warriors,30,32,,,espn,Sharks,Warriors,CRO,NEW
+espn-595988,2023-04-02,2023,regular,Bulldogs,Cowboys,15,14,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-595989,2023-04-06,2023,regular,Storm,Roosters,28,8,,,espn,Storm,Roosters,MEL,SYD
+espn-595990,2023-04-07,2023,regular,Bulldogs,Rabbitohs,16,50,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-595991,2023-04-07,2023,regular,Cowboys,Dolphins,22,32,,,espn,Cowboys,Dolphins,NOR,DOL
+espn-595992,2023-04-08,2023,regular,Panthers,Sea Eagles,44,12,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-595993,2023-04-08,2023,regular,Broncos,Raiders,14,20,,,espn,Broncos,Raiders,BRI,CAN
+espn-595994,2023-04-09,2023,regular,Titans,Dragons,20,18,,,espn,Titans,Dragons,GOL,ST.
+espn-595995,2023-04-09,2023,regular,Knights,Warriors,34,24,,,espn,Knights,Warriors,NEW,NEW
+espn-595996,2023-04-10,2023,regular,Wests Tigers,Eels,22,28,,,espn,Wests Tigers,Eels,WES,PAR
+espn-595997,2023-04-13,2023,regular,Dolphins,Rabbitohs,14,36,,,espn,Dolphins,Rabbitohs,DOL,SOU
+espn-595998,2023-04-14,2023,regular,Sharks,Roosters,22,12,,,espn,Sharks,Roosters,CRO,SYD
+espn-595999,2023-04-14,2023,regular,Sea Eagles,Storm,18,8,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-596000,2023-04-15,2023,regular,Warriors,Cowboys,22,14,,,espn,Warriors,Cowboys,NEW,NOR
+espn-596001,2023-04-15,2023,regular,Knights,Panthers,15,16,,,espn,Knights,Panthers,NEW,PEN
+espn-596002,2023-04-15,2023,regular,Titans,Broncos,26,43,,,espn,Titans,Broncos,GOL,BRI
+espn-596003,2023-04-16,2023,regular,Raiders,Dragons,20,14,,,espn,Raiders,Dragons,CAN,ST.
+espn-596004,2023-04-16,2023,regular,Eels,Bulldogs,30,4,,,espn,Eels,Bulldogs,PAR,CAN
+espn-596005,2023-04-20,2023,regular,Rabbitohs,Panthers,20,18,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-596006,2023-04-21,2023,regular,Eels,Broncos,16,26,,,espn,Eels,Broncos,PAR,BRI
+espn-596007,2023-04-22,2023,regular,Bulldogs,Sharks,20,33,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-596008,2023-04-22,2023,regular,Cowboys,Knights,18,16,,,espn,Cowboys,Knights,NOR,NEW
+espn-596009,2023-04-23,2023,regular,Dolphins,Titans,28,26,,,espn,Dolphins,Titans,DOL,GOL
+espn-596010,2023-04-23,2023,regular,Wests Tigers,Sea Eagles,16,22,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-596011,2023-04-25,2023,regular,Roosters,Dragons,27,26,,,espn,Roosters,Dragons,SYD,ST.
+espn-596012,2023-04-25,2023,regular,Storm,Warriors,30,22,,,espn,Storm,Warriors,MEL,NEW
+espn-596013,2023-04-27,2023,regular,Sharks,Cowboys,44,6,,,espn,Sharks,Cowboys,CRO,NOR
+espn-596014,2023-04-28,2023,regular,Eels,Knights,43,12,,,espn,Eels,Knights,PAR,NEW
+espn-596015,2023-04-28,2023,regular,Broncos,Rabbitohs,6,32,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-596016,2023-04-29,2023,regular,Raiders,Dolphins,31,30,,,espn,Raiders,Dolphins,CAN,DOL
+espn-596017,2023-04-29,2023,regular,Sea Eagles,Titans,10,26,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-596018,2023-04-29,2023,regular,Panthers,Wests Tigers,8,12,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-596019,2023-04-30,2023,regular,Warriors,Roosters,0,14,,,espn,Warriors,Roosters,NEW,SYD
+espn-596020,2023-04-30,2023,regular,Dragons,Bulldogs,16,18,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-596021,2023-05-05,2023,regular,Bulldogs,Raiders,30,34,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-596022,2023-05-05,2023,regular,Sea Eagles,Broncos,6,32,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-596023,2023-05-06,2023,regular,Warriors,Panthers,6,18,,,espn,Warriors,Panthers,NEW,PEN
+espn-596024,2023-05-06,2023,regular,Sharks,Dolphins,16,36,,,espn,Sharks,Dolphins,CRO,DOL
+espn-596025,2023-05-06,2023,regular,Storm,Rabbitohs,12,28,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-596026,2023-05-06,2023,regular,Wests Tigers,Dragons,18,16,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-596027,2023-05-07,2023,regular,Roosters,Cowboys,6,20,,,espn,Roosters,Cowboys,SYD,NOR
+espn-596028,2023-05-07,2023,regular,Titans,Eels,26,24,,,espn,Titans,Eels,GOL,PAR
+espn-596029,2023-05-11,2023,regular,Storm,Broncos,24,16,,,espn,Storm,Broncos,MEL,BRI
+espn-596030,2023-05-12,2023,regular,Bulldogs,Warriors,12,24,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-596031,2023-05-12,2023,regular,Panthers,Roosters,48,4,,,espn,Panthers,Roosters,PEN,SYD
+espn-596032,2023-05-13,2023,regular,Rabbitohs,Wests Tigers,20,0,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-596033,2023-05-13,2023,regular,Cowboys,Dragons,42,22,,,espn,Cowboys,Dragons,NOR,ST.
+espn-596034,2023-05-13,2023,regular,Raiders,Eels,26,18,,,espn,Raiders,Eels,CAN,PAR
+espn-596035,2023-05-14,2023,regular,Knights,Titans,46,26,,,espn,Knights,Titans,NEW,GOL
+espn-596036,2023-05-14,2023,regular,Sea Eagles,Sharks,14,20,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-596037,2023-05-18,2023,regular,Broncos,Panthers,4,15,,,espn,Broncos,Panthers,BRI,PEN
+espn-596038,2023-05-19,2023,regular,Dragons,Roosters,24,22,,,espn,Dragons,Roosters,ST.,SYD
+espn-596039,2023-05-19,2023,regular,Rabbitohs,Eels,16,36,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-596040,2023-05-20,2023,regular,Sharks,Knights,26,6,,,espn,Sharks,Knights,CRO,NEW
+espn-596041,2023-05-20,2023,regular,Wests Tigers,Cowboys,66,18,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-596042,2023-05-20,2023,regular,Dolphins,Storm,16,24,,,espn,Dolphins,Storm,DOL,MEL
+espn-596043,2023-05-21,2023,regular,Bulldogs,Titans,20,18,,,espn,Bulldogs,Titans,CAN,GOL
+espn-596044,2023-05-21,2023,regular,Raiders,Sea Eagles,14,42,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-596045,2023-05-25,2023,regular,Dolphins,Dragons,26,12,,,espn,Dolphins,Dragons,DOL,ST.
+espn-596046,2023-05-26,2023,regular,Eels,Cowboys,24,16,,,espn,Eels,Cowboys,PAR,NOR
+espn-596047,2023-05-27,2023,regular,Warriors,Broncos,22,26,,,espn,Warriors,Broncos,NEW,BRI
+espn-596048,2023-05-27,2023,regular,Rabbitohs,Raiders,26,33,,,espn,Rabbitohs,Raiders,SOU,CAN
+espn-596049,2023-05-28,2023,regular,Knights,Sea Eagles,28,18,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-596202,2023-05-31,2023,regular,Queensland,New South Wales,26,18,,,espn,Queensland,New South Wales,QUE,NEW
+espn-596050,2023-06-02,2023,regular,Wests Tigers,Raiders,19,20,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-596051,2023-06-03,2023,regular,Warriors,Dolphins,30,8,,,espn,Warriors,Dolphins,NEW,DOL
+espn-596052,2023-06-03,2023,regular,Titans,Rabbitohs,28,46,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-596053,2023-06-03,2023,regular,Sharks,Broncos,12,20,,,espn,Sharks,Broncos,CRO,BRI
+espn-596054,2023-06-04,2023,regular,Roosters,Bulldogs,25,24,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-596055,2023-06-04,2023,regular,Cowboys,Storm,45,20,,,espn,Cowboys,Storm,NOR,MEL
+espn-596056,2023-06-04,2023,regular,Panthers,Dragons,26,18,,,espn,Panthers,Dragons,PEN,ST.
+espn-596057,2023-06-08,2023,regular,Titans,Wests Tigers,28,12,,,espn,Titans,Wests Tigers,GOL,WES
+espn-596058,2023-06-09,2023,regular,Raiders,Warriors,14,36,,,espn,Raiders,Warriors,CAN,NEW
+espn-596059,2023-06-09,2023,regular,Sea Eagles,Dolphins,58,18,,,espn,Sea Eagles,Dolphins,MAN,DOL
+espn-596060,2023-06-10,2023,regular,Dragons,Rabbitohs,36,30,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-596061,2023-06-10,2023,regular,Broncos,Knights,24,20,,,espn,Broncos,Knights,BRI,NEW
+espn-596062,2023-06-10,2023,regular,Roosters,Panthers,6,30,,,espn,Roosters,Panthers,SYD,PEN
+espn-596063,2023-06-11,2023,regular,Storm,Sharks,54,10,,,espn,Storm,Sharks,MEL,CRO
+espn-596064,2023-06-12,2023,regular,Bulldogs,Eels,12,34,,,espn,Bulldogs,Eels,CAN,PAR
+espn-596065,2023-06-16,2023,regular,Cowboys,Panthers,27,23,,,espn,Cowboys,Panthers,NOR,PEN
+espn-596066,2023-06-17,2023,regular,Knights,Roosters,16,18,,,espn,Knights,Roosters,NEW,SYD
+espn-596067,2023-06-17,2023,regular,Eels,Sea Eagles,34,4,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-596068,2023-06-17,2023,regular,Wests Tigers,Storm,6,28,,,espn,Wests Tigers,Storm,WES,MEL
+espn-596069,2023-06-18,2023,regular,Sharks,Bulldogs,48,10,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-596203,2023-06-21,2023,regular,Queensland,New South Wales,32,6,,,espn,Queensland,New South Wales,QUE,NEW
+espn-596070,2023-06-23,2023,regular,Dragons,Warriors,18,48,,,espn,Dragons,Warriors,ST.,NEW
+espn-596071,2023-06-24,2023,regular,Dolphins,Eels,20,48,,,espn,Dolphins,Eels,DOL,PAR
+espn-596072,2023-06-24,2023,regular,Panthers,Knights,20,12,,,espn,Panthers,Knights,PEN,NEW
+espn-596073,2023-06-24,2023,regular,Storm,Sea Eagles,24,6,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-596074,2023-06-25,2023,regular,Broncos,Titans,12,18,,,espn,Broncos,Titans,BRI,GOL
+espn-596075,2023-06-25,2023,regular,Rabbitohs,Cowboys,6,31,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-596076,2023-06-25,2023,regular,Roosters,Raiders,18,20,,,espn,Roosters,Raiders,SYD,CAN
+espn-596077,2023-06-29,2023,regular,Sharks,Dragons,52,16,,,espn,Sharks,Dragons,CRO,ST.
+espn-596078,2023-06-30,2023,regular,Warriors,Rabbitohs,6,28,,,espn,Warriors,Rabbitohs,NEW,SOU
+espn-596079,2023-06-30,2023,regular,Storm,Panthers,16,34,,,espn,Storm,Panthers,MEL,PEN
+espn-596080,2023-07-01,2023,regular,Raiders,Titans,26,22,,,espn,Raiders,Titans,CAN,GOL
+espn-596081,2023-07-01,2023,regular,Cowboys,Wests Tigers,74,0,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-596082,2023-07-01,2023,regular,Broncos,Dolphins,24,16,,,espn,Broncos,Dolphins,BRI,DOL
+espn-596083,2023-07-02,2023,regular,Bulldogs,Knights,0,66,,,espn,Bulldogs,Knights,CAN,NEW
+espn-596084,2023-07-02,2023,regular,Sea Eagles,Roosters,18,16,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-596085,2023-07-06,2023,regular,Wests Tigers,Sharks,12,36,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-596086,2023-07-07,2023,regular,Dragons,Raiders,26,36,,,espn,Dragons,Raiders,ST.,CAN
+espn-596087,2023-07-08,2023,regular,Eels,Warriors,10,46,,,espn,Eels,Warriors,PAR,NEW
+espn-596088,2023-07-08,2023,regular,Rabbitohs,Bulldogs,32,36,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-596089,2023-07-09,2023,regular,Titans,Dolphins,21,23,,,espn,Titans,Dolphins,GOL,DOL
+espn-596204,2023-07-12,2023,regular,New South Wales,Queensland,24,10,,,espn,New South Wales,Queensland,NEW,QUE
+espn-596090,2023-07-14,2023,regular,Knights,Wests Tigers,34,18,,,espn,Knights,Wests Tigers,NEW,WES
+espn-596091,2023-07-15,2023,regular,Bulldogs,Broncos,24,44,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-596092,2023-07-15,2023,regular,Sea Eagles,Cowboys,8,19,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-596093,2023-07-15,2023,regular,Roosters,Storm,16,30,,,espn,Roosters,Storm,SYD,MEL
+espn-596094,2023-07-16,2023,regular,Warriors,Sharks,44,12,,,espn,Warriors,Sharks,NEW,CRO
+espn-596095,2023-07-16,2023,regular,Dolphins,Panthers,14,24,,,espn,Dolphins,Panthers,DOL,PEN
+espn-596096,2023-07-16,2023,regular,Eels,Titans,25,24,,,espn,Eels,Titans,PAR,GOL
+espn-596097,2023-07-20,2023,regular,Dragons,Wests Tigers,18,14,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-596098,2023-07-21,2023,regular,Warriors,Raiders,21,20,,,espn,Warriors,Raiders,NEW,CAN
+espn-596099,2023-07-21,2023,regular,Rabbitohs,Broncos,20,36,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-596100,2023-07-22,2023,regular,Titans,Roosters,18,36,,,espn,Titans,Roosters,GOL,SYD
+espn-596101,2023-07-22,2023,regular,Knights,Storm,26,18,,,espn,Knights,Storm,NEW,MEL
+espn-596102,2023-07-22,2023,regular,Cowboys,Eels,24,16,,,espn,Cowboys,Eels,NOR,PAR
+espn-596103,2023-07-23,2023,regular,Panthers,Bulldogs,44,18,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-596104,2023-07-23,2023,regular,Sharks,Sea Eagles,26,30,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-596105,2023-07-27,2023,regular,Broncos,Roosters,32,10,,,espn,Broncos,Roosters,BRI,SYD
+espn-596106,2023-07-28,2023,regular,Wests Tigers,Rabbitohs,18,32,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-596107,2023-07-28,2023,regular,Storm,Eels,46,16,,,espn,Storm,Eels,MEL,PAR
+espn-596108,2023-07-29,2023,regular,Raiders,Knights,6,28,,,espn,Raiders,Knights,CAN,NEW
+espn-596109,2023-07-29,2023,regular,Dragons,Sea Eagles,18,24,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-596110,2023-07-29,2023,regular,Panthers,Sharks,28,0,,,espn,Panthers,Sharks,PEN,CRO
+espn-596111,2023-07-30,2023,regular,Bulldogs,Dolphins,23,22,,,espn,Bulldogs,Dolphins,CAN,DOL
+espn-596112,2023-07-30,2023,regular,Titans,Cowboys,22,13,,,espn,Titans,Cowboys,GOL,NOR
+espn-596113,2023-08-03,2023,regular,Roosters,Sea Eagles,26,16,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-596114,2023-08-04,2023,regular,Titans,Warriors,18,28,,,espn,Titans,Warriors,GOL,NEW
+espn-596115,2023-08-04,2023,regular,Panthers,Storm,26,6,,,espn,Panthers,Storm,PEN,MEL
+espn-596116,2023-08-05,2023,regular,Cowboys,Broncos,14,30,,,espn,Cowboys,Broncos,NOR,BRI
+espn-596117,2023-08-05,2023,regular,Dolphins,Knights,28,30,,,espn,Dolphins,Knights,DOL,NEW
+espn-596118,2023-08-05,2023,regular,Rabbitohs,Sharks,16,26,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-596119,2023-08-06,2023,regular,Eels,Dragons,26,20,,,espn,Eels,Dragons,PAR,ST.
+espn-596120,2023-08-06,2023,regular,Raiders,Wests Tigers,22,18,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-596121,2023-08-10,2023,regular,Sea Eagles,Panthers,12,24,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-596122,2023-08-11,2023,regular,Sharks,Titans,36,6,,,espn,Sharks,Titans,CRO,GOL
+espn-596123,2023-08-11,2023,regular,Broncos,Eels,54,10,,,espn,Broncos,Eels,BRI,PAR
+espn-596124,2023-08-12,2023,regular,Rabbitohs,Dragons,26,14,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-596125,2023-08-12,2023,regular,Wests Tigers,Warriors,22,30,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-596126,2023-08-12,2023,regular,Roosters,Dolphins,30,14,,,espn,Roosters,Dolphins,SYD,DOL
+espn-596127,2023-08-13,2023,regular,Storm,Raiders,48,2,,,espn,Storm,Raiders,MEL,CAN
+espn-596128,2023-08-13,2023,regular,Knights,Bulldogs,42,6,,,espn,Knights,Bulldogs,NEW,CAN
+espn-596129,2023-08-17,2023,regular,Cowboys,Sharks,12,32,,,espn,Cowboys,Sharks,NOR,CRO
+espn-596130,2023-08-18,2023,regular,Warriors,Sea Eagles,29,22,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-596131,2023-08-18,2023,regular,Eels,Roosters,12,34,,,espn,Eels,Roosters,PAR,SYD
+espn-596132,2023-08-19,2023,regular,Wests Tigers,Dolphins,24,23,,,espn,Wests Tigers,Dolphins,WES,DOL
+espn-596133,2023-08-19,2023,regular,Titans,Panthers,14,40,,,espn,Titans,Panthers,GOL,PEN
+espn-596134,2023-08-19,2023,regular,Dragons,Storm,28,38,,,espn,Dragons,Storm,ST.,MEL
+espn-596135,2023-08-20,2023,regular,Knights,Rabbitohs,29,10,,,espn,Knights,Rabbitohs,NEW,SOU
+espn-596136,2023-08-20,2023,regular,Raiders,Bulldogs,36,24,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-596137,2023-08-24,2023,regular,Panthers,Eels,18,32,,,espn,Panthers,Eels,PEN,PAR
+espn-596138,2023-08-25,2023,regular,Warriors,Dragons,18,6,,,espn,Warriors,Dragons,NEW,ST.
+espn-596139,2023-08-25,2023,regular,Dolphins,Cowboys,10,34,,,espn,Dolphins,Cowboys,DOL,NOR
+espn-596140,2023-08-26,2023,regular,Storm,Titans,37,16,,,espn,Storm,Titans,MEL,GOL
+espn-596141,2023-08-26,2023,regular,Roosters,Wests Tigers,32,8,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-596142,2023-08-26,2023,regular,Raiders,Broncos,18,29,,,espn,Raiders,Broncos,CAN,BRI
+espn-596143,2023-08-27,2023,regular,Bulldogs,Sea Eagles,24,42,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-596144,2023-08-27,2023,regular,Knights,Sharks,32,6,,,espn,Knights,Sharks,NEW,CRO
+espn-596145,2023-08-31,2023,regular,Broncos,Storm,22,32,,,espn,Broncos,Storm,BRI,MEL
+espn-596146,2023-09-01,2023,regular,Sea Eagles,Wests Tigers,54,12,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-596147,2023-09-01,2023,regular,Rabbitohs,Roosters,12,26,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-596148,2023-09-02,2023,regular,Dolphins,Warriors,34,10,,,espn,Dolphins,Warriors,DOL,NEW
+espn-596149,2023-09-02,2023,regular,Panthers,Cowboys,44,12,,,espn,Panthers,Cowboys,PEN,NOR
+espn-596150,2023-09-02,2023,regular,Dragons,Knights,12,32,,,espn,Dragons,Knights,ST.,NEW
+espn-596151,2023-09-03,2023,regular,Titans,Bulldogs,34,30,,,espn,Titans,Bulldogs,GOL,CAN
+espn-596152,2023-09-03,2023,regular,Sharks,Raiders,24,6,,,espn,Sharks,Raiders,CRO,CAN
+espn-596761,2023-09-08,2023,regular,Broncos,Storm,26,0,,,espn,Broncos,Storm,BRI,MEL
+espn-596762,2023-09-09,2023,regular,Panthers,Warriors,32,6,,,espn,Panthers,Warriors,PEN,NEW
+espn-596763,2023-09-09,2023,regular,Sharks,Roosters,12,13,,,espn,Sharks,Roosters,CRO,SYD
+espn-596764,2023-09-10,2023,regular,Knights,Raiders,30,28,,,espn,Knights,Raiders,NEW,CAN
+espn-596765,2023-09-15,2023,regular,Storm,Roosters,18,13,,,espn,Storm,Roosters,MEL,SYD
+espn-596766,2023-09-16,2023,regular,Warriors,Knights,40,10,,,espn,Warriors,Knights,NEW,NEW
+espn-596767,2023-09-22,2023,regular,Panthers,Storm,38,4,,,espn,Panthers,Storm,PEN,MEL
+espn-596768,2023-09-23,2023,regular,Broncos,Warriors,42,12,,,espn,Broncos,Warriors,BRI,NEW
+espn-596769,2023-10-01,2023,regular,Panthers,Broncos,26,24,,,espn,Panthers,Broncos,PEN,BRI
+espn-596841,2024-03-02,2024,regular,Sea Eagles,Rabbitohs,36,24,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-596842,2024-03-02,2024,regular,Roosters,Broncos,20,10,,,espn,Roosters,Broncos,SYD,BRI
+espn-596843,2024-03-07,2024,regular,Knights,Raiders,12,28,,,espn,Knights,Raiders,NEW,CAN
+espn-596844,2024-03-08,2024,regular,Warriors,Sharks,12,16,,,espn,Warriors,Sharks,NEW,CRO
+espn-596845,2024-03-08,2024,regular,Storm,Panthers,8,0,,,espn,Storm,Panthers,MEL,PEN
+espn-596846,2024-03-09,2024,regular,Eels,Bulldogs,26,8,,,espn,Eels,Bulldogs,PAR,CAN
+espn-596847,2024-03-09,2024,regular,Titans,Dragons,4,28,,,espn,Titans,Dragons,GOL,ST.
+espn-596848,2024-03-10,2024,regular,Dolphins,Cowboys,18,43,,,espn,Dolphins,Cowboys,DOL,NOR
+espn-596849,2024-03-14,2024,regular,Broncos,Rabbitohs,28,18,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-596850,2024-03-15,2024,regular,Sharks,Bulldogs,25,6,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-596851,2024-03-15,2024,regular,Panthers,Eels,26,18,,,espn,Panthers,Eels,PEN,PAR
+espn-596852,2024-03-16,2024,regular,Raiders,Wests Tigers,32,12,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-596853,2024-03-16,2024,regular,Cowboys,Knights,21,20,,,espn,Cowboys,Knights,NOR,NEW
+espn-596854,2024-03-16,2024,regular,Storm,Warriors,30,26,,,espn,Storm,Warriors,MEL,NEW
+espn-596855,2024-03-17,2024,regular,Sea Eagles,Roosters,21,14,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-596856,2024-03-17,2024,regular,Dolphins,Dragons,38,0,,,espn,Dolphins,Dragons,DOL,ST.
+espn-596857,2024-03-21,2024,regular,Panthers,Broncos,34,12,,,espn,Panthers,Broncos,PEN,BRI
+espn-596858,2024-03-22,2024,regular,Warriors,Raiders,18,10,,,espn,Warriors,Raiders,NEW,CAN
+espn-596859,2024-03-22,2024,regular,Roosters,Rabbitohs,48,6,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-596860,2024-03-23,2024,regular,Bulldogs,Titans,32,0,,,espn,Bulldogs,Titans,CAN,GOL
+espn-596861,2024-03-23,2024,regular,Dragons,Cowboys,24,46,,,espn,Dragons,Cowboys,ST.,NOR
+espn-596862,2024-03-23,2024,regular,Wests Tigers,Sharks,32,6,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-596863,2024-03-24,2024,regular,Eels,Sea Eagles,28,24,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-596864,2024-03-24,2024,regular,Knights,Storm,14,12,,,espn,Knights,Storm,NEW,MEL
+espn-596865,2024-03-28,2024,regular,Roosters,Panthers,16,22,,,espn,Roosters,Panthers,SYD,PEN
+espn-596866,2024-03-29,2024,regular,Rabbitohs,Bulldogs,20,16,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-596867,2024-03-29,2024,regular,Broncos,Cowboys,38,12,,,espn,Broncos,Cowboys,BRI,NOR
+espn-596868,2024-03-30,2024,regular,Dragons,Sea Eagles,20,12,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-596869,2024-03-30,2024,regular,Titans,Dolphins,14,30,,,espn,Titans,Dolphins,GOL,DOL
+espn-596870,2024-03-31,2024,regular,Warriors,Knights,20,12,,,espn,Warriors,Knights,NEW,NEW
+espn-596871,2024-03-31,2024,regular,Sharks,Raiders,36,22,,,espn,Sharks,Raiders,CRO,CAN
+espn-596872,2024-04-01,2024,regular,Eels,Wests Tigers,16,17,,,espn,Eels,Wests Tigers,PAR,WES
+espn-596873,2024-04-04,2024,regular,Storm,Broncos,34,32,,,espn,Storm,Broncos,MEL,BRI
+espn-596874,2024-04-05,2024,regular,Bulldogs,Roosters,30,26,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-596875,2024-04-05,2024,regular,Knights,Dragons,30,10,,,espn,Knights,Dragons,NEW,ST.
+espn-596876,2024-04-06,2024,regular,Rabbitohs,Warriors,4,34,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-596877,2024-04-06,2024,regular,Sea Eagles,Panthers,32,18,,,espn,Sea Eagles,Panthers,MAN,PEN
+espn-596878,2024-04-06,2024,regular,Dolphins,Wests Tigers,26,16,,,espn,Dolphins,Wests Tigers,DOL,WES
+espn-596879,2024-04-07,2024,regular,Cowboys,Titans,35,22,,,espn,Cowboys,Titans,NOR,GOL
+espn-596880,2024-04-07,2024,regular,Raiders,Eels,41,8,,,espn,Raiders,Eels,CAN,PAR
+espn-596881,2024-04-11,2024,regular,Knights,Roosters,20,22,,,espn,Knights,Roosters,NEW,SYD
+espn-596882,2024-04-12,2024,regular,Storm,Bulldogs,16,14,,,espn,Storm,Bulldogs,MEL,CAN
+espn-596883,2024-04-12,2024,regular,Broncos,Dolphins,28,14,,,espn,Broncos,Dolphins,BRI,DOL
+espn-596884,2024-04-13,2024,regular,Warriors,Sea Eagles,22,22,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-596885,2024-04-13,2024,regular,Eels,Cowboys,27,20,,,espn,Eels,Cowboys,PAR,NOR
+espn-596886,2024-04-13,2024,regular,Rabbitohs,Sharks,22,34,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-596887,2024-04-14,2024,regular,Wests Tigers,Dragons,12,24,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-596888,2024-04-14,2024,regular,Raiders,Titans,21,20,,,espn,Raiders,Titans,CAN,GOL
+espn-596889,2024-04-18,2024,regular,Roosters,Storm,12,18,,,espn,Roosters,Storm,SYD,MEL
+espn-596890,2024-04-19,2024,regular,Dragons,Warriors,30,12,,,espn,Dragons,Warriors,ST.,NEW
+espn-596891,2024-04-19,2024,regular,Eels,Dolphins,16,44,,,espn,Eels,Dolphins,PAR,DOL
+espn-596892,2024-04-20,2024,regular,Panthers,Wests Tigers,22,6,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-596893,2024-04-20,2024,regular,Titans,Sea Eagles,30,34,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-596894,2024-04-20,2024,regular,Broncos,Raiders,34,10,,,espn,Broncos,Raiders,BRI,CAN
+espn-596895,2024-04-21,2024,regular,Bulldogs,Knights,36,12,,,espn,Bulldogs,Knights,CAN,NEW
+espn-596896,2024-04-21,2024,regular,Sharks,Cowboys,42,6,,,espn,Sharks,Cowboys,CRO,NOR
+espn-596897,2024-04-25,2024,regular,Warriors,Titans,24,27,,,espn,Warriors,Titans,NEW,GOL
+espn-596898,2024-04-25,2024,regular,Dragons,Roosters,18,60,,,espn,Dragons,Roosters,ST.,SYD
+espn-596899,2024-04-25,2024,regular,Storm,Rabbitohs,54,20,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-596900,2024-04-26,2024,regular,Sea Eagles,Eels,32,18,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-596901,2024-04-27,2024,regular,Wests Tigers,Broncos,10,34,,,espn,Wests Tigers,Broncos,WES,BRI
+espn-596902,2024-04-27,2024,regular,Cowboys,Panthers,20,26,,,espn,Cowboys,Panthers,NOR,PEN
+espn-596903,2024-04-28,2024,regular,Dolphins,Knights,14,18,,,espn,Dolphins,Knights,DOL,NEW
+espn-596904,2024-04-28,2024,regular,Raiders,Sharks,0,40,,,espn,Raiders,Sharks,CAN,CRO
+espn-596905,2024-05-02,2024,regular,Rabbitohs,Panthers,12,42,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-596906,2024-05-03,2024,regular,Sea Eagles,Raiders,24,26,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-596907,2024-05-03,2024,regular,Broncos,Roosters,18,40,,,espn,Broncos,Roosters,BRI,SYD
+espn-596908,2024-05-04,2024,regular,Bulldogs,Wests Tigers,22,14,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-596909,2024-05-04,2024,regular,Titans,Storm,20,22,,,espn,Titans,Storm,GOL,MEL
+espn-596910,2024-05-04,2024,regular,Cowboys,Dolphins,26,28,,,espn,Cowboys,Dolphins,NOR,DOL
+espn-596911,2024-05-05,2024,regular,Knights,Warriors,14,8,,,espn,Knights,Warriors,NEW,NEW
+espn-596912,2024-05-05,2024,regular,Sharks,Dragons,20,10,,,espn,Sharks,Dragons,CRO,ST.
+espn-596913,2024-05-09,2024,regular,Dolphins,Sea Eagles,30,24,,,espn,Dolphins,Sea Eagles,DOL,MAN
+espn-596914,2024-05-10,2024,regular,Panthers,Bulldogs,16,10,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-596915,2024-05-10,2024,regular,Eels,Broncos,14,30,,,espn,Eels,Broncos,PAR,BRI
+espn-596916,2024-05-11,2024,regular,Wests Tigers,Knights,14,20,,,espn,Wests Tigers,Knights,WES,NEW
+espn-596917,2024-05-11,2024,regular,Dragons,Rabbitohs,28,14,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-596918,2024-05-11,2024,regular,Storm,Sharks,18,25,,,espn,Storm,Sharks,MEL,CRO
+espn-596919,2024-05-12,2024,regular,Roosters,Warriors,38,18,,,espn,Roosters,Warriors,SYD,NEW
+espn-596920,2024-05-12,2024,regular,Titans,Cowboys,20,18,,,espn,Titans,Cowboys,GOL,NOR
+espn-596921,2024-05-17,2024,regular,Raiders,Bulldogs,24,20,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-596922,2024-05-17,2024,regular,Sea Eagles,Broncos,12,13,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-596923,2024-05-18,2024,regular,Titans,Knights,24,28,,,espn,Titans,Knights,GOL,NEW
+espn-596924,2024-05-18,2024,regular,Sharks,Roosters,38,30,,,espn,Sharks,Roosters,CRO,SYD
+espn-596925,2024-05-18,2024,regular,Rabbitohs,Cowboys,22,28,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-596926,2024-05-18,2024,regular,Warriors,Panthers,22,20,,,espn,Warriors,Panthers,NEW,PEN
+espn-596927,2024-05-19,2024,regular,Storm,Eels,48,16,,,espn,Storm,Eels,MEL,PAR
+espn-596928,2024-05-19,2024,regular,Wests Tigers,Dolphins,12,24,,,espn,Wests Tigers,Dolphins,WES,DOL
+espn-596929,2024-05-23,2024,regular,Bulldogs,Dragons,44,12,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-596930,2024-05-24,2024,regular,Cowboys,Wests Tigers,42,28,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-596931,2024-05-24,2024,regular,Sea Eagles,Storm,26,20,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-596932,2024-05-25,2024,regular,Raiders,Roosters,16,44,,,espn,Raiders,Roosters,CAN,SYD
+espn-596933,2024-05-25,2024,regular,Sharks,Panthers,0,42,,,espn,Sharks,Panthers,CRO,PEN
+espn-596934,2024-05-25,2024,regular,Rabbitohs,Eels,42,26,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-596935,2024-05-26,2024,regular,Broncos,Titans,34,36,,,espn,Broncos,Titans,BRI,GOL
+espn-596936,2024-05-26,2024,regular,Warriors,Dolphins,24,20,,,espn,Warriors,Dolphins,NEW,DOL
+espn-596937,2024-05-30,2024,regular,Eels,Sharks,34,22,,,espn,Eels,Sharks,PAR,CRO
+espn-596938,2024-05-31,2024,regular,Knights,Bulldogs,2,32,,,espn,Knights,Bulldogs,NEW,CAN
+espn-596939,2024-06-01,2024,regular,Panthers,Dragons,10,22,,,espn,Panthers,Dragons,PEN,ST.
+espn-596940,2024-06-01,2024,regular,Dolphins,Raiders,25,26,,,espn,Dolphins,Raiders,DOL,CAN
+espn-596941,2024-06-02,2024,regular,Roosters,Cowboys,16,18,,,espn,Roosters,Cowboys,SYD,NOR
+espn-598981,2024-06-05,2024,regular,New South Wales,Queensland,10,38,,,espn,New South Wales,Queensland,NEW,QUE
+espn-596942,2024-06-07,2024,regular,Dragons,Wests Tigers,56,14,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-596943,2024-06-08,2024,regular,Titans,Rabbitohs,12,46,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-596944,2024-06-08,2024,regular,Cowboys,Warriors,12,42,,,espn,Cowboys,Warriors,NOR,NEW
+espn-596945,2024-06-08,2024,regular,Broncos,Sharks,12,22,,,espn,Broncos,Sharks,BRI,CRO
+espn-596946,2024-06-09,2024,regular,Storm,Knights,36,28,,,espn,Storm,Knights,MEL,NEW
+espn-596947,2024-06-09,2024,regular,Panthers,Sea Eagles,32,22,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-596948,2024-06-10,2024,regular,Bulldogs,Eels,22,18,,,espn,Bulldogs,Eels,CAN,PAR
+espn-596949,2024-06-13,2024,regular,Sharks,Dolphins,28,30,,,espn,Sharks,Dolphins,CRO,DOL
+espn-596950,2024-06-14,2024,regular,Raiders,Cowboys,16,34,,,espn,Raiders,Cowboys,CAN,NOR
+espn-596951,2024-06-14,2024,regular,Rabbitohs,Broncos,22,12,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-596952,2024-06-15,2024,regular,Wests Tigers,Titans,18,10,,,espn,Wests Tigers,Titans,WES,GOL
+espn-596953,2024-06-15,2024,regular,Warriors,Storm,24,38,,,espn,Warriors,Storm,NEW,MEL
+espn-596954,2024-06-15,2024,regular,Eels,Roosters,18,28,,,espn,Eels,Roosters,PAR,SYD
+espn-596955,2024-06-16,2024,regular,Sea Eagles,Dragons,30,14,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-596956,2024-06-16,2024,regular,Knights,Panthers,18,26,,,espn,Knights,Panthers,NEW,PEN
+espn-596957,2024-06-21,2024,regular,Dolphins,Storm,24,30,,,espn,Dolphins,Storm,DOL,MEL
+espn-596958,2024-06-22,2024,regular,Titans,Warriors,66,6,,,espn,Titans,Warriors,GOL,NEW
+espn-596959,2024-06-22,2024,regular,Roosters,Bulldogs,26,8,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-596960,2024-06-22,2024,regular,Rabbitohs,Sea Eagles,14,0,,,espn,Rabbitohs,Sea Eagles,SOU,MAN
+espn-596961,2024-06-23,2024,regular,Wests Tigers,Raiders,48,24,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-598982,2024-06-26,2024,regular,New South Wales,Queensland,38,18,,,espn,New South Wales,Queensland,NEW,QUE
+espn-596962,2024-06-28,2024,regular,Bulldogs,Sharks,15,14,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-596963,2024-06-29,2024,regular,Warriors,Broncos,32,16,,,espn,Warriors,Broncos,NEW,BRI
+espn-596964,2024-06-29,2024,regular,Knights,Eels,34,26,,,espn,Knights,Eels,NEW,PAR
+espn-596965,2024-06-29,2024,regular,Storm,Raiders,16,6,,,espn,Storm,Raiders,MEL,CAN
+espn-596966,2024-06-30,2024,regular,Dragons,Dolphins,26,6,,,espn,Dragons,Dolphins,ST.,DOL
+espn-596967,2024-06-30,2024,regular,Panthers,Cowboys,6,16,,,espn,Panthers,Cowboys,PEN,NOR
+espn-596968,2024-06-30,2024,regular,Roosters,Wests Tigers,40,6,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-596969,2024-07-04,2024,regular,Eels,Rabbitohs,16,32,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-596970,2024-07-05,2024,regular,Sharks,Titans,16,20,,,espn,Sharks,Titans,CRO,GOL
+espn-596971,2024-07-05,2024,regular,Broncos,Panthers,6,14,,,espn,Broncos,Panthers,BRI,PEN
+espn-596972,2024-07-06,2024,regular,Bulldogs,Warriors,13,12,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-596973,2024-07-06,2024,regular,Wests Tigers,Storm,28,40,,,espn,Wests Tigers,Storm,WES,MEL
+espn-596974,2024-07-06,2024,regular,Cowboys,Sea Eagles,20,21,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-596975,2024-07-07,2024,regular,Roosters,Dragons,42,12,,,espn,Roosters,Dragons,SYD,ST.
+espn-596976,2024-07-07,2024,regular,Raiders,Knights,12,16,,,espn,Raiders,Knights,CAN,NEW
+espn-596977,2024-07-11,2024,regular,Dolphins,Rabbitohs,36,28,,,espn,Dolphins,Rabbitohs,DOL,SOU
+espn-596978,2024-07-12,2024,regular,Sharks,Wests Tigers,58,6,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-596979,2024-07-13,2024,regular,Titans,Eels,24,16,,,espn,Titans,Eels,GOL,PAR
+espn-596980,2024-07-13,2024,regular,Broncos,Dragons,26,30,,,espn,Broncos,Dragons,BRI,ST.
+espn-596981,2024-07-14,2024,regular,Sea Eagles,Knights,44,6,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-598983,2024-07-17,2024,regular,Queensland,New South Wales,4,14,,,espn,Queensland,New South Wales,QUE,NEW
+espn-596982,2024-07-19,2024,regular,Raiders,Warriors,20,18,,,espn,Raiders,Warriors,CAN,NEW
+espn-596983,2024-07-20,2024,regular,Rabbitohs,Wests Tigers,42,28,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-596984,2024-07-20,2024,regular,Knights,Broncos,14,30,,,espn,Knights,Broncos,NEW,BRI
+espn-596985,2024-07-20,2024,regular,Storm,Roosters,24,8,,,espn,Storm,Roosters,MEL,SYD
+espn-596986,2024-07-21,2024,regular,Panthers,Dolphins,28,26,,,espn,Panthers,Dolphins,PEN,DOL
+espn-596987,2024-07-21,2024,regular,Sea Eagles,Titans,38,8,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-596988,2024-07-21,2024,regular,Cowboys,Bulldogs,20,18,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-596989,2024-07-26,2024,regular,Warriors,Wests Tigers,28,16,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-596990,2024-07-26,2024,regular,Eels,Storm,14,32,,,espn,Eels,Storm,PAR,MEL
+espn-596991,2024-07-27,2024,regular,Broncos,Bulldogs,16,41,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-596992,2024-07-27,2024,regular,Cowboys,Sharks,30,22,,,espn,Cowboys,Sharks,NOR,CRO
+espn-596993,2024-07-27,2024,regular,Roosters,Sea Eagles,34,30,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-596994,2024-07-28,2024,regular,Dragons,Panthers,10,46,,,espn,Dragons,Panthers,ST.,PEN
+espn-596995,2024-07-28,2024,regular,Dolphins,Titans,14,21,,,espn,Dolphins,Titans,DOL,GOL
+espn-596996,2024-07-28,2024,regular,Raiders,Rabbitohs,32,12,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-596997,2024-08-01,2024,regular,Wests Tigers,Cowboys,30,48,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-596998,2024-08-02,2024,regular,Warriors,Eels,20,30,,,espn,Warriors,Eels,NEW,PAR
+espn-596999,2024-08-02,2024,regular,Dolphins,Roosters,34,40,,,espn,Dolphins,Roosters,DOL,SYD
+espn-597000,2024-08-03,2024,regular,Titans,Broncos,46,18,,,espn,Titans,Broncos,GOL,BRI
+espn-597001,2024-08-03,2024,regular,Storm,Dragons,16,18,,,espn,Storm,Dragons,MEL,ST.
+espn-597002,2024-08-03,2024,regular,Sharks,Rabbitohs,20,6,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-597003,2024-08-04,2024,regular,Panthers,Knights,22,14,,,espn,Panthers,Knights,PEN,NEW
+espn-597004,2024-08-04,2024,regular,Bulldogs,Raiders,22,18,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-597005,2024-08-08,2024,regular,Rabbitohs,Storm,16,28,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-597006,2024-08-09,2024,regular,Titans,Sharks,0,44,,,espn,Titans,Sharks,GOL,CRO
+espn-597007,2024-08-09,2024,regular,Eels,Panthers,34,36,,,espn,Eels,Panthers,PAR,PEN
+espn-597008,2024-08-10,2024,regular,Raiders,Sea Eagles,24,46,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-597009,2024-08-10,2024,regular,Cowboys,Broncos,18,42,,,espn,Cowboys,Broncos,NOR,BRI
+espn-597010,2024-08-10,2024,regular,Dragons,Bulldogs,10,28,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-597011,2024-08-11,2024,regular,Dolphins,Warriors,34,32,,,espn,Dolphins,Warriors,DOL,NEW
+espn-597012,2024-08-11,2024,regular,Knights,Wests Tigers,34,18,,,espn,Knights,Wests Tigers,NEW,WES
+espn-597013,2024-08-15,2024,regular,Panthers,Storm,22,24,,,espn,Panthers,Storm,PEN,MEL
+espn-597014,2024-08-16,2024,regular,Sea Eagles,Warriors,24,10,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-597015,2024-08-16,2024,regular,Roosters,Eels,38,14,,,espn,Roosters,Eels,SYD,PAR
+espn-597016,2024-08-17,2024,regular,Bulldogs,Dolphins,30,10,,,espn,Bulldogs,Dolphins,CAN,DOL
+espn-597017,2024-08-17,2024,regular,Cowboys,Raiders,42,4,,,espn,Cowboys,Raiders,NOR,CAN
+espn-597018,2024-08-17,2024,regular,Wests Tigers,Rabbitohs,18,16,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-597019,2024-08-18,2024,regular,Dragons,Titans,32,16,,,espn,Dragons,Titans,ST.,GOL
+espn-597020,2024-08-18,2024,regular,Sharks,Knights,19,18,,,espn,Sharks,Knights,CRO,NEW
+espn-597021,2024-08-22,2024,regular,Wests Tigers,Sea Eagles,34,26,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-597022,2024-08-23,2024,regular,Warriors,Bulldogs,18,34,,,espn,Warriors,Bulldogs,NEW,CAN
+espn-597023,2024-08-23,2024,regular,Broncos,Eels,30,24,,,espn,Broncos,Eels,BRI,PAR
+espn-597024,2024-08-24,2024,regular,Raiders,Panthers,22,18,,,espn,Raiders,Panthers,CAN,PEN
+espn-597025,2024-08-24,2024,regular,Storm,Dolphins,48,6,,,espn,Storm,Dolphins,MEL,DOL
+espn-597026,2024-08-24,2024,regular,Rabbitohs,Knights,16,36,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-597027,2024-08-25,2024,regular,Titans,Roosters,22,48,,,espn,Titans,Roosters,GOL,SYD
+espn-597028,2024-08-25,2024,regular,Dragons,Sharks,10,38,,,espn,Dragons,Sharks,ST.,CRO
+espn-597029,2024-08-29,2024,regular,Cowboys,Storm,38,30,,,espn,Cowboys,Storm,NOR,MEL
+espn-597030,2024-08-30,2024,regular,Bulldogs,Sea Eagles,22,34,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-597031,2024-08-30,2024,regular,Panthers,Rabbitohs,34,12,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-597032,2024-08-31,2024,regular,Eels,Dragons,44,40,,,espn,Eels,Dragons,PAR,ST.
+espn-597033,2024-08-31,2024,regular,Dolphins,Broncos,40,6,,,espn,Dolphins,Broncos,DOL,BRI
+espn-597034,2024-08-31,2024,regular,Sharks,Warriors,28,30,,,espn,Sharks,Warriors,CRO,NEW
+espn-597035,2024-09-01,2024,regular,Knights,Titans,36,14,,,espn,Knights,Titans,NEW,GOL
+espn-597036,2024-09-01,2024,regular,Roosters,Raiders,12,14,,,espn,Roosters,Raiders,SYD,CAN
+espn-597037,2024-09-05,2024,regular,Broncos,Storm,12,50,,,espn,Broncos,Storm,BRI,MEL
+espn-597038,2024-09-06,2024,regular,Wests Tigers,Eels,26,60,,,espn,Wests Tigers,Eels,WES,PAR
+espn-597039,2024-09-06,2024,regular,Rabbitohs,Roosters,28,36,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-597040,2024-09-07,2024,regular,Dragons,Raiders,24,26,,,espn,Dragons,Raiders,ST.,CAN
+espn-597041,2024-09-07,2024,regular,Bulldogs,Cowboys,6,44,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-597042,2024-09-07,2024,regular,Panthers,Titans,18,12,,,espn,Panthers,Titans,PEN,GOL
+espn-597043,2024-09-08,2024,regular,Sea Eagles,Sharks,20,40,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-597044,2024-09-08,2024,regular,Knights,Dolphins,14,6,,,espn,Knights,Dolphins,NEW,DOL
+espn-600282,2024-09-13,2024,regular,Panthers,Roosters,30,10,,,espn,Panthers,Roosters,PEN,SYD
+espn-600283,2024-09-14,2024,regular,Storm,Sharks,37,10,,,espn,Storm,Sharks,MEL,CRO
+espn-600284,2024-09-14,2024,regular,Cowboys,Knights,28,16,,,espn,Cowboys,Knights,NOR,NEW
+espn-600285,2024-09-15,2024,regular,Bulldogs,Sea Eagles,22,24,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-600286,2024-09-20,2024,regular,Sharks,Cowboys,26,18,,,espn,Sharks,Cowboys,CRO,NOR
+espn-600287,2024-09-21,2024,regular,Roosters,Sea Eagles,40,16,,,espn,Roosters,Sea Eagles,SYD,MAN
+espn-600288,2024-09-27,2024,regular,Storm,Roosters,48,18,,,espn,Storm,Roosters,MEL,SYD
+espn-600289,2024-09-28,2024,regular,Panthers,Sharks,26,6,,,espn,Panthers,Sharks,PEN,CRO
+espn-600290,2024-10-06,2024,regular,Storm,Panthers,6,14,,,espn,Storm,Panthers,MEL,PEN
+espn-601485,2025-03-01,2025,regular,Raiders,Warriors,30,8,,,espn,Raiders,Warriors,CAN,NEW
+espn-601486,2025-03-01,2025,regular,Panthers,Sharks,28,22,,,espn,Panthers,Sharks,PEN,CRO
+espn-601487,2025-03-06,2025,regular,Roosters,Broncos,14,50,,,espn,Roosters,Broncos,SYD,BRI
+espn-601488,2025-03-07,2025,regular,Wests Tigers,Knights,8,10,,,espn,Wests Tigers,Knights,WES,NEW
+espn-601489,2025-03-07,2025,regular,Dolphins,Rabbitohs,14,16,,,espn,Dolphins,Rabbitohs,DOL,SOU
+espn-601490,2025-03-08,2025,regular,Dragons,Bulldogs,20,28,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-601491,2025-03-08,2025,regular,Sea Eagles,Cowboys,42,12,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-601492,2025-03-09,2025,regular,Storm,Eels,56,18,,,espn,Storm,Eels,MEL,PAR
+espn-601328,2025-03-13,2025,regular,Knights,Dolphins,26,12,,,espn,Knights,Dolphins,NEW,DOL
+espn-601329,2025-03-14,2025,regular,Warriors,Sea Eagles,36,16,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-601330,2025-03-14,2025,regular,Panthers,Roosters,32,38,,,espn,Panthers,Roosters,PEN,SYD
+espn-601331,2025-03-15,2025,regular,Dragons,Rabbitohs,24,25,,,espn,Dragons,Rabbitohs,ST.,SOU
+espn-601332,2025-03-15,2025,regular,Cowboys,Sharks,12,36,,,espn,Cowboys,Sharks,NOR,CRO
+espn-601333,2025-03-15,2025,regular,Raiders,Broncos,32,22,,,espn,Raiders,Broncos,CAN,BRI
+espn-601334,2025-03-16,2025,regular,Eels,Wests Tigers,6,32,,,espn,Eels,Wests Tigers,PAR,WES
+espn-601335,2025-03-16,2025,regular,Bulldogs,Titans,40,24,,,espn,Bulldogs,Titans,CAN,GOL
+espn-601337,2025-03-20,2025,regular,Storm,Panthers,30,24,,,espn,Storm,Panthers,MEL,PEN
+espn-601338,2025-03-21,2025,regular,Warriors,Roosters,14,6,,,espn,Warriors,Roosters,NEW,SYD
+espn-601340,2025-03-21,2025,regular,Broncos,Cowboys,26,16,,,espn,Broncos,Cowboys,BRI,NOR
+espn-601342,2025-03-22,2025,regular,Sharks,Rabbitohs,27,12,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-601344,2025-03-22,2025,regular,Dolphins,Wests Tigers,18,30,,,espn,Dolphins,Wests Tigers,DOL,WES
+espn-601345,2025-03-22,2025,regular,Titans,Knights,26,6,,,espn,Titans,Knights,GOL,NEW
+espn-601346,2025-03-23,2025,regular,Eels,Bulldogs,8,16,,,espn,Eels,Bulldogs,PAR,CAN
+espn-601347,2025-03-23,2025,regular,Sea Eagles,Raiders,40,12,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-601349,2025-03-27,2025,regular,Rabbitohs,Panthers,28,18,,,espn,Rabbitohs,Panthers,SOU,PEN
+espn-601339,2025-03-28,2025,regular,Roosters,Titans,12,30,,,espn,Roosters,Titans,SYD,GOL
+espn-601341,2025-03-28,2025,regular,Dolphins,Broncos,12,20,,,espn,Dolphins,Broncos,DOL,BRI
+espn-601343,2025-03-29,2025,regular,Dragons,Storm,14,8,,,espn,Dragons,Storm,ST.,MEL
+espn-601350,2025-03-29,2025,regular,Cowboys,Raiders,30,20,,,espn,Cowboys,Raiders,NOR,CAN
+espn-601352,2025-03-29,2025,regular,Sharks,Bulldogs,6,20,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-601353,2025-03-30,2025,regular,Sea Eagles,Eels,26,12,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-601354,2025-03-30,2025,regular,Wests Tigers,Warriors,24,26,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-601356,2025-04-03,2025,regular,Raiders,Sharks,24,20,,,espn,Raiders,Sharks,CAN,CRO
+espn-601357,2025-04-04,2025,regular,Panthers,Cowboys,18,22,,,espn,Panthers,Cowboys,PEN,NOR
+espn-601358,2025-04-04,2025,regular,Rabbitohs,Roosters,20,14,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-601351,2025-04-05,2025,regular,Titans,Dolphins,10,36,,,espn,Titans,Dolphins,GOL,DOL
+espn-601359,2025-04-05,2025,regular,Eels,Dragons,23,22,,,espn,Eels,Dragons,PAR,ST.
+espn-601360,2025-04-05,2025,regular,Broncos,Wests Tigers,46,24,,,espn,Broncos,Wests Tigers,BRI,WES
+espn-601361,2025-04-06,2025,regular,Sea Eagles,Storm,24,48,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-601362,2025-04-06,2025,regular,Bulldogs,Knights,20,0,,,espn,Bulldogs,Knights,CAN,NEW
+espn-601364,2025-04-10,2025,regular,Dolphins,Panthers,30,12,,,espn,Dolphins,Panthers,DOL,PEN
+espn-601365,2025-04-11,2025,regular,Dragons,Titans,38,16,,,espn,Dragons,Titans,ST.,GOL
+espn-601366,2025-04-11,2025,regular,Broncos,Roosters,16,26,,,espn,Broncos,Roosters,BRI,SYD
+espn-601367,2025-04-12,2025,regular,Sharks,Sea Eagles,24,18,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-601368,2025-04-12,2025,regular,Rabbitohs,Cowboys,16,24,,,espn,Rabbitohs,Cowboys,SOU,NOR
+espn-601369,2025-04-12,2025,regular,Eels,Raiders,12,50,,,espn,Eels,Raiders,PAR,CAN
+espn-601371,2025-04-13,2025,regular,Storm,Warriors,42,14,,,espn,Storm,Warriors,MEL,NEW
+espn-601373,2025-04-13,2025,regular,Knights,Wests Tigers,4,20,,,espn,Knights,Wests Tigers,NEW,WES
+espn-601376,2025-04-17,2025,regular,Sea Eagles,Dragons,18,20,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-601377,2025-04-18,2025,regular,Bulldogs,Rabbitohs,32,0,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-601378,2025-04-18,2025,regular,Dolphins,Storm,42,22,,,espn,Dolphins,Storm,DOL,MEL
+espn-601379,2025-04-19,2025,regular,Warriors,Broncos,20,18,,,espn,Warriors,Broncos,NEW,BRI
+espn-601380,2025-04-19,2025,regular,Roosters,Panthers,12,40,,,espn,Roosters,Panthers,SYD,PEN
+espn-601370,2025-04-20,2025,regular,Titans,Raiders,20,30,,,espn,Titans,Raiders,GOL,CAN
+espn-601372,2025-04-20,2025,regular,Knights,Sharks,14,34,,,espn,Knights,Sharks,NEW,CRO
+espn-601374,2025-04-21,2025,regular,Wests Tigers,Eels,22,38,,,espn,Wests Tigers,Eels,WES,PAR
+espn-601383,2025-04-24,2025,regular,Broncos,Bulldogs,42,18,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-601384,2025-04-25,2025,regular,Roosters,Dragons,46,18,,,espn,Roosters,Dragons,SYD,ST.
+espn-601385,2025-04-25,2025,regular,Warriors,Knights,26,12,,,espn,Warriors,Knights,NEW,NEW
+espn-601386,2025-04-25,2025,regular,Storm,Rabbitohs,24,16,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-601387,2025-04-26,2025,regular,Cowboys,Titans,50,18,,,espn,Cowboys,Titans,NOR,GOL
+espn-601388,2025-04-26,2025,regular,Panthers,Sea Eagles,10,26,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-601389,2025-04-27,2025,regular,Raiders,Dolphins,40,28,,,espn,Raiders,Dolphins,CAN,DOL
+espn-601390,2025-04-27,2025,regular,Wests Tigers,Sharks,20,18,,,espn,Wests Tigers,Sharks,WES,CRO
+espn-601391,2025-05-02,2025,regular,Sharks,Eels,28,18,,,espn,Sharks,Eels,CRO,PAR
+espn-601392,2025-05-02,2025,regular,Roosters,Dolphins,36,26,,,espn,Roosters,Dolphins,SYD,DOL
+espn-601393,2025-05-03,2025,regular,Rabbitohs,Knights,4,30,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-601394,2025-05-03,2025,regular,Warriors,Cowboys,30,26,,,espn,Warriors,Cowboys,NEW,NOR
+espn-601395,2025-05-03,2025,regular,Wests Tigers,Dragons,34,28,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-601396,2025-05-03,2025,regular,Titans,Bulldogs,18,38,,,espn,Titans,Bulldogs,GOL,CAN
+espn-601397,2025-05-04,2025,regular,Panthers,Broncos,32,8,,,espn,Panthers,Broncos,PEN,BRI
+espn-601398,2025-05-04,2025,regular,Storm,Raiders,18,20,,,espn,Storm,Raiders,MEL,CAN
+espn-601400,2025-05-08,2025,regular,Eels,Dolphins,16,20,,,espn,Eels,Dolphins,PAR,DOL
+espn-601402,2025-05-09,2025,regular,Knights,Titans,20,24,,,espn,Knights,Titans,NEW,GOL
+espn-601404,2025-05-09,2025,regular,Rabbitohs,Broncos,22,14,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-601406,2025-05-10,2025,regular,Raiders,Bulldogs,20,32,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-601407,2025-05-10,2025,regular,Dragons,Warriors,14,15,,,espn,Dragons,Warriors,ST.,NEW
+espn-601408,2025-05-10,2025,regular,Cowboys,Panthers,30,30,,,espn,Cowboys,Panthers,NOR,PEN
+espn-601409,2025-05-11,2025,regular,Storm,Wests Tigers,64,0,,,espn,Storm,Wests Tigers,MEL,WES
+espn-601410,2025-05-11,2025,regular,Sea Eagles,Sharks,14,30,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-601401,2025-05-16,2025,regular,Knights,Eels,6,28,,,espn,Knights,Eels,NEW,PAR
+espn-601403,2025-05-16,2025,regular,Bulldogs,Roosters,24,20,,,espn,Bulldogs,Roosters,CAN,SYD
+espn-601405,2025-05-17,2025,regular,Dolphins,Warriors,12,16,,,espn,Dolphins,Warriors,DOL,NEW
+espn-601412,2025-05-17,2025,regular,Cowboys,Sea Eagles,6,24,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-601414,2025-05-17,2025,regular,Sharks,Storm,31,26,,,espn,Sharks,Storm,CRO,MEL
+espn-601415,2025-05-18,2025,regular,Broncos,Dragons,26,30,,,espn,Broncos,Dragons,BRI,ST.
+espn-601416,2025-05-18,2025,regular,Raiders,Titans,40,24,,,espn,Raiders,Titans,CAN,GOL
+espn-601417,2025-05-18,2025,regular,Wests Tigers,Rabbitohs,12,22,,,espn,Wests Tigers,Rabbitohs,WES,SOU
+espn-601419,2025-05-22,2025,regular,Bulldogs,Dolphins,8,44,,,espn,Bulldogs,Dolphins,CAN,DOL
+espn-601420,2025-05-23,2025,regular,Eels,Sea Eagles,30,10,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-601413,2025-05-24,2025,regular,Roosters,Sharks,42,16,,,espn,Roosters,Sharks,SYD,CRO
+espn-601421,2025-05-24,2025,regular,Panthers,Knights,6,25,,,espn,Panthers,Knights,PEN,NEW
+espn-601422,2025-05-25,2025,regular,Warriors,Raiders,10,16,,,espn,Warriors,Raiders,NEW,CAN
+espn-601493,2025-05-28,2025,regular,Queensland,New South Wales,6,18,,,espn,Queensland,New South Wales,QUE,NEW
+espn-601430,2025-05-30,2025,regular,Dragons,Knights,20,6,,,espn,Dragons,Knights,ST.,NEW
+espn-601431,2025-05-31,2025,regular,Titans,Storm,16,28,,,espn,Titans,Storm,GOL,MEL
+espn-601432,2025-05-31,2025,regular,Cowboys,Wests Tigers,32,28,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-601433,2025-05-31,2025,regular,Sea Eagles,Broncos,34,6,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-601434,2025-06-01,2025,regular,Rabbitohs,Warriors,30,36,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-601435,2025-06-01,2025,regular,Panthers,Eels,18,10,,,espn,Panthers,Eels,PEN,PAR
+espn-601436,2025-06-01,2025,regular,Roosters,Raiders,24,26,,,espn,Roosters,Raiders,SYD,CAN
+espn-601440,2025-06-05,2025,regular,Knights,Sea Eagles,26,22,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-601441,2025-06-06,2025,regular,Storm,Cowboys,38,14,,,espn,Storm,Cowboys,MEL,NOR
+espn-601442,2025-06-06,2025,regular,Dolphins,Dragons,56,6,,,espn,Dolphins,Dragons,DOL,ST.
+espn-601443,2025-06-07,2025,regular,Sharks,Warriors,10,40,,,espn,Sharks,Warriors,CRO,NEW
+espn-601444,2025-06-07,2025,regular,Broncos,Titans,44,14,,,espn,Broncos,Titans,BRI,GOL
+espn-601445,2025-06-08,2025,regular,Raiders,Rabbitohs,36,12,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-601446,2025-06-08,2025,regular,Wests Tigers,Panthers,14,18,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-601447,2025-06-09,2025,regular,Bulldogs,Eels,30,12,,,espn,Bulldogs,Eels,CAN,PAR
+espn-601449,2025-06-12,2025,regular,Sharks,Dragons,30,18,,,espn,Sharks,Dragons,CRO,ST.
+espn-601450,2025-06-13,2025,regular,Titans,Sea Eagles,28,8,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-601451,2025-06-14,2025,regular,Knights,Roosters,8,12,,,espn,Knights,Roosters,NEW,SYD
+espn-601452,2025-06-14,2025,regular,Cowboys,Dolphins,4,58,,,espn,Cowboys,Dolphins,NOR,DOL
+espn-601453,2025-06-15,2025,regular,Rabbitohs,Bulldogs,18,24,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-601494,2025-06-18,2025,regular,Queensland,New South Wales,26,24,,,espn,Queensland,New South Wales,QUE,NEW
+espn-601461,2025-06-20,2025,regular,Wests Tigers,Raiders,12,16,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-601462,2025-06-21,2025,regular,Warriors,Panthers,18,28,,,espn,Warriors,Panthers,NEW,PEN
+espn-601463,2025-06-21,2025,regular,Dolphins,Knights,20,26,,,espn,Dolphins,Knights,DOL,NEW
+espn-601464,2025-06-21,2025,regular,Rabbitohs,Storm,24,25,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-601465,2025-06-22,2025,regular,Broncos,Sharks,34,28,,,espn,Broncos,Sharks,BRI,CRO
+espn-601466,2025-06-22,2025,regular,Roosters,Cowboys,42,8,,,espn,Roosters,Cowboys,SYD,NOR
+espn-601467,2025-06-22,2025,regular,Eels,Titans,36,20,,,espn,Eels,Titans,PAR,GOL
+espn-601471,2025-06-26,2025,regular,Panthers,Bulldogs,8,6,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-601472,2025-06-27,2025,regular,Sea Eagles,Wests Tigers,28,10,,,espn,Sea Eagles,Wests Tigers,MAN,WES
+espn-601473,2025-06-27,2025,regular,Knights,Raiders,18,22,,,espn,Knights,Raiders,NEW,CAN
+espn-601474,2025-06-28,2025,regular,Broncos,Warriors,26,12,,,espn,Broncos,Warriors,BRI,NEW
+espn-601475,2025-06-28,2025,regular,Dragons,Eels,34,20,,,espn,Dragons,Eels,ST.,PAR
+espn-601476,2025-06-28,2025,regular,Dolphins,Rabbitohs,50,28,,,espn,Dolphins,Rabbitohs,DOL,SOU
+espn-601477,2025-06-29,2025,regular,Storm,Sharks,30,6,,,espn,Storm,Sharks,MEL,CRO
+espn-601478,2025-06-29,2025,regular,Titans,Cowboys,24,30,,,espn,Titans,Cowboys,GOL,NOR
+espn-601480,2025-07-04,2025,regular,Bulldogs,Broncos,18,22,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-601481,2025-07-05,2025,regular,Raiders,Dragons,28,24,,,espn,Raiders,Dragons,CAN,ST.
+espn-601482,2025-07-05,2025,regular,Cowboys,Storm,20,26,,,espn,Cowboys,Storm,NOR,MEL
+espn-601483,2025-07-06,2025,regular,Roosters,Wests Tigers,28,30,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-601484,2025-07-06,2025,regular,Sea Eagles,Rabbitohs,30,12,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-601495,2025-07-09,2025,regular,New South Wales,Queensland,12,24,,,espn,New South Wales,Queensland,NEW,QUE
+espn-602037,2025-07-11,2025,regular,Sharks,Dolphins,24,12,,,espn,Sharks,Dolphins,CRO,DOL
+espn-602038,2025-07-12,2025,regular,Knights,Storm,14,32,,,espn,Knights,Storm,NEW,MEL
+espn-602039,2025-07-12,2025,regular,Dragons,Roosters,24,31,,,espn,Dragons,Roosters,ST.,SYD
+espn-602040,2025-07-12,2025,regular,Cowboys,Bulldogs,8,12,,,espn,Cowboys,Bulldogs,NOR,CAN
+espn-602041,2025-07-13,2025,regular,Warriors,Wests Tigers,34,14,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-602042,2025-07-13,2025,regular,Eels,Panthers,10,32,,,espn,Eels,Panthers,PAR,PEN
+espn-602043,2025-07-13,2025,regular,Titans,Broncos,14,26,,,espn,Titans,Broncos,GOL,BRI
+espn-602044,2025-07-17,2025,regular,Dolphins,Cowboys,43,24,,,espn,Dolphins,Cowboys,DOL,NOR
+espn-602045,2025-07-18,2025,regular,Sharks,Roosters,31,18,,,espn,Sharks,Roosters,CRO,SYD
+espn-602046,2025-07-18,2025,regular,Panthers,Rabbitohs,30,10,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-602047,2025-07-19,2025,regular,Raiders,Eels,40,16,,,espn,Raiders,Eels,CAN,PAR
+espn-602048,2025-07-19,2025,regular,Bulldogs,Dragons,20,18,,,espn,Bulldogs,Dragons,CAN,ST.
+espn-602049,2025-07-19,2025,regular,Storm,Sea Eagles,16,18,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-602050,2025-07-20,2025,regular,Wests Tigers,Titans,21,20,,,espn,Wests Tigers,Titans,WES,GOL
+espn-602051,2025-07-20,2025,regular,Knights,Warriors,15,20,,,espn,Knights,Warriors,NEW,NEW
+espn-602052,2025-07-24,2025,regular,Roosters,Storm,30,34,,,espn,Roosters,Storm,SYD,MEL
+espn-602053,2025-07-25,2025,regular,Cowboys,Dragons,38,32,,,espn,Cowboys,Dragons,NOR,ST.
+espn-602054,2025-07-25,2025,regular,Broncos,Eels,20,22,,,espn,Broncos,Eels,BRI,PAR
+espn-602055,2025-07-26,2025,regular,Warriors,Titans,16,24,,,espn,Warriors,Titans,NEW,GOL
+espn-602056,2025-07-26,2025,regular,Panthers,Wests Tigers,36,2,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-602057,2025-07-26,2025,regular,Rabbitohs,Sharks,12,14,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-602058,2025-07-27,2025,regular,Raiders,Knights,44,18,,,espn,Raiders,Knights,CAN,NEW
+espn-602059,2025-07-27,2025,regular,Bulldogs,Sea Eagles,42,4,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-602060,2025-07-31,2025,regular,Eels,Storm,10,16,,,espn,Eels,Storm,PAR,MEL
+espn-602061,2025-08-01,2025,regular,Warriors,Dolphins,18,20,,,espn,Warriors,Dolphins,NEW,DOL
+espn-602062,2025-08-01,2025,regular,Broncos,Rabbitohs,60,14,,,espn,Broncos,Rabbitohs,BRI,SOU
+espn-602063,2025-08-02,2025,regular,Titans,Panthers,26,30,,,espn,Titans,Panthers,GOL,PEN
+espn-602064,2025-08-02,2025,regular,Dragons,Raiders,18,12,,,espn,Dragons,Raiders,ST.,CAN
+espn-602065,2025-08-02,2025,regular,Sea Eagles,Roosters,4,20,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-602066,2025-08-03,2025,regular,Wests Tigers,Bulldogs,28,14,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-602067,2025-08-03,2025,regular,Sharks,Cowboys,32,12,,,espn,Sharks,Cowboys,CRO,NOR
+espn-602068,2025-08-07,2025,regular,Storm,Broncos,22,2,,,espn,Storm,Broncos,MEL,BRI
+espn-602069,2025-08-08,2025,regular,Knights,Panthers,12,48,,,espn,Knights,Panthers,NEW,PEN
+espn-602070,2025-08-08,2025,regular,Raiders,Sea Eagles,28,12,,,espn,Raiders,Sea Eagles,CAN,MAN
+espn-602071,2025-08-09,2025,regular,Dragons,Sharks,22,14,,,espn,Dragons,Sharks,ST.,CRO
+espn-602072,2025-08-09,2025,regular,Dolphins,Roosters,12,64,,,espn,Dolphins,Roosters,DOL,SYD
+espn-602073,2025-08-09,2025,regular,Bulldogs,Warriors,32,14,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-602074,2025-08-10,2025,regular,Titans,Rabbitohs,18,20,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-602075,2025-08-10,2025,regular,Eels,Cowboys,19,18,,,espn,Eels,Cowboys,PAR,NOR
+espn-602076,2025-08-14,2025,regular,Panthers,Storm,18,22,,,espn,Panthers,Storm,PEN,MEL
+espn-602077,2025-08-15,2025,regular,Warriors,Dragons,14,10,,,espn,Warriors,Dragons,NEW,ST.
+espn-602078,2025-08-15,2025,regular,Roosters,Bulldogs,32,12,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-602079,2025-08-16,2025,regular,Sharks,Titans,54,22,,,espn,Sharks,Titans,CRO,GOL
+espn-602080,2025-08-16,2025,regular,Broncos,Dolphins,38,28,,,espn,Broncos,Dolphins,BRI,DOL
+espn-602081,2025-08-16,2025,regular,Rabbitohs,Eels,20,16,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-602082,2025-08-17,2025,regular,Wests Tigers,Sea Eagles,26,12,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-602083,2025-08-17,2025,regular,Cowboys,Knights,38,4,,,espn,Cowboys,Knights,NOR,NEW
+espn-602084,2025-08-21,2025,regular,Rabbitohs,Dragons,40,0,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-602085,2025-08-22,2025,regular,Panthers,Raiders,16,20,,,espn,Panthers,Raiders,PEN,CAN
+espn-602086,2025-08-22,2025,regular,Storm,Bulldogs,20,14,,,espn,Storm,Bulldogs,MEL,CAN
+espn-602087,2025-08-23,2025,regular,Sea Eagles,Dolphins,58,30,,,espn,Sea Eagles,Dolphins,MAN,DOL
+espn-602088,2025-08-23,2025,regular,Titans,Warriors,18,32,,,espn,Titans,Warriors,GOL,NEW
+espn-602089,2025-08-23,2025,regular,Eels,Roosters,30,10,,,espn,Eels,Roosters,PAR,SYD
+espn-602090,2025-08-24,2025,regular,Knights,Broncos,12,46,,,espn,Knights,Broncos,NEW,BRI
+espn-602091,2025-08-24,2025,regular,Wests Tigers,Cowboys,28,34,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-602092,2025-08-28,2025,regular,Bulldogs,Panthers,28,4,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-602093,2025-08-29,2025,regular,Warriors,Eels,22,26,,,espn,Warriors,Eels,NEW,PAR
+espn-602094,2025-08-29,2025,regular,Storm,Roosters,10,40,,,espn,Storm,Roosters,MEL,SYD
+espn-602095,2025-08-30,2025,regular,Raiders,Wests Tigers,24,10,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-602096,2025-08-30,2025,regular,Dragons,Sea Eagles,24,40,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-602097,2025-08-30,2025,regular,Cowboys,Broncos,30,38,,,espn,Cowboys,Broncos,NOR,BRI
+espn-602098,2025-08-31,2025,regular,Sharks,Knights,40,16,,,espn,Sharks,Knights,CRO,NEW
+espn-602099,2025-08-31,2025,regular,Dolphins,Titans,36,30,,,espn,Dolphins,Titans,DOL,GOL
+espn-602100,2025-09-04,2025,regular,Broncos,Storm,30,14,,,espn,Broncos,Storm,BRI,MEL
+espn-602101,2025-09-05,2025,regular,Sea Eagles,Warriors,27,26,,,espn,Sea Eagles,Warriors,MAN,NEW
+espn-602102,2025-09-05,2025,regular,Roosters,Rabbitohs,36,6,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-602103,2025-09-06,2025,regular,Dragons,Panthers,20,40,,,espn,Dragons,Panthers,ST.,PEN
+espn-602104,2025-09-06,2025,regular,Titans,Wests Tigers,36,28,,,espn,Titans,Wests Tigers,GOL,WES
+espn-602105,2025-09-06,2025,regular,Bulldogs,Sharks,6,24,,,espn,Bulldogs,Sharks,CAN,CRO
+espn-602106,2025-09-07,2025,regular,Dolphins,Raiders,62,24,,,espn,Dolphins,Raiders,DOL,CAN
+espn-602107,2025-09-07,2025,regular,Eels,Knights,66,10,,,espn,Eels,Knights,PAR,NEW
+espn-603214,2025-09-12,2025,regular,Storm,Bulldogs,26,18,,,espn,Storm,Bulldogs,MEL,CAN
+espn-603215,2025-09-13,2025,regular,Warriors,Panthers,8,24,,,espn,Warriors,Panthers,NEW,PEN
+espn-603216,2025-09-13,2025,regular,Sharks,Roosters,20,10,,,espn,Sharks,Roosters,CRO,SYD
+espn-603217,2025-09-14,2025,regular,Raiders,Broncos,28,29,,,espn,Raiders,Broncos,CAN,BRI
+espn-603229,2025-09-20,2025,regular,Raiders,Sharks,12,32,,,espn,Raiders,Sharks,CAN,CRO
+espn-603230,2025-09-21,2025,regular,Bulldogs,Panthers,26,46,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-603233,2025-09-26,2025,regular,Storm,Sharks,22,14,,,espn,Storm,Sharks,MEL,CRO
+espn-603234,2025-09-28,2025,regular,Broncos,Panthers,16,14,,,espn,Broncos,Panthers,BRI,PEN
+espn-603235,2025-10-05,2025,regular,Storm,Broncos,22,26,,,espn,Storm,Broncos,MEL,BRI
+espn-603256,2026-03-05,2026,regular,Storm,Eels,52,4,,,espn,Storm,Eels,MEL,PAR
+espn-603257,2026-03-06,2026,regular,Warriors,Roosters,42,18,,,espn,Warriors,Roosters,NEW,SYD
+espn-603258,2026-03-06,2026,regular,Broncos,Panthers,0,26,,,espn,Broncos,Panthers,BRI,PEN
+espn-603259,2026-03-07,2026,regular,Sharks,Titans,50,10,,,espn,Sharks,Titans,CRO,GOL
+espn-603260,2026-03-07,2026,regular,Sea Eagles,Raiders,28,29,,,espn,Sea Eagles,Raiders,MAN,CAN
+espn-603261,2026-03-08,2026,regular,Dolphins,Rabbitohs,30,40,,,espn,Dolphins,Rabbitohs,DOL,SOU
+espn-603262,2026-03-12,2026,regular,Broncos,Eels,32,40,,,espn,Broncos,Eels,BRI,PAR
+espn-603263,2026-03-13,2026,regular,Warriors,Raiders,40,6,,,espn,Warriors,Raiders,NEW,CAN
+espn-603264,2026-03-13,2026,regular,Roosters,Rabbitohs,26,18,,,espn,Roosters,Rabbitohs,SYD,SOU
+espn-603265,2026-03-14,2026,regular,Wests Tigers,Cowboys,44,16,,,espn,Wests Tigers,Cowboys,WES,NOR
+espn-603266,2026-03-14,2026,regular,Dragons,Storm,20,46,,,espn,Dragons,Storm,ST.,MEL
+espn-603267,2026-03-14,2026,regular,Panthers,Sharks,26,6,,,espn,Panthers,Sharks,PEN,CRO
+espn-603268,2026-03-15,2026,regular,Sea Eagles,Knights,16,36,,,espn,Sea Eagles,Knights,MAN,NEW
+espn-603269,2026-03-15,2026,regular,Dolphins,Titans,18,14,,,espn,Dolphins,Titans,DOL,GOL
+espn-603270,2026-03-19,2026,regular,Raiders,Bulldogs,10,14,,,espn,Raiders,Bulldogs,CAN,CAN
+espn-603271,2026-03-20,2026,regular,Roosters,Panthers,4,40,,,espn,Roosters,Panthers,SYD,PEN
+espn-603272,2026-03-20,2026,regular,Storm,Broncos,14,18,,,espn,Storm,Broncos,MEL,BRI
+espn-603273,2026-03-21,2026,regular,Knights,Warriors,12,38,,,espn,Knights,Warriors,NEW,NEW
+espn-603274,2026-03-21,2026,regular,Sharks,Dolphins,10,38,,,espn,Sharks,Dolphins,CRO,DOL
+espn-603275,2026-03-21,2026,regular,Rabbitohs,Wests Tigers,20,16,,,espn,Rabbitohs,Wests Tigers,SOU,WES
+espn-603276,2026-03-22,2026,regular,Eels,Dragons,30,20,,,espn,Eels,Dragons,PAR,ST.
+espn-603277,2026-03-22,2026,regular,Cowboys,Titans,30,16,,,espn,Cowboys,Titans,NOR,GOL
+espn-603278,2026-03-26,2026,regular,Sea Eagles,Roosters,16,33,,,espn,Sea Eagles,Roosters,MAN,SYD
+espn-603279,2026-03-27,2026,regular,Warriors,Wests Tigers,14,32,,,espn,Warriors,Wests Tigers,NEW,WES
+espn-603280,2026-03-27,2026,regular,Broncos,Dolphins,26,12,,,espn,Broncos,Dolphins,BRI,DOL
+espn-603281,2026-03-28,2026,regular,Bulldogs,Knights,16,24,,,espn,Bulldogs,Knights,CAN,NEW
+espn-603282,2026-03-28,2026,regular,Panthers,Eels,48,20,,,espn,Panthers,Eels,PEN,PAR
+espn-603283,2026-03-28,2026,regular,Cowboys,Storm,28,24,,,espn,Cowboys,Storm,NOR,MEL
+espn-603284,2026-03-29,2026,regular,Raiders,Sharks,22,34,,,espn,Raiders,Sharks,CAN,CRO
+espn-603285,2026-03-29,2026,regular,Titans,Dragons,22,14,,,espn,Titans,Dragons,GOL,ST.
+espn-603286,2026-04-02,2026,regular,Dolphins,Sea Eagles,18,52,,,espn,Dolphins,Sea Eagles,DOL,MAN
+espn-603287,2026-04-03,2026,regular,Rabbitohs,Bulldogs,32,24,,,espn,Rabbitohs,Bulldogs,SOU,CAN
+espn-603288,2026-04-03,2026,regular,Panthers,Storm,50,10,,,espn,Panthers,Storm,PEN,MEL
+espn-603289,2026-04-04,2026,regular,Dragons,Cowboys,0,32,,,espn,Dragons,Cowboys,ST.,NOR
+espn-603290,2026-04-04,2026,regular,Titans,Broncos,12,26,,,espn,Titans,Broncos,GOL,BRI
+espn-603291,2026-04-05,2026,regular,Sharks,Warriors,36,22,,,espn,Sharks,Warriors,CRO,NEW
+espn-603292,2026-04-05,2026,regular,Knights,Raiders,32,12,,,espn,Knights,Raiders,NEW,CAN
+espn-603293,2026-04-06,2026,regular,Eels,Wests Tigers,20,22,,,espn,Eels,Wests Tigers,PAR,WES
+espn-603294,2026-04-09,2026,regular,Bulldogs,Panthers,32,16,,,espn,Bulldogs,Panthers,CAN,PEN
+espn-603295,2026-04-10,2026,regular,Dragons,Sea Eagles,18,28,,,espn,Dragons,Sea Eagles,ST.,MAN
+espn-603296,2026-04-10,2026,regular,Broncos,Cowboys,31,35,,,espn,Broncos,Cowboys,BRI,NOR
+espn-603297,2026-04-11,2026,regular,Rabbitohs,Raiders,34,36,,,espn,Rabbitohs,Raiders,SOU,CAN
+espn-603298,2026-04-11,2026,regular,Sharks,Roosters,22,34,,,espn,Sharks,Roosters,CRO,SYD
+espn-603299,2026-04-11,2026,regular,Storm,Warriors,14,38,,,espn,Storm,Warriors,MEL,NEW
+espn-603300,2026-04-12,2026,regular,Eels,Titans,10,52,,,espn,Eels,Titans,PAR,GOL
+espn-603301,2026-04-12,2026,regular,Wests Tigers,Knights,42,22,,,espn,Wests Tigers,Knights,WES,NEW
+espn-603302,2026-04-16,2026,regular,Cowboys,Sea Eagles,6,38,,,espn,Cowboys,Sea Eagles,NOR,MAN
+espn-603303,2026-04-17,2026,regular,Raiders,Storm,26,22,,,espn,Raiders,Storm,CAN,MEL
+espn-603304,2026-04-17,2026,regular,Dolphins,Panthers,22,23,,,espn,Dolphins,Panthers,DOL,PEN
+espn-603305,2026-04-18,2026,regular,Warriors,Titans,28,20,,,espn,Warriors,Titans,NEW,GOL
+espn-603306,2026-04-18,2026,regular,Rabbitohs,Dragons,30,12,,,espn,Rabbitohs,Dragons,SOU,ST.
+espn-603307,2026-04-18,2026,regular,Wests Tigers,Broncos,20,21,,,espn,Wests Tigers,Broncos,WES,BRI
+espn-603308,2026-04-19,2026,regular,Roosters,Knights,38,24,,,espn,Roosters,Knights,SYD,NEW
+espn-603309,2026-04-19,2026,regular,Eels,Bulldogs,38,20,,,espn,Eels,Bulldogs,PAR,CAN
+espn-603310,2026-04-23,2026,regular,Wests Tigers,Raiders,33,14,,,espn,Wests Tigers,Raiders,WES,CAN
+espn-603311,2026-04-24,2026,regular,Cowboys,Sharks,46,34,,,espn,Cowboys,Sharks,NOR,CRO
+espn-603312,2026-04-24,2026,regular,Broncos,Bulldogs,32,12,,,espn,Broncos,Bulldogs,BRI,CAN
+espn-603313,2026-04-25,2026,regular,Dragons,Roosters,16,62,,,espn,Dragons,Roosters,ST.,SYD
+espn-603314,2026-04-25,2026,regular,Warriors,Dolphins,20,18,,,espn,Warriors,Dolphins,NEW,DOL
+espn-603315,2026-04-25,2026,regular,Storm,Rabbitohs,6,48,,,espn,Storm,Rabbitohs,MEL,SOU
+espn-603316,2026-04-26,2026,regular,Knights,Panthers,12,44,,,espn,Knights,Panthers,NEW,PEN
+espn-603317,2026-04-26,2026,regular,Sea Eagles,Eels,33,18,,,espn,Sea Eagles,Eels,MAN,PAR
+espn-603318,2026-05-01,2026,regular,Bulldogs,Cowboys,12,28,,,espn,Bulldogs,Cowboys,CAN,NOR
+espn-603319,2026-05-01,2026,regular,Dolphins,Storm,28,10,,,espn,Dolphins,Storm,DOL,MEL
+espn-603320,2026-05-02,2026,regular,Titans,Raiders,12,28,,,espn,Titans,Raiders,GOL,CAN
+espn-603321,2026-05-02,2026,regular,Eels,Warriors,14,36,,,espn,Eels,Warriors,PAR,NEW
+espn-603322,2026-05-02,2026,regular,Roosters,Broncos,38,24,,,espn,Roosters,Broncos,SYD,BRI
+espn-603323,2026-05-03,2026,regular,Knights,Rabbitohs,42,38,,,espn,Knights,Rabbitohs,NEW,SOU
+espn-603324,2026-05-03,2026,regular,Sharks,Wests Tigers,52,10,,,espn,Sharks,Wests Tigers,CRO,WES
+espn-603325,2026-05-03,2026,regular,Panthers,Sea Eagles,18,16,,,espn,Panthers,Sea Eagles,PEN,MAN
+espn-603326,2026-05-07,2026,regular,Dolphins,Bulldogs,44,12,,,espn,Dolphins,Bulldogs,DOL,CAN
+espn-603327,2026-05-08,2026,regular,Roosters,Titans,28,12,,,espn,Roosters,Titans,SYD,GOL
+espn-603328,2026-05-08,2026,regular,Cowboys,Eels,30,33,,,espn,Cowboys,Eels,NOR,PAR
+espn-603329,2026-05-09,2026,regular,Dragons,Knights,10,44,,,espn,Dragons,Knights,ST.,NEW
+espn-603330,2026-05-09,2026,regular,Rabbitohs,Sharks,36,12,,,espn,Rabbitohs,Sharks,SOU,CRO
+espn-603331,2026-05-09,2026,regular,Sea Eagles,Broncos,32,4,,,espn,Sea Eagles,Broncos,MAN,BRI
+espn-603332,2026-05-10,2026,regular,Storm,Wests Tigers,44,16,,,espn,Storm,Wests Tigers,MEL,WES
+espn-603333,2026-05-10,2026,regular,Raiders,Panthers,18,30,,,espn,Raiders,Panthers,CAN,PEN
+espn-603334,2026-05-15,2026,regular,Sharks,Bulldogs,38,16,,,espn,Sharks,Bulldogs,CRO,CAN
+espn-603335,2026-05-15,2026,regular,Rabbitohs,Dolphins,10,32,,,espn,Rabbitohs,Dolphins,SOU,DOL
+espn-603336,2026-05-16,2026,regular,Wests Tigers,Sea Eagles,18,46,,,espn,Wests Tigers,Sea Eagles,WES,MAN
+espn-603337,2026-05-16,2026,regular,Roosters,Cowboys,12,18,,,espn,Roosters,Cowboys,SYD,NOR
+espn-603338,2026-05-16,2026,regular,Eels,Storm,8,34,,,espn,Eels,Storm,PAR,MEL
+espn-603339,2026-05-17,2026,regular,Titans,Knights,12,36,,,espn,Titans,Knights,GOL,NEW
+espn-603340,2026-05-17,2026,regular,Warriors,Broncos,42,12,,,espn,Warriors,Broncos,NEW,BRI
+espn-603341,2026-05-17,2026,regular,Panthers,Dragons,28,6,,,espn,Panthers,Dragons,PEN,ST.
+espn-603342,2026-05-21,2026,regular,Raiders,Dolphins,22,30,,,espn,Raiders,Dolphins,CAN,DOL
+espn-603343,2026-05-22,2026,regular,Bulldogs,Storm,30,20,,,espn,Bulldogs,Storm,CAN,MEL
+espn-603344,2026-05-23,2026,regular,Dragons,Warriors,12,30,,,espn,Dragons,Warriors,ST.,NEW
+espn-603345,2026-05-23,2026,regular,Sea Eagles,Titans,12,10,,,espn,Sea Eagles,Titans,MAN,GOL
+espn-603346,2026-05-24,2026,regular,Cowboys,Rabbitohs,30,18,,,espn,Cowboys,Rabbitohs,NOR,SOU
+espn-603251,2026-05-27,2026,regular,New South Wales,Queensland,22,20,,,espn,New South Wales,Queensland,NEW,QUE
+espn-603347,2026-05-29,2026,regular,Sharks,Sea Eagles,28,22,,,espn,Sharks,Sea Eagles,CRO,MAN
+espn-603348,2026-05-30,2026,regular,Knights,Eels,28,22,,,espn,Knights,Eels,NEW,PAR
+espn-603349,2026-05-30,2026,regular,Wests Tigers,Bulldogs,22,16,,,espn,Wests Tigers,Bulldogs,WES,CAN
+espn-603350,2026-05-30,2026,regular,Storm,Roosters,18,4,,,espn,Storm,Roosters,MEL,SYD
+espn-603351,2026-05-31,2026,regular,Broncos,Dragons,26,30,,,espn,Broncos,Dragons,BRI,ST.
+espn-603352,2026-05-31,2026,regular,Raiders,Cowboys,26,12,,,espn,Raiders,Cowboys,CAN,NOR
+espn-603353,2026-05-31,2026,regular,Panthers,Warriors,20,18,,,espn,Panthers,Warriors,PEN,NEW
+espn-603354,2026-06-04,2026,regular,Sea Eagles,Rabbitohs,28,14,,,espn,Sea Eagles,Rabbitohs,MAN,SOU
+espn-603355,2026-06-05,2026,regular,Storm,Knights,32,30,,,espn,Storm,Knights,MEL,NEW
+espn-603356,2026-06-05,2026,regular,Raiders,Roosters,0,26,,,espn,Raiders,Roosters,CAN,SYD
+espn-603357,2026-06-06,2026,regular,Cowboys,Dolphins,14,40,,,espn,Cowboys,Dolphins,NOR,DOL
+espn-603358,2026-06-06,2026,regular,Broncos,Titans,23,28,,,espn,Broncos,Titans,BRI,GOL
+espn-603359,2026-06-07,2026,regular,Wests Tigers,Panthers,0,68,,,espn,Wests Tigers,Panthers,WES,PEN
+espn-603360,2026-06-07,2026,regular,Sharks,Dragons,34,12,,,espn,Sharks,Dragons,CRO,ST.
+espn-603361,2026-06-08,2026,regular,Bulldogs,Eels,14,12,,,espn,Bulldogs,Eels,CAN,PAR
+espn-603362,2026-06-11,2026,regular,Rabbitohs,Broncos,48,6,,,espn,Rabbitohs,Broncos,SOU,BRI
+espn-603363,2026-06-12,2026,regular,Dolphins,Roosters,48,10,,,espn,Dolphins,Roosters,DOL,SYD
+espn-603364,2026-06-13,2026,regular,Warriors,Sharks,8,10,,,espn,Warriors,Sharks,NEW,CRO
+espn-603365,2026-06-13,2026,regular,Eels,Raiders,15,12,,,espn,Eels,Raiders,PAR,CAN
+espn-603366,2026-06-14,2026,regular,Wests Tigers,Titans,36,28,,,espn,Wests Tigers,Titans,WES,GOL
+espn-603252,2026-06-17,2026,regular,New South Wales,Queensland,24,44,,,espn,New South Wales,Queensland,NEW,QUE
+espn-603367,2026-06-19,2026,regular,Knights,Dragons,22,20,,,espn,Knights,Dragons,NEW,ST.
+espn-603368,2026-06-20,2026,regular,Wests Tigers,Dolphins,22,36,,,espn,Wests Tigers,Dolphins,WES,DOL
+espn-603369,2026-06-20,2026,regular,Titans,Panthers,19,18,,,espn,Titans,Panthers,GOL,PEN
+espn-603370,2026-06-20,2026,regular,Bulldogs,Sea Eagles,13,12,,,espn,Bulldogs,Sea Eagles,CAN,MAN
+espn-603371,2026-06-21,2026,regular,Warriors,Cowboys,38,20,,,espn,Warriors,Cowboys,NEW,NOR
+espn-603372,2026-06-21,2026,regular,Storm,Raiders,42,20,,,espn,Storm,Raiders,MEL,CAN
+espn-603373,2026-06-21,2026,regular,Roosters,Sharks,27,8,,,espn,Roosters,Sharks,SYD,CRO
+espn-603374,2026-06-25,2026,regular,Eels,Rabbitohs,12,32,,,espn,Eels,Rabbitohs,PAR,SOU
+espn-603375,2026-06-26,2026,regular,Titans,Bulldogs,12,30,,,espn,Titans,Bulldogs,GOL,CAN
+espn-603376,2026-06-26,2026,regular,Broncos,Roosters,18,24,,,espn,Broncos,Roosters,BRI,SYD
+espn-603377,2026-06-27,2026,regular,Dolphins,Warriors,26,24,,,espn,Dolphins,Warriors,DOL,NEW
+espn-603378,2026-06-27,2026,regular,Cowboys,Panthers,26,12,,,espn,Cowboys,Panthers,NOR,PEN
+espn-603379,2026-06-27,2026,regular,Sea Eagles,Storm,30,4,,,espn,Sea Eagles,Storm,MAN,MEL
+espn-603380,2026-06-28,2026,regular,Raiders,Dragons,24,16,,,espn,Raiders,Dragons,CAN,ST.
+espn-603381,2026-06-28,2026,regular,Knights,Wests Tigers,12,6,,,espn,Knights,Wests Tigers,NEW,WES
+espn-603382,2026-07-03,2026,regular,Panthers,Rabbitohs,36,14,,,espn,Panthers,Rabbitohs,PEN,SOU
+espn-603383,2026-07-04,2026,regular,Dragons,Wests Tigers,24,10,,,espn,Dragons,Wests Tigers,ST.,WES
+espn-603384,2026-07-04,2026,regular,Broncos,Sharks,16,28,,,espn,Broncos,Sharks,BRI,CRO
+espn-603385,2026-07-05,2026,regular,Eels,Sea Eagles,23,14,,,espn,Eels,Sea Eagles,PAR,MAN
+espn-603386,2026-07-05,2026,regular,Knights,Dolphins,13,12,,,espn,Knights,Dolphins,NEW,DOL
+espn-603253,2026-07-08,2026,regular,Queensland,New South Wales,12,30,,,espn,Queensland,New South Wales,QUE,NEW
+espn-603387,2026-07-10,2026,regular,Wests Tigers,Warriors,6,32,,,espn,Wests Tigers,Warriors,WES,NEW
+espn-603388,2026-07-11,2026,regular,Dolphins,Sharks,0,66,,,espn,Dolphins,Sharks,DOL,CRO
+espn-603389,2026-07-11,2026,regular,Bulldogs,Raiders,16,40,,,espn,Bulldogs,Raiders,CAN,CAN
+espn-603390,2026-07-11,2026,regular,Roosters,Eels,28,12,,,espn,Roosters,Eels,SYD,PAR
+espn-603391,2026-07-12,2026,regular,Rabbitohs,Knights,26,24,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-603392,2026-07-12,2026,regular,Sea Eagles,Cowboys,18,19,,,espn,Sea Eagles,Cowboys,MAN,NOR
+espn-603393,2026-07-12,2026,regular,Storm,Titans,22,18,,,espn,Storm,Titans,MEL,GOL
+espn-603394,2026-07-16,2026,regular,Panthers,Broncos,12,14,,,espn,Panthers,Broncos,PEN,BRI
+espn-603395,2026-07-17,2026,regular,Sharks,Knights,20,18,,,espn,Sharks,Knights,CRO,NEW
+espn-603396,2026-07-17,2026,regular,Roosters,Storm,14,6,,,espn,Roosters,Storm,SYD,MEL
+espn-603397,2026-07-18,2026,regular,Raiders,Rabbitohs,34,24,,,espn,Raiders,Rabbitohs,CAN,SOU
+espn-603398,2026-07-18,2026,regular,Warriors,Dragons,20,12,,,espn,Warriors,Dragons,NEW,ST.
+espn-603399,2026-07-18,2026,regular,Bulldogs,Wests Tigers,32,0,,,espn,Bulldogs,Wests Tigers,CAN,WES
+espn-603400,2026-07-19,2026,regular,Titans,Sea Eagles,38,32,,,espn,Titans,Sea Eagles,GOL,MAN
+espn-603401,2026-07-19,2026,regular,Dolphins,Cowboys,36,16,,,espn,Dolphins,Cowboys,DOL,NOR
+espn-603402,2026-07-23,2026,regular,Eels,Panthers,18,24,,,espn,Eels,Panthers,PAR,PEN
+espn-603403,2026-07-24,2026,regular,Knights,Roosters,22,23,,,espn,Knights,Roosters,NEW,SYD
+espn-603404,2026-07-24,2026,regular,Rabbitohs,Storm,28,26,,,espn,Rabbitohs,Storm,SOU,MEL
+espn-603405,2026-07-25,2026,regular,Raiders,Wests Tigers,56,10,,,espn,Raiders,Wests Tigers,CAN,WES
+espn-603406,2026-07-25,2026,regular,Bulldogs,Warriors,18,6,,,espn,Bulldogs,Warriors,CAN,NEW
+espn-603407,2026-07-25,2026,regular,Cowboys,Broncos,18,10,,,espn,Cowboys,Broncos,NOR,BRI
+espn-603408,2026-07-26,2026,regular,Dragons,Titans,18,38,,,espn,Dragons,Titans,ST.,GOL
+espn-603409,2026-07-26,2026,regular,Sea Eagles,Sharks,12,48,,,espn,Sea Eagles,Sharks,MAN,CRO
+espn-603410,2026-07-30,2026,regular,Cowboys,Roosters,12,82,,,espn,Cowboys,Roosters,NOR,SYD
+espn-603411,2026-07-31,2026,regular,Dragons,Dolphins,22,28,,,espn,Dragons,Dolphins,ST.,DOL
+espn-603412,2026-07-31,2026,regular,Storm,Bulldogs,22,36,,,espn,Storm,Bulldogs,MEL,CAN
+espn-603413,2026-08-01,2026,regular,Titans,Warriors,6,42,,,espn,Titans,Warriors,GOL,NEW
+espn-603414,2026-08-01,2026,regular,Panthers,Raiders,42,18,,,espn,Panthers,Raiders,PEN,CAN
+espn-603415,2026-08-01,2026,regular,Broncos,Knights,6,30,,,espn,Broncos,Knights,BRI,NEW
+espn-603416,2026-08-02,2026,regular,Sharks,Rabbitohs,32,16,,,espn,Sharks,Rabbitohs,CRO,SOU
+espn-603417,2026-08-02,2026,regular,Wests Tigers,Eels,13,16,,,espn,Wests Tigers,Eels,WES,PAR
+espn-603418,2026-08-06,2026,regular,Titans,Cowboys,8,30,,,espn,Titans,Cowboys,GOL,NOR
+espn-603419,2026-08-07,2026,regular,Warriors,Panthers,28,12,,,espn,Warriors,Panthers,NEW,PEN
+espn-603420,2026-08-07,2026,regular,Roosters,Bulldogs,20,18,,,espn,Roosters,Bulldogs,SYD,CAN
+espn-603421,2026-08-08,2026,regular,Storm,Sea Eagles,42,20,,,espn,Storm,Sea Eagles,MEL,MAN
+espn-603422,2026-08-08,2026,regular,Dolphins,Broncos,40,32,,,espn,Dolphins,Broncos,DOL,BRI
+espn-603423,2026-08-08,2026,regular,Rabbitohs,Eels,28,24,,,espn,Rabbitohs,Eels,SOU,PAR
+espn-603424,2026-08-09,2026,regular,Raiders,Knights,24,30,,,espn,Raiders,Knights,CAN,NEW
+espn-603425,2026-08-09,2026,regular,Dragons,Sharks,24,16,,,espn,Dragons,Sharks,ST.,CRO
+espn-603426,2026-08-13,2026,regular,Panthers,Roosters,6,12,,,espn,Panthers,Roosters,PEN,SYD
+espn-603427,2026-08-14,2026,regular,Sea Eagles,Dolphins,0,22,,,espn,Sea Eagles,Dolphins,MAN,DOL
+espn-603428,2026-08-14,2026,regular,Bulldogs,Rabbitohs,6,22,,,espn,Bulldogs,Rabbitohs,CAN,SOU
+espn-603429,2026-08-15,2026,regular,Sharks,Raiders,20,24,,,espn,Sharks,Raiders,CRO,CAN
+espn-603430,2026-08-15,2026,regular,Eels,Cowboys,32,30,,,espn,Eels,Cowboys,PAR,NOR
+espn-603431,2026-08-15,2026,regular,Broncos,Warriors,6,40,,,espn,Broncos,Warriors,BRI,NEW
+espn-603432,2026-08-16,2026,regular,Knights,Titans,36,26,,,espn,Knights,Titans,NEW,GOL
+espn-603433,2026-08-16,2026,regular,Wests Tigers,Dragons,22,24,,,espn,Wests Tigers,Dragons,WES,ST.
+espn-603434,2026-08-20,2026,regular,Storm,Panthers,14,22,,,espn,Storm,Panthers,MEL,PEN
+espn-603435,2026-08-21,2026,regular,Raiders,Broncos,30,34,,,espn,Raiders,Broncos,CAN,BRI
+espn-603436,2026-08-21,2026,regular,Dolphins,Eels,34,16,,,espn,Dolphins,Eels,DOL,PAR
+espn-603437,2026-08-22,2026,regular,Knights,Sea Eagles,24,44,,,espn,Knights,Sea Eagles,NEW,MAN
+espn-603438,2026-08-22,2026,regular,Rabbitohs,Warriors,26,45,,,espn,Rabbitohs,Warriors,SOU,NEW
+espn-603439,2026-08-22,2026,regular,Dragons,Bulldogs,14,44,,,espn,Dragons,Bulldogs,ST.,CAN
+espn-603440,2026-08-23,2026,regular,Titans,Sharks,22,30,,,espn,Titans,Sharks,GOL,CRO
+espn-603441,2026-08-23,2026,regular,Roosters,Wests Tigers,24,25,,,espn,Roosters,Wests Tigers,SYD,WES
+espn-603442,2026-08-27,2026,regular,Broncos,Storm,20,46,,,espn,Broncos,Storm,BRI,MEL
+espn-603443,2026-08-28,2026,regular,Sea Eagles,Dragons,44,10,,,espn,Sea Eagles,Dragons,MAN,ST.
+espn-603444,2026-08-28,2026,regular,Panthers,Bulldogs,24,10,,,espn,Panthers,Bulldogs,PEN,CAN
+espn-603445,2026-08-29,2026,regular,Titans,Rabbitohs,22,42,,,espn,Titans,Rabbitohs,GOL,SOU
+espn-603446,2026-08-29,2026,regular,Roosters,Dolphins,12,26,,,espn,Roosters,Dolphins,SYD,DOL
+espn-603447,2026-08-29,2026,regular,Cowboys,Wests Tigers,24,10,,,espn,Cowboys,Wests Tigers,NOR,WES
+espn-603448,2026-08-30,2026,regular,Warriors,Knights,46,32,,,espn,Warriors,Knights,NEW,NEW
+espn-603449,2026-08-30,2026,regular,Eels,Sharks,38,18,,,espn,Eels,Sharks,PAR,CRO
+espn-603450,2026-09-03,2026,regular,Bulldogs,Broncos,20,34,,,espn,Bulldogs,Broncos,CAN,BRI
+espn-603451,2026-09-04,2026,regular,Titans,Dolphins,20,24,,,espn,Titans,Dolphins,GOL,DOL
+espn-603452,2026-09-04,2026,regular,Rabbitohs,Roosters,50,20,,,espn,Rabbitohs,Roosters,SOU,SYD
+espn-603453,2026-09-05,2026,regular,Warriors,Sea Eagles,31,30,,,espn,Warriors,Sea Eagles,NEW,MAN
+espn-603454,2026-09-05,2026,regular,Cowboys,Raiders,30,50,,,espn,Cowboys,Raiders,NOR,CAN
+espn-603455,2026-09-05,2026,regular,Sharks,Storm,20,24,,,espn,Sharks,Storm,CRO,MEL
+espn-603456,2026-09-06,2026,regular,Dragons,Eels,24,22,,,espn,Dragons,Eels,ST.,PAR
+espn-603457,2026-09-06,2026,regular,Panthers,Wests Tigers,38,10,,,espn,Panthers,Wests Tigers,PEN,WES
+espn-604733,2026-09-11,2026,regular,Rabbitohs,Knights,10,20,,,espn,Rabbitohs,Knights,SOU,NEW
+espn-604734,2026-09-12,2026,regular,Warriors,Dolphins,16,26,,,espn,Warriors,Dolphins,NEW,DOL
+espn-604735,2026-09-12,2026,regular,Sharks,Cowboys,26,16,,,espn,Sharks,Cowboys,CRO,NOR
+espn-604736,2026-09-13,2026,regular,Panthers,Roosters,19,12,,,espn,Panthers,Roosters,PEN,SYD
+espn-604756,2026-09-19,2026,regular,Roosters,Sharks,46,10,,,espn,Roosters,Sharks,SYD,CRO
+espn-604757,2026-09-20,2026,regular,Warriors,Knights,10,12,,,espn,Warriors,Knights,NEW,NEW
+espn-604843,2026-09-25,2026,regular,Dolphins,Roosters,20,36,,,espn,Dolphins,Roosters,DOL,SYD
+espn-604844,2026-09-27,2026,regular,Panthers,Knights,14,22,,,espn,Panthers,Knights,PEN,NEW
