@@ -78,6 +78,12 @@ jobs:
       - name: Share images
         run: pip install pillow && python og_images.py || for l in nfl nba nhl mlb; do cp site/og.png site/$l/og.png; done
         continue-on-error: true
+      - name: Web push for title changes (7.14; the belt-picks Worker de-dupes by reign)
+        run: python notify_push.py
+        env:
+          PICKS_API: ${{ vars.PICKS_API }}
+          NOTIFY_KEY: ${{ secrets.NOTIFY_KEY }}
+        continue-on-error: true
       - name: Site size guard (GitHub Pages rejects sites over 1 GB)
         run: |
           # --apparent-size: the bytes Pages counts, not 4 KB disk blocks (33k small files overstate it by ~200 MB)
