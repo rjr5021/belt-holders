@@ -3,7 +3,22 @@
   "2026-10-01 11:44 preview nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd9Qw1Fm6PK/",
   "2026-10-02 00:57 result nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd-reU9EWmO/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-03",
+   "defenses": 0,
+   "espn_id": "401892441",
+   "game_no": 8435,
+   "holder": "San Jose Sharks",
+   "holder_short": "Sharks",
+   "lg": "nhl",
+   "opponent": "Los Angeles Kings",
+   "opponent_short": "Kings",
+   "reign_no": 41,
+   "since": "2026-10-01"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01"
  ],
