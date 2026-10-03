@@ -141,6 +141,34 @@ def save_state(st):
                 time.sleep(5 * (i + 1))
 
 
+def sync_remote(st):
+    """Merge in what main already records as posted. Runs pile up behind the one
+    watching a live game (concurrency x-posts), and a queued scheduled run checks
+    out the commit from when it was *scheduled*, so its copy of state.json can be
+    missing the final the watcher just posted. This is the last check before any
+    post goes out. (2026-10-02: the SJS-FLA final posted twice, at 12:57 and
+    12:58 AM ET, run #111 after the watcher.)"""
+    if not (LIVE and os.environ.get("GITHUB_ACTIONS")):
+        return st
+    try:
+        branch = os.environ.get("GITHUB_REF_NAME") or "main"
+        if subprocess.run(["git", "fetch", "-q", "origin", branch], timeout=60).returncode:
+            return st
+        out = subprocess.run(["git", "show", f"origin/{branch}:{STATE}"], capture_output=True, text=True, timeout=30)
+        if out.returncode:
+            return st
+        remote = json.loads(out.stdout)
+        if (remote.get("digest") or "") > (st.get("digest") or ""):
+            st["digest"] = remote["digest"]
+        for key, flags in (remote.get("games") or {}).items():
+            mine = st.setdefault("games", {}).setdefault(key, {})
+            for k, v in flags.items():
+                mine.setdefault(k, v)
+    except Exception as e:  # noqa: BLE001
+        print(f"  (couldn't read the state on main: {e})")
+    return st
+
+
 # --------------------------------------------------------------------- post --
 
 _client = {}
@@ -339,7 +367,8 @@ def one_pass(st, day):
             known["games"].append(g)
     games = known["games"]
 
-    if games and st.get("digest") != day.isoformat() and DIGEST_FROM <= n.hour < DIGEST_UNTIL:
+    if games and st.get("digest") != day.isoformat() and DIGEST_FROM <= n.hour < DIGEST_UNTIL \
+            and sync_remote(st).get("digest") != day.isoformat():
         if post(digest_text(games), kind="morning"):
             st["digest"] = day.isoformat()
             st.setdefault("log", []).append([n.isoformat(timespec="minutes"), "digest", len(games)])
@@ -361,15 +390,20 @@ def one_pass(st, day):
             continue
         ev["day"] = day.isoformat()
         print(f"  {key}: {ev['state']} {ev['detail']} {g['holder_short']} {ev['hs']}-{ev['os']}")
-        if ev["state"] == "in" and not done.get("start") and g["lg"] in START_LEAGUES:
+        if ev["state"] == "in" and not done.get("start") and g["lg"] in START_LEAGUES \
+                and not sync_remote(st)["games"][key].get("start"):
             if post(start_text(g), kind=f"{g['lg']} start"):
                 done["start"] = n.isoformat(timespec="minutes")
                 save_state(st)
-        if ev["state"] == "in" and not done.get("danger") and in_danger(g["lg"], ev):
+        if ev["state"] == "in" and not done.get("danger") and in_danger(g["lg"], ev) \
+                and not sync_remote(st)["games"][key].get("danger"):
             if post(danger_text(g, ev), kind=f"{g['lg']} danger"):
                 done["danger"] = n.isoformat(timespec="minutes")
                 save_state(st)
         if ev["state"] == "post" and ev["completed"]:
+            if sync_remote(st)["games"][key].get("end"):
+                print(f"  {key}: final already posted (by another run)")
+                continue
             changed = ev["os"] > ev["hs"]
             if post(end_text(g, ev), image=champion_card(g, ev) if changed else None, kind=f"{g['lg']} final"):
                 done["end"] = n.isoformat(timespec="minutes")
@@ -403,7 +437,7 @@ def main():
         return check()
     watch = "--watch" in sys.argv
     print(f"X posts: leagues {LEAGUES}, {'LIVE' if LIVE else 'dry run'}")
-    st = load_state()
+    st = sync_remote(load_state())
     began = datetime.now(timezone.utc)
     while True:
         day = now_et().date()
