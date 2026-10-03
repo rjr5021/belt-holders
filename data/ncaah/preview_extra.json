@@ -1,0 +1,25 @@
+{
+ "key": "DEN|UAA|2026-10-03",
+ "updated": "2026-10-03T00:38Z",
+ "start_utc": "2026-10-04T01:00Z",
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "Denver brings the Belt Holders lineal championship to Alaska Anchorage in the 2026 season opener for both teams. The Pioneers have defended the belt 11 times in their current reign and have never lost it to the Seawolves, who have never held the belt in program history. This marks the third time these programs will meet with the lineal title on the line.",
+  "key_matchups": [
+   "Denver's momentum from five straight wins, including four playoff victories, against Alaska Anchorage's five-game skid to end last season",
+   "The Pioneers' recent dominance in this series, winning three of the last five meetings including a 6-0 shutout last November",
+   "Alaska Anchorage's quest to claim the belt for the first time in program history on home ice"
+  ],
+  "betting_angles": "Denver enters on a five-game winning streak capped by playoff victories, while Alaska Anchorage limped to the finish line with five consecutive losses. The Pioneers have won three of the last five head-to-head meetings, including commanding victories of 6-0 and 4-1 in recent seasons. Our Elo model strongly favors Denver, which aligns with their superior recent form and head-to-head record.",
+  "predicted_winner": "Denver",
+  "predicted_score": "Denver 4, Alaska Anchorage 2",
+  "prediction_writeup": "Denver's playoff pedigree and five-game winning streak to close last season should carry over against an Alaska Anchorage squad that lost five straight to end their campaign. The Pioneers have owned this matchup recently, winning three of five with dominant performances like the 6-0 shutout last November. While the Seawolves have the home ice advantage in the season opener, Denver's Elo edge and superior form make them the clear choice to retain the belt for a 12th consecutive defense.",
+  "written": "2026-10-03",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
+}
