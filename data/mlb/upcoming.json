@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-03-1-849828",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m119",
-  "away": "m144",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "16:00",
-  "venue": "UNIQLO Field at Dodger Stadium",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-03-1-849835",
   "date": "2026-10-03",
   "season": 2026,
