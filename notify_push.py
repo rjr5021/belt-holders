@@ -19,8 +19,11 @@ SITE = "https://beltholders.com"
 
 
 def post(payload):
+    # A named user agent: Cloudflare's edge answers urllib's default "Python-urllib/3.x" with 403 "error code: 1010"
+    # (browser integrity check) before the Worker ever sees the request.
     req = urllib.request.Request(f"{API}/notify", data=json.dumps(payload).encode(), method="POST",
-                                 headers={"content-type": "application/json", "x-notify-key": KEY})
+                                 headers={"content-type": "application/json", "x-notify-key": KEY, "accept": "application/json",
+                                          "user-agent": "beltholders-deploy/1.0 (+https://beltholders.com/; GitHub Actions)"})
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode())
 
