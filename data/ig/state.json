@@ -1,7 +1,8 @@
 {
  "log": [
   "2026-10-01 11:44 preview nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd9Qw1Fm6PK/",
-  "2026-10-02 00:57 result nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd-reU9EWmO/"
+  "2026-10-02 00:57 result nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd-reU9EWmO/",
+  "2026-10-03 14:18 preview nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeCr9sklItC/"
  ],
  "pending": {
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03": {
@@ -20,7 +21,8 @@
   }
  },
  "previews": [
-  "nhl|Florida Panthers|San Jose Sharks|2026-10-01"
+  "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
+  "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01"
