@@ -43,7 +43,9 @@ jobs:
       - name: Commit
         if: always()
         run: |
-          git add -A data/${{ matrix.league }}/box data/${{ matrix.league }}/players.json
+          git add -A data/${{ matrix.league }}/box
+          # only the NHL job writes a players file (2026-10-03: adding a missing path failed NFL and MLB)
+          if [ -f data/${{ matrix.league }}/players.json ]; then git add data/${{ matrix.league }}/players.json; fi
           git diff --cached --quiet && echo "no changes" && exit 0
           L=$(echo ${{ matrix.league }} | tr a-z A-Z)
           git commit -m "$L belt box scores [skip ci]"
