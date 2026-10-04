@@ -1,53 +1,57 @@
 {
- "key": "SJS|LAK|2026-10-03",
- "updated": "2026-10-02T06:37Z",
- "start_utc": "2026-10-04T02:00Z",
+ "key": "SJS|DAL|2026-10-05",
+ "updated": "2026-10-04T02:35Z",
+ "start_utc": "2026-10-06T00:00Z",
  "espn": {
-  "event_id": "401892441",
-  "start_utc": "2026-10-04T02:00Z",
+  "event_id": "401892448",
+  "start_utc": "2026-10-06T00:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
    "NBC Sports BA",
-   "ABTV"
+   "Prime Video (Local)"
   ],
   "odds": null,
   "teams": {
+   "DAL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
+    "abbr": "DAL",
+    "record": "0-1-0",
+    "rank": null,
+    "home_away": "home"
+   },
    "SJS": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
     "abbr": "SJ",
     "record": "1-0-0",
     "rank": null,
-    "home_away": "home"
-   },
-   "LAK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
-    "abbr": "LA",
-    "record": "0-1-0",
-    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "SAP Center at San Jose",
-   "city": "San Jose",
-   "state": "CA",
+   "name": "American Airlines Center",
+   "city": "Dallas",
+   "state": "TX",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The San Jose Sharks put their lineal championship belt on the line for the first time in this reign as they host the Los Angeles Kings. This belt has changed hands through every game result since the NHL's inception, with no polls or committees involved\u2014only on-ice outcomes matter. The Sharks claimed the belt with their 4-3 victory over Florida and now face a Kings team desperate to reverse their fortunes.",
+  "overview": "The San Jose Sharks bring the Belt Holders lineal championship to Dallas for only the 12th time these franchises have met with the belt on the line. San Jose claimed the belt in their most recent victory and have yet to defend it in this reign, while Dallas has been a frequent belt holder with 104 previous reigns in franchise history.",
   "key_matchups": [
-   "Sharks riding momentum with wins in 3 of their last 4 games versus Kings mired in a brutal 5-game losing streak dating back to the playoffs",
-   "Recent head-to-head history favors San Jose, who have taken 3 of the last 5 meetings including both matchups in January 2026",
-   "First belt defense of San Jose's current reign against a Kings franchise that has held the belt 81 times previously"
+   "Sharks riding momentum with wins in their last 2 games versus a Stars team mired in a 4-game losing streak dating back to the playoffs",
+   "Dallas seeking revenge after dropping their most recent meeting 5-4 to San Jose in January 2026",
+   "First belt defense for San Jose in this reign against a Stars squad that leads the all-time series 91-66-5"
   ],
-  "betting_angles": "The form contrast is stark: San Jose has won two straight and three of four, while Los Angeles enters on a five-game slide that includes four playoff losses to Colorado. The Sharks hold a slight edge in the all-time series at 110-91-7 and have won three of the last five head-to-head meetings. The Elo model's 54% projection for San Jose aligns with their home ice advantage and superior recent form, though the narrow margin suggests this could be competitive.",
-  "predicted_winner": "San Jose Sharks",
-  "predicted_score": "San Jose Sharks 4, Los Angeles Kings 2",
-  "prediction_writeup": "San Jose's momentum\u2014winning two straight and posting a dominant 6-1 victory at Winnipeg just two games ago\u2014stands in sharp contrast to Los Angeles limping through five consecutive defeats. The Kings haven't won since the regular season ended, carrying playoff disappointment into the new campaign with an ugly 4-8 loss to Colorado in their opener. While San Jose has shown they can win tight games (4-3 over Florida, 3-2 at Nashville), they've also demonstrated offensive firepower when clicking. The Sharks defend their belt successfully at home.",
-  "written": "2026-10-02",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "San Jose enters with clear momentum, having won their last 2 games including a 4-3 victory over Florida, while Dallas has dropped 4 straight including a shutout loss 0-4 to St. Louis in their season opener. The Elo model favors Dallas at home despite the contrasting form, and the Stars hold a commanding all-time edge in the head-to-head series. Recent meetings have been competitive, with three of the last five decided by a single goal.",
+  "predicted_winner": "Dallas Stars",
+  "predicted_score": "San Jose Sharks 2, Dallas Stars 3",
+  "prediction_writeup": "Despite San Jose's hot start with 2 straight wins and Dallas dropping 4 consecutive games, the Stars have home ice and the Elo edge for a reason. Dallas has historically owned this matchup with a 91-66-5 all-time record and has held the belt 104 times previously, suggesting they know how to perform in these situations. The Stars are due for a bounce-back after that 0-4 shutout loss to open their season, and facing a Sharks team making their first belt defense could be the perfect opportunity. This should be a tight, low-scoring affair, but Dallas edges it at home.",
+  "written": "2026-10-04",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
  }
 }

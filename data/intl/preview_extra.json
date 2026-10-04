@@ -1,21 +1,25 @@
 {
- "key": "Spain|Czech Republic|2026-10-03",
- "updated": "2026-09-29T19:32Z",
- "start_utc": "2026-10-03T18:45Z",
+ "key": "Spain|Croatia|2026-10-06",
+ "updated": "2026-10-04T02:36Z",
+ "start_utc": "2026-10-06T18:45Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Spain bring a nine-defense belt reign into this October international clash against Czech Republic, marking the first time these sides have ever met with the lineal title on the line. The Spanish arrive in red-hot form with five straight victories, while the Czechs limp in having lost their last two matches and carrying a historically lopsided head-to-head record against their hosts.",
+  "overview": "Spain bring the lineal championship belt to Croatia on October 6, having defended it 11 times in their current reign. The holders are riding a five-game winning streak and dominated Croatia 4\u20131 in their most recent meeting on September 29, but Croatia will be desperate to end a two-game skid on home soil.",
   "key_matchups": [
-   "Spain's five-game winning streak versus Czech Republic's two-game losing skid and overall struggles this season",
-   "Home advantage for a Spanish side unbeaten in 13 matches this season (10-0-3) against a Czech team that's managed just four wins all year",
-   "Spain's perfect 5-0-2 all-time record against the Czechs, including three straight clean-sheet victories before their 2022 meetings"
+   "Spain's perfect form (five straight wins) against Croatia's struggles (two straight losses including a 0\u20137 drubbing by England)",
+   "Head-to-head dominance: Spain have won 8 of 12 all-time meetings and swept Croatia 4\u20131 just a week ago",
+   "Croatia's home advantage and historical ability to hold the belt twice before versus Spain's 11 successful defenses in this reign"
   ],
-  "betting_angles": "The numbers paint a stark picture: Spain have won five straight while Czech Republic have dropped two in a row, and the 76% Elo forecast aligns with Spain's dominant 10-0-3 season record versus the visitors' mediocre 4-3-1 mark. The head-to-head history is equally one-sided, with Spain never losing to the Czechs in seven all-time meetings and winning the last three encounters dating back to 2016. Czech Republic's only recent positive result was a 5-1 thrashing of Guatemala, sandwiched between three playoff losses.",
+  "betting_angles": "Spain enter as Elo favorites with a 12-0-3 record this season compared to Croatia's 5-6 mark. The recent form disparity is stark: Spain have won five straight while Croatia have lost two consecutive games, including being outscored 1\u20134 and 0\u20137 in those defeats. Spain have dominated the head-to-head series 8-3-1 and won their last meeting 4\u20131.",
   "predicted_winner": "Spain",
-  "predicted_score": "Spain 2, Czech Republic 0",
-  "prediction_writeup": "Spain's current form is exceptional, riding five consecutive victories including a dramatic 3-2 win at England and a successful playoff run where they beat Argentina, France, Belgium, and Portugal. The Czechs have never beaten Spain in seven attempts and arrive struggling, having lost back-to-back matches and posted an underwhelming 4-3-1 record this season. With Spain having successfully defended the belt nine times already in this reign and playing at home, the smart call is another shutout victory in a fixture where they've blanked the Czechs three times in the last five meetings. The 76% Elo projection feels conservative given the form gap and historical dominance.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "predicted_score": "Spain 2, Croatia 1",
+  "prediction_writeup": "Spain's five-game winning streak and dominant 12-0-3 season record make them clear favorites to retain the belt. Their 4\u20131 victory over Croatia on September 29 demonstrated their current superiority, and they've won three straight meetings overall. Croatia's recent 0\u20137 loss to England and 5-6 record suggest they're struggling to find consistency. While Croatia have held the belt twice before and will fight hard at home, Spain's form and Elo edge point to another successful defense, though Croatia should find the net unlike in their England disaster.",
+  "written": "2026-10-04",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
  }
 }

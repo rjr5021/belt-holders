@@ -1,21 +1,25 @@
 {
- "key": "TOR|BC|2026-10-03",
- "updated": "2026-09-29T17:10Z",
+ "key": "BC|OTT|2026-10-09",
+ "updated": "2026-10-04T02:35Z",
  "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Toronto Argonauts put their lineal championship belt on the line for the first time in this reign when they host the BC Lions on October 3rd. Toronto arrives riding a four-game winning streak and a 9-6 record, while BC has won their last two to improve to 8-6. The belt will change hands with a Lions victory, but a Toronto win extends their inaugural reign as belt holder.",
+  "overview": "The BC Lions bring the Belt Holders lineal championship to BC Place as they host the struggling Ottawa Redblacks on October 9th, 2026. BC holds the belt for the first time this reign and will look to notch their first defense against a Redblacks squad that has held the belt 5 times previously but enters winless at 0-15. This marks the first time these two franchises have ever met with the belt on the line.",
   "key_matchups": [
-   "Toronto's four-game win streak versus BC's recent momentum after back-to-back victories",
-   "Can the Lions reverse their recent history against Toronto, having lost four of the last five meetings including a 12-26 defeat earlier this season?",
-   "Toronto's ability to win close games, with three of their last four decided by seven points or fewer"
+   "BC's three-game winning streak against Ottawa's five-game losing skid sets up a stark contrast in form and confidence",
+   "The Redblacks' 0-15 record represents their worst season, while BC at 9-6 has playoff positioning to protect alongside belt defense duties",
+   "BC won the most recent meeting 45-24 in August, but Ottawa did take a 34-33 thriller last September showing they can compete in this rivalry"
   ],
-  "betting_angles": "Toronto has won four straight while BC has won two in a row, but the Argos hold a decisive edge in recent head-to-head meetings at 4-1 over the last five. The Elo model rates this nearly a toss-up at 51% for the home side, reflecting both teams' solid form. Toronto's recent games have been tightly contested, with their last win a narrow 30-28 squeaker, while BC has shown more offensive firepower with 48 and 31 points in their last two outings.",
-  "predicted_winner": "Toronto Argonauts",
-  "predicted_score": "Toronto Argonauts 28, BC Lions 24",
-  "prediction_writeup": "Toronto gets the nod to defend the belt in their first attempt, primarily on the strength of their four-game winning streak and home field advantage. The Argonauts have dominated this matchup recently, winning four of the last five including a comfortable 26-12 victory earlier this season. While BC's offense has been explosive lately, Toronto has proven capable of winning tight games, taking three of their last four by a touchdown or less. The near-even Elo projection suggests this will be close, but the Argonauts' current form and home venue give them the edge to keep the belt.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "BC enters on a three-game winning streak while Ottawa has dropped five straight, including their last meeting where the Lions prevailed 45-24. The Lions hold a 15-7 all-time edge in the series and have won their last three games overall, most recently 24-17 at Toronto. Our Elo model projects BC as a clear favorite, and the form gulf between a 9-6 playoff contender and an 0-15 cellar dweller supports that assessment.",
+  "predicted_winner": "BC Lions",
+  "predicted_score": "BC Lions 38, Ottawa Redblacks 21",
+  "prediction_writeup": "The Lions are riding momentum with three consecutive victories and face a Redblacks team that has yet to win a game this season. BC's 45-24 demolition of Ottawa in their August meeting suggests they have the blueprint to exploit this struggling squad. While Ottawa has held the belt 5 times historically, their current 0-15 record and five-game losing streak indicate they lack the tools to pull off what would be a stunning upset. The Lions should successfully defend the belt for the first time in this reign at home.",
+  "written": "2026-10-04",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
  }
 }
