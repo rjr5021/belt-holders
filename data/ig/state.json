@@ -3,15 +3,30 @@
   "2026-10-01 11:44 preview nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd9Qw1Fm6PK/",
   "2026-10-02 00:57 result nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd-reU9EWmO/",
   "2026-10-03 14:18 preview nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeCr9sklItC/",
-  "2026-10-04 00:50 result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeD0Q4akXya/"
+  "2026-10-04 00:50 result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeD0Q4akXya/",
+  "2026-10-04 re-queued result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 (first post showed 4-4; Bob deleted it)"
  ],
- "pending": {},
+ "pending": {
+  "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-03",
+   "defenses": 0,
+   "espn_id": "401892441",
+   "game_no": 8435,
+   "holder": "San Jose Sharks",
+   "holder_short": "Sharks",
+   "lg": "nhl",
+   "opponent": "Los Angeles Kings",
+   "opponent_short": "Kings",
+   "reign_no": 41,
+   "since": "2026-10-01"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03"
  ],
  "results": [
-  "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
-  "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03"
+  "nhl|Florida Panthers|San Jose Sharks|2026-10-01"
  ]
 }
