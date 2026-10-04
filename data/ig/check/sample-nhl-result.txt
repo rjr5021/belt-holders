@@ -1,19 +1,19 @@
-The belt goes to South Florida. 🏆
+The belt stays in San Jose. 🏆
 
-Florida Panthers 1, Carolina Hurricanes 0 (OT). The Hurricanes' 62nd reign ends after 112 days — they'd held it since Jun 9, 2026.
+San Jose Sharks 5, Los Angeles Kings 4 (OT). First defense of the Sharks' 41st reign, now 2 days and counting since they took it on Oct 1.
 
-Scoreless through regulation at Lenovo Center, the Panthers needed just under five minutes of overtime to claim it. Gustav Forsling ended it with a slap shot, assisted by Carter Verhaeghe. Jacob Markstrom stopped all 15 shots he faced for the shutout.
+The Kings led after one, but the Sharks roared back with three unanswered in the second to grab control. Los Angeles clawed all the way back to tie it 4–4 on an Artemi Panarin slapper with five minutes left in regulation, but Igor Chernyshov ended it in overtime — his second goal of the night. Chernyshov finished with 3 points, Macklin Celebrini dished 2 assists, and Yaroslav Askarov made 31 saves to hold off a 35-shot Kings attack.
 
-Belt game No. 8,433 is in the books. Florida reclaims the belt for the 55th time.
+Belt game No. 8,435 is in the books. The Kings' wait since 2026 continues.
 
-Next up: the Panthers carry the belt to San Jose. At the Sharks, Thu Oct 1, 10 PM ET on ESPN+. Beat the holder, take the belt.
+Next up: the Sharks carry the belt to Dallas. At the Stars, Mon Oct 5, 8 PM ET on ESPN+. Beat the holder, take the belt.
 
-🔗 Box score and the full chain of custody since 1917 → link in bio
+🔗 Full scoring summary and the complete chain of custody since 1917 → link in bio
 
-#BeltHolders #NHLBelt #Panthers #Hurricanes #NHL #FLAvsCAR #FloridaPanthers #CanesFam #TimeToHunt
+#BeltHolders #NHLBelt #Sharks #SJSharks #Kings #LAKings #NHL #SJvsLA
 
 ---
-tags: [{'username': 'flapanthers', 'x': 0.27, 'y': 0.47}, {'username': 'canes', 'x': 0.73, 'y': 0.47}, {'username': 'espn', 'x': 0.5, 'y': 0.255}]
-location: Lenovo Center -> 27853373756
-alt: The NHL Belt: new champion. Florida Panthers 1, Carolina Hurricanes 0, Tue Sep 29 at Lenovo Center.
+tags: [{'username': 'sanjosesharks', 'x': 0.27, 'y': 0.47}, {'username': 'lakings', 'x': 0.73, 'y': 0.47}, {'username': 'espn', 'x': 0.5, 'y': 0.255}]
+location: SAP Center at San Jose -> 63515847405
+alt: The NHL Belt: belt defended. San Jose Sharks 5, Los Angeles Kings 4, Sat Oct 3 at SAP Center at San Jose.
 layout: ok
