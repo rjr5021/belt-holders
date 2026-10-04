@@ -1,18 +1,18 @@
-7 days. 0 defenses. One belt. Cincinnati gets its shot Sunday afternoon. 🏆
+14 days. 1 defense. One belt. Philadelphia gets its shot Sunday morning. 🏆
 
-Jacksonville has held the NFL Belt since taking it from New England on Sep 27 — the franchise's 6th reign since 1920. Cincinnati hasn't touched it since 2023, and these two have met twice before with the belt on the line — both times, the belt changed hands.
+Jacksonville has held the NFL Belt since taking it from New England on Sep 27 — the franchise's 6th reign since 1920. Philadelphia hasn't touched it since 2020, and these two have never met with the belt on the line. Belt game No. 1,647 fixes that.
 
-The numbers say toss-up: 51% to hold.
+The numbers say Jaguars: 59% to defend, and they're home across the pond.
 
 The belt doesn't read numbers. No committee, no poll — you have to take it from whoever's holding it.
 
-🏈 Sun · 1 PM ET · CBS · Paycor Stadium
+🏈 Sun · 9:30 AM ET · NFL Net · Tottenham Hotspur Stadium
 🔗 Full preview, head-to-head history and 105 years of chain of custody → link in bio
 
-#BeltHolders #NFLBelt #Jaguars #Bengals #NFL #JAXvsCIN
+#BeltHolders #NFLBelt #Jaguars #Eagles #NFL #JAXvsPHI #JacksonvilleJaguars #PhiladelphiaEagles #FlyEaglesFly #DUUUVAL
 
 ---
-tags: []
-location: Paycor Stadium -> None
-alt: The NFL Belt: belt on the line. Jacksonville Jaguars (7 days, 0 defenses) vs. Cincinnati Bengals, Sun Oct 4, 1 PM ET, Paycor Stadium.
+tags: [{'username': 'jaguars', 'x': 0.27, 'y': 0.47}, {'username': 'philadelphiaeagles', 'x': 0.73, 'y': 0.47}]
+location: Tottenham Hotspur Stadium -> None
+alt: The NFL Belt: belt on the line. Jacksonville Jaguars (14 days, 1 defenses) vs. Philadelphia Eagles, Sun Oct 11, 9:30 AM ET, Tottenham Hotspur Stadium.
 layout: ok
