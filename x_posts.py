@@ -45,7 +45,10 @@ ET = ZoneInfo("America/New_York")
 STATE = os.path.join("data", "x", "state.json")
 LEAGUES = [x for x in os.environ.get("X_LEAGUES", "nhl").replace(",", " ").split() if x]
 START_LEAGUES = set(os.environ.get("X_START_LEAGUES", "nfl").replace(",", " ").split())
-DIGEST_FROM, DIGEST_UNTIL = 9, 13          # ET hours the morning post may go out
+DIGEST_FROM, DIGEST_UNTIL = 9, 13          # ET hours the morning post may go out ...
+# ... or later, as long as no belt game has started yet. GitHub's scheduler can skip whole
+# hours (2026-10-03: no run between 4 AM and 2:18 PM ET), and a missed 9-1 window used to
+# mean no morning post at all; it now goes out on the first run before puck drop.
 WATCH_BEFORE = timedelta(minutes=20)        # start watching this long before a game
 WATCH_MAX = timedelta(hours=5, minutes=30)  # a job never runs longer than this
 POLL = 60                                   # seconds between scoreboard checks while live
@@ -351,6 +354,18 @@ def champion_card(g, ev):
 
 # ---------------------------------------------------------------------- run --
 
+def digest_window_open(n, day, games):
+    """The morning post may go out from DIGEST_FROM until the day's first belt game starts
+    (or until DIGEST_UNTIL when no start time is known)."""
+    if n.hour < DIGEST_FROM:
+        return False
+    starts = [datetime.combine(day, datetime.strptime(g["time_et"], "%H:%M").time(), ET)
+              for g in games if g.get("time_et")]
+    if not starts:
+        return n.hour < DIGEST_UNTIL
+    return n < min(starts)
+
+
 def one_pass(st, day):
     """Returns True while any of today's belt games still needs watching."""
     n = now_et()
@@ -367,7 +382,7 @@ def one_pass(st, day):
             known["games"].append(g)
     games = known["games"]
 
-    if games and st.get("digest") != day.isoformat() and DIGEST_FROM <= n.hour < DIGEST_UNTIL \
+    if games and st.get("digest") != day.isoformat() and digest_window_open(n, day, games) \
             and sync_remote(st).get("digest") != day.isoformat():
         if post(digest_text(games), kind="morning"):
             st["digest"] = day.isoformat()
