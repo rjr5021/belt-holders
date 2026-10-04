@@ -1,19 +1,19 @@
-The belt heads south. 🏆
+The belt stays in Jacksonville. 🏆
 
-Jacksonville Jaguars 35, New England Patriots 6. The Patriots' 22nd reign ends at just 7 days — they took it from the Dolphins on Sep 20 — and the Jaguars claim the belt for the 6th time in franchise history, exactly one year after they last held it.
+Jacksonville Jaguars 22, Cincinnati Bengals 17. First defense of the Jaguars' 6th reign, now 7 days and counting since they took it from the Bengals on Sep 27.
 
-This one was never close. The Jags shut out New England in the first quarter, then put up 14 in the second, 14 in the third, and 7 in the fourth. Trevor Lawrence went 19 of 29 for 182 and three touchdowns, Bhayshul Tuten rushed for 73 and a score, Jakobi Meyers caught 7 balls for 64 and a TD, and the defense picked Drake Maye off twice and held the Patriots to a pair of field goals.
+The Bengals rallied late — Joe Burrow rushed in from a yard out with 3:28 left to cut it to 22–17 — but the Jaguars never trailed and held on. Trevor Lawrence went 18 of 23 for 227 and a touchdown, Brenton Strange caught 7 balls for 95, Bhayshul Tuten ground out 73 yards, and the defense picked Burrow off twice despite his 428 passing yards.
 
-Belt game No. 1,645 is in the books.
+Belt game No. 1,646 is in the books. Cincinnati's wait since 2023 continues.
 
-Next up: the Jaguars carry the belt to Cincinnati. At the Bengals, Sun Oct 4, 1 PM ET on CBS. Beat the holder, take the belt.
+Next up: the Jaguars carry the belt home. vs. Philadelphia Eagles, Sun Oct 11, 9:30 AM ET on NFL Net. Beat the holder, take the belt.
 
 🔗 Box score, drive chart and the full chain of custody since 1920 → link in bio
 
-#BeltHolders #NFLBelt #Jaguars #Patriots #NFL #JAXvsNE #Jacksonville #NewEngland #DUUUVAL
+#BeltHolders #NFLBelt #Jaguars #Bengals #NFL #JAXvsCIN #DUUUVAL #WhoDey #CincinnatiBengals
 
 ---
-tags: []
-location: EverBank Stadium -> None
-alt: The NFL Belt: new champion. Jacksonville Jaguars 35, New England Patriots 6, Sun Sep 27 at EverBank Stadium.
+tags: [{'username': 'jaguars', 'x': 0.27, 'y': 0.47}, {'username': 'bengals', 'x': 0.73, 'y': 0.47}, {'username': 'nfloncbs', 'x': 0.5, 'y': 0.255}]
+location: Paycor Stadium -> 101077919368320
+alt: The NFL Belt: belt defended. Jacksonville Jaguars 22, Cincinnati Bengals 17, Sun Oct 4 at Paycor Stadium.
 layout: ok
