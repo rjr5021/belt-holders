@@ -12,5 +12,19 @@
    "over_under": 51.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "JAX|PHI|2026-10-11",
+  "date": "2026-10-11",
+  "holder": "JAX",
+  "challenger": "PHI",
+  "pick": "JAX",
+  "score": "Jacksonville Jaguars 27, Philadelphia Eagles 20",
+  "made": "2026-10-04",
+  "line": {
+   "details": "JAX -3",
+   "over_under": 44.5,
+   "provider": "DraftKings"
+  }
  }
 ]

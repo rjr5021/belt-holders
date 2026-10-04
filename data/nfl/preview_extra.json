@@ -1,63 +1,67 @@
 {
- "key": "JAX|CIN|2026-10-04",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-04T17:00Z",
+ "key": "JAX|PHI|2026-10-11",
+ "updated": "2026-10-04T20:26Z",
+ "start_utc": "2026-10-11T13:30Z",
  "espn": {
-  "event_id": "401872969",
-  "start_utc": "2026-10-04T17:00Z",
+  "event_id": "401872981",
+  "start_utc": "2026-10-11T13:30Z",
   "state": "pre",
   "tv": [
-   "CBS"
+   "NFL Net"
   ],
   "odds": {
-   "details": "CIN -2.5",
-   "over_under": 51.5,
+   "details": "JAX -3",
+   "over_under": 44.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "CIN": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-    "abbr": "CIN",
-    "record": "2-1",
-    "rank": null,
-    "home_away": "home"
-   },
    "JAX": {
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
     "abbr": "JAX",
-    "record": "2-1",
+    "record": "3-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "PHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "abbr": "PHI",
+    "record": "2-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Paycor Stadium",
-   "city": "Cincinnati",
-   "state": "OH",
+   "name": "Tottenham Hotspur Stadium",
+   "city": "London",
+   "state": null,
    "indoor": false
   }
  },
  "weather": {
-  "temp_f": 70,
-  "feels_like_f": 70,
-  "precip_chance": 21,
-  "wind_mph": 4,
-  "condition": "Overcast",
-  "as_of": "2026-09-29",
-  "venue": "Paycor Stadium"
+  "temp_f": 63,
+  "feels_like_f": 58,
+  "precip_chance": 26,
+  "wind_mph": 12,
+  "condition": "Heavy drizzle",
+  "as_of": "2026-10-04",
+  "venue": "Tottenham Hotspur Stadium"
  },
  "ai": {
-  "overview": "The Jacksonville Jaguars bring the Belt Holders championship to Cincinnati in a perfectly balanced matchup between 2-1 teams with an all-time series tied at 13-13. Jacksonville won their current belt just recently and has yet to defend it in this reign, while Cincinnati has held the belt 13 times previously and will look to reclaim it on home turf.",
+  "overview": "The Jacksonville Jaguars put their Belt Holders championship on the line when they host the Philadelphia Eagles. Jacksonville has defended the belt 1 times in this reign and enters on a two-game winning streak, while Philadelphia looks to claim the belt for the 28th time after dropping their last two contests.",
   "key_matchups": [
-   "Jacksonville's explosive offense (35 points last week, 41 and 34 in recent wins) versus Cincinnati's recent defensive struggles (allowing 30 to Pittsburgh)",
-   "Cincinnati's home momentum after winning their last meeting 31-27 in September 2025",
-   "Jacksonville's belt defense inexperience (0 defenses this reign) against a Bengals team familiar with championship pressure (13 previous reigns)"
+   "Jacksonville's recent 35\u20136 demolition of New England versus Philadelphia's 7\u201327 collapse at Chicago shows the contrasting form these teams bring",
+   "Philadelphia holds a 5-3 edge in the all-time series, including a 28-23 victory in their most recent 2024 meeting",
+   "This marks the first time these franchises have ever met with the belt on the line"
   ],
-  "betting_angles": "The betting line favors Cincinnati by 3 points at home despite the Elo model rating this essentially a coin flip at 51% for Jacksonville. The Bengals have won four of the last five head-to-head meetings, including last month's 31-27 victory, though Jacksonville has shown more offensive firepower recently with back-to-back wins by 24 and 29 points. The perfectly tied all-time series and identical 2-1 records suggest this could be the close game the 51.5 over/under implies.",
-  "predicted_winner": "Cincinnati Bengals",
-  "predicted_score": "Jacksonville Jaguars 24, Cincinnati Bengals 27",
-  "prediction_writeup": "Cincinnati gets the nod in a tight one based on home field advantage and recent dominance in this matchup, having won the last meeting just three weeks ago by the same 31-27 margin. While Jacksonville's offense has been rolling with 35 and 41-point performances, they've also shown vulnerability with losses to Denver and Buffalo in their recent stretch. The Bengals are coming off a competitive road loss to Pittsburgh where they scored 27, and playing at home where the 3-point line suggests oddsmakers see them as the marginal favorite. In a series tied 13-13 all-time, the belt changes hands in another close one.",
-  "written": "2026-09-28",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "Jacksonville sits at 3-1 with wins in their last 2 games, most recently 22\u201317 at Cincinnati, while Philadelphia has stumbled to 2-2 with back-to-back losses including 20\u201324 versus Los Angeles. The Elo model favors Jacksonville as the home team. However, Philadelphia owns a 5-3 all-time head-to-head advantage and has held the belt 27 times previously, suggesting familiarity with high-stakes situations.",
+  "predicted_winner": "Jacksonville Jaguars",
+  "predicted_score": "Jacksonville Jaguars 27, Philadelphia Eagles 20",
+  "prediction_writeup": "Jacksonville's momentum is undeniable with consecutive victories including the dominant 35\u20136 thrashing of New England, while Philadelphia has dropped two straight with concerning performances like the 7\u201327 loss at Chicago. The Elo model backing Jacksonville at home aligns with their superior 3-1 record versus Philadelphia's 2-2 mark. Though the Eagles hold the all-time series edge at 5-3 and have championship pedigree with 27 previous belt reigns, current form favors the Jaguars to retain the belt. Jacksonville's ability to score 34 against Cleveland and 35 against New England in recent weeks suggests offensive firepower that should overcome a struggling Eagles squad.",
+  "written": "2026-10-04",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": []
+  }
  }
 }
