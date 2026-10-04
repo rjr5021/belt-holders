@@ -11,6 +11,9 @@
   "nhl|2026-10-03|sanjosesharks|losangeleskings": {
    "danger": "2026-10-04T00:45-04:00",
    "end": "2026-10-04T00:50-04:00"
+  },
+  "nrl|2026-10-04|sydneyroosters|newcastleknights": {
+   "end": "2026-10-04T16:25-04:00"
   }
  },
  "log": [
@@ -39,6 +42,13 @@
    "defense",
    22,
    17
+  ],
+  [
+   "2026-10-04T16:25-04:00",
+   "nrl",
+   "defense",
+   19,
+   18
   ]
  ],
  "today": {
