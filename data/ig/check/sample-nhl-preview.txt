@@ -1,18 +1,18 @@
-2 days. 0 defenses. One belt. San Jose gets its shot Thursday night. 🏆
+4 days. 1 defense. One belt. Dallas gets its shot Monday night. 🏆
 
-Florida has held The NHL Belt since taking it from Carolina on Sep. 29 — the program's 55th reign since 1917. San Jose hasn't touched it since 2023, and these two last met for the belt in 2023 when Florida defended. Belt game No. 8,434 brings them back together.
+San Jose has held The NHL Belt since taking it from Florida on Oct. 1 — the franchise's 41st reign since 1917. Dallas last touched it in 2026, and these two have met 11 times before with the belt on the line. Belt game No. 8,436 adds another chapter.
 
-The numbers say slight edge Panthers: 53% to defend, and it's nearly a pick 'em.
+The numbers say Stars: 63% to take it, and Dallas hosts at American Airlines Center.
 
-The belt doesn't read numbers. No playoff bracket, no standings — you have to take it from whoever's holding it.
+The belt doesn't read numbers. No standings, no poll — you have to take it from whoever's holding it.
 
-🏒 Thu · 10 PM ET · ESPN+ · SAP Center at San Jose
+🏒 Mon · 8 PM ET · ESPN+ · American Airlines Center
 🔗 Full preview, head-to-head history and 109 years of chain of custody → link in bio
 
-#BeltHolders #NHLBelt #Panthers #Sharks #NHL #FLAvsSJ #FloridaPanthers #SanJoseSharks #StanleyCup #Hockey
+#BeltHolders #NHLBelt #Sharks #Stars #NHL #SJvsDAL #SanJoseSharks #DallasStars
 
 ---
-tags: [{'username': 'flapanthers', 'x': 0.27, 'y': 0.47}, {'username': 'sanjosesharks', 'x': 0.73, 'y': 0.47}, {'username': 'espn', 'x': 0.5, 'y': 0.255}]
-location: SAP Center at San Jose -> 63515847405
-alt: The NHL Belt: belt on the line. Florida Panthers (2 days, 0 defenses) vs. San Jose Sharks, Thu Oct 1, 10 PM ET, SAP Center at San Jose.
+tags: [{'username': 'sanjosesharks', 'x': 0.27, 'y': 0.47}, {'username': 'dallasstars', 'x': 0.73, 'y': 0.47}, {'username': 'espn', 'x': 0.5, 'y': 0.255}]
+location: American Airlines Center -> 26606856232
+alt: The NHL Belt: belt on the line. San Jose Sharks (4 days, 1 defenses) vs. Dallas Stars, Mon Oct 5, 8 PM ET, American Airlines Center.
 layout: ok
