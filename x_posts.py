@@ -44,6 +44,8 @@ SITE = "https://beltholders.com"
 ET = ZoneInfo("America/New_York")
 STATE = os.path.join("data", "x", "state.json")
 LEAGUES = [x for x in os.environ.get("X_LEAGUES", "nhl").replace(",", " ").split() if x]
+# X_LEAGUES=all: every belt with a live ESPN scoreboard (see ESPN below). Only leagues with a
+# belt game that day post anything, so off-season leagues cost nothing.
 START_LEAGUES = set(os.environ.get("X_START_LEAGUES", "nfl").replace(",", " ").split())
 # Leagues where a finished game always has a winner (overtime, shootout or extra innings).
 # A "final" that is still level there means ESPN flipped the status before it added the
@@ -63,11 +65,23 @@ LIVE = os.environ.get("X_LIVE") == "1" and all(os.environ.get(k) for k in REQUIR
 ESPN = {"nfl": "football/nfl", "nba": "basketball/nba", "nhl": "hockey/nhl", "mlb": "baseball/mlb",
         "wnba": "basketball/wnba", "mls": "soccer/usa.1", "nwsl": "soccer/usa.nwsl", "epl": "soccer/eng.1",
         "laliga": "soccer/esp.1", "seriea": "soccer/ita.1", "bundesliga": "soccer/ger.1", "ligue1": "soccer/fra.1",
-        "eredivisie": "soccer/ned.1", "cfl": "football/cfl"}
-SPORT = {"nfl": "football", "cfl": "football", "nba": "basketball", "wnba": "basketball", "nhl": "hockey",
-         "pwhl": "hockey", "mlb": "baseball"}          # everything else: soccer
-EMOJI = {"football": "\U0001F3C8", "basketball": "\U0001F3C0", "hockey": "\U0001F3D2", "baseball": "⚾", "soccer": "⚽"}
-SINGULAR = {"mls", "nwsl", "epl", "laliga", "seriea", "bundesliga", "ligue1", "eredivisie", "intl"}  # club names take "defends"
+        "eredivisie": "soccer/ned.1", "cfl": "football/cfl",
+        # 2026-10-04 (Bob: every active league on @thebeltholders): the leagues added in audit #2,
+        # same scoreboards new_leagues.py reads. PWHL isn't on ESPN, so it has no live posts.
+        "ligamx": "soccer/mex.1", "ufl": "football/ufl", "ncaah": "hockey/mens-college-hockey",
+        "afl": "australian-football/afl", "nrl": "rugby-league/3",
+        "intl": ["soccer/" + c for c in (
+            "fifa.friendly", "uefa.nations", "uefa.euroq", "uefa.euro", "fifa.world", "fifa.worldq.uefa",
+            "fifa.worldq.afc", "fifa.worldq.caf", "fifa.worldq.concacaf", "fifa.worldq.conmebol",
+            "fifa.worldq.ofc", "concacaf.nations.league", "concacaf.gold", "caf.nations", "caf.nations_qual",
+            "afc.asian.cup", "conmebol.america")]}
+SPORT = {"nfl": "football", "cfl": "football", "ufl": "football", "nba": "basketball", "wnba": "basketball",
+         "nhl": "hockey", "pwhl": "hockey", "ncaah": "hockey", "mlb": "baseball",
+         "afl": "aussie", "nrl": "rugby"}          # everything else: soccer
+EMOJI = {"football": "\U0001F3C8", "basketball": "\U0001F3C0", "hockey": "\U0001F3D2", "baseball": "⚾", "soccer": "⚽",
+         "aussie": "\U0001F3C9", "rugby": "\U0001F3C9"}
+SINGULAR = {"mls", "nwsl", "epl", "laliga", "seriea", "bundesliga", "ligue1", "eredivisie", "intl",
+            "ligamx", "ncaah"}  # club / school names take "defends"
 TWEET_MAX = 280
 
 
@@ -220,7 +234,8 @@ def todays_belt_games(day):
     out = []
     for b in net.get("belts") or []:
         nx = b.get("next") or {}
-        if b.get("key") in LEAGUES and b.get("ok") and nx.get("date") == day.isoformat():
+        wanted = b.get("key") in ESPN if "all" in LEAGUES else b.get("key") in LEAGUES
+        if wanted and b.get("ok") and nx.get("date") == day.isoformat():
             out.append({"lg": b["key"], "belt": b.get("short") or b["key"].upper(), "name": b.get("name"),
                         "holder": b["holder"], "holder_short": b.get("holder_short") or b["holder"],
                         "defenses": int(b.get("defenses") or 0), "since": b.get("since"), "reign_no": b.get("reign_no"),
@@ -233,12 +248,15 @@ def todays_belt_games(day):
 
 def espn_event(g, day):
     """This belt game on ESPN's scoreboard: {state, period, clock, holder_score, opp_score, ...} or None."""
-    path = ESPN.get(g["lg"])
-    if not path:
+    paths = ESPN.get(g["lg"])
+    if not paths:
         return None
-    j = get(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={day.strftime('%Y%m%d')}&limit=400")
+    events = []
+    for path in ([paths] if isinstance(paths, str) else paths):
+        j = get(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={day.strftime('%Y%m%d')}&limit=400")
+        events += (j or {}).get("events") or []
     hk, ok = {fold(g["holder"]), fold(g["holder_short"])}, {fold(g["opponent"]), fold(g["opponent_short"])}
-    for ev in (j or {}).get("events") or []:
+    for ev in events:
         comp = (ev.get("competitions") or [{}])[0]
         teams = comp.get("competitors") or []
         if len(teams) != 2:
@@ -285,6 +303,10 @@ def in_danger(lg, ev):
         return p >= 4 and trailing and left <= 5
     if sport == "baseball":
         return p >= 8 and trailing
+    if sport == "aussie":                                       # four 20-minute quarters, clock counts down
+        return p >= 4 and trailing and left <= 5
+    if sport == "rugby":                                        # two 40-minute halves, clock counts up
+        return trailing and clock_minutes(ev["clock"]) >= 70
     return trailing and clock_minutes(ev["clock"]) >= 75       # soccer: the clock counts up
 
 
