@@ -109,6 +109,50 @@ def fold(s):
     return re.sub(r"\b(fc|cf|afc|sc|the)\b|[^a-z0-9]", "", s)
 
 
+_AFFIX = re.compile(r"\b(fc|cf|afc|sc|ac|as|ss|us|ssc|cd|ud|sd|club|calcio|the)\b")
+
+
+def _words(s):
+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode().lower()
+    return [w for w in re.findall(r"[a-z0-9]+", _AFFIX.sub(" ", s.replace("&", "and"))) if w]
+
+
+def team_score(target, espn_team):
+    """How well a site team name matches an ESPN team: 3 same name (club affixes dropped),
+    2 one name contained in the other, 1 a shared distinctive word (5+ letters), 0 no match.
+    ESPN and the site spell clubs differently ('Athletic Bilbao' / 'Athletic Club',
+    'AS Roma' / 'Roma'); callers still require BOTH teams to match one event."""
+    t = "".join(_words(target))
+    if not t:
+        return 0
+    tw = {w for w in _words(target) if len(w) >= 5}
+    best = 0
+    for k in ("displayName", "shortDisplayName", "name", "location", "nickname"):
+        v = (espn_team or {}).get(k)
+        n = "".join(_words(v)) if v else ""
+        if not n:
+            continue
+        if n == t:
+            return 3
+        if (len(n) >= 4 and n in t) or (len(t) >= 4 and t in n):
+            best = max(best, 2)
+        elif tw & {w for w in _words(v) if len(w) >= 5}:
+            best = max(best, 1)
+    return best
+
+
+def team_matches(target, espn_team):
+    return team_score(target, espn_team) > 0
+
+
+def pair_matches(teams, a, b):
+    """Both site names match the two ESPN competitors, one each."""
+    if len(teams) != 2:
+        return False
+    t0, t1 = (x.get("team") or {} for x in teams)
+    return (team_matches(a, t0) and team_matches(b, t1)) or (team_matches(a, t1) and team_matches(b, t0))
+
+
 def tweet_length(text):
     """X counts every URL as 23 characters."""
     return len(re.sub(r"https?://\S+", "x" * 23, text))
@@ -267,6 +311,12 @@ def espn_event(g, day):
             return {fold(tm.get(k)) for k in ("displayName", "shortDisplayName", "name", "location") if tm.get(k)}
         h = next((t for t in teams if names(t) & hk), None)
         o = next((t for t in teams if t is not h and names(t) & ok), None)
+        if (not h or not o) and pair_matches(teams, g["holder"], g["opponent"]):
+            # spelling differences between the site and ESPN ('Athletic Bilbao' / 'Athletic Club')
+            a, b = teams
+            sa = (team_score(g["holder"], a.get("team")), team_score(g["opponent"], b.get("team")))
+            sb = (team_score(g["holder"], b.get("team")), team_score(g["opponent"], a.get("team")))
+            h, o = (a, b) if sum(sa) >= sum(sb) else (b, a)
         if not h or not o:
             continue
         st = (comp.get("status") or ev.get("status") or {})
