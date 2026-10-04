@@ -1,33 +1,5 @@
 [
  {
-  "id": "2026-10-03-1-849835",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m139",
-  "away": "m147",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "18:30",
-  "venue": "Tropicana Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
-  "id": "2026-10-03-1-849830",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m158",
-  "away": "m135",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:30",
-  "venue": "American Family Field",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-04-1-849825",
   "date": "2026-10-04",
   "season": 2026,
