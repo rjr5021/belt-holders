@@ -45,6 +45,11 @@ ET = ZoneInfo("America/New_York")
 STATE = os.path.join("data", "x", "state.json")
 LEAGUES = [x for x in os.environ.get("X_LEAGUES", "nhl").replace(",", " ").split() if x]
 START_LEAGUES = set(os.environ.get("X_START_LEAGUES", "nfl").replace(",", " ").split())
+# Leagues where a finished game always has a winner (overtime, shootout or extra innings).
+# A "final" that is still level there means ESPN flipped the status before it added the
+# deciding goal or run -- 2026-10-03, Sharks 5, Kings 4 (OT) went out as a 4-4 "draw" -- so
+# the final post waits for the score to catch up instead of posting it.
+NO_TIES = {"nhl", "nba", "wnba", "mlb", "pwhl", "cbb", "wcbb"}
 DIGEST_FROM, DIGEST_UNTIL = 9, 13          # ET hours the morning post may go out ...
 # ... or later, as long as no belt game has started yet. GitHub's scheduler can skip whole
 # hours (2026-10-03: no run between 4 AM and 2:18 PM ET), and a missed 9-1 window used to
@@ -415,6 +420,10 @@ def one_pass(st, day):
             if post(danger_text(g, ev), kind=f"{g['lg']} danger"):
                 done["danger"] = n.isoformat(timespec="minutes")
                 save_state(st)
+        if ev["state"] == "post" and ev["completed"] and g["lg"] in NO_TIES and ev["hs"] == ev["os"]:
+            print(f"  {key}: final but still level {ev['hs']}-{ev['os']} -- waiting for ESPN's deciding goal")
+            watching = True
+            continue
         if ev["state"] == "post" and ev["completed"]:
             if sync_remote(st)["games"][key].get("end"):
                 print(f"  {key}: final already posted (by another run)")
