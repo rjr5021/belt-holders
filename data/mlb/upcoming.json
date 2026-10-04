@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-04-1-849825",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m158",
-  "away": "m135",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "16:00",
-  "venue": "American Family Field",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-04-1-849823",
   "date": "2026-10-04",
   "season": 2026,
