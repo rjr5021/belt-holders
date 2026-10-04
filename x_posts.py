@@ -65,7 +65,8 @@ LIVE = os.environ.get("X_LIVE") == "1" and all(os.environ.get(k) for k in REQUIR
 ESPN = {"nfl": "football/nfl", "nba": "basketball/nba", "nhl": "hockey/nhl", "mlb": "baseball/mlb",
         "wnba": "basketball/wnba", "mls": "soccer/usa.1", "nwsl": "soccer/usa.nwsl", "epl": "soccer/eng.1",
         "laliga": "soccer/esp.1", "seriea": "soccer/ita.1", "bundesliga": "soccer/ger.1", "ligue1": "soccer/fra.1",
-        "eredivisie": "soccer/ned.1", "cfl": "football/cfl",
+        "eredivisie": "soccer/ned.1",
+        # (no CFL: ESPN's CFL scoreboard stops at the 2022 Grey Cup, so CFL games can't be followed live)
         # 2026-10-04 (Bob: every active league on @thebeltholders): the leagues added in audit #2,
         # same scoreboards new_leagues.py reads. PWHL isn't on ESPN, so it has no live posts.
         "ligamx": "soccer/mex.1", "ufl": "football/ufl", "ncaah": "hockey/mens-college-hockey",
@@ -477,6 +478,13 @@ def one_pass(st, day):
             continue            # not yet: the next scheduled run (every 15 minutes) picks it up
         ev = espn_event(g, day)
         if not ev:
+            if n > start + timedelta(hours=3):
+                # ESPN never listed it (a league or competition ESPN doesn't carry). Stop waiting,
+                # or this one game holds the watcher -- and every other league's posts -- for hours.
+                print(f"  {key}: still not on ESPN's scoreboard 3 hours after the start -- giving up on it")
+                done["end"] = "not-on-espn"
+                save_state(st)
+                continue
             print(f"  {key}: not on ESPN's scoreboard yet")
             watching = True
             continue
