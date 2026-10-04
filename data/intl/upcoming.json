@@ -1,93 +1,5 @@
 [
  {
-  "id": "int-espn-401900325",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Canada",
-  "away": "Peru",
-  "neutral": "",
-  "start_et": "14:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401861116",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "North Macedonia",
-  "away": "Scotland",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861118",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Spain",
-  "away": "Czech Republic",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401861117",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Switzerland",
-  "away": "Slovenia",
-  "neutral": "",
-  "start_et": "14:45",
-  "tournament": "UEFA Nations League"
- },
- {
-  "id": "int-espn-401917861",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Ivory Coast",
-  "away": "Cameroon",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401916228",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Tunisia",
-  "away": "Mali",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401921544",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Argentina",
-  "away": "Burkina Faso",
-  "neutral": "",
-  "start_et": "20:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401905202",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "United States",
-  "away": "Mexico",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401922038",
   "date": "2026-10-04",
   "season": 2026,
@@ -539,6 +451,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401917261",
+  "date": "2026-10-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Algeria",
+  "away": "Niger",
+  "neutral": "",
+  "start_et": "13:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401919976",
   "date": "2026-10-06",
   "season": 2026,
@@ -658,17 +581,6 @@
   "neutral": "",
   "start_et": "15:00",
   "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401917261",
-  "date": "2026-10-06",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Algeria",
-  "away": "Niger",
-  "neutral": "",
-  "start_et": "15:30",
-  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401900572",

@@ -1,25 +1,5 @@
 [
  {
-  "id": "cfl-2026-10-03-TOR-BC",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "TOR",
-  "away": "BC",
-  "neutral": "",
-  "start_et": null
- },
- {
-  "id": "cfl-2026-10-03-MTL-WPG",
-  "date": "2026-10-03",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MTL",
-  "away": "WPG",
-  "neutral": "",
-  "start_et": null
- },
- {
   "id": "cfl-2026-10-09-BC-OTT",
   "date": "2026-10-09",
   "season": 2026,
