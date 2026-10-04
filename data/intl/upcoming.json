@@ -11,17 +11,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401861119",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Azerbaijan",
-  "away": "Lithuania",
-  "neutral": "",
-  "start_et": "09:00",
-  "tournament": "UEFA Nations League"
- },
- {
   "id": "int-espn-401921339",
   "date": "2026-10-04",
   "season": 2026,
@@ -71,7 +60,7 @@
   "season": 2026,
   "season_type": "regular",
   "home": "Morocco",
-  "away": "Mali",
+  "away": "Ghana",
   "neutral": "",
   "start_et": "14:00",
   "tournament": "Friendly"

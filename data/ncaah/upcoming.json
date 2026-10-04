@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401904702",
-  "date": "2026-10-03",
-  "season_type": "regular",
-  "home": "AKFB",
-  "away": "BU",
-  "home_id": "298",
-  "away_id": "104",
-  "home_abbr": "AKFB",
-  "away_abbr": "BU",
-  "home_loc": "Alaska",
-  "away_loc": "Boston University",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2027,
-  "stype": 2,
-  "start_et": "23:07",
-  "season": 2026,
-  "home_name": "Alaska",
-  "away_name": "Boston University"
- },
- {
   "id": "espn-401904641",
   "date": "2026-10-04",
   "season_type": "regular",
@@ -6466,5 +6445,26 @@
   "season": 2026,
   "home_name": "Minnesota",
   "away_name": "Alaska Anchorage"
+ },
+ {
+  "id": "espn-401904713",
+  "date": "2026-11-18",
+  "season_type": "regular",
+  "home": "BU",
+  "away": "QUIN",
+  "home_id": "104",
+  "away_id": "2514",
+  "home_abbr": "BU",
+  "away_abbr": "QUIN",
+  "home_loc": "Boston University",
+  "away_loc": "Quinnipiac",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2027,
+  "stype": 2,
+  "start_et": "19:00",
+  "season": 2026,
+  "home_name": "Boston University",
+  "away_name": "Quinnipiac"
  }
 ]
