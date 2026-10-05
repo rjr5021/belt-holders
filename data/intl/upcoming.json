@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401900573",
-  "date": "2026-10-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Nicaragua",
-  "away": "Dominican Republic",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401918508",
   "date": "2026-10-05",
   "season": 2026,
