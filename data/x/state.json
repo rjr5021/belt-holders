@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-01",
+ "digest": "2026-10-05",
  "games": {
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
@@ -49,56 +49,38 @@
    "defense",
    19,
    18
+  ],
+  [
+   "2026-10-05T09:16-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-04",
+  "day": "2026-10-05",
   "games": [
    {
-    "belt": "NFL",
+    "belt": "NHL",
     "colors": [
-     "#006778",
-     "#d7a22a"
+     "#006d75",
+     "#ea7200"
     ],
-    "defenses": 0,
-    "holder": "Jacksonville Jaguars",
-    "holder_short": "Jaguars",
+    "defenses": 1,
+    "holder": "San Jose Sharks",
+    "holder_short": "Sharks",
     "home": false,
-    "lg": "nfl",
-    "name": "The NFL Belt",
+    "lg": "nhl",
+    "name": "The NHL Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/nfl/next/",
-    "opponent": "Cincinnati Bengals",
-    "opponent_short": "Bengals",
-    "reign_no": 6,
-    "since": "2026-09-27",
-    "time_et": "13:00",
-    "tv": "CBS",
-    "url": "https://beltholders.com/nfl/",
-    "win_prob": 0.51
-   },
-   {
-    "belt": "NRL",
-    "colors": [
-     "#c8102e",
-     "#003087"
-    ],
-    "defenses": 0,
-    "holder": "Sydney Roosters",
-    "holder_short": "Roosters",
-    "home": true,
-    "lg": "nrl",
-    "name": "The NRL Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nrl/next/",
-    "opponent": "Newcastle Knights",
-    "opponent_short": "Knights",
-    "reign_no": 12,
-    "since": "2026-09-25",
-    "time_et": "04:30",
-    "tv": null,
-    "url": "https://beltholders.com/nrl/",
-    "win_prob": 0.691
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Dallas Stars",
+    "opponent_short": "Stars",
+    "reign_no": 41,
+    "since": "2026-10-01",
+    "time_et": "20:00",
+    "tv": "ESPN+ \u00b7 NBC Sports BA \u00b7 Prime Video (Local)",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.366
    }
   ]
  }
