@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854020",
-  "date": "2026-10-04",
-  "season_type": "regular",
-  "home": "Houston Dash",
-  "away": "Washington Spirit",
-  "home_id": "17346",
-  "away_id": "15365",
-  "home_abbr": "HOU",
-  "away_abbr": "WAS",
-  "home_loc": "Houston Dash",
-  "away_loc": "Washington Spirit",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "19:00",
-  "season": 2026
- },
- {
   "id": "espn-401854091",
   "date": "2026-10-16",
   "season_type": "regular",
