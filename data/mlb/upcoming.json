@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-05-1-849834",
-  "date": "2026-10-05",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m114",
-  "away": "m145",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "17:00",
-  "venue": "Progressive Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-05-1-849839",
   "date": "2026-10-05",
   "season": 2026,
