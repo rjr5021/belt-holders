@@ -1,53 +1,57 @@
 {
- "key": "SJS|DAL|2026-10-05",
- "updated": "2026-10-04T02:35Z",
- "start_utc": "2026-10-06T00:00Z",
+ "key": "SJS|STL|2026-10-08",
+ "updated": "2026-10-06T00:43Z",
+ "start_utc": "2026-10-09T00:00Z",
  "espn": {
-  "event_id": "401892448",
-  "start_utc": "2026-10-06T00:00Z",
+  "event_id": "401891825",
+  "start_utc": "2026-10-09T00:00Z",
   "state": "pre",
   "tv": [
+   "Disney+",
    "ESPN+",
-   "NBC Sports BA",
-   "Prime Video (Local)"
+   "Hulu"
   ],
-  "odds": null,
+  "odds": {
+   "details": "SJ -115",
+   "over_under": 5.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "DAL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-    "abbr": "DAL",
-    "record": "0-1-0",
+   "STL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+    "abbr": "STL",
+    "record": "1-1-0",
     "rank": null,
     "home_away": "home"
    },
    "SJS": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
     "abbr": "SJ",
-    "record": "1-0-0",
+    "record": "2-0-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "American Airlines Center",
-   "city": "Dallas",
-   "state": "TX",
+   "name": "Enterprise Center",
+   "city": "St. Louis",
+   "state": "MO",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The San Jose Sharks bring the Belt Holders lineal championship to Dallas for only the 12th time these franchises have met with the belt on the line. San Jose claimed the belt in their most recent victory and have yet to defend it in this reign, while Dallas has been a frequent belt holder with 104 previous reigns in franchise history.",
+  "overview": "The San Jose Sharks bring the Belt Holders lineal championship to St. Louis on October 8th, 2026, having defended it once in their current reign. The Sharks have won their last 3 games and sit 2-0 this season, while the Blues look to rebound from a 1\u20136 loss at Colorado Avalanche that snapped a three-game winning streak.",
   "key_matchups": [
-   "Sharks riding momentum with wins in their last 2 games versus a Stars team mired in a 4-game losing streak dating back to the playoffs",
-   "Dallas seeking revenge after dropping their most recent meeting 5-4 to San Jose in January 2026",
-   "First belt defense for San Jose in this reign against a Stars squad that leads the all-time series 91-66-5"
+   "San Jose's three-game winning streak and high-scoring form (5\u20134, 4\u20133, 6\u20131) against a St. Louis defense that just allowed 6 goals in Colorado",
+   "Historical edge to the Blues, who lead the all-time series 92-67-2 and have held the belt 79 times previously",
+   "Recent head-to-head contests have been tight, with four of the last five meetings decided by one or two goals"
   ],
-  "betting_angles": "San Jose enters with clear momentum, having won their last 2 games including a 4-3 victory over Florida, while Dallas has dropped 4 straight including a shutout loss 0-4 to St. Louis in their season opener. The Elo model favors Dallas at home despite the contrasting form, and the Stars hold a commanding all-time edge in the head-to-head series. Recent meetings have been competitive, with three of the last five decided by a single goal.",
-  "predicted_winner": "Dallas Stars",
-  "predicted_score": "San Jose Sharks 2, Dallas Stars 3",
-  "prediction_writeup": "Despite San Jose's hot start with 2 straight wins and Dallas dropping 4 consecutive games, the Stars have home ice and the Elo edge for a reason. Dallas has historically owned this matchup with a 91-66-5 all-time record and has held the belt 104 times previously, suggesting they know how to perform in these situations. The Stars are due for a bounce-back after that 0-4 shutout loss to open their season, and facing a Sharks team making their first belt defense could be the perfect opportunity. This should be a tight, low-scoring affair, but Dallas edges it at home.",
-  "written": "2026-10-04",
+  "betting_angles": "San Jose arrives with momentum on a three-game win streak and a perfect 2-0 record this season, though the Elo model tags them as underdogs on the road. St. Louis holds a significant all-time advantage at 92-67-2 in the head-to-head series and has experience with the belt, having held it 79 times before. The Blues' 1\u20136 blowout loss is concerning, but they had won four straight before that stumble, including high-scoring victories of 7\u20135 and 6\u20133.",
+  "predicted_winner": "St. Louis Blues",
+  "predicted_score": "San Jose Sharks 3, St. Louis Blues 4",
+  "prediction_writeup": "While San Jose has won their last 3 games and looks sharp early at 2-0, the road gets tougher against a historically superior opponent. St. Louis leads the all-time series 92-67-2 and has held the belt 79 times, showing championship pedigree. The Blues' 1\u20136 loss at Colorado appears to be an outlier after four straight wins, and they tend to bounce back at home. The Elo model favors St. Louis despite San Jose's hot streak, and the historical head-to-head data supports that assessment. Expect a tight game decided by a single goal, as four of the last five meetings have been, with the Blues reclaiming the belt.",
+  "written": "2026-10-06",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

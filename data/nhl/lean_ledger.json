@@ -70,5 +70,19 @@
   "score": "San Jose Sharks 2, Dallas Stars 3",
   "made": "2026-10-04",
   "line": null
+ },
+ {
+  "key": "SJS|STL|2026-10-08",
+  "date": "2026-10-08",
+  "holder": "SJS",
+  "challenger": "STL",
+  "pick": "STL",
+  "score": "San Jose Sharks 3, St. Louis Blues 4",
+  "made": "2026-10-06",
+  "line": {
+   "details": "SJ -115",
+   "over_under": 5.5,
+   "provider": "DraftKings"
+  }
  }
 ]
