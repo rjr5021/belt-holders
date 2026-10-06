@@ -1,25 +1,3 @@
 {
- "key": "Spain|Croatia|2026-10-06",
- "updated": "2026-10-04T02:36Z",
- "start_utc": "2026-10-06T18:45Z",
- "espn": null,
- "weather": null,
- "ai": {
-  "overview": "Spain bring the lineal championship belt to Croatia on October 6, having defended it 11 times in their current reign. The holders are riding a five-game winning streak and dominated Croatia 4\u20131 in their most recent meeting on September 29, but Croatia will be desperate to end a two-game skid on home soil.",
-  "key_matchups": [
-   "Spain's perfect form (five straight wins) against Croatia's struggles (two straight losses including a 0\u20137 drubbing by England)",
-   "Head-to-head dominance: Spain have won 8 of 12 all-time meetings and swept Croatia 4\u20131 just a week ago",
-   "Croatia's home advantage and historical ability to hold the belt twice before versus Spain's 11 successful defenses in this reign"
-  ],
-  "betting_angles": "Spain enter as Elo favorites with a 12-0-3 record this season compared to Croatia's 5-6 mark. The recent form disparity is stark: Spain have won five straight while Croatia have lost two consecutive games, including being outscored 1\u20134 and 0\u20137 in those defeats. Spain have dominated the head-to-head series 8-3-1 and won their last meeting 4\u20131.",
-  "predicted_winner": "Spain",
-  "predicted_score": "Spain 2, Croatia 1",
-  "prediction_writeup": "Spain's five-game winning streak and dominant 12-0-3 season record make them clear favorites to retain the belt. Their 4\u20131 victory over Croatia on September 29 demonstrated their current superiority, and they've won three straight meetings overall. Croatia's recent 0\u20137 loss to England and 5-6 record suggest they're struggling to find consistency. While Croatia have held the belt twice before and will fight hard at home, Spain's form and Elo edge point to another successful defense, though Croatia should find the net unlike in their England disaster.",
-  "written": "2026-10-04",
-  "model": "claude-sonnet-4-5",
-  "factcheck": {
-   "attempts": 1,
-   "dropped": []
-  }
- }
+ "key": null
 }
