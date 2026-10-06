@@ -7,7 +7,8 @@
   "2026-10-04 re-queued result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 (first post showed 4-4; Bob deleted it)",
   "2026-10-04 08:13 result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeEm-qvG2Vo/",
   "2026-10-05 10:15 preview nhl|San Jose Sharks|Dallas Stars|2026-10-05 https://www.instagram.com/p/DeHZvT1kSDe/",
-  "2026-10-05 22:27 result nhl|San Jose Sharks|Dallas Stars|2026-10-05 https://www.instagram.com/p/DeItflrnBRB/"
+  "2026-10-05 22:27 result nhl|San Jose Sharks|Dallas Stars|2026-10-05 https://www.instagram.com/p/DeItflrnBRB/",
+  "2026-10-06 10:20 preview intl|Spain|Croatia|2026-10-06 https://www.instagram.com/p/DeJ_F0Wm9dU/"
  ],
  "pending": {
   "intl|Spain|Croatia|2026-10-06": {
@@ -29,7 +30,8 @@
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
-  "nhl|San Jose Sharks|Dallas Stars|2026-10-05"
+  "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
+  "intl|Spain|Croatia|2026-10-06"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
