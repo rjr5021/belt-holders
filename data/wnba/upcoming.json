@@ -76,25 +76,6 @@
   "season": 2026
  },
  {
-  "id": "espn-401918301",
-  "date": "2026-10-11",
-  "season_type": "postseason",
-  "home": "NY",
-  "away": "ATL",
-  "home_id": "9",
-  "away_id": "20",
-  "home_abbr": "NY",
-  "away_abbr": "ATL",
-  "home_loc": "New York",
-  "away_loc": "Atlanta",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 3,
-  "start_et": null,
-  "season": 2026
- },
- {
   "id": "espn-401918302",
   "date": "2026-10-11",
   "season_type": "postseason",
@@ -111,6 +92,25 @@
   "season_year": 2026,
   "stype": 3,
   "start_et": null,
+  "season": 2026
+ },
+ {
+  "id": "espn-401918301",
+  "date": "2026-10-11",
+  "season_type": "postseason",
+  "home": "NY",
+  "away": "ATL",
+  "home_id": "9",
+  "away_id": "20",
+  "home_abbr": "NY",
+  "away_abbr": "ATL",
+  "home_loc": "New York",
+  "away_loc": "Atlanta",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 3,
+  "start_et": "14:00",
   "season": 2026
  },
  {
