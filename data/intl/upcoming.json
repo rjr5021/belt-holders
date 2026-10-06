@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401900582",
-  "date": "2026-10-05",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Honduras",
-  "away": "Jamaica",
-  "neutral": "",
-  "start_et": "22:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401902245",
   "date": "2026-10-06",
   "season": 2026,
