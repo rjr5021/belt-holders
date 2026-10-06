@@ -84,5 +84,15 @@
    "over_under": 5.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "DAL|BUF|2026-10-08",
+  "date": "2026-10-08",
+  "holder": "DAL",
+  "challenger": "BUF",
+  "pick": "BUF",
+  "score": "Dallas Stars 2, Buffalo Sabres 3",
+  "made": "2026-10-06",
+  "line": null
  }
 ]

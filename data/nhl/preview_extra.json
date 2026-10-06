@@ -1,56 +1,52 @@
 {
- "key": "SJS|STL|2026-10-08",
- "updated": "2026-10-06T00:43Z",
- "start_utc": "2026-10-09T00:00Z",
+ "key": "DAL|BUF|2026-10-08",
+ "updated": "2026-10-06T02:32Z",
+ "start_utc": "2026-10-08T23:00Z",
  "espn": {
-  "event_id": "401891825",
-  "start_utc": "2026-10-09T00:00Z",
+  "event_id": "401892458",
+  "start_utc": "2026-10-08T23:00Z",
   "state": "pre",
   "tv": [
-   "Disney+",
    "ESPN+",
-   "Hulu"
+   "MSGB",
+   "Prime Video (Local)"
   ],
-  "odds": {
-   "details": "SJ -115",
-   "over_under": 5.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "STL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-    "abbr": "STL",
+   "BUF": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+    "abbr": "BUF",
     "record": "1-1-0",
     "rank": null,
     "home_away": "home"
    },
-   "SJS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-    "abbr": "SJ",
-    "record": "2-0-0",
+   "DAL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
+    "abbr": "DAL",
+    "record": "1-2-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Enterprise Center",
-   "city": "St. Louis",
-   "state": "MO",
+   "name": "KeyBank Center",
+   "city": "Buffalo",
+   "state": "NY",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The San Jose Sharks bring the Belt Holders lineal championship to St. Louis on October 8th, 2026, having defended it once in their current reign. The Sharks have won their last 3 games and sit 2-0 this season, while the Blues look to rebound from a 1\u20136 loss at Colorado Avalanche that snapped a three-game winning streak.",
+  "overview": "The Dallas Stars bring the Belt Holders lineal championship to Buffalo on October 8, 2026, facing the Sabres in a matchup where the belt changes hands with every loss. Dallas claimed the belt in their most recent outing with a dominant 5\u20130 victory over San Jose, while Buffalo is also riding momentum from a 4\u20133 win over Chicago.",
   "key_matchups": [
-   "San Jose's three-game winning streak and high-scoring form (5\u20134, 4\u20133, 6\u20131) against a St. Louis defense that just allowed 6 goals in Colorado",
-   "Historical edge to the Blues, who lead the all-time series 92-67-2 and have held the belt 79 times previously",
-   "Recent head-to-head contests have been tight, with four of the last five meetings decided by one or two goals"
+   "Dallas defense after shutout: The Stars blanked San Jose 5\u20130 in their last game but had allowed four or five goals in three of their previous four contests",
+   "Buffalo's offensive ceiling: The Sabres put up 8 goals in a playoff win at Montr\u00e9al but have been held to four or fewer in four of their last five games",
+   "All-time deadlock: The franchises are tied 66\u201366 with 17 ties across 149 career meetings, making this a true coin-flip rivalry"
   ],
-  "betting_angles": "San Jose arrives with momentum on a three-game win streak and a perfect 2-0 record this season, though the Elo model tags them as underdogs on the road. St. Louis holds a significant all-time advantage at 92-67-2 in the head-to-head series and has experience with the belt, having held it 79 times before. The Blues' 1\u20136 blowout loss is concerning, but they had won four straight before that stumble, including high-scoring victories of 7\u20135 and 6\u20133.",
-  "predicted_winner": "St. Louis Blues",
-  "predicted_score": "San Jose Sharks 3, St. Louis Blues 4",
-  "prediction_writeup": "While San Jose has won their last 3 games and looks sharp early at 2-0, the road gets tougher against a historically superior opponent. St. Louis leads the all-time series 92-67-2 and has held the belt 79 times, showing championship pedigree. The Blues' 1\u20136 loss at Colorado appears to be an outlier after four straight wins, and they tend to bounce back at home. The Elo model favors St. Louis despite San Jose's hot streak, and the historical head-to-head data supports that assessment. Expect a tight game decided by a single goal, as four of the last five meetings have been, with the Blues reclaiming the belt.",
+  "betting_angles": "Both teams enter on one-game winning streaks but with shaky recent form overall\u2014Dallas is 1-2 this season while Buffalo sits at 1-1. The all-time head-to-head series is perfectly even at 66\u201366\u201317, and recent meetings have been tightly contested with four of the last five decided by one or two goals. Our Elo model favors Buffalo as the home side despite Dallas holding the belt.",
+  "predicted_winner": "Buffalo Sabres",
+  "predicted_score": "Dallas Stars 2, Buffalo Sabres 3",
+  "prediction_writeup": "The Elo model points to Buffalo, and the home advantage in an all-time deadlocked rivalry tips the scales toward the Sabres. Dallas has struggled for consistency this season at 1-2, losing three of four before their shutout of San Jose. Buffalo has experience with the belt, having held it 87 times previously, and they've shown they can compete in tight games. Expect a low-scoring affair decided by a single goal, with the belt changing hands in Western New York.",
   "written": "2026-10-06",
   "model": "claude-sonnet-4-5",
   "factcheck": {
