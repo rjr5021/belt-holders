@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": -3.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909837",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401909838",
@@ -179,7 +179,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909093",
