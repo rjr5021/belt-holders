@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-05",
+ "digest": "2026-10-06",
  "games": {
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
@@ -65,33 +65,38 @@
    "change",
    0,
    5
+  ],
+  [
+   "2026-10-06T09:13-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-05",
+  "day": "2026-10-06",
   "games": [
    {
-    "belt": "NHL",
+    "belt": "International",
     "colors": [
-     "#006d75",
-     "#ea7200"
+     "#c60b1e",
+     "#ffc400"
     ],
-    "defenses": 1,
-    "holder": "San Jose Sharks",
-    "holder_short": "Sharks",
+    "defenses": 11,
+    "holder": "Spain",
+    "holder_short": "Spain",
     "home": false,
-    "lg": "nhl",
-    "name": "The NHL Belt",
+    "lg": "intl",
+    "name": "The International Football Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Dallas Stars",
-    "opponent_short": "Stars",
-    "reign_no": 41,
-    "since": "2026-10-01",
-    "time_et": "20:00",
-    "tv": "ESPN+ \u00b7 NBC Sports BA \u00b7 Prime Video (Local)",
-    "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.366
+    "next_url": "https://beltholders.com/intl/next/",
+    "opponent": "Croatia",
+    "opponent_short": "Croatia",
+    "reign_no": 8,
+    "since": "2026-06-08",
+    "time_et": "14:45",
+    "tv": null,
+    "url": "https://beltholders.com/intl/",
+    "win_prob": 0.633
    }
   ]
  }
