@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-07-1-849833",
-  "date": "2026-10-07",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m145",
-  "away": "m114",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "16:00",
-  "venue": "Rate Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-07-1-849822",
   "date": "2026-10-07",
   "season": 2026,
