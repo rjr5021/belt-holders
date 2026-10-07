@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-761660",
-  "date": "2026-10-06",
-  "season_type": "regular",
-  "home": "Chicago Fire FC",
-  "away": "Vancouver Whitecaps",
-  "home_id": "182",
-  "away_id": "9727",
-  "home_abbr": "CHI",
-  "away_abbr": "VAN",
-  "home_loc": "Chicago Fire FC",
-  "away_loc": "Vancouver Whitecaps",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "20:30",
-  "season": 2026
- },
- {
   "id": "espn-761845",
   "date": "2026-10-10",
   "season_type": "regular",
