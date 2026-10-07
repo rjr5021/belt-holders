@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-07-1-849822",
-  "date": "2026-10-07",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m144",
-  "away": "m119",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "18:00",
-  "venue": "Truist Park",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-07-1-849838",
   "date": "2026-10-07",
   "season": 2026,
