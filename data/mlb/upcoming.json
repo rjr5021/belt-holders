@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-07-1-849838",
-  "date": "2026-10-07",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m147",
-  "away": "m139",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Yankee Stadium",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-07-1-849827",
   "date": "2026-10-07",
   "season": 2026,
@@ -39,7 +25,7 @@
   "start_et": "17:00",
   "venue": "Rate Field",
   "series": "AL Division Series",
-  "if_necessary": true
+  "if_necessary": false
  },
  {
   "id": "2026-10-08-1-849837",

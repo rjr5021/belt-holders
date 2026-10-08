@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Frost Bank Center",
-  "spread": 1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909834",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909840",
