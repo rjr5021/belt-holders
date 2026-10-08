@@ -7558,5 +7558,26 @@
   "season": 2026,
   "home_name": "Alaska",
   "away_name": "Alaska Anchorage"
+ },
+ {
+  "id": "espn-401904350",
+  "date": "2026-11-22",
+  "season_type": "regular",
+  "home": "PRIN",
+  "away": "AFA",
+  "home_id": "163",
+  "away_id": "2005",
+  "home_abbr": "PRIN",
+  "away_abbr": "AFA",
+  "home_loc": "Princeton",
+  "away_loc": "Air Force",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2027,
+  "stype": 2,
+  "start_et": "16:00",
+  "season": 2026,
+  "home_name": "Princeton",
+  "away_name": "Air Force"
  }
 ]
