@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-07-1-849827",
-  "date": "2026-10-07",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m135",
-  "away": "m158",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "22:00",
-  "venue": "Petco Park",
-  "series": "NL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-08-1-849832",
   "date": "2026-10-08",
   "season": 2026,
@@ -50,22 +36,8 @@
   "away": "m135",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": "16:30",
-  "venue": "American Family Field",
-  "series": "NL Division Series",
-  "if_necessary": true
- },
- {
-  "id": "2026-10-09-1-849821",
-  "date": "2026-10-09",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m119",
-  "away": "m144",
-  "neutral": "",
-  "source": "mlbapi",
   "start_et": "20:00",
-  "venue": "UNIQLO Field at Dodger Stadium",
+  "venue": "American Family Field",
   "series": "NL Division Series",
   "if_necessary": true
  },
