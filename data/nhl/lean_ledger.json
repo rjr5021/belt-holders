@@ -94,5 +94,15 @@
   "score": "Dallas Stars 2, Buffalo Sabres 3",
   "made": "2026-10-06",
   "line": null
+ },
+ {
+  "key": "DAL|PIT|2026-10-10",
+  "date": "2026-10-10",
+  "holder": "DAL",
+  "challenger": "PIT",
+  "pick": "DAL",
+  "score": "Dallas Stars 4, Pittsburgh Penguins 3",
+  "made": "2026-10-09",
+  "line": null
  }
 ]

@@ -1,22 +1,21 @@
 {
- "key": "DAL|BUF|2026-10-08",
- "updated": "2026-10-06T02:32Z",
- "start_utc": "2026-10-08T23:00Z",
+ "key": "DAL|PIT|2026-10-10",
+ "updated": "2026-10-09T00:45Z",
+ "start_utc": "2026-10-10T23:00Z",
  "espn": {
-  "event_id": "401892458",
-  "start_utc": "2026-10-08T23:00Z",
+  "event_id": "401892475",
+  "start_utc": "2026-10-10T23:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "MSGB",
    "Prime Video (Local)"
   ],
   "odds": null,
   "teams": {
-   "BUF": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
-    "abbr": "BUF",
-    "record": "1-1-0",
+   "PIT": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
+    "abbr": "PIT",
+    "record": "2-2-0",
     "rank": null,
     "home_away": "home"
    },
@@ -29,25 +28,25 @@
    }
   },
   "venue": {
-   "name": "KeyBank Center",
-   "city": "Buffalo",
-   "state": "NY",
+   "name": "PPG Paints Arena",
+   "city": "Pittsburgh",
+   "state": "PA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Dallas Stars bring the Belt Holders lineal championship to Buffalo on October 8, 2026, facing the Sabres in a matchup where the belt changes hands with every loss. Dallas claimed the belt in their most recent outing with a dominant 5\u20130 victory over San Jose, while Buffalo is also riding momentum from a 4\u20133 win over Chicago.",
+  "overview": "The Dallas Stars bring the lineal championship belt to Pittsburgh on October 10, 2026, in what the Elo model projects as a toss-up. This marks Dallas's first defense since claiming the belt, while Pittsburgh has held it 85 times previously in franchise history. The two teams have battled for the belt 18 times before in a rivalry that sits nearly dead even at 78-74-12 all-time in favor of the Penguins.",
   "key_matchups": [
-   "Dallas defense after shutout: The Stars blanked San Jose 5\u20130 in their last game but had allowed four or five goals in three of their previous four contests",
-   "Buffalo's offensive ceiling: The Sabres put up 8 goals in a playoff win at Montr\u00e9al but have been held to four or fewer in four of their last five games",
-   "All-time deadlock: The franchises are tied 66\u201366 with 17 ties across 149 career meetings, making this a true coin-flip rivalry"
+   "Dallas riding momentum from a dominant 5-0 shutout win over San Jose versus Pittsburgh stumbling with back-to-back losses",
+   "Stars seeking their first belt defense after an 1-2 start to the season against a Penguins squad at .500 (2-2)",
+   "Recent head-to-head history favors Dallas with wins in three of the last five meetings, including a 6-3 victory in their most recent clash"
   ],
-  "betting_angles": "Both teams enter on one-game winning streaks but with shaky recent form overall\u2014Dallas is 1-2 this season while Buffalo sits at 1-1. The all-time head-to-head series is perfectly even at 66\u201366\u201317, and recent meetings have been tightly contested with four of the last five decided by one or two goals. Our Elo model favors Buffalo as the home side despite Dallas holding the belt.",
-  "predicted_winner": "Buffalo Sabres",
-  "predicted_score": "Dallas Stars 2, Buffalo Sabres 3",
-  "prediction_writeup": "The Elo model points to Buffalo, and the home advantage in an all-time deadlocked rivalry tips the scales toward the Sabres. Dallas has struggled for consistency this season at 1-2, losing three of four before their shutout of San Jose. Buffalo has experience with the belt, having held it 87 times previously, and they've shown they can compete in tight games. Expect a low-scoring affair decided by a single goal, with the belt changing hands in Western New York.",
-  "written": "2026-10-06",
+  "betting_angles": "Dallas enters with positive momentum after that 5-0 shutout, but their 1-2 record reveals early-season struggles including a 4-0 loss to St. Louis. Pittsburgh's 2-2 start includes high-scoring affairs on both ends, with a 7-0 blowout win at Philadelphia countered by a 5-3 loss at Washington. The Elo model calls it a toss-up, though Dallas has won three of the last five head-to-head meetings.",
+  "predicted_winner": "Dallas Stars",
+  "predicted_score": "Dallas Stars 4, Pittsburgh Penguins 3",
+  "prediction_writeup": "Dallas showed they can dominate with that 5-0 shutout of San Jose in their last outing, and their recent head-to-head success against Pittsburgh (winning three of five) suggests they match up well. The Penguins have been inconsistent, alternating between offensive explosions like the 7-0 win and defensive lapses like the 5-3 loss to Washington. With the belt on the line and Dallas looking to notch their first defense, the Stars' recent form and historical edge in this matchup give them a slight advantage. Pittsburgh's home ice keeps it close in what should be a tight, one-goal game.",
+  "written": "2026-10-09",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
