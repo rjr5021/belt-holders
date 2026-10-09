@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-08-1-849832",
-  "date": "2026-10-08",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m145",
-  "away": "m114",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Rate Field",
-  "series": "AL Division Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-10-1-849831",
   "date": "2026-10-10",
   "season": 2026,
@@ -36,7 +22,7 @@
   "away": "m119",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "NL Championship Series",
   "if_necessary": false
@@ -50,7 +36,7 @@
   "away": "m119",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "17:00",
   "venue": "American Family Field",
   "series": "NL Championship Series",
   "if_necessary": false
@@ -64,7 +50,7 @@
   "away": "m5521",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
   "if_necessary": false
@@ -78,7 +64,7 @@
   "away": "m5521",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
   "if_necessary": false
@@ -92,21 +78,7 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
-  "venue": "UNIQLO Field at Dodger Stadium",
-  "series": "NL Championship Series",
-  "if_necessary": false
- },
- {
-  "id": "2026-10-15-1-849810",
-  "date": "2026-10-15",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m119",
-  "away": "m158",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "UNIQLO Field at Dodger Stadium",
   "series": "NL Championship Series",
   "if_necessary": false
@@ -120,7 +92,35 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "18:00",
+  "venue": "AL Stadium",
+  "series": "AL Championship Series",
+  "if_necessary": false
+ },
+ {
+  "id": "2026-10-15-1-849810",
+  "date": "2026-10-15",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m119",
+  "away": "m158",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "21:00",
+  "venue": "UNIQLO Field at Dodger Stadium",
+  "series": "NL Championship Series",
+  "if_necessary": false
+ },
+ {
+  "id": "2026-10-16-1-849817",
+  "date": "2026-10-16",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m5521",
+  "away": "m139",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "18:00",
   "venue": "AL Stadium",
   "series": "AL Championship Series",
   "if_necessary": false
@@ -134,24 +134,10 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "21:00",
   "venue": "UNIQLO Field at Dodger Stadium",
   "series": "NL Championship Series",
   "if_necessary": true
- },
- {
-  "id": "2026-10-16-1-849817",
-  "date": "2026-10-16",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m5521",
-  "away": "m139",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
-  "venue": "AL Stadium",
-  "series": "AL Championship Series",
-  "if_necessary": false
  },
  {
   "id": "2026-10-17-1-849816",
@@ -162,7 +148,7 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "AL Stadium",
   "series": "AL Championship Series",
   "if_necessary": true
@@ -176,21 +162,7 @@
   "away": "m119",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
-  "venue": "American Family Field",
-  "series": "NL Championship Series",
-  "if_necessary": true
- },
- {
-  "id": "2026-10-19-1-849807",
-  "date": "2026-10-19",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m158",
-  "away": "m119",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "NL Championship Series",
   "if_necessary": true
@@ -204,9 +176,23 @@
   "away": "m5521",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "17:00",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
+  "if_necessary": true
+ },
+ {
+  "id": "2026-10-19-1-849807",
+  "date": "2026-10-19",
+  "season": 2026,
+  "season_type": "postseason",
+  "home": "m158",
+  "away": "m119",
+  "neutral": "",
+  "source": "mlbapi",
+  "start_et": "20:00",
+  "venue": "American Family Field",
+  "series": "NL Championship Series",
   "if_necessary": true
  },
  {
@@ -218,7 +204,7 @@
   "away": "m5521",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
   "if_necessary": true
