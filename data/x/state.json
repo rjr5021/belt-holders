@@ -5,7 +5,9 @@
    "danger": "2026-10-10T10:15-04:00",
    "end": "2026-10-10T11:30-04:00"
   },
-  "eredivisie|2026-10-10|azalkmaar|feyenoord": {},
+  "eredivisie|2026-10-10|azalkmaar|feyenoord": {
+   "danger": "2026-10-10T13:33-04:00"
+  },
   "intl|2026-10-06|spain|croatia": {
    "danger": "2026-10-06T15:31-04:00",
    "end": "2026-10-06T16:37-04:00"
