@@ -14,6 +14,21 @@
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/"
  ],
  "pending": {
+  "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
+   "belt_name": "The La Liga Belt",
+   "date": "2026-10-10",
+   "defenses": 2,
+   "espn_id": "401882849",
+   "espn_path": "soccer/esp.1",
+   "game_no": 3116,
+   "holder": "Athletic Bilbao",
+   "holder_short": "Athletic",
+   "lg": "laliga",
+   "opponent": "Rayo Vallecano",
+   "opponent_short": "Rayo",
+   "reign_no": 76,
+   "since": "2026-09-05"
+  },
   "mls|Austin FC|Nashville SC|2026-10-10": {
    "belt_name": "The MLS Belt",
    "date": "2026-10-10",
