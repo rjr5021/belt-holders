@@ -1,6 +1,10 @@
 {
  "digest": "2026-10-08",
  "games": {
+  "bundesliga|2026-10-10|bayernmunich|augsburg": {
+   "danger": "2026-10-10T10:15-04:00"
+  },
+  "eredivisie|2026-10-10|azalkmaar|feyenoord": {},
   "intl|2026-10-06|spain|croatia": {
    "danger": "2026-10-06T15:31-04:00",
    "end": "2026-10-06T16:37-04:00"
@@ -8,6 +12,8 @@
   "laliga|2026-10-10|athleticbilbao|rayovallecano": {
    "end": "no-result"
   },
+  "ligamx|2026-10-10|atlante|queretaro": {},
+  "ligue1|2026-10-10|paris|lorient": {},
   "mls|2026-10-10|austin|nashville": {},
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
