@@ -14,6 +14,21 @@
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/"
  ],
  "pending": {
+  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10": {
+   "belt_name": "The Bundesliga Belt",
+   "date": "2026-10-10",
+   "defenses": 14,
+   "espn_id": "401884777",
+   "espn_path": "soccer/ger.1",
+   "game_no": 2135,
+   "holder": "Bayern Munich",
+   "holder_short": "Bayern",
+   "lg": "bundesliga",
+   "opponent": "FC Augsburg",
+   "opponent_short": "Augsburg",
+   "reign_no": 57,
+   "since": "2026-02-28"
+  },
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-10",
