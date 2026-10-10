@@ -17,7 +17,8 @@
   "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/",
   "2026-10-10 11:30 preview ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeUacSekXwH/",
   "2026-10-10 11:30 preview eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeUafn7kaiN/",
-  "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/"
+  "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
+  "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10": {
@@ -64,21 +65,6 @@
    "opponent_short": "Quer\u00e9taro",
    "reign_no": 1,
    "since": "2026-09-25"
-  },
-  "ligue1|Paris FC|FC Lorient|2026-10-10": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-10-10",
-   "defenses": 0,
-   "espn_id": "401876445",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "FC Lorient",
-   "opponent_short": "Lorient",
-   "reign_no": 2,
-   "since": "2026-09-19"
   },
   "mls|Austin FC|Nashville SC|2026-10-10": {
    "belt_name": "The MLS Belt",
@@ -129,6 +115,7 @@
   "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
-  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10"
+  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
+  "ligue1|Paris FC|FC Lorient|2026-10-10"
  ]
 }
