@@ -2,7 +2,8 @@
  "digest": "2026-10-08",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
-   "danger": "2026-10-10T10:15-04:00"
+   "danger": "2026-10-10T10:15-04:00",
+   "end": "2026-10-10T11:30-04:00"
   },
   "eredivisie|2026-10-10|azalkmaar|feyenoord": {},
   "intl|2026-10-06|spain|croatia": {
@@ -107,6 +108,13 @@
    "defense",
    4,
    0
+  ],
+  [
+   "2026-10-10T11:30-04:00",
+   "bundesliga",
+   "defense",
+   2,
+   2
   ]
  ],
  "today": {
