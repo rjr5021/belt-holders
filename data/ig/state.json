@@ -29,6 +29,21 @@
    "reign_no": 57,
    "since": "2026-02-28"
   },
+  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-10-10",
+   "defenses": 11,
+   "espn_id": "401875591",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "Feyenoord",
+   "opponent_short": "Feyenoord",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-10",
