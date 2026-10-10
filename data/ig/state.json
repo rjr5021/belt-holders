@@ -13,7 +13,23 @@
   "2026-10-08 10:14 preview nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DePIABdm-lE/",
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-10",
+   "defenses": 1,
+   "espn_id": "401892475",
+   "espn_path": "hockey/nhl",
+   "game_no": 8438,
+   "holder": "Dallas Stars",
+   "holder_short": "Stars",
+   "lg": "nhl",
+   "opponent": "Pittsburgh Penguins",
+   "opponent_short": "Penguins",
+   "reign_no": 105,
+   "since": "2026-10-05"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
