@@ -18,24 +18,10 @@
   "2026-10-10 11:30 preview ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeUacSekXwH/",
   "2026-10-10 11:30 preview eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeUafn7kaiN/",
   "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
-  "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/"
+  "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
+  "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/"
  ],
  "pending": {
-  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-10-10",
-   "defenses": 11,
-   "espn_id": "401875591",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "Feyenoord",
-   "opponent_short": "Feyenoord",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  },
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-10",
@@ -116,6 +102,7 @@
   "intl|Spain|Croatia|2026-10-06",
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
-  "ligue1|Paris FC|FC Lorient|2026-10-10"
+  "ligue1|Paris FC|FC Lorient|2026-10-10",
+  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10"
  ]
 }
