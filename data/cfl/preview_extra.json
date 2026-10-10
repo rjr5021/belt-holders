@@ -1,21 +1,21 @@
 {
- "key": "BC|OTT|2026-10-09",
- "updated": "2026-10-04T02:35Z",
+ "key": "BC|CGY|2026-10-17",
+ "updated": "2026-10-10T00:44Z",
  "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The BC Lions bring the Belt Holders lineal championship to BC Place as they host the struggling Ottawa Redblacks on October 9th, 2026. BC holds the belt for the first time this reign and will look to notch their first defense against a Redblacks squad that has held the belt 5 times previously but enters winless at 0-15. This marks the first time these two franchises have ever met with the belt on the line.",
+  "overview": "The BC Lions bring the Belt Holders lineal championship to McMahon Stadium to face the Calgary Stampeders on October 17th, 2026. BC is riding a three-game winning streak and holds a 9-6 record, but Calgary has also won three straight and sits at 8-8. The Lions have yet to defend the belt in their current reign, making this their first title defense.",
   "key_matchups": [
-   "BC's three-game winning streak against Ottawa's five-game losing skid sets up a stark contrast in form and confidence",
-   "The Redblacks' 0-15 record represents their worst season, while BC at 9-6 has playoff positioning to protect alongside belt defense duties",
-   "BC won the most recent meeting 45-24 in August, but Ottawa did take a 34-33 thriller last September showing they can compete in this rivalry"
+   "BC's three-game win streak against Calgary's matching three-game surge sets up a clash of hot teams",
+   "Calgary holds a slim 45-42-1 edge in the all-time series, though BC took the most recent meeting 30-26 in August",
+   "The belt has changed hands 32 times between these rivals, with Calgary having held it 37 times previously"
   ],
-  "betting_angles": "BC enters on a three-game winning streak while Ottawa has dropped five straight, including their last meeting where the Lions prevailed 45-24. The Lions hold a 15-7 all-time edge in the series and have won their last three games overall, most recently 24-17 at Toronto. Our Elo model projects BC as a clear favorite, and the form gulf between a 9-6 playoff contender and an 0-15 cellar dweller supports that assessment.",
+  "betting_angles": "Both teams enter on identical three-game winning streaks, though BC's 9-6 record edges Calgary's 8-8 mark. The all-time head-to-head is nearly even at 45-42-1 in Calgary's favor, and the teams split their two 2026 meetings with the road team winning both times. The Elo model projects this as a toss-up, reflecting the balanced recent form and historical competitiveness.",
   "predicted_winner": "BC Lions",
-  "predicted_score": "BC Lions 38, Ottawa Redblacks 21",
-  "prediction_writeup": "The Lions are riding momentum with three consecutive victories and face a Redblacks team that has yet to win a game this season. BC's 45-24 demolition of Ottawa in their August meeting suggests they have the blueprint to exploit this struggling squad. While Ottawa has held the belt 5 times historically, their current 0-15 record and five-game losing streak indicate they lack the tools to pull off what would be a stunning upset. The Lions should successfully defend the belt for the first time in this reign at home.",
-  "written": "2026-10-04",
+  "predicted_score": "BC Lions 35, Calgary Stampeders 32",
+  "prediction_writeup": "This projects as a tight contest between two teams hitting their stride, but BC gets the nod based on their superior 9-6 record and the Elo model calling it a toss-up despite the Lions playing on the road. Both teams are scoring prolifically during their win streaks, with Calgary posting 37, 45, and 40 points in their last three victories. The recent pattern of road teams winning in this matchup (both 2026 meetings went to the visitor) also favors the Lions. Expect a high-scoring affair with BC escaping Calgary with the belt intact.",
+  "written": "2026-10-10",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
