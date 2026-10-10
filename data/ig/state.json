@@ -14,7 +14,8 @@
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/",
   "2026-10-10 11:30 preview nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeUaSwuEbgr/",
   "2026-10-10 11:30 preview mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeUaWHskcLN/",
-  "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/"
+  "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/",
+  "2026-10-10 11:30 preview ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeUacSekXwH/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10": {
@@ -115,7 +116,8 @@
   "intl|Spain|Croatia|2026-10-06",
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
-  "mls|Austin FC|Nashville SC|2026-10-10"
+  "mls|Austin FC|Nashville SC|2026-10-10",
+  "ligue1|Paris FC|FC Lorient|2026-10-10"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
