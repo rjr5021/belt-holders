@@ -44,6 +44,21 @@
    "reign_no": 76,
    "since": "2026-09-05"
   },
+  "ligue1|Paris FC|FC Lorient|2026-10-10": {
+   "belt_name": "The Ligue 1 Belt",
+   "date": "2026-10-10",
+   "defenses": 0,
+   "espn_id": "401876445",
+   "espn_path": "soccer/fra.1",
+   "game_no": 2961,
+   "holder": "Paris FC",
+   "holder_short": "Paris",
+   "lg": "ligue1",
+   "opponent": "FC Lorient",
+   "opponent_short": "Lorient",
+   "reign_no": 2,
+   "since": "2026-09-19"
+  },
   "mls|Austin FC|Nashville SC|2026-10-10": {
    "belt_name": "The MLS Belt",
    "date": "2026-10-10",
