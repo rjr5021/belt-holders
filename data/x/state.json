@@ -16,7 +16,9 @@
   "laliga|2026-10-10|athleticbilbao|rayovallecano": {
    "end": "no-result"
   },
-  "ligamx|2026-10-10|atlante|queretaro": {},
+  "ligamx|2026-10-10|atlante|queretaro": {
+   "danger": "2026-10-10T19:47-04:00"
+  },
   "ligue1|2026-10-10|paris|lorient": {
    "danger": "2026-10-10T16:17-04:00",
    "end": "2026-10-10T16:39-04:00"
