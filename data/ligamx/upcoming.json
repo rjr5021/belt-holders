@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876953",
-  "date": "2026-10-09",
-  "season_type": "regular",
-  "home": "Tigres UANL",
-  "away": "Toluca",
-  "home_id": "232",
-  "away_id": "223",
-  "home_abbr": "UANL",
-  "away_abbr": "TOL",
-  "home_loc": "Tigres UANL",
-  "away_loc": "Toluca",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "23:00",
-  "season": 2026,
-  "home_name": "Tigres UANL",
-  "away_name": "Toluca"
- },
- {
   "id": "espn-401876952",
   "date": "2026-10-10",
   "season_type": "regular",

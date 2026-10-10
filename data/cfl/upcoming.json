@@ -1,25 +1,5 @@
 [
  {
-  "id": "cfl-2026-10-09-BC-OTT",
-  "date": "2026-10-09",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BC",
-  "away": "OTT",
-  "neutral": "",
-  "start_et": null
- },
- {
-  "id": "cfl-2026-10-09-HAM-EDM",
-  "date": "2026-10-09",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "HAM",
-  "away": "EDM",
-  "neutral": "",
-  "start_et": null
- },
- {
   "id": "cfl-2026-10-10-WPG-CGY",
   "date": "2026-10-10",
   "season": 2026,
