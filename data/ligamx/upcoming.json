@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876954",
-  "date": "2026-10-09",
-  "season_type": "regular",
-  "home": "Puebla",
-  "away": "Le\u00f3n",
-  "home_id": "231",
-  "away_id": "228",
-  "home_abbr": "PUE",
-  "away_abbr": "LEO",
-  "home_loc": "Puebla",
-  "away_loc": "Le\u00f3n",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "21:00",
-  "season": 2026,
-  "home_name": "Puebla",
-  "away_name": "Le\u00f3n"
- },
- {
   "id": "espn-401876953",
   "date": "2026-10-09",
   "season_type": "regular",
