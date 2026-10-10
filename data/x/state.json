@@ -17,7 +17,9 @@
    "end": "no-result"
   },
   "ligamx|2026-10-10|atlante|queretaro": {},
-  "ligue1|2026-10-10|paris|lorient": {},
+  "ligue1|2026-10-10|paris|lorient": {
+   "danger": "2026-10-10T16:17-04:00"
+  },
   "mls|2026-10-10|austin|nashville": {},
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
