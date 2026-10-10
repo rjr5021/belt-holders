@@ -13,24 +13,10 @@
   "2026-10-08 10:14 preview nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DePIABdm-lE/",
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/",
   "2026-10-10 11:30 preview nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeUaSwuEbgr/",
-  "2026-10-10 11:30 preview mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeUaWHskcLN/"
+  "2026-10-10 11:30 preview mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeUaWHskcLN/",
+  "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/"
  ],
  "pending": {
-  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10": {
-   "belt_name": "The Bundesliga Belt",
-   "date": "2026-10-10",
-   "defenses": 14,
-   "espn_id": "401884777",
-   "espn_path": "soccer/ger.1",
-   "game_no": 2135,
-   "holder": "Bayern Munich",
-   "holder_short": "Bayern",
-   "lg": "bundesliga",
-   "opponent": "FC Augsburg",
-   "opponent_short": "Augsburg",
-   "reign_no": 57,
-   "since": "2026-02-28"
-  },
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10": {
    "belt_name": "The Eredivisie Belt",
    "date": "2026-10-10",
@@ -136,6 +122,7 @@
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
   "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
-  "nhl|Dallas Stars|Buffalo Sabres|2026-10-08"
+  "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
+  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10"
  ]
 }
