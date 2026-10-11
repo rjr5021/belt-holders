@@ -23,24 +23,10 @@
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
   "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
-  "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/"
+  "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/",
+  "2026-10-11 13:37 result epl|Manchester City|Liverpool|2026-10-11 https://www.instagram.com/p/DeXNs1wCWZx/"
  ],
  "pending": {
-  "epl|Manchester City|Liverpool|2026-10-11": {
-   "belt_name": "The English Football Belt",
-   "date": "2026-10-11",
-   "defenses": 4,
-   "espn_id": "401879264",
-   "espn_path": "soccer/eng.1",
-   "game_no": 4918,
-   "holder": "Manchester City",
-   "holder_short": "Man City",
-   "lg": "epl",
-   "opponent": "Liverpool",
-   "opponent_short": "Liverpool",
-   "reign_no": 62,
-   "since": "2026-08-23"
-  },
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-10",
@@ -96,6 +82,7 @@
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
   "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
-  "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11"
+  "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11",
+  "epl|Manchester City|Liverpool|2026-10-11"
  ]
 }
