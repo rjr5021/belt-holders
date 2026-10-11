@@ -12,5 +12,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NSH|SKC|2026-10-14",
+  "date": "2026-10-14",
+  "holder": "NSH",
+  "challenger": "SKC",
+  "pick": "NSH",
+  "score": "Nashville SC 2, Sporting Kansas City 1",
+  "made": "2026-10-11",
+  "line": {
+   "details": "NSH -425",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
