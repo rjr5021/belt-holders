@@ -1,66 +1,62 @@
 {
- "key": "JAX|PHI|2026-10-11",
- "updated": "2026-10-04T20:26Z",
- "start_utc": "2026-10-11T13:30Z",
+ "key": "JAX|HOU|2026-10-18",
+ "updated": "2026-10-11T18:35Z",
+ "start_utc": "2026-10-18T13:30Z",
  "espn": {
-  "event_id": "401872981",
-  "start_utc": "2026-10-11T13:30Z",
+  "event_id": "401872996",
+  "start_utc": "2026-10-18T13:30Z",
   "state": "pre",
   "tv": [
    "NFL Net"
   ],
-  "odds": {
-   "details": "JAX -3",
-   "over_under": 44.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
    "JAX": {
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
     "abbr": "JAX",
-    "record": "3-1",
+    "record": "4-1",
     "rank": null,
     "home_away": "home"
    },
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-    "abbr": "PHI",
-    "record": "2-2",
+   "HOU": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "abbr": "HOU",
+    "record": "0-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Tottenham Hotspur Stadium",
+   "name": "Wembley Stadium",
    "city": "London",
    "state": null,
    "indoor": false
   }
  },
  "weather": {
-  "temp_f": 63,
-  "feels_like_f": 58,
-  "precip_chance": 26,
-  "wind_mph": 12,
-  "condition": "Heavy drizzle",
-  "as_of": "2026-10-04",
-  "venue": "Tottenham Hotspur Stadium"
+  "temp_f": 56,
+  "feels_like_f": 50,
+  "precip_chance": 11,
+  "wind_mph": 11,
+  "condition": "Clear",
+  "as_of": "2026-10-11",
+  "venue": "Wembley Stadium"
  },
  "ai": {
-  "overview": "The Jacksonville Jaguars put their Belt Holders championship on the line when they host the Philadelphia Eagles. Jacksonville has defended the belt 1 times in this reign and enters on a two-game winning streak, while Philadelphia looks to claim the belt for the 28th time after dropping their last two contests.",
+  "overview": "The Jacksonville Jaguars bring the lineal championship belt to a neutral site showdown with the Houston Texans. Jacksonville has defended the belt 2 times in this reign and enters on a three-game winning streak, while Houston has dropped five straight and sits winless at 0-4 this season. The belt passes to whoever wins, with no committees involved\u2014just the outcome on the field.",
   "key_matchups": [
-   "Jacksonville's recent 35\u20136 demolition of New England versus Philadelphia's 7\u201327 collapse at Chicago shows the contrasting form these teams bring",
-   "Philadelphia holds a 5-3 edge in the all-time series, including a 28-23 victory in their most recent 2024 meeting",
-   "This marks the first time these franchises have ever met with the belt on the line"
+   "Jacksonville's three-game win streak versus Houston's five-game losing skid\u2014contrasting momentum at its starkest",
+   "Houston's 32-16 all-time edge in the series against Jacksonville's current possession of the belt",
+   "Jacksonville's 4-1 record facing a Houston team desperate to avoid 0-5"
   ],
-  "betting_angles": "Jacksonville sits at 3-1 with wins in their last 2 games, most recently 22\u201317 at Cincinnati, while Philadelphia has stumbled to 2-2 with back-to-back losses including 20\u201324 versus Los Angeles. The Elo model favors Jacksonville as the home team. However, Philadelphia owns a 5-3 all-time head-to-head advantage and has held the belt 27 times previously, suggesting familiarity with high-stakes situations.",
+  "betting_angles": "The form contrast is dramatic: Jacksonville has won their last 3 games and sits at 4-1, while Houston has lost their last 5 and remains winless at 0-4 this season. The Elo model favors Jacksonville, aligning with the current form disparity. However, Houston holds a commanding 32-16 advantage in the all-time series and won the most recent meeting 36-29 in November 2025, suggesting they've had Jacksonville's number historically even if recent form points the other way.",
   "predicted_winner": "Jacksonville Jaguars",
-  "predicted_score": "Jacksonville Jaguars 27, Philadelphia Eagles 20",
-  "prediction_writeup": "Jacksonville's momentum is undeniable with consecutive victories including the dominant 35\u20136 thrashing of New England, while Philadelphia has dropped two straight with concerning performances like the 7\u201327 loss at Chicago. The Elo model backing Jacksonville at home aligns with their superior 3-1 record versus Philadelphia's 2-2 mark. Though the Eagles hold the all-time series edge at 5-3 and have championship pedigree with 27 previous belt reigns, current form favors the Jaguars to retain the belt. Jacksonville's ability to score 34 against Cleveland and 35 against New England in recent weeks suggests offensive firepower that should overcome a struggling Eagles squad.",
-  "written": "2026-10-04",
+  "predicted_score": "Jacksonville Jaguars 24, Houston Texans 17",
+  "prediction_writeup": "Jacksonville's three-game winning streak and 4-1 record stand in stark contrast to Houston's five-game slide and 0-4 start. While the Texans have dominated this matchup historically with a 32-16 all-time edge, current form heavily favors the Jaguars. Jacksonville has already defended the belt twice in this reign, including wins of 19-17 and 22-17 in their last two outings\u2014narrow victories that suggest they know how to close games. Houston's winless season and ongoing losing streak make it difficult to back them against a Jaguars team riding momentum and Elo favoritism.",
+  "written": "2026-10-11",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }

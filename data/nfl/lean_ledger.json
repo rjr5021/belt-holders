@@ -26,5 +26,15 @@
    "over_under": 44.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "JAX|HOU|2026-10-18",
+  "date": "2026-10-18",
+  "holder": "JAX",
+  "challenger": "HOU",
+  "pick": "JAX",
+  "score": "Jacksonville Jaguars 24, Houston Texans 17",
+  "made": "2026-10-11",
+  "line": null
  }
 ]

@@ -1,55 +1,61 @@
 {
- "key": "AZ Alkmaar|Feyenoord|2026-10-10",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-10T16:45Z",
+ "key": "AZ Alkmaar|SC Cambuur|2026-10-18",
+ "updated": "2026-10-11T18:36Z",
+ "start_utc": "2026-10-18T12:30Z",
  "espn": {
-  "event_id": "401875591",
-  "start_utc": "2026-10-10T16:45Z",
+  "event_id": "401875576",
+  "start_utc": "2026-10-18T12:30Z",
   "state": "pre",
   "tv": [
    "ESPN+"
   ],
   "odds": {
-   "details": "FEY -125",
-   "over_under": 3.5,
+   "details": "AZ -280",
+   "over_under": null,
    "provider": "DraftKings"
   },
   "teams": {
-   "Feyenoord": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
-    "abbr": "FEY",
-    "record": "5-2-0",
+   "SC Cambuur": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+    "abbr": "CAM",
+    "record": "2-2-4",
     "rank": null,
     "home_away": "home"
    },
    "AZ Alkmaar": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
     "abbr": "AZ",
-    "record": "6-1-0",
+    "record": "6-1-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "De Kuip",
-   "city": "Rotterdam",
+   "name": "Kooi Stadium",
+   "city": "Leeuwarden",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AZ Alkmaar brings the lineal championship belt to De Kuip to face Feyenoord on October 10th, with the title passing to whoever wins this Eredivisie clash. The visitors have defended the belt 11 times in their current reign, while Feyenoord\u2014who have held it 34 times previously\u2014will look to reclaim the championship with home advantage.",
+  "overview": "The belt changes hands only when the holder loses, meaning SC Cambuur must win outright to claim it\u2014something they've never managed against AZ in 14 all-time meetings.",
   "key_matchups": [
-   "Feyenoord's blazing form (three straight wins including 5-0 and 7-0 victories) against AZ's more modest recent result (1-0 vs Telstar)",
-   "AZ's 11-game belt defense streak meets Feyenoord's historical dominance (33-15 all-time edge)",
-   "High-scoring recent meetings (3-3, 1-1 in last two) suggest both sides can find the net despite contrasting recent margins"
+   "AZ Alkmaar's 6-0-1 record this season versus SC Cambuur's 1-4-2 mark highlights a significant gap in current form",
+   "SC Cambuur's all-time futility against AZ: 0 wins in 14 meetings with 10 AZ victories",
+   "AZ's recent attacking display in the 5-2 win vs Go Ahead Eagles contrasts with Cambuur's defensive struggles in the 2-5 loss to Feyenoord"
   ],
-  "betting_angles": "Feyenoord enter as favorites at -125 despite AZ's superior record (6-0-1 vs 5-0-2), likely reflecting home advantage and their explosive recent form with 17 goals in three games. The over/under of 3.5 aligns with their recent head-to-head history, which has produced draws of 3-3 and 1-1 in the last two meetings. AZ's Elo probability of 38% suggests reasonable value on the underdog, though Feyenoord's 33-15 all-time edge and three consecutive wins can't be ignored.",
-  "predicted_winner": "Feyenoord",
-  "predicted_score": "AZ Alkmaar 1, Feyenoord 2",
-  "prediction_writeup": "Feyenoord's overwhelming offensive form\u2014averaging over five goals in their last three wins\u2014should prove too much for AZ at home, even against an undefeated visitor. While AZ have held the belt through 11 defenses and boast a better record, their 1-0 grind against Telstar looks pedestrian compared to Feyenoord's ruthless 5-0 dismantling of Utrecht. Recent head-to-head meetings have been tight, but Feyenoord hold a significant all-time edge at 33-15 and haven't lost to AZ since 2025. The belt changes hands in a narrow Feyenoord victory.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "AZ Alkmaar enter with a 6-0-1 season record and come off a 1-0 victory, while SC Cambuur sit at 1-4-2 with their last result a 1-1 draw. The head-to-head history is utterly one-sided: AZ have won all 10 meetings they've won, with SC Cambuur never victorious in 14 tries. The Elo model favors AZ, aligning with both the historical dominance and current form disparity.",
+  "predicted_winner": "AZ Alkmaar",
+  "predicted_score": "AZ Alkmaar 2, SC Cambuur 1",
+  "prediction_writeup": "AZ Alkmaar's 6-0-1 record and perfect 10-0-4 all-time advantage over SC Cambuur suggest they'll retain the belt. While SC Cambuur showed attacking capability in their 3-0 win over NEC Nijmegen, their 1-4-2 record and recent defensive lapses (conceding 4 to FC Twente and 5 to Feyenoord) point to vulnerability. AZ have won their last 1 game and defended the belt 11 times already this reign, demonstrating consistency. The Elo edge and historical dominance make AZ the clear favorite to leave with the belt intact.",
+  "written": "2026-10-11",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": [
+    "18"
+   ]
+  }
  }
 }

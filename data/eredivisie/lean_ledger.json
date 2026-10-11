@@ -12,5 +12,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AZ Alkmaar|SC Cambuur|2026-10-18",
+  "date": "2026-10-18",
+  "holder": "AZ Alkmaar",
+  "challenger": "SC Cambuur",
+  "pick": "AZ Alkmaar",
+  "score": "AZ Alkmaar 2, SC Cambuur 1",
+  "made": "2026-10-11",
+  "line": {
+   "details": "AZ -280",
+   "over_under": null,
+   "provider": "DraftKings"
+  }
  }
 ]
