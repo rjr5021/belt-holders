@@ -1,55 +1,58 @@
 {
- "key": "DAL|COL|2026-10-13",
- "updated": "2026-10-11T00:42Z",
- "start_utc": "2026-10-14T00:30Z",
+ "key": "PIT|CHI|2026-10-13",
+ "updated": "2026-10-11T02:32Z",
+ "start_utc": "2026-10-14T00:00Z",
  "espn": {
-  "event_id": "401892498",
-  "start_utc": "2026-10-14T00:30Z",
+  "event_id": "401892496",
+  "start_utc": "2026-10-14T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN"
+   "ESPN+",
+   "CHSN"
   ],
   "odds": null,
   "teams": {
-   "DAL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-    "abbr": "DAL",
-    "record": "2-2-0",
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "1-5-0",
     "rank": null,
     "home_away": "home"
    },
-   "COL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
-    "abbr": "COL",
-    "record": "3-1-0",
+   "PIT": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
+    "abbr": "PIT",
+    "record": "3-2-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "American Airlines Center",
-   "city": "Dallas",
-   "state": "TX",
+   "name": "United Center",
+   "city": "Chicago",
+   "state": "IL",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Dallas Stars host the Colorado Avalanche with the Belt Holders lineal championship on the line. Dallas currently holds the belt and will be making their second defense of this reign against a Colorado team that has held the belt 101 times previously. This is the 30th time these franchises have met with the belt at stake.",
+  "overview": "Pittsburgh claimed the belt in their most recent victory and now defends it for the first time in this reign against a franchise that has held it 240 times before.",
   "key_matchups": [
-   "Dallas riding consecutive shutout momentum after back-to-back wins of 4\u20130 and 5\u20130, seeking to extend defensive dominance",
-   "Colorado's high-powered offense coming off a 7\u20133 road win at Calgary, boasting 8\u20134 and 6\u20131 victories in recent outings",
-   "Head-to-head history tilts slightly toward Colorado at 103-93-12 all-time, with their last meeting ending 2\u20130 in Colorado's favor"
+   "Pittsburgh's fresh 2\u20131 win over Dallas Stars versus Chicago's two-game skid including a 2\u20135 loss to Carolina",
+   "Recent head-to-head dominance: Pittsburgh won their last meeting 6-2 and took three of the last five matchups",
+   "Chicago's 1-5 record against Pittsburgh's 3-3 mark in a battle of uneven early-season form"
   ],
-  "betting_angles": "The Elo model sees this as a toss-up despite Dallas holding home ice and the belt. Colorado enters with better overall form at 3-1 versus Dallas at 2-2, though the Stars have won their last 2 games compared to Colorado's current 1-game win streak. The recent head-to-head meetings have been competitive, with three of the last five decided by a single goal.",
-  "predicted_winner": "Colorado Avalanche",
-  "predicted_score": "Dallas Stars 2, Colorado Avalanche 4",
-  "prediction_writeup": "While Dallas has found their footing with consecutive shutouts, Colorado's 3-1 record and explosive offense give them the edge in what the Elo model calls a toss-up. The Avalanche have demonstrated scoring prowess with performances like 7\u20133, 8\u20134, and 6\u20131 in their recent stretch. Colorado also took their most recent meeting 2\u20130 back in April. The Stars' 2-2 record suggests they're still finding consistency early in the season, and facing a hot Colorado attack at home will test whether their recent defensive shutdown performances can continue.",
+  "betting_angles": "The Penguins enter as Elo favorites with recent momentum from their 2\u20131 victory over Dallas, while Chicago has dropped its last 2 games. Pittsburgh has won their last 1 game compared to a Blackhawks side sitting at 1-5 on the season. The head-to-head history favors Chicago all-time with 84 wins to Pittsburgh's 55, but recent meetings have tilted heavily toward the Penguins, including a 6-2 victory in their last encounter.",
+  "predicted_winner": "Pittsburgh Penguins",
+  "predicted_score": "Pittsburgh Penguins 4, Chicago Blackhawks 2",
+  "prediction_writeup": "Pittsburgh arrives with fresh confidence from their 2\u20131 win over Dallas and holds the Elo edge in this matchup. Chicago's 1-5 record and current two-game losing streak suggest a team still searching for answers early in the season. The Penguins have dominated recent head-to-head meetings, winning their last encounter 6-2 and taking three of the last five overall. While Chicago has held the belt 240 times historically, Pittsburgh's superior current form and recent dominance in this matchup point to a successful first defense of their new reign.",
   "written": "2026-10-11",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "13"
+   ]
   }
  }
 }

@@ -1,24 +1,24 @@
 {
- "key": "ATE|PUM|2026-10-16",
- "updated": "2026-10-11T00:45Z",
- "start_utc": "2026-10-17T03:00Z",
+ "key": "QRO|SAN|2026-10-17",
+ "updated": "2026-10-11T02:34Z",
+ "start_utc": "2026-10-17T23:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Atlante host Pumas UNAM on October 16, 2026, with the lineal championship belt on the line for the first time in this head-to-head series. Atlante claimed the belt in their most recent outing and have yet to defend it, while Pumas UNAM have held the belt 6 times previously in their history.",
+  "overview": "Quer\u00e9taro brings the Belt Holders lineal championship to Estadio Corona on October 17, 2026, where Santos Laguna will attempt to claim the belt that traces an unbroken line back to Liga MX's first game. This marks Quer\u00e9taro's first defense since capturing the belt, facing a Santos Laguna side that has held it 8 times previously and has met them twice before with the belt on the line.",
   "key_matchups": [
-   "Atlante's offensive spark from their 4\u20132 win over Monterrey against a Pumas UNAM side that conceded 3 at Guadalajara",
-   "Pumas UNAM seeking revenge for their 5-0 demolition of Atlante back in 2014",
-   "First-ever belt clash between sides split 1-1 all-time"
+   "Quer\u00e9taro's 6-2-2 record and recent defensive solidity (2\u20130, 2\u20130 in last two) against Santos Laguna's attacking surge (three straight wins by narrow margins)",
+   "Santos Laguna's historical head-to-head edge (17-8-5 all-time) versus Quer\u00e9taro's superior current form and Elo favorite status",
+   "Home advantage for Santos Laguna, who have won their last 3 games, facing a road Quer\u00e9taro team that won 2\u20130 at Guadalajara and 1\u20130 at Tijuana recently"
   ],
-  "betting_angles": "Atlante have won their last 1 game after a stretch of draws and losses, while Pumas UNAM have lost their last 1 game and dropped 3 of their last 5 overall. The Elo model rates this as a toss-up despite home advantage for Atlante. The all-time series stands at 1 win apiece across 2 meetings, though the last encounter in 2014 saw Pumas dominate 5-0.",
-  "predicted_winner": "Atlante",
-  "predicted_score": "Atlante 2, Pumas UNAM 1",
-  "prediction_writeup": "Atlante's 4\u20132 victory over Monterrey injected some much-needed momentum after three winless matches, and they'll look to carry that form into their first belt defense. Pumas UNAM have struggled on the road this season and have lost their last 1 game, falling 2\u20133 to Atl\u00e9tico San Luis despite scoring twice. The Elo model sees this as a toss-up, but home advantage and fresher confidence give Atlante the edge in a tight contest. Expect a low-scoring affair decided by fine margins.",
+  "betting_angles": "Quer\u00e9taro enters as the Elo favorite despite playing on the road, backed by a strong 6-2-2 season record compared to Santos Laguna's 3-6-1 mark. Both teams arrive in excellent form with winning streaks, though Quer\u00e9taro's recent defensive shutouts (2\u20130, 2\u20130) contrast with Santos Laguna's narrow 1\u20130, 3\u20132, 2\u20131 victories. The all-time head-to-head heavily favors Santos Laguna 17-8-5, but recent meetings have been tight, with four of the last five decided by a single goal.",
+  "predicted_winner": "Quer\u00e9taro",
+  "predicted_score": "Quer\u00e9taro 1, Santos Laguna 0",
+  "prediction_writeup": "Quer\u00e9taro's superior season record of 6-2-2 and status as the Elo favorite outweigh Santos Laguna's home field advantage and historical dominance in this matchup. The visitors have shown defensive discipline with back-to-back 2\u20130 wins and have performed well on the road this season with wins at Guadalajara, Tijuana, and Atlas. While Santos Laguna's three-game winning streak is impressive, their 3-6-1 overall record suggests inconsistency, and their recent wins have all been by single goals against teams Quer\u00e9taro has handled more convincingly. Expect a tight, low-scoring affair with the belt holder escaping with a narrow victory to extend their reign.",
   "written": "2026-10-11",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }
