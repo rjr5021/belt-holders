@@ -12,5 +12,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Athletic Bilbao|Valencia CF|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "Athletic Bilbao",
+  "challenger": "Valencia CF",
+  "pick": "Athletic Bilbao",
+  "score": "Athletic Bilbao 1, Valencia CF 0",
+  "made": "2026-10-11",
+  "line": {
+   "details": "ATH +105",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

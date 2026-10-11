@@ -1,53 +1,55 @@
 {
- "key": "Paris FC|FC Lorient|2026-10-10",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-10T18:45Z",
+ "key": "Paris FC|Stade Rennes|2026-10-18",
+ "updated": "2026-10-11T00:44Z",
+ "start_utc": "2026-10-18T15:15Z",
  "espn": {
-  "event_id": "401876445",
-  "start_utc": "2026-10-10T18:45Z",
+  "event_id": "401876433",
+  "start_utc": "2026-10-18T15:15Z",
   "state": "pre",
   "tv": [],
-  "odds": {
-   "details": "PAR +130",
-   "over_under": 2.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "FC Lorient": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-    "abbr": "LOR",
-    "record": "1-2-2",
-    "rank": null,
-    "home_away": "home"
-   },
    "Paris FC": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
     "abbr": "PAR",
-    "record": "3-2-0",
+    "record": "3-2-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Stade Rennes": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+    "abbr": "REN",
+    "record": "3-1-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade du Moustoir - Yves Allainmat",
-   "city": "Lorient",
+   "name": "Stade Jean Bouin",
+   "city": "Paris",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC bring the lineal championship belt to Stade du Moustoir for the first time in this rivalry's history. The visitors are unbeaten in their last three matches and riding a fresh win over Strasbourg, while FC Lorient stumbled in their most recent outing at Le Mans. This marks Paris FC's first belt defense since claiming the title.",
+  "overview": "The visitors have held the belt 53 times before and will look to reclaim it, while Paris FC seeks their first successful defense. This marks the first time these two sides have ever met with the belt at stake.",
   "key_matchups": [
-   "Paris FC's recent attacking form (5 goals in their last 2 wins) against a Lorient defense that has conceded in 4 of their last 5 matches",
-   "FC Lorient's home advantage versus Paris FC's road resilience, having won 3-2 at Marseille and drawn 0-0 at Troyes in recent away fixtures",
-   "Historical edge: Paris FC unbeaten in the all-time series (1-0-1) including a 2-0 home win last season"
+   "Paris FC's home form against Rennes' historical dominance in the head-to-head series (4-0-2 all-time)",
+   "Rennes looking to bounce back from a 0\u20134 loss at Olympique Lyon against a Paris FC side coming off a 2\u20131 win",
+   "Paris FC's unbeaten home stretch (3\u20130 vs OGC Nice, 2\u20131 vs RC Strasbourg) tested by experienced belt holders"
   ],
-  "betting_angles": "Paris FC's superior form (3-0-2 versus 1-2-2) and three-match unbeaten run contrasts sharply with Lorient's inconsistency and consecutive losses. The +130 line on Paris FC as the road side seems generous given their 51% Elo win probability and head-to-head dominance. Both teams have shown they can score, with Paris FC netting 8 goals in their last 5 and four of those five matches seeing multiple goals, which aligns with the 2.5 over/under.",
-  "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 2, FC Lorient 1",
-  "prediction_writeup": "Paris FC have the momentum with wins in three of their last four and an unbeaten record against Lorient. Their ability to grind out results on the road, evidenced by the dramatic 3-2 win at Marseille, suggests they can handle a hostile environment. Lorient's home form hasn't been tested in these recent stats, but their overall inconsistency and the fact they've conceded in four straight is concerning. Paris FC should retain the belt in a tight contest, extending their unbeaten streak against Lorient to three matches.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "Paris FC enter with a 3-0-2 record this season compared to Rennes' 3-1-1 mark, though the Elo model rates this as a toss-up. Rennes have never lost to Paris FC in regulation across 6 all-time meetings, winning their last encounter 2-1 in May 2026. Paris FC have won their last 1 game while Rennes have lost their last 1 game, setting up contrasting recent form.",
+  "predicted_winner": "Stade Rennes",
+  "predicted_score": "Paris FC 1, Stade Rennes 2",
+  "prediction_writeup": "Despite the Elo model calling this a toss-up and Paris FC's solid home results this season, Rennes' historical edge in this matchup is impossible to ignore. The visitors have won 4 of 6 all-time meetings and took the most recent encounter 2-1. While Rennes' 0\u20134 loss at Olympique Lyon was a setback, they had previously strung together three straight wins including victories over Olympique Marseille and Le Mans. With 53 previous belt reigns to their name, Rennes have the experience to reclaim the belt in a tight road contest.",
+  "written": "2026-10-11",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": [
+    "18"
+   ]
+  }
  }
 }

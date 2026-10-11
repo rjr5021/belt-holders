@@ -12,5 +12,15 @@
    "over_under": 4.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Bayern Munchen|RasenBallsport Leipzig|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "Bayern Munchen",
+  "challenger": "RasenBallsport Leipzig",
+  "pick": "Bayern Munchen",
+  "score": "Bayern Munich 3, RB Leipzig 1",
+  "made": "2026-10-11",
+  "line": null
  }
 ]

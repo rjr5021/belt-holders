@@ -1,25 +1,25 @@
 {
- "key": "Athletic Bilbao|Rayo Vallecano|2026-10-10",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-10T12:00Z",
+ "key": "Athletic Bilbao|Valencia CF|2026-10-17",
+ "updated": "2026-10-11T00:44Z",
+ "start_utc": "2026-10-17T19:00Z",
  "espn": {
-  "event_id": "401882849",
-  "start_utc": "2026-10-10T12:00Z",
+  "event_id": "401882838",
+  "start_utc": "2026-10-17T19:00Z",
   "state": "pre",
   "tv": [
    "ESPN Deportes",
    "ESPN+"
   ],
   "odds": {
-   "details": "ATH +130",
+   "details": "ATH +105",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Rayo Vallecano": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "abbr": "RAY",
-    "record": "2-2-3",
+   "Valencia CF": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "abbr": "VAL",
+    "record": "1-1-5",
     "rank": null,
     "home_away": "home"
    },
@@ -32,25 +32,31 @@
    }
   },
   "venue": {
-   "name": "Estadio de Vallecas",
-   "city": "Madrid",
+   "name": "Mestalla Stadium",
+   "city": "Manises",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Athletic Bilbao bring the lineal championship belt to Vallecas for a Saturday showdown with Rayo Vallecano. The Basque side have defended the belt twice in their current reign and hold a commanding 26-9-11 all-time advantage in this fixture. A win for Rayo would mark their 10th belt reign in the competition's history.",
+  "overview": "The Basque side have defended the belt 2 times in this reign, while Valencia have held it 67 times before in the all-time lineage. These historic rivals have met 24 times with the belt on the line.",
   "key_matchups": [
-   "Athletic's stingy defense in recent wins (clean sheets vs Atl\u00e9tico Madrid and Celta Vigo) against Rayo's leaky back line that conceded four at Real Madrid and five at Barcelona",
-   "Bilbao's recent offensive drought (just 1 goal in their last 2 draws) vs a Rayo side that has found the net in all five recent matches",
-   "Historical dominance meets current form: Athletic own a 4-0-1 record in the last 5 head-to-head meetings but enter on back-to-back stalemates"
+   "Athletic Bilbao's defensive solidity in recent wins (3\u20130 vs Atl\u00e9tico Madrid, 2\u20130 at Celta Vigo) against Valencia's struggles to keep clean sheets",
+   "Valencia CF seeking to reverse recent head-to-head dominance after winning the last two meetings (0-1 on 2026-05-10 and 2-0 on 2025-09-20)",
+   "Athletic Bilbao's back-to-back draws (T 0\u20130 vs Deportivo Alav\u00e9s, T 1\u20131 vs Elche CF) facing Valencia's inconsistent form with a 1-5-1 record"
   ],
-  "betting_angles": "The betting market favors Rayo at home despite Athletic's historical edge, with the visitors getting plus-money at +130. Both teams have drawn frequently of late (Athletic with 2 straight, Rayo just coming off one), and their February meeting ended 1-1, suggesting the under 2.5 could have merit. The Elo model's 41% win probability for Athletic aligns with the underdog price, making this a true toss-up on paper.",
+  "betting_angles": "The Elo model views this as a toss-up despite Athletic Bilbao's superior season record of 2-2-2 compared to Valencia's 1-5-1. Valencia hold a narrow all-time edge with 70 wins to Athletic's 66 across 182 meetings, and have won the last two head-to-head encounters. Athletic have tied their last 2 games while Valencia have lost their last 1 game, suggesting both sides are searching for form.",
   "predicted_winner": "Athletic Bilbao",
-  "predicted_score": "Athletic Bilbao 1, Rayo Vallecano 0",
-  "prediction_writeup": "While Athletic have gone cold offensively with back-to-back draws, their defensive foundation remains solid when they get results\u2014witness the clean sheets against Atl\u00e9tico Madrid and Celta Vigo. Rayo's recent form shows vulnerability at the back, conceding nine goals in their three losses this season. Athletic's historical dominance in this matchup (four wins in the last five meetings, including three straight before the February draw) suggests they know how to navigate Vallecas. The belt stays in Bilbao with a narrow, grinding road victory.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "predicted_score": "Athletic Bilbao 1, Valencia CF 0",
+  "prediction_writeup": "Athletic Bilbao's season record of 2-2-2 shows more consistency than Valencia's struggling 1-5-1 mark. While Valencia won the last two meetings, Athletic have shown defensive resilience with clean sheets in their wins (3\u20130 vs Atl\u00e9tico Madrid and 2\u20130 at Celta Vigo). Valencia's recent form includes a 0\u20135 loss vs FC Barcelona and have lost their last 1 game. The Elo model rating this as a toss-up suggests a tight contest, but Athletic's superior season form and defensive structure give them a narrow edge to retain the belt on the road.",
+  "written": "2026-10-11",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": [
+    "17"
+   ]
+  }
  }
 }

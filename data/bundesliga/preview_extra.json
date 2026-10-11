@@ -1,53 +1,53 @@
 {
- "key": "Bayern Munchen|FC Augsburg|2026-10-10",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-10T13:30Z",
+ "key": "Bayern Munchen|RasenBallsport Leipzig|2026-10-17",
+ "updated": "2026-10-11T00:44Z",
+ "start_utc": "2026-10-17T16:30Z",
  "espn": {
-  "event_id": "401884777",
-  "start_utc": "2026-10-10T13:30Z",
+  "event_id": "401884772",
+  "start_utc": "2026-10-17T16:30Z",
   "state": "pre",
   "tv": [],
-  "odds": {
-   "details": "MUN -525",
-   "over_under": 4.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "FC Augsburg": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
-    "abbr": "FCA",
-    "record": "2-1-1",
-    "rank": null,
-    "home_away": "home"
-   },
    "Bayern Munchen": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
     "abbr": "MUN",
-    "record": "3-1-0",
+    "record": "3-2-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "RasenBallsport Leipzig": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "abbr": "RBL",
+    "record": "3-0-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "WWK Arena",
-   "city": "Augsburg",
+   "name": "Allianz Arena",
+   "city": "M\u00fcnchen",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich brings the Belt Holders lineal championship to Augsburg on October 10th, 2026, having defended it 14 times in their current reign. The belt passes to whoever wins this match, with no committees involved\u2014just pure on-field results tracing back through Bundesliga history. Augsburg has held the belt 9 times previously and will look to claim it again on home soil.",
+  "overview": "Bayern Munich put their lineal championship belt on the line when they host RB Leipzig on October 17, 2026. The belt has changed hands with every result since the league's first game, and Bayern are currently enjoying their 14th successful defense in this reign. Leipzig have held the belt 4 times previously and will look to claim it once more.",
   "key_matchups": [
-   "Bayern's explosive attack (12 goals in last 3 wins) against an Augsburg defense that just conceded 3 at Bremen",
-   "Augsburg's home hope after their recent 2-1 upset over Bayern in January 2026",
-   "Bayern's 14-defense belt reign faces a motivated Augsburg side with mixed recent form (2-1-1 record)"
+   "Bayern's recent dominance in the series: five straight meetings without a Leipzig win, including 6-0 and 5-1 victories in 2025",
+   "Contrasting form: Bayern riding a 2-game win streak including a 7-0 demolition, while Leipzig stumble in off a 0-2 loss",
+   "Home fortress vs struggling visitors: Bayern's 3-0-1 record this season against Leipzig's inconsistent 2-2 mark"
   ],
-  "betting_angles": "Bayern's recent form is dominant with back-to-back wins including a 7-0 demolition, and they hold a commanding 23-5-2 all-time edge over Augsburg. However, the most recent meeting saw Augsburg pull off a 2-1 upset at Bayern in January. The -525 line and 68% Elo probability reflect Bayern's overwhelming favoritism, though the 4.5 over/under suggests bookmakers expect goals given both teams' recent scoring trends.",
+  "betting_angles": "Bayern Munich enter as clear Elo favorites with momentum firmly on their side, having won their last 2 games and posting a 3-0-1 record this season. Leipzig's mixed form shows vulnerability with losses in 2 of their last 3 outings, and the head-to-head history heavily favors the hosts at 11-2-7 all-time. The recent meetings tell an even starker story, with Bayern unbeaten in the last 5 and winning 4 of them by margins of 3 goals or more.",
   "predicted_winner": "Bayern Munich",
-  "predicted_score": "Bayern Munich 3, FC Augsburg 1",
-  "prediction_writeup": "Bayern Munich enters in scorching form with 14 goals across their last three victories, including that 7-0 thrashing of Union Berlin. While Augsburg did upset Bayern 2-1 in their last meeting and has shown they can score (4 goals at Frankfurt, 3 against Schalke), their recent 3-2 loss at Bremen suggests defensive vulnerabilities. Bayern's 3-0-1 record and dominant head-to-head history (23-5-2) point to the visitors extending their belt reign to 15 defenses. The road setting provides Augsburg some hope, but Bayern's current momentum appears too strong to deny.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "predicted_score": "Bayern Munich 3, RB Leipzig 1",
+  "prediction_writeup": "Bayern Munich's overwhelming recent form and historical dominance in this matchup make them strong favorites to retain the belt. Their 7-0 demolition of Union Berlin demonstrates attacking prowess, while Leipzig's 0-2 loss to Leverkusen exposed defensive fragility. The head-to-head record speaks volumes: Bayern have won 11 of 20 all-time meetings and haven't lost to Leipzig in their last 5 encounters, including three wins by 4+ goals. With the Elo model backing the hosts and Leipzig showing inconsistency at 2-2 this season, expect Bayern to defend the belt successfully for a 15th consecutive time.",
+  "written": "2026-10-11",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
  }
 }

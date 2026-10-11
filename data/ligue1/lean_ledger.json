@@ -12,5 +12,15 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Paris FC|Stade Rennes|2026-10-18",
+  "date": "2026-10-18",
+  "holder": "Paris FC",
+  "challenger": "Stade Rennes",
+  "pick": "Stade Rennes",
+  "score": "Paris FC 1, Stade Rennes 2",
+  "made": "2026-10-11",
+  "line": null
  }
 ]
