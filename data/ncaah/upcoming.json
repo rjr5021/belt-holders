@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401904670",
-  "date": "2026-10-11",
-  "season_type": "regular",
-  "home": "MSU",
-  "away": "NMI",
-  "home_id": "127",
-  "away_id": "128",
-  "home_abbr": "MSU",
-  "away_abbr": "NMI",
-  "home_loc": "Michigan State",
-  "away_loc": "Northern Michigan",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2027,
-  "stype": 2,
-  "start_et": "13:00",
-  "season": 2026,
-  "home_name": "Michigan State",
-  "away_name": "Northern Michigan"
- },
- {
   "id": "espn-401904936",
   "date": "2026-10-15",
   "season_type": "regular",
