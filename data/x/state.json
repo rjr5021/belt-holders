@@ -43,7 +43,9 @@
   "nhl|2026-10-08|dallasstars|buffalosabres": {
    "end": "2026-10-08T21:38-04:00"
   },
-  "nhl|2026-10-10|dallasstars|pittsburghpenguins": {},
+  "nhl|2026-10-10|dallasstars|pittsburghpenguins": {
+   "danger": "2026-10-10T21:23-04:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   }
