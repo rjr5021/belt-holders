@@ -19,7 +19,8 @@
   "2026-10-10 11:30 preview eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeUafn7kaiN/",
   "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
   "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
-  "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/"
+  "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
+  "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
@@ -66,21 +67,6 @@
    "opponent_short": "Nashville",
    "reign_no": 2,
    "since": "2026-08-29"
-  },
-  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-10-10",
-   "defenses": 1,
-   "espn_id": "401892475",
-   "espn_path": "hockey/nhl",
-   "game_no": 8438,
-   "holder": "Dallas Stars",
-   "holder_short": "Stars",
-   "lg": "nhl",
-   "opponent": "Pittsburgh Penguins",
-   "opponent_short": "Penguins",
-   "reign_no": 105,
-   "since": "2026-10-05"
   }
  },
  "previews": [
@@ -103,6 +89,7 @@
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
-  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10"
+  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
+  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10"
  ]
 }
