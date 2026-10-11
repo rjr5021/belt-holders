@@ -20,7 +20,8 @@
   "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
   "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
   "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
-  "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/"
+  "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
+  "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
@@ -52,21 +53,6 @@
    "opponent_short": "Quer\u00e9taro",
    "reign_no": 1,
    "since": "2026-09-25"
-  },
-  "mls|Austin FC|Nashville SC|2026-10-10": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-10-10",
-   "defenses": 5,
-   "espn_id": "761856",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1123,
-   "holder": "Austin FC",
-   "holder_short": "Austin",
-   "lg": "mls",
-   "opponent": "Nashville SC",
-   "opponent_short": "Nashville",
-   "reign_no": 2,
-   "since": "2026-08-29"
   }
  },
  "previews": [
@@ -90,6 +76,7 @@
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
-  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10"
+  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
+  "mls|Austin FC|Nashville SC|2026-10-10"
  ]
 }
