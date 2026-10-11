@@ -21,7 +21,8 @@
   "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
   "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
-  "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/"
+  "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
+  "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
@@ -38,21 +39,6 @@
    "opponent_short": "Rayo",
    "reign_no": 76,
    "since": "2026-09-05"
-  },
-  "ligamx|Atlante|Quer\u00e9taro|2026-10-10": {
-   "belt_name": "The Liga MX Belt",
-   "date": "2026-10-10",
-   "defenses": 0,
-   "espn_id": "401876955",
-   "espn_path": "soccer/mex.1",
-   "game_no": 540,
-   "holder": "Atlante",
-   "holder_short": "Atlante",
-   "lg": "ligamx",
-   "opponent": "Quer\u00e9taro",
-   "opponent_short": "Quer\u00e9taro",
-   "reign_no": 1,
-   "since": "2026-09-25"
   }
  },
  "previews": [
@@ -77,6 +63,7 @@
   "ligue1|Paris FC|FC Lorient|2026-10-10",
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
-  "mls|Austin FC|Nashville SC|2026-10-10"
+  "mls|Austin FC|Nashville SC|2026-10-10",
+  "ligamx|Atlante|Quer\u00e9taro|2026-10-10"
  ]
 }
