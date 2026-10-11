@@ -22,7 +22,8 @@
   "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
-  "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/"
+  "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
+  "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/"
  ],
  "pending": {
   "epl|Manchester City|Liverpool|2026-10-11": {
@@ -54,21 +55,6 @@
    "opponent_short": "Rayo",
    "reign_no": 76,
    "since": "2026-09-05"
-  },
-  "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11": {
-   "belt_name": "The NFL Belt",
-   "date": "2026-10-11",
-   "defenses": 1,
-   "espn_id": "401872981",
-   "espn_path": "football/nfl",
-   "game_no": 1647,
-   "holder": "Jacksonville Jaguars",
-   "holder_short": "Jaguars",
-   "lg": "nfl",
-   "opponent": "Philadelphia Eagles",
-   "opponent_short": "Eagles",
-   "reign_no": 6,
-   "since": "2026-09-27"
   },
   "seriea|AS Roma|Como Calcio|2026-10-11": {
    "belt_name": "The Serie A Belt",
@@ -109,6 +95,7 @@
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
-  "ligamx|Atlante|Quer\u00e9taro|2026-10-10"
+  "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
+  "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11"
  ]
 }
