@@ -24,7 +24,8 @@
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
   "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
   "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/",
-  "2026-10-11 13:37 result epl|Manchester City|Liverpool|2026-10-11 https://www.instagram.com/p/DeXNs1wCWZx/"
+  "2026-10-11 13:37 result epl|Manchester City|Liverpool|2026-10-11 https://www.instagram.com/p/DeXNs1wCWZx/",
+  "2026-10-11 13:37 result seriea|AS Roma|Como Calcio|2026-10-11 https://www.instagram.com/p/DeXNv2zCbat/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Rayo Vallecano|2026-10-10": {
@@ -41,21 +42,6 @@
    "opponent_short": "Rayo",
    "reign_no": 76,
    "since": "2026-09-05"
-  },
-  "seriea|AS Roma|Como Calcio|2026-10-11": {
-   "belt_name": "The Serie A Belt",
-   "date": "2026-10-11",
-   "defenses": 8,
-   "espn_id": "401874940",
-   "espn_path": "soccer/ita.1",
-   "game_no": 3217,
-   "holder": "AS Roma",
-   "holder_short": "Roma",
-   "lg": "seriea",
-   "opponent": "Como Calcio",
-   "opponent_short": "Como",
-   "reign_no": 66,
-   "since": "2026-05-04"
   }
  },
  "previews": [
@@ -83,6 +69,7 @@
   "mls|Austin FC|Nashville SC|2026-10-10",
   "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
   "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11",
-  "epl|Manchester City|Liverpool|2026-10-11"
+  "epl|Manchester City|Liverpool|2026-10-11",
+  "seriea|AS Roma|Como Calcio|2026-10-11"
  ]
 }
