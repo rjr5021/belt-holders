@@ -6718,5 +6718,26 @@
   "season": 2026,
   "home_name": "Brown",
   "away_name": "Northeastern"
+ },
+ {
+  "id": "espn-401904562",
+  "date": "2026-11-25",
+  "season_type": "regular",
+  "home": "BST",
+  "away": "STMN",
+  "home_id": "132",
+  "away_id": "2900",
+  "home_abbr": "BST",
+  "away_abbr": "STMN",
+  "home_loc": "Bemidji State",
+  "away_loc": "St. Thomas",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2027,
+  "stype": 2,
+  "start_et": "19:07",
+  "season": 2026,
+  "home_name": "Bemidji State",
+  "away_name": "St. Thomas"
  }
 ]

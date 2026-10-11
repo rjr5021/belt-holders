@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876950",
-  "date": "2026-10-10",
-  "season_type": "regular",
-  "home": "Am\u00e9rica",
-  "away": "Monterrey",
-  "home_id": "227",
-  "away_id": "220",
-  "home_abbr": "AME",
-  "away_abbr": "MTY",
-  "home_loc": "Am\u00e9rica",
-  "away_loc": "Monterrey",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "23:10",
-  "season": 2026,
-  "home_name": "Am\u00e9rica",
-  "away_name": "Monterrey"
- },
- {
   "id": "espn-401876948",
   "date": "2026-10-11",
   "season_type": "regular",
