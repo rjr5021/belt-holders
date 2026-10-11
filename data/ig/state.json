@@ -69,6 +69,21 @@
    "opponent_short": "Eagles",
    "reign_no": 6,
    "since": "2026-09-27"
+  },
+  "seriea|AS Roma|Como Calcio|2026-10-11": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-10-11",
+   "defenses": 8,
+   "espn_id": "401874940",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "Como Calcio",
+   "opponent_short": "Como",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
