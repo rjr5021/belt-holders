@@ -5,7 +5,9 @@
    "danger": "2026-10-10T10:15-04:00",
    "end": "2026-10-10T11:30-04:00"
   },
-  "epl|2026-10-11|manchestercity|liverpool": {},
+  "epl|2026-10-11|manchestercity|liverpool": {
+   "end": "2026-10-11T13:39-04:00"
+  },
   "eredivisie|2026-10-10|azalkmaar|feyenoord": {
    "danger": "2026-10-10T13:33-04:00",
    "end": "2026-10-10T14:42-04:00"
@@ -188,6 +190,13 @@
    "defense",
    19,
    17
+  ],
+  [
+   "2026-10-11T13:39-04:00",
+   "epl",
+   "defense",
+   3,
+   0
   ]
  ],
  "today": {
