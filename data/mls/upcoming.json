@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-761859",
-  "date": "2026-10-11",
-  "season_type": "regular",
-  "home": "St. Louis CITY SC",
-  "away": "LA Galaxy",
-  "home_id": "21812",
-  "away_id": "187",
-  "home_abbr": "STL",
-  "away_abbr": "LA",
-  "home_loc": "St. Louis CITY SC",
-  "away_loc": "LA Galaxy",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "19:00",
-  "season": 2026
- },
- {
   "id": "espn-761864",
   "date": "2026-10-14",
   "season_type": "regular",
