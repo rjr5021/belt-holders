@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876947",
-  "date": "2026-10-11",
-  "season_type": "regular",
-  "home": "Pumas UNAM",
-  "away": "Cruz Azul",
-  "home_id": "233",
-  "away_id": "218",
-  "home_abbr": "UNAM",
-  "away_abbr": "CAZ",
-  "home_loc": "Pumas UNAM",
-  "away_loc": "Cruz Azul",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "21:15",
-  "season": 2026,
-  "home_name": "Pumas UNAM",
-  "away_name": "Cruz Azul"
- },
- {
   "id": "espn-401876946",
   "date": "2026-10-16",
   "season_type": "regular",

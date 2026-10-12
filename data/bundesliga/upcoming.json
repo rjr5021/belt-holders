@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-43",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "1. FC Koln",
-  "away": "Bor. Monchengladbach",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-44",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SC Freiburg",
-  "away": "FC Schalke 04",
-  "start_et": "11:30"
- },
- {
   "id": "of-2026-45",
   "date": "2026-10-16",
   "season": 2026,

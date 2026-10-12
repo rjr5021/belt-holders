@@ -1,41 +1,5 @@
 [
  {
-  "id": "of-2026-74",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Elche CF",
-  "away": "Celta Vigo",
-  "start_et": "08:00"
- },
- {
-  "id": "of-2026-75",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Real Sociedad",
-  "away": "Deportivo La Coruna",
-  "start_et": "10:15"
- },
- {
-  "id": "of-2026-76",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Real Betis",
-  "away": "CA Osasuna",
-  "start_et": "12:30"
- },
- {
-  "id": "of-2026-77",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Racing Santander",
-  "away": "Valencia CF",
-  "start_et": "15:00"
- },
- {
   "id": "of-2026-78",
   "date": "2026-10-12",
   "season": 2026,

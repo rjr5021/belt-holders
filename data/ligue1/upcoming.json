@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-51",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "OGC Nice",
-  "away": "RC Strasbourg",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-52",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Stade Rennes",
-  "away": "AJ Auxerre",
-  "start_et": "11:15"
- },
- {
-  "id": "of-2026-53",
-  "date": "2026-10-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ESTAC Troyes",
-  "away": "Olympique Marseille",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-54",
   "date": "2026-10-16",
   "season": 2026,
