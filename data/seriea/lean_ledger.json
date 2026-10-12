@@ -12,5 +12,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|Genoa CFC|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "AS Roma",
+  "challenger": "Genoa CFC",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, Genoa CFC 0",
+  "made": "2026-10-12",
+  "line": {
+   "details": "ROMA -285",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

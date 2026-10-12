@@ -1,55 +1,59 @@
 {
- "key": "AS Roma|Como Calcio|2026-10-11",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-11T10:30Z",
+ "key": "AS Roma|Genoa CFC|2026-10-17",
+ "updated": "2026-10-12T00:47Z",
+ "start_utc": "2026-10-17T18:45Z",
  "espn": {
-  "event_id": "401874940",
-  "start_utc": "2026-10-11T10:30Z",
+  "event_id": "401874935",
+  "start_utc": "2026-10-17T18:45Z",
   "state": "pre",
   "tv": [
    "Paramount+"
   ],
   "odds": {
-   "details": "COMO +145",
+   "details": "ROMA -285",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Como Calcio": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-    "abbr": "COMO",
-    "record": "3-1-1",
-    "rank": null,
-    "home_away": "home"
-   },
    "AS Roma": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
     "abbr": "ROMA",
-    "record": "4-1-0",
+    "record": "4-2-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Genoa CFC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+    "abbr": "GEN",
+    "record": "1-1-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Giuseppe Sinigaglia",
-   "city": "Como",
+   "name": "Olimpico",
+   "city": "Roma",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AS Roma bring their lineal championship belt to Como on October 11th, having defended it eight times in their current reign. The visitors enter on strong form with four wins in their last five, while Como look to bounce back from a shutout loss to Frosinone and reclaim a belt they've held seven times previously.",
+  "overview": "AS Roma put their Belt Holders lineal championship on the line when they host Genoa CFC on October 17, 2026. The Giallorossi have successfully defended the belt 8 times in their current reign, while Genoa arrive in poor form having lost four of their last five matches. This marks the 13th time these sides will meet with the belt at stake, with Roma holding a commanding 48-23 edge in the all-time series.",
   "key_matchups": [
-   "Roma's recent defensive solidity (two clean sheets in last five) against a Como side that has scored in four of their last five",
-   "Como's home advantage seeking to extend their head-to-head edge, having won three of the last five meetings including a 2-1 victory in March 2026",
-   "Roma's unbeaten start stumbling with one draw versus Como trying to recover momentum after their first loss of the season"
+   "Roma's recent defensive solidity (clean sheets in three of last five) against Genoa's struggling attack (just 3 goals in last 5 games)",
+   "Belt holder's 4-0-1 season start versus winless Genoa's 0-4-1 record",
+   "Historical dominance meets recent upset: Roma lead all-time 48-23 but Genoa won the last meeting 2-1"
   ],
-  "betting_angles": "The betting line favors Como at home despite Roma's superior form, with the Elo model nearly even at 47% for the visitors. The head-to-head history leans slightly toward Roma all-time (13-7-8), but Como have had recent success in this matchup, winning the most recent encounter 2-1. The over/under at 2.5 reflects that four of the last five meetings have featured exactly two or three total goals.",
+  "betting_angles": "The form contrast is stark: Roma are unbeaten in four straight before their most recent draw, while Genoa have managed just one point from their last five. Roma's 4-0-1 record and commanding home advantage in the all-time series (48-23) align with the Elo model favoring the hosts. However, Genoa's 2-1 victory in the most recent meeting on March 8, 2026 provides a sliver of hope for the visitors.",
   "predicted_winner": "AS Roma",
-  "predicted_score": "AS Roma 2, Como Calcio 1",
-  "prediction_writeup": "Roma's form heading into this match is compelling, with four wins in five games and only a draw against Inter Milan breaking their streak. While Como have shown they can trouble Roma historically, their recent 2-0 loss to Frosinone raises questions about consistency. Roma's strong season record of 4-0-1 and their ability to grind out results, including back-to-back 2-0 and 2-1 wins before the Inter draw, suggests they have the resilience to navigate a tricky away fixture. The belt continues its journey with the visitors in a tight contest.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "predicted_score": "AS Roma 2, Genoa CFC 0",
+  "prediction_writeup": "Roma's form and home advantage make them clear favorites to extend their belt reign to 9 defenses. The hosts have won four of their last five and recorded back-to-back 4-0 victories before their recent stretch. Genoa's winless season (0-4-1) and four losses in their last five games suggest they lack the firepower to trouble a Roma side that has conceded just two goals in their last five matches. While Genoa pulled off a 2-1 upset in March, the current form gulf is simply too wide to ignore.",
+  "written": "2026-10-12",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
  }
 }

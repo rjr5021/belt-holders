@@ -12,5 +12,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Ipswich Town|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "Manchester City",
+  "challenger": "Ipswich Town",
+  "pick": "Manchester City",
+  "score": "Manchester City 3, Ipswich Town 1",
+  "made": "2026-10-12",
+  "line": {
+   "details": "MNC -425",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
