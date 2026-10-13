@@ -1,3 +1,25 @@
 {
- "key": null
+ "key": "Spain|Czech Republic|2026-11-12",
+ "updated": "2026-10-13T08:40Z",
+ "start_utc": "2026-11-12T19:45Z",
+ "espn": null,
+ "weather": null,
+ "ai": {
+  "overview": "Spain brings the lineal championship belt to Czech Republic on November 12, 2026, looking to extend their dominant reign. The belt holder has defended it 12 times already in this stretch and enters as a clear Elo favorite against a Czech side searching for answers.",
+  "key_matchups": [
+   "Spain's perfect 5-game winning streak against Czech Republic's 5-game losing skid sets up a stark contrast in form",
+   "Spain's unbeaten head-to-head record (6-0-2 all-time) suggests Czech Republic still searching for that first victory in the series",
+   "Czech Republic's home crowd presents their best chance to snap both their losing streak and Spain's belt reign after falling 3-1 in the last meeting"
+  ],
+  "betting_angles": "Spain's current form is exceptional with 5 straight wins and a 13-0-3 season record, while Czech Republic limps in having lost 5 consecutive matches including a 3-1 defeat to this same Spanish side on October 3. The all-time head-to-head heavily favors Spain at 6-0-2, and the Elo model projects them as clear favorites. Czech Republic's season record of 4-6-1 and recent results, including losses by 0-3, 1-3, and 0-2 margins, suggest they're struggling to find goals and consistency.",
+  "predicted_winner": "Spain",
+  "predicted_score": "Spain 2, Czech Republic 0",
+  "prediction_writeup": "Spain's dominance in this matchup is overwhelming, with 6 wins and 2 draws in 8 all-time meetings and zero losses. Their current 5-game winning streak, combined with a 13-0-3 season record, shows they're clicking at the right time. Czech Republic's 5-game losing streak and inability to score in recent matches (0-3, 0-2, 0-3 in three of their last five) suggests they'll struggle to break through. The recent 3-1 victory for Spain over Czech Republic on October 3 provides a blueprint, though the road environment might tighten things slightly. Spain should retain the belt with a comfortable clean sheet victory.",
+  "written": "2026-10-13",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
 }
