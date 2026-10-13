@@ -1,1 +1,134 @@
-[]
+[
+ {
+  "id": "int-espn-401906458",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "New Zealand",
+  "away": "India",
+  "neutral": "",
+  "start_et": "01:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401861146",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Armenia",
+  "away": "Cyprus",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861145",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Turkey",
+  "away": "Belgium",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401929797",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cayman Islands",
+  "away": "Guyana",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401861147",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Albania",
+  "away": "Finland",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861148",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Czech Republic",
+  "away": "Spain",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861150",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "England",
+  "away": "Croatia",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861151",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Italy",
+  "away": "France",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861152",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Montenegro",
+  "away": "Latvia",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861149",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "San Marino",
+  "away": "Belarus",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401929796",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Antigua and Barbuda",
+  "away": "Trinidad and Tobago",
+  "neutral": "",
+  "start_et": "18:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401929776",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cura\u00e7ao",
+  "away": "Panama",
+  "neutral": "",
+  "start_et": "19:00",
+  "tournament": "CONCACAF Nations League"
+ }
+]
