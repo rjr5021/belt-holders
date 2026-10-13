@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-12-1-849820",
-  "date": "2026-10-12",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m139",
-  "away": "m114",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Tropicana Field",
-  "series": "AL Championship Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-13-1-849813",
   "date": "2026-10-13",
   "season": 2026,
