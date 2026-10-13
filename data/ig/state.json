@@ -42,6 +42,21 @@
    "opponent_short": "Rayo",
    "reign_no": 76,
    "since": "2026-09-05"
+  },
+  "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-13",
+   "defenses": 0,
+   "espn_id": "401892496",
+   "espn_path": "hockey/nhl",
+   "game_no": 8439,
+   "holder": "Pittsburgh Penguins",
+   "holder_short": "Penguins",
+   "lg": "nhl",
+   "opponent": "Chicago Blackhawks",
+   "opponent_short": "Blackhawks",
+   "reign_no": 86,
+   "since": "2026-10-10"
   }
  },
  "previews": [
