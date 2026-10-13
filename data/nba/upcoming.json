@@ -403,19 +403,6 @@
   "spread": null
  },
  {
-  "id": "espn-401909856",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ATL",
-  "away": "HOU",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "State Farm Arena",
-  "spread": null
- },
- {
   "id": "espn-401909857",
   "date": "2026-10-24",
   "season": 2026,
@@ -439,6 +426,19 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
+  "spread": null
+ },
+ {
+  "id": "espn-401909856",
+  "date": "2026-10-24",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "ATL",
+  "away": "HOU",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "20:30",
+  "venue": "State Farm Arena",
   "spread": null
  },
  {
