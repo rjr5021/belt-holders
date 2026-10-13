@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-08",
+ "digest": "2026-10-13",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -197,79 +197,38 @@
    "defense",
    3,
    0
+  ],
+  [
+   "2026-10-13T09:21-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-11",
+  "day": "2026-10-13",
   "games": [
    {
-    "belt": "NFL",
+    "belt": "NHL",
     "colors": [
-     "#006778",
-     "#d7a22a"
+     "#111111",
+     "#fcb514"
     ],
-    "defenses": 1,
-    "holder": "Jacksonville Jaguars",
-    "holder_short": "Jaguars",
-    "home": true,
-    "lg": "nfl",
-    "name": "The NFL Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nfl/next/",
-    "opponent": "Philadelphia Eagles",
-    "opponent_short": "Eagles",
-    "reign_no": 6,
-    "since": "2026-09-27",
-    "time_et": "09:30",
-    "tv": "NFL Net",
-    "url": "https://beltholders.com/nfl/",
-    "win_prob": 0.589
-   },
-   {
-    "belt": "Premier League",
-    "colors": [
-     "#6cabdd",
-     "#1c2c5b"
-    ],
-    "defenses": 4,
-    "holder": "Manchester City",
-    "holder_short": "Man City",
+    "defenses": 0,
+    "holder": "Pittsburgh Penguins",
+    "holder_short": "Penguins",
     "home": false,
-    "lg": "epl",
-    "name": "The English Football Belt",
+    "lg": "nhl",
+    "name": "The NHL Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/epl/next/",
-    "opponent": "Liverpool",
-    "opponent_short": "Liverpool",
-    "reign_no": 62,
-    "since": "2026-08-23",
-    "time_et": "11:30",
-    "tv": "NBC \u00b7 Tele",
-    "url": "https://beltholders.com/epl/",
-    "win_prob": 0.547
-   },
-   {
-    "belt": "Serie A",
-    "colors": [
-     "#8e1f2f",
-     "#f0bc42"
-    ],
-    "defenses": 8,
-    "holder": "AS Roma",
-    "holder_short": "Roma",
-    "home": false,
-    "lg": "seriea",
-    "name": "The Serie A Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/seriea/next/",
-    "opponent": "Como Calcio",
-    "opponent_short": "Como",
-    "reign_no": 66,
-    "since": "2026-05-04",
-    "time_et": "06:30",
-    "tv": "Paramount+",
-    "url": "https://beltholders.com/seriea/",
-    "win_prob": 0.474
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Chicago Blackhawks",
+    "opponent_short": "Blackhawks",
+    "reign_no": 86,
+    "since": "2026-10-10",
+    "time_et": "20:00",
+    "tv": "ESPN+ \u00b7 CHSN",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.552
    }
   ]
  }
