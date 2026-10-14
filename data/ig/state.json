@@ -29,7 +29,23 @@
   "2026-10-13 10:16 preview nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13 https://www.instagram.com/p/DecAPzbkQ3B/",
   "2026-10-13 22:40 result nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13 https://www.instagram.com/p/DedVWzAlUJn/"
  ],
- "pending": {},
+ "pending": {
+  "mls|Nashville SC|Sporting Kansas City|2026-10-14": {
+   "belt_name": "The MLS Belt",
+   "date": "2026-10-14",
+   "defenses": 0,
+   "espn_id": "761866",
+   "espn_path": "soccer/usa.1",
+   "game_no": 1124,
+   "holder": "Nashville SC",
+   "holder_short": "Nashville",
+   "lg": "mls",
+   "opponent": "Sporting Kansas City",
+   "opponent_short": "Sporting KC",
+   "reign_no": 3,
+   "since": "2026-10-10"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
