@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-13",
+ "digest": "2026-10-14",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -213,33 +213,38 @@
    "change",
    3,
    5
+  ],
+  [
+   "2026-10-14T09:31-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-13",
+  "day": "2026-10-14",
   "games": [
    {
-    "belt": "NHL",
+    "belt": "MLS",
     "colors": [
-     "#111111",
-     "#fcb514"
+     "#ece83a",
+     "#1f1646"
     ],
     "defenses": 0,
-    "holder": "Pittsburgh Penguins",
-    "holder_short": "Penguins",
-    "home": false,
-    "lg": "nhl",
-    "name": "The NHL Belt",
+    "holder": "Nashville SC",
+    "holder_short": "Nashville",
+    "home": true,
+    "lg": "mls",
+    "name": "The MLS Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Chicago Blackhawks",
-    "opponent_short": "Blackhawks",
-    "reign_no": 86,
+    "next_url": "https://beltholders.com/mls/next/",
+    "opponent": "Sporting Kansas City",
+    "opponent_short": "Sporting KC",
+    "reign_no": 3,
     "since": "2026-10-10",
-    "time_et": "20:00",
-    "tv": "ESPN+ \u00b7 CHSN",
-    "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.552
+    "time_et": "20:30",
+    "tv": "Apple TV",
+    "url": "https://beltholders.com/mls/",
+    "win_prob": 0.836
    }
   ]
  }
