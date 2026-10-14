@@ -124,5 +124,15 @@
   "score": "Pittsburgh Penguins 4, Chicago Blackhawks 2",
   "made": "2026-10-11",
   "line": null
+ },
+ {
+  "key": "PIT|COL|2026-10-16",
+  "date": "2026-10-16",
+  "holder": "PIT",
+  "challenger": "COL",
+  "pick": "COL",
+  "score": "Pittsburgh Penguins 2, Colorado Avalanche 4",
+  "made": "2026-10-14",
+  "line": null
  }
 ]

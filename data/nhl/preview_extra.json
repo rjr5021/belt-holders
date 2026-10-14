@@ -1,21 +1,22 @@
 {
- "key": "PIT|CHI|2026-10-13",
- "updated": "2026-10-11T02:32Z",
- "start_utc": "2026-10-14T00:00Z",
+ "key": "PIT|COL|2026-10-16",
+ "updated": "2026-10-14T00:58Z",
+ "start_utc": "2026-10-17T01:00Z",
  "espn": {
-  "event_id": "401892496",
-  "start_utc": "2026-10-14T00:00Z",
+  "event_id": "401892517",
+  "start_utc": "2026-10-17T01:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "CHSN"
+   "Altitude Sports",
+   "KTVD-TV (My20)"
   ],
   "odds": null,
   "teams": {
-   "CHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-    "abbr": "CHI",
-    "record": "1-5-0",
+   "COL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+    "abbr": "COL",
+    "record": "3-2-0",
     "rank": null,
     "home_away": "home"
    },
@@ -28,31 +29,29 @@
    }
   },
   "venue": {
-   "name": "United Center",
-   "city": "Chicago",
-   "state": "IL",
+   "name": "Ball Arena",
+   "city": "Denver",
+   "state": "CO",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Pittsburgh claimed the belt in their most recent victory and now defends it for the first time in this reign against a franchise that has held it 240 times before.",
+  "overview": "The Pittsburgh Penguins bring the Belt Holders lineal championship to Ball Arena to face the Colorado Avalanche on October 16, 2026. Pittsburgh captured the belt with their most recent 2\u20131 victory over Dallas and now puts it on the line for the first time in this reign. Colorado has held the belt 101 times previously and will look to reclaim it as the Elo favorite on home ice.",
   "key_matchups": [
-   "Pittsburgh's fresh 2\u20131 win over Dallas Stars versus Chicago's two-game skid including a 2\u20135 loss to Carolina",
-   "Recent head-to-head dominance: Pittsburgh won their last meeting 6-2 and took three of the last five matchups",
-   "Chicago's 1-5 record against Pittsburgh's 3-3 mark in a battle of uneven early-season form"
+   "Pittsburgh's defensive form after allowing just 1 goal against Dallas versus Colorado's high-scoring attack that put up 7 and 8 goals in recent wins",
+   "Colorado's home advantage and Elo edge against a Pittsburgh team that has lost 3 of their last 5",
+   "The all-time head-to-head rivalry sits nearly even at 48-45-7 in Colorado's favor across 100 meetings"
   ],
-  "betting_angles": "The Penguins enter as Elo favorites with recent momentum from their 2\u20131 victory over Dallas, while Chicago has dropped its last 2 games. Pittsburgh has won their last 1 game compared to a Blackhawks side sitting at 1-5 on the season. The head-to-head history favors Chicago all-time with 84 wins to Pittsburgh's 55, but recent meetings have tilted heavily toward the Penguins, including a 6-2 victory in their last encounter.",
-  "predicted_winner": "Pittsburgh Penguins",
-  "predicted_score": "Pittsburgh Penguins 4, Chicago Blackhawks 2",
-  "prediction_writeup": "Pittsburgh arrives with fresh confidence from their 2\u20131 win over Dallas and holds the Elo edge in this matchup. Chicago's 1-5 record and current two-game losing streak suggest a team still searching for answers early in the season. The Penguins have dominated recent head-to-head meetings, winning their last encounter 6-2 and taking three of the last five overall. While Chicago has held the belt 240 times historically, Pittsburgh's superior current form and recent dominance in this matchup point to a successful first defense of their new reign.",
-  "written": "2026-10-11",
+  "betting_angles": "Colorado enters as the Elo favorite despite dropping their last game 3\u20136 to Toronto, while Pittsburgh has won just 1 of their last 5 games overall. The Avalanche have shown explosive offensive capability with three games of 6+ goals in their last five, compared to Pittsburgh's more conservative scoring output. The recent head-to-head history is split, with each team winning decisively in their most recent two meetings in March 2026.",
+  "predicted_winner": "Colorado Avalanche",
+  "predicted_score": "Pittsburgh Penguins 2, Colorado Avalanche 4",
+  "prediction_writeup": "Colorado takes back the belt on home ice despite their loss to Toronto in their last outing. The Avalanche have demonstrated potent offensive firepower with 7, 6, and 8-goal performances in three of their last five games, while Pittsburgh has managed more than 3 goals just once in that span. Our Elo model favors Colorado, and their 3-2 record edges Pittsburgh's 3-3 mark. While the Penguins showed solid defense in their 2\u20131 win over Dallas, facing Colorado's attack at Ball Arena presents a stiffer challenge for a team that's dropped 3 of 5.",
+  "written": "2026-10-14",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "13"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
