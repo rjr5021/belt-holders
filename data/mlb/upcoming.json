@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-15-1-849818",
-  "date": "2026-10-15",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m114",
-  "away": "m139",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "13:00",
-  "venue": "Progressive Field",
-  "series": "AL Championship Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-15-1-849810",
   "date": "2026-10-15",
   "season": 2026,
