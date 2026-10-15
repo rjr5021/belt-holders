@@ -26,5 +26,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NSH|SJ|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "NSH",
+  "challenger": "SJ",
+  "pick": "NSH",
+  "score": "Nashville SC 2, San Jose Earthquakes 1",
+  "made": "2026-10-15",
+  "line": {
+   "details": "NSH +100",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

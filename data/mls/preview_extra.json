@@ -1,61 +1,59 @@
 {
- "key": "NSH|SKC|2026-10-14",
- "updated": "2026-10-11T16:33Z",
- "start_utc": "2026-10-15T00:30Z",
+ "key": "NSH|SJ|2026-10-17",
+ "updated": "2026-10-15T04:43Z",
+ "start_utc": "2026-10-18T02:30Z",
  "espn": {
-  "event_id": "761866",
-  "start_utc": "2026-10-15T00:30Z",
+  "event_id": "761886",
+  "start_utc": "2026-10-18T02:30Z",
   "state": "pre",
   "tv": [
    "Apple TV"
   ],
   "odds": {
-   "details": "NSH -425",
+   "details": "NSH +100",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "NSH": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-    "abbr": "NSH",
-    "record": "19-6-3",
+   "SJ": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+    "abbr": "SJ",
+    "record": "13-8-8",
     "rank": null,
     "home_away": "home"
    },
-   "SKC": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
-    "abbr": "SKC",
-    "record": "6-4-18",
+   "NSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+    "abbr": "NSH",
+    "record": "20-6-3",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "GEODIS Park",
-   "city": "Nashville, Tennessee",
+   "name": "PayPal Park",
+   "city": "San Jose, California",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The belt changes hands with every loss or draw, tracing an unbroken chain back to the league's first game. Nashville and Kansas City have met 4 times previously but never with the belt at stake.",
+  "overview": "Nashville SC brings the Belt Holders championship to PayPal Park for the first time, as these two sides have never met with the belt on the line. Nashville arrives in strong form with three straight wins and a 19-3-6 record, while San Jose sits at 13-8-7 but has experienced this unique pressure before with 26 previous belt reigns.",
   "key_matchups": [
-   "Nashville SC's recent surge (won their last 3 games) meets Sporting Kansas City's inconsistent form (tied their last 1 game after back-to-back losses)",
-   "Home belt defense for Nashville SC (19-3-6) against a Kansas City side with a 6-18-4 record but extensive belt history (held it 21 times before)",
-   "Head-to-head series split at 2-2 all-time, with Nashville SC winning the most recent meeting 3-0 in 2023"
+   "Nashville's three-game winning streak and dominant 4-1 victory at Austin FC versus San Jose's recent stall with a 1-1 draw at Colorado Rapids",
+   "Nashville's league-best 19-3-6 record against a San Jose side that has won the belt 26 times previously and knows how to handle the moment",
+   "A head-to-head history that has produced four consecutive draws, including their last meeting ending 1-1 in April 2024"
   ],
-  "betting_angles": "Nashville SC enters as the Elo favorite, backed by a 19-3-6 record and three straight wins including a 4-1 victory at Austin FC in their most recent outing. Sporting Kansas City's 6-18-4 season record and recent draw (3-3 vs Portland Timbers) suggest they'll struggle on the road. The all-time head-to-head stands even at 2-2, but Nashville won the last meeting 3-0.",
+  "betting_angles": "Nashville SC enters as the Elo favorite with momentum from winning their last 3 games, including wins by 3-0 and 4-1 margins. However, the all-time head-to-head record shows 4 meetings and 4 ties, with no winner ever emerging between these sides. San Jose's recent form is mixed with a draw snapping a three-game stretch that included two wins, but their 26 previous belt reigns suggest they understand the stakes.",
   "predicted_winner": "Nashville SC",
-  "predicted_score": "Nashville SC 2, Sporting Kansas City 1",
-  "prediction_writeup": "Nashville SC's home form and three-game winning streak position them well to defend the belt for the first time. Their 19-3-6 record dwarfs Sporting Kansas City's 6-18-4 mark, and the Elo model favors the home side. While Kansas City has held the belt 21 times historically, their current form (just tied 3-3 with Portland after losing two straight) suggests they'll struggle to claim it here. Nashville's recent attacking output, including a 4-1 win at Austin and a 3-0 win over Chicago, should be enough to keep the belt at home.",
-  "written": "2026-10-11",
+  "predicted_score": "Nashville SC 2, San Jose Earthquakes 1",
+  "prediction_writeup": "Nashville SC's superior 19-3-6 record and current three-game winning streak make them the clear choice, especially with the Elo model in their favor. While the all-time head-to-head has produced nothing but draws across 4 meetings, Nashville's recent form suggests they've found a higher gear with victories of 3-0, 2-0, and 4-1 in their win streak. San Jose's experience with 26 previous belt reigns could keep this competitive, but Nashville's road win at Austin FC by 4-1 shows they can deliver away from home. The history of ties between these teams suggests a close match, but Nashville should edge it in their first belt defense of this reign.",
+  "written": "2026-10-15",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "14"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
