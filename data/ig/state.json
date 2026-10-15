@@ -28,25 +28,10 @@
   "2026-10-11 13:37 result seriea|AS Roma|Como Calcio|2026-10-11 https://www.instagram.com/p/DeXNv2zCbat/",
   "2026-10-13 10:16 preview nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13 https://www.instagram.com/p/DecAPzbkQ3B/",
   "2026-10-13 22:40 result nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13 https://www.instagram.com/p/DedVWzAlUJn/",
-  "2026-10-14 14:10 preview mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Dee_0LSiYbH/"
+  "2026-10-14 14:10 preview mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Dee_0LSiYbH/",
+  "2026-10-14 22:36 result mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Def5qQklKBq/"
  ],
- "pending": {
-  "mls|Nashville SC|Sporting Kansas City|2026-10-14": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-10-14",
-   "defenses": 0,
-   "espn_id": "761866",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1124,
-   "holder": "Nashville SC",
-   "holder_short": "Nashville",
-   "lg": "mls",
-   "opponent": "Sporting Kansas City",
-   "opponent_short": "Sporting KC",
-   "reign_no": 3,
-   "since": "2026-10-10"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -76,6 +61,7 @@
   "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11",
   "epl|Manchester City|Liverpool|2026-10-11",
   "seriea|AS Roma|Como Calcio|2026-10-11",
-  "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13"
+  "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
+  "mls|Nashville SC|Sporting Kansas City|2026-10-14"
  ]
 }
