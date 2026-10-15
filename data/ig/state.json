@@ -31,7 +31,23 @@
   "2026-10-14 14:10 preview mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Dee_0LSiYbH/",
   "2026-10-14 22:36 result mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Def5qQklKBq/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-15",
+   "defenses": 0,
+   "espn_id": "401892512",
+   "espn_path": "hockey/nhl",
+   "game_no": 8440,
+   "holder": "Chicago Blackhawks",
+   "holder_short": "Blackhawks",
+   "lg": "nhl",
+   "opponent": "Winnipeg Jets",
+   "opponent_short": "Jets",
+   "reign_no": 241,
+   "since": "2026-10-13"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
