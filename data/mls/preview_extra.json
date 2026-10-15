@@ -1,54 +1,54 @@
 {
- "key": "NSH|SJ|2026-10-17",
- "updated": "2026-10-15T04:43Z",
- "start_utc": "2026-10-18T02:30Z",
+ "key": "ATX|VAN|2026-10-17",
+ "updated": "2026-10-15T11:33Z",
+ "start_utc": "2026-10-18T00:30Z",
  "espn": {
-  "event_id": "761886",
-  "start_utc": "2026-10-18T02:30Z",
+  "event_id": "761882",
+  "start_utc": "2026-10-18T00:30Z",
   "state": "pre",
   "tv": [
    "Apple TV"
   ],
   "odds": {
-   "details": "NSH +100",
+   "details": "VAN -170",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "SJ": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-    "abbr": "SJ",
-    "record": "13-8-8",
+   "ATX": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+    "abbr": "ATX",
+    "record": "7-10-12",
     "rank": null,
     "home_away": "home"
    },
-   "NSH": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-    "abbr": "NSH",
-    "record": "20-6-3",
+   "VAN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+    "abbr": "VAN",
+    "record": "15-7-7",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "PayPal Park",
-   "city": "San Jose, California",
+   "name": "Q2 Stadium",
+   "city": "Austin, Texas",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Nashville SC brings the Belt Holders championship to PayPal Park for the first time, as these two sides have never met with the belt on the line. Nashville arrives in strong form with three straight wins and a 19-3-6 record, while San Jose sits at 13-8-7 but has experienced this unique pressure before with 26 previous belt reigns.",
+  "overview": "Austin FC put their Belt Holders championship on the line when they host the Vancouver Whitecaps on October 17th, 2026. The Verde have defended the belt 5 times in this reign, while Vancouver have held it 6 times previously. With these two sides having met 5 times before with the belt at stake, this matchup carries significant lineal championship history.",
   "key_matchups": [
-   "Nashville's three-game winning streak and dominant 4-1 victory at Austin FC versus San Jose's recent stall with a 1-1 draw at Colorado Rapids",
-   "Nashville's league-best 19-3-6 record against a San Jose side that has won the belt 26 times previously and knows how to handle the moment",
-   "A head-to-head history that has produced four consecutive draws, including their last meeting ending 1-1 in April 2024"
+   "Austin FC's recent draw streak (last 2 games) against Vancouver's superior 15-7-6 record this season",
+   "Vancouver seeking revenge after their 1-2 loss at Austin FC on 2026-09-13",
+   "Austin FC's home advantage versus the Elo model rating them as underdogs"
   ],
-  "betting_angles": "Nashville SC enters as the Elo favorite with momentum from winning their last 3 games, including wins by 3-0 and 4-1 margins. However, the all-time head-to-head record shows 4 meetings and 4 ties, with no winner ever emerging between these sides. San Jose's recent form is mixed with a draw snapping a three-game stretch that included two wins, but their 26 previous belt reigns suggest they understand the stakes.",
-  "predicted_winner": "Nashville SC",
-  "predicted_score": "Nashville SC 2, San Jose Earthquakes 1",
-  "prediction_writeup": "Nashville SC's superior 19-3-6 record and current three-game winning streak make them the clear choice, especially with the Elo model in their favor. While the all-time head-to-head has produced nothing but draws across 4 meetings, Nashville's recent form suggests they've found a higher gear with victories of 3-0, 2-0, and 4-1 in their win streak. San Jose's experience with 26 previous belt reigns could keep this competitive, but Nashville's road win at Austin FC by 4-1 shows they can deliver away from home. The history of ties between these teams suggests a close match, but Nashville should edge it in their first belt defense of this reign.",
+  "betting_angles": "Vancouver enter with a vastly superior record at 15-7-6 compared to Austin's 7-10-10 mark, and the Elo model favors the visitors despite Austin's home field. Austin have managed only ties in their last 2 games (T 3-3 vs San Diego FC, T 0-0 at FC Dallas), while Vancouver hold a commanding 6-2 edge in the all-time head-to-head series. However, Austin did win the most recent meeting 2-1 at Vancouver on 2026-09-13.",
+  "predicted_winner": "Vancouver Whitecaps",
+  "predicted_score": "Austin FC 1, Vancouver Whitecaps 2",
+  "prediction_writeup": "While Austin FC won the last meeting 2-1 at Vancouver, the broader picture favors the Whitecaps claiming the belt. Vancouver's 15-7-6 record towers over Austin's 7-10-10 mark, and they dominate the all-time series 6-2-3. Austin have managed only draws in their last 2 outings and are rated as underdogs by the Elo model even at home. Vancouver's quality should shine through despite the hostile environment, though Austin's recent success against them (W 2-1) suggests this will be a tight contest. The Whitecaps take the belt on the road in a narrow victory.",
   "written": "2026-10-15",
   "model": "claude-sonnet-4-5",
   "factcheck": {

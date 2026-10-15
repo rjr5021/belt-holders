@@ -40,5 +40,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "ATX|VAN|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "ATX",
+  "challenger": "VAN",
+  "pick": "VAN",
+  "score": "Austin FC 1, Vancouver Whitecaps 2",
+  "made": "2026-10-15",
+  "line": {
+   "details": "VAN -170",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
