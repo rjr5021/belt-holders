@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-15-1-849810",
-  "date": "2026-10-15",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m119",
-  "away": "m158",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "UNIQLO Field at Dodger Stadium",
-  "series": "NL Championship Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-16-1-849817",
   "date": "2026-10-16",
   "season": 2026,
