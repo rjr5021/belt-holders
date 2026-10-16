@@ -12,5 +12,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "KC|UTA|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "KC",
+  "challenger": "UTA",
+  "pick": "KC",
+  "score": "Kansas City Current 2, Utah Royals 1",
+  "made": "2026-10-16",
+  "line": {
+   "details": "KC -110",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]
