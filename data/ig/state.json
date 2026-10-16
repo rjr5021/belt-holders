@@ -33,7 +33,23 @@
   "2026-10-15 13:37 preview nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DehgzZwFgH2/",
   "2026-10-15 22:42 result nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DeifLiwjUUn/"
  ],
- "pending": {},
+ "pending": {
+  "ncaah|Denver|Michigan|2026-10-16": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-10-16",
+   "defenses": 13,
+   "espn_id": "401904862",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 493,
+   "holder": "Denver",
+   "holder_short": "Denver",
+   "lg": "ncaah",
+   "opponent": "Michigan",
+   "opponent_short": "Michigan",
+   "reign_no": 11,
+   "since": "2026-02-13"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
