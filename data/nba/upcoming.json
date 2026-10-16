@@ -208,6 +208,19 @@
   "spread": 7.5
  },
  {
+  "id": "espn-401909848",
+  "date": "2026-10-23",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "MIL",
+  "away": "CHI",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "16:00",
+  "venue": "Fiserv Forum",
+  "spread": null
+ },
+ {
   "id": "espn-401909843",
   "date": "2026-10-23",
   "season": 2026,
@@ -270,19 +283,6 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": null
- },
- {
-  "id": "espn-401909848",
-  "date": "2026-10-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIL",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Fiserv Forum",
   "spread": null
  },
  {
