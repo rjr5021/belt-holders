@@ -144,5 +144,15 @@
   "score": "Chicago Blackhawks 2, Winnipeg Jets 4",
   "made": "2026-10-14",
   "line": null
+ },
+ {
+  "key": "CHI|DAL|2026-10-17",
+  "date": "2026-10-17",
+  "holder": "CHI",
+  "challenger": "DAL",
+  "pick": "DAL",
+  "score": "Chicago Blackhawks 2, Dallas Stars 3",
+  "made": "2026-10-16",
+  "line": null
  }
 ]
