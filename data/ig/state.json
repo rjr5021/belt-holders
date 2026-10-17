@@ -79,6 +79,21 @@
    "opponent_short": "Stars",
    "reign_no": 241,
    "since": "2026-10-13"
+  },
+  "nwsl|Kansas City Current|Utah Royals|2026-10-17": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-10-17",
+   "defenses": 1,
+   "espn_id": "401854022",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 304,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Utah Royals",
+   "opponent_short": "Utah",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
