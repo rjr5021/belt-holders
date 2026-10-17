@@ -36,7 +36,8 @@
   "2026-10-17 00:12 result ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DelOTLoDqIy/",
   "2026-10-17 12:09 preview nhl|Chicago Blackhawks|Dallas Stars|2026-10-17 https://www.instagram.com/p/DemgQC3kVT8/",
   "2026-10-17 12:09 preview mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/DemgS-skWde/",
-  "2026-10-17 12:09 preview nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/DemgWAHETiG/"
+  "2026-10-17 12:09 preview nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/DemgWAHETiG/",
+  "2026-10-17 12:09 result epl|Manchester City|Ipswich Town|2026-10-17 https://www.instagram.com/p/DemgZFGkYc3/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|RB Leipzig|2026-10-17": {
@@ -53,21 +54,6 @@
    "opponent_short": "Leipzig",
    "reign_no": 57,
    "since": "2026-02-28"
-  },
-  "epl|Manchester City|Ipswich Town|2026-10-17": {
-   "belt_name": "The English Football Belt",
-   "date": "2026-10-17",
-   "defenses": 4,
-   "espn_id": "401879259",
-   "espn_path": "soccer/eng.1",
-   "game_no": 4918,
-   "holder": "Manchester City",
-   "holder_short": "Man City",
-   "lg": "epl",
-   "opponent": "Ipswich Town",
-   "opponent_short": "Ipswich",
-   "reign_no": 62,
-   "since": "2026-08-23"
   },
   "laliga|Athletic Bilbao|Valencia CF|2026-10-17": {
    "belt_name": "The La Liga Belt",
@@ -227,6 +213,7 @@
   "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
   "nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15",
-  "ncaah|Denver|Michigan|2026-10-16"
+  "ncaah|Denver|Michigan|2026-10-16",
+  "epl|Manchester City|Ipswich Town|2026-10-17"
  ]
 }
