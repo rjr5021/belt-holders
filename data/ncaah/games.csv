@@ -14092,7 +14092,7 @@ espn-401913699,2026-10-03,2026,regular,WISC,RMU,1,0,,,espn,Wisconsin,Robert Morr
 espn-401904641,2026-10-04,2026,regular,MTU,MINN,3,1,,,espn,Michigan Tech,Minnesota,MTU,MINN
 espn-401904458,2026-10-08,2026,regular,ND,NIA,3,1,,,espn,Notre Dame,Niagara,ND,NIA
 espn-401904605,2026-10-08,2026,regular,WMU,FRST,6,0,,,espn,Western Michigan,Ferris State,WMU,FRST
-espn-401904793,2026-10-08,2026,regular,MRMK,UNH,3,3,,,espn,Merrimack,New Hampshire,MRMK,UNH
+espn-401904793,2026-10-08,2026,regular,MRMK,UNH,3,3,,OT,espn,Merrimack,New Hampshire,MRMK,UNH
 espn-401912368,2026-10-08,2026,regular,LIN,LSS,7,4,,,espn,Lindenwood,Lake Superior State,LIN,LSS
 espn-401904337,2026-10-09,2026,regular,STMN,AFA,1,5,,,espn,St. Thomas,Air Force,STMN,AFA
 espn-401904371,2026-10-09,2026,regular,BENT,UVM,3,0,,,espn,Bentley,Vermont,BENT,UVM
@@ -14139,3 +14139,23 @@ espn-401904339,2026-10-15,2026,regular,AFA,LIN,5,2,,,espn,Air Force,Lindenwood,A
 espn-401904517,2026-10-15,2026,regular,AUSD,OMA,2,1,,,espn,Augustana (SD),Omaha,AUSD,OMA
 espn-401904936,2026-10-15,2026,regular,M-OH,RMU,7,1,,,espn,Miami (OH),Robert Morris,M-OH,RMU
 espn-401905059,2026-10-15,2026,regular,BC,SCSU,4,0,,,espn,Boston College,St. Cloud State,BC,SCSU
+espn-401904340,2026-10-16,2026,regular,AFA,LIN,4,7,,,espn,Air Force,Lindenwood,AFA,LIN
+espn-401904373,2026-10-16,2026,regular,UND,BENT,5,0,,,espn,North Dakota,Bentley,UND,BENT
+espn-401904407,2026-10-16,2026,regular,CLAR,CAN,3,4,,OT,espn,Clarkson,Canisius,CLAR,CAN
+espn-401904460,2026-10-16,2026,regular,BGSU,NIA,2,3,,OT,espn,Bowling Green,Niagara,BGSU,NIA
+espn-401904499,2026-10-16,2026,regular,SHU,OSU,5,3,,,espn,Sacred Heart,Ohio State,SHU,OSU
+espn-401904625,2026-10-16,2026,regular,UAA,LSS,5,2,,,espn,Alaska Anchorage,Lake Superior State,UAA,LSS
+espn-401904645,2026-10-16,2026,regular,MTU,AKFB,3,0,,,espn,Michigan Tech,Alaska,MTU,AKFB
+espn-401904657,2026-10-16,2026,regular,MRMK,MNST,4,3,,OT,espn,Merrimack,Minnesota State,MRMK,MNST
+espn-401904671,2026-10-16,2026,regular,NMI,STONEHILL,5,1,,,espn,Northern Michigan,Stonehill,NMI,STONEHILL
+espn-401904704,2026-10-16,2026,regular,UVM,BU,2,1,,,espn,Vermont,Boston University,UVM,BU
+espn-401904768,2026-10-16,2026,regular,MASS,NE,4,1,,,espn,Massachusetts,Northeastern,MASS,NE
+espn-401904794,2026-10-16,2026,regular,COLG,UNH,2,5,,,espn,Colgate,New Hampshire,COLG,UNH
+espn-401904820,2026-10-16,2026,regular,UNNY,PROV,2,3,,OT,espn,Union,Providence,UNNY,PROV
+espn-401904841,2026-10-16,2026,regular,UML,ASU,4,5,,,espn,UMass Lowell ,Arizona State,UML,ASU
+espn-401904862,2026-10-16,2026,regular,DEN,MICH,1,4,,,espn,Denver,Michigan,DEN,MICH
+espn-401904890,2026-10-16,2026,regular,CONN,COLC,3,2,,OT,espn,UConn,Colorado College,CONN,COLC
+espn-401904982,2026-10-16,2026,regular,PSU,QUIN,3,6,,,espn,Penn State,Quinnipiac,PSU,QUIN
+espn-401905025,2026-10-16,2026,regular,WMU,ND,6,1,,,espn,Western Michigan,Notre Dame,WMU,ND
+espn-401905041,2026-10-16,2026,regular,UMD,MINN,7,1,,,espn,Minnesota Duluth,Minnesota,UMD,MINN
+espn-401912426,2026-10-16,2026,regular,RPI,LIU,2,1,,,espn,Rensselaer,Long Island University,RPI,LIU

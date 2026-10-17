@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854091",
-  "date": "2026-10-16",
-  "season_type": "regular",
-  "home": "Boston Legacy FC",
-  "away": "Racing Louisville FC",
-  "home_id": "131562",
-  "away_id": "20905",
-  "home_abbr": "BOS",
-  "away_abbr": "LOU",
-  "home_loc": "Boston Legacy FC",
-  "away_loc": "Racing Louisville FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "20:00",
-  "season": 2026
- },
- {
   "id": "espn-401854021",
   "date": "2026-10-17",
   "season_type": "regular",
