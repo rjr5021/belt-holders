@@ -1,27 +1,25 @@
 {
- "key": "DEN|MICH|2026-10-17",
- "updated": "2026-10-17T00:33Z",
+ "key": "MICH|DEN|2026-10-17",
+ "updated": "2026-10-17T07:01Z",
  "start_utc": "2026-10-18T00:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Pioneers have defended the belt 13 times in this reign and enter with a perfect 2-0 record this season, while the Wolverines arrive at 4-0 and riding a 4-game winning streak.",
+  "overview": "Michigan travels to Denver for a rematch just one day after claiming a 4\u20131 victory over the Pioneers to defend the lineal championship belt for the first time in this reign. The Wolverines have started the season a perfect 5-0 and ride a five-game winning streak, while Denver looks to avenge yesterday's loss and reclaim a belt they've held 11 times previously.",
   "key_matchups": [
-   "Denver's unbeaten start (2-0) versus Michigan's hot offense coming off consecutive 7-2 and 10-1 victories over Alaska Anchorage",
-   "Denver's 2-0 all-time edge over Michigan, including a 4-3 playoff win last April when these teams last met",
-   "Michigan seeking revenge for that 4-3 playoff loss while trying to claim the belt for the fifth time in program history"
+   "Can Denver rebound immediately after the 1\u20134 loss, or will Michigan's momentum from five straight wins continue?",
+   "Head-to-head history favors Denver 2-1 all-time, but Michigan just dominated the most recent meeting",
+   "Michigan's explosive offense averaging double-digit goals in recent games versus Denver's need to tighten up defensively"
   ],
-  "betting_angles": "Denver holds the all-time edge at 2-0 in this matchup and has won their last 5 games overall. Michigan counters with 4 straight wins and an unblemished 4-0 record this season, though their only common opponent saw both teams handle Alaska Anchorage comfortably. The Elo model favors the home team and current belt holder.",
-  "predicted_winner": "Denver",
-  "predicted_score": "Denver 4, Michigan 3",
-  "prediction_writeup": "Denver has owned this matchup historically with wins of 3-2 and 4-3 in their only two meetings, both coming in the last few years. The Pioneers are riding a 5-game winning streak and have successfully defended the belt 13 times already in this reign, showing the mettle of a championship-caliber squad. Michigan's 4-0 start is impressive, but facing a Denver team that beat them 4-3 in the playoffs just six months ago presents a different challenge. The Elo model backing Denver at home, combined with their head-to-head dominance, suggests the belt stays in the Mile High City in what should be another tight, one-goal affair.",
+  "betting_angles": "Michigan enters on a five-game winning streak with dominant recent performances including a 10\u20131 and 7\u20132 victories, while Denver has dropped their last game. The Elo model calls this a toss-up despite Michigan's perfect 5-0 record, likely accounting for Denver's all-time 2-1 head-to-head edge and previous belt experience. Back-to-back games between the same teams often see adjustments, but Michigan's current form is hard to ignore.",
+  "predicted_winner": "Michigan",
+  "predicted_score": "Michigan 5, Denver 3",
+  "prediction_writeup": "Michigan has been rolling with five straight wins and just beat Denver 4\u20131 yesterday on this same ice. While the Elo model sees a toss-up and Denver holds the all-time series edge at 2-1, the Wolverines' current form is simply too strong to fade in a back-to-back situation. Denver will likely adjust and make this closer than yesterday's three-goal margin, but Michigan's offensive firepower should prove too much once again. The Wolverines extend their perfect start to 6-0 and defend the belt for a second consecutive game.",
   "written": "2026-10-17",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "17"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
