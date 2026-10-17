@@ -35,6 +35,21 @@
   "2026-10-16 13:10 preview ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DekCh5_Ed7K/"
  ],
  "pending": {
+  "mls|Nashville SC|San Jose Earthquakes|2026-10-17": {
+   "belt_name": "The MLS Belt",
+   "date": "2026-10-17",
+   "defenses": 1,
+   "espn_id": "761886",
+   "espn_path": "soccer/usa.1",
+   "game_no": 1125,
+   "holder": "Nashville SC",
+   "holder_short": "Nashville",
+   "lg": "mls",
+   "opponent": "San Jose Earthquakes",
+   "opponent_short": "San Jose",
+   "reign_no": 3,
+   "since": "2026-10-10"
+  },
   "ncaah|Denver|Michigan|2026-10-16": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-10-16",
