@@ -41,7 +41,8 @@
   "2026-10-17 12:09 preview laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DemgcMYkdsv/",
   "2026-10-17 12:09 preview seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DemggBukXrM/",
   "2026-10-17 12:09 preview ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/DemgigZEQgy/",
-  "2026-10-17 12:09 preview ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Demgliwkc50/"
+  "2026-10-17 12:09 preview ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Demgliwkc50/",
+  "2026-10-17 16:56 result laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DenBHLVlO4R/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|RB Leipzig|2026-10-17": {
@@ -58,21 +59,6 @@
    "opponent_short": "Leipzig",
    "reign_no": 57,
    "since": "2026-02-28"
-  },
-  "laliga|Athletic Bilbao|Valencia CF|2026-10-17": {
-   "belt_name": "The La Liga Belt",
-   "date": "2026-10-17",
-   "defenses": 2,
-   "espn_id": "401882838",
-   "espn_path": "soccer/esp.1",
-   "game_no": 3116,
-   "holder": "Athletic Bilbao",
-   "holder_short": "Athletic",
-   "lg": "laliga",
-   "opponent": "Valencia CF",
-   "opponent_short": "Valencia",
-   "reign_no": 76,
-   "since": "2026-09-05"
   },
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17": {
    "belt_name": "The Liga MX Belt",
@@ -222,6 +208,7 @@
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
   "nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15",
   "ncaah|Denver|Michigan|2026-10-16",
-  "epl|Manchester City|Ipswich Town|2026-10-17"
+  "epl|Manchester City|Ipswich Town|2026-10-17",
+  "laliga|Athletic Bilbao|Valencia CF|2026-10-17"
  ]
 }
