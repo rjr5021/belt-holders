@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Kaseya Center",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909836",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909840",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 7.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909092",
