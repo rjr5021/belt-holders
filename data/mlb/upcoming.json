@@ -8,7 +8,7 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": "20:00",
+  "start_et": "20:08",
   "venue": "Progressive Field",
   "series": "AL Championship Series",
   "if_necessary": false
@@ -22,7 +22,7 @@
   "away": "m139",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": "17:00",
+  "start_et": "17:08",
   "venue": "Progressive Field",
   "series": "AL Championship Series",
   "if_necessary": false
@@ -36,7 +36,7 @@
   "away": "m114",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": "20:00",
+  "start_et": "20:08",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
   "if_necessary": true
@@ -50,7 +50,7 @@
   "away": "m114",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": "20:00",
+  "start_et": "20:08",
   "venue": "Tropicana Field",
   "series": "AL Championship Series",
   "if_necessary": true
