@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854021",
-  "date": "2026-10-17",
-  "season_type": "regular",
-  "home": "Washington Spirit",
-  "away": "Gotham FC",
-  "home_id": "15365",
-  "away_id": "15364",
-  "home_abbr": "WAS",
-  "away_abbr": "GFC",
-  "home_loc": "Washington Spirit",
-  "away_loc": "Gotham FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "12:30",
-  "season": 2026
- },
- {
   "id": "espn-401854022",
   "date": "2026-10-17",
   "season_type": "regular",

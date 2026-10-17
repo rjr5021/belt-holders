@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401904408",
-  "date": "2026-10-17",
-  "season_type": "regular",
-  "home": "CLAR",
-  "away": "CAN",
-  "home_id": "2137",
-  "away_id": "2099",
-  "home_abbr": "CLAR",
-  "away_abbr": "CAN",
-  "home_loc": "Clarkson",
-  "away_loc": "Canisius",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2027,
-  "stype": 2,
-  "start_et": "16:30",
-  "season": 2026,
-  "home_name": "Clarkson",
-  "away_name": "Canisius"
- },
- {
   "id": "espn-401904891",
   "date": "2026-10-17",
   "season_type": "regular",
