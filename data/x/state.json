@@ -5,6 +5,9 @@
    "danger": "2026-10-10T10:15-04:00",
    "end": "2026-10-10T11:30-04:00"
   },
+  "bundesliga|2026-10-17|bayernmunich|rbleipzig": {
+   "end": "2026-10-17T14:30-04:00"
+  },
   "epl|2026-10-11|manchestercity|liverpool": {
    "end": "2026-10-11T13:39-04:00"
   },
@@ -22,6 +25,7 @@
   "laliga|2026-10-10|athleticbilbao|rayovallecano": {
    "end": "no-result"
   },
+  "laliga|2026-10-17|athleticbilbao|valencia": {},
   "ligamx|2026-10-10|atlante|queretaro": {
    "danger": "2026-10-10T19:47-04:00",
    "end": "2026-10-10T20:59-04:00"
@@ -84,7 +88,8 @@
   "nwsl|2026-10-17|kansascitycurrent|utahroyals": {},
   "seriea|2026-10-11|asroma|comocalcio": {
    "end": "2026-10-11T09:12-04:00"
-  }
+  },
+  "seriea|2026-10-17|asroma|genoacfc": {}
  },
  "log": [
   [
@@ -273,6 +278,13 @@
    "defense",
    3,
    2
+  ],
+  [
+   "2026-10-17T14:30-04:00",
+   "bundesliga",
+   "defense",
+   6,
+   1
   ]
  ],
  "today": {
