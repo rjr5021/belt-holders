@@ -64,7 +64,7 @@
   "away": "m21",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "World Series",
   "if_necessary": false
@@ -78,7 +78,7 @@
   "away": "m21",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "World Series",
   "if_necessary": false
@@ -92,7 +92,7 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "TBD",
   "series": "World Series",
   "if_necessary": false
@@ -106,7 +106,7 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "TBD",
   "series": "World Series",
   "if_necessary": false
@@ -120,7 +120,7 @@
   "away": "m158",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "TBD",
   "series": "World Series",
   "if_necessary": true
@@ -134,7 +134,7 @@
   "away": "m21",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "World Series",
   "if_necessary": true
@@ -148,7 +148,7 @@
   "away": "m21",
   "neutral": "",
   "source": "mlbapi",
-  "start_et": null,
+  "start_et": "20:00",
   "venue": "American Family Field",
   "series": "World Series",
   "if_necessary": true
