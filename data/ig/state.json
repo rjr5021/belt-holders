@@ -80,6 +80,21 @@
    "reign_no": 76,
    "since": "2026-09-05"
   },
+  "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17": {
+   "belt_name": "The Liga MX Belt",
+   "date": "2026-10-17",
+   "defenses": 0,
+   "espn_id": "401876942",
+   "espn_path": "soccer/mex.1",
+   "game_no": 541,
+   "holder": "Quer\u00e9taro",
+   "holder_short": "Quer\u00e9taro",
+   "lg": "ligamx",
+   "opponent": "Santos Laguna",
+   "opponent_short": "Santos",
+   "reign_no": 9,
+   "since": "2026-10-10"
+  },
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17": {
    "belt_name": "The MLS Belt",
    "date": "2026-10-17",
