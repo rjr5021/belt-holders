@@ -124,6 +124,21 @@
    "opponent_short": "Utah",
    "reign_no": 4,
    "since": "2026-09-26"
+  },
+  "seriea|AS Roma|Genoa CFC|2026-10-17": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-10-17",
+   "defenses": 8,
+   "espn_id": "401874935",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "Genoa CFC",
+   "opponent_short": "Genoa",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
