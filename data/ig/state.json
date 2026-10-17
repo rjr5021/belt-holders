@@ -35,6 +35,21 @@
   "2026-10-16 13:10 preview ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DekCh5_Ed7K/"
  ],
  "pending": {
+  "epl|Manchester City|Ipswich Town|2026-10-17": {
+   "belt_name": "The English Football Belt",
+   "date": "2026-10-17",
+   "defenses": 4,
+   "espn_id": "401879259",
+   "espn_path": "soccer/eng.1",
+   "game_no": 4918,
+   "holder": "Manchester City",
+   "holder_short": "Man City",
+   "lg": "epl",
+   "opponent": "Ipswich Town",
+   "opponent_short": "Ipswich",
+   "reign_no": 62,
+   "since": "2026-08-23"
+  },
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17": {
    "belt_name": "The MLS Belt",
    "date": "2026-10-17",
