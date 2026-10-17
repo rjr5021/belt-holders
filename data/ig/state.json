@@ -43,24 +43,10 @@
   "2026-10-17 12:09 preview ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/DemgigZEQgy/",
   "2026-10-17 12:09 preview ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Demgliwkc50/",
   "2026-10-17 16:56 result laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DenBHLVlO4R/",
-  "2026-10-17 16:56 result seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DenBKATFMHr/"
+  "2026-10-17 16:56 result seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DenBKATFMHr/",
+  "2026-10-17 16:56 result bundesliga|Bayern Munich|RB Leipzig|2026-10-17 https://www.instagram.com/p/DenBMm_lCD_/"
  ],
  "pending": {
-  "bundesliga|Bayern Munich|RB Leipzig|2026-10-17": {
-   "belt_name": "The Bundesliga Belt",
-   "date": "2026-10-17",
-   "defenses": 14,
-   "espn_id": "401884772",
-   "espn_path": "soccer/ger.1",
-   "game_no": 2135,
-   "holder": "Bayern Munich",
-   "holder_short": "Bayern",
-   "lg": "bundesliga",
-   "opponent": "RB Leipzig",
-   "opponent_short": "Leipzig",
-   "reign_no": 57,
-   "since": "2026-02-28"
-  },
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-17",
@@ -196,6 +182,7 @@
   "ncaah|Denver|Michigan|2026-10-16",
   "epl|Manchester City|Ipswich Town|2026-10-17",
   "laliga|Athletic Bilbao|Valencia CF|2026-10-17",
-  "seriea|AS Roma|Genoa CFC|2026-10-17"
+  "seriea|AS Roma|Genoa CFC|2026-10-17",
+  "bundesliga|Bayern Munich|RB Leipzig|2026-10-17"
  ]
 }
