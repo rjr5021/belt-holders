@@ -93,7 +93,9 @@
   "seriea|2026-10-11|asroma|comocalcio": {
    "end": "2026-10-11T09:12-04:00"
   },
-  "seriea|2026-10-17|asroma|genoacfc": {}
+  "seriea|2026-10-17|asroma|genoacfc": {
+   "end": "2026-10-17T16:56-04:00"
+  }
  },
  "log": [
   [
@@ -295,6 +297,13 @@
    "laliga",
    "defense",
    0,
+   0
+  ],
+  [
+   "2026-10-17T16:56-04:00",
+   "seriea",
+   "defense",
+   2,
    0
   ]
  ],
