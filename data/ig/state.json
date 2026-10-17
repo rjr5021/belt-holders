@@ -125,6 +125,21 @@
    "reign_no": 11,
    "since": "2026-02-13"
   },
+  "ncaah|Denver|Michigan|2026-10-17": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-10-17",
+   "defenses": 13,
+   "espn_id": "401904863",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 493,
+   "holder": "Denver",
+   "holder_short": "Denver",
+   "lg": "ncaah",
+   "opponent": "Michigan",
+   "opponent_short": "Michigan",
+   "reign_no": 11,
+   "since": "2026-02-13"
+  },
   "nhl|Chicago Blackhawks|Dallas Stars|2026-10-17": {
    "belt_name": "The NHL Belt",
    "date": "2026-10-17",
