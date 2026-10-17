@@ -35,6 +35,21 @@
   "2026-10-16 13:10 preview ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DekCh5_Ed7K/"
  ],
  "pending": {
+  "bundesliga|Bayern Munich|RB Leipzig|2026-10-17": {
+   "belt_name": "The Bundesliga Belt",
+   "date": "2026-10-17",
+   "defenses": 14,
+   "espn_id": "401884772",
+   "espn_path": "soccer/ger.1",
+   "game_no": 2135,
+   "holder": "Bayern Munich",
+   "holder_short": "Bayern",
+   "lg": "bundesliga",
+   "opponent": "RB Leipzig",
+   "opponent_short": "Leipzig",
+   "reign_no": 57,
+   "since": "2026-02-28"
+  },
   "epl|Manchester City|Ipswich Town|2026-10-17": {
    "belt_name": "The English Football Belt",
    "date": "2026-10-17",
