@@ -1,59 +1,51 @@
 {
- "key": "JAX|HOU|2026-10-18",
- "updated": "2026-10-11T18:35Z",
- "start_utc": "2026-10-18T13:30Z",
+ "key": "HOU|NYG|2026-10-25",
+ "updated": "2026-10-18T18:40Z",
+ "start_utc": "2026-10-25T17:00Z",
  "espn": {
-  "event_id": "401872996",
-  "start_utc": "2026-10-18T13:30Z",
+  "event_id": "401873016",
+  "start_utc": "2026-10-25T17:00Z",
   "state": "pre",
   "tv": [
-   "NFL Net"
+   "Fox"
   ],
   "odds": null,
   "teams": {
-   "JAX": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-    "abbr": "JAX",
-    "record": "4-1",
-    "rank": null,
-    "home_away": "home"
-   },
    "HOU": {
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
     "abbr": "HOU",
-    "record": "0-4",
+    "record": "2-4",
+    "rank": null,
+    "home_away": "home"
+   },
+   "NYG": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "abbr": "NYG",
+    "record": "3-1-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Wembley Stadium",
-   "city": "London",
-   "state": null,
-   "indoor": false
+   "name": "Reliant Stadium",
+   "city": "Houston",
+   "state": "TX",
+   "indoor": true
   }
  },
- "weather": {
-  "temp_f": 56,
-  "feels_like_f": 50,
-  "precip_chance": 11,
-  "wind_mph": 11,
-  "condition": "Clear",
-  "as_of": "2026-10-11",
-  "venue": "Wembley Stadium"
- },
+ "weather": null,
  "ai": {
-  "overview": "The Jacksonville Jaguars bring the lineal championship belt to a neutral site showdown with the Houston Texans. Jacksonville has defended the belt 2 times in this reign and enters on a three-game winning streak, while Houston has dropped five straight and sits winless at 0-4 this season. The belt passes to whoever wins, with no committees involved\u2014just the outcome on the field.",
+  "overview": "The Houston Texans host the New York Giants with the lineal championship belt on the line for the first time in this matchup's history. Houston claimed the belt in their recent 34-31 victory at Jacksonville and will be looking to defend it for the first time in this reign against a Giants team that has held the belt 27 times previously.",
   "key_matchups": [
-   "Jacksonville's three-game win streak versus Houston's five-game losing skid\u2014contrasting momentum at its starkest",
-   "Houston's 32-16 all-time edge in the series against Jacksonville's current possession of the belt",
-   "Jacksonville's 4-1 record facing a Houston team desperate to avoid 0-5"
+   "Houston's recent offensive surge (34 and 26 points in their last two wins) against a Giants defense that allowed 27 to Washington in their most recent outing",
+   "New York's 3-1-1 record and three-game unbeaten streak (before the tie) versus Houston's 2-4 mark despite back-to-back wins",
+   "The Giants' historical dominance in this series (5-1 all-time) including a 24-16 victory in their last meeting in 2022"
   ],
-  "betting_angles": "The form contrast is dramatic: Jacksonville has won their last 3 games and sits at 4-1, while Houston has lost their last 5 and remains winless at 0-4 this season. The Elo model favors Jacksonville, aligning with the current form disparity. However, Houston holds a commanding 32-16 advantage in the all-time series and won the most recent meeting 36-29 in November 2025, suggesting they've had Jacksonville's number historically even if recent form points the other way.",
-  "predicted_winner": "Jacksonville Jaguars",
-  "predicted_score": "Jacksonville Jaguars 24, Houston Texans 17",
-  "prediction_writeup": "Jacksonville's three-game winning streak and 4-1 record stand in stark contrast to Houston's five-game slide and 0-4 start. While the Texans have dominated this matchup historically with a 32-16 all-time edge, current form heavily favors the Jaguars. Jacksonville has already defended the belt twice in this reign, including wins of 19-17 and 22-17 in their last two outings\u2014narrow victories that suggest they know how to close games. Houston's winless season and ongoing losing streak make it difficult to back them against a Jaguars team riding momentum and Elo favoritism.",
-  "written": "2026-10-11",
+  "betting_angles": "The Elo model favors Houston as a clear favorite despite the Giants holding a superior 3-1-1 record compared to the Texans' 2-4 mark. New York dominates the all-time series 5-1 and won the most recent meeting 24-16 in 2022, creating a contrast between historical head-to-head results and the current Elo projection. Houston has momentum with consecutive wins scoring 26 and 34 points, while the Giants are coming off a 27-27 tie after three straight decisions.",
+  "predicted_winner": "Houston Texans",
+  "predicted_score": "Houston Texans 27, New York Giants 20",
+  "prediction_writeup": "The Texans are riding momentum from back-to-back wins where they've found their offensive rhythm, scoring 26 and 34 points. While the Giants hold a better record at 3-1-1 and own the all-time series 5-1, their most recent result was an uninspiring 27-27 tie at Washington. The Elo model sees Houston as a clear favorite at home, and the Texans have shown they can put up points recently. Houston's offense appears to be clicking at the right time to defend the belt for the first time in this reign.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
