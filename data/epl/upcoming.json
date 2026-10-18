@@ -1,50 +1,5 @@
 [
  {
-  "id": "of-2026-60",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Everton",
-  "away": "Chelsea",
-  "start_et": "07:30"
- },
- {
-  "id": "of-2026-61",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Fulham",
-  "away": "Hull City",
-  "start_et": "10:00"
- },
- {
-  "id": "of-2026-62",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Manchester City",
-  "away": "Ipswich Town",
-  "start_et": "10:00"
- },
- {
-  "id": "of-2026-63",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Brentford",
-  "away": "Liverpool",
-  "start_et": "10:00"
- },
- {
-  "id": "of-2026-64",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Newcastle United",
-  "away": "Aston Villa",
-  "start_et": "12:30"
- },
- {
   "id": "of-2026-65",
   "date": "2026-10-18",
   "season": 2026,

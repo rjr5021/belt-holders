@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-73",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ADO Den Haag",
-  "away": "PSV Eindhoven",
-  "start_et": "10:30"
- },
- {
-  "id": "of-2026-74",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Telstar",
-  "away": "Feyenoord",
-  "start_et": "14:00"
- },
- {
-  "id": "of-2026-75",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Sparta Rotterdam",
-  "away": "Willem II",
-  "start_et": "15:00"
- },
- {
   "id": "of-2026-76",
   "date": "2026-10-18",
   "season": 2026,

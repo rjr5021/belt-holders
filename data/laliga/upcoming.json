@@ -1,41 +1,5 @@
 [
  {
-  "id": "of-2026-80",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Espanyol Barcelona",
-  "away": "Atletico Madrid",
-  "start_et": "08:00"
- },
- {
-  "id": "of-2026-81",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Villarreal CF",
-  "away": "Elche CF",
-  "start_et": "10:15"
- },
- {
-  "id": "of-2026-82",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Real Betis",
-  "away": "FC Barcelona",
-  "start_et": "12:30"
- },
- {
-  "id": "of-2026-83",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Valencia CF",
-  "away": "Athletic Bilbao",
-  "start_et": "15:00"
- },
- {
   "id": "of-2026-84",
   "date": "2026-10-18",
   "season": 2026,

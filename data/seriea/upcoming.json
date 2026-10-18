@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-61",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Venezia",
-  "away": "SSC Napoli",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-62",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Bologna FC",
-  "away": "Inter",
-  "start_et": "12:00"
- },
- {
-  "id": "of-2026-63",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AS Roma",
-  "away": "Genoa CFC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-64",
   "date": "2026-10-18",
   "season": 2026,

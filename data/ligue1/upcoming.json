@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-55",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "RC Strasbourg",
-  "away": "Paris Saint-Germain",
-  "start_et": "11:15"
- },
- {
-  "id": "of-2026-56",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ESTAC Troyes",
-  "away": "RC Lens",
-  "start_et": "14:45"
- },
- {
-  "id": "of-2026-57",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Lille OSC",
-  "away": "Stade Brest",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-58",
   "date": "2026-10-18",
   "season": 2026,

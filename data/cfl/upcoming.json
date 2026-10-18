@@ -1,25 +1,5 @@
 [
  {
-  "id": "cfl-2026-10-17-CGY-BC",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CGY",
-  "away": "BC",
-  "neutral": "",
-  "start_et": null
- },
- {
-  "id": "cfl-2026-10-17-SSK-MTL",
-  "date": "2026-10-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SSK",
-  "away": "MTL",
-  "neutral": "",
-  "start_et": null
- },
- {
   "id": "cfl-2026-10-23-BC-WPG",
   "date": "2026-10-23",
   "season": 2026,

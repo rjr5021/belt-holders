@@ -779,5 +779,192 @@
   "neutral": "",
   "start_et": "20:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401919974",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Jordan",
+  "away": "Australia",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401930237",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malaysia",
+  "away": "Yemen",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401916335",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Singapore",
+  "away": "Brazil",
+  "neutral": "",
+  "start_et": "05:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401916336",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Japan",
+  "away": "Paraguay",
+  "neutral": "",
+  "start_et": "08:10",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401929769",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Dominica",
+  "away": "Cayman Islands",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401929768",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Saint Lucia",
+  "away": "Barbados",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401861196",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Bosnia and Herzegovina",
+  "away": "Romania",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861194",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Denmark",
+  "away": "Norway",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861191",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Hungary",
+  "away": "Northern Ireland",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861193",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Israel",
+  "away": "Austria",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861195",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Poland",
+  "away": "Sweden",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861192",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Republic of Ireland",
+  "away": "Kosovo",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861190",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ukraine",
+  "away": "Georgia",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401861189",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Wales",
+  "away": "Portugal",
+  "neutral": "",
+  "start_et": "14:45",
+  "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401929766",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "United States",
+  "away": "Haiti",
+  "neutral": "",
+  "start_et": "19:00",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401929763",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Mexico",
+  "away": "Jamaica",
+  "neutral": "",
+  "start_et": "21:30",
+  "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401929703",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nicaragua",
+  "away": "Montserrat",
+  "neutral": "",
+  "start_et": "22:00",
+  "tournament": "CONCACAF Nations League"
  }
 ]
