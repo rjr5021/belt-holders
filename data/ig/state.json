@@ -50,7 +50,8 @@
   "2026-10-18 00:30 result ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/Den1PHilIf-/",
   "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
   "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
-  "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/"
+  "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
+  "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
@@ -82,21 +83,6 @@
    "opponent_short": "Rennes",
    "reign_no": 2,
    "since": "2026-09-19"
-  },
-  "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18": {
-   "belt_name": "The NFL Belt",
-   "date": "2026-10-18",
-   "defenses": 2,
-   "espn_id": "401872996",
-   "espn_path": "football/nfl",
-   "game_no": 1648,
-   "holder": "Jacksonville Jaguars",
-   "holder_short": "Jaguars",
-   "lg": "nfl",
-   "opponent": "Houston Texans",
-   "opponent_short": "Texans",
-   "reign_no": 6,
-   "since": "2026-09-27"
   }
  },
  "previews": [
@@ -150,6 +136,7 @@
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
   "ncaah|Denver|Michigan|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
-  "mls|Nashville SC|San Jose Earthquakes|2026-10-17"
+  "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
+  "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18"
  ]
 }
