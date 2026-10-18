@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854024",
-  "date": "2026-10-18",
-  "season_type": "regular",
-  "home": "Houston Dash",
-  "away": "Orlando Pride",
-  "home_id": "17346",
-  "away_id": "18206",
-  "home_abbr": "HOU",
-  "away_abbr": "ORL",
-  "home_loc": "Houston Dash",
-  "away_loc": "Orlando Pride",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "13:00",
-  "season": 2026
- },
- {
   "id": "espn-401854025",
   "date": "2026-10-18",
   "season_type": "regular",
