@@ -52,25 +52,10 @@
   "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
   "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
   "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
-  "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/"
+  "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
+  "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/"
  ],
- "pending": {
-  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-10-18",
-   "defenses": 11,
-   "espn_id": "401875576",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "SC Cambuur",
-   "opponent_short": "Cambuur",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -124,6 +109,7 @@
   "ncaah|Michigan|Denver|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18",
-  "ligue1|Paris FC|Stade Rennes|2026-10-18"
+  "ligue1|Paris FC|Stade Rennes|2026-10-18",
+  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18"
  ]
 }
