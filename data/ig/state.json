@@ -49,7 +49,8 @@
   "2026-10-18 00:30 result nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/Den1KsPlAwU/",
   "2026-10-18 00:30 result ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/Den1PHilIf-/",
   "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
-  "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/"
+  "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
+  "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
@@ -81,21 +82,6 @@
    "opponent_short": "Rennes",
    "reign_no": 2,
    "since": "2026-09-19"
-  },
-  "mls|Nashville SC|San Jose Earthquakes|2026-10-17": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-10-17",
-   "defenses": 1,
-   "espn_id": "761886",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1125,
-   "holder": "Nashville SC",
-   "holder_short": "Nashville",
-   "lg": "mls",
-   "opponent": "San Jose Earthquakes",
-   "opponent_short": "San Jose",
-   "reign_no": 3,
-   "since": "2026-10-10"
   },
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18": {
    "belt_name": "The NFL Belt",
@@ -163,6 +149,7 @@
   "nwsl|Kansas City Current|Utah Royals|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
   "ncaah|Denver|Michigan|2026-10-17",
-  "ncaah|Michigan|Denver|2026-10-17"
+  "ncaah|Michigan|Denver|2026-10-17",
+  "mls|Nashville SC|San Jose Earthquakes|2026-10-17"
  ]
 }
