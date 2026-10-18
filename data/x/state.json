@@ -91,7 +91,9 @@
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
-  "nwsl|2026-10-17|kansascitycurrent|utahroyals": {},
+  "nwsl|2026-10-17|kansascitycurrent|utahroyals": {
+   "end": "2026-10-17T20:29-04:00"
+  },
   "seriea|2026-10-11|asroma|comocalcio": {
    "end": "2026-10-11T09:12-04:00"
   },
@@ -304,6 +306,13 @@
   [
    "2026-10-17T16:56-04:00",
    "seriea",
+   "defense",
+   2,
+   0
+  ],
+  [
+   "2026-10-17T20:29-04:00",
+   "nwsl",
    "defense",
    2,
    0
