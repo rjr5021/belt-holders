@@ -51,7 +51,8 @@
   "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
   "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
   "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
-  "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/"
+  "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
+  "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
@@ -68,21 +69,6 @@
    "opponent_short": "Cambuur",
    "reign_no": 19,
    "since": "2026-04-12"
-  },
-  "ligue1|Paris FC|Stade Rennes|2026-10-18": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-10-18",
-   "defenses": 0,
-   "espn_id": "401876433",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "Stade Rennes",
-   "opponent_short": "Rennes",
-   "reign_no": 2,
-   "since": "2026-09-19"
   }
  },
  "previews": [
@@ -137,6 +123,7 @@
   "ncaah|Denver|Michigan|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
-  "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18"
+  "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18",
+  "ligue1|Paris FC|Stade Rennes|2026-10-18"
  ]
 }
