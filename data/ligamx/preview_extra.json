@@ -1,20 +1,20 @@
 {
- "key": "QRO|ASL|2026-10-20",
- "updated": "2026-10-18T04:40Z",
- "start_utc": "2026-10-21T01:00Z",
+ "key": "SAN|PUM|2026-10-21",
+ "updated": "2026-10-18T11:10Z",
+ "start_utc": "2026-10-22T03:10Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Quer\u00e9taro brings the Belt Holders lineal championship to Estadio Alfonso Lastras on October 20th, seeking their first successful defense of this reign. The belt is on the line for the first time ever between these two sides, despite an evenly-matched all-time series that stands at 6 wins apiece with 2 draws across 14 meetings. Atl\u00e9tico San Luis, who have held the belt 6 times previously, will look to reclaim it on home turf.",
+  "overview": "Santos Laguna puts the lineal championship belt on the line against Pumas UNAM on October 21st. The belt has passed from team to team through every result since Liga MX's first game, and Santos Laguna have yet to defend it in their current reign. Pumas UNAM have held the belt 6 times previously and will look to claim it once more in what is a perfectly even all-time series.",
   "key_matchups": [
-   "Quer\u00e9taro's strong form (6-2-2 record, won their last 2 games) against Atl\u00e9tico San Luis's struggles (3-5-3 record, coming off a 1\u20132 loss to Santos Laguna)",
-   "The perfectly balanced all-time rivalry (6-6-2 in 14 meetings) with recent history favoring the home side, who won 3-0 in their last encounter on 2026-02-14",
-   "Quer\u00e9taro's defensive solidity shown in back-to-back 2\u20130 clean sheet victories versus Atl\u00e9tico San Luis's inconsistent form with three losses in their last five"
+   "Santos Laguna's five-game winning streak, including a dominant 5\u20130 victory over Quer\u00e9taro, against Pumas UNAM's inconsistent form of two losses and two draws in their last five",
+   "Recent head-to-head dominance by Pumas UNAM, who won 4-0 in their last meeting in January 2026",
+   "Santos Laguna fighting as underdogs according to the Elo model despite their superior current form and home advantage"
   ],
-  "betting_angles": "Quer\u00e9taro arrive in excellent form with wins in their last 2 games and an impressive 6-2-2 season record, while Atl\u00e9tico San Luis limp in at 3-5-3 having just lost to Santos Laguna. The head-to-head history is dead even overall, but San Luis dominated 3-0 in the most recent February meeting and have shown they can blow out Quer\u00e9taro (4-0 in 2024). The Elo model calls it a toss-up despite the disparity in current form, suggesting the home venue and recent head-to-head success level the playing field.",
-  "predicted_winner": "Quer\u00e9taro",
-  "predicted_score": "Quer\u00e9taro 1, Atl\u00e9tico San Luis 0",
-  "prediction_writeup": "While Atl\u00e9tico San Luis won the last meeting 3-0 and hold a historical edge at home, Quer\u00e9taro's current form is simply too strong to ignore. The visitors have won their last 2 games with consecutive 2\u20130 clean sheets and boast a 6-2-2 record compared to San Luis's struggling 3-5-3 mark. Quer\u00e9taro have shown defensive consistency across their last five matches, conceding just three goals total, while also grinding out narrow victories like the 1\u20130 win at Tijuana. The Elo toss-up rating acknowledges San Luis's home advantage, but momentum and season-long performance favor the belt holders. Expect a tight, low-scoring affair with Quer\u00e9taro edging it to secure their first belt defense.",
+  "betting_angles": "Santos Laguna have won their last 5 games and are riding a wave of momentum, while Pumas UNAM have managed just one win in their last five with two draws and two losses. The head-to-head history is dead even at 10-10-6 across 26 meetings, though Pumas won the most recent encounter 4-0. The Elo model favors Pumas UNAM despite Santos Laguna's superior form and home field, creating an interesting contrast between recent results and underlying ratings.",
+  "predicted_winner": "Santos Laguna",
+  "predicted_score": "Santos Laguna 2, Pumas UNAM 1",
+  "prediction_writeup": "Santos Laguna's five-game winning streak is impossible to ignore, particularly coming off a 5\u20130 demolition of Quer\u00e9taro. While Pumas UNAM won the last head-to-head meeting 4-0, their recent form shows just one win in five games with defensive struggles evident in the 3\u20133 draw with Cruz Azul and 0\u20133 loss at Guadalajara. Santos Laguna have been winning tight games throughout this streak, taking three of their five wins by a single goal, suggesting they know how to close out matches. Playing at home with momentum on their side, Santos Laguna should be able to defend the belt for the first time in this reign despite the Elo rating suggesting otherwise.",
   "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {

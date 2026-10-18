@@ -54,5 +54,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NSH|MTL|2026-10-24",
+  "date": "2026-10-24",
+  "holder": "NSH",
+  "challenger": "MTL",
+  "pick": "NSH",
+  "score": "Nashville SC 2, CF Montr\u00e9al 0",
+  "made": "2026-10-18",
+  "line": {
+   "details": "NSH -165",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]
