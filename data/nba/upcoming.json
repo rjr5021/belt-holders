@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "15:00",
   "venue": "Little Caesars Arena",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909089",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Madison Square Garden",
-  "spread": 5.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909090",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909091",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 8.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909092",
