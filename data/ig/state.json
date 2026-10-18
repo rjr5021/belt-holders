@@ -49,6 +49,21 @@
   "2026-10-18 00:30 result nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/Den1KsPlAwU/"
  ],
  "pending": {
+  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-10-18",
+   "defenses": 11,
+   "espn_id": "401875576",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "SC Cambuur",
+   "opponent_short": "Cambuur",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-17",
