@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909837",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 7.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909092",
