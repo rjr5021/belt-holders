@@ -48,7 +48,8 @@
   "2026-10-18 00:30 result nhl|Chicago Blackhawks|Dallas Stars|2026-10-17 https://www.instagram.com/p/Den1G-slDt6/",
   "2026-10-18 00:30 result nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/Den1KsPlAwU/",
   "2026-10-18 00:30 result ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/Den1PHilIf-/",
-  "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/"
+  "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
+  "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18": {
@@ -95,21 +96,6 @@
    "opponent_short": "San Jose",
    "reign_no": 3,
    "since": "2026-10-10"
-  },
-  "ncaah|Michigan|Denver|2026-10-17": {
-   "belt_name": "The College Hockey Belt",
-   "date": "2026-10-17",
-   "defenses": 0,
-   "espn_id": "401904863",
-   "espn_path": "hockey/mens-college-hockey",
-   "game_no": 494,
-   "holder": "Michigan",
-   "holder_short": "Michigan",
-   "lg": "ncaah",
-   "opponent": "Denver",
-   "opponent_short": "Denver",
-   "reign_no": 5,
-   "since": "2026-10-16"
   },
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18": {
    "belt_name": "The NFL Belt",
@@ -176,6 +162,7 @@
   "nhl|Chicago Blackhawks|Dallas Stars|2026-10-17",
   "nwsl|Kansas City Current|Utah Royals|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
-  "ncaah|Denver|Michigan|2026-10-17"
+  "ncaah|Denver|Michigan|2026-10-17",
+  "ncaah|Michigan|Denver|2026-10-17"
  ]
 }
