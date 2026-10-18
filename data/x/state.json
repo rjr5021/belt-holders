@@ -71,6 +71,7 @@
   },
   "nfl|2026-10-18|jacksonvillejaguars|houstontexans": {
    "danger": "2026-10-18T12:27-04:00",
+   "end": "2026-10-18T12:49-04:00",
    "start": "2026-10-18T12:22-04:00"
   },
   "nhl|2026-10-01|floridapanthers|sanjosesharks": {
@@ -360,6 +361,13 @@
    "defense",
    2,
    2
+  ],
+  [
+   "2026-10-18T12:49-04:00",
+   "nfl",
+   "change",
+   31,
+   34
   ]
  ],
  "today": {
