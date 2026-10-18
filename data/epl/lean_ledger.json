@@ -26,5 +26,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Aston Villa|2026-10-24",
+  "date": "2026-10-24",
+  "holder": "Manchester City",
+  "challenger": "Aston Villa",
+  "pick": "Manchester City",
+  "score": "Manchester City 2, Aston Villa 1",
+  "made": "2026-10-18",
+  "line": {
+   "details": "MNC -140",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

@@ -1,21 +1,21 @@
 {
- "key": "QRO|SAN|2026-10-17",
- "updated": "2026-10-11T02:34Z",
- "start_utc": "2026-10-17T23:00Z",
+ "key": "QRO|ASL|2026-10-20",
+ "updated": "2026-10-18T04:40Z",
+ "start_utc": "2026-10-21T01:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Quer\u00e9taro brings the Belt Holders lineal championship to Estadio Corona on October 17, 2026, where Santos Laguna will attempt to claim the belt that traces an unbroken line back to Liga MX's first game. This marks Quer\u00e9taro's first defense since capturing the belt, facing a Santos Laguna side that has held it 8 times previously and has met them twice before with the belt on the line.",
+  "overview": "Quer\u00e9taro brings the Belt Holders lineal championship to Estadio Alfonso Lastras on October 20th, seeking their first successful defense of this reign. The belt is on the line for the first time ever between these two sides, despite an evenly-matched all-time series that stands at 6 wins apiece with 2 draws across 14 meetings. Atl\u00e9tico San Luis, who have held the belt 6 times previously, will look to reclaim it on home turf.",
   "key_matchups": [
-   "Quer\u00e9taro's 6-2-2 record and recent defensive solidity (2\u20130, 2\u20130 in last two) against Santos Laguna's attacking surge (three straight wins by narrow margins)",
-   "Santos Laguna's historical head-to-head edge (17-8-5 all-time) versus Quer\u00e9taro's superior current form and Elo favorite status",
-   "Home advantage for Santos Laguna, who have won their last 3 games, facing a road Quer\u00e9taro team that won 2\u20130 at Guadalajara and 1\u20130 at Tijuana recently"
+   "Quer\u00e9taro's strong form (6-2-2 record, won their last 2 games) against Atl\u00e9tico San Luis's struggles (3-5-3 record, coming off a 1\u20132 loss to Santos Laguna)",
+   "The perfectly balanced all-time rivalry (6-6-2 in 14 meetings) with recent history favoring the home side, who won 3-0 in their last encounter on 2026-02-14",
+   "Quer\u00e9taro's defensive solidity shown in back-to-back 2\u20130 clean sheet victories versus Atl\u00e9tico San Luis's inconsistent form with three losses in their last five"
   ],
-  "betting_angles": "Quer\u00e9taro enters as the Elo favorite despite playing on the road, backed by a strong 6-2-2 season record compared to Santos Laguna's 3-6-1 mark. Both teams arrive in excellent form with winning streaks, though Quer\u00e9taro's recent defensive shutouts (2\u20130, 2\u20130) contrast with Santos Laguna's narrow 1\u20130, 3\u20132, 2\u20131 victories. The all-time head-to-head heavily favors Santos Laguna 17-8-5, but recent meetings have been tight, with four of the last five decided by a single goal.",
+  "betting_angles": "Quer\u00e9taro arrive in excellent form with wins in their last 2 games and an impressive 6-2-2 season record, while Atl\u00e9tico San Luis limp in at 3-5-3 having just lost to Santos Laguna. The head-to-head history is dead even overall, but San Luis dominated 3-0 in the most recent February meeting and have shown they can blow out Quer\u00e9taro (4-0 in 2024). The Elo model calls it a toss-up despite the disparity in current form, suggesting the home venue and recent head-to-head success level the playing field.",
   "predicted_winner": "Quer\u00e9taro",
-  "predicted_score": "Quer\u00e9taro 1, Santos Laguna 0",
-  "prediction_writeup": "Quer\u00e9taro's superior season record of 6-2-2 and status as the Elo favorite outweigh Santos Laguna's home field advantage and historical dominance in this matchup. The visitors have shown defensive discipline with back-to-back 2\u20130 wins and have performed well on the road this season with wins at Guadalajara, Tijuana, and Atlas. While Santos Laguna's three-game winning streak is impressive, their 3-6-1 overall record suggests inconsistency, and their recent wins have all been by single goals against teams Quer\u00e9taro has handled more convincingly. Expect a tight, low-scoring affair with the belt holder escaping with a narrow victory to extend their reign.",
-  "written": "2026-10-11",
+  "predicted_score": "Quer\u00e9taro 1, Atl\u00e9tico San Luis 0",
+  "prediction_writeup": "While Atl\u00e9tico San Luis won the last meeting 3-0 and hold a historical edge at home, Quer\u00e9taro's current form is simply too strong to ignore. The visitors have won their last 2 games with consecutive 2\u20130 clean sheets and boast a 6-2-2 record compared to San Luis's struggling 3-5-3 mark. Quer\u00e9taro have shown defensive consistency across their last five matches, conceding just three goals total, while also grinding out narrow victories like the 1\u20130 win at Tijuana. The Elo toss-up rating acknowledges San Luis's home advantage, but momentum and season-long performance favor the belt holders. Expect a tight, low-scoring affair with Quer\u00e9taro edging it to secure their first belt defense.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

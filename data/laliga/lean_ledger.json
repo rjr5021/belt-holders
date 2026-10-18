@@ -26,5 +26,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Athletic Bilbao|Levante UD|2026-10-21",
+  "date": "2026-10-21",
+  "holder": "Athletic Bilbao",
+  "challenger": "Levante UD",
+  "pick": "Athletic Bilbao",
+  "score": "Athletic Bilbao 2, Levante UD 1",
+  "made": "2026-10-18",
+  "line": {
+   "details": "ATH +115",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

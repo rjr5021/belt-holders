@@ -1,24 +1,24 @@
 {
- "key": "MICH|DEN|2026-10-17",
- "updated": "2026-10-17T07:01Z",
- "start_utc": "2026-10-18T00:00Z",
+ "key": "MICH|WMU|2026-10-23",
+ "updated": "2026-10-18T04:40Z",
+ "start_utc": "2026-10-23T23:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan travels to Denver for a rematch just one day after claiming a 4\u20131 victory over the Pioneers to defend the lineal championship belt for the first time in this reign. The Wolverines have started the season a perfect 5-0 and ride a five-game winning streak, while Denver looks to avenge yesterday's loss and reclaim a belt they've held 11 times previously.",
+  "overview": "Michigan hosts Western Michigan with the lineal championship belt on the line. The Wolverines enter with a perfect 5-0 record and have won their last 5 games, while the Broncos bring a 3-0 mark and have won their last 3 contests. Michigan has not yet defended the belt in this reign, making this their first title defense.",
   "key_matchups": [
-   "Can Denver rebound immediately after the 1\u20134 loss, or will Michigan's momentum from five straight wins continue?",
-   "Head-to-head history favors Denver 2-1 all-time, but Michigan just dominated the most recent meeting",
-   "Michigan's explosive offense averaging double-digit goals in recent games versus Denver's need to tighten up defensively"
+   "Michigan's offensive firepower shown in victories of 10\u20131, 7\u20132, and 7\u20132 against their recent opposition versus Western Michigan's strong recent performances including a 6\u20131 win over Notre Dame",
+   "The all-time series stands nearly even at Michigan 7, Western Michigan 6 across 13 meetings, with the home team holding just a slight historical edge",
+   "Western Michigan's experience as 11-time former belt holders against Michigan's quest for their first successful defense in this reign"
   ],
-  "betting_angles": "Michigan enters on a five-game winning streak with dominant recent performances including a 10\u20131 and 7\u20132 victories, while Denver has dropped their last game. The Elo model calls this a toss-up despite Michigan's perfect 5-0 record, likely accounting for Denver's all-time 2-1 head-to-head edge and previous belt experience. Back-to-back games between the same teams often see adjustments, but Michigan's current form is hard to ignore.",
+  "betting_angles": "Both teams enter undefeated with Michigan at 5-0 and Western Michigan at 3-0, though the Wolverines have shown dominant scoring margins in their recent wins including 10\u20131 and 7\u20132 victories. The head-to-head history is nearly split at 7-6 in Michigan's favor over 13 games, with the teams splitting their last two meetings in October 2025. The Elo model favors Michigan at home, where they'll look to protect the belt for the first time in this reign.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 5, Denver 3",
-  "prediction_writeup": "Michigan has been rolling with five straight wins and just beat Denver 4\u20131 yesterday on this same ice. While the Elo model sees a toss-up and Denver holds the all-time series edge at 2-1, the Wolverines' current form is simply too strong to fade in a back-to-back situation. Denver will likely adjust and make this closer than yesterday's three-goal margin, but Michigan's offensive firepower should prove too much once again. The Wolverines extend their perfect start to 6-0 and defend the belt for a second consecutive game.",
-  "written": "2026-10-17",
+  "predicted_score": "Michigan 5, Western Michigan 3",
+  "prediction_writeup": "Michigan's perfect 5-0 start and five-game winning streak, including impressive offensive outputs like their 10\u20131 and 7\u20132 victories, suggest they have the firepower to defend at home. While Western Michigan brings a 3-0 record and momentum from their 6\u20131 win over Notre Dame, the Elo edge favors the Wolverines. The all-time series is tight at 7-6, but Michigan's recent dominant margins and home ice should be enough to secure their first belt defense of this reign. This should be competitive given the evenly-matched history, but Michigan's current form gives them the advantage.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

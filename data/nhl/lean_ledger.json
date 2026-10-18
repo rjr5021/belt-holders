@@ -154,5 +154,15 @@
   "score": "Chicago Blackhawks 2, Dallas Stars 3",
   "made": "2026-10-16",
   "line": null
+ },
+ {
+  "key": "DAL|BOS|2026-10-20",
+  "date": "2026-10-20",
+  "holder": "DAL",
+  "challenger": "BOS",
+  "pick": "DAL",
+  "score": "Dallas Stars 3, Boston Bruins 2",
+  "made": "2026-10-18",
+  "line": null
  }
 ]

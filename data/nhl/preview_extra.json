@@ -1,56 +1,54 @@
 {
- "key": "CHI|DAL|2026-10-17",
- "updated": "2026-10-16T00:27Z",
- "start_utc": "2026-10-17T23:00Z",
+ "key": "DAL|BOS|2026-10-20",
+ "updated": "2026-10-18T04:37Z",
+ "start_utc": "2026-10-21T00:00Z",
  "espn": {
-  "event_id": "401892528",
-  "start_utc": "2026-10-17T23:00Z",
+  "event_id": "401892545",
+  "start_utc": "2026-10-21T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN+",
-   "CHSN",
-   "Prime Video (Local)"
+   "ESPN"
   ],
   "odds": null,
   "teams": {
-   "CHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-    "abbr": "CHI",
-    "record": "2-5-0",
-    "rank": null,
-    "home_away": "home"
-   },
    "DAL": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
     "abbr": "DAL",
-    "record": "3-3-1",
+    "record": "4-3-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "BOS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
+    "abbr": "BOS",
+    "record": "7-2-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "United Center",
-   "city": "Chicago",
-   "state": "IL",
+   "name": "American Airlines Center",
+   "city": "Dallas",
+   "state": "TX",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Chicago Blackhawks put their lineal championship belt on the line against the Dallas Stars at home. Chicago claimed the belt in their most recent victory and has yet to defend it, while Dallas brings extensive belt history with 105 previous reigns. The belt passes purely through on-ice results, with no polls or committees involved.",
+  "overview": "The Dallas Stars put their Belt Holders lineal championship on the line when they host the Boston Bruins on October 20, 2026. Dallas claimed the belt in their most recent victory but have yet to defend it in this reign, while Boston brings a five-game winning streak into American Airlines Center. The belt passes to whoever wins this game, with no committees or polls involved\u2014just the outcome on the ice.",
   "key_matchups": [
-   "Chicago's 2-5 record versus Dallas's 3-4 mark as both teams struggle early in the season",
-   "Recent head-to-head history favors Dallas, who won the most recent meeting 4-3",
-   "Both teams enter on single-game winning streaks after victories in their last outings"
+   "Boston's five-game win streak versus Dallas finding form with back-to-back victories after a rough patch",
+   "Dallas defending at home after earning 4-0 shutouts in two of their last five games",
+   "Boston's overwhelming 89-42-23 all-time head-to-head advantage against the Stars"
   ],
-  "betting_angles": "Despite holding home ice and the belt, Chicago enters as the Elo underdog with a 2-5 record compared to Dallas's 3-4 mark. The Stars own a 142-170-31 all-time edge in this matchup and took the most recent meeting 4-3. However, the Blackhawks did post a 5-3 victory over Pittsburgh in their last game, while Dallas needed a close 3-2 road win at Colorado.",
+  "betting_angles": "Boston enters as the hotter team with five straight wins and a 7-2 record, while Dallas sits at 4-4 despite winning their last two. The Bruins have dominated this matchup historically, holding an 89-42-23 edge in 154 all-time meetings. However, the Elo model favors Dallas at home, suggesting the underlying numbers see more balance than the records and history indicate.",
   "predicted_winner": "Dallas Stars",
-  "predicted_score": "Chicago Blackhawks 2, Dallas Stars 3",
-  "prediction_writeup": "The Elo model favors Dallas, and the numbers support that call. While both teams won their last games, Chicago's 2-5 record is concerning and they've been outscored badly in recent losses like 2-5 to Carolina and 1-4 at the Islanders. Dallas has shown defensive strength with shutout wins like 4-0 at Buffalo and 5-0 versus San Jose earlier in their last five. The Stars' 105 previous belt reigns suggest they know how to claim it, and as road favorites they should capture it here in a tight contest.",
-  "written": "2026-10-16",
+  "predicted_score": "Dallas Stars 3, Boston Bruins 2",
+  "prediction_writeup": "The Elo model's home-ice edge for Dallas tips the scale in what should be a tight contest between a hot Boston team and a Stars squad finding its footing. Dallas has shown defensive capability with two 4-0 shutouts in their last five games, while Boston's offense has been potent throughout their win streak. The Stars' recent 3-2 overtime-style wins suggest they can hang with elite opponents, and protecting home ice as belt holder gives them the intangible edge. A low-scoring, one-goal game favors the home favorite.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }

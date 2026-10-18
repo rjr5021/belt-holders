@@ -22,5 +22,19 @@
   "score": "Bayern Munich 3, RB Leipzig 1",
   "made": "2026-10-11",
   "line": null
+ },
+ {
+  "key": "Bayern Munchen|SC Freiburg|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "Bayern Munchen",
+  "challenger": "SC Freiburg",
+  "pick": "Bayern Munchen",
+  "score": "Bayern Munich 3, SC Freiburg 1",
+  "made": "2026-10-18",
+  "line": {
+   "details": "MUN -250",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

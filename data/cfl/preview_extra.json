@@ -1,21 +1,21 @@
 {
- "key": "BC|CGY|2026-10-17",
- "updated": "2026-10-10T00:44Z",
+ "key": "BC|WPG|2026-10-23",
+ "updated": "2026-10-18T04:38Z",
  "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The BC Lions bring the Belt Holders lineal championship to McMahon Stadium to face the Calgary Stampeders on October 17th, 2026. BC is riding a three-game winning streak and holds a 9-6 record, but Calgary has also won three straight and sits at 8-8. The Lions have yet to defend the belt in their current reign, making this their first title defense.",
+  "overview": "The BC Lions put their lineal championship belt on the line when they host the Winnipeg Blue Bombers on October 23rd, 2026. BC has defended the belt once in this reign and enters riding a four-game winning streak, while Winnipeg arrives struggling at 8-9 after dropping their last contest 27-35 at Edmonton.",
   "key_matchups": [
-   "BC's three-game win streak against Calgary's matching three-game surge sets up a clash of hot teams",
-   "Calgary holds a slim 45-42-1 edge in the all-time series, though BC took the most recent meeting 30-26 in August",
-   "The belt has changed hands 32 times between these rivals, with Calgary having held it 37 times previously"
+   "BC's four-game winning streak and explosive offense (41 points vs Ottawa, 48 vs Montreal) against a Winnipeg defense that allowed 35 to Edmonton and 37 to Montreal recently",
+   "Winnipeg's 35-25 all-time head-to-head edge versus BC's recent dominance, including a 35-19 win in their last meeting on 2026-07-30",
+   "The Lions' 10-6 record and home field advantage against a Blue Bombers squad that has lost two of three and sits below .500 at 8-9"
   ],
-  "betting_angles": "Both teams enter on identical three-game winning streaks, though BC's 9-6 record edges Calgary's 8-8 mark. The all-time head-to-head is nearly even at 45-42-1 in Calgary's favor, and the teams split their two 2026 meetings with the road team winning both times. The Elo model projects this as a toss-up, reflecting the balanced recent form and historical competitiveness.",
+  "betting_angles": "BC enters as the clear Elo favorite with momentum firmly on their side, winning four straight and posting a solid 10-6 record compared to Winnipeg's 8-9 mark. The Lions have scored 24 or more points in each of their last five games and won the most recent head-to-head meeting 35-19. However, Winnipeg holds the all-time series edge 35-30 and has held the belt 25 times previously, suggesting they know how to win these high-stakes contests.",
   "predicted_winner": "BC Lions",
-  "predicted_score": "BC Lions 35, Calgary Stampeders 32",
-  "prediction_writeup": "This projects as a tight contest between two teams hitting their stride, but BC gets the nod based on their superior 9-6 record and the Elo model calling it a toss-up despite the Lions playing on the road. Both teams are scoring prolifically during their win streaks, with Calgary posting 37, 45, and 40 points in their last three victories. The recent pattern of road teams winning in this matchup (both 2026 meetings went to the visitor) also favors the Lions. Expect a high-scoring affair with BC escaping Calgary with the belt intact.",
-  "written": "2026-10-10",
+  "predicted_score": "BC Lions 34, Winnipeg Blue Bombers 23",
+  "prediction_writeup": "The BC Lions have been on fire lately, winning four consecutive games and scoring at least 24 points in every outing during their last five contests. Their 10-6 record is strong, and they already handled Winnipeg 35-19 earlier this season on 2026-07-30. While the Blue Bombers hold the all-time series edge 35-30 and have belt experience with 25 previous reigns, their current 8-9 form and loss to Edmonton in their most recent game suggest they're not firing on all cylinders. The Elo model clearly favors BC, and the home side should have enough firepower to retain the belt with a comfortable double-digit victory.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

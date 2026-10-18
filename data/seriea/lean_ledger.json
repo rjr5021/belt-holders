@@ -26,5 +26,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|SSC Napoli|2026-10-24",
+  "date": "2026-10-24",
+  "holder": "AS Roma",
+  "challenger": "SSC Napoli",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, SSC Napoli 1",
+  "made": "2026-10-18",
+  "line": {
+   "details": "ROMA +130",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

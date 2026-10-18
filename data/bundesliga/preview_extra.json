@@ -1,49 +1,55 @@
 {
- "key": "Bayern Munchen|RasenBallsport Leipzig|2026-10-17",
- "updated": "2026-10-11T00:44Z",
- "start_utc": "2026-10-17T16:30Z",
+ "key": "Bayern Munchen|SC Freiburg|2026-10-25",
+ "updated": "2026-10-18T04:39Z",
+ "start_utc": "2026-10-25T16:30Z",
  "espn": {
-  "event_id": "401884772",
-  "start_utc": "2026-10-17T16:30Z",
+  "event_id": "401884759",
+  "start_utc": "2026-10-25T16:30Z",
   "state": "pre",
-  "tv": [],
-  "odds": null,
+  "tv": [
+   "Fandango"
+  ],
+  "odds": {
+   "details": "MUN -250",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "Bayern Munchen": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-    "abbr": "MUN",
-    "record": "3-2-0",
+   "SC Freiburg": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+    "abbr": "SCF",
+    "record": "4-1-0",
     "rank": null,
     "home_away": "home"
    },
-   "RasenBallsport Leipzig": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-    "abbr": "RBL",
-    "record": "3-0-2",
+   "Bayern Munchen": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "abbr": "MUN",
+    "record": "4-2-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Allianz Arena",
-   "city": "M\u00fcnchen",
+   "name": "Europa-Park Stadion",
+   "city": "Freiburg im Breisgau",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich put their lineal championship belt on the line when they host RB Leipzig on October 17, 2026. The belt has changed hands with every result since the league's first game, and Bayern are currently enjoying their 14th successful defense in this reign. Leipzig have held the belt 4 times previously and will look to claim it once more.",
+  "overview": "Bayern Munich put their lineal championship belt on the line when they visit SC Freiburg on October 25, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back through Bundesliga history. Bayern have defended the belt 14 times in this reign and will look to extend that streak against a Freiburg side that has held the belt 6 times before.",
   "key_matchups": [
-   "Bayern's recent dominance in the series: five straight meetings without a Leipzig win, including 6-0 and 5-1 victories in 2025",
-   "Contrasting form: Bayern riding a 2-game win streak including a 7-0 demolition, while Leipzig stumble in off a 0-2 loss",
-   "Home fortress vs struggling visitors: Bayern's 3-0-1 record this season against Leipzig's inconsistent 2-2 mark"
+   "Bayern's attacking form after a 7\u20130 demolition of Union Berlin meets Freiburg's recent defensive slip in a 2\u20132 draw at Frankfurt",
+   "Historical dominance: Bayern hold a commanding 38-4-10 all-time edge and have won 14 of 15 belt meetings between these sides",
+   "Both teams enter on identical 3-0-1 records this season, but Bayern have won their last 2 while Freiburg just drew"
   ],
-  "betting_angles": "Bayern Munich enter as clear Elo favorites with momentum firmly on their side, having won their last 2 games and posting a 3-0-1 record this season. Leipzig's mixed form shows vulnerability with losses in 2 of their last 3 outings, and the head-to-head history heavily favors the hosts at 11-2-7 all-time. The recent meetings tell an even starker story, with Bayern unbeaten in the last 5 and winning 4 of them by margins of 3 goals or more.",
+  "betting_angles": "Bayern Munich are the Elo favorites and boast overwhelming historical dominance with 38 wins in 52 all-time meetings. The visitors have won their last 2 games and scored 7\u20130 most recently, while Freiburg's four-game win streak ended with a 2\u20132 draw at Frankfurt. Bayern have also won four of the last five head-to-head meetings, including a 3-2 victory at Freiburg in April 2026.",
   "predicted_winner": "Bayern Munich",
-  "predicted_score": "Bayern Munich 3, RB Leipzig 1",
-  "prediction_writeup": "Bayern Munich's overwhelming recent form and historical dominance in this matchup make them strong favorites to retain the belt. Their 7-0 demolition of Union Berlin demonstrates attacking prowess, while Leipzig's 0-2 loss to Leverkusen exposed defensive fragility. The head-to-head record speaks volumes: Bayern have won 11 of 20 all-time meetings and haven't lost to Leipzig in their last 5 encounters, including three wins by 4+ goals. With the Elo model backing the hosts and Leipzig showing inconsistency at 2-2 this season, expect Bayern to defend the belt successfully for a 15th consecutive time.",
-  "written": "2026-10-11",
+  "predicted_score": "Bayern Munich 3, SC Freiburg 1",
+  "prediction_writeup": "Bayern Munich's recent 7\u20130 thrashing of Union Berlin showcases the kind of attacking firepower that has overwhelmed Freiburg historically. While Freiburg impressed with wins like 5\u20130 over M\u00f6nchengladbach and 4\u20131 results against both Bremen and Leipzig, their all-time record of just 4 wins in 52 meetings tells the story. Bayern have defended this belt 14 times already in this reign and won 14 of 15 belt meetings between these clubs. The Elo model favors the visitors, and recent form supports that edge despite both teams sitting at 3-0-1 this season.",
+  "written": "2026-10-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
