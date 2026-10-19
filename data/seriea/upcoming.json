@@ -1,41 +1,5 @@
 [
  {
-  "id": "of-2026-64",
-  "date": "2026-10-18",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Udinese Calcio",
-  "away": "US Lecce",
-  "start_et": "06:30"
- },
- {
-  "id": "of-2026-65",
-  "date": "2026-10-18",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ACF Fiorentina",
-  "away": "Como Calcio",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-66",
-  "date": "2026-10-18",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Milan",
-  "away": "Atalanta",
-  "start_et": "12:00"
- },
- {
-  "id": "of-2026-67",
-  "date": "2026-10-18",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Juventus",
-  "away": "Lazio Roma",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-68",
   "date": "2026-10-19",
   "season": 2026,

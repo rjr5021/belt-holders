@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876938",
-  "date": "2026-10-18",
-  "season_type": "regular",
-  "home": "Monterrey",
-  "away": "Pachuca",
-  "home_id": "220",
-  "away_id": "234",
-  "home_abbr": "MTY",
-  "away_abbr": "PAC",
-  "home_loc": "Monterrey",
-  "away_loc": "Pachuca",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "21:00",
-  "season": 2026,
-  "home_name": "Monterrey",
-  "away_name": "Pachuca"
- },
- {
   "id": "espn-401876934",
   "date": "2026-10-20",
   "season_type": "regular",
