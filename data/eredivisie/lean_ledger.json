@@ -26,5 +26,19 @@
    "over_under": null,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AZ Alkmaar|FC Twente|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "AZ Alkmaar",
+  "challenger": "FC Twente",
+  "pick": "AZ Alkmaar",
+  "score": "AZ Alkmaar 2, FC Twente 1",
+  "made": "2026-10-19",
+  "line": {
+   "details": "AZ +110",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

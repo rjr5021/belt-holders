@@ -22,5 +22,19 @@
   "score": "Paris FC 1, Stade Rennes 2",
   "made": "2026-10-11",
   "line": null
+ },
+ {
+  "key": "Paris FC|RC Lens|2026-10-24",
+  "date": "2026-10-24",
+  "holder": "Paris FC",
+  "challenger": "RC Lens",
+  "pick": "RC Lens",
+  "score": "Paris FC 1, RC Lens 2",
+  "made": "2026-10-19",
+  "line": {
+   "details": "RCL +130",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

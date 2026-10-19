@@ -1,55 +1,57 @@
 {
- "key": "Paris FC|Stade Rennes|2026-10-18",
- "updated": "2026-10-11T00:44Z",
- "start_utc": "2026-10-18T15:15Z",
+ "key": "Paris FC|RC Lens|2026-10-24",
+ "updated": "2026-10-19T04:45Z",
+ "start_utc": "2026-10-24T18:45Z",
  "espn": {
-  "event_id": "401876433",
-  "start_utc": "2026-10-18T15:15Z",
+  "event_id": "401876427",
+  "start_utc": "2026-10-24T18:45Z",
   "state": "pre",
   "tv": [],
-  "odds": null,
+  "odds": {
+   "details": "RCL +130",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "Paris FC": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-    "abbr": "PAR",
-    "record": "3-2-1",
+   "RC Lens": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "abbr": "RCL",
+    "record": "3-1-3",
     "rank": null,
     "home_away": "home"
    },
-   "Stade Rennes": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-    "abbr": "REN",
-    "record": "3-1-1",
+   "Paris FC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "abbr": "PAR",
+    "record": "4-2-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade Jean Bouin",
-   "city": "Paris",
+   "name": "Stade Bollaert-Delelis",
+   "city": "Lens",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The visitors have held the belt 53 times before and will look to reclaim it, while Paris FC seeks their first successful defense. This marks the first time these two sides have ever met with the belt at stake.",
+  "overview": "Paris FC bring the lineal championship belt to the Stade Bollaert-Delelis having yet to defend it in their current reign. RC Lens, who have held the belt 41 times previously, will look to reclaim the title in a matchup where they've historically dominated with a perfect 4-0 record against Paris FC.",
   "key_matchups": [
-   "Paris FC's home form against Rennes' historical dominance in the head-to-head series (4-0-2 all-time)",
-   "Rennes looking to bounce back from a 0\u20134 loss at Olympique Lyon against a Paris FC side coming off a 2\u20131 win",
-   "Paris FC's unbeaten home stretch (3\u20130 vs OGC Nice, 2\u20131 vs RC Strasbourg) tested by experienced belt holders"
+   "Paris FC's solid defensive form (two 0-0 draws in their last five) against RC Lens' recent struggles finding consistency after their 5-2 win over Auxerre",
+   "RC Lens' historical dominance in this fixture, including a 5-0 thrashing in February 2026, versus Paris FC's improved 3-0-2 form this season",
+   "Paris FC seeking their first-ever win against Lens while defending the belt for the first time in this reign"
   ],
-  "betting_angles": "Paris FC enter with a 3-0-2 record this season compared to Rennes' 3-1-1 mark, though the Elo model rates this as a toss-up. Rennes have never lost to Paris FC in regulation across 6 all-time meetings, winning their last encounter 2-1 in May 2026. Paris FC have won their last 1 game while Rennes have lost their last 1 game, setting up contrasting recent form.",
-  "predicted_winner": "Stade Rennes",
-  "predicted_score": "Paris FC 1, Stade Rennes 2",
-  "prediction_writeup": "Despite the Elo model calling this a toss-up and Paris FC's solid home results this season, Rennes' historical edge in this matchup is impossible to ignore. The visitors have won 4 of 6 all-time meetings and took the most recent encounter 2-1. While Rennes' 0\u20134 loss at Olympique Lyon was a setback, they had previously strung together three straight wins including victories over Olympique Marseille and Le Mans. With 53 previous belt reigns to their name, Rennes have the experience to reclaim the belt in a tight road contest.",
-  "written": "2026-10-11",
+  "betting_angles": "Paris FC arrive unbeaten in their last five with a 3-0-2 season record, while RC Lens stumble in at 1-3-1 with three losses in their last four matches. The Elo model favors the home side despite RC Lens' perfect 4-0 historical record in this matchup, which includes commanding victories like the 5-0 result in February. Paris FC's recent form\u2014including a 3-2 win at Marseille and a 3-0 victory over Nice\u2014contrasts sharply with Lens' current slide.",
+  "predicted_winner": "RC Lens",
+  "predicted_score": "Paris FC 1, RC Lens 2",
+  "prediction_writeup": "While Paris FC have been the better side this season with their 3-0-2 record, RC Lens' perfect 4-0 head-to-head history is impossible to ignore. The hosts have never lost to Paris FC, and their 41 previous belt reigns suggest they know how to perform when the lineal title is on the line. Paris FC's recent defensive solidity may keep it close, but Lens should edge a tight contest at home and reclaim the belt. The Elo model's favor toward Lens aligns with both the historical dominance and home advantage.",
+  "written": "2026-10-19",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "18"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
