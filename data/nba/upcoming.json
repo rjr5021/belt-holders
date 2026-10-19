@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "15:00",
   "venue": "Little Caesars Arena",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909089",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909837",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": 8.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909838",
@@ -153,7 +153,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": 5.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909841",
@@ -192,7 +192,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909094",
