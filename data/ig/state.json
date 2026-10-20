@@ -70,6 +70,21 @@
    "opponent_short": "76ers",
    "reign_no": 204,
    "since": "2026-06-10"
+  },
+  "nhl|Dallas Stars|Boston Bruins|2026-10-20": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-20",
+   "defenses": 0,
+   "espn_id": "401892545",
+   "espn_path": "hockey/nhl",
+   "game_no": 8442,
+   "holder": "Dallas Stars",
+   "holder_short": "Stars",
+   "lg": "nhl",
+   "opponent": "Boston Bruins",
+   "opponent_short": "Bruins",
+   "reign_no": 106,
+   "since": "2026-10-17"
   }
  },
  "previews": [
