@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-68",
-  "date": "2026-10-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Monza",
-  "away": "Cagliari Calcio",
-  "start_et": "12:30"
- },
- {
-  "id": "of-2026-69",
-  "date": "2026-10-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Parma FC",
-  "away": "Torino FC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-70",
   "date": "2026-10-23",
   "season": 2026,
