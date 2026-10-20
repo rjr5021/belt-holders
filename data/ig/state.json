@@ -55,7 +55,23 @@
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
   "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/"
  ],
- "pending": {},
+ "pending": {
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-20": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-20",
+   "defenses": 1,
+   "espn_id": "401909089",
+   "espn_path": "basketball/nba",
+   "game_no": 7530,
+   "holder": "New York Knicks",
+   "holder_short": "Knicks",
+   "lg": "nba",
+   "opponent": "Philadelphia 76ers",
+   "opponent_short": "76ers",
+   "reign_no": 204,
+   "since": "2026-06-10"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
