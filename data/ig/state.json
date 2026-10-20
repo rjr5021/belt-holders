@@ -53,7 +53,8 @@
   "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
   "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
-  "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/"
+  "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/",
+  "2026-10-20 13:47 preview nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DeuZ68GiUGZ/"
  ],
  "pending": {
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20": {
@@ -108,7 +109,8 @@
   "laliga|Athletic Bilbao|Valencia CF|2026-10-17",
   "seriea|AS Roma|Genoa CFC|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
-  "ncaah|Michigan|Denver|2026-10-17"
+  "ncaah|Michigan|Denver|2026-10-17",
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-20"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
