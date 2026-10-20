@@ -78,7 +78,7 @@
   "source": "espn",
   "season_year": 2026,
   "stype": 14277,
-  "start_et": "23:00",
+  "start_et": "23:10",
   "season": 2026,
   "home_name": "Tigres UANL",
   "away_name": "Le\u00f3n"
@@ -162,7 +162,7 @@
   "source": "espn",
   "season_year": 2026,
   "stype": 14277,
-  "start_et": "23:00",
+  "start_et": "23:10",
   "season": 2026,
   "home_name": "Pachuca",
   "away_name": "Cruz Azul"
@@ -288,7 +288,7 @@
   "source": "espn",
   "season_year": 2026,
   "stype": 14277,
-  "start_et": "23:00",
+  "start_et": "23:10",
   "season": 2026,
   "home_name": "Pumas UNAM",
   "away_name": "Tigres UANL"
@@ -315,27 +315,6 @@
   "away_name": "Puebla"
  },
  {
-  "id": "espn-401876922",
-  "date": "2026-10-25",
-  "season_type": "regular",
-  "home": "Am\u00e9rica",
-  "away": "Pachuca",
-  "home_id": "227",
-  "away_id": "234",
-  "home_abbr": "AME",
-  "away_abbr": "PAC",
-  "home_loc": "Am\u00e9rica",
-  "away_loc": "Pachuca",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "21:00",
-  "season": 2026,
-  "home_name": "Am\u00e9rica",
-  "away_name": "Pachuca"
- },
- {
   "id": "espn-401876921",
   "date": "2026-10-25",
   "season_type": "regular",
@@ -357,6 +336,27 @@
   "away_name": "Cruz Azul"
  },
  {
+  "id": "espn-401876922",
+  "date": "2026-10-25",
+  "season_type": "regular",
+  "home": "Am\u00e9rica",
+  "away": "Pachuca",
+  "home_id": "227",
+  "away_id": "234",
+  "home_abbr": "AME",
+  "away_abbr": "PAC",
+  "home_loc": "Am\u00e9rica",
+  "away_loc": "Pachuca",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 14277,
+  "start_et": "21:05",
+  "season": 2026,
+  "home_name": "Am\u00e9rica",
+  "away_name": "Pachuca"
+ },
+ {
   "id": "espn-401876920",
   "date": "2026-10-25",
   "season_type": "regular",
@@ -372,7 +372,7 @@
   "source": "espn",
   "season_year": 2026,
   "stype": 14277,
-  "start_et": "23:00",
+  "start_et": "23:10",
   "season": 2026,
   "home_name": "Tijuana",
   "away_name": "Santos"
