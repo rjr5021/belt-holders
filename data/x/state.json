@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-16",
+ "digest": "2026-10-20",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -377,79 +377,61 @@
    "defense",
    4,
    3
+  ],
+  [
+   "2026-10-20T13:47-04:00",
+   "digest",
+   2
   ]
  ],
  "today": {
-  "day": "2026-10-18",
+  "day": "2026-10-20",
   "games": [
    {
-    "belt": "NFL",
+    "belt": "NBA",
     "colors": [
-     "#006778",
-     "#d7a22a"
+     "#006bb6",
+     "#f58426"
     ],
-    "defenses": 2,
-    "holder": "Jacksonville Jaguars",
-    "holder_short": "Jaguars",
+    "defenses": 1,
+    "holder": "New York Knicks",
+    "holder_short": "Knicks",
     "home": true,
-    "lg": "nfl",
-    "name": "The NFL Belt",
-    "neutral": true,
-    "next_url": "https://beltholders.com/nfl/next/",
-    "opponent": "Houston Texans",
-    "opponent_short": "Texans",
-    "reign_no": 6,
-    "since": "2026-09-27",
-    "time_et": "09:30",
-    "tv": "NFL Net",
-    "url": "https://beltholders.com/nfl/",
-    "win_prob": 0.576
+    "lg": "nba",
+    "name": "The NBA Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nba/next/",
+    "opponent": "Philadelphia 76ers",
+    "opponent_short": "76ers",
+    "reign_no": 204,
+    "since": "2026-06-10",
+    "time_et": "19:00",
+    "tv": "NBC \u00b7 ERADM",
+    "url": "https://beltholders.com/nba/",
+    "win_prob": 0.834
    },
    {
-    "belt": "Ligue 1",
+    "belt": "NHL",
     "colors": [
-     "#1d2f5c",
-     "#ffffff"
+     "#006847",
+     "#8f8f8c"
     ],
     "defenses": 0,
-    "holder": "Paris FC",
-    "holder_short": "Paris",
+    "holder": "Dallas Stars",
+    "holder_short": "Stars",
     "home": true,
-    "lg": "ligue1",
-    "name": "The Ligue 1 Belt",
+    "lg": "nhl",
+    "name": "The NHL Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/ligue1/next/",
-    "opponent": "Stade Rennes",
-    "opponent_short": "Rennes",
-    "reign_no": 2,
-    "since": "2026-09-19",
-    "time_et": "11:15",
-    "tv": null,
-    "url": "https://beltholders.com/ligue1/",
-    "win_prob": 0.548
-   },
-   {
-    "belt": "Eredivisie",
-    "colors": [
-     "#e30613",
-     "#ffffff"
-    ],
-    "defenses": 11,
-    "holder": "AZ Alkmaar",
-    "holder_short": "AZ",
-    "home": false,
-    "lg": "eredivisie",
-    "name": "The Eredivisie Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/eredivisie/next/",
-    "opponent": "SC Cambuur",
-    "opponent_short": "Cambuur",
-    "reign_no": 19,
-    "since": "2026-04-12",
-    "time_et": "08:30",
-    "tv": "ESPN+",
-    "url": "https://beltholders.com/eredivisie/",
-    "win_prob": 0.633
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Boston Bruins",
+    "opponent_short": "Bruins",
+    "reign_no": 106,
+    "since": "2026-10-17",
+    "time_et": "20:00",
+    "tv": "ESPN",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.567
    }
   ]
  }
