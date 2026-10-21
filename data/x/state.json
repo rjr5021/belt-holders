@@ -31,6 +31,9 @@
   "laliga|2026-10-17|athleticbilbao|valencia": {
    "end": "2026-10-17T16:56-04:00"
   },
+  "laliga|2026-10-21|athleticbilbao|levanteud": {
+   "danger": "2026-10-21T14:49-04:00"
+  },
   "ligamx|2026-10-10|atlante|queretaro": {
    "danger": "2026-10-10T19:47-04:00",
    "end": "2026-10-10T20:59-04:00"
@@ -39,6 +42,7 @@
    "danger": "2026-10-17T19:47-04:00",
    "end": "2026-10-17T21:02-04:00"
   },
+  "ligamx|2026-10-21|santoslaguna|pumasunam": {},
   "ligue1|2026-10-10|paris|lorient": {
    "danger": "2026-10-10T16:17-04:00",
    "end": "2026-10-10T16:39-04:00"
