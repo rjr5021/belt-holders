@@ -74,6 +74,21 @@
    "opponent_short": "Levante",
    "reign_no": 76,
    "since": "2026-09-05"
+  },
+  "ligamx|Santos Laguna|Pumas UNAM|2026-10-21": {
+   "belt_name": "The Liga MX Belt",
+   "date": "2026-10-21",
+   "defenses": 0,
+   "espn_id": "401876929",
+   "espn_path": "soccer/mex.1",
+   "game_no": 542,
+   "holder": "Santos Laguna",
+   "holder_short": "Santos",
+   "lg": "ligamx",
+   "opponent": "Pumas UNAM",
+   "opponent_short": "Pumas",
+   "reign_no": 9,
+   "since": "2026-10-17"
   }
  },
  "previews": [
