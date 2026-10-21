@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909089",
-  "date": "2026-10-20",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "PHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Madison Square Garden",
-  "spread": 4.5
- },
- {
   "id": "espn-401909090",
   "date": "2026-10-20",
   "season": 2026,
@@ -75,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909837",
@@ -127,7 +114,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 8.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909092",
@@ -153,7 +140,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Moda Center",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909842",
