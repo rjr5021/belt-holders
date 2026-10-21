@@ -12,5 +12,19 @@
    "over_under": 231.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NYK|BOS|2026-10-23",
+  "date": "2026-10-23",
+  "holder": "NYK",
+  "challenger": "BOS",
+  "pick": "NYK",
+  "score": "New York Knicks 108, Boston Celtics 103",
+  "made": "2026-10-21",
+  "line": {
+   "details": "BOS -2.5",
+   "over_under": 223.5,
+   "provider": "DraftKings"
+  }
  }
 ]

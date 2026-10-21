@@ -1,55 +1,59 @@
 {
- "key": "NYK|PHI|2026-10-20",
- "updated": "2026-09-29T17:10Z",
- "start_utc": "2026-10-20T23:00Z",
+ "key": "NYK|BOS|2026-10-23",
+ "updated": "2026-10-21T00:39Z",
+ "start_utc": "2026-10-23T23:00Z",
  "espn": {
-  "event_id": "401909089",
-  "start_utc": "2026-10-20T23:00Z",
+  "event_id": "401909095",
+  "start_utc": "2026-10-23T23:00Z",
   "state": "pre",
   "tv": [
-   "NBC"
+   "Prime Video"
   ],
   "odds": {
-   "details": "NY -5.5",
-   "over_under": 231.5,
+   "details": "BOS -2.5",
+   "over_under": 223.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "NYK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-    "abbr": "NY",
-    "record": "0-0",
+   "BOS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "abbr": "BOS",
+    "record": "0-1",
     "rank": null,
     "home_away": "home"
    },
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-    "abbr": "PHI",
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
     "record": "0-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Madison Square Garden",
-   "city": "New York",
-   "state": "NY",
+   "name": "TD Garden",
+   "city": "Boston",
+   "state": "MA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The New York Knicks put their Belt Holders lineal championship on the line when they host the Philadelphia 76ers at home. New York claimed the belt with a 94-90 playoff victory over San Antonio and will be looking to extend their reign against a Philadelphia team they've dominated recently, winning their last five meetings by an average margin of over 30 points.",
+  "overview": "The New York Knicks bring the lineal championship belt to Boston for a Friday night showdown with the Celtics. New York has defended the belt 1 time in this reign and looks to extend their hold, while Boston seeks to reclaim a belt they've held 295 times previously in franchise history.",
   "key_matchups": [
-   "New York's recent playoff momentum (2-0 in their last two) versus Philadelphia's four-game skid",
-   "Home court advantage for the Knicks, who've beaten the 76ers by 49, 39, 6, 39, and 49 points in their last five matchups",
-   "The 83 previous belt meetings between these storied franchises, with Philadelphia's 200 prior reigns suggesting historical competitiveness that recent results don't reflect"
+   "Hot vs. cold: Knicks riding a 2-game winning streak against Celtics mired in a 4-game skid",
+   "Recent dominance: New York has won 4 of the last 5 head-to-head meetings dating back to October 2025",
+   "Belt experience: These teams have met 136 times with the championship on the line"
   ],
-  "betting_angles": "The Knicks are 83% favorites per Elo and laying just 5.5 points despite winning the last five meetings by massive margins, including three blowouts of 30+ points. Philadelphia's 50-44 record suggests they're a capable playoff team, but their recent form against New York specifically has been disastrous, losing four straight by an average of 34 points. The 231.5 total seems high given the Knicks held the Spurs to 90 in their last outing, though their playoff meetings with Philadelphia have frequently sailed over that number.",
+  "betting_angles": "The Knicks have won their last 2 games and enter 0-0 on the season, while Boston stumbles in at 0-1 after losing their last 4 games including a recent 113-121 defeat at Detroit. New York took 4 of the last 5 head-to-head matchups, including a 112-106 victory in their most recent April meeting. The Elo model calls this a toss-up despite the contrasting form lines.",
   "predicted_winner": "New York Knicks",
-  "predicted_score": "New York Knicks 118, Philadelphia 76ers 106",
-  "prediction_writeup": "",
-  "written": "2026-09-28",
-  "model": "claude-sonnet-4-5"
+  "predicted_score": "New York Knicks 108, Boston Celtics 103",
+  "prediction_writeup": "The Knicks arrive with momentum from consecutive wins, most recently a 94-90 playoff victory at San Antonio, while Boston is reeling from 4 straight losses. New York's recent mastery in this matchup is hard to ignore, having won the last meeting 112-106 and taking 4 of 5 overall since last October. Though Boston historically dominates the all-time series 347-228 and has extensive belt experience with 295 previous reigns, current form favors the visitors. The Elo model sees a toss-up, but the Knicks' winning ways should carry the belt back to New York.",
+  "written": "2026-10-21",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": []
+  }
  }
 }

@@ -1,13 +1,15 @@
 {
- "key": "DAL|BOS|2026-10-20",
- "updated": "2026-10-18T04:37Z",
- "start_utc": "2026-10-21T00:00Z",
+ "key": "DAL|WPG|2026-10-22",
+ "updated": "2026-10-21T00:40Z",
+ "start_utc": "2026-10-23T00:00Z",
  "espn": {
-  "event_id": "401892545",
-  "start_utc": "2026-10-21T00:00Z",
+  "event_id": "401892559",
+  "start_utc": "2026-10-23T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN"
+   "ESPN+",
+   "KDFW 4",
+   "Prime Video (Local)"
   ],
   "odds": null,
   "teams": {
@@ -18,10 +20,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "BOS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
-    "abbr": "BOS",
-    "record": "7-2-0",
+   "WPG": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+    "abbr": "WPG",
+    "record": "4-2-2",
     "rank": null,
     "home_away": "away"
    }
@@ -35,21 +37,23 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Dallas Stars put their Belt Holders lineal championship on the line when they host the Boston Bruins on October 20, 2026. Dallas claimed the belt in their most recent victory but have yet to defend it in this reign, while Boston brings a five-game winning streak into American Airlines Center. The belt passes to whoever wins this game, with no committees or polls involved\u2014just the outcome on the ice.",
+  "overview": "Dallas has yet to defend the belt in their current reign, making this their first test as holders. The belt passes to whoever wins this game, with no committees or polls involved.",
   "key_matchups": [
-   "Boston's five-game win streak versus Dallas finding form with back-to-back victories after a rough patch",
-   "Dallas defending at home after earning 4-0 shutouts in two of their last five games",
-   "Boston's overwhelming 89-42-23 all-time head-to-head advantage against the Stars"
+   "Dallas riding momentum with 2 straight wins, including a 4-0 shutout at Chicago in their most recent outing",
+   "Winnipeg struggling with 2 consecutive losses after a strong 5-2 victory over Minnesota earlier in their last 5",
+   "Dallas owns a 41-29 edge all-time in the head-to-head series and has won all 5 of the most recent meetings"
   ],
-  "betting_angles": "Boston enters as the hotter team with five straight wins and a 7-2 record, while Dallas sits at 4-4 despite winning their last two. The Bruins have dominated this matchup historically, holding an 89-42-23 edge in 154 all-time meetings. However, the Elo model favors Dallas at home, suggesting the underlying numbers see more balance than the records and history indicate.",
+  "betting_angles": "The Elo model favors Dallas in this matchup, and recent form supports that edge with the Stars winning their last 2 games while the Jets have dropped their last 2. Both teams enter at 4-4 on the season, but Dallas holds a commanding 41-29 advantage in the all-time series and swept all 5 of their most recent meetings. The Stars also posted shutout victories of 4-0 in two of their last 5 games.",
   "predicted_winner": "Dallas Stars",
-  "predicted_score": "Dallas Stars 3, Boston Bruins 2",
-  "prediction_writeup": "The Elo model's home-ice edge for Dallas tips the scale in what should be a tight contest between a hot Boston team and a Stars squad finding its footing. Dallas has shown defensive capability with two 4-0 shutouts in their last five games, while Boston's offense has been potent throughout their win streak. The Stars' recent 3-2 overtime-style wins suggest they can hang with elite opponents, and protecting home ice as belt holder gives them the intangible edge. A low-scoring, one-goal game favors the home favorite.",
-  "written": "2026-10-18",
+  "predicted_score": "Dallas Stars 3, Winnipeg Jets 1",
+  "prediction_writeup": "Dallas enters with superior recent form, having won their last 2 games including a dominant 4-0 victory at Chicago. The Stars hold a commanding 41-29 edge in the all-time series and have won all 5 of the most recent meetings between these teams, including a 3-0 shutout on April 2, 2026. While both teams sit at 4-4 this season, the Elo model favors Dallas at home, and Winnipeg's 2-game losing streak suggests they're trending the wrong way. The Stars should defend the belt successfully in their first test as holders.",
+  "written": "2026-10-21",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "22"
+   ]
   }
  }
 }
