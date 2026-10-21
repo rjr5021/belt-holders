@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909091",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909839",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 10.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909092",
