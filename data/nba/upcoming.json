@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Kia Center",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909835",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909091",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909837",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": 9.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909838",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909839",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 9.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909092",
@@ -166,7 +166,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Paycom Center",
-  "spread": 8.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909848",
