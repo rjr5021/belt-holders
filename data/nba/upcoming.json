@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909834",
-  "date": "2026-10-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ORL",
-  "away": "ATL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Kia Center",
-  "spread": 2.5
- },
- {
-  "id": "espn-401909835",
-  "date": "2026-10-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "WSH",
-  "away": "MIL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Capital One Arena",
-  "spread": 4.5
- },
- {
   "id": "espn-401909091",
   "date": "2026-10-21",
   "season": 2026,
@@ -88,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": -3.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909840",
@@ -101,7 +75,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 9.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909092",
@@ -140,7 +114,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": 4.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909093",
@@ -153,7 +127,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 2.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909094",
