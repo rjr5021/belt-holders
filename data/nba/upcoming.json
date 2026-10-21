@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909090",
-  "date": "2026-10-20",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "OKC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:30",
-  "venue": "Frost Bank Center",
-  "spread": -1.5
- },
- {
   "id": "espn-401909834",
   "date": "2026-10-21",
   "season": 2026,
@@ -62,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909837",
