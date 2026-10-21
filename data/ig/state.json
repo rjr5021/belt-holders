@@ -59,7 +59,23 @@
   "2026-10-20 22:48 result nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DevXxk8FNSf/",
   "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/"
  ],
- "pending": {},
+ "pending": {
+  "laliga|Athletic Bilbao|Levante UD|2026-10-21": {
+   "belt_name": "The La Liga Belt",
+   "date": "2026-10-21",
+   "defenses": 2,
+   "espn_id": "401882870",
+   "espn_path": "soccer/esp.1",
+   "game_no": 3116,
+   "holder": "Athletic Bilbao",
+   "holder_short": "Athletic",
+   "lg": "laliga",
+   "opponent": "Levante UD",
+   "opponent_short": "Levante",
+   "reign_no": 76,
+   "since": "2026-09-05"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
