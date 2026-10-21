@@ -1,58 +1,58 @@
 {
- "key": "NYK|BOS|2026-10-23",
- "updated": "2026-10-21T00:39Z",
- "start_utc": "2026-10-23T23:00Z",
+ "key": "PHI|CLE|2026-10-22",
+ "updated": "2026-10-21T07:42Z",
+ "start_utc": "2026-10-22T23:00Z",
  "espn": {
-  "event_id": "401909095",
-  "start_utc": "2026-10-23T23:00Z",
+  "event_id": "401909093",
+  "start_utc": "2026-10-22T23:00Z",
   "state": "pre",
   "tv": [
-   "Prime Video"
+   "ESPN"
   ],
   "odds": {
-   "details": "BOS -2.5",
-   "over_under": 223.5,
+   "details": "PHI -2.5",
+   "over_under": 235.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "BOS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-    "abbr": "BOS",
-    "record": "0-1",
+   "PHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "abbr": "PHI",
+    "record": "1-0",
     "rank": null,
     "home_away": "home"
    },
-   "NYK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-    "abbr": "NY",
+   "CLE": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "abbr": "CLE",
     "record": "0-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "TD Garden",
-   "city": "Boston",
-   "state": "MA",
+   "name": "Xfinity Mobile Arena",
+   "city": "Philadelphia",
+   "state": "PA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The New York Knicks bring the lineal championship belt to Boston for a Friday night showdown with the Celtics. New York has defended the belt 1 time in this reign and looks to extend their hold, while Boston seeks to reclaim a belt they've held 295 times previously in franchise history.",
+  "overview": "The Philadelphia 76ers put their Belt Holders championship on the line when they host the Cleveland Cavaliers on October 22nd, 2026. Philadelphia captured the belt with their most recent victory, a 106-100 win at New York Knicks, and have yet to defend it in this reign. The Cavaliers, who have held the belt 84 times previously, arrive on a four-game losing streak.",
   "key_matchups": [
-   "Hot vs. cold: Knicks riding a 2-game winning streak against Celtics mired in a 4-game skid",
-   "Recent dominance: New York has won 4 of the last 5 head-to-head meetings dating back to October 2025",
-   "Belt experience: These teams have met 136 times with the championship on the line"
+   "Philadelphia's momentum after winning 106-100 at New York versus Cleveland's four-game skid, most recently a 93-130 playoff loss",
+   "Cleveland's recent dominance in the head-to-head series, winning four of the last five meetings dating back to January 2025",
+   "The 76ers' home court advantage in a matchup the Elo model rates as a toss-up despite their 1-0 start"
   ],
-  "betting_angles": "The Knicks have won their last 2 games and enter 0-0 on the season, while Boston stumbles in at 0-1 after losing their last 4 games including a recent 113-121 defeat at Detroit. New York took 4 of the last 5 head-to-head matchups, including a 112-106 victory in their most recent April meeting. The Elo model calls this a toss-up despite the contrasting form lines.",
-  "predicted_winner": "New York Knicks",
-  "predicted_score": "New York Knicks 108, Boston Celtics 103",
-  "prediction_writeup": "The Knicks arrive with momentum from consecutive wins, most recently a 94-90 playoff victory at San Antonio, while Boston is reeling from 4 straight losses. New York's recent mastery in this matchup is hard to ignore, having won the last meeting 112-106 and taking 4 of 5 overall since last October. Though Boston historically dominates the all-time series 347-228 and has extensive belt experience with 295 previous reigns, current form favors the visitors. The Elo model sees a toss-up, but the Knicks' winning ways should carry the belt back to New York.",
+  "betting_angles": "Philadelphia enters with fresh momentum from their 106-100 victory and home court advantage in what the Elo model projects as essentially a coin flip. However, Cleveland has owned this matchup recently, winning four of the last five meetings including a 115-101 victory on March 9th, 2026. The Cavaliers' four-game losing streak is concerning, though all four losses came in the playoffs against the same opponent, while Philadelphia is just 1-0 after dropping four straight playoff games themselves.",
+  "predicted_winner": "Philadelphia 76ers",
+  "predicted_score": "Philadelphia 76ers 112, Cleveland Cavaliers 107",
+  "prediction_writeup": "The 76ers successfully defend the belt in their first reign. While Cleveland has dominated the recent head-to-head history with four wins in the last five meetings, Philadelphia has the advantages that matter most in this spot: home court, a fresh season start at 1-0, and recent momentum from their 106-100 road win. The Cavaliers' four-game losing streak creates doubt, even if those losses came in playoff pressure situations. In a toss-up game according to the Elo model, the 76ers' current form and venue tip the scales. The all-time series is remarkably even at 122-117 across 239 games, suggesting this will be tight throughout.",
   "written": "2026-10-21",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }

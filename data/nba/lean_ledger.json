@@ -26,5 +26,19 @@
    "over_under": 223.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "PHI|CLE|2026-10-22",
+  "date": "2026-10-22",
+  "holder": "PHI",
+  "challenger": "CLE",
+  "pick": "PHI",
+  "score": "Philadelphia 76ers 112, Cleveland Cavaliers 107",
+  "made": "2026-10-21",
+  "line": {
+   "details": "PHI -2.5",
+   "over_under": 235.5,
+   "provider": "DraftKings"
+  }
  }
 ]
