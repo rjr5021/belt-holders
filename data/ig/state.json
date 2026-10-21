@@ -57,24 +57,10 @@
   "2026-10-20 13:47 preview nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DeuZ68GiUGZ/",
   "2026-10-20 13:47 preview nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DeuZ9myic99/",
   "2026-10-20 22:48 result nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DevXxk8FNSf/",
-  "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/"
+  "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/",
+  "2026-10-21 16:02 result laliga|Athletic Bilbao|Levante UD|2026-10-21 https://www.instagram.com/p/DexOMRKmhrD/"
  ],
  "pending": {
-  "laliga|Athletic Bilbao|Levante UD|2026-10-21": {
-   "belt_name": "The La Liga Belt",
-   "date": "2026-10-21",
-   "defenses": 2,
-   "espn_id": "401882870",
-   "espn_path": "soccer/esp.1",
-   "game_no": 3116,
-   "holder": "Athletic Bilbao",
-   "holder_short": "Athletic",
-   "lg": "laliga",
-   "opponent": "Levante UD",
-   "opponent_short": "Levante",
-   "reign_no": 76,
-   "since": "2026-09-05"
-  },
   "ligamx|Santos Laguna|Pumas UNAM|2026-10-21": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-21",
@@ -149,6 +135,7 @@
   "ligue1|Paris FC|Stade Rennes|2026-10-18",
   "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20",
-  "nhl|Dallas Stars|Boston Bruins|2026-10-20"
+  "nhl|Dallas Stars|Boston Bruins|2026-10-20",
+  "laliga|Athletic Bilbao|Levante UD|2026-10-21"
  ]
 }
