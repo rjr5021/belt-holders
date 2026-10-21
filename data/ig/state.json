@@ -55,24 +55,10 @@
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
   "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/",
   "2026-10-20 13:47 preview nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DeuZ68GiUGZ/",
-  "2026-10-20 13:47 preview nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DeuZ9myic99/"
+  "2026-10-20 13:47 preview nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DeuZ9myic99/",
+  "2026-10-20 22:48 result nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DevXxk8FNSf/"
  ],
  "pending": {
-  "nba|New York Knicks|Philadelphia 76ers|2026-10-20": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-10-20",
-   "defenses": 1,
-   "espn_id": "401909089",
-   "espn_path": "basketball/nba",
-   "game_no": 7530,
-   "holder": "New York Knicks",
-   "holder_short": "Knicks",
-   "lg": "nba",
-   "opponent": "Philadelphia 76ers",
-   "opponent_short": "76ers",
-   "reign_no": 204,
-   "since": "2026-06-10"
-  },
   "nhl|Dallas Stars|Boston Bruins|2026-10-20": {
    "belt_name": "The NHL Belt",
    "date": "2026-10-20",
@@ -145,6 +131,7 @@
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18",
   "ligue1|Paris FC|Stade Rennes|2026-10-18",
-  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18"
+  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18",
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-20"
  ]
 }
