@@ -91,6 +91,21 @@
    "opponent_short": "Cavaliers",
    "reign_no": 201,
    "since": "2026-10-20"
+  },
+  "nhl|Dallas Stars|Winnipeg Jets|2026-10-22": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-22",
+   "defenses": 1,
+   "espn_id": "401892559",
+   "espn_path": "hockey/nhl",
+   "game_no": 8443,
+   "holder": "Dallas Stars",
+   "holder_short": "Stars",
+   "lg": "nhl",
+   "opponent": "Winnipeg Jets",
+   "opponent_short": "Jets",
+   "reign_no": 106,
+   "since": "2026-10-17"
   }
  },
  "previews": [
