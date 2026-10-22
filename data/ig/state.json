@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-02 00:57 result nhl|Florida Panthers|San Jose Sharks|2026-10-01 https://www.instagram.com/p/Dd-reU9EWmO/",
   "2026-10-03 14:18 preview nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeCr9sklItC/",
   "2026-10-04 00:50 result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeD0Q4akXya/",
   "2026-10-04 re-queued result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 (first post showed 4-4; Bob deleted it)",
@@ -59,7 +58,8 @@
   "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/",
   "2026-10-21 16:02 result laliga|Athletic Bilbao|Levante UD|2026-10-21 https://www.instagram.com/p/DexOMRKmhrD/",
   "2026-10-21 16:02 preview ligamx|Santos Laguna|Pumas UNAM|2026-10-21 https://www.instagram.com/p/DexOPb2GgpY/",
-  "2026-10-22 03:29 result ligamx|Santos Laguna|Pumas UNAM|2026-10-21 https://www.instagram.com/p/Deyc1HGG1x6/"
+  "2026-10-22 03:29 result ligamx|Santos Laguna|Pumas UNAM|2026-10-21 https://www.instagram.com/p/Deyc1HGG1x6/",
+  "2026-10-22 13:51 preview nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/DezkAAfCcPt/"
  ],
  "pending": {
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22": {
@@ -117,7 +117,8 @@
   "ncaah|Michigan|Denver|2026-10-17",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20",
   "nhl|Dallas Stars|Boston Bruins|2026-10-20",
-  "ligamx|Santos Laguna|Pumas UNAM|2026-10-21"
+  "ligamx|Santos Laguna|Pumas UNAM|2026-10-21",
+  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
