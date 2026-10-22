@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 2.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909094",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Paycom Center",
-  "spread": 7.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909848",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "16:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909095",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": null
+  "spread": -2.5
  },
  {
   "id": "espn-401909844",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909845",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909847",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Delta Center",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909850",
@@ -153,7 +153,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909851",
@@ -166,7 +166,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401909852",
@@ -179,7 +179,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -6.5
  },
  {
   "id": "espn-401909853",
