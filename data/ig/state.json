@@ -76,6 +76,21 @@
    "opponent_short": "Pumas",
    "reign_no": 9,
    "since": "2026-10-17"
+  },
+  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-22",
+   "defenses": 0,
+   "espn_id": "401909093",
+   "espn_path": "basketball/nba",
+   "game_no": 7531,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Cleveland Cavaliers",
+   "opponent_short": "Cavaliers",
+   "reign_no": 201,
+   "since": "2026-10-20"
   }
  },
  "previews": [
