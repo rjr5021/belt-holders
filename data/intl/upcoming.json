@@ -55,6 +55,17 @@
   "tournament": "UEFA Nations League"
  },
  {
+  "id": "int-espn-401931296",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malta",
+  "away": "Eswatini",
+  "neutral": "",
+  "start_et": "12:30",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401929797",
   "date": "2026-11-12",
   "season": 2026,
