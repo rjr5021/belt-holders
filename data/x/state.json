@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-21",
+ "digest": "2026-10-22",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -430,56 +430,61 @@
    "defense",
    2,
    0
+  ],
+  [
+   "2026-10-22T09:05-04:00",
+   "digest",
+   2
   ]
  ],
  "today": {
-  "day": "2026-10-21",
+  "day": "2026-10-22",
   "games": [
    {
-    "belt": "La Liga",
+    "belt": "NBA",
     "colors": [
-     "#ee2523",
-     "#ffffff"
-    ],
-    "defenses": 2,
-    "holder": "Athletic Bilbao",
-    "holder_short": "Athletic",
-    "home": false,
-    "lg": "laliga",
-    "name": "The La Liga Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/laliga/next/",
-    "opponent": "Levante UD",
-    "opponent_short": "Levante",
-    "reign_no": 76,
-    "since": "2026-09-05",
-    "time_et": "14:00",
-    "tv": "ESPN Deportes \u00b7 ESPN+",
-    "url": "https://beltholders.com/laliga/",
-    "win_prob": 0.455
-   },
-   {
-    "belt": "Liga MX",
-    "colors": [
-     "#0f7a3d",
-     "#ffffff"
+     "#006bb6",
+     "#ed174c"
     ],
     "defenses": 0,
-    "holder": "Santos Laguna",
-    "holder_short": "Santos",
+    "holder": "Philadelphia 76ers",
+    "holder_short": "76ers",
     "home": true,
-    "lg": "ligamx",
-    "name": "The Liga MX Belt",
+    "lg": "nba",
+    "name": "The NBA Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/ligamx/next/",
-    "opponent": "Pumas UNAM",
-    "opponent_short": "Pumas",
-    "reign_no": 9,
+    "next_url": "https://beltholders.com/nba/next/",
+    "opponent": "Cleveland Cavaliers",
+    "opponent_short": "Cavaliers",
+    "reign_no": 201,
+    "since": "2026-10-20",
+    "time_et": "19:00",
+    "tv": "ESPN",
+    "url": "https://beltholders.com/nba/",
+    "win_prob": 0.549
+   },
+   {
+    "belt": "NHL",
+    "colors": [
+     "#006847",
+     "#8f8f8c"
+    ],
+    "defenses": 1,
+    "holder": "Dallas Stars",
+    "holder_short": "Stars",
+    "home": true,
+    "lg": "nhl",
+    "name": "The NHL Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Winnipeg Jets",
+    "opponent_short": "Jets",
+    "reign_no": 106,
     "since": "2026-10-17",
-    "time_et": "23:10",
-    "tv": null,
-    "url": "https://beltholders.com/ligamx/",
-    "win_prob": 0.438
+    "time_et": "20:00",
+    "tv": "ESPN+ \u00b7 KDFW 4 \u00b7 Prime Video (Local)",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.62
    }
   ]
  }
