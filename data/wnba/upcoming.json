@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401918307",
-  "date": "2026-10-21",
-  "season_type": "postseason",
-  "home": "ATL",
-  "away": "GS",
-  "home_id": "20",
-  "away_id": "129689",
-  "home_abbr": "ATL",
-  "away_abbr": "GS",
-  "home_loc": "Atlanta",
-  "away_loc": "Golden State",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 3,
-  "start_et": "20:00",
-  "season": 2026
- },
- {
   "id": "espn-401918308",
   "date": "2026-10-24",
   "season_type": "postseason",
