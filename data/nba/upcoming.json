@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909094",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": -4.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909847",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Delta Center",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909850",
@@ -179,7 +179,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": -6.5
+  "spread": -7.5
  },
  {
   "id": "espn-401909853",
