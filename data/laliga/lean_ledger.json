@@ -40,5 +40,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Athletic Bilbao|Getafe CF|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "Athletic Bilbao",
+  "challenger": "Getafe CF",
+  "pick": "Athletic Bilbao",
+  "score": "Athletic Bilbao 2, Getafe CF 1",
+  "made": "2026-10-22",
+  "line": {
+   "details": "ATH -165",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]
