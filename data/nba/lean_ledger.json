@@ -40,5 +40,15 @@
    "over_under": 235.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "PHI|MIL|2026-10-24",
+  "date": "2026-10-24",
+  "holder": "PHI",
+  "challenger": "MIL",
+  "pick": "PHI",
+  "score": "Philadelphia 76ers 118, Milwaukee Bucks 107",
+  "made": "2026-10-23",
+  "line": null
  }
 ]

@@ -174,5 +174,15 @@
   "score": "Dallas Stars 3, Winnipeg Jets 1",
   "made": "2026-10-21",
   "line": null
+ },
+ {
+  "key": "DAL|NYI|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "DAL",
+  "challenger": "NYI",
+  "pick": "DAL",
+  "score": "Dallas Stars 3, New York Islanders 2",
+  "made": "2026-10-23",
+  "line": null
  }
 ]

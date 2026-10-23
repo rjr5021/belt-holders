@@ -1,14 +1,14 @@
 {
- "key": "DAL|WPG|2026-10-22",
- "updated": "2026-10-21T00:40Z",
- "start_utc": "2026-10-23T00:00Z",
+ "key": "DAL|NYI|2026-10-25",
+ "updated": "2026-10-23T00:42Z",
+ "start_utc": "2026-10-25T22:00Z",
  "espn": {
-  "event_id": "401892559",
-  "start_utc": "2026-10-23T00:00Z",
+  "event_id": "401892579",
+  "start_utc": "2026-10-25T22:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "KDFW 4",
+   "MSGSN",
    "Prime Video (Local)"
   ],
   "odds": null,
@@ -16,14 +16,14 @@
    "DAL": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
     "abbr": "DAL",
-    "record": "4-3-1",
+    "record": "5-3-1",
     "rank": null,
     "home_away": "home"
    },
-   "WPG": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-    "abbr": "WPG",
-    "record": "4-2-2",
+   "NYI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
+    "abbr": "NYI",
+    "record": "5-3-1",
     "rank": null,
     "home_away": "away"
    }
@@ -37,23 +37,21 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Dallas has yet to defend the belt in their current reign, making this their first test as holders. The belt passes to whoever wins this game, with no committees or polls involved.",
+  "overview": "The Dallas Stars put their lineal championship belt on the line when they host the New York Islanders on October 25, 2026. Dallas has defended the belt once in their current reign and enters on a three-game winning streak. The Islanders, who have held the belt 93 times previously, arrive with momentum of their own on a two-game win streak.",
   "key_matchups": [
-   "Dallas riding momentum with 2 straight wins, including a 4-0 shutout at Chicago in their most recent outing",
-   "Winnipeg struggling with 2 consecutive losses after a strong 5-2 victory over Minnesota earlier in their last 5",
-   "Dallas owns a 41-29 edge all-time in the head-to-head series and has won all 5 of the most recent meetings"
+   "Dallas riding three straight wins versus New York's two-game streak\u2014momentum collision at American Airlines Center",
+   "Islanders' historical dominance (66-49-16 all-time) against Dallas's current form and home ice advantage",
+   "Belt has changed hands in 14 previous meetings between these clubs, suggesting competitive history when hardware is on the line"
   ],
-  "betting_angles": "The Elo model favors Dallas in this matchup, and recent form supports that edge with the Stars winning their last 2 games while the Jets have dropped their last 2. Both teams enter at 4-4 on the season, but Dallas holds a commanding 41-29 advantage in the all-time series and swept all 5 of their most recent meetings. The Stars also posted shutout victories of 4-0 in two of their last 5 games.",
+  "betting_angles": "Both teams enter at identical 5-4 records, but Dallas has been the hotter team with three consecutive victories, including quality wins over Boston and Colorado. The Islanders own the all-time series edge and have won three of the last five meetings, though Dallas took the most recent matchup 2-1 in March. Our Elo model favors the Stars at home despite the historical head-to-head disadvantage.",
   "predicted_winner": "Dallas Stars",
-  "predicted_score": "Dallas Stars 3, Winnipeg Jets 1",
-  "prediction_writeup": "Dallas enters with superior recent form, having won their last 2 games including a dominant 4-0 victory at Chicago. The Stars hold a commanding 41-29 edge in the all-time series and have won all 5 of the most recent meetings between these teams, including a 3-0 shutout on April 2, 2026. While both teams sit at 4-4 this season, the Elo model favors Dallas at home, and Winnipeg's 2-game losing streak suggests they're trending the wrong way. The Stars should defend the belt successfully in their first test as holders.",
-  "written": "2026-10-21",
+  "predicted_score": "Dallas Stars 3, New York Islanders 2",
+  "prediction_writeup": "Dallas has found a winning formula with three straight victories, including tight 3-2 decisions in their last two outings that suggest they know how to close games. While New York holds the all-time advantage and has won three of the last five meetings, the Stars have home ice and superior current momentum. The Islanders have shown they can win close games too, taking their last two by 3-2 and 4-1 margins, but Dallas gets the nod as Elo favorites. Expect another one-goal affair, with the Stars retaining the belt in a tight contest.",
+  "written": "2026-10-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "22"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }

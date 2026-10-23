@@ -1,19 +1,17 @@
 {
- "key": "PHI|CLE|2026-10-22",
- "updated": "2026-10-21T07:42Z",
- "start_utc": "2026-10-22T23:00Z",
+ "key": "PHI|MIL|2026-10-24",
+ "updated": "2026-10-23T00:42Z",
+ "start_utc": "2026-10-24T23:30Z",
  "espn": {
-  "event_id": "401909093",
-  "start_utc": "2026-10-22T23:00Z",
+  "event_id": "401909855",
+  "start_utc": "2026-10-24T23:30Z",
   "state": "pre",
   "tv": [
-   "ESPN"
+   "NBA TV",
+   "MyMi",
+   "Bucks App"
   ],
-  "odds": {
-   "details": "PHI -2.5",
-   "over_under": 235.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
    "PHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
@@ -22,10 +20,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "CLE": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-    "abbr": "CLE",
-    "record": "0-0",
+   "MIL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "abbr": "MIL",
+    "record": "0-1",
     "rank": null,
     "home_away": "away"
    }
@@ -39,17 +37,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers put their Belt Holders championship on the line when they host the Cleveland Cavaliers on October 22nd, 2026. Philadelphia captured the belt with their most recent victory, a 106-100 win at New York Knicks, and have yet to defend it in this reign. The Cavaliers, who have held the belt 84 times previously, arrive on a four-game losing streak.",
+  "overview": "The Philadelphia 76ers host the Milwaukee Bucks with the Belt Holders lineal championship on the line. Philadelphia claimed the belt in their previous reign and haven't defended it yet, while Milwaukee enters as a 114-time former belt holder looking to reclaim the title. This early-season matchup features a 76ers team coming off a win against a Bucks squad struggling with a two-game skid.",
   "key_matchups": [
-   "Philadelphia's momentum after winning 106-100 at New York versus Cleveland's four-game skid, most recently a 93-130 playoff loss",
-   "Cleveland's recent dominance in the head-to-head series, winning four of the last five meetings dating back to January 2025",
-   "The 76ers' home court advantage in a matchup the Elo model rates as a toss-up despite their 1-0 start"
+   "Philadelphia's home court advantage against a Milwaukee team that lost 106-126 in their last visit to the Wells Fargo Center",
+   "The 76ers' recent dominance in the head-to-head series, winning four of the last five meetings",
+   "Milwaukee's defensive struggles after allowing 128 points to Washington and 126 to Philadelphia in their last two games"
   ],
-  "betting_angles": "Philadelphia enters with fresh momentum from their 106-100 victory and home court advantage in what the Elo model projects as essentially a coin flip. However, Cleveland has owned this matchup recently, winning four of the last five meetings including a 115-101 victory on March 9th, 2026. The Cavaliers' four-game losing streak is concerning, though all four losses came in the playoffs against the same opponent, while Philadelphia is just 1-0 after dropping four straight playoff games themselves.",
+  "betting_angles": "Philadelphia enters as the clear Elo favorite with momentum from their 106-100 win over New York to open the season at 1-0. Milwaukee is reeling from back-to-back losses and has been blown out on the road recently, including a 137-111 defeat at Detroit. The 76ers have won four straight against the Bucks, including a dominant 126-106 victory on April 12 in their most recent meeting.",
   "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 112, Cleveland Cavaliers 107",
-  "prediction_writeup": "The 76ers successfully defend the belt in their first reign. While Cleveland has dominated the recent head-to-head history with four wins in the last five meetings, Philadelphia has the advantages that matter most in this spot: home court, a fresh season start at 1-0, and recent momentum from their 106-100 road win. The Cavaliers' four-game losing streak creates doubt, even if those losses came in playoff pressure situations. In a toss-up game according to the Elo model, the 76ers' current form and venue tip the scales. The all-time series is remarkably even at 122-117 across 239 games, suggesting this will be tight throughout.",
-  "written": "2026-10-21",
+  "predicted_score": "Philadelphia 76ers 118, Milwaukee Bucks 107",
+  "prediction_writeup": "Philadelphia's strong recent form against Milwaukee should continue at home, where they've been particularly effective in this matchup. The Bucks' defensive struggles are evident in their recent road losses, allowing 128 to Washington and 137 to Detroit. Meanwhile, the 76ers opened their season with a solid road win and return home where they've dominated this opponent lately. The Elo model's clear favoritism for Philadelphia aligns with their 1-0 start and Milwaukee's 0-1 record. Expect the 76ers to successfully defend the belt for the first time in this reign.",
+  "written": "2026-10-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
