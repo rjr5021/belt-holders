@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Kia Center",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909846",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Moody Center",
-  "spread": 5.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909849",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": 9.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909852",
@@ -153,7 +153,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": -8.5
+  "spread": -10.5
  },
  {
   "id": "espn-401909853",
