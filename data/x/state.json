@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-22",
+ "digest": "2026-10-23",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -456,56 +456,38 @@
    "defense",
    3,
    2
+  ],
+  [
+   "2026-10-23T13:44-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-22",
+  "day": "2026-10-23",
   "games": [
    {
-    "belt": "NBA",
+    "belt": "NCAA Hockey",
     "colors": [
-     "#006bb6",
-     "#ed174c"
-    ],
-    "defenses": 0,
-    "holder": "Philadelphia 76ers",
-    "holder_short": "76ers",
-    "home": true,
-    "lg": "nba",
-    "name": "The NBA Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "Cleveland Cavaliers",
-    "opponent_short": "Cavaliers",
-    "reign_no": 201,
-    "since": "2026-10-20",
-    "time_et": "19:00",
-    "tv": "ESPN",
-    "url": "https://beltholders.com/nba/",
-    "win_prob": 0.549
-   },
-   {
-    "belt": "NHL",
-    "colors": [
-     "#006847",
-     "#8f8f8c"
+     "#00274c",
+     "#ffcb05"
     ],
     "defenses": 1,
-    "holder": "Dallas Stars",
-    "holder_short": "Stars",
+    "holder": "Michigan",
+    "holder_short": "Michigan",
     "home": true,
-    "lg": "nhl",
-    "name": "The NHL Belt",
+    "lg": "ncaah",
+    "name": "The College Hockey Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Winnipeg Jets",
-    "opponent_short": "Jets",
-    "reign_no": 106,
-    "since": "2026-10-17",
-    "time_et": "20:00",
-    "tv": "ESPN+ \u00b7 KDFW 4 \u00b7 Prime Video (Local)",
-    "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.62
+    "next_url": "https://beltholders.com/ncaah/next/",
+    "opponent": "Western Michigan",
+    "opponent_short": "Western Michigan",
+    "reign_no": 5,
+    "since": "2026-10-16",
+    "time_et": "19:00",
+    "tv": null,
+    "url": "https://beltholders.com/ncaah/",
+    "win_prob": 0.602
    }
   ]
  }
