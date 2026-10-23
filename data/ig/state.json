@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-04 re-queued result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 (first post showed 4-4; Bob deleted it)",
   "2026-10-04 08:13 result nhl|San Jose Sharks|Los Angeles Kings|2026-10-03 https://www.instagram.com/p/DeEm-qvG2Vo/",
   "2026-10-05 10:15 preview nhl|San Jose Sharks|Dallas Stars|2026-10-05 https://www.instagram.com/p/DeHZvT1kSDe/",
   "2026-10-05 22:27 result nhl|San Jose Sharks|Dallas Stars|2026-10-05 https://www.instagram.com/p/DeItflrnBRB/",
@@ -59,25 +58,10 @@
   "2026-10-22 03:29 result ligamx|Santos Laguna|Pumas UNAM|2026-10-21 https://www.instagram.com/p/Deyc1HGG1x6/",
   "2026-10-22 13:51 preview nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/DezkAAfCcPt/",
   "2026-10-22 13:51 preview nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/DezkDQICXM7/",
-  "2026-10-22 23:04 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/De0jSxXkdAa/"
+  "2026-10-22 23:04 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/De0jSxXkdAa/",
+  "2026-10-22 23:04 result nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/De0jWgikZE9/"
  ],
- "pending": {
-  "nhl|Dallas Stars|Winnipeg Jets|2026-10-22": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-10-22",
-   "defenses": 1,
-   "espn_id": "401892559",
-   "espn_path": "hockey/nhl",
-   "game_no": 8443,
-   "holder": "Dallas Stars",
-   "holder_short": "Stars",
-   "lg": "nhl",
-   "opponent": "Winnipeg Jets",
-   "opponent_short": "Jets",
-   "reign_no": 106,
-   "since": "2026-10-17"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -142,6 +126,7 @@
   "nhl|Dallas Stars|Boston Bruins|2026-10-20",
   "laliga|Athletic Bilbao|Levante UD|2026-10-21",
   "ligamx|Santos Laguna|Pumas UNAM|2026-10-21",
-  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22"
+  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22",
+  "nhl|Dallas Stars|Winnipeg Jets|2026-10-22"
  ]
 }
