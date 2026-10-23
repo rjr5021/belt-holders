@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909093",
-  "date": "2026-10-22",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Xfinity Mobile Arena",
-  "spread": 2.5
- },
- {
   "id": "espn-401909094",
   "date": "2026-10-22",
   "season": 2026,
@@ -23,7 +10,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Paycom Center",
-  "spread": 8.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909848",
@@ -114,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Kaseya Center",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909096",
@@ -127,7 +114,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Moody Center",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909849",
