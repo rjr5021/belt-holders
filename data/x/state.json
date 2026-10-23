@@ -125,7 +125,9 @@
    "danger": "2026-10-20T22:19-04:00",
    "end": "2026-10-20T22:48-04:00"
   },
-  "nhl|2026-10-22|dallasstars|winnipegjets": {},
+  "nhl|2026-10-22|dallasstars|winnipegjets": {
+   "danger": "2026-10-22T22:16-04:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
