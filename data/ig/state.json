@@ -61,7 +61,23 @@
   "2026-10-22 23:04 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/De0jSxXkdAa/",
   "2026-10-22 23:04 result nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/De0jWgikZE9/"
  ],
- "pending": {},
+ "pending": {
+  "ncaah|Michigan|Western Michigan|2026-10-23": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-10-23",
+   "defenses": 1,
+   "espn_id": "401905027",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 495,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Western Michigan",
+   "opponent_short": "Western Michigan",
+   "reign_no": 5,
+   "since": "2026-10-16"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
