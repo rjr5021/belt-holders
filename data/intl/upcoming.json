@@ -253,6 +253,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401931476",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Saudi Arabia",
+  "away": "South Korea",
+  "neutral": "",
+  "start_et": "10:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401861162",
   "date": "2026-11-13",
   "season": 2026,
@@ -910,6 +921,17 @@
   "away": "Paraguay",
   "neutral": "",
   "start_et": "08:10",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401931495",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Saudi Arabia",
+  "away": "Uzbekistan",
+  "neutral": "",
+  "start_et": "10:00",
   "tournament": "Friendly"
  },
  {
