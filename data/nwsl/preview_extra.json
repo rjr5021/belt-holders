@@ -1,61 +1,60 @@
 {
- "key": "KC|UTA|2026-10-17",
- "updated": "2026-10-16T13:18Z",
- "start_utc": "2026-10-17T22:30Z",
+ "key": "KC|WAS|2026-10-25",
+ "updated": "2026-10-23T13:30Z",
+ "start_utc": "2026-10-25T21:00Z",
  "espn": {
-  "event_id": "401854022",
-  "start_utc": "2026-10-17T22:30Z",
+  "event_id": "401854032",
+  "start_utc": "2026-10-25T21:00Z",
   "state": "pre",
   "tv": [
-   "ION"
+   "ESPN",
+   "ESPN Deportes"
   ],
   "odds": {
-   "details": "KC -110",
+   "details": "KC -125",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "UTA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19141.png",
-    "abbr": "UTA",
-    "record": "14-4-9",
-    "rank": null,
-    "home_away": "home"
-   },
    "KC": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
     "abbr": "KC",
-    "record": "13-5-9",
+    "record": "14-5-9",
+    "rank": null,
+    "home_away": "home"
+   },
+   "WAS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
+    "abbr": "WAS",
+    "record": "16-4-8",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "America First Field",
-   "city": "Sandy, Utah",
+   "name": "CPKC Stadium",
+   "city": "Kansas City, Missouri",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Kansas City has defended the belt 1 time in this reign and will look to extend their dominance in a series where they hold a perfect 5-0 all-time record against Utah. The Royals have held the belt 1 time before and will seek their first-ever victory over Kansas City.",
+  "overview": "The Kansas City Current put their Belt Holders lineal championship on the line when they host the Washington Spirit on October 25, 2026. Kansas City has defended the belt 2 times in this reign and enters on a three-game winning streak, while Washington arrives with momentum of their own on a two-game win streak. The Spirit have held the belt 13 times previously and lead the all-time series 6-4-1.",
   "key_matchups": [
-   "Kansas City's recent offensive surge (5-1 and 4-1 wins in their last 2 games) against a Utah side coming off a 1-1 draw",
-   "Utah's home form tested by a Kansas City team that has never lost to the Royals in 5 all-time meetings",
-   "The belt has been on the line 1 time between these teams previously, with Kansas City emerging victorious"
+   "Kansas City's recent offensive surge (5\u20131 and 4\u20131 wins in their last five) against a Washington defense that has shown vulnerability, conceding 3 goals to Boston and 2 to Houston recently",
+   "Washington's recent 4\u20130 demolition of Kansas City in their last meeting on 2026-04-24 looms large as the Spirit seek revenge for home-field advantage",
+   "Belt experience factor: Washington's 13 previous reigns versus Kansas City's current 2-defense stint in their latest run with the championship"
   ],
-  "betting_angles": "Kansas City enters on a 2-game winning streak with dominant victories of 5-1 and 4-1, while Utah managed only a 1-1 draw in their most recent outing. The Current's perfect 5-0 all-time record against the Royals is striking, including a 2-1 victory when these teams last met in March 2026. Despite Utah's slightly better season record of 14-9-4 compared to Kansas City's 13-9-5, the Elo model rates this as a toss-up, suggesting the historical dominance may be offset by Utah's home advantage.",
+  "betting_angles": "Kansas City enters as the Elo favorite with superior recent form, riding a three-game winning streak that includes dominant victories of 5\u20131 and 4\u20131. However, Washington holds the edge in the season record at 16-8-4 compared to Kansas City's 14-9-5 and owns the all-time head-to-head advantage at 6-4-1. The Spirit's emphatic 4\u20130 victory in the most recent meeting this April contrasts sharply with Kansas City's home advantage and current momentum.",
   "predicted_winner": "Kansas City Current",
-  "predicted_score": "Kansas City Current 2, Utah Royals 1",
-  "prediction_writeup": "Kansas City's perfect 5-0 all-time record against Utah is too significant to ignore, especially with the Current riding a 2-game winning streak that includes impressive victories of 5-1 and 4-1. While the Elo model calls this a toss-up and Utah boasts a marginally better season record at 14-9-4, Kansas City has won every meeting between these sides, including a 2-1 result in their most recent clash in March 2026. The Current's recent offensive form and historical dominance over the Royals should be enough to retain the belt on the road. Expect a competitive match that mirrors the 2-1 scoreline from their last encounter.",
-  "written": "2026-10-16",
+  "predicted_score": "Kansas City Current 2, Washington Spirit 1",
+  "prediction_writeup": "Kansas City's three-game winning streak and home-field advantage tip the scales in a tight matchup. While Washington's 4\u20130 win in April and superior overall record (16-8-4) demand respect, the Current's recent offensive explosion with victories of 5\u20131 and 4\u20131 suggests they've found their rhythm. The Elo model backing Kansas City combined with their belt-defending mentality (2 successful defenses so far) should be enough to edge out a Washington side that has been inconsistent, losing 0\u20133 to Boston and 0\u20131 to Angel City in their last five. Home advantage proves decisive in a narrow belt defense.",
+  "written": "2026-10-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "17"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }

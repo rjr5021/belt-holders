@@ -26,5 +26,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "KC|WAS|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "KC",
+  "challenger": "WAS",
+  "pick": "KC",
+  "score": "Kansas City Current 2, Washington Spirit 1",
+  "made": "2026-10-23",
+  "line": {
+   "details": "KC -125",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]
