@@ -106,6 +106,21 @@
    "opponent_short": "Bucks",
    "reign_no": 201,
    "since": "2026-10-20"
+  },
+  "seriea|AS Roma|SSC Napoli|2026-10-24": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-10-24",
+   "defenses": 8,
+   "espn_id": "401874948",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "SSC Napoli",
+   "opponent_short": "Napoli",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
