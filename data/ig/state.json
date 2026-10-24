@@ -61,7 +61,23 @@
   "2026-10-23 13:44 preview ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De2H5h4naYi/",
   "2026-10-23 21:22 result ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De28W3HCQiC/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-24",
+   "defenses": 1,
+   "espn_id": "401909855",
+   "espn_path": "basketball/nba",
+   "game_no": 7532,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Milwaukee Bucks",
+   "opponent_short": "Bucks",
+   "reign_no": 201,
+   "since": "2026-10-20"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
