@@ -14,6 +14,9 @@
   "epl|2026-10-17|manchestercity|ipswichtown": {
    "end": "2026-10-17T12:09-04:00"
   },
+  "epl|2026-10-24|manchestercity|astonvilla": {
+   "danger": "2026-10-24T08:18-04:00"
+  },
   "eredivisie|2026-10-10|azalkmaar|feyenoord": {
    "danger": "2026-10-10T13:33-04:00",
    "end": "2026-10-10T14:42-04:00"
@@ -53,6 +56,7 @@
   "ligue1|2026-10-18|paris|staderennes": {
    "end": "2026-10-18T13:22-04:00"
   },
+  "ligue1|2026-10-24|paris|rclens": {},
   "mls|2026-10-10|austin|nashville": {
    "danger": "2026-10-10T21:27-04:00",
    "end": "2026-10-10T22:35-04:00"
@@ -63,6 +67,7 @@
   "mls|2026-10-17|nashville|sanjoseearthquakes": {
    "end": "2026-10-18T00:35-04:00"
   },
+  "mls|2026-10-24|nashville|montreal": {},
   "nba|2026-10-20|newyorkknicks|philadelphia76ers": {
    "danger": "2026-10-20T21:42-04:00",
    "end": "2026-10-20T22:00-04:00"
@@ -70,6 +75,7 @@
   "nba|2026-10-22|philadelphia76ers|clevelandcavaliers": {
    "end": "2026-10-22T21:54-04:00"
   },
+  "nba|2026-10-24|philadelphia76ers|milwaukeebucks": {},
   "ncaah|2026-10-16|denver|michigan": {
    "danger": "2026-10-16T23:22-04:00",
    "end": "2026-10-17T00:13-04:00"
@@ -143,7 +149,8 @@
   },
   "seriea|2026-10-17|asroma|genoacfc": {
    "end": "2026-10-17T16:56-04:00"
-  }
+  },
+  "seriea|2026-10-24|asroma|sscnapoli": {}
  },
  "log": [
   [
@@ -474,30 +481,122 @@
   ]
  ],
  "today": {
-  "day": "2026-10-23",
+  "day": "2026-10-24",
   "games": [
    {
-    "belt": "NCAA Hockey",
+    "belt": "NBA",
     "colors": [
-     "#00274c",
-     "#ffcb05"
+     "#006bb6",
+     "#ed174c"
     ],
     "defenses": 1,
-    "holder": "Michigan",
-    "holder_short": "Michigan",
+    "holder": "Philadelphia 76ers",
+    "holder_short": "76ers",
     "home": true,
-    "lg": "ncaah",
-    "name": "The College Hockey Belt",
+    "lg": "nba",
+    "name": "The NBA Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/ncaah/next/",
-    "opponent": "Western Michigan",
-    "opponent_short": "Western Michigan",
-    "reign_no": 5,
-    "since": "2026-10-16",
-    "time_et": "19:00",
-    "tv": null,
-    "url": "https://beltholders.com/ncaah/",
-    "win_prob": 0.602
+    "next_url": "https://beltholders.com/nba/next/",
+    "opponent": "Milwaukee Bucks",
+    "opponent_short": "Bucks",
+    "reign_no": 201,
+    "since": "2026-10-20",
+    "time_et": "19:30",
+    "tv": "NBA TV \u00b7 MyMi \u00b7 Bucks App",
+    "url": "https://beltholders.com/nba/",
+    "win_prob": 0.771
+   },
+   {
+    "belt": "MLS",
+    "colors": [
+     "#ece83a",
+     "#1f1646"
+    ],
+    "defenses": 2,
+    "holder": "Nashville SC",
+    "holder_short": "Nashville",
+    "home": false,
+    "lg": "mls",
+    "name": "The MLS Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/mls/next/",
+    "opponent": "CF Montr\u00e9al",
+    "opponent_short": "Montr\u00e9al",
+    "reign_no": 3,
+    "since": "2026-10-10",
+    "time_et": "13:30",
+    "tv": "Apple TV",
+    "url": "https://beltholders.com/mls/",
+    "win_prob": 0.737
+   },
+   {
+    "belt": "Premier League",
+    "colors": [
+     "#6cabdd",
+     "#1c2c5b"
+    ],
+    "defenses": 4,
+    "holder": "Manchester City",
+    "holder_short": "Man City",
+    "home": false,
+    "lg": "epl",
+    "name": "The English Football Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/epl/next/",
+    "opponent": "Aston Villa",
+    "opponent_short": "Aston Villa",
+    "reign_no": 62,
+    "since": "2026-08-23",
+    "time_et": "07:30",
+    "tv": "USA Net \u00b7 Universo",
+    "url": "https://beltholders.com/epl/",
+    "win_prob": 0.598
+   },
+   {
+    "belt": "Serie A",
+    "colors": [
+     "#8e1f2f",
+     "#f0bc42"
+    ],
+    "defenses": 8,
+    "holder": "AS Roma",
+    "holder_short": "Roma",
+    "home": false,
+    "lg": "seriea",
+    "name": "The Serie A Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/seriea/next/",
+    "opponent": "SSC Napoli",
+    "opponent_short": "Napoli",
+    "reign_no": 66,
+    "since": "2026-05-04",
+    "time_et": "12:00",
+    "tv": "Paramount+",
+    "url": "https://beltholders.com/seriea/",
+    "win_prob": 0.473
+   },
+   {
+    "belt": "Ligue 1",
+    "colors": [
+     "#1d2f5c",
+     "#ffffff"
+    ],
+    "defenses": 0,
+    "holder": "Paris FC",
+    "holder_short": "Paris",
+    "home": false,
+    "lg": "ligue1",
+    "name": "The Ligue 1 Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/ligue1/next/",
+    "opponent": "RC Lens",
+    "opponent_short": "Lens",
+    "reign_no": 2,
+    "since": "2026-09-19",
+    "time_et": "14:45",
+    "tv": "beIn Sports",
+    "url": "https://beltholders.com/ligue1/",
+    "win_prob": 0.419
    }
   ]
  }
