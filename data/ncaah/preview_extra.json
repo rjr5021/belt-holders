@@ -1,24 +1,24 @@
 {
- "key": "MICH|WMU|2026-10-23",
- "updated": "2026-10-18T04:40Z",
- "start_utc": "2026-10-23T23:00Z",
+ "key": "MICH|OSU|2026-10-31",
+ "updated": "2026-10-24T04:41Z",
+ "start_utc": "2026-10-31T22:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan hosts Western Michigan with the lineal championship belt on the line. The Wolverines enter with a perfect 5-0 record and have won their last 5 games, while the Broncos bring a 3-0 mark and have won their last 3 contests. Michigan has not yet defended the belt in this reign, making this their first title defense.",
+  "overview": "Michigan brings their perfect 6-0 record and the Belt Holders championship to Value City Arena, where Ohio State will attempt to claim the belt for the fourth time in program history. The Wolverines have defended the belt once in their current reign and enter on a five-game winning streak, while the Buckeyes are looking to bounce back from a 2-2 start that includes a 7-3 loss to these same Wolverines earlier this season.",
   "key_matchups": [
-   "Michigan's offensive firepower shown in victories of 10\u20131, 7\u20132, and 7\u20132 against their recent opposition versus Western Michigan's strong recent performances including a 6\u20131 win over Notre Dame",
-   "The all-time series stands nearly even at Michigan 7, Western Michigan 6 across 13 meetings, with the home team holding just a slight historical edge",
-   "Western Michigan's experience as 11-time former belt holders against Michigan's quest for their first successful defense in this reign"
+   "Michigan's offensive firepower vs Ohio State's home ice: The Wolverines have scored 4+ goals in four of their last five games and put up 7 goals in the last meeting",
+   "Ohio State's recent form against weaker competition: The Buckeyes split with Sacred Heart and Rensselaer while Michigan has swept quality opponents like Denver",
+   "Belt pressure: Ohio State has held the belt three times before but must overcome a dominant Michigan squad that leads the all-time series 31-20-5"
   ],
-  "betting_angles": "Both teams enter undefeated with Michigan at 5-0 and Western Michigan at 3-0, though the Wolverines have shown dominant scoring margins in their recent wins including 10\u20131 and 7\u20132 victories. The head-to-head history is nearly split at 7-6 in Michigan's favor over 13 games, with the teams splitting their last two meetings in October 2025. The Elo model favors Michigan at home, where they'll look to protect the belt for the first time in this reign.",
+  "betting_angles": "Michigan's undefeated start and five-game winning streak contrasts sharply with Ohio State's .500 record and inconsistent results against mid-tier opponents. The head-to-head history heavily favors the Wolverines, who have won all five of the last meetings including a 7-3 road victory at Ohio State earlier this season. The Elo model's designation of Michigan as favorites aligns with both recent form and historical dominance in this matchup.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 5, Western Michigan 3",
-  "prediction_writeup": "Michigan's perfect 5-0 start and five-game winning streak, including impressive offensive outputs like their 10\u20131 and 7\u20132 victories, suggest they have the firepower to defend at home. While Western Michigan brings a 3-0 record and momentum from their 6\u20131 win over Notre Dame, the Elo edge favors the Wolverines. The all-time series is tight at 7-6, but Michigan's recent dominant margins and home ice should be enough to secure their first belt defense of this reign. This should be competitive given the evenly-matched history, but Michigan's current form gives them the advantage.",
-  "written": "2026-10-18",
+  "predicted_score": "Michigan 5, Ohio State 2",
+  "prediction_writeup": "Michigan's perfect 6-0 start and dominant recent form make them the clear choice to retain the belt. The Wolverines have won five straight games and swept quality opponents like Denver on the road, demonstrating their ability to win in hostile environments. Ohio State's 2-2 record includes concerning performances against Sacred Heart and Rensselaer, programs that don't match Michigan's caliber. The 7-3 result when these teams met earlier this season suggests Michigan has the offensive firepower to control this game even on the road. Expect the Wolverines to keep the belt and extend their winning streak to six.",
+  "written": "2026-10-24",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }
