@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909853",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHA",
-  "away": "MIA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "18:00",
-  "venue": "Spectrum Center",
-  "spread": -3.5
- },
- {
   "id": "espn-401909854",
   "date": "2026-10-24",
   "season": 2026,
@@ -36,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": 12.5
+  "spread": 13.5
  },
  {
   "id": "espn-401909857",
@@ -49,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "United Center",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909858",
@@ -75,7 +62,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "State Farm Arena",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909859",
