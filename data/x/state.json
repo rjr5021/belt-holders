@@ -77,6 +77,9 @@
   "ncaah|2026-10-17|michigan|denver": {
    "end": "2026-10-17T23:02-04:00"
   },
+  "ncaah|2026-10-23|michigan|westernmichigan": {
+   "end": "2026-10-23T21:22-04:00"
+  },
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
   },
@@ -461,6 +464,13 @@
    "2026-10-23T13:44-04:00",
    "digest",
    1
+  ],
+  [
+   "2026-10-23T21:22-04:00",
+   "ncaah",
+   "defense",
+   3,
+   2
   ]
  ],
  "today": {
