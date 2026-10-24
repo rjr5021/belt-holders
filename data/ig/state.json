@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-06 16:38 result intl|Spain|Croatia|2026-10-06 https://www.instagram.com/p/DeKqTPjlHNv/",
   "2026-10-08 10:14 preview nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DePIABdm-lE/",
   "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/",
   "2026-10-10 11:30 preview nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeUaSwuEbgr/",
@@ -59,7 +58,8 @@
   "2026-10-23 13:44 preview ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De2H5h4naYi/",
   "2026-10-23 21:22 result ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De28W3HCQiC/",
   "2026-10-24 09:23 result epl|Manchester City|Aston Villa|2026-10-24 https://www.instagram.com/p/De4O4aGETHL/",
-  "2026-10-24 16:49 preview nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5B3wojwtC/"
+  "2026-10-24 16:49 preview nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5B3wojwtC/",
+  "2026-10-24 16:49 result mls|Nashville SC|CF Montr\u00e9al|2026-10-24 https://www.instagram.com/p/De5B6tej-w_/"
  ],
  "pending": {
   "ligue1|Paris FC|RC Lens|2026-10-24": {
@@ -76,21 +76,6 @@
    "opponent_short": "Lens",
    "reign_no": 2,
    "since": "2026-09-19"
-  },
-  "mls|Nashville SC|CF Montr\u00e9al|2026-10-24": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-10-24",
-   "defenses": 2,
-   "espn_id": "761903",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1126,
-   "holder": "Nashville SC",
-   "holder_short": "Nashville",
-   "lg": "mls",
-   "opponent": "CF Montr\u00e9al",
-   "opponent_short": "Montr\u00e9al",
-   "reign_no": 3,
-   "since": "2026-10-10"
   },
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24": {
    "belt_name": "The NBA Belt",
@@ -192,6 +177,7 @@
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22",
   "nhl|Dallas Stars|Winnipeg Jets|2026-10-22",
   "ncaah|Michigan|Western Michigan|2026-10-23",
-  "epl|Manchester City|Aston Villa|2026-10-24"
+  "epl|Manchester City|Aston Villa|2026-10-24",
+  "mls|Nashville SC|CF Montr\u00e9al|2026-10-24"
  ]
 }
