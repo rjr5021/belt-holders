@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Rocket Arena",
-  "spread": 11.5
+  "spread": 12.5
  },
  {
   "id": "espn-401909855",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
-  "spread": -11.5
+  "spread": -12.5
  },
  {
   "id": "espn-401909856",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Mortgage Matchup Center",
-  "spread": 6.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909861",
