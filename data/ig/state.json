@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-08 21:38 result nhl|Dallas Stars|Buffalo Sabres|2026-10-08 https://www.instagram.com/p/DeQWSenlCbN/",
   "2026-10-10 11:30 preview nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeUaSwuEbgr/",
   "2026-10-10 11:30 preview mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeUaWHskcLN/",
   "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/",
@@ -59,24 +58,10 @@
   "2026-10-24 09:23 result epl|Manchester City|Aston Villa|2026-10-24 https://www.instagram.com/p/De4O4aGETHL/",
   "2026-10-24 16:49 preview nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5B3wojwtC/",
   "2026-10-24 16:49 result mls|Nashville SC|CF Montr\u00e9al|2026-10-24 https://www.instagram.com/p/De5B6tej-w_/",
-  "2026-10-24 16:49 result seriea|AS Roma|SSC Napoli|2026-10-24 https://www.instagram.com/p/De5B9-ZjxAk/"
+  "2026-10-24 16:49 result seriea|AS Roma|SSC Napoli|2026-10-24 https://www.instagram.com/p/De5B9-ZjxAk/",
+  "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/"
  ],
  "pending": {
-  "ligue1|Paris FC|RC Lens|2026-10-24": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-10-24",
-   "defenses": 0,
-   "espn_id": "401876427",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "RC Lens",
-   "opponent_short": "Lens",
-   "reign_no": 2,
-   "since": "2026-09-19"
-  },
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24": {
    "belt_name": "The NBA Belt",
    "date": "2026-10-24",
@@ -164,6 +149,7 @@
   "ncaah|Michigan|Western Michigan|2026-10-23",
   "epl|Manchester City|Aston Villa|2026-10-24",
   "mls|Nashville SC|CF Montr\u00e9al|2026-10-24",
-  "seriea|AS Roma|SSC Napoli|2026-10-24"
+  "seriea|AS Roma|SSC Napoli|2026-10-24",
+  "ligue1|Paris FC|RC Lens|2026-10-24"
  ]
 }
