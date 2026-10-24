@@ -68,7 +68,9 @@
   "mls|2026-10-17|nashville|sanjoseearthquakes": {
    "end": "2026-10-18T00:35-04:00"
   },
-  "mls|2026-10-24|nashville|montreal": {},
+  "mls|2026-10-24|nashville|montreal": {
+   "end": "2026-10-24T15:51-04:00"
+  },
   "nba|2026-10-20|newyorkknicks|philadelphia76ers": {
    "danger": "2026-10-20T21:42-04:00",
    "end": "2026-10-20T22:00-04:00"
@@ -496,6 +498,13 @@
    "defense",
    3,
    3
+  ],
+  [
+   "2026-10-24T15:51-04:00",
+   "mls",
+   "defense",
+   2,
+   0
   ]
  ],
  "today": {
