@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 11:30 preview mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeUaWHskcLN/",
   "2026-10-10 11:30 result bundesliga|Bayern Munich|FC Augsburg|2026-10-10 https://www.instagram.com/p/DeUaZn7kUGu/",
   "2026-10-10 11:30 preview ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeUacSekXwH/",
   "2026-10-10 11:30 preview eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeUafn7kaiN/",
@@ -59,7 +58,8 @@
   "2026-10-24 16:49 result mls|Nashville SC|CF Montr\u00e9al|2026-10-24 https://www.instagram.com/p/De5B6tej-w_/",
   "2026-10-24 16:49 result seriea|AS Roma|SSC Napoli|2026-10-24 https://www.instagram.com/p/De5B9-ZjxAk/",
   "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/",
-  "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/"
+  "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/",
+  "2026-10-25 18:29 result nfl|Houston Texans|New York Giants|2026-10-25 https://www.instagram.com/p/De7yIb3AcGv/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|SC Freiburg|2026-10-25": {
@@ -136,21 +136,6 @@
    "opponent_short": "Pistons",
    "reign_no": 201,
    "since": "2026-10-20"
-  },
-  "nfl|Houston Texans|New York Giants|2026-10-25": {
-   "belt_name": "The NFL Belt",
-   "date": "2026-10-25",
-   "defenses": 0,
-   "espn_id": "401873016",
-   "espn_path": "football/nfl",
-   "game_no": 1649,
-   "holder": "Houston Texans",
-   "holder_short": "Texans",
-   "lg": "nfl",
-   "opponent": "New York Giants",
-   "opponent_short": "Giants",
-   "reign_no": 3,
-   "since": "2026-10-18"
   },
   "nhl|Dallas Stars|New York Islanders|2026-10-25": {
    "belt_name": "The NHL Belt",
@@ -256,6 +241,7 @@
   "mls|Nashville SC|CF Montr\u00e9al|2026-10-24",
   "seriea|AS Roma|SSC Napoli|2026-10-24",
   "ligue1|Paris FC|RC Lens|2026-10-24",
-  "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24"
+  "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24",
+  "nfl|Houston Texans|New York Giants|2026-10-25"
  ]
 }
