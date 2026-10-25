@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 11:30 preview ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeUacSekXwH/",
   "2026-10-10 11:30 preview eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeUafn7kaiN/",
   "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
   "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
@@ -59,7 +58,8 @@
   "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/",
   "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/",
   "2026-10-25 18:29 result nfl|Houston Texans|New York Giants|2026-10-25 https://www.instagram.com/p/De7yIb3AcGv/",
-  "2026-10-25 18:29 preview nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De7yMQagVDM/"
+  "2026-10-25 18:29 preview nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De7yMQagVDM/",
+  "2026-10-25 18:29 preview laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yQohAck8/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|SC Freiburg|2026-10-25": {
@@ -197,7 +197,8 @@
   "nhl|Dallas Stars|Winnipeg Jets|2026-10-22",
   "ncaah|Michigan|Western Michigan|2026-10-23",
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24",
-  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25"
+  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25",
+  "laliga|Athletic Bilbao|Getafe CF|2026-10-25"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
