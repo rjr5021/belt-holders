@@ -168,7 +168,9 @@
   "nwsl|2026-10-17|kansascitycurrent|utahroyals": {
    "end": "2026-10-17T20:29-04:00"
   },
-  "nwsl|2026-10-25|kansascitycurrent|washingtonspirit": {},
+  "nwsl|2026-10-25|kansascitycurrent|washingtonspirit": {
+   "end": "2026-10-25T19:07-04:00"
+  },
   "seriea|2026-10-11|asroma|comocalcio": {
    "end": "2026-10-11T09:12-04:00"
   },
@@ -569,6 +571,13 @@
    "defense",
    4,
    0
+  ],
+  [
+   "2026-10-25T19:07-04:00",
+   "nwsl",
+   "defense",
+   2,
+   1
   ]
  ],
  "today": {
