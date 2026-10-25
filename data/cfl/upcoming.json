@@ -1,11 +1,11 @@
 [
  {
-  "id": "cfl-2026-10-31-BC-SSK",
+  "id": "cfl-2026-10-31-SSK-BC",
   "date": "2026-10-31",
   "season": 2026,
   "season_type": "postseason",
-  "home": "BC",
-  "away": "SSK",
+  "home": "SSK",
+  "away": "BC",
   "neutral": "",
   "start_et": null
  },
