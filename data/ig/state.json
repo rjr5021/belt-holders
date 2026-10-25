@@ -77,6 +77,21 @@
    "reign_no": 57,
    "since": "2026-02-28"
   },
+  "eredivisie|AZ Alkmaar|FC Twente|2026-10-25": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-10-25",
+   "defenses": 11,
+   "espn_id": "401875566",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "FC Twente",
+   "opponent_short": "Twente",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "laliga|Athletic Bilbao|Getafe CF|2026-10-25": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-25",
