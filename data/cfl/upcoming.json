@@ -1,21 +1,21 @@
 [
  {
-  "id": "cfl-2026-10-24-SSK-EDM",
-  "date": "2026-10-24",
+  "id": "cfl-2026-10-31-BC-SSK",
+  "date": "2026-10-31",
   "season": 2026,
-  "season_type": "regular",
-  "home": "SSK",
-  "away": "EDM",
+  "season_type": "postseason",
+  "home": "BC",
+  "away": "SSK",
   "neutral": "",
   "start_et": null
  },
  {
-  "id": "cfl-2026-10-24-HAM-OTT",
-  "date": "2026-10-24",
+  "id": "cfl-2026-10-31-WPG-TOR",
+  "date": "2026-10-31",
   "season": 2026,
-  "season_type": "regular",
-  "home": "HAM",
-  "away": "OTT",
+  "season_type": "postseason",
+  "home": "WPG",
+  "away": "TOR",
   "neutral": "",
   "start_et": null
  }

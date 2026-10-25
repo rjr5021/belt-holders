@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-64",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Toulouse FC",
-  "away": "ESTAC Troyes",
-  "start_et": "11:15"
- },
- {
-  "id": "of-2026-65",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "RC Lens",
-  "away": "Paris FC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-66",
   "date": "2026-10-25",
   "season": 2026,

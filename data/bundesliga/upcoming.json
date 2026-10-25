@@ -1,59 +1,5 @@
 [
  {
-  "id": "of-2026-55",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "1. FSV Mainz 05",
-  "away": "Werder Bremen",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-56",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "1. FC Koln",
-  "away": "FC Schalke 04",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-57",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "RasenBallsport Leipzig",
-  "away": "SV Elversberg",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-58",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SC Paderborn 07",
-  "away": "Hamburger SV",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-59",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "FC Augsburg",
-  "away": "1. FC Union Berlin",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-60",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Borussia Dortmund",
-  "away": "Eintracht Frankfurt",
-  "start_et": "12:30"
- },
- {
   "id": "of-2026-61",
   "date": "2026-10-25",
   "season": 2026,
