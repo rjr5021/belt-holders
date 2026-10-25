@@ -80,7 +80,9 @@
   "nba|2026-10-22|philadelphia76ers|clevelandcavaliers": {
    "end": "2026-10-22T21:54-04:00"
   },
-  "nba|2026-10-24|philadelphia76ers|milwaukeebucks": {},
+  "nba|2026-10-24|philadelphia76ers|milwaukeebucks": {
+   "end": "2026-10-24T22:04-04:00"
+  },
   "ncaah|2026-10-16|denver|michigan": {
    "danger": "2026-10-16T23:22-04:00",
    "end": "2026-10-17T00:13-04:00"
@@ -514,6 +516,13 @@
    "change",
    1,
    2
+  ],
+  [
+   "2026-10-24T22:04-04:00",
+   "nba",
+   "defense",
+   127,
+   116
   ]
  ],
  "today": {
