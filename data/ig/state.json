@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 11:30 preview ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeUaixWkRc9/",
   "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
   "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
@@ -59,24 +58,10 @@
   "2026-10-25 18:29 result nfl|Houston Texans|New York Giants|2026-10-25 https://www.instagram.com/p/De7yIb3AcGv/",
   "2026-10-25 18:29 preview nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De7yMQagVDM/",
   "2026-10-25 18:29 preview laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yQohAck8/",
-  "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/"
+  "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/",
+  "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/"
  ],
  "pending": {
-  "bundesliga|Bayern Munich|SC Freiburg|2026-10-25": {
-   "belt_name": "The Bundesliga Belt",
-   "date": "2026-10-25",
-   "defenses": 14,
-   "espn_id": "401884759",
-   "espn_path": "soccer/ger.1",
-   "game_no": 2135,
-   "holder": "Bayern Munich",
-   "holder_short": "Bayern",
-   "lg": "bundesliga",
-   "opponent": "SC Freiburg",
-   "opponent_short": "Freiburg",
-   "reign_no": 57,
-   "since": "2026-02-28"
-  },
   "eredivisie|AZ Alkmaar|FC Twente|2026-10-25": {
    "belt_name": "The Eredivisie Belt",
    "date": "2026-10-25",
@@ -230,6 +215,7 @@
   "ligue1|Paris FC|RC Lens|2026-10-24",
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24",
   "nfl|Houston Texans|New York Giants|2026-10-25",
-  "laliga|Athletic Bilbao|Getafe CF|2026-10-25"
+  "laliga|Athletic Bilbao|Getafe CF|2026-10-25",
+  "bundesliga|Bayern Munich|SC Freiburg|2026-10-25"
  ]
 }
