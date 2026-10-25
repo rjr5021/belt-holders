@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-24-1-849802",
-  "date": "2026-10-24",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m158",
-  "away": "m139",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "American Family Field",
-  "series": "World Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-26-1-849804",
   "date": "2026-10-26",
   "season": 2026,
