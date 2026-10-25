@@ -61,7 +61,23 @@
   "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/",
   "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/"
  ],
- "pending": {},
+ "pending": {
+  "nfl|Houston Texans|New York Giants|2026-10-25": {
+   "belt_name": "The NFL Belt",
+   "date": "2026-10-25",
+   "defenses": 0,
+   "espn_id": "401873016",
+   "espn_path": "football/nfl",
+   "game_no": 1649,
+   "holder": "Houston Texans",
+   "holder_short": "Texans",
+   "lg": "nfl",
+   "opponent": "New York Giants",
+   "opponent_short": "Giants",
+   "reign_no": 3,
+   "since": "2026-10-18"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
