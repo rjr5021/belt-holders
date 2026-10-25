@@ -62,6 +62,21 @@
   "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/"
  ],
  "pending": {
+  "laliga|Athletic Bilbao|Getafe CF|2026-10-25": {
+   "belt_name": "The La Liga Belt",
+   "date": "2026-10-25",
+   "defenses": 2,
+   "espn_id": "401882835",
+   "espn_path": "soccer/esp.1",
+   "game_no": 3116,
+   "holder": "Athletic Bilbao",
+   "holder_short": "Athletic",
+   "lg": "laliga",
+   "opponent": "Getafe CF",
+   "opponent_short": "Getafe",
+   "reign_no": 76,
+   "since": "2026-09-05"
+  },
   "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25": {
    "belt_name": "The NBA Belt",
    "date": "2026-10-25",
