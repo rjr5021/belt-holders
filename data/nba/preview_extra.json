@@ -1,29 +1,31 @@
 {
- "key": "PHI|MIL|2026-10-24",
- "updated": "2026-10-23T00:42Z",
- "start_utc": "2026-10-24T23:30Z",
+ "key": "PHI|DET|2026-10-25",
+ "updated": "2026-10-25T04:44Z",
+ "start_utc": "2026-10-25T23:30Z",
  "espn": {
-  "event_id": "401909855",
-  "start_utc": "2026-10-24T23:30Z",
+  "event_id": "401909866",
+  "start_utc": "2026-10-25T23:30Z",
   "state": "pre",
   "tv": [
-   "NBA TV",
-   "MyMi",
-   "Bucks App"
+   "NBA League Pass"
   ],
-  "odds": null,
+  "odds": {
+   "details": "PHI -2.5",
+   "over_under": 226.5,
+   "provider": "Draft Kings"
+  },
   "teams": {
    "PHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
     "abbr": "PHI",
-    "record": "1-0",
+    "record": "3-0",
     "rank": null,
     "home_away": "home"
    },
-   "MIL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-    "abbr": "MIL",
-    "record": "0-1",
+   "DET": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "abbr": "DET",
+    "record": "2-0",
     "rank": null,
     "home_away": "away"
    }
@@ -37,20 +39,20 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers host the Milwaukee Bucks with the Belt Holders lineal championship on the line. Philadelphia claimed the belt in their previous reign and haven't defended it yet, while Milwaukee enters as a 114-time former belt holder looking to reclaim the title. This early-season matchup features a 76ers team coming off a win against a Bucks squad struggling with a two-game skid.",
+  "overview": "The Philadelphia 76ers put their lineal championship belt on the line when they host the Detroit Pistons on October 25, 2026. The 76ers have defended the belt 2 times in this reign and enter with a perfect 3-0 record, while the Pistons come in at 2-0. Detroit has held the belt 148 times before and will look to reclaim it in Philadelphia.",
   "key_matchups": [
-   "Philadelphia's home court advantage against a Milwaukee team that lost 106-126 in their last visit to the Wells Fargo Center",
-   "The 76ers' recent dominance in the head-to-head series, winning four of the last five meetings",
-   "Milwaukee's defensive struggles after allowing 128 points to Washington and 126 to Philadelphia in their last two games"
+   "Philadelphia's 3-game winning streak versus Detroit's 2-game winning streak",
+   "Recent head-to-head history heavily favors Detroit, sweeping all 5 of their last meetings",
+   "Both teams undefeated this season but the Pistons dominated the 76ers 116-93 in their last meeting"
   ],
-  "betting_angles": "Philadelphia enters as the clear Elo favorite with momentum from their 106-100 win over New York to open the season at 1-0. Milwaukee is reeling from back-to-back losses and has been blown out on the road recently, including a 137-111 defeat at Detroit. The 76ers have won four straight against the Bucks, including a dominant 126-106 victory on April 12 in their most recent meeting.",
-  "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 118, Milwaukee Bucks 107",
-  "prediction_writeup": "Philadelphia's strong recent form against Milwaukee should continue at home, where they've been particularly effective in this matchup. The Bucks' defensive struggles are evident in their recent road losses, allowing 128 to Washington and 137 to Detroit. Meanwhile, the 76ers opened their season with a solid road win and return home where they've dominated this opponent lately. The Elo model's clear favoritism for Philadelphia aligns with their 1-0 start and Milwaukee's 0-1 record. Expect the 76ers to successfully defend the belt for the first time in this reign.",
-  "written": "2026-10-23",
+  "betting_angles": "Philadelphia enters on a 3-game winning streak and holds a 3-0 record this season, while Detroit is 2-0 with 2 straight wins. The Elo model rates this as a toss-up despite the home court for the 76ers. Recent head-to-head history strongly favors Detroit, who won all 5 of their last meetings including a 116-93 victory in their most recent clash.",
+  "predicted_winner": "Detroit Pistons",
+  "predicted_score": "Philadelphia 76ers 112, Detroit Pistons 118",
+  "prediction_writeup": "While Philadelphia holds the belt and boasts a perfect 3-0 start, Detroit's recent dominance in this matchup is impossible to ignore. The Pistons won all 5 of their last meetings, including decisive victories like 116-93 and 131-109. Detroit is also undefeated at 2-0 this season and riding a 2-game winning streak. The Elo model calling this a toss-up suggests the home court advantage for Philadelphia balances Detroit's recent head-to-head superiority, but the Pistons' consistent success against the 76ers tips the scales in their favor to capture the belt.",
+  "written": "2026-10-25",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

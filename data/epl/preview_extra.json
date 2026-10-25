@@ -1,53 +1,53 @@
 {
- "key": "Manchester City|Aston Villa|2026-10-24",
- "updated": "2026-10-18T04:38Z",
- "start_utc": "2026-10-24T11:30Z",
+ "key": "Manchester City|Brighton & Hove Albion|2026-10-31",
+ "updated": "2026-10-25T04:46Z",
+ "start_utc": "2026-10-31T15:00Z",
  "espn": {
-  "event_id": "401879256",
-  "start_utc": "2026-10-24T11:30Z",
+  "event_id": "401879245",
+  "start_utc": "2026-10-31T15:00Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "MNC -140",
+   "details": "MNC -150",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Aston Villa": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-    "abbr": "AVL",
-    "record": "2-2-3",
-    "rank": null,
-    "home_away": "home"
-   },
    "Manchester City": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
     "abbr": "MNC",
-    "record": "7-0-0",
+    "record": "7-0-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Brighton & Hove Albion": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "abbr": "BHA",
+    "record": "5-1-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Villa Park",
-   "city": "Birmingham",
+   "name": "Etihad Stadium",
+   "city": "Manchester",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Manchester City put their Belt Holders championship on the line when they travel to Aston Villa on October 24, 2026. City have defended the belt 4 times in this reign and enter on a perfect 5-0 record this season. Villa, who have held the belt 84 times previously, will look to reclaim it despite their inconsistent 1-3-1 start.",
+  "overview": "Manchester City put their Belt Holders championship on the line when they host Brighton & Hove Albion on October 31st. The Citizens have defended the belt 4 times in this reign and enter on a 5-game winning streak, while Brighton arrive in strong form with 2 consecutive victories. This marks the first time these sides have ever met with the belt at stake.",
   "key_matchups": [
-   "City's perfect 5-game winning streak against Villa's mixed form of 1-3-1, including a heavy 0-4 loss at Brighton",
-   "Recent head-to-head history favors Villa with wins in 3 of the last 5 meetings, including a 2-1 victory in May 2026",
-   "Villa's home advantage as City visit, with the belt having changed hands 11 times previously in this matchup"
+   "Manchester City's perfect 5-0 season record against Brighton's resurgent form after their impressive W 3\u20130 vs Arsenal",
+   "Recent head-to-head history favors tight matches: four of the last five meetings ended 2-1 or in draws",
+   "Brighton's 8 previous belt reigns versus City's current 4-defense streak"
   ],
-  "betting_angles": "Manchester City's form is exceptional with 5 straight wins and a perfect 5-0 season record, while Aston Villa limp in at 1-3-1 with just one win in their last 5. However, the head-to-head record complicates matters as Villa have won the last two meetings between these sides. Our Elo model favors Manchester City despite Villa's recent dominance in this fixture.",
+  "betting_angles": "Manchester City have won their last 5 games and boast a perfect 5-0 record this season, while Brighton sit at 3-1-1 despite winning their last 2. The all-time head-to-head leans heavily toward City (15-5-4), though recent meetings have been competitive with three draws or one-goal margins in the last five encounters. Our Elo model identifies Manchester City as a clear favorite at home.",
   "predicted_winner": "Manchester City",
-  "predicted_score": "Manchester City 2, Aston Villa 1",
-  "prediction_writeup": "Manchester City's perfect season and 5-game winning streak suggest they're in top form, while Aston Villa's 1-3-1 record indicates early season struggles. The recent head-to-head history gives Villa hope, having won the last two encounters including a 2-1 victory in May 2026. However, City's overall dominance this season and the Elo model's backing make them the logical choice to retain the belt. Villa's inconsistency, including losses to Nottingham Forest and Arsenal in their last 5, suggests they're not yet ready to challenge a side firing on all cylinders.",
-  "written": "2026-10-18",
+  "predicted_score": "Manchester City 2, Brighton & Hove Albion 1",
+  "prediction_writeup": "Manchester City's current form is exceptional, having won their last 5 games and maintaining a perfect 5-0 season record. While Brighton have momentum with victories like their W 3\u20130 vs Arsenal, they've shown vulnerability this season with a draw and a loss already. The recent head-to-head history suggests a close contest, with four of the last five meetings decided by a single goal or ending level. City's home advantage and superior seasonal record should be enough to retain the belt, but Brighton's 8 previous belt reigns prove they know how to seize these opportunities.",
+  "written": "2026-10-25",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

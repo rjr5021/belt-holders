@@ -40,5 +40,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|Cagliari Calcio|2026-10-27",
+  "date": "2026-10-27",
+  "holder": "AS Roma",
+  "challenger": "Cagliari Calcio",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, Cagliari Calcio 0",
+  "made": "2026-10-25",
+  "line": {
+   "details": "ROMA -295",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

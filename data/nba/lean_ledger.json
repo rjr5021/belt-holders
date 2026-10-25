@@ -50,5 +50,19 @@
   "score": "Philadelphia 76ers 118, Milwaukee Bucks 107",
   "made": "2026-10-23",
   "line": null
+ },
+ {
+  "key": "PHI|DET|2026-10-25",
+  "date": "2026-10-25",
+  "holder": "PHI",
+  "challenger": "DET",
+  "pick": "DET",
+  "score": "Philadelphia 76ers 112, Detroit Pistons 118",
+  "made": "2026-10-25",
+  "line": {
+   "details": "PHI -2.5",
+   "over_under": 226.5,
+   "provider": "Draft Kings"
+  }
  }
 ]

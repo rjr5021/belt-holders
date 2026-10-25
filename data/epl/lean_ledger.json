@@ -40,5 +40,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Brighton & Hove Albion|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "Manchester City",
+  "challenger": "Brighton & Hove Albion",
+  "pick": "Manchester City",
+  "score": "Manchester City 2, Brighton & Hove Albion 1",
+  "made": "2026-10-25",
+  "line": {
+   "details": "MNC -150",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

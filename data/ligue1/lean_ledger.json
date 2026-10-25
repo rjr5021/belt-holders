@@ -36,5 +36,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Paris FC|AS Monaco|2026-11-01",
+  "date": "2026-11-01",
+  "holder": "Paris FC",
+  "challenger": "AS Monaco",
+  "pick": "Paris FC",
+  "score": "Paris FC 2, AS Monaco 1",
+  "made": "2026-10-25",
+  "line": {
+   "details": "PAR +125",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

@@ -68,5 +68,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NSH|PHI|2026-10-28",
+  "date": "2026-10-28",
+  "holder": "NSH",
+  "challenger": "PHI",
+  "pick": "NSH",
+  "score": "Nashville SC 2, Philadelphia Union 1",
+  "made": "2026-10-25",
+  "line": {
+   "details": "NSH -115",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
