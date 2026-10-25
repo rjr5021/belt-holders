@@ -91,6 +91,21 @@
    "opponent_short": "Giants",
    "reign_no": 3,
    "since": "2026-10-18"
+  },
+  "nhl|Dallas Stars|New York Islanders|2026-10-25": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-25",
+   "defenses": 2,
+   "espn_id": "401892579",
+   "espn_path": "hockey/nhl",
+   "game_no": 8444,
+   "holder": "Dallas Stars",
+   "holder_short": "Stars",
+   "lg": "nhl",
+   "opponent": "New York Islanders",
+   "opponent_short": "Islanders",
+   "reign_no": 106,
+   "since": "2026-10-17"
   }
  },
  "previews": [
