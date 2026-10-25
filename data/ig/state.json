@@ -62,6 +62,21 @@
   "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/"
  ],
  "pending": {
+  "bundesliga|Bayern Munich|SC Freiburg|2026-10-25": {
+   "belt_name": "The Bundesliga Belt",
+   "date": "2026-10-25",
+   "defenses": 14,
+   "espn_id": "401884759",
+   "espn_path": "soccer/ger.1",
+   "game_no": 2135,
+   "holder": "Bayern Munich",
+   "holder_short": "Bayern",
+   "lg": "bundesliga",
+   "opponent": "SC Freiburg",
+   "opponent_short": "Freiburg",
+   "reign_no": 57,
+   "since": "2026-02-28"
+  },
   "laliga|Athletic Bilbao|Getafe CF|2026-10-25": {
    "belt_name": "The La Liga Belt",
    "date": "2026-10-25",
