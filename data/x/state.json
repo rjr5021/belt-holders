@@ -8,7 +8,9 @@
   "bundesliga|2026-10-17|bayernmunich|rbleipzig": {
    "end": "2026-10-17T14:30-04:00"
   },
-  "bundesliga|2026-10-25|bayernmunich|freiburg": {},
+  "bundesliga|2026-10-25|bayernmunich|freiburg": {
+   "end": "2026-10-25T14:44-04:00"
+  },
   "epl|2026-10-11|manchestercity|liverpool": {
    "end": "2026-10-11T13:39-04:00"
   },
@@ -533,6 +535,13 @@
    "defense",
    127,
    116
+  ],
+  [
+   "2026-10-25T14:44-04:00",
+   "bundesliga",
+   "defense",
+   3,
+   1
   ]
  ],
  "today": {
