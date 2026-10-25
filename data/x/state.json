@@ -114,6 +114,7 @@
    "start": "2026-10-18T12:22-04:00"
   },
   "nfl|2026-10-25|houstontexans|newyorkgiants": {
+   "end": "2026-10-25T16:22-04:00",
    "start": "2026-10-25T13:03-04:00"
   },
   "nhl|2026-10-01|floridapanthers|sanjosesharks": {
@@ -542,6 +543,13 @@
    "defense",
    3,
    1
+  ],
+  [
+   "2026-10-25T16:22-04:00",
+   "nfl",
+   "change",
+   21,
+   27
   ]
  ],
  "today": {
