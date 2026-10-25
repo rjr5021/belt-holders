@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "Barclays Center",
-  "spread": -7.5
+  "spread": -6.5
  },
  {
   "id": "espn-401909863",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Paycom Center",
-  "spread": 15.5
+  "spread": 16.5
  },
  {
   "id": "espn-401909866",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": 2.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909867",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Golden 1 Center",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909868",
