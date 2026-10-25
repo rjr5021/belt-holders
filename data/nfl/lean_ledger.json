@@ -46,5 +46,15 @@
   "score": "Houston Texans 27, New York Giants 20",
   "made": "2026-10-18",
   "line": null
+ },
+ {
+  "key": "NYG|PHI|2026-11-08",
+  "date": "2026-11-08",
+  "holder": "NYG",
+  "challenger": "PHI",
+  "pick": "PHI",
+  "score": "New York Giants 20, Philadelphia Eagles 27",
+  "made": "2026-10-25",
+  "line": null
  }
 ]
