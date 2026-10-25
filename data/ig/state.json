@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
   "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
@@ -59,7 +58,8 @@
   "2026-10-25 18:29 preview laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yQohAck8/",
   "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/",
   "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/",
-  "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/"
+  "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/",
+  "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/"
  ],
  "pending": {
   "ligamx|Santos Laguna|Tijuana|2026-10-25": {
@@ -153,7 +153,8 @@
   "ncaah|Michigan|Western Michigan|2026-10-23",
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24",
   "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25",
-  "laliga|Athletic Bilbao|Getafe CF|2026-10-25"
+  "laliga|Athletic Bilbao|Getafe CF|2026-10-25",
+  "ligamx|Santos Laguna|Tijuana|2026-10-25"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
