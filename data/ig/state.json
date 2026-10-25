@@ -106,6 +106,21 @@
    "opponent_short": "Islanders",
    "reign_no": 106,
    "since": "2026-10-17"
+  },
+  "nwsl|Kansas City Current|Washington Spirit|2026-10-25": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-10-25",
+   "defenses": 2,
+   "espn_id": "401854032",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 305,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Washington Spirit",
+   "opponent_short": "Spirit",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
