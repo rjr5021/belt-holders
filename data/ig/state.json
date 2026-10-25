@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 16:39 result ligue1|Paris FC|FC Lorient|2026-10-10 https://www.instagram.com/p/DeU9pcIEmD1/",
   "2026-10-10 16:39 result eredivisie|AZ Alkmaar|Feyenoord|2026-10-10 https://www.instagram.com/p/DeU9slEkqJR/",
   "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
@@ -59,24 +58,10 @@
   "2026-10-25 18:29 preview nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De7yMQagVDM/",
   "2026-10-25 18:29 preview laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yQohAck8/",
   "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/",
-  "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/"
+  "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/",
+  "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/"
  ],
  "pending": {
-  "eredivisie|AZ Alkmaar|FC Twente|2026-10-25": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-10-25",
-   "defenses": 11,
-   "espn_id": "401875566",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "FC Twente",
-   "opponent_short": "Twente",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  },
   "ligamx|Santos Laguna|Tijuana|2026-10-25": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-25",
@@ -216,6 +201,7 @@
   "nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24",
   "nfl|Houston Texans|New York Giants|2026-10-25",
   "laliga|Athletic Bilbao|Getafe CF|2026-10-25",
-  "bundesliga|Bayern Munich|SC Freiburg|2026-10-25"
+  "bundesliga|Bayern Munich|SC Freiburg|2026-10-25",
+  "eredivisie|AZ Alkmaar|FC Twente|2026-10-25"
  ]
 }
