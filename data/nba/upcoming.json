@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": 1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909869",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Kaseya Center",
-  "spread": 8.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909872",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": 10.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909874",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909876",
@@ -218,7 +218,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909885",
@@ -333,7 +333,7 @@
   "away": "CLE",
   "neutral": "",
   "source": "espn",
-  "start_et": "19:00",
+  "start_et": "20:00",
   "venue": "State Farm Arena",
   "spread": null
  },
