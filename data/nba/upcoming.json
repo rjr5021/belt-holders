@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Rocket Arena",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909870",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": 9.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909874",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 5.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909875",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909876",
