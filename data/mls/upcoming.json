@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-761904",
-  "date": "2026-10-25",
-  "season_type": "regular",
-  "home": "LAFC",
-  "away": "LA Galaxy",
-  "home_id": "18966",
-  "away_id": "187",
-  "home_abbr": "LAFC",
-  "away_abbr": "LA",
-  "home_loc": "LAFC",
-  "away_loc": "LA Galaxy",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "21:00",
-  "season": 2026
- },
- {
   "id": "espn-761907",
   "date": "2026-10-28",
   "season_type": "regular",

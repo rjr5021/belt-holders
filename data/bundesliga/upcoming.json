@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-61",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "1899 Hoffenheim",
-  "away": "Bayer Leverkusen",
-  "start_et": "10:30"
- },
- {
-  "id": "of-2026-62",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SC Freiburg",
-  "away": "Bayern Munchen",
-  "start_et": "12:30"
- },
- {
   "id": "of-2026-63",
   "date": "2026-10-30",
   "season": 2026,

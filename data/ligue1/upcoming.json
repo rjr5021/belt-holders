@@ -1,59 +1,5 @@
 [
  {
-  "id": "of-2026-66",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AS Monaco",
-  "away": "Lille OSC",
-  "start_et": "10:00"
- },
- {
-  "id": "of-2026-67",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Olympique Marseille",
-  "away": "Le Havre AC",
-  "start_et": "12:15"
- },
- {
-  "id": "of-2026-68",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Stade Rennes",
-  "away": "RC Strasbourg",
-  "start_et": "12:15"
- },
- {
-  "id": "of-2026-69",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Angers SCO",
-  "away": "FC Lorient",
-  "start_et": "12:15"
- },
- {
-  "id": "of-2026-70",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AJ Auxerre",
-  "away": "Le Mans UC 72",
-  "start_et": "12:15"
- },
- {
-  "id": "of-2026-71",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Paris Saint-Germain",
-  "away": "Olympique Lyon",
-  "start_et": "15:45"
- },
- {
   "id": "of-2026-72",
   "date": "2026-10-30",
   "season": 2026,

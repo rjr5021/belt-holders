@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401854094",
-  "date": "2026-10-25",
-  "season_type": "regular",
-  "home": "San Diego Wave FC",
-  "away": "Boston Legacy FC",
-  "home_id": "21423",
-  "away_id": "131562",
-  "home_abbr": "SD",
-  "away_abbr": "BOS",
-  "home_loc": "San Diego Wave FC",
-  "away_loc": "Boston Legacy FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14024,
-  "start_et": "19:00",
-  "season": 2026
- },
- {
   "id": "espn-401854095",
   "date": "2026-11-01",
   "season_type": "regular",
