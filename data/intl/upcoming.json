@@ -880,17 +880,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401919974",
-  "date": "2026-11-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Jordan",
-  "away": "Australia",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401930237",
   "date": "2026-11-17",
   "season": 2026,
@@ -943,6 +932,17 @@
   "away": "Uzbekistan",
   "neutral": "",
   "start_et": "10:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401919974",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Jordan",
+  "away": "Australia",
+  "neutral": "",
+  "start_et": "11:00",
   "tournament": "Friendly"
  },
  {
