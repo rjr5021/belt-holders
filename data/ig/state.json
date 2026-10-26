@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 22:35 result nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10 https://www.instagram.com/p/DeVmYI3mw4-/",
   "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
   "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
   "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/",
@@ -59,7 +58,8 @@
   "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/",
   "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/",
   "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/",
-  "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/"
+  "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/",
+  "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/"
  ],
  "pending": {
   "ligamx|Santos Laguna|Tijuana|2026-10-25": {
@@ -76,21 +76,6 @@
    "opponent_short": "Xolos",
    "reign_no": 9,
    "since": "2026-10-17"
-  },
-  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-10-25",
-   "defenses": 2,
-   "espn_id": "401909866",
-   "espn_path": "basketball/nba",
-   "game_no": 7533,
-   "holder": "Philadelphia 76ers",
-   "holder_short": "76ers",
-   "lg": "nba",
-   "opponent": "Detroit Pistons",
-   "opponent_short": "Pistons",
-   "reign_no": 201,
-   "since": "2026-10-20"
   },
   "nhl|Dallas Stars|New York Islanders|2026-10-25": {
    "belt_name": "The NHL Belt",
@@ -203,6 +188,7 @@
   "nfl|Houston Texans|New York Giants|2026-10-25",
   "laliga|Athletic Bilbao|Getafe CF|2026-10-25",
   "bundesliga|Bayern Munich|SC Freiburg|2026-10-25",
-  "eredivisie|AZ Alkmaar|FC Twente|2026-10-25"
+  "eredivisie|AZ Alkmaar|FC Twente|2026-10-25",
+  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25"
  ]
 }
