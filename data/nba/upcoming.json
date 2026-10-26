@@ -1,83 +1,5 @@
 [
  {
-  "id": "espn-401909861",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "UTAH",
-  "away": "LAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "17:00",
-  "venue": "Delta Center",
-  "spread": -6.5
- },
- {
-  "id": "espn-401909862",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BKN",
-  "away": "IND",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "18:00",
-  "venue": "Barclays Center",
-  "spread": -6.5
- },
- {
-  "id": "espn-401909863",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "ORL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Madison Square Garden",
-  "spread": 7.5
- },
- {
-  "id": "espn-401909864",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "TOR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Target Center",
-  "spread": 1.5
- },
- {
-  "id": "espn-401909865",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "OKC",
-  "away": "LAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Paycom Center",
-  "spread": 16.5
- },
- {
-  "id": "espn-401909866",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Xfinity Mobile Arena",
-  "spread": -1.5
- },
- {
   "id": "espn-401909867",
   "date": "2026-10-25",
   "season": 2026,
@@ -101,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909869",
@@ -127,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "TD Garden",
-  "spread": null
+  "spread": 13.5
  },
  {
   "id": "espn-401909871",
@@ -140,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Kaseya Center",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909872",
@@ -179,7 +101,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909875",
@@ -205,7 +127,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Ball Arena",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909877",
