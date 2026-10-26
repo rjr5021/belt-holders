@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/",
   "2026-10-11 13:37 result epl|Manchester City|Liverpool|2026-10-11 https://www.instagram.com/p/DeXNs1wCWZx/",
   "2026-10-11 13:37 result seriea|AS Roma|Como Calcio|2026-10-11 https://www.instagram.com/p/DeXNv2zCbat/",
   "2026-10-13 10:16 preview nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13 https://www.instagram.com/p/DecAPzbkQ3B/",
@@ -59,25 +58,10 @@
   "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/",
   "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/",
   "2026-10-25 22:13 result nhl|Dallas Stars|New York Islanders|2026-10-25 https://www.instagram.com/p/De8L4-zkahp/",
-  "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/"
+  "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/",
+  "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/"
  ],
- "pending": {
-  "ligamx|Santos Laguna|Tijuana|2026-10-25": {
-   "belt_name": "The Liga MX Belt",
-   "date": "2026-10-25",
-   "defenses": 1,
-   "espn_id": "401876920",
-   "espn_path": "soccer/mex.1",
-   "game_no": 543,
-   "holder": "Santos Laguna",
-   "holder_short": "Santos",
-   "lg": "ligamx",
-   "opponent": "Tijuana",
-   "opponent_short": "Xolos",
-   "reign_no": 9,
-   "since": "2026-10-17"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -161,6 +145,7 @@
   "eredivisie|AZ Alkmaar|FC Twente|2026-10-25",
   "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25",
   "nhl|Dallas Stars|New York Islanders|2026-10-25",
-  "nwsl|Kansas City Current|Washington Spirit|2026-10-25"
+  "nwsl|Kansas City Current|Washington Spirit|2026-10-25",
+  "ligamx|Santos Laguna|Tijuana|2026-10-25"
  ]
 }
