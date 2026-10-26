@@ -1,21 +1,21 @@
 [
  {
-  "id": "cfl-2026-10-31-SSK-BC",
+  "id": "cfl-2026-10-31-BC-SSK",
   "date": "2026-10-31",
   "season": 2026,
   "season_type": "postseason",
-  "home": "SSK",
-  "away": "BC",
+  "home": "BC",
+  "away": "SSK",
   "neutral": "",
   "start_et": null
  },
  {
-  "id": "cfl-2026-10-31-WPG-TOR",
+  "id": "cfl-2026-10-31-TOR-WPG",
   "date": "2026-10-31",
   "season": 2026,
   "season_type": "postseason",
-  "home": "WPG",
-  "away": "TOR",
+  "home": "TOR",
+  "away": "WPG",
   "neutral": "",
   "start_et": null
  }
