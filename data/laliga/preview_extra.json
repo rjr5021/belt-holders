@@ -1,16 +1,17 @@
 {
- "key": "Athletic Bilbao|Getafe CF|2026-10-25",
- "updated": "2026-10-22T04:51Z",
- "start_utc": "2026-10-25T13:00Z",
+ "key": "Athletic Bilbao|Real Sociedad|2026-11-01",
+ "updated": "2026-10-26T00:27Z",
+ "start_utc": "2026-11-01T20:00Z",
  "espn": {
-  "event_id": "401882835",
-  "start_utc": "2026-10-25T13:00Z",
+  "event_id": "401882826",
+  "start_utc": "2026-11-01T20:00Z",
   "state": "pre",
   "tv": [
+   "ESPN Deportes",
    "ESPN+"
   ],
   "odds": {
-   "details": "ATH -165",
+   "details": "ATH +105",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
@@ -18,14 +19,14 @@
    "Athletic Bilbao": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
     "abbr": "ATH",
-    "record": "2-3-3",
+    "record": "3-3-3",
     "rank": null,
     "home_away": "home"
    },
-   "Getafe CF": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "abbr": "GET",
-    "record": "2-3-4",
+   "Real Sociedad": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "abbr": "RSO",
+    "record": "6-1-3",
     "rank": null,
     "home_away": "away"
    }
@@ -39,17 +40,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Athletic Bilbao put their lineal championship belt on the line when they host Getafe CF at San Mam\u00e9s. The belt holders have successfully defended twice in this reign but are coming off back-to-back draws. Getafe arrive with momentum from a 1\u20130 victory over M\u00e1laga CF and hold a recent edge in this rivalry.",
+  "overview": "Athletic Bilbao put their lineal championship belt on the line when they host Real Sociedad in a Basque derby. The belt holder has successfully defended twice in this reign and faces a Real Sociedad side that has held the belt 56 times previously. This marks the 23rd time these two sides have met with the belt at stake.",
   "key_matchups": [
-   "Athletic Bilbao's home form versus Getafe CF's recent dominance in the head-to-head (winning the last two meetings 2-0 and 1-0)",
-   "Bilbao's draw streak (0\u20130 vs Alav\u00e9s, 1\u20131 vs Elche) against Getafe's ability to grind out narrow results",
-   "The belt has changed hands in 4 previous meetings between these sides, suggesting competitive history when the championship is at stake"
+   "Athletic Bilbao's recent defensive solidity (two straight clean sheets before their last two draws) against Real Sociedad's attacking form (3-2 wins in two of their last three)",
+   "The belt holder's struggle to find the net lately (just one goal in their last two) versus the visitors' ability to score in bunches",
+   "All-time head-to-head edge for Athletic Bilbao (63-54-41 in 158 meetings) playing out on home soil"
   ],
-  "betting_angles": "The Elo model favors Athletic Bilbao at home, but recent head-to-head results tell a different story with Getafe winning both 2026 and 2025 meetings. Bilbao's form is mixed with two consecutive draws following impressive wins over Atl\u00e9tico Madrid (3\u20130) and Celta Vigo (2\u20130). Getafe's 2-3-2 record shows struggles on the road, having lost 0\u20131 at Real Betis and 0\u20131 at CA Osasuna in their last five.",
+  "betting_angles": "Athletic Bilbao hold a slight edge as the Elo favorite and have the home advantage in a historically tight rivalry. However, their recent form shows stagnation with back-to-back draws and just one goal in those two matches, while Real Sociedad arrive on the back of a W 3\u20132 at Valencia CF. The head-to-head history shows competitive matches, with three of the last five meetings ending in draws or decided by a single goal.",
   "predicted_winner": "Athletic Bilbao",
-  "predicted_score": "Athletic Bilbao 2, Getafe CF 1",
-  "prediction_writeup": "Despite Getafe's recent success in this matchup, the home advantage at San Mam\u00e9s and the Elo edge tilt this toward Athletic Bilbao. The hosts showed their ceiling with the 3\u20130 victory over Atl\u00e9tico Madrid, though consecutive draws indicate some inconsistency. Getafe's road form has been poor with losses at Real Betis and CA Osasuna, and their narrow 1\u20130 win over M\u00e1laga doesn't inspire confidence for a difficult away fixture. The all-time series is nearly even (13-11-18), but Bilbao should have enough to retain the belt in front of their supporters.",
-  "written": "2026-10-22",
+  "predicted_score": "Athletic Bilbao 2, Real Sociedad 1",
+  "prediction_writeup": "Athletic Bilbao get the nod as the Elo favorite with home advantage in this Basque derby, and their all-time head-to-head edge (63-54-41) provides additional confidence. While they've drawn their last 2 games, their previous form included strong performances like the W 3\u20130 vs Atl\u00e9tico Madrid and W 2\u20130 at Celta Vigo. Real Sociedad's 3-3-1 record suggests inconsistency, and despite their recent W 3\u20132 at Valencia CF, they also suffered a L 0\u20133 vs Atl\u00e9tico Madrid in their last five. The belt stays in Bilbao in a narrow victory.",
+  "written": "2026-10-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

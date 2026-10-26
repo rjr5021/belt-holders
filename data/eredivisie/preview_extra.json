@@ -1,55 +1,55 @@
 {
- "key": "AZ Alkmaar|FC Twente|2026-10-25",
- "updated": "2026-10-19T04:45Z",
- "start_utc": "2026-10-25T19:00Z",
+ "key": "AZ Alkmaar|AFC Ajax|2026-10-31",
+ "updated": "2026-10-26T00:28Z",
+ "start_utc": "2026-10-31T20:00Z",
  "espn": {
-  "event_id": "401875566",
-  "start_utc": "2026-10-25T19:00Z",
+  "event_id": "401875562",
+  "start_utc": "2026-10-31T20:00Z",
   "state": "pre",
   "tv": [
    "ESPN+"
   ],
   "odds": {
-   "details": "AZ +110",
+   "details": "AJA -125",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "AZ Alkmaar": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-    "abbr": "AZ",
-    "record": "6-2-1",
+   "AFC Ajax": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+    "abbr": "AJA",
+    "record": "6-3-1",
     "rank": null,
     "home_away": "home"
    },
-   "FC Twente": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-    "abbr": "TWE",
-    "record": "5-2-2",
+   "AZ Alkmaar": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+    "abbr": "AZ",
+    "record": "6-2-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "AFAS Stadion",
-   "city": "Alkmaar",
+   "name": "Johan Cruijff Arena",
+   "city": "Amsterdam",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AZ Alkmaar put their lineal championship belt on the line when they host FC Twente on October 25, 2026. The belt has already been defended 11 times during AZ's current reign, but FC Twente arrive as experienced challengers who have held the belt 30 times previously. This belt matchup marks the 9th time these two sides have played with the lineal title at stake.",
+  "overview": "AZ Alkmaar bring the Belt Holders championship to Amsterdam to face AFC Ajax on October 31st, 2026. The visitors have defended the belt 11 times in this reign and hold a 6-0-1 season record, while Ajax sit at 4-1-2 and have held the belt 56 times previously in the championship's history. This marks the 13th time these sides have met with the lineal title on the line.",
   "key_matchups": [
-   "AZ Alkmaar's 6-0-1 season record against FC Twente's 5-1-1 mark in what shapes up as a clash of Eredivisie's top sides",
-   "FC Twente's hot streak of 3 straight wins, including a 3\u20132 victory over PSV Eindhoven, versus AZ's home advantage and 11 successful belt defenses",
-   "The all-time head-to-head tilts slightly toward FC Twente at 25-23-12 across 60 meetings, with recent encounters split nearly even"
+   "AZ Alkmaar's unbeaten road form (W 3\u20132 at sc Heerenveen, W 2\u20130 at Fortuna Sittard) against Ajax's mixed home results including a 1\u20133 loss to PSV Eindhoven",
+   "Ajax's recent attacking firepower (5\u20131 vs Willem II, 5\u20131 at Fortuna Sittard) versus AZ's defensive solidity in their last outing (W 1\u20130 vs Telstar)",
+   "Historical edge heavily favors Ajax (31-15-16 all-time), but AZ have won 2 of the last 5 meetings including a 2-0 victory in February 2024"
   ],
-  "betting_angles": "AZ Alkmaar enter as Elo favorites despite FC Twente's superior recent form, having won their last 3 games compared to AZ's single-game winning streak. The home side's 6-0-1 record edges FC Twente's 5-1-1 mark, though both teams have been strong this season. Recent head-to-head history shows tight contests, with their last meeting ending 2-2 and three of the last five decided by a single goal.",
-  "predicted_winner": "AZ Alkmaar",
-  "predicted_score": "AZ Alkmaar 2, FC Twente 1",
-  "prediction_writeup": "AZ Alkmaar's home advantage and Elo favoritism give them the edge in what should be a closely contested match. Their 6-0-1 season record demonstrates consistency, though FC Twente's impressive 3-game winning streak including a victory over PSV Eindhoven shows they're peaking at the right time. The all-time series is nearly even with FC Twente holding a slight 25-23 edge, and recent meetings have been tight affairs. AZ's 11 successful belt defenses in this reign suggest they know how to protect the title at home, and that experience should be enough to edge a narrow victory in what the numbers indicate will be another one-goal game between these evenly matched sides.",
-  "written": "2026-10-19",
+  "betting_angles": "AZ Alkmaar's 6-0-1 record is pristine, but the Elo model tags them as underdogs at Ajax despite their 11 successful belt defenses. Ajax own a commanding 31-15-16 all-time edge in this fixture, though recent meetings have been closer with three ties in the last five. Ajax's attacking form shows 5\u20131 victories in two of their last five, but they're coming off a T 2\u20132 vs SBV Excelsior while AZ won 1\u20130 most recently.",
+  "predicted_winner": "AFC Ajax",
+  "predicted_score": "AZ Alkmaar 1, AFC Ajax 2",
+  "prediction_writeup": "While AZ Alkmaar's 6-0-1 record and 11 successful belt defenses are impressive, the Elo model correctly identifies them as underdogs in Amsterdam. Ajax's 31-15-16 all-time advantage in this fixture reflects their historical dominance, and their recent attacking displays (5\u20131 vs Willem II, 5\u20131 at Fortuna Sittard) suggest scoring potential even after the 2\u20132 draw with SBV Excelsior. AZ's defensive discipline has been strong, but facing Ajax at home where they've scored 4 or 5 goals three times in their last five presents a different challenge. The belt changes hands in a tight contest.",
+  "written": "2026-10-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

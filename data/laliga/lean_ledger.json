@@ -54,5 +54,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Athletic Bilbao|Real Sociedad|2026-11-01",
+  "date": "2026-11-01",
+  "holder": "Athletic Bilbao",
+  "challenger": "Real Sociedad",
+  "pick": "Athletic Bilbao",
+  "score": "Athletic Bilbao 2, Real Sociedad 1",
+  "made": "2026-10-26",
+  "line": {
+   "details": "ATH +105",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

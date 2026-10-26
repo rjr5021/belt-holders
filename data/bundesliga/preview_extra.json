@@ -1,55 +1,53 @@
 {
- "key": "Bayern Munchen|SC Freiburg|2026-10-25",
- "updated": "2026-10-18T04:39Z",
- "start_utc": "2026-10-25T16:30Z",
+ "key": "Bayern Munchen|Borussia Dortmund|2026-10-31",
+ "updated": "2026-10-26T00:27Z",
+ "start_utc": "2026-10-31T17:30Z",
  "espn": {
-  "event_id": "401884759",
-  "start_utc": "2026-10-25T16:30Z",
+  "event_id": "401884754",
+  "start_utc": "2026-10-31T17:30Z",
   "state": "pre",
-  "tv": [
-   "Fandango"
-  ],
+  "tv": [],
   "odds": {
-   "details": "MUN -250",
+   "details": "MUN -285",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "SC Freiburg": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-    "abbr": "SCF",
-    "record": "4-1-0",
-    "rank": null,
-    "home_away": "home"
-   },
    "Bayern Munchen": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
     "abbr": "MUN",
-    "record": "4-2-0",
+    "record": "5-2-0",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Borussia Dortmund": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "abbr": "DOR",
+    "record": "5-2-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Europa-Park Stadion",
-   "city": "Freiburg im Breisgau",
+   "name": "Allianz Arena",
+   "city": "M\u00fcnchen",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich put their lineal championship belt on the line when they visit SC Freiburg on October 25, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back through Bundesliga history. Bayern have defended the belt 14 times in this reign and will look to extend that streak against a Freiburg side that has held the belt 6 times before.",
+  "overview": "Bayern Munich put their lineal championship belt on the line when they host Borussia Dortmund on October 31st. The belt has already been defended 14 times in Bayern's current reign, and this marks the 33rd time these two giants will meet with the lineal title at stake. With Dortmund arriving on a perfect 4-0 record and a five-game winning streak, while Bayern sit at 3-0-1, this Der Klassiker promises high stakes beyond the belt itself.",
   "key_matchups": [
-   "Bayern's attacking form after a 7\u20130 demolition of Union Berlin meets Freiburg's recent defensive slip in a 2\u20132 draw at Frankfurt",
-   "Historical dominance: Bayern hold a commanding 38-4-10 all-time edge and have won 14 of 15 belt meetings between these sides",
-   "Both teams enter on identical 3-0-1 records this season, but Bayern have won their last 2 while Freiburg just drew"
+   "Bayern's recent firepower (7-0, 5-1, 5-1 in their last five) against Dortmund's perfect season and five-game winning streak",
+   "Historical dominance: Bayern lead the all-time series 56-26-32 and have won the last two meetings",
+   "Belt experience: Bayern's 14 successful defenses this reign versus Dortmund's 41 previous reigns as holder"
   ],
-  "betting_angles": "Bayern Munich are the Elo favorites and boast overwhelming historical dominance with 38 wins in 52 all-time meetings. The visitors have won their last 2 games and scored 7\u20130 most recently, while Freiburg's four-game win streak ended with a 2\u20132 draw at Frankfurt. Bayern have also won four of the last five head-to-head meetings, including a 3-2 victory at Freiburg in April 2026.",
+  "betting_angles": "Bayern Munich enter as Elo favorites despite Dortmund's unblemished 4-0 record and five-game winning streak. The hosts have won their last 2 games and scored freely in recent weeks, though their draw at FC Schalke 04 shows some vulnerability. Head to head history heavily favors Bayern with 56 wins to Dortmund's 26, and Bayern took both meetings in 2026 and 2025 by narrow margins.",
   "predicted_winner": "Bayern Munich",
-  "predicted_score": "Bayern Munich 3, SC Freiburg 1",
-  "prediction_writeup": "Bayern Munich's recent 7\u20130 thrashing of Union Berlin showcases the kind of attacking firepower that has overwhelmed Freiburg historically. While Freiburg impressed with wins like 5\u20130 over M\u00f6nchengladbach and 4\u20131 results against both Bremen and Leipzig, their all-time record of just 4 wins in 52 meetings tells the story. Bayern have defended this belt 14 times already in this reign and won 14 of 15 belt meetings between these clubs. The Elo model favors the visitors, and recent form supports that edge despite both teams sitting at 3-0-1 this season.",
-  "written": "2026-10-18",
+  "predicted_score": "Bayern Munich 3, Borussia Dortmund 2",
+  "prediction_writeup": "Bayern Munich's attacking form has been exceptional, with three 5-goal performances and a 7-0 demolition in their last five outings. While Dortmund's five-game winning streak and perfect record are impressive, four of those five wins came by one or two-goal margins, suggesting tight contests rather than dominance. The Elo model favors Bayern, and the home side has won both recent meetings between these clubs. Bayern's 14 successful belt defenses in this reign demonstrate their ability to rise to the occasion when the lineal title is on the line, and their firepower should prove decisive in a high-scoring Der Klassiker.",
+  "written": "2026-10-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

@@ -40,5 +40,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AZ Alkmaar|AFC Ajax|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "AZ Alkmaar",
+  "challenger": "AFC Ajax",
+  "pick": "AFC Ajax",
+  "score": "AZ Alkmaar 1, AFC Ajax 2",
+  "made": "2026-10-26",
+  "line": {
+   "details": "AJA -125",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

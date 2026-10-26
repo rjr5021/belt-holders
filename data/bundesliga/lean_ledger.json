@@ -36,5 +36,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Bayern Munchen|Borussia Dortmund|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "Bayern Munchen",
+  "challenger": "Borussia Dortmund",
+  "pick": "Bayern Munchen",
+  "score": "Bayern Munich 3, Borussia Dortmund 2",
+  "made": "2026-10-26",
+  "line": {
+   "details": "MUN -285",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
