@@ -1,25 +1,27 @@
 {
- "key": "SAN|NEC|2026-11-01",
- "updated": "2026-10-26T00:28Z",
- "start_utc": "2026-11-01T23:00Z",
+ "key": "TIJ|AME|2026-10-28",
+ "updated": "2026-10-26T07:53Z",
+ "start_utc": "2026-10-29T03:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Santos Laguna put their lineal championship belt on the line when they host Necaxa on November 1st, 2026. The belt has been defended once during Santos Laguna's current reign, and this marks the first time these two sides have ever met with the belt at stake. Necaxa have held the belt twice in the past but will need to overcome a surging Santos Laguna side to reclaim it.",
+  "overview": "The belt holder has yet to defend in this reign, while Am\u00e9rica enter as seasoned belt contenders with 18 previous reigns. This marks the eighth all-time meeting between these sides with the belt on the line.",
   "key_matchups": [
-   "Santos Laguna's five-game winning streak versus Necaxa's winless last four matches (one draw, three losses)",
-   "Recent head-to-head history favors Necaxa with three straight victories, including a 3-1 win in January 2026",
-   "Santos Laguna's defensive solidity during their streak (conceding just five goals in five games) against Necaxa's struggles to keep the ball out of their net"
+   "Am\u00e9rica's 8-2-3 record against Tijuana's 5-3-5 mark highlights a gap in season performance",
+   "Tijuana's three draws in their last five games contrast with Am\u00e9rica's high-scoring recent wins before their latest loss",
+   "Am\u00e9rica's 16-4-7 all-time edge in the head-to-head series, including three of the last five meetings"
   ],
-  "betting_angles": "Santos Laguna enter as Elo favorites riding a five-game winning streak, while Necaxa have managed just one draw in their last five outings with a 2-8-4 season record. However, Necaxa hold a 10-8 edge in the all-time series and have won the last three meetings, most recently 3-1 in January 2026. The form differential is stark, but the head-to-head history suggests this matchup has historically favored the visitors.",
-  "predicted_winner": "Santos Laguna",
-  "predicted_score": "Santos Laguna 2, Necaxa 1",
-  "prediction_writeup": "Santos Laguna have won their last five games and are riding exceptional momentum at home. While Necaxa hold the recent head-to-head edge with three straight wins, their current form is dire with a 2-8-4 record and just one point from their last five matches. The Elo model favors Santos Laguna, and their five-game winning streak\u2014including convincing victories like 5-0 over Quer\u00e9taro and 2-0 against Pumas UNAM\u2014suggests they have found their rhythm. Santos Laguna should retain the belt with a narrow home victory.",
+  "betting_angles": "The Elo model favors Club Am\u00e9rica as clear favorites, aligning with their superior 8-2-3 season record and dominant 16-4 edge in the all-time series across 27 meetings. Am\u00e9rica have scored prolifically in recent wins like 5-2 at Atlas and 5-3 at Le\u00f3n, though they stumbled 1-2 to Pachuca in their most recent outing. Tijuana enter on a W 4-1 result against Santos Laguna but have drawn three of their previous four before that.",
+  "predicted_winner": "Club Am\u00e9rica",
+  "predicted_score": "Tijuana 1, Club Am\u00e9rica 3",
+  "prediction_writeup": "Club Am\u00e9rica's 8-2-3 record and home advantage should prove decisive against a Tijuana side sitting at 5-3-5. The hosts have dominated this matchup historically, winning 16 of 27 all-time meetings, and their recent scoring form\u20145-2 at Atlas and 5-3 at Le\u00f3n\u2014suggests they can exploit Tijuana's defensive vulnerabilities. While Tijuana won 4-1 against Santos Laguna in their last outing, their recent stretch includes three draws and a loss, signaling inconsistency. The belt changes hands with Am\u00e9rica reclaiming it for their 19th reign.",
   "written": "2026-10-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "28"
+   ]
   }
  }
 }

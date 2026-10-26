@@ -1,56 +1,57 @@
 {
- "key": "PHI|IND|2026-10-28",
- "updated": "2026-10-26T00:25Z",
- "start_utc": "2026-10-28T23:00Z",
+ "key": "DET|NYK|2026-10-27",
+ "updated": "2026-10-26T07:51Z",
+ "start_utc": "2026-10-28T00:00Z",
  "espn": {
-  "event_id": "401909884",
-  "start_utc": "2026-10-28T23:00Z",
+  "event_id": "401909878",
+  "start_utc": "2026-10-28T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN",
-   "DAZN IND"
+   "NBC"
   ],
   "odds": null,
   "teams": {
-   "IND": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-    "abbr": "IND",
-    "record": "1-1",
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
+    "record": "0-3",
     "rank": null,
     "home_away": "home"
    },
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-    "abbr": "PHI",
+   "DET": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "abbr": "DET",
     "record": "3-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Gainbridge Fieldhouse",
-   "city": "Indianapolis",
-   "state": "IN",
+   "name": "Madison Square Garden",
+   "city": "New York",
+   "state": "NY",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers bring their lineal championship belt to Indiana for a Wednesday night showdown with the Pacers. Philadelphia has defended the belt twice in their current reign and enters on a three-game winning streak with a perfect 3-0 record this season. Indiana, sitting at 1-1 after dropping their most recent game 105-121 to Dallas, will look to capture the belt for what would be their 94th time in franchise history.",
+  "overview": "Detroit claimed the belt in their most recent victory and has yet to defend it in this reign, while the Knicks have held the belt 204 times previously and will look to reclaim it.",
   "key_matchups": [
-   "Philadelphia's perfect start versus Indiana's inconsistent form\u2014the Pacers have alternated results in their last five games",
-   "The 76ers have dominated this matchup recently, winning all five of the last meetings including a 105-94 victory on 2026-04-10",
-   "Philadelphia's offensive firepower after scoring 127 against Milwaukee meets an Indiana defense that allowed 121 to Dallas and 133 to Detroit recently"
+   "Detroit's perfect 3-0 start versus New York's winless 0-3 beginning to the season",
+   "The Pistons' three-game winning streak colliding with the Knicks' three-game losing skid",
+   "Detroit's recent dominance in the head-to-head series, including a 126-111 victory in their last meeting on February 19, 2026"
   ],
-  "betting_angles": "Philadelphia enters as the Elo favorite with momentum firmly on their side, riding a three-game win streak and a spotless 3-0 start to the season. The head-to-head history strongly favors the 76ers, who lead the all-time series 122-98 and have won five straight meetings, including decisive victories of 135-114 and 105-94 earlier this year. Indiana's recent defensive struggles, allowing 121 and 133 points in two of their last three games, contrasts poorly with Philadelphia's ability to score efficiently while winning by double digits in two of their last three.",
-  "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 118, Indiana Pacers 109",
-  "prediction_writeup": "Philadelphia's perfect 3-0 start and three-game winning streak speaks to a team firing on all cylinders, most recently putting up 127 points against Milwaukee. The 76ers have thoroughly dominated this matchup, winning all five previous meetings including comfortable victories of 135-114 and 105-94. Indiana's defensive issues are evident in recent games, allowing 121 to Dallas and 133 to Detroit, which doesn't bode well against a Philadelphia offense that has scored 106 or more in each of its last four games. With the Elo model backing the visitors and the belt on the line, Philadelphia should extend their reign on the road.",
+  "betting_angles": "Detroit enters with momentum on a three-game winning streak and a perfect 3-0 record this season, while New York has dropped three straight and sits at 0-3. The Pistons dominated the most recent head-to-head meeting 126-111 and won the two prior matchups by margins of 121-90 and 118-80. Despite this form, the Elo model favors the home Knicks, suggesting value may lie with the road team.",
+  "predicted_winner": "Detroit Pistons",
+  "predicted_score": "Detroit Pistons 114, New York Knicks 108",
+  "prediction_writeup": "Detroit's form is simply too strong to ignore, with three consecutive wins including victories of 106-93 at Philadelphia and 128-111 at Miami. The Knicks have struggled out of the gate at 0-3, dropping games by scores like 102-111 to Orlando and 103-107 at Boston. Detroit has dominated this matchup recently, winning by scores of 126-111, 118-80, and 121-90 in their last three meetings. While the Elo model favors New York, the Pistons should retain the belt with a road victory behind their superior current form.",
   "written": "2026-10-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "27"
+   ]
   }
  }
 }
