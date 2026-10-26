@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909867",
-  "date": "2026-10-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SAC",
-  "away": "MEM",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Golden 1 Center",
-  "spread": -3.5
- },
- {
   "id": "espn-401909868",
   "date": "2026-10-26",
   "season": 2026,
@@ -23,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909869",
@@ -36,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Rocket Arena",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909870",
@@ -49,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "TD Garden",
-  "spread": 13.5
+  "spread": 14.5
  },
  {
   "id": "espn-401909871",
@@ -62,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Kaseya Center",
-  "spread": 7.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909872",
@@ -75,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909873",
@@ -88,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401909874",
@@ -114,7 +101,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909876",
