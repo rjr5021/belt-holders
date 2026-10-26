@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-10 22:35 result mls|Austin FC|Nashville SC|2026-10-10 https://www.instagram.com/p/DeVmbpmm1iS/",
   "2026-10-10 22:35 result ligamx|Atlante|Quer\u00e9taro|2026-10-10 https://www.instagram.com/p/DeVme3Wm34s/",
   "2026-10-11 13:37 result nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11 https://www.instagram.com/p/DeXNptJiRXZ/",
   "2026-10-11 13:37 result epl|Manchester City|Liverpool|2026-10-11 https://www.instagram.com/p/DeXNs1wCWZx/",
@@ -59,7 +58,8 @@
   "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/",
   "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/",
   "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/",
-  "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/"
+  "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/",
+  "2026-10-25 22:13 result nhl|Dallas Stars|New York Islanders|2026-10-25 https://www.instagram.com/p/De8L4-zkahp/"
  ],
  "pending": {
   "ligamx|Santos Laguna|Tijuana|2026-10-25": {
@@ -75,21 +75,6 @@
    "opponent": "Tijuana",
    "opponent_short": "Xolos",
    "reign_no": 9,
-   "since": "2026-10-17"
-  },
-  "nhl|Dallas Stars|New York Islanders|2026-10-25": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-10-25",
-   "defenses": 2,
-   "espn_id": "401892579",
-   "espn_path": "hockey/nhl",
-   "game_no": 8444,
-   "holder": "Dallas Stars",
-   "holder_short": "Stars",
-   "lg": "nhl",
-   "opponent": "New York Islanders",
-   "opponent_short": "Islanders",
-   "reign_no": 106,
    "since": "2026-10-17"
   },
   "nwsl|Kansas City Current|Washington Spirit|2026-10-25": {
@@ -189,6 +174,7 @@
   "laliga|Athletic Bilbao|Getafe CF|2026-10-25",
   "bundesliga|Bayern Munich|SC Freiburg|2026-10-25",
   "eredivisie|AZ Alkmaar|FC Twente|2026-10-25",
-  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25"
+  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25",
+  "nhl|Dallas Stars|New York Islanders|2026-10-25"
  ]
 }
