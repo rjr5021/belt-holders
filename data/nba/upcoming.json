@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909876",
-  "date": "2026-10-26",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DEN",
-  "away": "GS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Ball Arena",
-  "spread": 7.5
- },
- {
   "id": "espn-401909877",
   "date": "2026-10-27",
   "season": 2026,
@@ -23,7 +10,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "TD Garden",
-  "spread": null
+  "spread": 11.5
  },
  {
   "id": "espn-401909878",
@@ -36,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Madison Square Garden",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909879",
@@ -49,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Frost Bank Center",
-  "spread": null
+  "spread": 18.5
  },
  {
   "id": "espn-401909880",
@@ -62,7 +49,7 @@
   "source": "espn",
   "start_et": "23:00",
   "venue": "crypto.com Arena",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909881",
