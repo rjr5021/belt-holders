@@ -99,6 +99,7 @@
   "nba|2026-10-25|philadelphia76ers|detroitpistons": {
    "end": "2026-10-25T22:13-04:00"
   },
+  "nba|2026-10-27|detroitpistons|newyorkknicks": {},
   "ncaah|2026-10-16|denver|michigan": {
    "danger": "2026-10-16T23:22-04:00",
    "end": "2026-10-17T00:13-04:00"
@@ -168,6 +169,7 @@
   "nhl|2026-10-25|dallasstars|newyorkislanders": {
    "end": "2026-10-25T20:28-04:00"
   },
+  "nhl|2026-10-27|dallasstars|newjerseydevils": {},
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
@@ -186,16 +188,12 @@
   "seriea|2026-10-24|asroma|sscnapoli": {
    "danger": "2026-10-24T12:46-04:00",
    "end": "2026-10-24T13:56-04:00"
+  },
+  "seriea|2026-10-27|asroma|cagliaricalcio": {
+   "end": "2026-10-27T18:38-04:00"
   }
  },
  "log": [
-  [
-   "2026-10-04T16:25-04:00",
-   "nrl",
-   "defense",
-   19,
-   18
-  ],
   [
    "2026-10-05T09:16-04:00",
    "digest",
@@ -584,6 +582,13 @@
    "2026-10-27T14:34-04:00",
    "digest",
    3
+  ],
+  [
+   "2026-10-27T18:38-04:00",
+   "seriea",
+   "defense",
+   4,
+   2
   ]
  ],
  "today": {
