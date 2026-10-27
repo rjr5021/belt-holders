@@ -91,6 +91,21 @@
    "opponent_short": "Devils",
    "reign_no": 106,
    "since": "2026-10-17"
+  },
+  "seriea|AS Roma|Cagliari Calcio|2026-10-27": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-10-27",
+   "defenses": 8,
+   "espn_id": "401874780",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "Cagliari Calcio",
+   "opponent_short": "Cagliari",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
