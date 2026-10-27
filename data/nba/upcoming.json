@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "TD Garden",
-  "spread": 11.5
+  "spread": 12.5
  },
  {
   "id": "espn-401909878",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Madison Square Garden",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909879",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "23:00",
   "venue": "crypto.com Arena",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909881",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -1.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909885",
