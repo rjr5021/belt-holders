@@ -61,7 +61,23 @@
   "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/",
   "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Detroit Pistons|New York Knicks|2026-10-27": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-27",
+   "defenses": 0,
+   "espn_id": "401909878",
+   "espn_path": "basketball/nba",
+   "game_no": 7534,
+   "holder": "Detroit Pistons",
+   "holder_short": "Pistons",
+   "lg": "nba",
+   "opponent": "New York Knicks",
+   "opponent_short": "Knicks",
+   "reign_no": 149,
+   "since": "2026-10-25"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
