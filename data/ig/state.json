@@ -76,6 +76,21 @@
    "opponent_short": "Knicks",
    "reign_no": 149,
    "since": "2026-10-25"
+  },
+  "nhl|Dallas Stars|New Jersey Devils|2026-10-27": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-27",
+   "defenses": 3,
+   "espn_id": "401892590",
+   "espn_path": "hockey/nhl",
+   "game_no": 8445,
+   "holder": "Dallas Stars",
+   "holder_short": "Stars",
+   "lg": "nhl",
+   "opponent": "New Jersey Devils",
+   "opponent_short": "Devils",
+   "reign_no": 106,
+   "since": "2026-10-17"
   }
  },
  "previews": [
