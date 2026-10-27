@@ -253,6 +253,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401931978",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Kuwait",
+  "away": "Syria",
+  "neutral": "",
+  "start_et": "09:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401931476",
   "date": "2026-11-13",
   "season": 2026,
