@@ -220,6 +220,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401931957",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "United Arab Emirates",
+  "away": "Honduras",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401930243",
   "date": "2026-11-13",
   "season": 2026,
@@ -875,6 +886,17 @@
   "season_type": "regular",
   "home": "Ecuador",
   "away": "Bolivia",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401931956",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Kuwait",
+  "away": "Honduras",
   "neutral": "",
   "start_et": null,
   "tournament": "Friendly"
