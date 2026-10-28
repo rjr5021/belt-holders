@@ -1,58 +1,61 @@
 {
- "key": "DAL|MTL|2026-10-29",
- "updated": "2026-10-28T01:26Z",
- "start_utc": "2026-10-30T00:00Z",
+ "key": "NJD|COL|2026-10-28",
+ "updated": "2026-10-28T08:36Z",
+ "start_utc": "2026-10-29T01:00Z",
  "espn": {
-  "event_id": "401892606",
-  "start_utc": "2026-10-30T00:00Z",
+  "event_id": "401892598",
+  "start_utc": "2026-10-29T01:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "Prime Video (Local)"
+   "MSGSN",
+   "Altitude Sports"
   ],
-  "odds": null,
+  "odds": {
+   "details": "COL -175",
+   "over_under": 6.5,
+   "provider": "Draft Kings"
+  },
   "teams": {
-   "DAL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-    "abbr": "DAL",
-    "record": "7-3-1",
+   "COL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+    "abbr": "COL",
+    "record": "6-5-1",
     "rank": null,
     "home_away": "home"
    },
-   "MTL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
-    "abbr": "MTL",
-    "record": "6-3-2",
+   "NJD": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
+    "abbr": "NJ",
+    "record": "8-4-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "American Airlines Center",
-   "city": "Dallas",
-   "state": "TX",
+   "name": "Ball Arena",
+   "city": "Denver",
+   "state": "CO",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Dallas has defended the belt 3 times in this reign and enters on a 5-game winning streak, while Montr\u00e9al has won their last 2 games and brings a storied belt history with 342 previous reigns.",
+  "overview": "The New Jersey Devils bring the Belt Holders lineal championship to Colorado for a rematch with the Avalanche, just eight days after edging them 4-3 in New Jersey. The Devils are riding a four-game winning streak and sit at 8-4, while Colorado looks to rebound from a 2-6 drubbing in Nashville and even their season record at 7-6. This marks the 15th time these franchises have met with the belt on the line, with Colorado having held it 101 times previously.",
   "key_matchups": [
-   "Dallas' 5-game winning streak versus Montr\u00e9al's 2-game run: the Stars have been dominant at home in this stretch",
-   "All-time head-to-head tilts heavily toward Montr\u00e9al with 89 wins to Dallas' 50 across 160 meetings",
-   "Recent series has been competitive with three of the last five meetings decided by a single goal"
+   "Devils' four-game win streak against Avalanche's home ice advantage after dropping their last road game 2-6",
+   "Recent head-to-head reversal: Devils won 4-3 on October 20th after Colorado dominated 8-4 in last season's October meeting",
+   "New Jersey seeking their first belt defense of this reign against a Colorado team that's dropped two of their last three"
   ],
-  "betting_angles": "Dallas enters with a 7-4 record and momentum from 5 straight victories, including a 6\u20133 win over the Islanders in their most recent outing. Montr\u00e9al sits at 6-5 and has won their last 2, though they dropped home ice to San Jose 3\u20134 earlier in the stretch. The Elo model favors Dallas as the home favorite.",
-  "predicted_winner": "Dallas Stars",
-  "predicted_score": "Dallas Stars 4, Montr\u00e9al Canadiens 2",
-  "prediction_writeup": "Dallas has won their last 5 games and defends the belt for the fourth time in this reign on home ice. While Montr\u00e9al's all-time dominance in the series is notable with 89 wins to 50, recent form heavily favors the Stars. The Canadiens have been inconsistent this season at 6-5, and Dallas' 7-4 record reflects steadier play. With the Elo model backing the home side and Dallas riding excellent momentum, the Stars should retain the belt.",
+  "betting_angles": "New Jersey enters on fire with four straight wins and a convincing 5-1 road victory at Dallas in their last outing, but the Elo model still favors Colorado despite the Avalanche's inconsistent 6-6 record. The recent head-to-head tilts toward New Jersey with their 4-3 win eight days ago, though Colorado historically leads the all-time series 55-47-8. The Devils have won by margins of 4-1, 4-1, 3-1, and 5-1 in their current streak, while Colorado's defense has been leaky lately, allowing six to Nashville and four to New Jersey in two of their last three.",
+  "predicted_winner": "New Jersey Devils",
+  "predicted_score": "New Jersey Devils 4, Colorado Avalanche 3",
+  "prediction_writeup": "The Devils are peaking at the right time with four consecutive wins, and they've already solved Colorado once this month with a 4-3 victory. While the Elo model favors the Avalanche at home, Colorado's recent form is shaky with losses in two of three games and a particularly ugly 2-6 defeat to Nashville. New Jersey has been winning decisively during this streak, posting multi-goal margins in three of four games. The Devils' momentum and recent head-to-head success outweigh Colorado's home advantage, though expect the Avalanche to push them in a tight contest similar to their October 20th meeting.",
   "written": "2026-10-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "29"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
