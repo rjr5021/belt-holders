@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-14 22:36 result mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Def5qQklKBq/",
   "2026-10-15 13:37 preview nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DehgzZwFgH2/",
   "2026-10-15 22:42 result nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DeifLiwjUUn/",
   "2026-10-16 13:10 preview ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DekCh5_Ed7K/",
@@ -59,25 +58,10 @@
   "2026-10-27 14:34 preview nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfAg6KCIHK-/",
   "2026-10-27 14:34 preview seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfAg9U4oBUq/",
   "2026-10-27 18:38 result seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfA8tj3gWwS/",
-  "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/"
+  "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/",
+  "2026-10-27 22:51 result nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfBZyG5AAXq/"
  ],
- "pending": {
-  "nhl|Dallas Stars|New Jersey Devils|2026-10-27": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-10-27",
-   "defenses": 3,
-   "espn_id": "401892590",
-   "espn_path": "hockey/nhl",
-   "game_no": 8445,
-   "holder": "Dallas Stars",
-   "holder_short": "Stars",
-   "lg": "nhl",
-   "opponent": "New Jersey Devils",
-   "opponent_short": "Devils",
-   "reign_no": 106,
-   "since": "2026-10-17"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -167,6 +151,7 @@
   "nwsl|Kansas City Current|Washington Spirit|2026-10-25",
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
   "seriea|AS Roma|Cagliari Calcio|2026-10-27",
-  "nba|Detroit Pistons|New York Knicks|2026-10-27"
+  "nba|Detroit Pistons|New York Knicks|2026-10-27",
+  "nhl|Dallas Stars|New Jersey Devils|2026-10-27"
  ]
 }
