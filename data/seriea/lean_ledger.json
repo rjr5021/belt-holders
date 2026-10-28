@@ -54,5 +54,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|Udinese Calcio|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "AS Roma",
+  "challenger": "Udinese Calcio",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, Udinese Calcio 0",
+  "made": "2026-10-28",
+  "line": {
+   "details": "ROMA -185",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

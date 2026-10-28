@@ -1,14 +1,13 @@
 {
- "key": "DAL|NJD|2026-10-27",
- "updated": "2026-10-26T00:26Z",
- "start_utc": "2026-10-28T00:00Z",
+ "key": "DAL|MTL|2026-10-29",
+ "updated": "2026-10-28T01:26Z",
+ "start_utc": "2026-10-30T00:00Z",
  "espn": {
-  "event_id": "401892590",
-  "start_utc": "2026-10-28T00:00Z",
+  "event_id": "401892606",
+  "start_utc": "2026-10-30T00:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "MSGSN",
    "Prime Video (Local)"
   ],
   "odds": null,
@@ -16,14 +15,14 @@
    "DAL": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
     "abbr": "DAL",
-    "record": "6-3-1",
+    "record": "7-3-1",
     "rank": null,
     "home_away": "home"
    },
-   "NJD": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-    "abbr": "NJ",
-    "record": "7-4-0",
+   "MTL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+    "abbr": "MTL",
+    "record": "6-3-2",
     "rank": null,
     "home_away": "away"
    }
@@ -37,22 +36,22 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Dallas has defended the belt 2 times in this reign and enters on a 4-game winning streak, while New Jersey arrives riding 3 straight wins and holding a 7-4 record. The belt passes to whoever wins, with no committees involved\u2014just the result on the ice.",
+  "overview": "Dallas has defended the belt 3 times in this reign and enters on a 5-game winning streak, while Montr\u00e9al has won their last 2 games and brings a storied belt history with 342 previous reigns.",
   "key_matchups": [
-   "Dallas's 4-game win streak meets New Jersey's 3-game run in a clash of hot teams",
-   "New Jersey won the most recent meeting 6-4 in March 2026, but Dallas leads the all-time series 66-53-9",
-   "The belt has been on the line 21 times between these teams, with New Jersey having held it 85 times previously"
+   "Dallas' 5-game winning streak versus Montr\u00e9al's 2-game run: the Stars have been dominant at home in this stretch",
+   "All-time head-to-head tilts heavily toward Montr\u00e9al with 89 wins to Dallas' 50 across 160 meetings",
+   "Recent series has been competitive with three of the last five meetings decided by a single goal"
   ],
-  "betting_angles": "Both teams enter in strong form, with Dallas winning their last 4 games and New Jersey their last 3. The all-time head-to-head favors Dallas 66-53-9 across 128 games, though New Jersey took the most recent meeting 6-4. The Elo model gives Dallas the edge as the home favorite.",
+  "betting_angles": "Dallas enters with a 7-4 record and momentum from 5 straight victories, including a 6\u20133 win over the Islanders in their most recent outing. Montr\u00e9al sits at 6-5 and has won their last 2, though they dropped home ice to San Jose 3\u20134 earlier in the stretch. The Elo model favors Dallas as the home favorite.",
   "predicted_winner": "Dallas Stars",
-  "predicted_score": "Dallas Stars 3, New Jersey Devils 2",
-  "prediction_writeup": "Dallas has been rock-solid lately, winning their last 4 games including three 3-2 victories that show they can win tight contests. The Elo model favors the Stars at home, and their 6-4 record suggests steady improvement. New Jersey is hot with 3 straight wins and a 7-4 mark, but Dallas's home ice and momentum in close games give them the slight edge. Expect another tight affair, with the Stars keeping the belt for a third defense.",
-  "written": "2026-10-26",
+  "predicted_score": "Dallas Stars 4, Montr\u00e9al Canadiens 2",
+  "prediction_writeup": "Dallas has won their last 5 games and defends the belt for the fourth time in this reign on home ice. While Montr\u00e9al's all-time dominance in the series is notable with 89 wins to 50, recent form heavily favors the Stars. The Canadiens have been inconsistent this season at 6-5, and Dallas' 7-4 record reflects steadier play. With the Elo model backing the home side and Dallas riding excellent momentum, the Stars should retain the belt.",
+  "written": "2026-10-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
    "dropped": [
-    "27"
+    "29"
    ]
   }
  }

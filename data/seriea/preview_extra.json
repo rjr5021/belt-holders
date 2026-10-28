@@ -1,58 +1,58 @@
 {
- "key": "AS Roma|Cagliari Calcio|2026-10-27",
- "updated": "2026-10-25T04:46Z",
- "start_utc": "2026-10-27T19:45Z",
+ "key": "AS Roma|Udinese Calcio|2026-10-31",
+ "updated": "2026-10-28T01:27Z",
+ "start_utc": "2026-10-31T17:00Z",
  "espn": {
-  "event_id": "401874780",
-  "start_utc": "2026-10-27T19:45Z",
+  "event_id": "401874990",
+  "start_utc": "2026-10-31T17:00Z",
   "state": "pre",
   "tv": [
    "Paramount+"
   ],
   "odds": {
-   "details": "ROMA -295",
+   "details": "ROMA -185",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "AS Roma": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "abbr": "ROMA",
-    "record": "5-3-0",
+   "Udinese Calcio": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+    "abbr": "UDI",
+    "record": "1-1-6",
     "rank": null,
     "home_away": "home"
    },
-   "Cagliari Calcio": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-    "abbr": "CAG",
-    "record": "4-1-3",
+   "AS Roma": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "abbr": "ROMA",
+    "record": "6-3-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Olimpico",
-   "city": "Roma",
+   "name": "Stadio Friuli",
+   "city": "Udine",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AS Roma hold the lineal championship belt and will defend it for the ninth time in this reign when they host Cagliari Calcio on 2026-10-27. The belt passes to whoever wins, with no polls or committees involved\u2014just the result on the pitch. Cagliari arrive riding a three-game winning streak, while Roma saw their four-game winning run end with a 2\u20132 draw against Inter Milan.",
+  "overview": "AS Roma bring the lineal championship belt to Stadio Friuli on October 31st, 2026, having already defended it 8 times in their current reign. The belt passes to whoever wins on the pitch\u2014no polls, no committees\u2014and Udinese Calcio will look to claim it for the 22nd time in their history. With the two sides heading in opposite directions, Roma face a struggling Udinese side desperate to end a three-game losing streak.",
   "key_matchups": [
-   "Roma's recent offensive firepower (4\u20130 vs Fiorentina, 4\u20130 at Lecce) versus Cagliari's stingy defense riding three straight 1\u20130 and 2\u20131 victories",
-   "Cagliari's three-game winning streak against Roma's unbeaten home form this season",
-   "Historical dominance favors Roma 42\u201320 in the all-time series, but the last five meetings have been tightly contested"
+   "Roma's attacking momentum (four wins in last five, including two 4\u20130 victories) against Udinese's porous defense that conceded 5 at Inter Milan and has lost their last 3 games",
+   "Udinese's home desperation with just 1 win in 5 games this season trying to reverse recent history\u2014Roma have won 4 of the last 5 meetings",
+   "The belt's history between these clubs: 11 previous meetings with the belt on the line and Roma's 8 successful defenses already in this current reign"
   ],
-  "betting_angles": "Roma enter as clear Elo favorites and hold a 4-0-1 record this season, while Cagliari sit at 4-1. The all-time head-to-head favors Roma 42\u201320 across 90 meetings, though recent encounters have been competitive with three of the last five decided by a single goal or ending scoreless. Roma's attacking form showed four goals in back-to-back wins before the Inter draw, while Cagliari have won their last 3 games by narrow 1\u20130 and 2\u20131 margins.",
+  "betting_angles": "The form contrast is stark: Roma are 4-0-1 on the season with their only blemish a 2\u20132 draw against Inter Milan, while Udinese sit at 1-3-1 and have lost their last 3 games. Roma have won 56 of 104 all-time meetings and took 4 of the last 5 head-to-head matches, including a 2-0 victory at home in November 2025. The Elo model favoring Roma aligns with both recent form and historical dominance in this fixture.",
   "predicted_winner": "AS Roma",
-  "predicted_score": "AS Roma 2, Cagliari Calcio 0",
-  "prediction_writeup": "Roma have been dominant at home and showed their attacking quality with consecutive 4\u20130 victories over Fiorentina and Lecce earlier in the season. Cagliari's recent wins have all come by the slimmest of margins, and historically they've struggled in this matchup with Roma holding a commanding 42\u201320 edge. The Elo model backs Roma as clear favorites, and their 4-0-1 record suggests they'll bounce back from the Inter draw. Roma have successfully defended the belt 8 times already in this reign, and playing at home against a side they beat 2\u20130 in the most recent meeting earlier this year, they should extend that streak to 9.",
-  "written": "2026-10-25",
+  "predicted_score": "AS Roma 2, Udinese Calcio 0",
+  "prediction_writeup": "Roma arrive in excellent form with 4 wins in their last 5 games, including dominant 4\u20130 victories over US Lecce and ACF Fiorentina. Udinese have lost their last 3 games and struggled defensively, conceding 5 at Inter Milan and failing to score in their most recent match against Cagliari Calcio. The head-to-head history heavily favors Roma with 56 wins to Udinese's 24 in 104 all-time meetings, and Roma took 4 of the last 5 encounters. With Udinese managing just 1 win all season and the Elo model backing the visitors, Roma should extend their belt reign to 9 defenses with a clean sheet road victory.",
+  "written": "2026-10-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }

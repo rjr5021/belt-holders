@@ -1,56 +1,60 @@
 {
- "key": "DET|NYK|2026-10-27",
- "updated": "2026-10-26T07:51Z",
- "start_utc": "2026-10-28T00:00Z",
+ "key": "DET|CHA|2026-10-28",
+ "updated": "2026-10-28T01:25Z",
+ "start_utc": "2026-10-28T23:00Z",
  "espn": {
-  "event_id": "401909878",
-  "start_utc": "2026-10-28T00:00Z",
+  "event_id": "401909883",
+  "start_utc": "2026-10-28T23:00Z",
   "state": "pre",
   "tv": [
-   "NBC"
+   "NBA League Pass"
   ],
-  "odds": null,
+  "odds": {
+   "details": "DET -7.5",
+   "over_under": 216.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "NYK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-    "abbr": "NY",
-    "record": "0-3",
-    "rank": null,
-    "home_away": "home"
-   },
    "DET": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
     "abbr": "DET",
     "record": "3-0",
     "rank": null,
+    "home_away": "home"
+   },
+   "CHA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "abbr": "CHA",
+    "record": "3-1",
+    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Madison Square Garden",
-   "city": "New York",
-   "state": "NY",
+   "name": "Little Caesars Arena",
+   "city": "Detroit",
+   "state": "MI",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Detroit claimed the belt in their most recent victory and has yet to defend it in this reign, while the Knicks have held the belt 204 times previously and will look to reclaim it.",
+  "overview": "Detroit claimed the belt in their most recent victory and have yet to defend it in this reign, while Charlotte has held the hardware 35 times previously in franchise history.",
   "key_matchups": [
-   "Detroit's perfect 3-0 start versus New York's winless 0-3 beginning to the season",
-   "The Pistons' three-game winning streak colliding with the Knicks' three-game losing skid",
-   "Detroit's recent dominance in the head-to-head series, including a 126-111 victory in their last meeting on February 19, 2026"
+   "Detroit's perfect 3-0 start versus Charlotte's 3-1 record as both teams arrive in strong form",
+   "The Pistons have won their last 3 games including victories over Boston and Miami, while the Hornets have won their last 2",
+   "Detroit has dominated the recent head-to-head series, winning all 5 of the last meetings dating back to 2025"
   ],
-  "betting_angles": "Detroit enters with momentum on a three-game winning streak and a perfect 3-0 record this season, while New York has dropped three straight and sits at 0-3. The Pistons dominated the most recent head-to-head meeting 126-111 and won the two prior matchups by margins of 121-90 and 118-80. Despite this form, the Elo model favors the home Knicks, suggesting value may lie with the road team.",
+  "betting_angles": "Detroit enters as the Elo model's clear favorite, backed by a perfect 3-0 record to open the season and a current 3-game winning streak. The Pistons have swept the last 5 meetings with Charlotte, including a 118-100 victory in their most recent encounter on April 10, 2026. Charlotte's 3-1 start is solid, but their recent 81-128 loss to Atlanta suggests vulnerability against quality opponents.",
   "predicted_winner": "Detroit Pistons",
-  "predicted_score": "Detroit Pistons 114, New York Knicks 108",
-  "prediction_writeup": "Detroit's form is simply too strong to ignore, with three consecutive wins including victories of 106-93 at Philadelphia and 128-111 at Miami. The Knicks have struggled out of the gate at 0-3, dropping games by scores like 102-111 to Orlando and 103-107 at Boston. Detroit has dominated this matchup recently, winning by scores of 126-111, 118-80, and 121-90 in their last three meetings. While the Elo model favors New York, the Pistons should retain the belt with a road victory behind their superior current form.",
-  "written": "2026-10-26",
+  "predicted_score": "Detroit Pistons 114, Charlotte Hornets 105",
+  "prediction_writeup": "The Pistons should successfully defend the belt in their first attempt of this reign. Detroit's 3-0 start includes impressive wins over Boston (121-113) and Miami (128-111), demonstrating offensive firepower. The all-time head-to-head series is nearly even at 69-66 in Detroit's favor across 135 games, but the Pistons have completely dominated recently with 5 straight wins over Charlotte. The Elo model's clear favoritism for Detroit at home, combined with their perfect start and recent dominance in this matchup, points to a comfortable Pistons victory.",
+  "written": "2026-10-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
    "dropped": [
-    "27"
+    "28"
    ]
   }
  }

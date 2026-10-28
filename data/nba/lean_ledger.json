@@ -84,5 +84,19 @@
   "score": "Detroit Pistons 114, New York Knicks 108",
   "made": "2026-10-26",
   "line": null
+ },
+ {
+  "key": "DET|CHA|2026-10-28",
+  "date": "2026-10-28",
+  "holder": "DET",
+  "challenger": "CHA",
+  "pick": "DET",
+  "score": "Detroit Pistons 114, Charlotte Hornets 105",
+  "made": "2026-10-28",
+  "line": {
+   "details": "DET -7.5",
+   "over_under": 216.5,
+   "provider": "DraftKings"
+  }
  }
 ]
