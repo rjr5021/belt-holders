@@ -99,7 +99,9 @@
   "nba|2026-10-25|philadelphia76ers|detroitpistons": {
    "end": "2026-10-25T22:13-04:00"
   },
-  "nba|2026-10-27|detroitpistons|newyorkknicks": {},
+  "nba|2026-10-27|detroitpistons|newyorkknicks": {
+   "danger": "2026-10-27T22:38-04:00"
+  },
   "ncaah|2026-10-16|denver|michigan": {
    "danger": "2026-10-16T23:22-04:00",
    "end": "2026-10-17T00:13-04:00"
