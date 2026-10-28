@@ -1,44 +1,5 @@
 [
  {
-  "id": "espn-401909877",
-  "date": "2026-10-27",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BOS",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "TD Garden",
-  "spread": 12.5
- },
- {
-  "id": "espn-401909878",
-  "date": "2026-10-27",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Madison Square Garden",
-  "spread": 4.5
- },
- {
-  "id": "espn-401909879",
-  "date": "2026-10-27",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "SAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Frost Bank Center",
-  "spread": 18.5
- },
- {
   "id": "espn-401909880",
   "date": "2026-10-27",
   "season": 2026,
@@ -62,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "State Farm Arena",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909882",
@@ -75,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Rocket Arena",
-  "spread": null
+  "spread": 10.5
  },
  {
   "id": "espn-401909883",
@@ -88,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Little Caesars Arena",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909884",
@@ -101,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -2.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909885",
@@ -114,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909886",
@@ -127,7 +88,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "United Center",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909887",
@@ -140,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": -8.5
  },
  {
   "id": "espn-401909888",
@@ -153,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909889",
@@ -166,7 +127,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909890",
@@ -179,7 +140,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": null
+  "spread": -12.5
  },
  {
   "id": "espn-401909891",
@@ -192,7 +153,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "American Airlines Center",
-  "spread": null
+  "spread": -5.5
  },
  {
   "id": "espn-401909892",
@@ -205,7 +166,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": -5.5
  },
  {
   "id": "espn-401909893",

@@ -1,19 +1,5 @@
 [
  {
-  "id": "2026-10-27-1-849803",
-  "date": "2026-10-27",
-  "season": 2026,
-  "season_type": "postseason",
-  "home": "m139",
-  "away": "m158",
-  "neutral": "",
-  "source": "mlbapi",
-  "start_et": "20:00",
-  "venue": "Tropicana Field",
-  "series": "World Series",
-  "if_necessary": false
- },
- {
   "id": "2026-10-28-1-849799",
   "date": "2026-10-28",
   "season": 2026,
