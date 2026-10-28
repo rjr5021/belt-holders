@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-14 14:10 preview mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Dee_0LSiYbH/",
   "2026-10-14 22:36 result mls|Nashville SC|Sporting Kansas City|2026-10-14 https://www.instagram.com/p/Def5qQklKBq/",
   "2026-10-15 13:37 preview nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DehgzZwFgH2/",
   "2026-10-15 22:42 result nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DeifLiwjUUn/",
@@ -59,24 +58,10 @@
   "2026-10-27 14:34 preview nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfAg3gBoEPd/",
   "2026-10-27 14:34 preview nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfAg6KCIHK-/",
   "2026-10-27 14:34 preview seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfAg9U4oBUq/",
-  "2026-10-27 18:38 result seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfA8tj3gWwS/"
+  "2026-10-27 18:38 result seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfA8tj3gWwS/",
+  "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/"
  ],
  "pending": {
-  "nba|Detroit Pistons|New York Knicks|2026-10-27": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-10-27",
-   "defenses": 0,
-   "espn_id": "401909878",
-   "espn_path": "basketball/nba",
-   "game_no": 7534,
-   "holder": "Detroit Pistons",
-   "holder_short": "Pistons",
-   "lg": "nba",
-   "opponent": "New York Knicks",
-   "opponent_short": "Knicks",
-   "reign_no": 149,
-   "since": "2026-10-25"
-  },
   "nhl|Dallas Stars|New Jersey Devils|2026-10-27": {
    "belt_name": "The NHL Belt",
    "date": "2026-10-27",
@@ -181,6 +166,7 @@
   "nhl|Dallas Stars|New York Islanders|2026-10-25",
   "nwsl|Kansas City Current|Washington Spirit|2026-10-25",
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
-  "seriea|AS Roma|Cagliari Calcio|2026-10-27"
+  "seriea|AS Roma|Cagliari Calcio|2026-10-27",
+  "nba|Detroit Pistons|New York Knicks|2026-10-27"
  ]
 }
