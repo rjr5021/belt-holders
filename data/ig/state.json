@@ -76,6 +76,21 @@
    "opponent_short": "Hornets",
    "reign_no": 149,
    "since": "2026-10-25"
+  },
+  "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-28",
+   "defenses": 0,
+   "espn_id": "401892598",
+   "espn_path": "hockey/nhl",
+   "game_no": 8446,
+   "holder": "New Jersey Devils",
+   "holder_short": "Devils",
+   "lg": "nhl",
+   "opponent": "Colorado Avalanche",
+   "opponent_short": "Avalanche",
+   "reign_no": 86,
+   "since": "2026-10-27"
   }
  },
  "previews": [
