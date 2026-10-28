@@ -169,7 +169,9 @@
   "nhl|2026-10-25|dallasstars|newyorkislanders": {
    "end": "2026-10-25T20:28-04:00"
   },
-  "nhl|2026-10-27|dallasstars|newjerseydevils": {},
+  "nhl|2026-10-27|dallasstars|newjerseydevils": {
+   "danger": "2026-10-27T22:18-04:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
