@@ -1,54 +1,54 @@
 {
- "key": "DET|CHA|2026-10-28",
- "updated": "2026-10-28T01:25Z",
- "start_utc": "2026-10-28T23:00Z",
+ "key": "NYK|CHI|2026-10-28",
+ "updated": "2026-10-28T16:40Z",
+ "start_utc": "2026-10-29T00:00Z",
  "espn": {
-  "event_id": "401909883",
-  "start_utc": "2026-10-28T23:00Z",
+  "event_id": "401909886",
+  "start_utc": "2026-10-29T00:00Z",
   "state": "pre",
   "tv": [
    "NBA League Pass"
   ],
   "odds": {
-   "details": "DET -7.5",
-   "over_under": 216.5,
-   "provider": "DraftKings"
+   "details": "NY -7.5",
+   "over_under": 233.5,
+   "provider": "Draft Kings"
   },
   "teams": {
-   "DET": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-    "abbr": "DET",
-    "record": "3-0",
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "1-3",
     "rank": null,
     "home_away": "home"
    },
-   "CHA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-    "abbr": "CHA",
-    "record": "3-1",
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
+    "record": "1-3",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Little Caesars Arena",
-   "city": "Detroit",
-   "state": "MI",
+   "name": "United Center",
+   "city": "Chicago",
+   "state": "IL",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Detroit claimed the belt in their most recent victory and have yet to defend it in this reign, while Charlotte has held the hardware 35 times previously in franchise history.",
+  "overview": "This marks the Knicks' first defense of their current belt reign, while the Bulls have held the belt 102 times previously in the title's history. With 26 prior meetings for the belt, both teams know what's at stake in this storied rivalry.",
   "key_matchups": [
-   "Detroit's perfect 3-0 start versus Charlotte's 3-1 record as both teams arrive in strong form",
-   "The Pistons have won their last 3 games including victories over Boston and Miami, while the Hornets have won their last 2",
-   "Detroit has dominated the recent head-to-head series, winning all 5 of the last meetings dating back to 2025"
+   "Knicks looking to build on 111\u201397 win over Detroit while Bulls reel from 99\u2013134 loss at Boston",
+   "Chicago's defensive struggles evident in recent games: 134, 124, and 135 points allowed in last three",
+   "New York dominated last meeting 136-96 in April 2026, their largest margin in recent head-to-head"
   ],
-  "betting_angles": "Detroit enters as the Elo model's clear favorite, backed by a perfect 3-0 record to open the season and a current 3-game winning streak. The Pistons have swept the last 5 meetings with Charlotte, including a 118-100 victory in their most recent encounter on April 10, 2026. Charlotte's 3-1 start is solid, but their recent 81-128 loss to Atlanta suggests vulnerability against quality opponents.",
-  "predicted_winner": "Detroit Pistons",
-  "predicted_score": "Detroit Pistons 114, Charlotte Hornets 105",
-  "prediction_writeup": "The Pistons should successfully defend the belt in their first attempt of this reign. Detroit's 3-0 start includes impressive wins over Boston (121-113) and Miami (128-111), demonstrating offensive firepower. The all-time head-to-head series is nearly even at 69-66 in Detroit's favor across 135 games, but the Pistons have completely dominated recently with 5 straight wins over Charlotte. The Elo model's clear favoritism for Detroit at home, combined with their perfect start and recent dominance in this matchup, points to a comfortable Pistons victory.",
+  "betting_angles": "The Knicks are 1-3 but coming off a convincing 111\u201397 victory, while Chicago has lost their last 2 games and sits at an identical 1-3 record. The Bulls have surrendered 134, 124, 135, and 149 points in four of their last five games, signaling major defensive issues. The Elo model strongly favors New York despite the Bulls holding a 155-134 edge in the all-time series.",
+  "predicted_winner": "New York Knicks",
+  "predicted_score": "New York Knicks 118, Chicago Bulls 108",
+  "prediction_writeup": "The Knicks have won their last 1 game and appear to be finding form after a rough start, while the Bulls have lost their last 2 games with alarming defensive breakdowns. Chicago allowed 134 points to Boston in their most recent outing and has been hemorrhaging points throughout their last five games. New York dominated the most recent meeting 136-96 and should capitalize on Chicago's defensive vulnerabilities. The Elo model's clear favoritism toward the Knicks aligns with the recent form and head-to-head trends, making them the pick to defend the belt successfully for the first time in this reign.",
   "written": "2026-10-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {

@@ -98,5 +98,19 @@
    "over_under": 216.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NYK|CHI|2026-10-28",
+  "date": "2026-10-28",
+  "holder": "NYK",
+  "challenger": "CHI",
+  "pick": "NYK",
+  "score": "New York Knicks 118, Chicago Bulls 108",
+  "made": "2026-10-28",
+  "line": {
+   "details": "NY -7.5",
+   "over_under": 233.5,
+   "provider": "Draft Kings"
+  }
  }
 ]
