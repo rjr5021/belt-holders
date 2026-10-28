@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909880",
-  "date": "2026-10-27",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "LAL",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "23:00",
-  "venue": "crypto.com Arena",
-  "spread": 1.5
- },
- {
   "id": "espn-401909881",
   "date": "2026-10-28",
   "season": 2026,
@@ -23,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "State Farm Arena",
-  "spread": 3.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909882",
@@ -62,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -4.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909885",
@@ -114,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909889",
@@ -140,7 +127,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": -12.5
+  "spread": -13.5
  },
  {
   "id": "espn-401909891",
@@ -166,7 +153,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": -5.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909893",
