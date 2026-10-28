@@ -176,17 +176,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401921325",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Colombia",
-  "away": "Chile",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401930898",
   "date": "2026-11-13",
   "season": 2026,
@@ -427,6 +416,17 @@
   "neutral": "",
   "start_et": "15:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401921325",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Colombia",
+  "away": "Chile",
+  "neutral": "",
+  "start_et": "19:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401929775",
