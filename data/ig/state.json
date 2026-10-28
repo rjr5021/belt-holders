@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-15 13:37 preview nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DehgzZwFgH2/",
   "2026-10-15 22:42 result nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15 https://www.instagram.com/p/DeifLiwjUUn/",
   "2026-10-16 13:10 preview ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DekCh5_Ed7K/",
   "2026-10-17 00:12 result ncaah|Denver|Michigan|2026-10-16 https://www.instagram.com/p/DelOTLoDqIy/",
@@ -59,7 +58,8 @@
   "2026-10-27 14:34 preview seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfAg9U4oBUq/",
   "2026-10-27 18:38 result seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfA8tj3gWwS/",
   "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/",
-  "2026-10-27 22:51 result nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfBZyG5AAXq/"
+  "2026-10-27 22:51 result nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfBZyG5AAXq/",
+  "2026-10-28 14:40 preview nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfDGVhuGeoQ/"
  ],
  "pending": {
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28": {
@@ -172,7 +172,8 @@
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
   "nba|Detroit Pistons|New York Knicks|2026-10-27",
   "nhl|Dallas Stars|New Jersey Devils|2026-10-27",
-  "seriea|AS Roma|Cagliari Calcio|2026-10-27"
+  "seriea|AS Roma|Cagliari Calcio|2026-10-27",
+  "nba|New York Knicks|Chicago Bulls|2026-10-28"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
