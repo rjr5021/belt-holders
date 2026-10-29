@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909895",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909278",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "TD Garden",
-  "spread": null
+  "spread": 15.5
  },
  {
   "id": "espn-401909279",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909281",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909282",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Kaseya Center",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909283",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
-  "spread": null
+  "spread": -5.5
  },
  {
   "id": "espn-401909284",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909285",
@@ -153,7 +153,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909286",
@@ -166,7 +166,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909896",
