@@ -176,17 +176,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401930898",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Ecuador",
-  "away": "Costa Rica",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401919975",
   "date": "2026-11-13",
   "season": 2026,
@@ -217,17 +206,6 @@
   "away": "Honduras",
   "neutral": "",
   "start_et": null,
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401930243",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Taiwan",
-  "away": "Kyrgyzstan",
-  "neutral": "",
-  "start_et": "07:00",
   "tournament": "Friendly"
  },
  {
@@ -429,6 +407,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401930898",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ecuador",
+  "away": "Costa Rica",
+  "neutral": "",
+  "start_et": "19:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401929775",
   "date": "2026-11-13",
   "season": 2026,
@@ -451,6 +440,17 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401932237",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Palestine",
+  "away": "Iran",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401930879",
   "date": "2026-11-14",
   "season": 2026,
@@ -470,6 +470,17 @@
   "away": "Brazil",
   "neutral": "",
   "start_et": "05:15",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401930243",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Taiwan",
+  "away": "Kyrgyzstan",
+  "neutral": "",
+  "start_et": "07:00",
   "tournament": "Friendly"
  },
  {
@@ -602,17 +613,6 @@
   "away": "India",
   "neutral": "",
   "start_et": "22:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401930242",
-  "date": "2026-11-15",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Kyrgyzstan",
-  "away": "Vietnam",
-  "neutral": "",
-  "start_et": "07:00",
   "tournament": "Friendly"
  },
  {
@@ -935,6 +935,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401930242",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Kyrgyzstan",
+  "away": "Vietnam",
+  "neutral": "",
+  "start_et": "07:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401916336",
   "date": "2026-11-17",
   "season": 2026,
@@ -1098,6 +1109,17 @@
   "neutral": "",
   "start_et": "14:45",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401932215",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Uruguay",
+  "away": "Dominican Republic",
+  "neutral": "",
+  "start_et": "18:30",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401929766",
