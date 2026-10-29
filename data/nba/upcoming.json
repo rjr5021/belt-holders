@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": 5.5
+  "spread": 6.5
  },
  {
   "id": "espn-401909895",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909278",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909280",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909281",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Kaseya Center",
-  "spread": 4.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909283",
