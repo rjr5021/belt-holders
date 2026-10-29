@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876986",
-  "date": "2026-10-28",
-  "season_type": "regular",
-  "home": "Am\u00e9rica",
-  "away": "Tijuana",
-  "home_id": "227",
-  "away_id": "10125",
-  "home_abbr": "AME",
-  "away_abbr": "TIJ",
-  "home_loc": "Am\u00e9rica",
-  "away_loc": "Tijuana",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "23:00",
-  "season": 2026,
-  "home_name": "Am\u00e9rica",
-  "away_name": "Tijuana"
- },
- {
   "id": "espn-401876919",
   "date": "2026-10-30",
   "season_type": "regular",
