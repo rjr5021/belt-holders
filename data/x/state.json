@@ -183,7 +183,9 @@
    "danger": "2026-10-27T22:18-04:00",
    "end": "2026-10-27T22:37-04:00"
   },
-  "nhl|2026-10-28|newjerseydevils|coloradoavalanche": {},
+  "nhl|2026-10-28|newjerseydevils|coloradoavalanche": {
+   "danger": "2026-10-28T23:21-04:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
