@@ -63,7 +63,9 @@
   "ligamx|2026-10-25|santoslaguna|tijuana": {
    "end": "2026-10-26T03:09-04:00"
   },
-  "ligamx|2026-10-28|tijuana|clubamerica": {},
+  "ligamx|2026-10-28|tijuana|clubamerica": {
+   "end": "2026-10-29T00:58-04:00"
+  },
   "ligue1|2026-10-10|paris|lorient": {
    "danger": "2026-10-10T16:17-04:00",
    "end": "2026-10-10T16:39-04:00"
@@ -211,13 +213,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-08T21:38-04:00",
-   "nhl",
-   "defense",
-   4,
-   0
-  ],
   [
    "2026-10-10T11:30-04:00",
    "bundesliga",
@@ -612,6 +607,13 @@
    "change",
    2,
    5
+  ],
+  [
+   "2026-10-29T00:58-04:00",
+   "ligamx",
+   "defense",
+   1,
+   1
   ]
  ],
  "today": {
