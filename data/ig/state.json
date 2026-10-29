@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-17 12:09 preview laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DemgcMYkdsv/",
   "2026-10-17 12:09 preview seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DemggBukXrM/",
   "2026-10-17 12:09 preview ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/DemgigZEQgy/",
   "2026-10-17 12:09 preview ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Demgliwkc50/",
@@ -59,25 +58,10 @@
   "2026-10-29 00:58 result nba|Detroit Pistons|Charlotte Hornets|2026-10-28 https://www.instagram.com/p/DfENBrJG8fE/",
   "2026-10-29 00:58 result nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfENFOPGwZW/",
   "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/",
-  "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/"
+  "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/",
+  "2026-10-29 14:48 result ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfFsGLCGUp0/"
  ],
- "pending": {
-  "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28": {
-   "belt_name": "The Liga MX Belt",
-   "date": "2026-10-28",
-   "defenses": 0,
-   "espn_id": "401876986",
-   "espn_path": "soccer/mex.1",
-   "game_no": 544,
-   "holder": "Tijuana",
-   "holder_short": "Xolos",
-   "lg": "ligamx",
-   "opponent": "Club Am\u00e9rica",
-   "opponent_short": "Am\u00e9rica",
-   "reign_no": 7,
-   "since": "2026-10-25"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -176,6 +160,7 @@
   "nba|Detroit Pistons|Charlotte Hornets|2026-10-28",
   "nba|New York Knicks|Chicago Bulls|2026-10-28",
   "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
-  "mls|Nashville SC|Philadelphia Union|2026-10-28"
+  "mls|Nashville SC|Philadelphia Union|2026-10-28",
+  "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28"
  ]
 }
