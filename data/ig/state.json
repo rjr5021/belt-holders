@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-17 12:09 result epl|Manchester City|Ipswich Town|2026-10-17 https://www.instagram.com/p/DemgZFGkYc3/",
   "2026-10-17 12:09 preview laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DemgcMYkdsv/",
   "2026-10-17 12:09 preview seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DemggBukXrM/",
   "2026-10-17 12:09 preview ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/DemgigZEQgy/",
@@ -59,7 +58,8 @@
   "2026-10-28 14:40 preview ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfDGfZ1GVfM/",
   "2026-10-29 00:58 result nba|Detroit Pistons|Charlotte Hornets|2026-10-28 https://www.instagram.com/p/DfENBrJG8fE/",
   "2026-10-29 00:58 result nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfENFOPGwZW/",
-  "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/"
+  "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/",
+  "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/"
  ],
  "pending": {
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28": {
@@ -76,21 +76,6 @@
    "opponent_short": "Am\u00e9rica",
    "reign_no": 7,
    "since": "2026-10-25"
-  },
-  "mls|Nashville SC|Philadelphia Union|2026-10-28": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-10-28",
-   "defenses": 3,
-   "espn_id": "761914",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1127,
-   "holder": "Nashville SC",
-   "holder_short": "Nashville",
-   "lg": "mls",
-   "opponent": "Philadelphia Union",
-   "opponent_short": "Philadelphia",
-   "reign_no": 3,
-   "since": "2026-10-10"
   }
  },
  "previews": [
@@ -190,6 +175,7 @@
   "nhl|Dallas Stars|New Jersey Devils|2026-10-27",
   "nba|Detroit Pistons|Charlotte Hornets|2026-10-28",
   "nba|New York Knicks|Chicago Bulls|2026-10-28",
-  "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28"
+  "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
+  "mls|Nashville SC|Philadelphia Union|2026-10-28"
  ]
 }
