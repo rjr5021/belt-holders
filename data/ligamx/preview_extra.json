@@ -1,27 +1,25 @@
 {
- "key": "TIJ|AME|2026-10-28",
- "updated": "2026-10-26T07:53Z",
- "start_utc": "2026-10-29T03:00Z",
+ "key": "TIJ|MTY|2026-10-31",
+ "updated": "2026-10-29T05:53Z",
+ "start_utc": "2026-11-01T01:05Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The belt holder has yet to defend in this reign, while Am\u00e9rica enter as seasoned belt contenders with 18 previous reigns. This marks the eighth all-time meeting between these sides with the belt on the line.",
+  "overview": "Tijuana brings the Belt Holders lineal championship to Estadio BBVA on October 31st, having yet to defend it in their current reign. Monterrey, who have held the belt 13 times previously, will look to reclaim it on home ground. These sides have met 3 times before with the belt on the line.",
   "key_matchups": [
-   "Am\u00e9rica's 8-2-3 record against Tijuana's 5-3-5 mark highlights a gap in season performance",
-   "Tijuana's three draws in their last five games contrast with Am\u00e9rica's high-scoring recent wins before their latest loss",
-   "Am\u00e9rica's 16-4-7 all-time edge in the head-to-head series, including three of the last five meetings"
+   "Tijuana's attacking momentum from their 4\u20131 win over Santos Laguna versus Monterrey's defensive vulnerability after conceding in their 0\u20131 loss to Guadalajara",
+   "Monterrey's home advantage and superior all-time head to head record (11 wins to Tijuana's 6) against a Tijuana side rated as underdogs by Elo",
+   "Recent stalemate trend between these teams, with four draws in their last five meetings including back-to-back 2\u20132 results in 2026 and 2025"
   ],
-  "betting_angles": "The Elo model favors Club Am\u00e9rica as clear favorites, aligning with their superior 8-2-3 season record and dominant 16-4 edge in the all-time series across 27 meetings. Am\u00e9rica have scored prolifically in recent wins like 5-2 at Atlas and 5-3 at Le\u00f3n, though they stumbled 1-2 to Pachuca in their most recent outing. Tijuana enter on a W 4-1 result against Santos Laguna but have drawn three of their previous four before that.",
-  "predicted_winner": "Club Am\u00e9rica",
-  "predicted_score": "Tijuana 1, Club Am\u00e9rica 3",
-  "prediction_writeup": "Club Am\u00e9rica's 8-2-3 record and home advantage should prove decisive against a Tijuana side sitting at 5-3-5. The hosts have dominated this matchup historically, winning 16 of 27 all-time meetings, and their recent scoring form\u20145-2 at Atlas and 5-3 at Le\u00f3n\u2014suggests they can exploit Tijuana's defensive vulnerabilities. While Tijuana won 4-1 against Santos Laguna in their last outing, their recent stretch includes three draws and a loss, signaling inconsistency. The belt changes hands with Am\u00e9rica reclaiming it for their 19th reign.",
-  "written": "2026-10-26",
+  "betting_angles": "Monterrey hold the edge in overall record this season at 6-5-2 compared to Tijuana's 5-3-5, and dominate the all-time series 11-6-10. However, Tijuana enter on the back of a convincing 4\u20131 victory while Monterrey just fell 0\u20131 to Guadalajara at home. The Elo model favors Monterrey despite Tijuana's slightly better recent form, and their last five meetings have produced four draws.",
+  "predicted_winner": "Monterrey",
+  "predicted_score": "Tijuana 1, Monterrey 2",
+  "prediction_writeup": "Monterrey's superior season record of 6-5-2 and dominant all-time head to head advantage (11 wins in 27 meetings) should prove decisive on home ground. While Tijuana impressed with a 4\u20131 win over Santos Laguna in their last outing, they've drawn three of their last five overall and enter as Elo underdogs. Monterrey have held the belt 13 times before and know what it takes to win it, even coming off a narrow 0\u20131 loss to Guadalajara. The recent trend of draws between these sides suggests a tight contest, but Monterrey's home edge and experience tips the scale. The belt changes hands.",
+  "written": "2026-10-29",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "28"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }

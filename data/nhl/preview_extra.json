@@ -1,33 +1,28 @@
 {
- "key": "NJD|COL|2026-10-28",
- "updated": "2026-10-28T08:36Z",
- "start_utc": "2026-10-29T01:00Z",
+ "key": "COL|CGY|2026-10-31",
+ "updated": "2026-10-29T05:52Z",
+ "start_utc": "2026-11-01T02:00Z",
  "espn": {
-  "event_id": "401892598",
-  "start_utc": "2026-10-29T01:00Z",
+  "event_id": "401892623",
+  "start_utc": "2026-11-01T02:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "MSGSN",
    "Altitude Sports"
   ],
-  "odds": {
-   "details": "COL -175",
-   "over_under": 6.5,
-   "provider": "Draft Kings"
-  },
+  "odds": null,
   "teams": {
    "COL": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
     "abbr": "COL",
-    "record": "6-5-1",
+    "record": "7-5-1",
     "rank": null,
     "home_away": "home"
    },
-   "NJD": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-    "abbr": "NJ",
-    "record": "8-4-0",
+   "CGY": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+    "abbr": "CGY",
+    "record": "5-7-0",
     "rank": null,
     "home_away": "away"
    }
@@ -41,17 +36,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The New Jersey Devils bring the Belt Holders lineal championship to Colorado for a rematch with the Avalanche, just eight days after edging them 4-3 in New Jersey. The Devils are riding a four-game winning streak and sit at 8-4, while Colorado looks to rebound from a 2-6 drubbing in Nashville and even their season record at 7-6. This marks the 15th time these franchises have met with the belt on the line, with Colorado having held it 101 times previously.",
+  "overview": "The Colorado Avalanche put their Belt Holders championship on the line for the first time in this reign when they host the Calgary Flames on Halloween night. Colorado claimed the belt in their most recent outing and will look to begin a defensive streak, while Calgary seeks to reclaim a belt they've held 68 times previously in the lineal championship's history. The all-time series between these franchises is remarkably tight at 85-83-20 across 188 meetings.",
   "key_matchups": [
-   "Devils' four-game win streak against Avalanche's home ice advantage after dropping their last road game 2-6",
-   "Recent head-to-head reversal: Devils won 4-3 on October 20th after Colorado dominated 8-4 in last season's October meeting",
-   "New Jersey seeking their first belt defense of this reign against a Colorado team that's dropped two of their last three"
+   "Colorado's recent offensive surge (5-2, 6-3 wins in their last three victories) against a Calgary team shut out 4-0 in their most recent game",
+   "Home ice advantage for the Avalanche, who have dominated this season's series with victories of 7-3, 3-1, and 9-2",
+   "Calgary's four-game winning streak before their Edmonton loss versus Colorado's inconsistent 2-3 stretch prior to their latest win"
   ],
-  "betting_angles": "New Jersey enters on fire with four straight wins and a convincing 5-1 road victory at Dallas in their last outing, but the Elo model still favors Colorado despite the Avalanche's inconsistent 6-6 record. The recent head-to-head tilts toward New Jersey with their 4-3 win eight days ago, though Colorado historically leads the all-time series 55-47-8. The Devils have won by margins of 4-1, 4-1, 3-1, and 5-1 in their current streak, while Colorado's defense has been leaky lately, allowing six to Nashville and four to New Jersey in two of their last three.",
-  "predicted_winner": "New Jersey Devils",
-  "predicted_score": "New Jersey Devils 4, Colorado Avalanche 3",
-  "prediction_writeup": "The Devils are peaking at the right time with four consecutive wins, and they've already solved Colorado once this month with a 4-3 victory. While the Elo model favors the Avalanche at home, Colorado's recent form is shaky with losses in two of three games and a particularly ugly 2-6 defeat to Nashville. New Jersey has been winning decisively during this streak, posting multi-goal margins in three of four games. The Devils' momentum and recent head-to-head success outweigh Colorado's home advantage, though expect the Avalanche to push them in a tight contest similar to their October 20th meeting.",
-  "written": "2026-10-28",
+  "betting_angles": "The Elo model strongly favors Colorado, and recent head-to-head results support that assessment with the Avalanche winning all four meetings this season by comfortable margins including a 9-2 drubbing. Colorado's 7-6 record edges Calgary's 5-7 mark, and the home side just posted a convincing 5-2 victory while the Flames were blanked 4-0 in their last outing. Calgary had looked sharp with four straight wins before that Edmonton loss, but their struggles this season and inability to solve Colorado recently suggest this will be an uphill battle.",
+  "predicted_winner": "Colorado Avalanche",
+  "predicted_score": "Colorado Avalanche 5, Calgary Flames 2",
+  "prediction_writeup": "Colorado has owned this matchup in 2026, winning all four meetings including three blowouts, and they'll be defending the belt at home where they just put up five goals against New Jersey. Calgary arrives off a shutout loss and sits two games below .500, while the Avalanche have the better record and clear Elo advantage. The Flames have held the belt 68 times before and know what's at stake, but the recent head-to-head history is too lopsided to ignore. Colorado keeps the belt with a multi-goal victory in what should be a relatively comfortable home win.",
+  "written": "2026-10-29",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

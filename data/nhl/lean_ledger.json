@@ -218,5 +218,15 @@
    "over_under": 6.5,
    "provider": "Draft Kings"
   }
+ },
+ {
+  "key": "COL|CGY|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "COL",
+  "challenger": "CGY",
+  "pick": "COL",
+  "score": "Colorado Avalanche 5, Calgary Flames 2",
+  "made": "2026-10-29",
+  "line": null
  }
 ]
