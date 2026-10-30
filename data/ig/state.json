@@ -61,7 +61,23 @@
   "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/",
   "2026-10-29 14:48 result ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfFsGLCGUp0/"
  ],
- "pending": {},
+ "pending": {
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-30": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-30",
+   "defenses": 1,
+   "espn_id": "401909280",
+   "espn_path": "basketball/nba",
+   "game_no": 7536,
+   "holder": "New York Knicks",
+   "holder_short": "Knicks",
+   "lg": "nba",
+   "opponent": "Philadelphia 76ers",
+   "opponent_short": "76ers",
+   "reign_no": 205,
+   "since": "2026-10-27"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
