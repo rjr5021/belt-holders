@@ -1,44 +1,5 @@
 [
  {
-  "id": "espn-401909893",
-  "date": "2026-10-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ATL",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "State Farm Arena",
-  "spread": 1.5
- },
- {
-  "id": "espn-401909894",
-  "date": "2026-10-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "SAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": 6.5
- },
- {
-  "id": "espn-401909895",
-  "date": "2026-10-29",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "POR",
-  "away": "MEM",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Moda Center",
-  "spread": 7.5
- },
- {
   "id": "espn-401909277",
   "date": "2026-10-30",
   "season": 2026,
