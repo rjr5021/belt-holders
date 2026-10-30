@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": 1.5
+  "spread": -1.5
  },
  {
   "id": "espn-401909278",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": -8.5
+  "spread": -7.5
  },
  {
   "id": "espn-401909280",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": 7.5
+  "spread": 6.5
  },
  {
   "id": "espn-401909285",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": -2.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909286",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Mortgage Matchup Center",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909896",
