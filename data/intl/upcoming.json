@@ -891,17 +891,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401930899",
-  "date": "2026-11-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Ecuador",
-  "away": "Bolivia",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401931956",
   "date": "2026-11-17",
   "season": 2026,
@@ -1109,6 +1098,17 @@
   "neutral": "",
   "start_et": "14:45",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401930899",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ecuador",
+  "away": "Bolivia",
+  "neutral": "",
+  "start_et": "18:30",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401932215",
