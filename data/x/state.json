@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-27",
+ "digest": "2026-10-30",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -213,13 +213,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-10T11:30-04:00",
-   "bundesliga",
-   "defense",
-   2,
-   2
-  ],
   [
    "2026-10-10T14:42-04:00",
    "eredivisie",
@@ -614,10 +607,15 @@
    "defense",
    1,
    1
+  ],
+  [
+   "2026-10-30T14:25-04:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-28",
+  "day": "2026-10-30",
   "games": [
    {
     "belt": "NBA",
@@ -625,7 +623,7 @@
      "#006bb6",
      "#f58426"
     ],
-    "defenses": 0,
+    "defenses": 1,
     "holder": "New York Knicks",
     "holder_short": "Knicks",
     "home": false,
@@ -633,83 +631,14 @@
     "name": "The NBA Belt",
     "neutral": false,
     "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "Chicago Bulls",
-    "opponent_short": "Bulls",
+    "opponent": "Philadelphia 76ers",
+    "opponent_short": "76ers",
     "reign_no": 205,
     "since": "2026-10-27",
-    "time_et": "20:00",
-    "tv": "NBA League Pass",
+    "time_et": "19:30",
+    "tv": "Prime Video",
     "url": "https://beltholders.com/nba/",
-    "win_prob": 0.733
-   },
-   {
-    "belt": "NHL",
-    "colors": [
-     "#ce1126",
-     "#111111"
-    ],
-    "defenses": 0,
-    "holder": "New Jersey Devils",
-    "holder_short": "Devils",
-    "home": false,
-    "lg": "nhl",
-    "name": "The NHL Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Colorado Avalanche",
-    "opponent_short": "Avalanche",
-    "reign_no": 86,
-    "since": "2026-10-27",
-    "time_et": "21:00",
-    "tv": "ESPN+ \u00b7 MSGSN \u00b7 Altitude Sports",
-    "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.397
-   },
-   {
-    "belt": "MLS",
-    "colors": [
-     "#ece83a",
-     "#1f1646"
-    ],
-    "defenses": 3,
-    "holder": "Nashville SC",
-    "holder_short": "Nashville",
-    "home": true,
-    "lg": "mls",
-    "name": "The MLS Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/mls/next/",
-    "opponent": "Philadelphia Union",
-    "opponent_short": "Philadelphia",
-    "reign_no": 3,
-    "since": "2026-10-10",
-    "time_et": "20:30",
-    "tv": "Apple TV",
-    "url": "https://beltholders.com/mls/",
-    "win_prob": 0.661
-   },
-   {
-    "belt": "Liga MX",
-    "colors": [
-     "#c8102e",
-     "#111111"
-    ],
-    "defenses": 0,
-    "holder": "Tijuana",
-    "holder_short": "Xolos",
-    "home": false,
-    "lg": "ligamx",
-    "name": "The Liga MX Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/ligamx/next/",
-    "opponent": "Club Am\u00e9rica",
-    "opponent_short": "Am\u00e9rica",
-    "reign_no": 7,
-    "since": "2026-10-25",
-    "time_et": "23:00",
-    "tv": null,
-    "url": "https://beltholders.com/ligamx/",
-    "win_prob": 0.343
+    "win_prob": 0.544
    }
   ]
  }
