@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-17 16:56 result laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DenBHLVlO4R/",
   "2026-10-17 16:56 result seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DenBKATFMHr/",
   "2026-10-17 16:56 result bundesliga|Bayern Munich|RB Leipzig|2026-10-17 https://www.instagram.com/p/DenBMm_lCD_/",
   "2026-10-18 00:30 result nhl|Chicago Blackhawks|Dallas Stars|2026-10-17 https://www.instagram.com/p/Den1G-slDt6/",
@@ -59,7 +58,8 @@
   "2026-10-29 14:48 result ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfFsGLCGUp0/",
   "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/",
   "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/",
-  "2026-10-31 15:30 preview nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfK6X1ej342/"
+  "2026-10-31 15:30 preview nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfK6X1ej342/",
+  "2026-10-31 15:30 preview nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfK6bMtD5PP/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31": {
@@ -223,7 +223,8 @@
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
-  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31"
+  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
+  "nhl|Colorado Avalanche|Calgary Flames|2026-10-31"
  ],
  "results": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
