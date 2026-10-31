@@ -40,5 +40,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "KC|LOU|2026-11-01",
+  "date": "2026-11-01",
+  "holder": "KC",
+  "challenger": "LOU",
+  "pick": "KC",
+  "score": "Kansas City Current 3, Racing Louisville FC 1",
+  "made": "2026-10-31",
+  "line": {
+   "details": "KC -200",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]
