@@ -106,6 +106,21 @@
    "opponent_short": "Flames",
    "reign_no": 102,
    "since": "2026-10-28"
+  },
+  "seriea|AS Roma|Udinese Calcio|2026-10-31": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-10-31",
+   "defenses": 8,
+   "espn_id": "401874990",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "Udinese Calcio",
+   "opponent_short": "Udinese",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
