@@ -137,6 +137,21 @@
    "reign_no": 202,
    "since": "2026-10-30"
   },
+  "ncaah|Michigan|Ohio State|2026-10-31": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-10-31",
+   "defenses": 2,
+   "espn_id": "401923146",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 496,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Ohio State",
+   "opponent_short": "Ohio State",
+   "reign_no": 5,
+   "since": "2026-10-16"
+  },
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31": {
    "belt_name": "The NHL Belt",
    "date": "2026-10-31",
