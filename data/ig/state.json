@@ -76,6 +76,21 @@
    "opponent_short": "Hornets",
    "reign_no": 202,
    "since": "2026-10-30"
+  },
+  "nhl|Colorado Avalanche|Calgary Flames|2026-10-31": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-10-31",
+   "defenses": 0,
+   "espn_id": "401892623",
+   "espn_path": "hockey/nhl",
+   "game_no": 8447,
+   "holder": "Colorado Avalanche",
+   "holder_short": "Avalanche",
+   "lg": "nhl",
+   "opponent": "Calgary Flames",
+   "opponent_short": "Flames",
+   "reign_no": 102,
+   "since": "2026-10-28"
   }
  },
  "previews": [
