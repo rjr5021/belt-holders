@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-18 00:30 result nhl|Chicago Blackhawks|Dallas Stars|2026-10-17 https://www.instagram.com/p/Den1G-slDt6/",
   "2026-10-18 00:30 result nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/Den1KsPlAwU/",
   "2026-10-18 00:30 result ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/Den1PHilIf-/",
   "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
@@ -59,24 +58,10 @@
   "2026-10-31 15:30 preview nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfK6X1ej342/",
   "2026-10-31 15:30 preview nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfK6bMtD5PP/",
   "2026-10-31 15:30 result epl|Manchester City|Brighton & Hove Albion|2026-10-31 https://www.instagram.com/p/DfK6eEYj8wN/",
-  "2026-10-31 15:30 result seriea|AS Roma|Udinese Calcio|2026-10-31 https://www.instagram.com/p/DfK6hMPlMy1/"
+  "2026-10-31 15:30 result seriea|AS Roma|Udinese Calcio|2026-10-31 https://www.instagram.com/p/DfK6hMPlMy1/",
+  "2026-10-31 15:30 result bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31 https://www.instagram.com/p/DfK6j-dFEdQ/"
  ],
  "pending": {
-  "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31": {
-   "belt_name": "The Bundesliga Belt",
-   "date": "2026-10-31",
-   "defenses": 14,
-   "espn_id": "401884754",
-   "espn_path": "soccer/ger.1",
-   "game_no": 2135,
-   "holder": "Bayern Munich",
-   "holder_short": "Bayern",
-   "lg": "bundesliga",
-   "opponent": "Borussia Dortmund",
-   "opponent_short": "Dortmund",
-   "reign_no": 57,
-   "since": "2026-02-28"
-  },
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31": {
    "belt_name": "The Eredivisie Belt",
    "date": "2026-10-31",
@@ -197,7 +182,6 @@
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31"
  ],
  "results": [
-  "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
@@ -256,6 +240,7 @@
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
   "epl|Manchester City|Brighton & Hove Albion|2026-10-31",
-  "seriea|AS Roma|Udinese Calcio|2026-10-31"
+  "seriea|AS Roma|Udinese Calcio|2026-10-31",
+  "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31"
  ]
 }
