@@ -1,54 +1,50 @@
 {
- "key": "PHI|CHA|2026-10-31",
- "updated": "2026-10-31T05:44Z",
- "start_utc": "2026-10-31T22:00Z",
+ "key": "PHI|CHI|2026-11-02",
+ "updated": "2026-10-31T23:26Z",
+ "start_utc": "2026-11-03T00:30Z",
  "espn": {
-  "event_id": "401909897",
-  "start_utc": "2026-10-31T22:00Z",
+  "event_id": "401909912",
+  "start_utc": "2026-11-03T00:30Z",
   "state": "pre",
   "tv": [
-   "NBA TV"
+   "NBA League Pass"
   ],
-  "odds": {
-   "details": "PHI -1.5",
-   "over_under": 216.5,
-   "provider": "Draft Kings"
-  },
+  "odds": null,
   "teams": {
-   "CHA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-    "abbr": "CHA",
-    "record": "3-3",
-    "rank": null,
-    "home_away": "home"
-   },
    "PHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
     "abbr": "PHI",
     "record": "5-1",
     "rank": null,
+    "home_away": "home"
+   },
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "1-5",
+    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Spectrum Center",
-   "city": "Charlotte",
-   "state": "NC",
+   "name": "Xfinity Mobile Arena",
+   "city": "Philadelphia",
+   "state": "PA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers bring the lineal championship belt to Charlotte on October 31st, 2026, facing a Hornets team hungry to reclaim hardware they've held 35 times before. Philadelphia captured the belt in their most recent victory, a 98\u201393 win over New York, and now must defend it for the first time in this reign. With the 76ers holding a 5-1 record and the Hornets at 3-3, this marks the seventh time these franchises have met with the belt on the line.",
+  "overview": "The Philadelphia 76ers put their lineal championship belt on the line when they host the Chicago Bulls on November 2nd, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back through NBA history with no committees or polls involved. Philadelphia has yet to defend the belt in this current reign, making this their first title defense.",
   "key_matchups": [
-   "Philadelphia's two-game winning streak versus Charlotte's two-game skid\u2014momentum could prove decisive",
-   "The 76ers' 5-1 start contrasts sharply with Charlotte's inconsistent 3-3 form, including a 79\u201395 loss in their last outing",
-   "Recent history favors Philadelphia, winners of four of the last five meetings including a 118-114 decision in March 2026"
+   "Philadelphia's momentum on a 2-game winning streak versus Chicago's struggles through 4 straight losses",
+   "The 76ers' 5-1 record against the Bulls' dismal 1-5 start to the season",
+   "Chicago's recent defensive struggles, having allowed 125, 133, 134, and 124 points in their last four defeats"
   ],
-  "betting_angles": "Philadelphia enters on a two-game winning streak with an impressive 5-1 record, while Charlotte has dropped consecutive games and sits at .500. The 76ers have won four of the last five head-to-head matchups, though the Elo model interestingly tags them as underdogs on the road. Charlotte's recent 79\u201395 loss suggests offensive struggles, while Philadelphia posted 98 points in a tight defensive battle against New York.",
+  "betting_angles": "The form contrast is stark: Philadelphia has won their last 2 games and sits at 5-1, while Chicago has dropped 4 straight and limps in at 1-5. The Elo model identifies the 76ers as a clear favorite, which aligns with both the season records and recent performance. Head-to-head history shows Philadelphia leading the all-time series 143-124 across 267 meetings, though their last five encounters have been evenly split.",
   "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 107, Charlotte Hornets 101",
-  "prediction_writeup": "Philadelphia's superior form\u20145-1 overall with wins in their last two\u2014gives them the edge over a Charlotte squad that has lost back-to-back games and allowed 95 points in their most recent outing. The 76ers have owned this matchup lately, winning four of five including a 118-114 road victory at Charlotte in March. While the Elo model sees Charlotte as favorites at home, Philadelphia's consistency and recent defensive solidity in the 98\u201393 win over New York suggest they're built to protect the belt. The 76ers escape Charlotte with their first successful defense.",
+  "predicted_score": "Philadelphia 76ers 118, Chicago Bulls 107",
+  "prediction_writeup": "Philadelphia's superior form and home court advantage should be decisive in their first belt defense. The 76ers have won their last 2 games and boast a 5-1 record, while Chicago arrives reeling from 4 consecutive losses and a league-worst 1-5 mark. The Bulls have been bleeding points defensively, allowing at least 124 in each of their last four defeats. With the Elo model backing Philadelphia as a clear favorite and the home team protecting the belt for the first time in this reign, the 76ers should handle business against a struggling opponent.",
   "written": "2026-10-31",
   "model": "claude-sonnet-4-5",
   "factcheck": {

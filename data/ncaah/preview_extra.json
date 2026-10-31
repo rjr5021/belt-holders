@@ -1,21 +1,21 @@
 {
- "key": "MICH|OSU|2026-10-31",
- "updated": "2026-10-24T04:41Z",
- "start_utc": "2026-10-31T22:00Z",
+ "key": "MICH|OSU|2026-11-01",
+ "updated": "2026-10-31T23:28Z",
+ "start_utc": "2026-11-02T00:30Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan brings their perfect 6-0 record and the Belt Holders championship to Value City Arena, where Ohio State will attempt to claim the belt for the fourth time in program history. The Wolverines have defended the belt once in their current reign and enter on a five-game winning streak, while the Buckeyes are looking to bounce back from a 2-2 start that includes a 7-3 loss to these same Wolverines earlier this season.",
+  "overview": "Michigan brings the lineal championship belt to Value City Arena, having defended it twice in their current reign. The Wolverines enter undefeated at 7-0 and riding a five-game winning streak, while Ohio State struggles at 2-4 with back-to-back losses to Augustana.",
   "key_matchups": [
-   "Michigan's offensive firepower vs Ohio State's home ice: The Wolverines have scored 4+ goals in four of their last five games and put up 7 goals in the last meeting",
-   "Ohio State's recent form against weaker competition: The Buckeyes split with Sacred Heart and Rensselaer while Michigan has swept quality opponents like Denver",
-   "Belt pressure: Ohio State has held the belt three times before but must overcome a dominant Michigan squad that leads the all-time series 31-20-5"
+   "Michigan's offensive explosion\u201410 and 7 goals in consecutive home wins over Alaska Anchorage\u2014against an Ohio State defense that has allowed 3 or more goals in four of their last five",
+   "Ohio State's recent home struggles after dropping consecutive games to Augustana 3-4 and 2-3",
+   "Michigan's dominance in the recent head-to-head series, winning the last five meetings including a 7-3 thrashing in March 2026"
   ],
-  "betting_angles": "Michigan's undefeated start and five-game winning streak contrasts sharply with Ohio State's .500 record and inconsistent results against mid-tier opponents. The head-to-head history heavily favors the Wolverines, who have won all five of the last meetings including a 7-3 road victory at Ohio State earlier this season. The Elo model's designation of Michigan as favorites aligns with both recent form and historical dominance in this matchup.",
+  "betting_angles": "Michigan's perfect 7-0 record and five-game winning streak contrast sharply with Ohio State's 2-4 mark and current two-game skid. The Wolverines have dominated this matchup historically, winning all five recent meetings by margins including 8-1, 7-3, and 6-4. The Elo model favors Michigan as a clear favorite, aligning with both current form and head-to-head trends.",
   "predicted_winner": "Michigan",
   "predicted_score": "Michigan 5, Ohio State 2",
-  "prediction_writeup": "Michigan's perfect 6-0 start and dominant recent form make them the clear choice to retain the belt. The Wolverines have won five straight games and swept quality opponents like Denver on the road, demonstrating their ability to win in hostile environments. Ohio State's 2-2 record includes concerning performances against Sacred Heart and Rensselaer, programs that don't match Michigan's caliber. The 7-3 result when these teams met earlier this season suggests Michigan has the offensive firepower to control this game even on the road. Expect the Wolverines to keep the belt and extend their winning streak to six.",
-  "written": "2026-10-24",
+  "prediction_writeup": "Michigan's undefeated start and five-game winning streak reflect a team firing on all cylinders, as evidenced by their offensive output in recent games. Ohio State has dropped two straight to Augustana and sits at 2-4, lacking the form to challenge a Wolverines squad that swept all five meetings last season. The Elo model's clear edge for Michigan aligns with the eye test: a perfect record versus a struggling opponent. The Wolverines should retain the belt with a road victory similar to their recent commanding performances against the Buckeyes.",
+  "written": "2026-10-31",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
