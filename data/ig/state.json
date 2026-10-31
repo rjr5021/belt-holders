@@ -62,6 +62,21 @@
   "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/"
  ],
  "pending": {
+  "epl|Manchester City|Brighton & Hove Albion|2026-10-31": {
+   "belt_name": "The English Football Belt",
+   "date": "2026-10-31",
+   "defenses": 4,
+   "espn_id": "401879245",
+   "espn_path": "soccer/eng.1",
+   "game_no": 4918,
+   "holder": "Manchester City",
+   "holder_short": "Man City",
+   "lg": "epl",
+   "opponent": "Brighton & Hove Albion",
+   "opponent_short": "Brighton",
+   "reign_no": 62,
+   "since": "2026-08-23"
+  },
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31": {
    "belt_name": "The NBA Belt",
    "date": "2026-10-31",
