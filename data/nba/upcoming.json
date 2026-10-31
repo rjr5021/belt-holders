@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "15:00",
   "venue": "Delta Center",
-  "spread": -6.5
+  "spread": -7.5
  },
  {
   "id": "espn-401909897",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": -9.5
+  "spread": -8.5
  },
  {
   "id": "espn-401909901",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909903",
