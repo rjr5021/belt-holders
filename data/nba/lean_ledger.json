@@ -122,5 +122,19 @@
   "score": "New York Knicks 108, Philadelphia 76ers 112",
   "made": "2026-10-29",
   "line": null
+ },
+ {
+  "key": "PHI|CHA|2026-10-31",
+  "date": "2026-10-31",
+  "holder": "PHI",
+  "challenger": "CHA",
+  "pick": "PHI",
+  "score": "Philadelphia 76ers 107, Charlotte Hornets 101",
+  "made": "2026-10-31",
+  "line": {
+   "details": "PHI -1.5",
+   "over_under": 216.5,
+   "provider": "Draft Kings"
+  }
  }
 ]
