@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-17 16:56 result seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DenBKATFMHr/",
   "2026-10-17 16:56 result bundesliga|Bayern Munich|RB Leipzig|2026-10-17 https://www.instagram.com/p/DenBMm_lCD_/",
   "2026-10-18 00:30 result nhl|Chicago Blackhawks|Dallas Stars|2026-10-17 https://www.instagram.com/p/Den1G-slDt6/",
   "2026-10-18 00:30 result nwsl|Kansas City Current|Utah Royals|2026-10-17 https://www.instagram.com/p/Den1KsPlAwU/",
@@ -59,7 +58,8 @@
   "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/",
   "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/",
   "2026-10-31 15:30 preview nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfK6X1ej342/",
-  "2026-10-31 15:30 preview nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfK6bMtD5PP/"
+  "2026-10-31 15:30 preview nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfK6bMtD5PP/",
+  "2026-10-31 15:30 result epl|Manchester City|Brighton & Hove Albion|2026-10-31 https://www.instagram.com/p/DfK6eEYj8wN/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31": {
@@ -76,21 +76,6 @@
    "opponent_short": "Dortmund",
    "reign_no": 57,
    "since": "2026-02-28"
-  },
-  "epl|Manchester City|Brighton & Hove Albion|2026-10-31": {
-   "belt_name": "The English Football Belt",
-   "date": "2026-10-31",
-   "defenses": 4,
-   "espn_id": "401879245",
-   "espn_path": "soccer/eng.1",
-   "game_no": 4918,
-   "holder": "Manchester City",
-   "holder_short": "Man City",
-   "lg": "epl",
-   "opponent": "Brighton & Hove Albion",
-   "opponent_short": "Brighton",
-   "reign_no": 62,
-   "since": "2026-08-23"
   },
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31": {
    "belt_name": "The Eredivisie Belt",
@@ -227,7 +212,6 @@
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31"
  ],
  "results": [
-  "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
   "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
@@ -286,6 +270,7 @@
   "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
-  "nba|New York Knicks|Philadelphia 76ers|2026-10-30"
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
+  "epl|Manchester City|Brighton & Hove Albion|2026-10-31"
  ]
 }
