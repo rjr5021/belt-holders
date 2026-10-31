@@ -138,7 +138,9 @@
   "ncaah|2026-10-23|michigan|westernmichigan": {
    "end": "2026-10-23T21:22-04:00"
   },
-  "ncaah|2026-10-31|michigan|ohiostate": {},
+  "ncaah|2026-10-31|michigan|ohiostate": {
+   "danger": "2026-10-31T19:03-04:00"
+  },
   "nfl|2026-10-04|jacksonvillejaguars|cincinnatibengals": {
    "end": "2026-10-04T16:25-04:00"
   },
