@@ -11,7 +11,9 @@
   "bundesliga|2026-10-25|bayernmunich|freiburg": {
    "end": "2026-10-25T14:44-04:00"
   },
-  "bundesliga|2026-10-31|bayernmunich|borussiadortmund": {},
+  "bundesliga|2026-10-31|bayernmunich|borussiadortmund": {
+   "end": "2026-10-31T15:30-04:00"
+  },
   "epl|2026-10-11|manchestercity|liverpool": {
    "end": "2026-10-11T13:39-04:00"
   },
@@ -229,13 +231,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-10T21:57-04:00",
-   "nhl",
-   "change",
-   1,
-   2
-  ],
   [
    "2026-10-10T22:35-04:00",
    "mls",
@@ -627,6 +622,13 @@
    "seriea",
    "defense",
    5,
+   2
+  ],
+  [
+   "2026-10-31T15:30-04:00",
+   "bundesliga",
+   "defense",
+   2,
    2
   ]
  ],
