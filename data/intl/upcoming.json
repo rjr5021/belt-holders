@@ -1232,6 +1232,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401932718",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "United Arab Emirates",
+  "away": "Syria",
+  "neutral": "",
+  "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401930237",
   "date": "2026-11-17",
   "season": 2026,
@@ -1691,6 +1702,17 @@
   "away": "Colombia",
   "neutral": "",
   "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401932719",
+  "date": "2026-11-28",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Spain",
+  "away": "Chile",
+  "neutral": "",
+  "start_et": "12:00",
   "tournament": "Friendly"
  }
 ]
