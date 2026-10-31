@@ -61,7 +61,23 @@
   "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/",
   "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-10-31",
+   "defenses": 0,
+   "espn_id": "401909897",
+   "espn_path": "basketball/nba",
+   "game_no": 7537,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Charlotte Hornets",
+   "opponent_short": "Hornets",
+   "reign_no": 202,
+   "since": "2026-10-30"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
