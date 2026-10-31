@@ -21,6 +21,9 @@
    "danger": "2026-10-24T08:18-04:00",
    "end": "2026-10-24T09:23-04:00"
   },
+  "epl|2026-10-31|manchestercity|brightonhovealbion": {
+   "end": "2026-10-31T13:31-04:00"
+  },
   "eredivisie|2026-10-10|azalkmaar|feyenoord": {
    "danger": "2026-10-10T13:33-04:00",
    "end": "2026-10-10T14:42-04:00"
@@ -116,6 +119,7 @@
    "danger": "2026-10-30T21:50-04:00",
    "end": "2026-10-30T22:06-04:00"
   },
+  "nba|2026-10-31|philadelphia76ers|charlottehornets": {},
   "ncaah|2026-10-16|denver|michigan": {
    "danger": "2026-10-16T23:22-04:00",
    "end": "2026-10-17T00:13-04:00"
@@ -193,6 +197,7 @@
    "danger": "2026-10-28T23:21-04:00",
    "end": "2026-10-28T23:42-04:00"
   },
+  "nhl|2026-10-31|coloradoavalanche|calgaryflames": {},
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
@@ -217,13 +222,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-10T16:39-04:00",
-   "ligue1",
-   "change",
-   0,
-   1
-  ],
   [
    "2026-10-10T20:59-04:00",
    "ligamx",
@@ -616,33 +614,201 @@
    "change",
    93,
    98
+  ],
+  [
+   "2026-10-31T13:31-04:00",
+   "epl",
+   "change",
+   0,
+   1
   ]
  ],
  "today": {
-  "day": "2026-10-30",
+  "day": "2026-10-31",
   "games": [
    {
     "belt": "NBA",
     "colors": [
      "#006bb6",
-     "#f58426"
+     "#ed174c"
     ],
-    "defenses": 1,
-    "holder": "New York Knicks",
-    "holder_short": "Knicks",
+    "defenses": 0,
+    "holder": "Philadelphia 76ers",
+    "holder_short": "76ers",
     "home": false,
     "lg": "nba",
     "name": "The NBA Belt",
     "neutral": false,
     "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "Philadelphia 76ers",
-    "opponent_short": "76ers",
-    "reign_no": 205,
-    "since": "2026-10-27",
-    "time_et": "19:30",
-    "tv": "Prime Video",
+    "opponent": "Charlotte Hornets",
+    "opponent_short": "Hornets",
+    "reign_no": 202,
+    "since": "2026-10-30",
+    "time_et": "18:00",
+    "tv": "NBA TV",
     "url": "https://beltholders.com/nba/",
-    "win_prob": 0.544
+    "win_prob": 0.433
+   },
+   {
+    "belt": "NHL",
+    "colors": [
+     "#6f263d",
+     "#236192"
+    ],
+    "defenses": 0,
+    "holder": "Colorado Avalanche",
+    "holder_short": "Avalanche",
+    "home": true,
+    "lg": "nhl",
+    "name": "The NHL Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Calgary Flames",
+    "opponent_short": "Flames",
+    "reign_no": 102,
+    "since": "2026-10-28",
+    "time_et": "22:00",
+    "tv": "ESPN+ \u00b7 Altitude Sports",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.655
+   },
+   {
+    "belt": "Premier League",
+    "colors": [
+     "#6cabdd",
+     "#1c2c5b"
+    ],
+    "defenses": 4,
+    "holder": "Manchester City",
+    "holder_short": "Man City",
+    "home": true,
+    "lg": "epl",
+    "name": "The English Football Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/epl/next/",
+    "opponent": "Brighton & Hove Albion",
+    "opponent_short": "Brighton",
+    "reign_no": 62,
+    "since": "2026-08-23",
+    "time_et": "11:00",
+    "tv": "Peacock",
+    "url": "https://beltholders.com/epl/",
+    "win_prob": 0.707
+   },
+   {
+    "belt": "Serie A",
+    "colors": [
+     "#8e1f2f",
+     "#f0bc42"
+    ],
+    "defenses": 8,
+    "holder": "AS Roma",
+    "holder_short": "Roma",
+    "home": false,
+    "lg": "seriea",
+    "name": "The Serie A Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/seriea/next/",
+    "opponent": "Udinese Calcio",
+    "opponent_short": "Udinese",
+    "reign_no": 66,
+    "since": "2026-05-04",
+    "time_et": "13:00",
+    "tv": "Paramount+",
+    "url": "https://beltholders.com/seriea/",
+    "win_prob": 0.631
+   },
+   {
+    "belt": "Bundesliga",
+    "colors": [
+     "#dc052d",
+     "#0066b2"
+    ],
+    "defenses": 14,
+    "holder": "Bayern Munich",
+    "holder_short": "Bayern",
+    "home": true,
+    "lg": "bundesliga",
+    "name": "The Bundesliga Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/bundesliga/next/",
+    "opponent": "Borussia Dortmund",
+    "opponent_short": "Dortmund",
+    "reign_no": 57,
+    "since": "2026-02-28",
+    "time_et": "13:30",
+    "tv": "CNBC \u00b7 Fandango",
+    "url": "https://beltholders.com/bundesliga/",
+    "win_prob": 0.649
+   },
+   {
+    "belt": "Eredivisie",
+    "colors": [
+     "#e30613",
+     "#ffffff"
+    ],
+    "defenses": 11,
+    "holder": "AZ Alkmaar",
+    "holder_short": "AZ",
+    "home": false,
+    "lg": "eredivisie",
+    "name": "The Eredivisie Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/eredivisie/next/",
+    "opponent": "AFC Ajax",
+    "opponent_short": "Ajax",
+    "reign_no": 19,
+    "since": "2026-04-12",
+    "time_et": "16:00",
+    "tv": "ESPN+",
+    "url": "https://beltholders.com/eredivisie/",
+    "win_prob": 0.425
+   },
+   {
+    "belt": "Liga MX",
+    "colors": [
+     "#c8102e",
+     "#111111"
+    ],
+    "defenses": 1,
+    "holder": "Tijuana",
+    "holder_short": "Xolos",
+    "home": false,
+    "lg": "ligamx",
+    "name": "The Liga MX Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/ligamx/next/",
+    "opponent": "Monterrey",
+    "opponent_short": "Rayados",
+    "reign_no": 7,
+    "since": "2026-10-25",
+    "time_et": "21:05",
+    "tv": null,
+    "url": "https://beltholders.com/ligamx/",
+    "win_prob": 0.452
+   },
+   {
+    "belt": "NCAA Hockey",
+    "colors": [
+     "#00274c",
+     "#ffcb05"
+    ],
+    "defenses": 2,
+    "holder": "Michigan",
+    "holder_short": "Michigan",
+    "home": false,
+    "lg": "ncaah",
+    "name": "The College Hockey Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/ncaah/next/",
+    "opponent": "Ohio State",
+    "opponent_short": "Ohio State",
+    "reign_no": 5,
+    "since": "2026-10-16",
+    "time_et": "17:00",
+    "tv": null,
+    "url": "https://beltholders.com/ncaah/",
+    "win_prob": 0.685
    }
   ]
  }
