@@ -92,6 +92,21 @@
    "reign_no": 62,
    "since": "2026-08-23"
   },
+  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-10-31",
+   "defenses": 11,
+   "espn_id": "401875562",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "AFC Ajax",
+   "opponent_short": "Ajax",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31": {
    "belt_name": "The NBA Belt",
    "date": "2026-10-31",
