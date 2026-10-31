@@ -107,6 +107,21 @@
    "reign_no": 19,
    "since": "2026-04-12"
   },
+  "ligamx|Tijuana|Monterrey|2026-10-31": {
+   "belt_name": "The Liga MX Belt",
+   "date": "2026-10-31",
+   "defenses": 1,
+   "espn_id": "401876914",
+   "espn_path": "soccer/mex.1",
+   "game_no": 545,
+   "holder": "Tijuana",
+   "holder_short": "Xolos",
+   "lg": "ligamx",
+   "opponent": "Monterrey",
+   "opponent_short": "Rayados",
+   "reign_no": 7,
+   "since": "2026-10-25"
+  },
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31": {
    "belt_name": "The NBA Belt",
    "date": "2026-10-31",
