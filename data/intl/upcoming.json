@@ -33,6 +33,61 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401927214",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ghana",
+  "away": "Somalia",
+  "neutral": "",
+  "start_et": "10:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927211",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "DR Congo",
+  "away": "Sierra Leone",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927210",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Equatorial Guinea",
+  "away": "Zimbabwe",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927189",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Guinea",
+  "away": "Eritrea",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927184",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Madagascar",
+  "away": "Guinea-Bissau",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401861146",
   "date": "2026-11-12",
   "season": 2026,
@@ -75,6 +130,50 @@
   "neutral": "",
   "start_et": "14:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401927209",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Benin",
+  "away": "Central African Republic",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927207",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cameroon",
+  "away": "Namibia",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927213",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ivory Coast",
+  "away": "Gambia",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927202",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Senegal",
+  "away": "Sudan",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401861147",
@@ -187,17 +286,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401930878",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Peru",
-  "away": "Bolivia",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401931957",
   "date": "2026-11-13",
   "season": 2026,
@@ -218,6 +306,39 @@
   "neutral": "",
   "start_et": "07:00",
   "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401927206",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Comoros",
+  "away": "Congo",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927187",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Mozambique",
+  "away": "Ethiopia",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927203",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Zambia",
+  "away": "Burundi",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401931978",
@@ -253,6 +374,72 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401927208",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Burkina Faso",
+  "away": "Mauritania",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927186",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Cape Verde",
+  "away": "Liberia",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927192",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Gabon",
+  "away": "Lesotho",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927183",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Nigeria",
+  "away": "Tanzania",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927212",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "South Africa",
+  "away": "Kenya",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927205",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tunisia",
+  "away": "Libya",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401861162",
   "date": "2026-11-13",
   "season": 2026,
@@ -284,6 +471,17 @@
   "neutral": "",
   "start_et": "14:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401927185",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Mali",
+  "away": "Rwanda",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401861155",
@@ -396,6 +594,28 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401927190",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Egypt",
+  "away": "Malawi",
+  "neutral": "",
+  "start_et": "15:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927191",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Morocco",
+  "away": "Niger",
+  "neutral": "",
+  "start_et": "15:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401921325",
   "date": "2026-11-13",
   "season": 2026,
@@ -427,6 +647,17 @@
   "neutral": "",
   "start_et": "19:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401930878",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Peru",
+  "away": "Bolivia",
+  "neutral": "",
+  "start_et": "20:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401929711",
@@ -495,6 +726,17 @@
   "tournament": "UEFA Nations League"
  },
  {
+  "id": "int-espn-401927188",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Uganda",
+  "away": "Botswana",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401861164",
   "date": "2026-11-14",
   "season": 2026,
@@ -515,6 +757,28 @@
   "neutral": "",
   "start_et": "12:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401927204",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Algeria",
+  "away": "Togo",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927215",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Angola",
+  "away": "South Sudan",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401861170",
@@ -715,6 +979,39 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401927170",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Namibia",
+  "away": "Cameroon",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927135",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sudan",
+  "away": "Senegal",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927173",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Zimbabwe",
+  "away": "Equatorial Guinea",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401861180",
   "date": "2026-11-16",
   "season": 2026,
@@ -735,6 +1032,28 @@
   "neutral": "",
   "start_et": "10:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401927177",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Somalia",
+  "away": "Ghana",
+  "neutral": "",
+  "start_et": "10:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927172",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Central African Republic",
+  "away": "Benin",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401861183",
@@ -768,6 +1087,17 @@
   "neutral": "",
   "start_et": "12:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401927176",
+  "date": "2026-11-16",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Eritrea",
+  "away": "Guinea",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401914292",
@@ -935,6 +1265,72 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401927169",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Burundi",
+  "away": "Zambia",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927168",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Ethiopia",
+  "away": "Mozambique",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927181",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lesotho",
+  "away": "Gabon",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927179",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Malawi",
+  "away": "Egypt",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927178",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "South Sudan",
+  "away": "Angola",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927165",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tanzania",
+  "away": "Nigeria",
+  "neutral": "",
+  "start_et": "08:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401916336",
   "date": "2026-11-17",
   "season": 2026,
@@ -979,6 +1375,72 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401927182",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Gambia",
+  "away": "Ivory Coast",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927166",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Guinea-Bissau",
+  "away": "Madagascar",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927175",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Kenya",
+  "away": "South Africa",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927137",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Libya",
+  "away": "Tunisia",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927174",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Sierra Leone",
+  "away": "DR Congo",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927136",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Togo",
+  "away": "Algeria",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401930978",
   "date": "2026-11-17",
   "season": 2026,
@@ -1010,6 +1472,61 @@
   "neutral": "",
   "start_et": "14:00",
   "tournament": "CONCACAF Nations League"
+ },
+ {
+  "id": "int-espn-401927138",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Botswana",
+  "away": "Uganda",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927139",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Congo",
+  "away": "Comoros",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927167",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Liberia",
+  "away": "Cape Verde",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927171",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Mauritania",
+  "away": "Burkina Faso",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401927134",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Rwanda",
+  "away": "Mali",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401861196",
@@ -1098,6 +1615,17 @@
   "neutral": "",
   "start_et": "14:45",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401927180",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Niger",
+  "away": "Morocco",
+  "neutral": "",
+  "start_et": "15:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401930899",

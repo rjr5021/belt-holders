@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-72",
-  "date": "2026-10-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Le Havre AC",
-  "away": "Paris Saint-Germain",
-  "start_et": "14:00"
- },
- {
-  "id": "of-2026-73",
-  "date": "2026-10-30",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Lille OSC",
-  "away": "RC Lens",
-  "start_et": "16:05"
- },
- {
   "id": "of-2026-74",
   "date": "2026-10-31",
   "season": 2026,
