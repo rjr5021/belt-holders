@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-17 12:09 preview ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17 https://www.instagram.com/p/DemgigZEQgy/",
   "2026-10-17 12:09 preview ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Demgliwkc50/",
   "2026-10-17 16:56 result laliga|Athletic Bilbao|Valencia CF|2026-10-17 https://www.instagram.com/p/DenBHLVlO4R/",
   "2026-10-17 16:56 result seriea|AS Roma|Genoa CFC|2026-10-17 https://www.instagram.com/p/DenBKATFMHr/",
@@ -59,25 +58,10 @@
   "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/",
   "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/",
   "2026-10-29 14:48 result ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfFsGLCGUp0/",
-  "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/"
+  "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/",
+  "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/"
  ],
- "pending": {
-  "nba|New York Knicks|Philadelphia 76ers|2026-10-30": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-10-30",
-   "defenses": 1,
-   "espn_id": "401909280",
-   "espn_path": "basketball/nba",
-   "game_no": 7536,
-   "holder": "New York Knicks",
-   "holder_short": "Knicks",
-   "lg": "nba",
-   "opponent": "Philadelphia 76ers",
-   "opponent_short": "76ers",
-   "reign_no": 205,
-   "since": "2026-10-27"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -178,6 +162,7 @@
   "nba|New York Knicks|Chicago Bulls|2026-10-28",
   "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
-  "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28"
+  "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
+  "nba|New York Knicks|Philadelphia 76ers|2026-10-30"
  ]
 }
