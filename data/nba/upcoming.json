@@ -1,44 +1,5 @@
 [
  {
-  "id": "espn-401909896",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "UTAH",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "15:00",
-  "venue": "Delta Center",
-  "spread": -7.5
- },
- {
-  "id": "espn-401909897",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHA",
-  "away": "PHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "18:00",
-  "venue": "Spectrum Center",
-  "spread": -1.5
- },
- {
-  "id": "espn-401909898",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "ATL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Smoothie King Center",
-  "spread": -4.5
- },
- {
   "id": "espn-401909899",
   "date": "2026-10-31",
   "season": 2026,
@@ -49,7 +10,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 10.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909900",
@@ -62,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": -8.5
+  "spread": -9.5
  },
  {
   "id": "espn-401909901",
@@ -88,7 +49,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909903",
