@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
   "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
   "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
@@ -59,24 +58,10 @@
   "2026-10-31 15:30 result bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31 https://www.instagram.com/p/DfK6j-dFEdQ/",
   "2026-10-31 15:30 preview ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfK6m9_lBwY/",
   "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
-  "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/"
+  "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/",
+  "2026-10-31 20:40 result eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31 https://www.instagram.com/p/DfLd5BXjW3R/"
  ],
  "pending": {
-  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-10-31",
-   "defenses": 11,
-   "espn_id": "401875562",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "AFC Ajax",
-   "opponent_short": "Ajax",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  },
   "ligamx|Tijuana|Monterrey|2026-10-31": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-31",
@@ -169,7 +154,6 @@
   "ncaah|Michigan|Ohio State|2026-10-31"
  ],
  "results": [
-  "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
@@ -228,6 +212,7 @@
   "epl|Manchester City|Brighton & Hove Albion|2026-10-31",
   "seriea|AS Roma|Udinese Calcio|2026-10-31",
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
-  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31"
+  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
+  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31"
  ]
 }
