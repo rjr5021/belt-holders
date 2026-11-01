@@ -76,6 +76,21 @@
    "opponent_short": "Rayados",
    "reign_no": 7,
    "since": "2026-10-25"
+  },
+  "nwsl|Kansas City Current|Racing Louisville FC|2026-11-01": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-11-01",
+   "defenses": 3,
+   "espn_id": "401854036",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 306,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Racing Louisville FC",
+   "opponent_short": "Louisville",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
