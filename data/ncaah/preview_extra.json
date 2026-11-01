@@ -1,24 +1,24 @@
 {
- "key": "MICH|OSU|2026-11-01",
- "updated": "2026-10-31T23:28Z",
+ "key": "OSU|MICH|2026-11-01",
+ "updated": "2026-11-01T13:30Z",
  "start_utc": "2026-11-02T00:30Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan brings the lineal championship belt to Value City Arena, having defended it twice in their current reign. The Wolverines enter undefeated at 7-0 and riding a five-game winning streak, while Ohio State struggles at 2-4 with back-to-back losses to Augustana.",
+  "overview": "Ohio State puts the lineal championship belt on the line for the first time in this reign when they host Michigan on November 1st, 2026. The Buckeyes claimed the belt just one day prior with a 5\u20132 victory over these same Wolverines. Michigan, who have held the belt 5 times previously, will look to immediately reclaim what they lost in Columbus.",
   "key_matchups": [
-   "Michigan's offensive explosion\u201410 and 7 goals in consecutive home wins over Alaska Anchorage\u2014against an Ohio State defense that has allowed 3 or more goals in four of their last five",
-   "Ohio State's recent home struggles after dropping consecutive games to Augustana 3-4 and 2-3",
-   "Michigan's dominance in the recent head-to-head series, winning the last five meetings including a 7-3 thrashing in March 2026"
+   "Can Ohio State repeat their 5\u20132 formula from just one day ago against the same opponent?",
+   "Michigan enters 7-1 on the season versus Ohio State's 3-4 record, but the Wolverines just suffered their first loss",
+   "Ohio State are 0-0 in belt defenses this reign after winning it on 2026-10-31"
   ],
-  "betting_angles": "Michigan's perfect 7-0 record and five-game winning streak contrast sharply with Ohio State's 2-4 mark and current two-game skid. The Wolverines have dominated this matchup historically, winning all five recent meetings by margins including 8-1, 7-3, and 6-4. The Elo model favors Michigan as a clear favorite, aligning with both current form and head-to-head trends.",
+  "betting_angles": "Michigan hold a commanding 31-21-5 edge in the all-time series and boast a 7-1 record this season compared to Ohio State's 3-4 mark. However, the Buckeyes just beat Michigan 5\u20132 in their most recent meeting on 2026-10-31. The Elo model still favors Michigan despite that recent result, suggesting the numbers see Ohio State as overachieving in that win.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 5, Ohio State 2",
-  "prediction_writeup": "Michigan's undefeated start and five-game winning streak reflect a team firing on all cylinders, as evidenced by their offensive output in recent games. Ohio State has dropped two straight to Augustana and sits at 2-4, lacking the form to challenge a Wolverines squad that swept all five meetings last season. The Elo model's clear edge for Michigan aligns with the eye test: a perfect record versus a struggling opponent. The Wolverines should retain the belt with a road victory similar to their recent commanding performances against the Buckeyes.",
-  "written": "2026-10-31",
+  "predicted_score": "Ohio State 2, Michigan 4",
+  "prediction_writeup": "While Ohio State won 5\u20132 just one day ago, their 3-4 overall record and status as the Elo underdog suggest that result may have been an outlier. Michigan's 7-1 season and historical dominance in this rivalry (31-21-5 all-time) point to a regression. The Wolverines won four straight before their recent loss, including a 7\u20132 victory over Alaska Anchorage and back-to-back wins at Denver by 4\u20131 and 4\u20133 margins. Look for Michigan to bounce back and reclaim the belt in the rematch.",
+  "written": "2026-11-01",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

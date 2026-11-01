@@ -68,5 +68,15 @@
   "score": "Michigan 5, Ohio State 2",
   "made": "2026-10-31",
   "line": null
+ },
+ {
+  "key": "OSU|MICH|2026-11-01",
+  "date": "2026-11-01",
+  "holder": "OSU",
+  "challenger": "MICH",
+  "pick": "MICH",
+  "score": "Ohio State 2, Michigan 4",
+  "made": "2026-11-01",
+  "line": null
  }
 ]
