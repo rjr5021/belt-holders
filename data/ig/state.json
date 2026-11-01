@@ -62,6 +62,21 @@
   "2026-11-01 00:56 result nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfL7JYDFDZt/"
  ],
  "pending": {
+  "laliga|Athletic Bilbao|Real Sociedad|2026-11-01": {
+   "belt_name": "The La Liga Belt",
+   "date": "2026-11-01",
+   "defenses": 2,
+   "espn_id": "401882826",
+   "espn_path": "soccer/esp.1",
+   "game_no": 3116,
+   "holder": "Athletic Bilbao",
+   "holder_short": "Athletic",
+   "lg": "laliga",
+   "opponent": "Real Sociedad",
+   "opponent_short": "Real Sociedad",
+   "reign_no": 76,
+   "since": "2026-09-05"
+  },
   "ligamx|Tijuana|Monterrey|2026-10-31": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-10-31",
