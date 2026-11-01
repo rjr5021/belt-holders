@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-20 13:47 preview nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DeuZ9myic99/",
   "2026-10-20 22:48 result nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DevXxk8FNSf/",
   "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/",
   "2026-10-21 16:02 result laliga|Athletic Bilbao|Levante UD|2026-10-21 https://www.instagram.com/p/DexOMRKmhrD/",
@@ -59,7 +58,8 @@
   "2026-11-01 00:56 result nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfL7JYDFDZt/",
   "2026-11-01 00:56 result ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfL7M4QFFGI/",
   "2026-11-01 13:16 preview nwsl|Kansas City Current|Racing Louisville FC|2026-11-01 https://www.instagram.com/p/DfNWwGzIEh2/",
-  "2026-11-01 13:16 preview laliga|Athletic Bilbao|Real Sociedad|2026-11-01 https://www.instagram.com/p/DfNWzBnIBlu/"
+  "2026-11-01 13:16 preview laliga|Athletic Bilbao|Real Sociedad|2026-11-01 https://www.instagram.com/p/DfNWzBnIBlu/",
+  "2026-11-01 13:16 result ligue1|Paris FC|AS Monaco|2026-11-01 https://www.instagram.com/p/DfNW14-oCQz/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Real Sociedad|2026-11-01": {
@@ -76,21 +76,6 @@
    "opponent_short": "Real Sociedad",
    "reign_no": 76,
    "since": "2026-09-05"
-  },
-  "ligue1|Paris FC|AS Monaco|2026-11-01": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-11-01",
-   "defenses": 0,
-   "espn_id": "401876415",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "AS Monaco",
-   "opponent_short": "Monaco",
-   "reign_no": 2,
-   "since": "2026-09-19"
   },
   "ncaah|Michigan|Ohio State|2026-11-01": {
    "belt_name": "The College Hockey Belt",
@@ -171,7 +156,6 @@
   "laliga|Athletic Bilbao|Real Sociedad|2026-11-01"
  ],
  "results": [
-  "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
   "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
   "nfl|Jacksonville Jaguars|Philadelphia Eagles|2026-10-11",
@@ -230,6 +214,7 @@
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
   "ncaah|Michigan|Ohio State|2026-10-31",
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31",
-  "ligamx|Tijuana|Monterrey|2026-10-31"
+  "ligamx|Tijuana|Monterrey|2026-10-31",
+  "ligue1|Paris FC|AS Monaco|2026-11-01"
  ]
 }
