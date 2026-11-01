@@ -68,5 +68,15 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|Sassuolo Calcio|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "AS Roma",
+  "challenger": "Sassuolo Calcio",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, Sassuolo Calcio 1",
+  "made": "2026-11-01",
+  "line": null
  }
 ]
