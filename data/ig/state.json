@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
   "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/",
   "2026-10-20 13:47 preview nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DeuZ68GiUGZ/",
@@ -59,7 +58,8 @@
   "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
   "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/",
   "2026-10-31 20:40 result eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31 https://www.instagram.com/p/DfLd5BXjW3R/",
-  "2026-10-31 20:40 result ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfLd7z0jarB/"
+  "2026-10-31 20:40 result ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfLd7z0jarB/",
+  "2026-11-01 00:56 result nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfL7JYDFDZt/"
  ],
  "pending": {
   "ligamx|Tijuana|Monterrey|2026-10-31": {
@@ -76,21 +76,6 @@
    "opponent_short": "Rayados",
    "reign_no": 7,
    "since": "2026-10-25"
-  },
-  "nhl|Colorado Avalanche|Calgary Flames|2026-10-31": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-10-31",
-   "defenses": 0,
-   "espn_id": "401892623",
-   "espn_path": "hockey/nhl",
-   "game_no": 8447,
-   "holder": "Colorado Avalanche",
-   "holder_short": "Avalanche",
-   "lg": "nhl",
-   "opponent": "Calgary Flames",
-   "opponent_short": "Flames",
-   "reign_no": 102,
-   "since": "2026-10-28"
   }
  },
  "previews": [
@@ -139,7 +124,6 @@
   "ncaah|Michigan|Ohio State|2026-10-31"
  ],
  "results": [
-  "ligue1|Paris FC|FC Lorient|2026-10-10",
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
@@ -198,6 +182,7 @@
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
-  "ncaah|Michigan|Ohio State|2026-10-31"
+  "ncaah|Michigan|Ohio State|2026-10-31",
+  "nhl|Colorado Avalanche|Calgary Flames|2026-10-31"
  ]
 }
