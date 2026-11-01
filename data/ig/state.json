@@ -92,6 +92,21 @@
    "reign_no": 7,
    "since": "2026-10-25"
   },
+  "ligue1|Paris FC|AS Monaco|2026-11-01": {
+   "belt_name": "The Ligue 1 Belt",
+   "date": "2026-11-01",
+   "defenses": 0,
+   "espn_id": "401876415",
+   "espn_path": "soccer/fra.1",
+   "game_no": 2961,
+   "holder": "Paris FC",
+   "holder_short": "Paris",
+   "lg": "ligue1",
+   "opponent": "AS Monaco",
+   "opponent_short": "Monaco",
+   "reign_no": 2,
+   "since": "2026-09-19"
+  },
   "nwsl|Kansas City Current|Racing Louisville FC|2026-11-01": {
    "belt_name": "The NWSL Belt",
    "date": "2026-11-01",
