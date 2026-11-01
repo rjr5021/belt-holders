@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909903",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ORL",
-  "away": "BOS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "15:30",
-  "venue": "Kia Center",
-  "spread": -7.5
- },
- {
-  "id": "espn-401909904",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "IND",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "17:00",
-  "venue": "Gainbridge Fieldhouse",
-  "spread": 3.5
- },
- {
   "id": "espn-401909905",
   "date": "2026-11-01",
   "season": 2026,
@@ -36,7 +10,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Chase Center",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909906",
@@ -62,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Rocket Arena",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909908",
@@ -75,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Spectrum Center",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909909",
@@ -101,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Madison Square Garden",
-  "spread": null
+  "spread": 14.5
  },
  {
   "id": "espn-401909911",
@@ -114,7 +88,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Kia Center",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909912",
@@ -127,7 +101,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": null
+  "spread": 11.5
  },
  {
   "id": "espn-401909913",
@@ -166,7 +140,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 10.5
  },
  {
   "id": "espn-401909916",
@@ -205,7 +179,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Ball Arena",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909919",
