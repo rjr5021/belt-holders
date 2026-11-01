@@ -54,5 +54,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Nottingham Forest|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "Manchester City",
+  "challenger": "Nottingham Forest",
+  "pick": "Manchester City",
+  "score": "Manchester City 2, Nottingham Forest 1",
+  "made": "2026-11-01",
+  "line": {
+   "details": "MNC -145",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

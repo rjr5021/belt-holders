@@ -1,52 +1,53 @@
 {
- "key": "COL|CGY|2026-10-31",
- "updated": "2026-10-29T05:52Z",
- "start_utc": "2026-11-01T02:00Z",
+ "key": "COL|CHI|2026-11-02",
+ "updated": "2026-11-01T06:08Z",
+ "start_utc": "2026-11-03T01:00Z",
  "espn": {
-  "event_id": "401892623",
-  "start_utc": "2026-11-01T02:00Z",
+  "event_id": "401892631",
+  "start_utc": "2026-11-03T01:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
+   "CHSN+",
    "Altitude Sports"
   ],
   "odds": null,
   "teams": {
-   "COL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
-    "abbr": "COL",
-    "record": "7-5-1",
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "4-9-1",
     "rank": null,
     "home_away": "home"
    },
-   "CGY": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-    "abbr": "CGY",
-    "record": "5-7-0",
+   "COL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+    "abbr": "COL",
+    "record": "8-5-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Ball Arena",
-   "city": "Denver",
-   "state": "CO",
+   "name": "United Center",
+   "city": "Chicago",
+   "state": "IL",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Colorado Avalanche put their Belt Holders championship on the line for the first time in this reign when they host the Calgary Flames on Halloween night. Colorado claimed the belt in their most recent outing and will look to begin a defensive streak, while Calgary seeks to reclaim a belt they've held 68 times previously in the lineal championship's history. The all-time series between these franchises is remarkably tight at 85-83-20 across 188 meetings.",
+  "overview": "The Colorado Avalanche bring the Belt Holders lineal championship to Chicago on November 2nd, 2026, having defended it once in their current reign. The Blackhawks have held the belt 241 times in their history and will look to reclaim it, but they'll need to snap a two-game skid against an Avalanche team riding a two-game winning streak.",
   "key_matchups": [
-   "Colorado's recent offensive surge (5-2, 6-3 wins in their last three victories) against a Calgary team shut out 4-0 in their most recent game",
-   "Home ice advantage for the Avalanche, who have dominated this season's series with victories of 7-3, 3-1, and 9-2",
-   "Calgary's four-game winning streak before their Edmonton loss versus Colorado's inconsistent 2-3 stretch prior to their latest win"
+   "Colorado's offensive firepower (5\u20132, 5\u20132 in last two wins) against Chicago's struggling defense that has allowed 4+ goals in three of their last five",
+   "Chicago's home ice desperation at 4-10 versus an 8-6 Avalanche squad favored by Elo ratings",
+   "Head-to-head history heavily favoring Colorado, who have won the last five meetings dating back to March 2025"
   ],
-  "betting_angles": "The Elo model strongly favors Colorado, and recent head-to-head results support that assessment with the Avalanche winning all four meetings this season by comfortable margins including a 9-2 drubbing. Colorado's 7-6 record edges Calgary's 5-7 mark, and the home side just posted a convincing 5-2 victory while the Flames were blanked 4-0 in their last outing. Calgary had looked sharp with four straight wins before that Edmonton loss, but their struggles this season and inability to solve Colorado recently suggest this will be an uphill battle.",
+  "betting_angles": "Colorado enters with momentum from back-to-back 5\u20132 victories and holds a commanding 93-71-9 edge in the all-time series, including wins in the last five meetings. Chicago's 4-10 record and recent losses by scores of 4\u20135 and 1\u20134 show both offensive struggles and defensive lapses. The Elo model's favor toward the Avalanche aligns with the form and head-to-head trends.",
   "predicted_winner": "Colorado Avalanche",
-  "predicted_score": "Colorado Avalanche 5, Calgary Flames 2",
-  "prediction_writeup": "Colorado has owned this matchup in 2026, winning all four meetings including three blowouts, and they'll be defending the belt at home where they just put up five goals against New Jersey. Calgary arrives off a shutout loss and sits two games below .500, while the Avalanche have the better record and clear Elo advantage. The Flames have held the belt 68 times before and know what's at stake, but the recent head-to-head history is too lopsided to ignore. Colorado keeps the belt with a multi-goal victory in what should be a relatively comfortable home win.",
-  "written": "2026-10-29",
+  "predicted_score": "Colorado Avalanche 4, Chicago Blackhawks 2",
+  "prediction_writeup": "Colorado has won their last 2 games while scoring 5 goals in each, and they've dominated this matchup with five straight victories over Chicago. The Blackhawks have lost their last 2 games and sit at 4-10 on the season, showing little to suggest they can break through against a team that beat them 4-1 as recently as March 2026. The Avalanche's 8-6 record and Elo advantage point to another road win. Colorado retains the belt with a workmanlike performance in Chicago.",
+  "written": "2026-11-01",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

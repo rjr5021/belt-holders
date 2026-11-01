@@ -50,5 +50,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Bayern Munchen|1. FSV Mainz 05|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "Bayern Munchen",
+  "challenger": "1. FSV Mainz 05",
+  "pick": "Bayern Munchen",
+  "score": "Bayern Munich 3, 1. FSV Mainz 05 1",
+  "made": "2026-11-01",
+  "line": {
+   "details": "MUN -230",
+   "over_under": 4.5,
+   "provider": "DraftKings"
+  }
  }
 ]

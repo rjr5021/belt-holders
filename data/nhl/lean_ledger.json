@@ -228,5 +228,15 @@
   "score": "Colorado Avalanche 5, Calgary Flames 2",
   "made": "2026-10-29",
   "line": null
+ },
+ {
+  "key": "COL|CHI|2026-11-02",
+  "date": "2026-11-02",
+  "holder": "COL",
+  "challenger": "CHI",
+  "pick": "COL",
+  "score": "Colorado Avalanche 4, Chicago Blackhawks 2",
+  "made": "2026-11-01",
+  "line": null
  }
 ]

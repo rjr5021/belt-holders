@@ -1,21 +1,21 @@
 {
- "key": "TIJ|MTY|2026-10-31",
- "updated": "2026-10-29T05:53Z",
- "start_utc": "2026-11-01T01:05Z",
+ "key": "TIJ|NEC|2026-11-06",
+ "updated": "2026-11-01T06:10Z",
+ "start_utc": "2026-11-07T01:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Tijuana brings the Belt Holders lineal championship to Estadio BBVA on October 31st, having yet to defend it in their current reign. Monterrey, who have held the belt 13 times previously, will look to reclaim it on home ground. These sides have met 3 times before with the belt on the line.",
+  "overview": "Tijuana brings the lineal championship belt to Estadio Victoria on November 6, 2026, having defended it once in their current reign. Necaxa, who have held the belt twice before in their history, will look to claim it for the third time in what will be the first-ever meeting between these sides with the belt on the line. The belt passes to whoever wins, continuing its journey through Liga MX with no committees or polls involved.",
   "key_matchups": [
-   "Tijuana's attacking momentum from their 4\u20131 win over Santos Laguna versus Monterrey's defensive vulnerability after conceding in their 0\u20131 loss to Guadalajara",
-   "Monterrey's home advantage and superior all-time head to head record (11 wins to Tijuana's 6) against a Tijuana side rated as underdogs by Elo",
-   "Recent stalemate trend between these teams, with four draws in their last five meetings including back-to-back 2\u20132 results in 2026 and 2025"
+   "Tijuana's hard-to-beat recent form (4 ties in last 5 games) against Necaxa's struggles (just 1 win in last 5, including three losses)",
+   "Home advantage for Necaxa, who historically hold an 8-6-5 edge in the all-time series",
+   "Contrasting momentum: Tijuana's 4-1 thrashing of Santos Laguna two games ago versus Necaxa's 0-2 home loss to Atlas in their third-most-recent match"
   ],
-  "betting_angles": "Monterrey hold the edge in overall record this season at 6-5-2 compared to Tijuana's 5-3-5, and dominate the all-time series 11-6-10. However, Tijuana enter on the back of a convincing 4\u20131 victory while Monterrey just fell 0\u20131 to Guadalajara at home. The Elo model favors Monterrey despite Tijuana's slightly better recent form, and their last five meetings have produced four draws.",
-  "predicted_winner": "Monterrey",
-  "predicted_score": "Tijuana 1, Monterrey 2",
-  "prediction_writeup": "Monterrey's superior season record of 6-5-2 and dominant all-time head to head advantage (11 wins in 27 meetings) should prove decisive on home ground. While Tijuana impressed with a 4\u20131 win over Santos Laguna in their last outing, they've drawn three of their last five overall and enter as Elo underdogs. Monterrey have held the belt 13 times before and know what it takes to win it, even coming off a narrow 0\u20131 loss to Guadalajara. The recent trend of draws between these sides suggests a tight contest, but Monterrey's home edge and experience tips the scale. The belt changes hands.",
-  "written": "2026-10-29",
+  "betting_angles": "Tijuana's 5-3-6 record vastly outpaces Necaxa's 2-8-4 mark this season, and the Elo model favors the visitors despite Necaxa holding the historical head-to-head advantage at 8-6-5. Recent form diverges sharply: Tijuana have lost just once in their last 5 while Necaxa have managed only a draw in that span, losing three times. The last two meetings between these sides saw wildly contrasting 3-0 results, with each team winning comfortably at home.",
+  "predicted_winner": "Tijuana",
+  "predicted_score": "Tijuana 2, Necaxa 1",
+  "prediction_writeup": "Tijuana's superior season record of 5-3-6 compared to Necaxa's 2-8-4 tells the story of two teams heading in opposite directions. While Necaxa hold the all-time edge at 8-6-5, their recent form is worrying with three losses in the last five games and only two wins all season. Tijuana have been difficult to beat lately, going undefeated in four of their last five with only one loss all told in that stretch, including a commanding 4-1 victory over Santos Laguna. The Elo model backing the visitors aligns with the season-long performance gap, and Tijuana should be motivated to extend their belt reign to two defenses. Expect a tight road win for the belt holders.",
+  "written": "2026-11-01",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

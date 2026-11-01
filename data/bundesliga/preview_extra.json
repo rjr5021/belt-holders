@@ -1,53 +1,53 @@
 {
- "key": "Bayern Munchen|Borussia Dortmund|2026-10-31",
- "updated": "2026-10-26T00:27Z",
- "start_utc": "2026-10-31T17:30Z",
+ "key": "Bayern Munchen|1. FSV Mainz 05|2026-11-07",
+ "updated": "2026-11-01T06:10Z",
+ "start_utc": "2026-11-07T14:30Z",
  "espn": {
-  "event_id": "401884754",
-  "start_utc": "2026-10-31T17:30Z",
+  "event_id": "401884740",
+  "start_utc": "2026-11-07T14:30Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "MUN -285",
-   "over_under": 3.5,
+   "details": "MUN -230",
+   "over_under": 4.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Bayern Munchen": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-    "abbr": "MUN",
-    "record": "5-2-0",
+   "1. FSV Mainz 05": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+    "abbr": "M05",
+    "record": "3-1-4",
     "rank": null,
     "home_away": "home"
    },
-   "Borussia Dortmund": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-    "abbr": "DOR",
-    "record": "5-2-0",
+   "Bayern Munchen": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "abbr": "MUN",
+    "record": "5-3-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Allianz Arena",
-   "city": "M\u00fcnchen",
+   "name": "MEWA ARENA",
+   "city": "Mainz",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich put their lineal championship belt on the line when they host Borussia Dortmund on October 31st. The belt has already been defended 14 times in Bayern's current reign, and this marks the 33rd time these two giants will meet with the lineal title at stake. With Dortmund arriving on a perfect 4-0 record and a five-game winning streak, while Bayern sit at 3-0-1, this Der Klassiker promises high stakes beyond the belt itself.",
+  "overview": "Bayern Munich bring the Belt Holders lineal championship to Mainz, having defended it 14 times in their current reign. The belt passes to whoever wins on the pitch, with no polls or committees involved\u2014just pure on-field results stretching back through league history.",
   "key_matchups": [
-   "Bayern's recent firepower (7-0, 5-1, 5-1 in their last five) against Dortmund's perfect season and five-game winning streak",
-   "Historical dominance: Bayern lead the all-time series 56-26-32 and have won the last two meetings",
-   "Belt experience: Bayern's 14 successful defenses this reign versus Dortmund's 41 previous reigns as holder"
+   "Bayern's devastating attack (7\u20130, 5\u20131, 5\u20131 in three of their last five) against a Mainz side that just conceded three to Eintracht Frankfurt",
+   "Mainz's home form matters: they've won 2\u20130 at Heidenheim and 5\u20130 at Hamburg recently, though this is a different challenge",
+   "Historical dominance: Bayern lead the all-time series 28-8-4 and have won three straight meetings, including 4\u20133 at Mainz last April"
   ],
-  "betting_angles": "Bayern Munich enter as Elo favorites despite Dortmund's unblemished 4-0 record and five-game winning streak. The hosts have won their last 2 games and scored freely in recent weeks, though their draw at FC Schalke 04 shows some vulnerability. Head to head history heavily favors Bayern with 56 wins to Dortmund's 26, and Bayern took both meetings in 2026 and 2025 by narrow margins.",
+  "betting_angles": "Bayern have won their last 2 games and sit at 3-0-1 this season, while the Elo model tabs them as clear favorites. Their recent attacking output\u20147\u20130, 5\u20131, 5\u20131\u2014contrasts with Mainz's 2-1-1 record and a defense that allowed three goals in their last home loss. Head-to-head history overwhelmingly favors the visitors, who've won three consecutive meetings.",
   "predicted_winner": "Bayern Munich",
-  "predicted_score": "Bayern Munich 3, Borussia Dortmund 2",
-  "prediction_writeup": "Bayern Munich's attacking form has been exceptional, with three 5-goal performances and a 7-0 demolition in their last five outings. While Dortmund's five-game winning streak and perfect record are impressive, four of those five wins came by one or two-goal margins, suggesting tight contests rather than dominance. The Elo model favors Bayern, and the home side has won both recent meetings between these clubs. Bayern's 14 successful belt defenses in this reign demonstrate their ability to rise to the occasion when the lineal title is on the line, and their firepower should prove decisive in a high-scoring Der Klassiker.",
-  "written": "2026-10-26",
+  "predicted_score": "Bayern Munich 3, 1. FSV Mainz 05 1",
+  "prediction_writeup": "Bayern Munich arrive in devastating form, having won their last 2 games including a 7\u20130 demolition of Union Berlin. Their 3-0-1 record and recent attacking explosions suggest they're operating at a high level. While Mainz have won their last 1 game and posted impressive road victories at Hamburg (5\u20130) and Heidenheim (2\u20130), Bayern hold a commanding 28-8-4 all-time edge and have won three straight meetings. The Elo model's clear favoritism aligns with Bayern's superior form and historical dominance in this matchup.",
+  "written": "2026-11-01",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
