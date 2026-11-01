@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-18 00:30 result ncaah|Denver|Michigan|2026-10-17 https://www.instagram.com/p/Den1RpjFAcC/",
   "2026-10-18 00:30 result ncaah|Michigan|Denver|2026-10-17 https://www.instagram.com/p/Den1UpuFBfu/",
   "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
   "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
@@ -59,7 +58,8 @@
   "2026-10-31 15:30 result seriea|AS Roma|Udinese Calcio|2026-10-31 https://www.instagram.com/p/DfK6hMPlMy1/",
   "2026-10-31 15:30 result bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31 https://www.instagram.com/p/DfK6j-dFEdQ/",
   "2026-10-31 15:30 preview ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfK6m9_lBwY/",
-  "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/"
+  "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
+  "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31": {
@@ -91,21 +91,6 @@
    "opponent_short": "Rayados",
    "reign_no": 7,
    "since": "2026-10-25"
-  },
-  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-10-31",
-   "defenses": 0,
-   "espn_id": "401909897",
-   "espn_path": "basketball/nba",
-   "game_no": 7537,
-   "holder": "Philadelphia 76ers",
-   "holder_short": "76ers",
-   "lg": "nba",
-   "opponent": "Charlotte Hornets",
-   "opponent_short": "Hornets",
-   "reign_no": 202,
-   "since": "2026-10-30"
   },
   "ncaah|Michigan|Ohio State|2026-10-31": {
    "belt_name": "The College Hockey Belt",
@@ -184,7 +169,6 @@
   "ncaah|Michigan|Ohio State|2026-10-31"
  ],
  "results": [
-  "intl|Spain|Croatia|2026-10-06",
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
@@ -243,6 +227,7 @@
   "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
   "epl|Manchester City|Brighton & Hove Albion|2026-10-31",
   "seriea|AS Roma|Udinese Calcio|2026-10-31",
-  "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31"
+  "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
+  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31"
  ]
 }
