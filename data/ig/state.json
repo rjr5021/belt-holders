@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-20 22:48 result nba|New York Knicks|Philadelphia 76ers|2026-10-20 https://www.instagram.com/p/DevXxk8FNSf/",
   "2026-10-20 22:48 result nhl|Dallas Stars|Boston Bruins|2026-10-20 https://www.instagram.com/p/DevX0TJFC8N/",
   "2026-10-21 16:02 result laliga|Athletic Bilbao|Levante UD|2026-10-21 https://www.instagram.com/p/DexOMRKmhrD/",
   "2026-10-21 16:02 preview ligamx|Santos Laguna|Pumas UNAM|2026-10-21 https://www.instagram.com/p/DexOPb2GgpY/",
@@ -59,7 +58,8 @@
   "2026-11-01 00:56 result ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfL7M4QFFGI/",
   "2026-11-01 13:16 preview nwsl|Kansas City Current|Racing Louisville FC|2026-11-01 https://www.instagram.com/p/DfNWwGzIEh2/",
   "2026-11-01 13:16 preview laliga|Athletic Bilbao|Real Sociedad|2026-11-01 https://www.instagram.com/p/DfNWzBnIBlu/",
-  "2026-11-01 13:16 result ligue1|Paris FC|AS Monaco|2026-11-01 https://www.instagram.com/p/DfNW14-oCQz/"
+  "2026-11-01 13:16 result ligue1|Paris FC|AS Monaco|2026-11-01 https://www.instagram.com/p/DfNW14-oCQz/",
+  "2026-11-01 13:16 preview ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfNW4f_oLeB/"
  ],
  "pending": {
   "laliga|Athletic Bilbao|Real Sociedad|2026-11-01": {
@@ -168,7 +168,8 @@
   "ligamx|Tijuana|Monterrey|2026-10-31",
   "ncaah|Michigan|Ohio State|2026-10-31",
   "nwsl|Kansas City Current|Racing Louisville FC|2026-11-01",
-  "laliga|Athletic Bilbao|Real Sociedad|2026-11-01"
+  "laliga|Athletic Bilbao|Real Sociedad|2026-11-01",
+  "ncaah|Ohio State|Michigan|2026-11-01"
  ],
  "results": [
   "mls|Austin FC|Nashville SC|2026-10-10",
