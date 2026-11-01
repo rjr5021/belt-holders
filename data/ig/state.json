@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-18 00:35 result mls|Nashville SC|San Jose Earthquakes|2026-10-17 https://www.instagram.com/p/Den1pyNEYnr/",
   "2026-10-18 13:22 result nfl|Jacksonville Jaguars|Houston Texans|2026-10-18 https://www.instagram.com/p/DepNdvuiXOE/",
   "2026-10-18 13:22 result ligue1|Paris FC|Stade Rennes|2026-10-18 https://www.instagram.com/p/DepNguGiZ4d/",
   "2026-10-18 13:22 result eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18 https://www.instagram.com/p/DepNjSKCaiU/",
@@ -59,7 +58,8 @@
   "2026-10-31 15:30 preview ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfK6m9_lBwY/",
   "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
   "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/",
-  "2026-10-31 20:40 result eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31 https://www.instagram.com/p/DfLd5BXjW3R/"
+  "2026-10-31 20:40 result eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31 https://www.instagram.com/p/DfLd5BXjW3R/",
+  "2026-10-31 20:40 result ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfLd7z0jarB/"
  ],
  "pending": {
   "ligamx|Tijuana|Monterrey|2026-10-31": {
@@ -76,21 +76,6 @@
    "opponent_short": "Rayados",
    "reign_no": 7,
    "since": "2026-10-25"
-  },
-  "ncaah|Michigan|Ohio State|2026-10-31": {
-   "belt_name": "The College Hockey Belt",
-   "date": "2026-10-31",
-   "defenses": 2,
-   "espn_id": "401923146",
-   "espn_path": "hockey/mens-college-hockey",
-   "game_no": 496,
-   "holder": "Michigan",
-   "holder_short": "Michigan",
-   "lg": "ncaah",
-   "opponent": "Ohio State",
-   "opponent_short": "Ohio State",
-   "reign_no": 5,
-   "since": "2026-10-16"
   },
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31": {
    "belt_name": "The NHL Belt",
@@ -154,7 +139,6 @@
   "ncaah|Michigan|Ohio State|2026-10-31"
  ],
  "results": [
-  "bundesliga|Bayern Munich|FC Augsburg|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
@@ -213,6 +197,7 @@
   "seriea|AS Roma|Udinese Calcio|2026-10-31",
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
-  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31"
+  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
+  "ncaah|Michigan|Ohio State|2026-10-31"
  ]
 }
