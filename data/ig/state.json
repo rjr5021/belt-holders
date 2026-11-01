@@ -92,6 +92,21 @@
    "reign_no": 2,
    "since": "2026-09-19"
   },
+  "ncaah|Michigan|Ohio State|2026-11-01": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-11-01",
+   "defenses": 2,
+   "espn_id": "401923148",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 496,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Ohio State",
+   "opponent_short": "Ohio State",
+   "reign_no": 5,
+   "since": "2026-10-16"
+  },
   "nwsl|Kansas City Current|Racing Louisville FC|2026-11-01": {
    "belt_name": "The NWSL Belt",
    "date": "2026-11-01",
