@@ -1,57 +1,5 @@
 [
  {
-  "id": "espn-401909899",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MEM",
-  "away": "SAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "FedExForum",
-  "spread": 8.5
- },
- {
-  "id": "espn-401909900",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIL",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Fiserv Forum",
-  "spread": -9.5
- },
- {
-  "id": "espn-401909901",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "MIN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Frost Bank Center",
-  "spread": 12.5
- },
- {
-  "id": "espn-401909902",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "HOU",
-  "away": "OKC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:30",
-  "venue": "Toyota Center (Houston)",
-  "spread": 2.5
- },
- {
   "id": "espn-401909903",
   "date": "2026-11-01",
   "season": 2026,
@@ -62,7 +10,7 @@
   "source": "espn",
   "start_et": "15:30",
   "venue": "Kia Center",
-  "spread": null
+  "spread": -6.5
  },
  {
   "id": "espn-401909904",
@@ -75,7 +23,7 @@
   "source": "espn",
   "start_et": "17:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909905",
@@ -88,7 +36,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Chase Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909906",
@@ -101,7 +49,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "crypto.com Arena",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909907",

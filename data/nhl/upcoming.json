@@ -1,49 +1,5 @@
 [
  {
-  "id": 2026020223,
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 8,
-  "away": 5,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "19:00"
- },
- {
-  "id": 2026020224,
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 23,
-  "away": 10,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "19:00"
- },
- {
-  "id": 2026020225,
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 25,
-  "away": 29,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "20:00"
- },
- {
-  "id": 2026020226,
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": 21,
-  "away": 20,
-  "neutral": "",
-  "source": "nhl",
-  "start_et": "22:00"
- },
- {
   "id": 2026020227,
   "date": "2026-11-01",
   "season": 2026,
