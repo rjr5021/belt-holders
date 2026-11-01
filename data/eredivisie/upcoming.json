@@ -1,50 +1,5 @@
 [
  {
-  "id": "of-2026-90",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Feyenoord",
-  "away": "Fortuna Sittard",
-  "start_et": "11:30"
- },
- {
-  "id": "of-2026-91",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "sc Heerenveen",
-  "away": "NEC Nijmegen",
-  "start_et": "13:45"
- },
- {
-  "id": "of-2026-92",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PSV Eindhoven",
-  "away": "Willem II",
-  "start_et": "13:45"
- },
- {
-  "id": "of-2026-93",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SC Cambuur",
-  "away": "Go Ahead Eagles",
-  "start_et": "16:00"
- },
- {
-  "id": "of-2026-94",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AFC Ajax",
-  "away": "AZ Alkmaar",
-  "start_et": "16:00"
- },
- {
   "id": "of-2026-95",
   "date": "2026-11-01",
   "season": 2026,

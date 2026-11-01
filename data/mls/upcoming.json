@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-761923",
-  "date": "2026-10-31",
-  "season_type": "regular",
-  "home": "Colorado Rapids",
-  "away": "Chicago Fire FC",
-  "home_id": "184",
-  "away_id": "182",
-  "home_abbr": "COL",
-  "away_abbr": "CHI",
-  "home_loc": "Colorado Rapids",
-  "away_loc": "Chicago Fire FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13846,
-  "start_et": "21:30",
-  "season": 2026
- },
- {
   "id": "espn-761927",
   "date": "2026-11-01",
   "season_type": "regular",

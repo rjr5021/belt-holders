@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-90",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Bologna FC",
-  "away": "AC Monza",
-  "start_et": "10:00"
- },
- {
-  "id": "of-2026-91",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Udinese Calcio",
-  "away": "AS Roma",
-  "start_et": "13:00"
- },
- {
-  "id": "of-2026-92",
-  "date": "2026-10-31",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Milan",
-  "away": "Inter",
-  "start_et": "15:45"
- },
- {
   "id": "of-2026-93",
   "date": "2026-11-01",
   "season": 2026,
