@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-22 13:51 preview nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/DezkDQICXM7/",
   "2026-10-22 23:04 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22 https://www.instagram.com/p/De0jSxXkdAa/",
   "2026-10-22 23:04 result nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/De0jWgikZE9/",
   "2026-10-23 13:44 preview ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De2H5h4naYi/",
@@ -59,7 +58,8 @@
   "2026-11-01 22:00 result laliga|Athletic Bilbao|Real Sociedad|2026-11-01 https://www.instagram.com/p/DfOSy2ClHAD/",
   "2026-11-01 22:00 result ncaah|Michigan|Ohio State|2026-11-01 https://www.instagram.com/p/DfOS1fvlFcl/",
   "2026-11-01 22:00 result ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfOS4NilM6W/",
-  "2026-11-02 17:10 preview nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQWRt9idK-/"
+  "2026-11-02 17:10 preview nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQWRt9idK-/",
+  "2026-11-02 17:10 preview nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQWVYqCcjB/"
  ],
  "pending": {
   "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02": {
@@ -140,7 +140,8 @@
   "nwsl|Kansas City Current|Racing Louisville FC|2026-11-01",
   "laliga|Athletic Bilbao|Real Sociedad|2026-11-01",
   "ncaah|Ohio State|Michigan|2026-11-01",
-  "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02"
+  "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02",
+  "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02"
  ],
  "results": [
   "seriea|AS Roma|Como Calcio|2026-10-11",
