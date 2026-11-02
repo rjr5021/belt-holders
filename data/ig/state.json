@@ -61,7 +61,23 @@
   "2026-11-01 22:00 result ncaah|Michigan|Ohio State|2026-11-01 https://www.instagram.com/p/DfOS1fvlFcl/",
   "2026-11-01 22:00 result ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfOS4NilM6W/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-02",
+   "defenses": 1,
+   "espn_id": "401909912",
+   "espn_path": "basketball/nba",
+   "game_no": 7538,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Chicago Bulls",
+   "opponent_short": "Bulls",
+   "reign_no": 202,
+   "since": "2026-10-30"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
