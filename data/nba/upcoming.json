@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -10.5
+  "spread": -9.5
  },
  {
   "id": "espn-401909910",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": 10.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909913",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 5.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909917",
@@ -179,7 +179,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Intuit Dome",
-  "spread": -5.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909921",
@@ -192,7 +192,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": 1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909923",
