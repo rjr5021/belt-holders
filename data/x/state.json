@@ -232,7 +232,9 @@
   "nwsl|2026-10-25|kansascitycurrent|washingtonspirit": {
    "end": "2026-10-25T19:07-04:00"
   },
-  "nwsl|2026-11-01|kansascitycurrent|racinglouisville": {},
+  "nwsl|2026-11-01|kansascitycurrent|racinglouisville": {
+   "end": "2026-11-01T19:02-05:00"
+  },
   "seriea|2026-10-11|asroma|comocalcio": {
    "end": "2026-10-11T09:12-04:00"
   },
@@ -251,11 +253,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-14T09:31-04:00",
-   "digest",
-   1
-  ],
   [
    "2026-10-14T22:36-04:00",
    "mls",
@@ -652,6 +649,13 @@
    "defense",
    2,
    1
+  ],
+  [
+   "2026-11-01T19:02-05:00",
+   "nwsl",
+   "defense",
+   2,
+   0
   ]
  ],
  "today": {
