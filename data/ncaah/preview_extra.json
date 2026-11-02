@@ -1,21 +1,21 @@
 {
- "key": "OSU|MICH|2026-11-01",
- "updated": "2026-11-01T13:30Z",
- "start_utc": "2026-11-02T00:30Z",
+ "key": "OSU|WISC|2026-11-13",
+ "updated": "2026-11-02T06:10Z",
+ "start_utc": "2026-11-14T01:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Ohio State puts the lineal championship belt on the line for the first time in this reign when they host Michigan on November 1st, 2026. The Buckeyes claimed the belt just one day prior with a 5\u20132 victory over these same Wolverines. Michigan, who have held the belt 5 times previously, will look to immediately reclaim what they lost in Columbus.",
+  "overview": "Ohio State brings the lineal championship belt to the Kohl Center to face undefeated Wisconsin on November 13, 2026. The Buckeyes claimed the belt in their most recent outing, a 5\u20132 victory over Michigan, but have yet to defend it in this reign. Wisconsin has never held the belt in program history and will look to claim it for the first time against a struggling 3-4 Ohio State squad.",
   "key_matchups": [
-   "Can Ohio State repeat their 5\u20132 formula from just one day ago against the same opponent?",
-   "Michigan enters 7-1 on the season versus Ohio State's 3-4 record, but the Wolverines just suffered their first loss",
-   "Ohio State are 0-0 in belt defenses this reign after winning it on 2026-10-31"
+   "Wisconsin's perfect 6-0 start and five-game winning streak against Ohio State's inconsistent 3-4 record",
+   "The Buckeyes' historical edge in the all-time series (38-20-5) versus the Badgers' dominant recent form",
+   "Ohio State defending the belt for the first time this reign after claiming it with the 5\u20132 win over Michigan"
   ],
-  "betting_angles": "Michigan hold a commanding 31-21-5 edge in the all-time series and boast a 7-1 record this season compared to Ohio State's 3-4 mark. However, the Buckeyes just beat Michigan 5\u20132 in their most recent meeting on 2026-10-31. The Elo model still favors Michigan despite that recent result, suggesting the numbers see Ohio State as overachieving in that win.",
-  "predicted_winner": "Michigan",
-  "predicted_score": "Ohio State 2, Michigan 4",
-  "prediction_writeup": "While Ohio State won 5\u20132 just one day ago, their 3-4 overall record and status as the Elo underdog suggest that result may have been an outlier. Michigan's 7-1 season and historical dominance in this rivalry (31-21-5 all-time) point to a regression. The Wolverines won four straight before their recent loss, including a 7\u20132 victory over Alaska Anchorage and back-to-back wins at Denver by 4\u20131 and 4\u20133 margins. Look for Michigan to bounce back and reclaim the belt in the rematch.",
-  "written": "2026-11-01",
+  "betting_angles": "Wisconsin enters on a five-game winning streak with dominant recent victories, including a 9\u20131 dismantling of Notre Dame in their last outing. Ohio State sits at 3-4 and has dropped three of their last five games, showing inconsistency despite the recent Michigan win. The Elo model favors Wisconsin as clear favorites, aligning with their undefeated record and current form advantage.",
+  "predicted_winner": "Wisconsin",
+  "predicted_score": "Ohio State 2, Wisconsin 4",
+  "prediction_writeup": "Wisconsin's perfect 6-0 record and five-game winning streak, capped by the 9\u20131 victory over Notre Dame, suggests a team playing at peak form. Ohio State's 3-4 record reflects their struggles this season, and while they just won 5\u20132 against Michigan to claim the belt, they've been inconsistent overall. The Elo model backing Wisconsin as clear favorites confirms what the numbers show. Despite Ohio State's historical dominance in the all-time series (38-20-5), the Badgers' current momentum should prove too much for the visiting belt holder.",
+  "written": "2026-11-02",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,

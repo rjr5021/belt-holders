@@ -54,5 +54,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AZ Alkmaar|FC Groningen|2026-11-08",
+  "date": "2026-11-08",
+  "holder": "AZ Alkmaar",
+  "challenger": "FC Groningen",
+  "pick": "AZ Alkmaar",
+  "score": "AZ Alkmaar 2, FC Groningen 1",
+  "made": "2026-11-02",
+  "line": {
+   "details": "AZ -200",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

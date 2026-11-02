@@ -50,5 +50,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Paris FC|AJ Auxerre|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "Paris FC",
+  "challenger": "AJ Auxerre",
+  "pick": "Paris FC",
+  "score": "Paris FC 1, AJ Auxerre 1",
+  "made": "2026-11-02",
+  "line": {
+   "details": "PAR -120",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

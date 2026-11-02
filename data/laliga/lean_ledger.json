@@ -68,5 +68,15 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Athletic Bilbao|CA Osasuna|2026-11-08",
+  "date": "2026-11-08",
+  "holder": "Athletic Bilbao",
+  "challenger": "CA Osasuna",
+  "pick": "Athletic Bilbao",
+  "score": "Athletic Bilbao 1, CA Osasuna 0",
+  "made": "2026-11-02",
+  "line": null
  }
 ]

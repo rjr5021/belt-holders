@@ -1,53 +1,53 @@
 {
- "key": "Paris FC|AS Monaco|2026-11-01",
- "updated": "2026-10-25T04:46Z",
- "start_utc": "2026-11-01T16:15Z",
+ "key": "Paris FC|AJ Auxerre|2026-11-07",
+ "updated": "2026-11-02T06:09Z",
+ "start_utc": "2026-11-07T16:15Z",
  "espn": {
-  "event_id": "401876415",
-  "start_utc": "2026-11-01T16:15Z",
+  "event_id": "401876411",
+  "start_utc": "2026-11-07T16:15Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "PAR +125",
+   "details": "PAR -120",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Paris FC": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-    "abbr": "PAR",
-    "record": "4-2-2",
+   "AJ Auxerre": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+    "abbr": "AUX",
+    "record": "3-1-5",
     "rank": null,
     "home_away": "home"
    },
-   "AS Monaco": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-    "abbr": "MON",
-    "record": "4-2-1",
+   "Paris FC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "abbr": "PAR",
+    "record": "5-2-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade Jean Bouin",
-   "city": "Paris",
+   "name": "Stade de l'Abb\u00e9-Deschamps",
+   "city": "Auxerre",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC put their lineal championship belt on the line for the first time in this reign when they host AS Monaco on November 1st, 2026. The belt changes hands with every defeat, having traced an unbroken path through Ligue 1 history since the league's inception. Monaco, a 42-time former belt holder, will look to reclaim the title in what the Elo model projects as a toss-up.",
+  "overview": "Paris FC bring the lineal championship belt to AJ Auxerre on November 7, 2026, in what marks the first time these sides have ever met with the belt on the line. Paris FC are undefeated in their last five with three wins, while Auxerre have surged with back-to-back victories after a rough three-game losing streak. The belt passes to whoever wins, making this a high-stakes clash between two teams trending in opposite directions recently.",
   "key_matchups": [
-   "Paris FC's home fortress meets Monaco's four-match winning streak from earlier this season",
-   "Head-to-head deadlock at 3-3 all-time, with Paris FC winning the last two meetings including a dominant 4-1 victory in April 2026",
-   "Both sides won their most recent match 2-1 and carry identical one-game winning streaks into this clash"
+   "Paris FC's unbeaten five-game stretch (3-0-2) versus Auxerre's momentum from consecutive wins after dropping three straight",
+   "Home advantage for Auxerre, who have held the belt 20 times historically, against a Paris FC side making their first title defense",
+   "The head-to-head history shows two meetings, both ending in draws (0-0 and 1-1), suggesting these teams are evenly matched"
   ],
-  "betting_angles": "The all-time head-to-head series is perfectly balanced at 3-3 across six meetings, though Paris FC have won the last two encounters convincingly. Monaco's 4-0-1 record edges Paris FC's 3-0-2 season mark, but the Elo model sees this as essentially even. Paris FC's recent form shows draws against Lyon and Troyes sandwiched between wins, while Monaco strung together four consecutive victories before their draw at Strasbourg.",
+  "betting_angles": "Paris FC carry the stronger overall form with a 3-0-2 record compared to Auxerre's 2-3 mark, and they've been solid defensively with two clean sheets in their last five. However, Auxerre have won their last 2 games and will have home support, while the Elo model rates this as a toss-up. The head-to-head history of two consecutive draws adds further uncertainty to the outcome.",
   "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 2, AS Monaco 1",
-  "prediction_writeup": "Paris FC have owned this matchup recently, winning both 2025 and 2026 meetings including a 4-1 thrashing in April. Home advantage could prove decisive in what projects as a tight contest, and Paris FC have shown they can grind out narrow victories like their most recent 2-1 win over Strasbourg. Monaco's four-win, one-draw record is impressive, but their last victory also came by the slimmest 2-1 margin against Lens. With the belt on the line for the first time in this reign and recent history favoring the hosts, Paris FC edge a close one to retain the lineal title.",
-  "written": "2026-10-25",
+  "predicted_score": "Paris FC 1, AJ Auxerre 1",
+  "prediction_writeup": "The head-to-head history between these sides screams draw, with both previous meetings ending level at 0-0 and 1-1. Paris FC's superior record this season (3-0-2 versus 2-3) and their longer unbeaten run give them a slight edge, but the Elo model calling it a toss-up suggests there's little separating these teams. Auxerre's recent two-game winning streak provides some threat, but Paris FC have shown resilience with results like the 3-2 win at Olympique Marseille. Given the pattern of draws and the even nature of this matchup, another stalemate seems the most likely outcome, meaning Paris FC would retain the belt.",
+  "written": "2026-11-02",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
