@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Rocket Arena",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909908",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Spectrum Center",
-  "spread": -4.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909909",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -5.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909910",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Xfinity Mobile Arena",
-  "spread": 11.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909913",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
-  "spread": 9.5
+  "spread": 10.5
  },
  {
   "id": "espn-401909914",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909915",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": 10.5
+  "spread": 11.5
  },
  {
   "id": "espn-401909916",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 5.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909917",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Frost Bank Center",
-  "spread": 16.5
+  "spread": 15.5
  },
  {
   "id": "espn-401909918",
@@ -166,7 +166,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": 4.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909920",
@@ -179,7 +179,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Intuit Dome",
-  "spread": -5.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909921",
@@ -192,7 +192,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": 2.5
+  "spread": 1.5
  },
  {
   "id": "espn-401909923",
