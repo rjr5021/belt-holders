@@ -1,24 +1,24 @@
 {
- "key": "OSU|WISC|2026-11-13",
- "updated": "2026-11-02T06:10Z",
- "start_utc": "2026-11-14T01:00Z",
+ "key": "MICH|PSU|2026-11-13",
+ "updated": "2026-11-02T16:00Z",
+ "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Ohio State brings the lineal championship belt to the Kohl Center to face undefeated Wisconsin on November 13, 2026. The Buckeyes claimed the belt in their most recent outing, a 5\u20132 victory over Michigan, but have yet to defend it in this reign. Wisconsin has never held the belt in program history and will look to claim it for the first time against a struggling 3-4 Ohio State squad.",
+  "overview": "Michigan puts the Belt Holders lineal championship on the line for the first time in their current reign when they host Penn State on November 13, 2026. The Wolverines captured the belt in their most recent outing, a 5-4 road win at Ohio State, and now face a Nittany Lions squad struggling through a 2-5-1 season. With no committee involved, only the ice will decide who carries the belt forward.",
   "key_matchups": [
-   "Wisconsin's perfect 6-0 start and five-game winning streak against Ohio State's inconsistent 3-4 record",
-   "The Buckeyes' historical edge in the all-time series (38-20-5) versus the Badgers' dominant recent form",
-   "Ohio State defending the belt for the first time this reign after claiming it with the 5\u20132 win over Michigan"
+   "Michigan's 8-1 record and four wins in their last five games against Penn State's 2-5-1 mark and recent 3-4 loss at Minnesota",
+   "The Wolverines' recent scoring form, putting up 5, 3, and 4 goals in three of their last five, versus Penn State's defensive struggles allowing 4 and 5 goals in recent losses",
+   "Michigan's 34-21-2 all-time edge in the series, including three wins in their last five head-to-head meetings"
   ],
-  "betting_angles": "Wisconsin enters on a five-game winning streak with dominant recent victories, including a 9\u20131 dismantling of Notre Dame in their last outing. Ohio State sits at 3-4 and has dropped three of their last five games, showing inconsistency despite the recent Michigan win. The Elo model favors Wisconsin as clear favorites, aligning with their undefeated record and current form advantage.",
-  "predicted_winner": "Wisconsin",
-  "predicted_score": "Ohio State 2, Wisconsin 4",
-  "prediction_writeup": "Wisconsin's perfect 6-0 record and five-game winning streak, capped by the 9\u20131 victory over Notre Dame, suggests a team playing at peak form. Ohio State's 3-4 record reflects their struggles this season, and while they just won 5\u20132 against Michigan to claim the belt, they've been inconsistent overall. The Elo model backing Wisconsin as clear favorites confirms what the numbers show. Despite Ohio State's historical dominance in the all-time series (38-20-5), the Badgers' current momentum should prove too much for the visiting belt holder.",
+  "betting_angles": "Michigan enters as a clear Elo favorite with an 8-1 record and momentum from winning four of their last five games, while Penn State sits at 2-5-1 with just one win in their last five. The head-to-head history strongly favors the Wolverines at 34-21-2 all-time, and they've taken three of the last five meetings including a 5-2 win in their most recent matchup this past March. Penn State's road struggles and Michigan's home ice advantage further tilt the numbers toward the belt holder.",
+  "predicted_winner": "Michigan",
+  "predicted_score": "Michigan 4, Penn State 2",
+  "prediction_writeup": "Michigan's 8-1 record and strong recent form make them the clear choice to defend the belt in their first attempt. The Wolverines have shown they can win tight games, taking three of their last five by one goal including the 5-4 thriller that earned them the belt at Ohio State. Penn State arrives at 2-5-1 and coming off a 3-4 loss at Minnesota, continuing a season where they've struggled to find consistency. The all-time series edge of 34-21-2 and Michigan's home ice should be enough for the Wolverines to keep the belt and begin building a reign.",
   "written": "2026-11-02",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }
