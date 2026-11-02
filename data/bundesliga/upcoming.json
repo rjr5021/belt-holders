@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-70",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "1. FC Union Berlin",
-  "away": "1. FC Koln",
-  "start_et": "09:30"
- },
- {
-  "id": "of-2026-71",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Eintracht Frankfurt",
-  "away": "Hamburger SV",
-  "start_et": "11:30"
- },
- {
   "id": "of-2026-72",
   "date": "2026-11-06",
   "season": 2026,

@@ -1,32 +1,5 @@
 [
  {
-  "id": "of-2026-78",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "RC Strasbourg",
-  "away": "AJ Auxerre",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-79",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Paris FC",
-  "away": "AS Monaco",
-  "start_et": "11:15"
- },
- {
-  "id": "of-2026-80",
-  "date": "2026-11-01",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Olympique Marseille",
-  "away": "Toulouse FC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-81",
   "date": "2026-11-06",
   "season": 2026,
