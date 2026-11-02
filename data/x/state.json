@@ -111,7 +111,9 @@
   "mls|2026-10-28|nashville|philadelphiaunion": {
    "end": "2026-10-28T22:36-04:00"
   },
-  "mls|2026-11-01|nashville|newyorkredbulls": {},
+  "mls|2026-11-01|nashville|newyorkredbulls": {
+   "end": "not-on-espn"
+  },
   "nba|2026-10-20|newyorkknicks|philadelphia76ers": {
    "danger": "2026-10-20T21:42-04:00",
    "end": "2026-10-20T22:00-04:00"
