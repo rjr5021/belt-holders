@@ -1,5 +1,5 @@
 {
- "digest": "2026-10-30",
+ "digest": "2026-11-02",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -258,11 +258,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-15T13:37-04:00",
-   "digest",
-   1
-  ],
   [
    "2026-10-15T22:42-04:00",
    "nhl",
@@ -661,125 +656,61 @@
    "change",
    4,
    5
+  ],
+  [
+   "2026-11-02T17:10-05:00",
+   "digest",
+   2
   ]
  ],
  "today": {
-  "day": "2026-11-01",
+  "day": "2026-11-02",
   "games": [
    {
-    "belt": "MLS",
+    "belt": "NBA",
     "colors": [
-     "#ece83a",
-     "#1f1646"
+     "#006bb6",
+     "#ed174c"
     ],
-    "defenses": 4,
-    "holder": "Nashville SC",
-    "holder_short": "Nashville",
+    "defenses": 1,
+    "holder": "Philadelphia 76ers",
+    "holder_short": "76ers",
     "home": true,
-    "lg": "mls",
-    "name": "The MLS Belt",
+    "lg": "nba",
+    "name": "The NBA Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/mls/next/",
-    "opponent": "New York Red Bulls",
-    "opponent_short": "Red Bulls",
-    "reign_no": 3,
-    "since": "2026-10-10",
-    "time_et": "16:30",
-    "tv": "Apple TV",
-    "url": "https://beltholders.com/mls/",
-    "win_prob": 0.775
-   },
-   {
-    "belt": "NWSL",
-    "colors": [
-     "#62cbc9",
-     "#cf3339"
-    ],
-    "defenses": 3,
-    "holder": "Kansas City Current",
-    "holder_short": "KC Current",
-    "home": false,
-    "lg": "nwsl",
-    "name": "The NWSL Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nwsl/next/",
-    "opponent": "Racing Louisville FC",
-    "opponent_short": "Louisville",
-    "reign_no": 4,
-    "since": "2026-09-26",
-    "time_et": "17:00",
-    "tv": "ESPN+",
-    "url": "https://beltholders.com/nwsl/",
-    "win_prob": 0.69
-   },
-   {
-    "belt": "La Liga",
-    "colors": [
-     "#ee2523",
-     "#ffffff"
-    ],
-    "defenses": 2,
-    "holder": "Athletic Bilbao",
-    "holder_short": "Athletic",
-    "home": true,
-    "lg": "laliga",
-    "name": "The La Liga Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/laliga/next/",
-    "opponent": "Real Sociedad",
-    "opponent_short": "Real Sociedad",
-    "reign_no": 76,
-    "since": "2026-09-05",
-    "time_et": null,
-    "tv": "ESPN Deportes \u00b7 ESPN+",
-    "url": "https://beltholders.com/laliga/",
-    "win_prob": 0.57
-   },
-   {
-    "belt": "Ligue 1",
-    "colors": [
-     "#1d2f5c",
-     "#ffffff"
-    ],
-    "defenses": 0,
-    "holder": "Paris FC",
-    "holder_short": "Paris",
-    "home": true,
-    "lg": "ligue1",
-    "name": "The Ligue 1 Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/ligue1/next/",
-    "opponent": "AS Monaco",
-    "opponent_short": "Monaco",
-    "reign_no": 2,
-    "since": "2026-09-19",
-    "time_et": "11:15",
-    "tv": "beIn Sports",
-    "url": "https://beltholders.com/ligue1/",
-    "win_prob": 0.51
-   },
-   {
-    "belt": "NCAA Hockey",
-    "colors": [
-     "#bb0000",
-     "#666666"
-    ],
-    "defenses": 0,
-    "holder": "Ohio State",
-    "holder_short": "Ohio State",
-    "home": true,
-    "lg": "ncaah",
-    "name": "The College Hockey Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/ncaah/next/",
-    "opponent": "Michigan",
-    "opponent_short": "Michigan",
-    "reign_no": 4,
-    "since": "2026-10-31",
+    "next_url": "https://beltholders.com/nba/next/",
+    "opponent": "Chicago Bulls",
+    "opponent_short": "Bulls",
+    "reign_no": 202,
+    "since": "2026-10-30",
     "time_et": "19:30",
-    "tv": null,
-    "url": "https://beltholders.com/ncaah/",
-    "win_prob": 0.354
+    "tv": "NBA League Pass",
+    "url": "https://beltholders.com/nba/",
+    "win_prob": 0.805
+   },
+   {
+    "belt": "NHL",
+    "colors": [
+     "#6f263d",
+     "#236192"
+    ],
+    "defenses": 1,
+    "holder": "Colorado Avalanche",
+    "holder_short": "Avalanche",
+    "home": false,
+    "lg": "nhl",
+    "name": "The NHL Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Chicago Blackhawks",
+    "opponent_short": "Blackhawks",
+    "reign_no": 102,
+    "since": "2026-10-28",
+    "time_et": "20:00",
+    "tv": "ESPN+ \u00b7 CHSN+ \u00b7 Altitude Sports",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.644
    }
   ]
  }
