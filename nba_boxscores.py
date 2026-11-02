@@ -35,8 +35,18 @@ OUT = os.path.join("data", "nba", "box", "belt_box.json")
 csv.field_size_limit(10 ** 8)
 
 
+def ensure_kaggle_deps():
+    # kaggle 2.2.5 (Nov 2026) imports `six` but doesn't list it as a
+    # dependency, so a fresh `pip install kaggle` crashes on startup.
+    try:
+        import six  # noqa: F401
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "six"], check=True)
+
+
 def fetch(dest):
     os.makedirs(dest, exist_ok=True)
+    ensure_kaggle_deps()
     for f in ("Games.csv", "PlayerStatistics.csv"):
         if os.path.exists(os.path.join(dest, f)):
             continue
