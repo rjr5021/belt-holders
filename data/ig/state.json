@@ -76,6 +76,21 @@
    "opponent_short": "Bulls",
    "reign_no": 202,
    "since": "2026-10-30"
+  },
+  "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-02",
+   "defenses": 1,
+   "espn_id": "401892631",
+   "espn_path": "hockey/nhl",
+   "game_no": 8448,
+   "holder": "Colorado Avalanche",
+   "holder_short": "Avalanche",
+   "lg": "nhl",
+   "opponent": "Chicago Blackhawks",
+   "opponent_short": "Blackhawks",
+   "reign_no": 102,
+   "since": "2026-10-28"
   }
  },
  "previews": [
