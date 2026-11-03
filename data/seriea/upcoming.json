@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-98",
-  "date": "2026-11-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Sassuolo Calcio",
-  "away": "ACF Fiorentina",
-  "start_et": "12:30"
- },
- {
-  "id": "of-2026-99",
-  "date": "2026-11-02",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Atalanta",
-  "away": "Parma FC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-100",
   "date": "2026-11-06",
   "season": 2026,

@@ -6718,5 +6718,26 @@
   "season": 2026,
   "home_name": "St. Cloud State",
   "away_name": "Bemidji State"
+ },
+ {
+  "id": "espn-401904533",
+  "date": "2026-12-18",
+  "season_type": "regular",
+  "home": "AUSD",
+  "away": "AKFB",
+  "home_id": "2043",
+  "away_id": "298",
+  "home_abbr": "AUSD",
+  "away_abbr": "AKFB",
+  "home_loc": "Augustana (SD)",
+  "away_loc": "Alaska",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2027,
+  "stype": 2,
+  "start_et": "20:07",
+  "season": 2026,
+  "home_name": "Augustana (SD)",
+  "away_name": "Alaska"
  }
 ]
