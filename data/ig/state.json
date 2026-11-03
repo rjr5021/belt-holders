@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-22 23:04 result nhl|Dallas Stars|Winnipeg Jets|2026-10-22 https://www.instagram.com/p/De0jWgikZE9/",
   "2026-10-23 13:44 preview ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De2H5h4naYi/",
   "2026-10-23 21:22 result ncaah|Michigan|Western Michigan|2026-10-23 https://www.instagram.com/p/De28W3HCQiC/",
   "2026-10-24 09:23 result epl|Manchester City|Aston Villa|2026-10-24 https://www.instagram.com/p/De4O4aGETHL/",
@@ -59,25 +58,10 @@
   "2026-11-01 22:00 result ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfOS4NilM6W/",
   "2026-11-02 17:10 preview nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQWRt9idK-/",
   "2026-11-02 17:10 preview nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQWVYqCcjB/",
-  "2026-11-02 22:53 result nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQ9ke9jenG/"
+  "2026-11-02 22:53 result nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQ9ke9jenG/",
+  "2026-11-02 22:53 result nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQ9neujRmE/"
  ],
- "pending": {
-  "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-11-02",
-   "defenses": 1,
-   "espn_id": "401892631",
-   "espn_path": "hockey/nhl",
-   "game_no": 8448,
-   "holder": "Colorado Avalanche",
-   "holder_short": "Avalanche",
-   "lg": "nhl",
-   "opponent": "Chicago Blackhawks",
-   "opponent_short": "Blackhawks",
-   "reign_no": 102,
-   "since": "2026-10-28"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -129,7 +113,6 @@
   "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02"
  ],
  "results": [
-  "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
   "nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15",
   "ncaah|Denver|Michigan|2026-10-16",
@@ -188,6 +171,7 @@
   "laliga|Athletic Bilbao|Real Sociedad|2026-11-01",
   "ncaah|Michigan|Ohio State|2026-11-01",
   "ncaah|Ohio State|Michigan|2026-11-01",
-  "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02"
+  "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02",
+  "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02"
  ]
 }
