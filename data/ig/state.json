@@ -61,7 +61,23 @@
   "2026-11-02 22:53 result nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQ9ke9jenG/",
   "2026-11-02 22:53 result nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQ9neujRmE/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-03",
+   "defenses": 2,
+   "espn_id": "401892641",
+   "espn_path": "hockey/nhl",
+   "game_no": 8449,
+   "holder": "Colorado Avalanche",
+   "holder_short": "Avalanche",
+   "lg": "nhl",
+   "opponent": "Columbus Blue Jackets",
+   "opponent_short": "Blue Jackets",
+   "reign_no": 102,
+   "since": "2026-10-28"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
