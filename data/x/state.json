@@ -231,6 +231,9 @@
    "end": "2026-10-28T23:42-04:00"
   },
   "nhl|2026-10-31|coloradoavalanche|calgaryflames": {},
+  "nhl|2026-11-02|coloradoavalanche|chicagoblackhawks": {
+   "end": "2026-11-02T22:53-05:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
@@ -261,11 +264,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-16T13:10-04:00",
-   "digest",
-   1
-  ],
   [
    "2026-10-17T00:13-04:00",
    "ncaah",
@@ -664,6 +662,13 @@
    "defense",
    126,
    107
+  ],
+  [
+   "2026-11-02T22:53-05:00",
+   "nhl",
+   "defense",
+   5,
+   2
   ]
  ],
  "today": {
