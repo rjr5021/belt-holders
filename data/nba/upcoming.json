@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909930",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 8.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909931",
