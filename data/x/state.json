@@ -1,5 +1,5 @@
 {
- "digest": "2026-11-02",
+ "digest": "2026-11-03",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -264,13 +264,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-17T00:13-04:00",
-   "ncaah",
-   "change",
-   1,
-   4
-  ],
   [
    "2026-10-17T12:09-04:00",
    "epl",
@@ -669,41 +662,23 @@
    "defense",
    5,
    2
+  ],
+  [
+   "2026-11-03T14:58-05:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-11-02",
+  "day": "2026-11-03",
   "games": [
-   {
-    "belt": "NBA",
-    "colors": [
-     "#006bb6",
-     "#ed174c"
-    ],
-    "defenses": 1,
-    "holder": "Philadelphia 76ers",
-    "holder_short": "76ers",
-    "home": true,
-    "lg": "nba",
-    "name": "The NBA Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "Chicago Bulls",
-    "opponent_short": "Bulls",
-    "reign_no": 202,
-    "since": "2026-10-30",
-    "time_et": "19:30",
-    "tv": "NBA League Pass",
-    "url": "https://beltholders.com/nba/",
-    "win_prob": 0.805
-   },
    {
     "belt": "NHL",
     "colors": [
      "#6f263d",
      "#236192"
     ],
-    "defenses": 1,
+    "defenses": 2,
     "holder": "Colorado Avalanche",
     "holder_short": "Avalanche",
     "home": false,
@@ -711,14 +686,14 @@
     "name": "The NHL Belt",
     "neutral": false,
     "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Chicago Blackhawks",
-    "opponent_short": "Blackhawks",
+    "opponent": "Columbus Blue Jackets",
+    "opponent_short": "Blue Jackets",
     "reign_no": 102,
     "since": "2026-10-28",
-    "time_et": "20:00",
-    "tv": "ESPN+ \u00b7 CHSN+ \u00b7 Altitude Sports",
+    "time_et": "19:00",
+    "tv": "ESPN+ \u00b7 Altitude Sports \u00b7 CBJNHL",
     "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.644
+    "win_prob": 0.553
    }
   ]
  }
