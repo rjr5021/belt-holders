@@ -146,5 +146,19 @@
   "score": "Philadelphia 76ers 118, Chicago Bulls 107",
   "made": "2026-10-31",
   "line": null
+ },
+ {
+  "key": "PHI|DET|2026-11-04",
+  "date": "2026-11-04",
+  "holder": "PHI",
+  "challenger": "DET",
+  "pick": "DET",
+  "score": "Philadelphia 76ers 104, Detroit Pistons 112",
+  "made": "2026-11-03",
+  "line": {
+   "details": "DET -1.5",
+   "over_under": 219.5,
+   "provider": "Draft Kings"
+  }
  }
 ]

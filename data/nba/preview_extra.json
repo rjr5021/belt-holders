@@ -1,54 +1,58 @@
 {
- "key": "PHI|CHI|2026-11-02",
- "updated": "2026-10-31T23:26Z",
- "start_utc": "2026-11-03T00:30Z",
+ "key": "PHI|DET|2026-11-04",
+ "updated": "2026-11-03T06:51Z",
+ "start_utc": "2026-11-05T00:00Z",
  "espn": {
-  "event_id": "401909912",
-  "start_utc": "2026-11-03T00:30Z",
+  "event_id": "401909922",
+  "start_utc": "2026-11-05T00:00Z",
   "state": "pre",
   "tv": [
-   "NBA League Pass"
+   "ESPN"
   ],
-  "odds": null,
+  "odds": {
+   "details": "DET -1.5",
+   "over_under": 219.5,
+   "provider": "Draft Kings"
+  },
   "teams": {
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-    "abbr": "PHI",
-    "record": "5-1",
+   "DET": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "abbr": "DET",
+    "record": "6-1",
     "rank": null,
     "home_away": "home"
    },
-   "CHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-    "abbr": "CHI",
-    "record": "1-5",
+   "PHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "abbr": "PHI",
+    "record": "7-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Xfinity Mobile Arena",
-   "city": "Philadelphia",
-   "state": "PA",
+   "name": "Little Caesars Arena",
+   "city": "Detroit",
+   "state": "MI",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers put their lineal championship belt on the line when they host the Chicago Bulls on November 2nd, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back through NBA history with no committees or polls involved. Philadelphia has yet to defend the belt in this current reign, making this their first title defense.",
+  "overview": "The Philadelphia 76ers bring the Belt Holders lineal championship to Detroit on November 4th, 2026, having defended it twice in their current reign. The Pistons, who have held the belt 149 times previously, will look to reclaim it against a 76ers squad they've dominated recently, winning their last five head-to-head meetings.",
   "key_matchups": [
-   "Philadelphia's momentum on a 2-game winning streak versus Chicago's struggles through 4 straight losses",
-   "The 76ers' 5-1 record against the Bulls' dismal 1-5 start to the season",
-   "Chicago's recent defensive struggles, having allowed 125, 133, 134, and 124 points in their last four defeats"
+   "Philadelphia's 4-game winning streak meets Detroit's 3-game winning streak in a clash of the NBA's hottest teams",
+   "Detroit's recent dominance over Philadelphia, including a 106-93 victory on October 25th",
+   "Two teams with elite records this season: Philadelphia at 7-1 and Detroit at 6-1"
   ],
-  "betting_angles": "The form contrast is stark: Philadelphia has won their last 2 games and sits at 5-1, while Chicago has dropped 4 straight and limps in at 1-5. The Elo model identifies the 76ers as a clear favorite, which aligns with both the season records and recent performance. Head-to-head history shows Philadelphia leading the all-time series 143-124 across 267 meetings, though their last five encounters have been evenly split.",
-  "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 118, Chicago Bulls 107",
-  "prediction_writeup": "Philadelphia's superior form and home court advantage should be decisive in their first belt defense. The 76ers have won their last 2 games and boast a 5-1 record, while Chicago arrives reeling from 4 consecutive losses and a league-worst 1-5 mark. The Bulls have been bleeding points defensively, allowing at least 124 in each of their last four defeats. With the Elo model backing Philadelphia as a clear favorite and the home team protecting the belt for the first time in this reign, the 76ers should handle business against a struggling opponent.",
-  "written": "2026-10-31",
+  "betting_angles": "Despite Philadelphia's strong 7-1 record and current 4-game winning streak, Detroit has won all five of their last meetings, most recently 106-93 on October 25th. The Pistons are riding their own 3-game winning streak and playing at home. The Elo model favors Detroit, aligning with the recent head-to-head trend that has seen Philadelphia struggle against this particular opponent.",
+  "predicted_winner": "Detroit Pistons",
+  "predicted_score": "Philadelphia 76ers 104, Detroit Pistons 112",
+  "prediction_writeup": "Detroit's recent mastery over Philadelphia is too significant to ignore, having won their last five meetings by margins including 106-93, 116-93, and 131-109. While the 76ers bring momentum with their 4-game winning streak and impressive 7-1 record, they're walking into a difficult spot against a Pistons team that's nearly as hot at 6-1 with 3 straight wins. The Elo model making Philadelphia a clear underdog on the road reinforces the historical and recent trends. The belt changes hands in Detroit.",
+  "written": "2026-11-03",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

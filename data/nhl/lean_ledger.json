@@ -238,5 +238,19 @@
   "score": "Colorado Avalanche 4, Chicago Blackhawks 2",
   "made": "2026-11-01",
   "line": null
+ },
+ {
+  "key": "COL|CBJ|2026-11-03",
+  "date": "2026-11-03",
+  "holder": "COL",
+  "challenger": "CBJ",
+  "pick": "COL",
+  "score": "Colorado Avalanche 4, Columbus Blue Jackets 2",
+  "made": "2026-11-03",
+  "line": {
+   "details": "COL -135",
+   "over_under": 6.5,
+   "provider": "Draft Kings"
+  }
  }
 ]
