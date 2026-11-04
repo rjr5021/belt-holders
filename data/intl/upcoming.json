@@ -682,17 +682,6 @@
   "tournament": "CONCACAF Nations League"
  },
  {
-  "id": "int-espn-401932237",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Palestine",
-  "away": "Iran",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401930879",
   "date": "2026-11-14",
   "season": 2026,
@@ -735,6 +724,17 @@
   "neutral": "",
   "start_et": "09:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401932237",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Palestine",
+  "away": "Iran",
+  "neutral": "",
+  "start_et": "11:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401927188",
