@@ -1,57 +1,53 @@
 {
- "key": "COL|CBJ|2026-11-03",
- "updated": "2026-11-03T06:52Z",
- "start_utc": "2026-11-04T00:00Z",
+ "key": "COL|NSH|2026-11-05",
+ "updated": "2026-11-04T02:23Z",
+ "start_utc": "2026-11-06T02:30Z",
  "espn": {
-  "event_id": "401892641",
-  "start_utc": "2026-11-04T00:00Z",
+  "event_id": "401892658",
+  "start_utc": "2026-11-06T02:30Z",
   "state": "pre",
   "tv": [
+   "Disney+",
    "ESPN+",
-   "Altitude Sports",
-   "CBJNHL"
+   "Hulu"
   ],
-  "odds": {
-   "details": "COL -135",
-   "over_under": 6.5,
-   "provider": "Draft Kings"
-  },
+  "odds": null,
   "teams": {
-   "CBJ": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
-    "abbr": "CBJ",
-    "record": "5-7-0",
-    "rank": null,
-    "home_away": "home"
-   },
    "COL": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
     "abbr": "COL",
     "record": "9-5-1",
     "rank": null,
+    "home_away": "home"
+   },
+   "NSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+    "abbr": "NSH",
+    "record": "5-4-5",
+    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Nationwide Arena",
-   "city": "Columbus",
-   "state": "OH",
+   "name": "Ball Arena",
+   "city": "Denver",
+   "state": "CO",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Colorado Avalanche bring the Belt Holders lineal championship to Nationwide Arena, having defended it twice in their current reign. Colorado enters riding a three-game winning streak at 9-6, while Columbus struggles at 5-7 with back-to-back losses. The belt will change hands if the Blue Jackets can upset the visiting Avalanche.",
+  "overview": "The Colorado Avalanche put their lineal championship belt on the line when they host the Nashville Predators on November 5, 2026. Colorado has defended the belt 2 times in this current reign and enters riding a three-game winning streak. Nashville, despite their 5-9 record, handed Colorado a 6-2 defeat just eleven days ago on October 25.",
   "key_matchups": [
-   "Colorado's offensive surge during their three-game win streak, scoring 5 goals in each victory, against a Columbus defense that has allowed 3 goals in consecutive losses",
-   "The Avalanche's historical edge in the series, leading 46-24-1 all-time and winning the last two meetings by scores of 4-0 and 4-1",
-   "Columbus looking to capitalize on home ice after playing their last two on the road, both losses, against a Colorado team that just won 5-2 in Chicago"
+   "Colorado's three-game win streak and identical 5-2 victories versus Nashville's recent 6-2 domination of the Avalanche",
+   "Home ice advantage for Colorado after Nashville embarrassed them 6-2 in their last meeting",
+   "Nashville's 58-51 all-time edge in the series despite their struggles this season at 5-9"
   ],
-  "betting_angles": "Colorado has won their last 3 games and carries momentum with identical 5-2 victories in each, while Columbus has dropped consecutive games and sits two games under .500 at 5-7. The Avalanche hold a commanding 46-24-1 all-time advantage and have won the last two meetings decisively, including a 4-0 shutout in January. Our Elo model favors Colorado, aligning with both their recent form and historical dominance in this matchup.",
+  "betting_angles": "Colorado enters as the Elo favorite with superior form, winners of their last 3 games including three straight 5-2 victories. However, Nashville owns the recent head-to-head edge, including that commanding 6-2 win on October 25. The Predators' 5-9 record suggests inconsistency, though they've held the belt 31 times historically and just snapped a losing streak with a 5-4 win over Tampa Bay.",
   "predicted_winner": "Colorado Avalanche",
-  "predicted_score": "Colorado Avalanche 4, Columbus Blue Jackets 2",
-  "prediction_writeup": "Colorado has been in excellent offensive form, scoring 5 goals in each of their last three wins, and should continue that success against a Columbus team that has allowed 3 goals in back-to-back losses. The Avalanche's 46-24-1 all-time edge and wins in the last two meetings, including a 4-0 shutout in January, demonstrate clear superiority over the Blue Jackets. Columbus is struggling at 5-7 and coming off consecutive defeats, while Colorado's 9-6 record and three-game winning streak suggest they're finding their rhythm. The belt should remain with the Avalanche as they extend their current reign to three defenses.",
-  "written": "2026-11-03",
+  "predicted_score": "Colorado Avalanche 4, Nashville Predators 2",
+  "prediction_writeup": "Colorado's current form is too strong to ignore, with three consecutive wins all ending 5-2. While Nashville dominated them 6-2 on October 25, that result appears to be an outlier given the Predators' 5-9 record and recent inconsistency. The Avalanche's 9-6 record and home ice advantage should be enough to defend the belt. The Elo model favoring Colorado aligns with their superior season performance and momentum heading into this matchup.",
+  "written": "2026-11-04",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

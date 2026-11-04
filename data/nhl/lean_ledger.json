@@ -252,5 +252,15 @@
    "over_under": 6.5,
    "provider": "Draft Kings"
   }
+ },
+ {
+  "key": "COL|NSH|2026-11-05",
+  "date": "2026-11-05",
+  "holder": "COL",
+  "challenger": "NSH",
+  "pick": "COL",
+  "score": "Colorado Avalanche 4, Nashville Predators 2",
+  "made": "2026-11-04",
+  "line": null
  }
 ]
