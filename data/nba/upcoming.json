@@ -1,70 +1,5 @@
 [
  {
-  "id": "espn-401909922",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DET",
-  "away": "PHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Little Caesars Arena",
-  "spread": 2.5
- },
- {
-  "id": "espn-401909923",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "WSH",
-  "away": "ATL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Capital One Arena",
-  "spread": -3.5
- },
- {
-  "id": "espn-401909924",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BOS",
-  "away": "MIL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "TD Garden",
-  "spread": 11.5
- },
- {
-  "id": "espn-401909925",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BKN",
-  "away": "CHA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Barclays Center",
-  "spread": -3.5
- },
- {
-  "id": "espn-401909926",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Madison Square Garden",
-  "spread": 12.5
- },
- {
   "id": "espn-401909927",
   "date": "2026-11-04",
   "season": 2026,
@@ -75,7 +10,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909928",
@@ -88,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": 4.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909929",
@@ -247,19 +182,6 @@
   "spread": null
  },
  {
-  "id": "espn-401909293",
-  "date": "2026-11-06",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "MIN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": null
- },
- {
   "id": "espn-401909290",
   "date": "2026-11-06",
   "season": 2026,
@@ -270,6 +192,19 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
+  "spread": null
+ },
+ {
+  "id": "espn-401909291",
+  "date": "2026-11-06",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "MEM",
+  "away": "OKC",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "20:00",
+  "venue": "FedExForum",
   "spread": null
  },
  {
@@ -286,16 +221,16 @@
   "spread": null
  },
  {
-  "id": "espn-401909291",
+  "id": "espn-401909293",
   "date": "2026-11-06",
   "season": 2026,
   "season_type": "regular",
-  "home": "MEM",
-  "away": "OKC",
+  "home": "NO",
+  "away": "MIN",
   "neutral": "",
   "source": "espn",
   "start_et": "20:00",
-  "venue": "FedExForum",
+  "venue": "Smoothie King Center",
   "spread": null
  },
  {
