@@ -271,30 +271,8 @@
   "home": "Cura\u00e7ao",
   "away": "Panama",
   "neutral": "",
-  "start_et": "19:00",
+  "start_et": "19:30",
   "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401930876",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Argentina",
-  "away": "Uruguay",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401919975",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Jordan",
-  "away": "Indonesia",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401931957",
@@ -625,6 +603,17 @@
   "neutral": "",
   "start_et": "15:00",
   "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401930876",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Argentina",
+  "away": "Uruguay",
+  "neutral": "",
+  "start_et": "18:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401921325",
