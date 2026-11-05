@@ -1,122 +1,5 @@
 [
  {
-  "id": "espn-401909927",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MEM",
-  "away": "IND",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "FedExForum",
-  "spread": 5.5
- },
- {
-  "id": "espn-401909928",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "UTAH",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": 5.5
- },
- {
-  "id": "espn-401909929",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "OKC",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Paycom Center",
-  "spread": 3.5
- },
- {
-  "id": "espn-401909930",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "HOU",
-  "away": "MIN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:30",
-  "venue": "Toyota Center (Houston)",
-  "spread": 7.5
- },
- {
-  "id": "espn-401909931",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DEN",
-  "away": "TOR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Ball Arena",
-  "spread": 4.5
- },
- {
-  "id": "espn-401909932",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHX",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Mortgage Matchup Center",
-  "spread": -2.5
- },
- {
-  "id": "espn-401909933",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "DAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:30",
-  "venue": "Frost Bank Center",
-  "spread": 12.5
- },
- {
-  "id": "espn-401909934",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SAC",
-  "away": "LAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Golden 1 Center",
-  "spread": -12.5
- },
- {
-  "id": "espn-401909935",
-  "date": "2026-11-04",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "LAC",
-  "away": "MIA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:30",
-  "venue": "Intuit Dome",
-  "spread": -5.5
- },
- {
   "id": "espn-401909936",
   "date": "2026-11-05",
   "season": 2026,
@@ -127,7 +10,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909937",
@@ -140,7 +23,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909287",
