@@ -66,17 +66,6 @@
   "tournament": "African Cup of Nations qualification"
  },
  {
-  "id": "int-espn-401927189",
-  "date": "2026-11-12",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Guinea",
-  "away": "Eritrea",
-  "neutral": "",
-  "start_et": "11:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
   "id": "int-espn-401927184",
   "date": "2026-11-12",
   "season": 2026,
@@ -119,6 +108,17 @@
   "neutral": "",
   "start_et": "12:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401927189",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Guinea",
+  "away": "Eritrea",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401931296",
@@ -1724,6 +1724,17 @@
   "away": "Chile",
   "neutral": "",
   "start_et": "12:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401930339",
+  "date": "2026-12-05",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "England",
+  "away": "Ukraine",
+  "neutral": "",
+  "start_et": "12:30",
   "tournament": "Friendly"
  }
 ]
