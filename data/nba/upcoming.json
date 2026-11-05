@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": 7.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909287",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Rocket Arena",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909290",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909293",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": null
+  "spread": -5.5
  },
  {
   "id": "espn-401909294",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -15.5
  },
  {
   "id": "espn-401909938",
