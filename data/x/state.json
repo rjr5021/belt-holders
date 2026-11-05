@@ -1,5 +1,5 @@
 {
- "digest": "2026-11-04",
+ "digest": "2026-11-05",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -271,13 +271,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-17T16:56-04:00",
-   "seriea",
-   "defense",
-   2,
-   0
-  ],
   [
    "2026-10-17T20:29-04:00",
    "nwsl",
@@ -672,33 +665,38 @@
    "defense",
    112,
    106
+  ],
+  [
+   "2026-11-05T15:28-05:00",
+   "digest",
+   1
   ]
  ],
  "today": {
-  "day": "2026-11-04",
+  "day": "2026-11-05",
   "games": [
    {
-    "belt": "NBA",
+    "belt": "NHL",
     "colors": [
-     "#006bb6",
-     "#ed174c"
+     "#002654",
+     "#ce1126"
     ],
-    "defenses": 2,
-    "holder": "Philadelphia 76ers",
-    "holder_short": "76ers",
-    "home": false,
-    "lg": "nba",
-    "name": "The NBA Belt",
+    "defenses": 0,
+    "holder": "Columbus Blue Jackets",
+    "holder_short": "Blue Jackets",
+    "home": true,
+    "lg": "nhl",
+    "name": "The NHL Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "Detroit Pistons",
-    "opponent_short": "Pistons",
-    "reign_no": 202,
-    "since": "2026-10-30",
+    "next_url": "https://beltholders.com/nhl/next/",
+    "opponent": "Dallas Stars",
+    "opponent_short": "Stars",
+    "reign_no": 24,
+    "since": "2026-11-03",
     "time_et": "19:00",
-    "tv": "ESPN",
-    "url": "https://beltholders.com/nba/",
-    "win_prob": 0.307
+    "tv": "ESPN+ \u00b7 CBJNHL \u00b7 Prime Video (Local)",
+    "url": "https://beltholders.com/nhl/",
+    "win_prob": 0.476
    }
   ]
  }
