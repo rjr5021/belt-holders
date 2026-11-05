@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-24 16:49 preview nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5B3wojwtC/",
   "2026-10-24 16:49 result mls|Nashville SC|CF Montr\u00e9al|2026-10-24 https://www.instagram.com/p/De5B6tej-w_/",
   "2026-10-24 16:49 result seriea|AS Roma|SSC Napoli|2026-10-24 https://www.instagram.com/p/De5B9-ZjxAk/",
   "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/",
@@ -59,25 +58,10 @@
   "2026-11-02 22:53 result nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQ9neujRmE/",
   "2026-11-03 14:59 preview nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfSsFx1gZKf/",
   "2026-11-03 21:38 result nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfTZxRClQlL/",
-  "2026-11-04 15:17 preview nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfVS_AZGyDH/"
+  "2026-11-04 15:17 preview nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfVS_AZGyDH/",
+  "2026-11-04 21:58 result nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfWA4VhoATL/"
  ],
- "pending": {
-  "nba|Philadelphia 76ers|Detroit Pistons|2026-11-04": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-11-04",
-   "defenses": 2,
-   "espn_id": "401909922",
-   "espn_path": "basketball/nba",
-   "game_no": 7539,
-   "holder": "Philadelphia 76ers",
-   "holder_short": "76ers",
-   "lg": "nba",
-   "opponent": "Detroit Pistons",
-   "opponent_short": "Pistons",
-   "reign_no": 202,
-   "since": "2026-10-30"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -131,7 +115,6 @@
   "nba|Philadelphia 76ers|Detroit Pistons|2026-11-04"
  ],
  "results": [
-  "nhl|Chicago Blackhawks|Winnipeg Jets|2026-10-15",
   "ncaah|Denver|Michigan|2026-10-16",
   "epl|Manchester City|Ipswich Town|2026-10-17",
   "laliga|Athletic Bilbao|Valencia CF|2026-10-17",
@@ -190,6 +173,7 @@
   "ncaah|Ohio State|Michigan|2026-11-01",
   "nba|Philadelphia 76ers|Chicago Bulls|2026-11-02",
   "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02",
-  "nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03"
+  "nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03",
+  "nba|Philadelphia 76ers|Detroit Pistons|2026-11-04"
  ]
 }
