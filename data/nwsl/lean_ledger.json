@@ -54,5 +54,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "KC|ACFC|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "KC",
+  "challenger": "ACFC",
+  "pick": "KC",
+  "score": "Kansas City Current 2, Angel City FC 1",
+  "made": "2026-11-05",
+  "line": {
+   "details": "KC -140",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

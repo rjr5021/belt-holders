@@ -1,3 +1,59 @@
 {
- "key": null
+ "key": "KC|ACFC|2026-11-07",
+ "updated": "2026-11-05T18:04Z",
+ "start_utc": "2026-11-07T17:00Z",
+ "espn": {
+  "event_id": "401932976",
+  "start_utc": "2026-11-07T17:00Z",
+  "state": "pre",
+  "tv": [
+   "CBS"
+  ],
+  "odds": {
+   "details": "KC -140",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "KC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
+    "abbr": "KC",
+    "record": null,
+    "rank": null,
+    "home_away": "home"
+   },
+   "ACFC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21422.png",
+    "abbr": "LA",
+    "record": null,
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "CPKC Stadium",
+   "city": "Kansas City, Missouri",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Kansas City Current put their Belt Holders championship on the line when they host Angel City FC on November 7th. The Current have defended the belt 4 times in this reign and ride a 5-game winning streak into the match. Angel City arrive in strong form themselves with 3 straight victories, setting up a clash between two of the league's hottest teams.",
+  "key_matchups": [
+   "Momentum vs. momentum: Kansas City's 5-game winning streak against Angel City's 3-game run",
+   "Dead-even history: The all-time series stands at 4-4-2 across 10 meetings with recent matchups tight",
+   "Belt experience: Angel City have held the belt 3 times previously and have faced Kansas City 4 times with it on the line"
+  ],
+  "betting_angles": "Kansas City Current enter as Elo favorites with home field advantage and superior current form, winning all 5 of their last games compared to Angel City's 3-game streak interrupted by a draw. The head-to-head history is perfectly balanced at 4-4-2, though their two meetings this season produced a draw and a narrow Angel City win. Kansas City's recent results have been dominant, including a 5-1 victory and multiple clean sheets, while Angel City's wins have featured tighter margins.",
+  "predicted_winner": "Kansas City Current",
+  "predicted_score": "Kansas City Current 2, Angel City FC 1",
+  "prediction_writeup": "Kansas City Current's 5-game winning streak and home advantage give them the edge in what should be a closely contested match. The Current have been clinical in recent weeks, posting clean sheets in 3 of their last 5 games while scoring at least 2 goals in each victory. Angel City will pose a serious challenge given their own winning form and the fact they took 4 points from Kansas City earlier this season. However, the Current's momentum and Elo edge at home should be enough to extend their belt reign to 5 defenses in a narrow victory.",
+  "written": "2026-11-05",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
 }
