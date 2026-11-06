@@ -1,5 +1,5 @@
 {
- "digest": "2026-11-05",
+ "digest": "2026-11-06",
  "games": {
   "bundesliga|2026-10-10|bayernmunich|augsburg": {
    "danger": "2026-10-10T10:15-04:00",
@@ -275,13 +275,6 @@
   }
  },
  "log": [
-  [
-   "2026-10-17T21:02-04:00",
-   "ligamx",
-   "change",
-   0,
-   5
-  ],
   [
    "2026-10-17T21:39-04:00",
    "nhl",
@@ -674,33 +667,84 @@
    "defense",
    2,
    1
+  ],
+  [
+   "2026-11-06T14:51-05:00",
+   "digest",
+   3
   ]
  ],
  "today": {
-  "day": "2026-11-05",
+  "day": "2026-11-06",
   "games": [
+   {
+    "belt": "NBA",
+    "colors": [
+     "#006bb6",
+     "#ed174c"
+    ],
+    "defenses": 3,
+    "holder": "Philadelphia 76ers",
+    "holder_short": "76ers",
+    "home": false,
+    "lg": "nba",
+    "name": "The NBA Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/nba/next/",
+    "opponent": "Cleveland Cavaliers",
+    "opponent_short": "Cavaliers",
+    "reign_no": 202,
+    "since": "2026-10-30",
+    "time_et": "19:30",
+    "tv": "Prime Video \u00b7 ERADM",
+    "url": "https://beltholders.com/nba/",
+    "win_prob": 0.424
+   },
    {
     "belt": "NHL",
     "colors": [
      "#002654",
      "#ce1126"
     ],
-    "defenses": 0,
+    "defenses": 1,
     "holder": "Columbus Blue Jackets",
     "holder_short": "Blue Jackets",
-    "home": true,
+    "home": false,
     "lg": "nhl",
     "name": "The NHL Belt",
     "neutral": false,
     "next_url": "https://beltholders.com/nhl/next/",
-    "opponent": "Dallas Stars",
-    "opponent_short": "Stars",
+    "opponent": "Buffalo Sabres",
+    "opponent_short": "Sabres",
     "reign_no": 24,
     "since": "2026-11-03",
     "time_et": "19:00",
-    "tv": "ESPN+ \u00b7 CBJNHL \u00b7 Prime Video (Local)",
+    "tv": "ESPN+ \u00b7 MSGB \u00b7 CBJNHL",
     "url": "https://beltholders.com/nhl/",
-    "win_prob": 0.476
+    "win_prob": 0.404
+   },
+   {
+    "belt": "Liga MX",
+    "colors": [
+     "#c8102e",
+     "#111111"
+    ],
+    "defenses": 2,
+    "holder": "Tijuana",
+    "holder_short": "Xolos",
+    "home": false,
+    "lg": "ligamx",
+    "name": "The Liga MX Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/ligamx/next/",
+    "opponent": "Necaxa",
+    "opponent_short": "Necaxa",
+    "reign_no": 7,
+    "since": "2026-10-25",
+    "time_et": "20:00",
+    "tv": null,
+    "url": "https://beltholders.com/ligamx/",
+    "win_prob": 0.594
    }
   ]
  }
