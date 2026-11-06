@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "State Farm Arena",
-  "spread": 7.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909288",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": -8.5
+  "spread": -10.5
  },
  {
   "id": "espn-401909289",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
-  "spread": 7.5
+  "spread": 6.5
  },
  {
   "id": "espn-401909291",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": -3.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909292",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": -6.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909293",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909294",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": 2.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909295",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": -16.5
+  "spread": -17.5
  },
  {
   "id": "espn-401909938",
