@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-24 16:49 result ligue1|Paris FC|RC Lens|2026-10-24 https://www.instagram.com/p/De5CBCCD66b/",
   "2026-10-24 22:04 result nba|Philadelphia 76ers|Milwaukee Bucks|2026-10-24 https://www.instagram.com/p/De5l8v2EUrb/",
   "2026-10-25 18:29 result nfl|Houston Texans|New York Giants|2026-10-25 https://www.instagram.com/p/De7yIb3AcGv/",
   "2026-10-25 18:29 preview nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De7yMQagVDM/",
@@ -59,7 +58,8 @@
   "2026-11-04 15:17 preview nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfVS_AZGyDH/",
   "2026-11-04 21:58 result nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfWA4VhoATL/",
   "2026-11-05 15:28 preview nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfX5EdREunf/",
-  "2026-11-05 21:55 result nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfYlY7AGzxs/"
+  "2026-11-05 21:55 result nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfYlY7AGzxs/",
+  "2026-11-06 14:51 preview nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfaZnY8GNwY/"
  ],
  "pending": {
   "ligamx|Tijuana|Necaxa|2026-11-06": {
@@ -159,7 +159,8 @@
   "nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02",
   "nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03",
   "nba|Philadelphia 76ers|Detroit Pistons|2026-11-04",
-  "nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05"
+  "nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05",
+  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06"
  ],
  "results": [
   "epl|Manchester City|Ipswich Town|2026-10-17",
