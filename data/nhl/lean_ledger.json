@@ -272,5 +272,19 @@
   "score": "Columbus Blue Jackets 2, Dallas Stars 4",
   "made": "2026-11-04",
   "line": null
+ },
+ {
+  "key": "CBJ|BUF|2026-11-06",
+  "date": "2026-11-06",
+  "holder": "CBJ",
+  "challenger": "BUF",
+  "pick": "CBJ",
+  "score": "Columbus Blue Jackets 4, Buffalo Sabres 3",
+  "made": "2026-11-06",
+  "line": {
+   "details": "BUF -170",
+   "over_under": 6.5,
+   "provider": "DraftKings"
+  }
  }
 ]

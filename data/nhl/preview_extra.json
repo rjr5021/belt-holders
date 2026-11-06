@@ -1,53 +1,57 @@
 {
- "key": "CBJ|DAL|2026-11-05",
- "updated": "2026-11-04T12:11Z",
- "start_utc": "2026-11-06T00:00Z",
+ "key": "CBJ|BUF|2026-11-06",
+ "updated": "2026-11-06T06:51Z",
+ "start_utc": "2026-11-07T00:00Z",
  "espn": {
-  "event_id": "401892655",
-  "start_utc": "2026-11-06T00:00Z",
+  "event_id": "401892659",
+  "start_utc": "2026-11-07T00:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "CBJNHL",
-   "Prime Video (Local)"
+   "MSGB",
+   "CBJNHL"
   ],
-  "odds": null,
+  "odds": {
+   "details": "BUF -170",
+   "over_under": 6.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "CBJ": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
-    "abbr": "CBJ",
-    "record": "6-7-0",
+   "BUF": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+    "abbr": "BUF",
+    "record": "7-5-3",
     "rank": null,
     "home_away": "home"
    },
-   "DAL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-    "abbr": "DAL",
-    "record": "9-5-1",
+   "CBJ": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
+    "abbr": "CBJ",
+    "record": "7-7-0",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Nationwide Arena",
-   "city": "Columbus",
-   "state": "OH",
+   "name": "KeyBank Center",
+   "city": "Buffalo",
+   "state": "NY",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Columbus Blue Jackets put their lineal championship belt on the line when they host the Dallas Stars on November 5th, 2026. Columbus claimed the belt in their current reign but has yet to successfully defend it. The Stars, who have held the belt 106 times previously, will look to reclaim the championship in this rematch after defeating Columbus 3-1 just five days earlier.",
+  "overview": "The Columbus Blue Jackets bring the lineal championship belt to Buffalo on November 6th, 2026, having defended it once in their current reign. The Blue Jackets enter with momentum from two straight wins, while the Sabres look to bounce back from a narrow 1\u20132 loss to Ottawa and claim the belt for what would be their 88th time holding it.",
   "key_matchups": [
-   "Dallas seeks revenge of a different kind after Columbus bounced back from their 3-1 loss with a dominant 7-2 victory over Colorado",
-   "The Stars bring a two-game winning streak into Nationwide Arena, including their recent 3-1 win over these same Blue Jackets",
-   "Columbus is 6-7 on the season while Dallas sits at 9-6, with the all-time series favoring the Stars 44-35"
+   "Columbus riding a two-game winning streak including a 2\u20131 win over Dallas and a 7\u20132 blowout of Colorado",
+   "Buffalo's recent inconsistency after winning three straight before the Ottawa setback, including a high-scoring 7\u20136 win at Anaheim",
+   "Head-to-head history favors Columbus 30-20-1, including a commanding 6\u20133 victory in their most recent October 1st meeting"
   ],
-  "betting_angles": "Dallas has won their last 2 games and owns the better record at 9-6 compared to Columbus at 6-7. The Stars also just defeated the Blue Jackets 3-1 on October 31st and hold a 44-35 edge in the all-time series. However, the Elo model rates this as a toss-up, suggesting home ice could be the deciding factor for a Columbus team that just exploded for 7 goals against Colorado.",
-  "predicted_winner": "Dallas Stars",
-  "predicted_score": "Columbus Blue Jackets 2, Dallas Stars 4",
-  "prediction_writeup": "While Columbus bounced back nicely with their 7-2 win over Colorado, Dallas presents a tougher challenge as a 9-6 team riding a two-game win streak. The Stars just solved Columbus five days ago with a 3-1 victory and have the better overall record this season. The Elo model sees this as a toss-up, but Dallas's recent form and their 44-35 all-time edge in this matchup suggest they'll reclaim the belt. The Stars have held the championship 106 times before and appear poised to add to that total.",
-  "written": "2026-11-04",
+  "betting_angles": "Columbus has won their last two games and holds a decisive 30-20-1 all-time edge over Buffalo, including a 6\u20133 victory in their most recent matchup on October 1st. Despite this, the Elo model tags the Blue Jackets as underdogs on the road. Buffalo showed offensive firepower with three straight wins before the Ottawa loss, but Columbus appears to have found form after their own two-game skid.",
+  "predicted_winner": "Columbus Blue Jackets",
+  "predicted_score": "Columbus Blue Jackets 4, Buffalo Sabres 3",
+  "prediction_writeup": "Columbus has won their last two games and dominated Buffalo 6\u20133 in their most recent meeting on October 1st, giving them confidence despite being road underdogs per the Elo model. The Blue Jackets hold a commanding 30-20-1 all-time advantage in this series and have defended the belt once already in this reign. Buffalo's offense can be dangerous, as shown by their 7\u20136 win at Anaheim, but their inconsistency and the head-to-head history tilt this toward the visitors. Columbus keeps the belt in a tight one.",
+  "written": "2026-11-06",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
