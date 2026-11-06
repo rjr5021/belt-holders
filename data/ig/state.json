@@ -61,7 +61,23 @@
   "2026-11-05 15:28 preview nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfX5EdREunf/",
   "2026-11-05 21:55 result nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfYlY7AGzxs/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-06",
+   "defenses": 3,
+   "espn_id": "401909289",
+   "espn_path": "basketball/nba",
+   "game_no": 7540,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Cleveland Cavaliers",
+   "opponent_short": "Cavaliers",
+   "reign_no": 202,
+   "since": "2026-10-30"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
