@@ -249,7 +249,9 @@
    "danger": "2026-11-05T21:18-05:00",
    "end": "2026-11-05T21:55-05:00"
   },
-  "nhl|2026-11-06|columbusbluejackets|buffalosabres": {},
+  "nhl|2026-11-06|columbusbluejackets|buffalosabres": {
+   "danger": "2026-11-06T21:27-05:00"
+  },
   "nrl|2026-10-04|sydneyroosters|newcastleknights": {
    "end": "2026-10-04T16:25-04:00"
   },
