@@ -62,6 +62,21 @@
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/"
  ],
  "pending": {
+  "mls|Nashville SC|FC Cincinnati|2026-11-07": {
+   "belt_name": "The MLS Belt",
+   "date": "2026-11-07",
+   "defenses": 5,
+   "espn_id": "761937",
+   "espn_path": "soccer/usa.1",
+   "game_no": 1129,
+   "holder": "Nashville SC",
+   "holder_short": "Nashville",
+   "lg": "mls",
+   "opponent": "FC Cincinnati",
+   "opponent_short": "Cincinnati",
+   "reign_no": 3,
+   "since": "2026-10-10"
+  },
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07": {
    "belt_name": "The NBA Belt",
    "date": "2026-11-07",
