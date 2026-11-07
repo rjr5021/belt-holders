@@ -1,25 +1,27 @@
 {
- "key": "TIJ|ATE|2026-11-20",
- "updated": "2026-11-07T02:00Z",
- "start_utc": "2026-11-21T03:00Z",
+ "key": "NEC|QRO|2026-11-22",
+ "updated": "2026-11-07T08:52Z",
+ "start_utc": "2026-11-23T01:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Tijuana puts the lineal championship belt on the line when they host Atlante on November 20, 2026. The belt holders have successfully defended twice in this reign and enter as clear Elo favorites against struggling visitors. This marks the first time these two sides have ever met with the belt at stake.",
+  "overview": "The belt passes to whoever beats the holder, and Necaxa have defended it 0 times in this reign, meaning it's immediately on the line.",
   "key_matchups": [
-   "Tijuana's drawing habit (tied their last 2 games) against Atlante's losing streak (lost their last 2 games)",
-   "Tijuana's perfect 2-0 all-time record versus Atlante, including a dominant 4-1 victory in their last meeting back in 2013",
-   "Atlante's poor road form seeking to upset belt holders who have won 2 of their last 5 and remained unbeaten in 4 of those 5"
+   "Necaxa's 1-game winning streak meets Quer\u00e9taro's 4-game losing skid in a battle of diverging momentum",
+   "Quer\u00e9taro's 6-6-2 record versus Necaxa's 3-9-4 mark suggests home side holds seasonal edge despite poor recent form",
+   "All-time series favors Necaxa 12-6-5, but Quer\u00e9taro took the most recent meeting 3-1 in April 2026"
   ],
-  "betting_angles": "Tijuana enter with clear momentum advantages: they're unbeaten in their last 2 games and hold a 5-3-7 record compared to Atlante's 3-7-5 mark. The visitors have lost their last 2 games and carry a woeful recent stretch into hostile territory. Combined with Tijuana's historical dominance in this matchup and the Elo model favoring the hosts, the numbers point strongly toward a successful belt defense.",
-  "predicted_winner": "Tijuana",
-  "predicted_score": "Tijuana 2, Atlante 0",
-  "prediction_writeup": "Tijuana's recent form shows resilience with draws against strong opponents like Monterrey and Club Am\u00e9rica, plus an emphatic 4-1 win over Santos Laguna in their last 5. Atlante arrive in poor shape, having lost their last 2 games and posting just 3 wins all season compared to Tijuana's 5. The belt holders have never lost to Atlante in 2 all-time meetings, and with home advantage plus the Elo edge, they should extend their reign. Expect Tijuana to control proceedings and secure a clean sheet against visitors who managed just 1 goal in their last 2 losses.",
+  "betting_angles": "Quer\u00e9taro hold a superior 6-6-2 record this season compared to Necaxa's 3-9-4, yet the visitors have won their last 1 game while the hosts have lost their last 4 games. The Elo model favors Quer\u00e9taro despite Necaxa's recent 1-0 victory over Tijuana, and the all-time head-to-head leans 12-6-5 in Necaxa's favor across 23 meetings. Quer\u00e9taro won the last meeting 3-1 but dropped the two before that.",
+  "predicted_winner": "Quer\u00e9taro",
+  "predicted_score": "Necaxa 0, Quer\u00e9taro 2",
+  "prediction_writeup": "Quer\u00e9taro's 6-6-2 record dramatically outpaces Necaxa's 3-9-4 mark, suggesting the home side has been the better team this season. While Quer\u00e9taro have lost their last 4 games, including a 0-5 drubbing at Santos Laguna, their seasonal body of work and home advantage should prove decisive. Necaxa have won their last 1 game but went 0-1-3 in the four before that, and the Elo model makes them a clear underdog. Quer\u00e9taro have held the belt 9 times before and should reclaim it here with a clean-sheet victory.",
   "written": "2026-11-07",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "22"
+   ]
   }
  }
 }

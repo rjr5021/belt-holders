@@ -1,48 +1,55 @@
 {
- "key": "PHI|CHI|2026-11-08",
- "updated": "2026-11-07T01:58Z",
- "start_utc": "2026-11-08T20:30Z",
+ "key": "CLE|NYK|2026-11-07",
+ "updated": "2026-11-07T08:50Z",
+ "start_utc": "2026-11-08T01:00Z",
  "espn": {
-  "event_id": "401909945",
-  "start_utc": "2026-11-08T20:30Z",
+  "event_id": "401909940",
+  "start_utc": "2026-11-08T01:00Z",
   "state": "pre",
-  "tv": [],
-  "odds": null,
+  "tv": [
+   "NBA TV",
+   "DAZN CLE"
+  ],
+  "odds": {
+   "details": "NY -4.5",
+   "over_under": 224.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "CHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-    "abbr": "CHI",
-    "record": "1-7",
+   "CLE": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "abbr": "CLE",
+    "record": "5-4",
     "rank": null,
     "home_away": "home"
    },
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-    "abbr": "PHI",
-    "record": "8-1",
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
+    "record": "4-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "United Center",
-   "city": "Chicago",
-   "state": "IL",
+   "name": "Rocket Arena",
+   "city": "Cleveland",
+   "state": "OH",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers bring the lineal championship belt to Chicago on November 8th, 2026, having defended it 3 times in their current reign. The Bulls, who have held the belt 102 times previously in franchise history, will look to reclaim it but face a 76ers squad riding a 5-game winning streak while Chicago has dropped 5 straight.",
+  "overview": "The Cleveland Cavaliers host the New York Knicks with the lineal championship belt on the line. Cleveland currently holds the belt but has not yet defended it in this reign, while the Knicks are no strangers to belt competition, having held it 205 times previously. The two teams have met 14 times with the belt at stake in their storied history.",
   "key_matchups": [
-   "Philadelphia's 5-game winning streak versus Chicago's 5-game losing skid sets up a stark contrast in current form",
-   "The Bulls seek revenge after a 107-126 home loss to the 76ers on November 2nd, just six days before this rematch",
-   "Chicago's belt drought continues as they try to add to their 102 previous reigns against a confident Philadelphia side"
+   "Knicks riding momentum with their last 2 games won, while Cleveland just snapped a two-game slide with a 119\u201395 victory over Philadelphia",
+   "Recent head-to-head history heavily favors New York, sweeping Cleveland in their last four meetings in May 2026",
+   "Cleveland's home form will be tested as they've alternated results in their last 5 games"
   ],
-  "betting_angles": "Philadelphia enters 8-1 on the season while Chicago sits at 1-7, reflecting a massive gap in early-season performance. The 76ers won the most recent meeting 126-107 and lead the all-time series 144-124. Our Elo model identifies Philadelphia as a clear favorite, aligning with their superior form and head-to-head dominance.",
-  "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 119, Chicago Bulls 108",
-  "prediction_writeup": "Philadelphia's 5-game winning streak and 8-1 record contrast sharply with Chicago's 1-7 mark and 5-game skid. The 76ers just dismantled these same Bulls 126-107 six days ago, and Chicago has been bleeding points in recent losses like 105-135 to New York and 99-134 to Boston. With the Elo model backing Philadelphia as a clear favorite and the belt having been successfully defended 3 times already this reign, expect the 76ers to keep it rolling on the road. Chicago's 102 previous belt reigns will have to wait at least one more game.",
+  "betting_angles": "The Elo model sees this as a toss-up despite New York's recent dominance in the head-to-head series. Cleveland holds a 5-4 record this season compared to New York's 4-4 mark, though the Knicks have won their last 2 games. The recent meetings strongly favor New York, who won 130\u201393, 121\u2013108, 109\u201393, and 115\u2013104 in their last four encounters.",
+  "predicted_winner": "New York Knicks",
+  "predicted_score": "Cleveland Cavaliers 108, New York Knicks 117",
+  "prediction_writeup": "Despite the home court advantage and the Elo model calling it a toss-up, the recent head-to-head history is impossible to ignore. New York swept all four meetings in May 2026, winning by margins that included a 130\u201393 blowout. The Knicks have won their last 2 games and appear to have Cleveland's number, while the Cavaliers' inconsistency shows in their 5-4 record with alternating results. New York's 205 previous belt reigns suggest they know how to handle the pressure of belt competition, and they'll look to claim it once again on the road.",
   "written": "2026-11-07",
   "model": "claude-sonnet-4-5",
   "factcheck": {

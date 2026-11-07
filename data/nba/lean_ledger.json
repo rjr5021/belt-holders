@@ -180,5 +180,19 @@
   "score": "Philadelphia 76ers 119, Chicago Bulls 108",
   "made": "2026-11-07",
   "line": null
+ },
+ {
+  "key": "CLE|NYK|2026-11-07",
+  "date": "2026-11-07",
+  "holder": "CLE",
+  "challenger": "NYK",
+  "pick": "NYK",
+  "score": "Cleveland Cavaliers 108, New York Knicks 117",
+  "made": "2026-11-07",
+  "line": {
+   "details": "NY -4.5",
+   "over_under": 224.5,
+   "provider": "DraftKings"
+  }
  }
 ]
