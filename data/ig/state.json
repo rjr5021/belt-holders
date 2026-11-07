@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/",
   "2026-10-27 14:34 preview nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfAg3gBoEPd/",
   "2026-10-27 14:34 preview nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfAg6KCIHK-/",
   "2026-10-27 14:34 preview seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfAg9U4oBUq/",
@@ -59,24 +58,10 @@
   "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
   "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/",
   "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/",
-  "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/"
+  "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/",
+  "2026-11-07 18:07 result ligue1|Paris FC|AJ Auxerre|2026-11-07 https://www.instagram.com/p/DfdVI7bmTQR/"
  ],
  "pending": {
-  "ligue1|Paris FC|AJ Auxerre|2026-11-07": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-11-07",
-   "defenses": 0,
-   "espn_id": "401876411",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "AJ Auxerre",
-   "opponent_short": "Auxerre",
-   "reign_no": 2,
-   "since": "2026-09-19"
-  },
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07": {
    "belt_name": "The NBA Belt",
    "date": "2026-11-07",
@@ -151,7 +136,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "ncaah|Michigan|Denver|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18",
   "ligue1|Paris FC|Stade Rennes|2026-10-18",
@@ -210,6 +194,7 @@
   "nwsl|Kansas City Current|Angel City FC|2026-11-07",
   "epl|Manchester City|Nottingham Forest|2026-11-07",
   "seriea|AS Roma|Sassuolo Calcio|2026-11-07",
-  "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07"
+  "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07",
+  "ligue1|Paris FC|AJ Auxerre|2026-11-07"
  ]
 }
