@@ -62,6 +62,21 @@
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/"
  ],
  "pending": {
+  "epl|Manchester City|Nottingham Forest|2026-11-07": {
+   "belt_name": "The English Football Belt",
+   "date": "2026-11-07",
+   "defenses": 4,
+   "espn_id": "401878757",
+   "espn_path": "soccer/eng.1",
+   "game_no": 4918,
+   "holder": "Manchester City",
+   "holder_short": "Man City",
+   "lg": "epl",
+   "opponent": "Nottingham Forest",
+   "opponent_short": "Forest",
+   "reign_no": 62,
+   "since": "2026-08-23"
+  },
   "mls|Nashville SC|FC Cincinnati|2026-11-07": {
    "belt_name": "The MLS Belt",
    "date": "2026-11-07",
