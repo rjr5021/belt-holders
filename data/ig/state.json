@@ -121,6 +121,21 @@
    "opponent_short": "Angel City",
    "reign_no": 4,
    "since": "2026-09-26"
+  },
+  "seriea|AS Roma|Sassuolo Calcio|2026-11-07": {
+   "belt_name": "The Serie A Belt",
+   "date": "2026-11-07",
+   "defenses": 8,
+   "espn_id": "401874803",
+   "espn_path": "soccer/ita.1",
+   "game_no": 3217,
+   "holder": "AS Roma",
+   "holder_short": "Roma",
+   "lg": "seriea",
+   "opponent": "Sassuolo Calcio",
+   "opponent_short": "Sassuolo",
+   "reign_no": 66,
+   "since": "2026-05-04"
   }
  },
  "previews": [
