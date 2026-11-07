@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/",
   "2026-10-25 22:13 result nhl|Dallas Stars|New York Islanders|2026-10-25 https://www.instagram.com/p/De8L4-zkahp/",
   "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/",
   "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/",
@@ -59,7 +58,8 @@
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/",
   "2026-11-07 18:07 preview nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdU2bvmXig/",
   "2026-11-07 18:07 result mls|Nashville SC|FC Cincinnati|2026-11-07 https://www.instagram.com/p/DfdU5aemQ-1/",
-  "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/"
+  "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
+  "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07": {
@@ -76,21 +76,6 @@
    "opponent_short": "Mainz",
    "reign_no": 57,
    "since": "2026-02-28"
-  },
-  "epl|Manchester City|Nottingham Forest|2026-11-07": {
-   "belt_name": "The English Football Belt",
-   "date": "2026-11-07",
-   "defenses": 4,
-   "espn_id": "401878757",
-   "espn_path": "soccer/eng.1",
-   "game_no": 4918,
-   "holder": "Manchester City",
-   "holder_short": "Man City",
-   "lg": "epl",
-   "opponent": "Nottingham Forest",
-   "opponent_short": "Forest",
-   "reign_no": 62,
-   "since": "2026-08-23"
   },
   "ligue1|Paris FC|AJ Auxerre|2026-11-07": {
    "belt_name": "The Ligue 1 Belt",
@@ -196,7 +181,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "nwsl|Kansas City Current|Utah Royals|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
   "ncaah|Denver|Michigan|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
@@ -255,6 +239,7 @@
   "nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06",
   "ligamx|Tijuana|Necaxa|2026-11-06",
   "mls|Nashville SC|FC Cincinnati|2026-11-07",
-  "nwsl|Kansas City Current|Angel City FC|2026-11-07"
+  "nwsl|Kansas City Current|Angel City FC|2026-11-07",
+  "epl|Manchester City|Nottingham Forest|2026-11-07"
  ]
 }
