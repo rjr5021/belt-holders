@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401932976",
-  "date": "2026-11-07",
-  "season_type": "regular",
-  "home": "Kansas City Current",
-  "away": "Angel City FC",
-  "home_id": "20907",
-  "away_id": "21422",
-  "home_abbr": "KC",
-  "away_abbr": "LA",
-  "home_loc": "Kansas City Current",
-  "away_loc": "Angel City FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14023,
-  "start_et": "12:00",
-  "season": 2026
- },
- {
   "id": "espn-401932958",
   "date": "2026-11-08",
   "season_type": "regular",
