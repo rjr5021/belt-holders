@@ -1,21 +1,21 @@
 {
- "key": "TIJ|NEC|2026-11-06",
- "updated": "2026-11-01T06:10Z",
- "start_utc": "2026-11-07T01:00Z",
+ "key": "TIJ|ATE|2026-11-20",
+ "updated": "2026-11-07T02:00Z",
+ "start_utc": "2026-11-21T03:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Tijuana brings the lineal championship belt to Estadio Victoria on November 6, 2026, having defended it once in their current reign. Necaxa, who have held the belt twice before in their history, will look to claim it for the third time in what will be the first-ever meeting between these sides with the belt on the line. The belt passes to whoever wins, continuing its journey through Liga MX with no committees or polls involved.",
+  "overview": "Tijuana puts the lineal championship belt on the line when they host Atlante on November 20, 2026. The belt holders have successfully defended twice in this reign and enter as clear Elo favorites against struggling visitors. This marks the first time these two sides have ever met with the belt at stake.",
   "key_matchups": [
-   "Tijuana's hard-to-beat recent form (4 ties in last 5 games) against Necaxa's struggles (just 1 win in last 5, including three losses)",
-   "Home advantage for Necaxa, who historically hold an 8-6-5 edge in the all-time series",
-   "Contrasting momentum: Tijuana's 4-1 thrashing of Santos Laguna two games ago versus Necaxa's 0-2 home loss to Atlas in their third-most-recent match"
+   "Tijuana's drawing habit (tied their last 2 games) against Atlante's losing streak (lost their last 2 games)",
+   "Tijuana's perfect 2-0 all-time record versus Atlante, including a dominant 4-1 victory in their last meeting back in 2013",
+   "Atlante's poor road form seeking to upset belt holders who have won 2 of their last 5 and remained unbeaten in 4 of those 5"
   ],
-  "betting_angles": "Tijuana's 5-3-6 record vastly outpaces Necaxa's 2-8-4 mark this season, and the Elo model favors the visitors despite Necaxa holding the historical head-to-head advantage at 8-6-5. Recent form diverges sharply: Tijuana have lost just once in their last 5 while Necaxa have managed only a draw in that span, losing three times. The last two meetings between these sides saw wildly contrasting 3-0 results, with each team winning comfortably at home.",
+  "betting_angles": "Tijuana enter with clear momentum advantages: they're unbeaten in their last 2 games and hold a 5-3-7 record compared to Atlante's 3-7-5 mark. The visitors have lost their last 2 games and carry a woeful recent stretch into hostile territory. Combined with Tijuana's historical dominance in this matchup and the Elo model favoring the hosts, the numbers point strongly toward a successful belt defense.",
   "predicted_winner": "Tijuana",
-  "predicted_score": "Tijuana 2, Necaxa 1",
-  "prediction_writeup": "Tijuana's superior season record of 5-3-6 compared to Necaxa's 2-8-4 tells the story of two teams heading in opposite directions. While Necaxa hold the all-time edge at 8-6-5, their recent form is worrying with three losses in the last five games and only two wins all season. Tijuana have been difficult to beat lately, going undefeated in four of their last five with only one loss all told in that stretch, including a commanding 4-1 victory over Santos Laguna. The Elo model backing the visitors aligns with the season-long performance gap, and Tijuana should be motivated to extend their belt reign to two defenses. Expect a tight road win for the belt holders.",
-  "written": "2026-11-01",
+  "predicted_score": "Tijuana 2, Atlante 0",
+  "prediction_writeup": "Tijuana's recent form shows resilience with draws against strong opponents like Monterrey and Club Am\u00e9rica, plus an emphatic 4-1 win over Santos Laguna in their last 5. Atlante arrive in poor shape, having lost their last 2 games and posting just 3 wins all season compared to Tijuana's 5. The belt holders have never lost to Atlante in 2 all-time meetings, and with home advantage plus the Elo edge, they should extend their reign. Expect Tijuana to control proceedings and secure a clean sheet against visitors who managed just 1 goal in their last 2 losses.",
+  "written": "2026-11-07",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

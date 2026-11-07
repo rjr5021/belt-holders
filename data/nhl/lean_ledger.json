@@ -286,5 +286,15 @@
    "over_under": 6.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "CBJ|FLA|2026-11-10",
+  "date": "2026-11-10",
+  "holder": "CBJ",
+  "challenger": "FLA",
+  "pick": "FLA",
+  "score": "Columbus Blue Jackets 2, Florida Panthers 4",
+  "made": "2026-11-07",
+  "line": null
  }
 ]

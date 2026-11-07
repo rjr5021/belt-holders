@@ -1,55 +1,52 @@
 {
- "key": "PHI|CLE|2026-11-06",
- "updated": "2026-11-05T00:55Z",
- "start_utc": "2026-11-07T00:30Z",
+ "key": "PHI|CHI|2026-11-08",
+ "updated": "2026-11-07T01:58Z",
+ "start_utc": "2026-11-08T20:30Z",
  "espn": {
-  "event_id": "401909289",
-  "start_utc": "2026-11-07T00:30Z",
+  "event_id": "401909945",
+  "start_utc": "2026-11-08T20:30Z",
   "state": "pre",
-  "tv": [
-   "Prime Video",
-   "ERADM"
-  ],
+  "tv": [],
   "odds": null,
   "teams": {
-   "CLE": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-    "abbr": "CLE",
-    "record": "4-3",
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "1-7",
     "rank": null,
     "home_away": "home"
    },
    "PHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
     "abbr": "PHI",
-    "record": "7-1",
+    "record": "8-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Rocket Arena",
-   "city": "Cleveland",
-   "state": "OH",
+   "name": "United Center",
+   "city": "Chicago",
+   "state": "IL",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Philadelphia 76ers bring their lineal championship belt to Cleveland on November 6th, 2026, having defended it twice in their current reign. The 76ers are riding a four-game winning streak and boast a 7-1 record, while the Cavaliers sit at 4-3 after dropping their last game 112-117 to Oklahoma City.",
+  "overview": "The Philadelphia 76ers bring the lineal championship belt to Chicago on November 8th, 2026, having defended it 3 times in their current reign. The Bulls, who have held the belt 102 times previously in franchise history, will look to reclaim it but face a 76ers squad riding a 5-game winning streak while Chicago has dropped 5 straight.",
   "key_matchups": [
-   "Philadelphia's four-game winning streak versus Cleveland's momentum loss after falling to OKC",
-   "The 76ers' league-best 7-1 record being tested on the road against a Cavaliers squad that has held the belt 84 times historically",
-   "Recent head-to-head history favoring Philadelphia, who won the most recent meeting 114-106 on October 22nd"
+   "Philadelphia's 5-game winning streak versus Chicago's 5-game losing skid sets up a stark contrast in current form",
+   "The Bulls seek revenge after a 107-126 home loss to the 76ers on November 2nd, just six days before this rematch",
+   "Chicago's belt drought continues as they try to add to their 102 previous reigns against a confident Philadelphia side"
   ],
-  "betting_angles": "Philadelphia enters with superior form, winners of four straight including a dominant 126-107 victory over Chicago, while Cleveland stumbles in having just lost to Oklahoma City. The 76ers also won the most recent head-to-head matchup 114-106 less than three weeks ago. However, the Elo model identifies Philadelphia as the underdog on the road, suggesting Cleveland's home court and overall program strength shouldn't be dismissed despite the record disparity.",
+  "betting_angles": "Philadelphia enters 8-1 on the season while Chicago sits at 1-7, reflecting a massive gap in early-season performance. The 76ers won the most recent meeting 126-107 and lead the all-time series 144-124. Our Elo model identifies Philadelphia as a clear favorite, aligning with their superior form and head-to-head dominance.",
   "predicted_winner": "Philadelphia 76ers",
-  "predicted_score": "Philadelphia 76ers 118, Cleveland Cavaliers 113",
-  "prediction_writeup": "The 76ers' four-game winning streak and 7-1 record are too compelling to ignore, even with the Elo model favoring the home side. Philadelphia just beat Cleveland 114-106 three weeks ago and has been defensively stout, holding New York to just 93 points in their recent win. Cleveland's loss to Oklahoma City exposed some vulnerabilities, and while they've held the belt 84 times historically, this Philadelphia team looks like the league's most complete squad right now. The 76ers extend their belt reign to three defenses with a road victory.",
-  "written": "2026-11-05",
+  "predicted_score": "Philadelphia 76ers 119, Chicago Bulls 108",
+  "prediction_writeup": "Philadelphia's 5-game winning streak and 8-1 record contrast sharply with Chicago's 1-7 mark and 5-game skid. The 76ers just dismantled these same Bulls 126-107 six days ago, and Chicago has been bleeding points in recent losses like 105-135 to New York and 99-134 to Boston. With the Elo model backing Philadelphia as a clear favorite and the belt having been successfully defended 3 times already this reign, expect the 76ers to keep it rolling on the road. Chicago's 102 previous belt reigns will have to wait at least one more game.",
+  "written": "2026-11-07",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }
