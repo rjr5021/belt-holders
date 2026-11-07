@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "State Farm Arena",
-  "spread": 6.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909940",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": 11.5
+  "spread": 12.5
  },
  {
   "id": "espn-401909942",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Chase Center",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909943",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": -7.5
+  "spread": -6.5
  },
  {
   "id": "espn-401909944",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Moda Center",
-  "spread": -6.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909945",
