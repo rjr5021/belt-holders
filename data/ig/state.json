@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-25 18:29 result laliga|Athletic Bilbao|Getafe CF|2026-10-25 https://www.instagram.com/p/De7yUNogRxl/",
   "2026-10-25 18:29 result bundesliga|Bayern Munich|SC Freiburg|2026-10-25 https://www.instagram.com/p/De7yXVMAbG_/",
   "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/",
   "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/",
@@ -59,25 +58,10 @@
   "2026-11-06 14:51 preview nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfaZqxRGLGB/",
   "2026-11-06 14:51 preview ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfaZt51mNq4/",
   "2026-11-06 22:14 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfbMPMqEdq7/",
-  "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/"
+  "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/",
+  "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/"
  ],
- "pending": {
-  "ligamx|Tijuana|Necaxa|2026-11-06": {
-   "belt_name": "The Liga MX Belt",
-   "date": "2026-11-06",
-   "defenses": 2,
-   "espn_id": "401876909",
-   "espn_path": "soccer/mex.1",
-   "game_no": 546,
-   "holder": "Tijuana",
-   "holder_short": "Xolos",
-   "lg": "ligamx",
-   "opponent": "Necaxa",
-   "opponent_short": "Necaxa",
-   "reign_no": 7,
-   "since": "2026-10-25"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -135,7 +119,6 @@
   "ligamx|Tijuana|Necaxa|2026-11-06"
  ],
  "results": [
-  "seriea|AS Roma|Genoa CFC|2026-10-17",
   "bundesliga|Bayern Munich|RB Leipzig|2026-10-17",
   "nhl|Chicago Blackhawks|Dallas Stars|2026-10-17",
   "nwsl|Kansas City Current|Utah Royals|2026-10-17",
@@ -194,6 +177,7 @@
   "nba|Philadelphia 76ers|Detroit Pistons|2026-11-04",
   "nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05",
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06",
-  "nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06"
+  "nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06",
+  "ligamx|Tijuana|Necaxa|2026-11-06"
  ]
 }
