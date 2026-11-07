@@ -462,6 +462,17 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401927190",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Egypt",
+  "away": "Malawi",
+  "neutral": "",
+  "start_et": "14:00",
+  "tournament": "African Cup of Nations qualification"
+ },
+ {
   "id": "int-espn-401927185",
   "date": "2026-11-13",
   "season": 2026,
@@ -581,17 +592,6 @@
   "neutral": "",
   "start_et": "15:00",
   "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401927190",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Egypt",
-  "away": "Malawi",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
  },
  {
   "id": "int-espn-401927191",
