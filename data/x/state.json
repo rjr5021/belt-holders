@@ -30,7 +30,9 @@
   "epl|2026-10-31|manchestercity|brightonhovealbion": {
    "end": "2026-10-31T13:31-04:00"
   },
-  "epl|2026-11-07|manchestercity|nottinghamforest": {},
+  "epl|2026-11-07|manchestercity|nottinghamforest": {
+   "danger": "2026-11-07T13:18-05:00"
+  },
   "eredivisie|2026-10-10|azalkmaar|feyenoord": {
    "danger": "2026-10-10T13:33-04:00",
    "end": "2026-10-10T14:42-04:00"
@@ -103,6 +105,7 @@
   "ligue1|2026-11-01|paris|asmonaco": {
    "end": "2026-11-01T13:16-05:00"
   },
+  "ligue1|2026-11-07|paris|ajauxerre": {},
   "mls|2026-10-10|austin|nashville": {
    "danger": "2026-10-10T21:27-04:00",
    "end": "2026-10-10T22:35-04:00"
