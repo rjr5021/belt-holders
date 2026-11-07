@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401932959",
-  "date": "2026-11-06",
-  "season_type": "regular",
-  "home": "San Diego Wave FC",
-  "away": "Utah Royals",
-  "home_id": "21423",
-  "away_id": "19141",
-  "home_abbr": "SD",
-  "away_abbr": "UTA",
-  "home_loc": "San Diego Wave FC",
-  "away_loc": "Utah Royals",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14023,
-  "start_et": "22:00",
-  "season": 2026
- },
- {
   "id": "espn-401932976",
   "date": "2026-11-07",
   "season_type": "regular",
