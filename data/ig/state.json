@@ -61,7 +61,23 @@
   "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/",
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Cleveland Cavaliers|New York Knicks|2026-11-07": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-07",
+   "defenses": 0,
+   "espn_id": "401909940",
+   "espn_path": "basketball/nba",
+   "game_no": 7541,
+   "holder": "Cleveland Cavaliers",
+   "holder_short": "Cavaliers",
+   "lg": "nba",
+   "opponent": "New York Knicks",
+   "opponent_short": "Knicks",
+   "reign_no": 85,
+   "since": "2026-11-06"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
