@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-25 22:13 result nhl|Dallas Stars|New York Islanders|2026-10-25 https://www.instagram.com/p/De8L4-zkahp/",
   "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/",
   "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/",
   "2026-10-27 14:34 preview nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfAg3gBoEPd/",
@@ -59,7 +58,8 @@
   "2026-11-07 18:07 preview nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdU2bvmXig/",
   "2026-11-07 18:07 result mls|Nashville SC|FC Cincinnati|2026-11-07 https://www.instagram.com/p/DfdU5aemQ-1/",
   "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
-  "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/"
+  "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/",
+  "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07": {
@@ -106,21 +106,6 @@
    "opponent_short": "Knicks",
    "reign_no": 85,
    "since": "2026-11-06"
-  },
-  "seriea|AS Roma|Sassuolo Calcio|2026-11-07": {
-   "belt_name": "The Serie A Belt",
-   "date": "2026-11-07",
-   "defenses": 8,
-   "espn_id": "401874803",
-   "espn_path": "soccer/ita.1",
-   "game_no": 3217,
-   "holder": "AS Roma",
-   "holder_short": "Roma",
-   "lg": "seriea",
-   "opponent": "Sassuolo Calcio",
-   "opponent_short": "Sassuolo",
-   "reign_no": 66,
-   "since": "2026-05-04"
   }
  },
  "previews": [
@@ -181,7 +166,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
   "ncaah|Denver|Michigan|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
@@ -240,6 +224,7 @@
   "ligamx|Tijuana|Necaxa|2026-11-06",
   "mls|Nashville SC|FC Cincinnati|2026-11-07",
   "nwsl|Kansas City Current|Angel City FC|2026-11-07",
-  "epl|Manchester City|Nottingham Forest|2026-11-07"
+  "epl|Manchester City|Nottingham Forest|2026-11-07",
+  "seriea|AS Roma|Sassuolo Calcio|2026-11-07"
  ]
 }
