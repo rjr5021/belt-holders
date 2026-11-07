@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-25 22:13 result nwsl|Kansas City Current|Washington Spirit|2026-10-25 https://www.instagram.com/p/De8L8W7kYJM/",
   "2026-10-26 03:09 result ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De8tof6luH_/",
   "2026-10-27 14:34 preview nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfAg3gBoEPd/",
   "2026-10-27 14:34 preview nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfAg6KCIHK-/",
@@ -59,24 +58,10 @@
   "2026-11-07 18:07 result mls|Nashville SC|FC Cincinnati|2026-11-07 https://www.instagram.com/p/DfdU5aemQ-1/",
   "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
   "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/",
-  "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/"
+  "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/",
+  "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/"
  ],
  "pending": {
-  "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07": {
-   "belt_name": "The Bundesliga Belt",
-   "date": "2026-11-07",
-   "defenses": 14,
-   "espn_id": "401884740",
-   "espn_path": "soccer/ger.1",
-   "game_no": 2135,
-   "holder": "Bayern Munich",
-   "holder_short": "Bayern",
-   "lg": "bundesliga",
-   "opponent": "1. FSV Mainz 05",
-   "opponent_short": "Mainz",
-   "reign_no": 57,
-   "since": "2026-02-28"
-  },
   "ligue1|Paris FC|AJ Auxerre|2026-11-07": {
    "belt_name": "The Ligue 1 Belt",
    "date": "2026-11-07",
@@ -166,7 +151,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "ncaah|Denver|Michigan|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
   "nfl|Jacksonville Jaguars|Houston Texans|2026-10-18",
@@ -225,6 +209,7 @@
   "mls|Nashville SC|FC Cincinnati|2026-11-07",
   "nwsl|Kansas City Current|Angel City FC|2026-11-07",
   "epl|Manchester City|Nottingham Forest|2026-11-07",
-  "seriea|AS Roma|Sassuolo Calcio|2026-11-07"
+  "seriea|AS Roma|Sassuolo Calcio|2026-11-07",
+  "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07"
  ]
 }
