@@ -91,6 +91,21 @@
    "opponent_short": "Knicks",
    "reign_no": 85,
    "since": "2026-11-06"
+  },
+  "nwsl|Kansas City Current|Angel City FC|2026-11-07": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-11-07",
+   "defenses": 4,
+   "espn_id": "401932976",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 307,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Angel City FC",
+   "opponent_short": "Angel City",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
