@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-25 18:29 result eredivisie|AZ Alkmaar|FC Twente|2026-10-25 https://www.instagram.com/p/De7yaXgAeEF/",
   "2026-10-25 18:29 preview ligamx|Santos Laguna|Tijuana|2026-10-25 https://www.instagram.com/p/De7ydf1AUQf/",
   "2026-10-25 22:13 result nba|Philadelphia 76ers|Detroit Pistons|2026-10-25 https://www.instagram.com/p/De8L127kdYX/",
   "2026-10-25 22:13 result nhl|Dallas Stars|New York Islanders|2026-10-25 https://www.instagram.com/p/De8L4-zkahp/",
@@ -59,7 +58,8 @@
   "2026-11-06 22:14 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfbMPMqEdq7/",
   "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/",
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/",
-  "2026-11-07 18:07 preview nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdU2bvmXig/"
+  "2026-11-07 18:07 preview nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdU2bvmXig/",
+  "2026-11-07 18:07 result mls|Nashville SC|FC Cincinnati|2026-11-07 https://www.instagram.com/p/DfdU5aemQ-1/"
  ],
  "pending": {
   "bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07": {
@@ -106,21 +106,6 @@
    "opponent_short": "Auxerre",
    "reign_no": 2,
    "since": "2026-09-19"
-  },
-  "mls|Nashville SC|FC Cincinnati|2026-11-07": {
-   "belt_name": "The MLS Belt",
-   "date": "2026-11-07",
-   "defenses": 5,
-   "espn_id": "761937",
-   "espn_path": "soccer/usa.1",
-   "game_no": 1129,
-   "holder": "Nashville SC",
-   "holder_short": "Nashville",
-   "lg": "mls",
-   "opponent": "FC Cincinnati",
-   "opponent_short": "Cincinnati",
-   "reign_no": 3,
-   "since": "2026-10-10"
   },
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07": {
    "belt_name": "The NBA Belt",
@@ -226,7 +211,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "bundesliga|Bayern Munich|RB Leipzig|2026-10-17",
   "nhl|Chicago Blackhawks|Dallas Stars|2026-10-17",
   "nwsl|Kansas City Current|Utah Royals|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
@@ -285,6 +269,7 @@
   "nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05",
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06",
   "nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06",
-  "ligamx|Tijuana|Necaxa|2026-11-06"
+  "ligamx|Tijuana|Necaxa|2026-11-06",
+  "mls|Nashville SC|FC Cincinnati|2026-11-07"
  ]
 }
