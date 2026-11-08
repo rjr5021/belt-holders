@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401909945",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHI",
-  "away": "PHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "15:30",
-  "venue": "United Center",
-  "spread": -9.5
- },
- {
   "id": "espn-401909946",
   "date": "2026-11-08",
   "season": 2026,
@@ -23,7 +10,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "Little Caesars Arena",
-  "spread": 4.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909947",
@@ -166,7 +153,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909958",
@@ -179,7 +166,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909959",
@@ -273,16 +260,16 @@
   "spread": null
  },
  {
-  "id": "espn-401909968",
+  "id": "espn-401909966",
   "date": "2026-11-11",
   "season": 2026,
   "season_type": "regular",
-  "home": "TOR",
-  "away": "BOS",
+  "home": "IND",
+  "away": "WSH",
   "neutral": "",
   "source": "espn",
   "start_et": "19:00",
-  "venue": "Scotiabank Arena",
+  "venue": "Gainbridge Fieldhouse",
   "spread": null
  },
  {
@@ -299,29 +286,16 @@
   "spread": null
  },
  {
-  "id": "espn-401909966",
+  "id": "espn-401909968",
   "date": "2026-11-11",
   "season": 2026,
   "season_type": "regular",
-  "home": "IND",
-  "away": "WSH",
+  "home": "TOR",
+  "away": "BOS",
   "neutral": "",
   "source": "espn",
   "start_et": "19:00",
-  "venue": "Gainbridge Fieldhouse",
-  "spread": null
- },
- {
-  "id": "espn-401909972",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
+  "venue": "Scotiabank Arena",
   "spread": null
  },
  {
@@ -361,6 +335,19 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
+  "spread": null
+ },
+ {
+  "id": "espn-401909972",
+  "date": "2026-11-11",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "NO",
+  "away": "BKN",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "20:00",
+  "venue": "Smoothie King Center",
   "spread": null
  },
  {
