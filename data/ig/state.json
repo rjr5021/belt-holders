@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-27 18:38 result seriea|AS Roma|Cagliari Calcio|2026-10-27 https://www.instagram.com/p/DfA8tj3gWwS/",
   "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/",
   "2026-10-27 22:51 result nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfBZyG5AAXq/",
   "2026-10-28 14:40 preview nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfDGVhuGeoQ/",
@@ -59,25 +58,10 @@
   "2026-11-07 18:07 result ligue1|Paris FC|AJ Auxerre|2026-11-07 https://www.instagram.com/p/DfdVI7bmTQR/",
   "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/",
   "2026-11-08 18:06 result nfl|New York Giants|Philadelphia Eagles|2026-11-08 https://www.instagram.com/p/Dff5iD9HYjT/",
-  "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/"
+  "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/",
+  "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/"
  ],
- "pending": {
-  "eredivisie|AZ Alkmaar|FC Groningen|2026-11-08": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-11-08",
-   "defenses": 11,
-   "espn_id": "401875548",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "FC Groningen",
-   "opponent_short": "Groningen",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
@@ -136,7 +120,6 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
  ],
  "results": [
-  "eredivisie|AZ Alkmaar|SC Cambuur|2026-10-18",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20",
   "nhl|Dallas Stars|Boston Bruins|2026-10-20",
   "laliga|Athletic Bilbao|Levante UD|2026-10-21",
@@ -195,6 +178,7 @@
   "ligue1|Paris FC|AJ Auxerre|2026-11-07",
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07",
   "nfl|New York Giants|Philadelphia Eagles|2026-11-08",
-  "nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08"
+  "nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08",
+  "eredivisie|AZ Alkmaar|FC Groningen|2026-11-08"
  ]
 }
