@@ -68,5 +68,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Fulham|2026-11-21",
+  "date": "2026-11-21",
+  "holder": "Manchester City",
+  "challenger": "Fulham",
+  "pick": "Manchester City",
+  "score": "Manchester City 3, Fulham 1",
+  "made": "2026-11-08",
+  "line": {
+   "details": "MNC -235",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

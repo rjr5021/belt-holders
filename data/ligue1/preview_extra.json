@@ -1,53 +1,49 @@
 {
- "key": "Paris FC|AJ Auxerre|2026-11-07",
- "updated": "2026-11-02T06:09Z",
- "start_utc": "2026-11-07T16:15Z",
+ "key": "Paris FC|Angers SCO|2026-11-22",
+ "updated": "2026-11-08T01:31Z",
+ "start_utc": "2026-11-22T14:00Z",
  "espn": {
-  "event_id": "401876411",
-  "start_utc": "2026-11-07T16:15Z",
+  "event_id": "401876397",
+  "start_utc": "2026-11-22T14:00Z",
   "state": "pre",
   "tv": [],
-  "odds": {
-   "details": "PAR -120",
-   "over_under": 2.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "AJ Auxerre": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-    "abbr": "AUX",
-    "record": "3-1-5",
-    "rank": null,
-    "home_away": "home"
-   },
    "Paris FC": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
     "abbr": "PAR",
-    "record": "5-2-2",
+    "record": "6-2-2",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Angers SCO": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+    "abbr": "ANG",
+    "record": "2-2-5",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade de l'Abb\u00e9-Deschamps",
-   "city": "Auxerre",
+   "name": "Stade Jean Bouin",
+   "city": "Paris",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC bring the lineal championship belt to AJ Auxerre on November 7, 2026, in what marks the first time these sides have ever met with the belt on the line. Paris FC are undefeated in their last five with three wins, while Auxerre have surged with back-to-back victories after a rough three-game losing streak. The belt passes to whoever wins, making this a high-stakes clash between two teams trending in opposite directions recently.",
+  "overview": "Paris FC puts the lineal championship belt on the line for the first time in this reign when they host Angers SCO on November 22, 2026. The belt, which passes to whoever beats the current holder regardless of league standings, has never been contested between these two sides despite eight all-time meetings. Angers SCO, a 22-time belt holder historically, will look to reclaim the strap from a Paris FC side that has yet to defend it.",
   "key_matchups": [
-   "Paris FC's unbeaten five-game stretch (3-0-2) versus Auxerre's momentum from consecutive wins after dropping three straight",
-   "Home advantage for Auxerre, who have held the belt 20 times historically, against a Paris FC side making their first title defense",
-   "The head-to-head history shows two meetings, both ending in draws (0-0 and 1-1), suggesting these teams are evenly matched"
+   "Paris FC's unbeaten home form this season (3-0-2 overall) against an Angers side that has struggled on the road, losing 0-2 at Lille and 1-2 to Rennes in recent weeks",
+   "The head-to-head history favors Angers with 2 wins to Paris FC's 1 across 8 meetings, though 5 have ended in draws including a 0-0 stalemate in their last encounter on January 25, 2026",
+   "Paris FC's recent attacking output (3-2 at Marseille, 3-0 vs Nice, 2-1 vs Strasbourg) versus Angers' mixed defensive record (clean sheet vs Troyes, but conceded 2 to Lille and Rennes)"
   ],
-  "betting_angles": "Paris FC carry the stronger overall form with a 3-0-2 record compared to Auxerre's 2-3 mark, and they've been solid defensively with two clean sheets in their last five. However, Auxerre have won their last 2 games and will have home support, while the Elo model rates this as a toss-up. The head-to-head history of two consecutive draws adds further uncertainty to the outcome.",
+  "betting_angles": "Paris FC enters as a clear Elo favorite and boasts superior form with a 3-0-2 record compared to Angers' 2-2-1 mark. Both teams have won their last 1 game, but Paris FC has shown more consistency with three wins in their last five, while Angers has dropped two of five. The head-to-head history slightly favors Angers, though five of eight meetings have been draws, including the most recent 0-0 result.",
   "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 1, AJ Auxerre 1",
-  "prediction_writeup": "The head-to-head history between these sides screams draw, with both previous meetings ending level at 0-0 and 1-1. Paris FC's superior record this season (3-0-2 versus 2-3) and their longer unbeaten run give them a slight edge, but the Elo model calling it a toss-up suggests there's little separating these teams. Auxerre's recent two-game winning streak provides some threat, but Paris FC have shown resilience with results like the 3-2 win at Olympique Marseille. Given the pattern of draws and the even nature of this matchup, another stalemate seems the most likely outcome, meaning Paris FC would retain the belt.",
-  "written": "2026-11-02",
+  "predicted_score": "Paris FC 2, Angers SCO 1",
+  "prediction_writeup": "Paris FC should successfully defend the belt for the first time in this reign based on their stronger overall form and home advantage. Their 3-0-2 record reflects a side that has found ways to win, including impressive results like the 3-2 victory at Olympique Marseille. While Angers holds a slight edge in the all-time series and has held the belt 22 times previously, their 2-2-1 record and road struggles suggest they'll fall short. The Elo model's clear favor toward Paris FC aligns with the recent form that has seen the hosts score in three of their last five, including the 2-1 win over Strasbourg in their most recent outing.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

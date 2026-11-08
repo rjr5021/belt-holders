@@ -64,5 +64,15 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Paris FC|Angers SCO|2026-11-22",
+  "date": "2026-11-22",
+  "holder": "Paris FC",
+  "challenger": "Angers SCO",
+  "pick": "Paris FC",
+  "score": "Paris FC 2, Angers SCO 1",
+  "made": "2026-11-08",
+  "line": null
  }
 ]

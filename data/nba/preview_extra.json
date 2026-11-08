@@ -1,56 +1,51 @@
 {
- "key": "CLE|NYK|2026-11-07",
- "updated": "2026-11-07T08:50Z",
- "start_utc": "2026-11-08T01:00Z",
+ "key": "CLE|CHA|2026-11-09",
+ "updated": "2026-11-08T01:28Z",
+ "start_utc": "2026-11-10T00:00Z",
  "espn": {
-  "event_id": "401909940",
-  "start_utc": "2026-11-08T01:00Z",
+  "event_id": "401909953",
+  "start_utc": "2026-11-10T00:00Z",
   "state": "pre",
   "tv": [
-   "NBA TV",
    "DAZN CLE"
   ],
-  "odds": {
-   "details": "NY -4.5",
-   "over_under": 224.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
+   "CHA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+    "abbr": "CHA",
+    "record": "3-7",
+    "rank": null,
+    "home_away": "home"
+   },
    "CLE": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
     "abbr": "CLE",
     "record": "5-4",
     "rank": null,
-    "home_away": "home"
-   },
-   "NYK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-    "abbr": "NY",
-    "record": "4-4",
-    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Rocket Arena",
-   "city": "Cleveland",
-   "state": "OH",
+   "name": "Spectrum Center",
+   "city": "Charlotte",
+   "state": "NC",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Cleveland Cavaliers host the New York Knicks with the lineal championship belt on the line. Cleveland currently holds the belt but has not yet defended it in this reign, while the Knicks are no strangers to belt competition, having held it 205 times previously. The two teams have met 14 times with the belt at stake in their storied history.",
+  "overview": "The Cleveland Cavaliers bring the lineal championship belt to Charlotte on November 9, 2026, facing a Hornets team desperate to snap a lengthy losing streak. Cleveland claimed the belt in their most recent outing and will look to defend it for the first time in this reign. The Hornets have held the belt 35 times previously and have met the Cavaliers 16 times with the title on the line.",
   "key_matchups": [
-   "Knicks riding momentum with their last 2 games won, while Cleveland just snapped a two-game slide with a 119\u201395 victory over Philadelphia",
-   "Recent head-to-head history heavily favors New York, sweeping Cleveland in their last four meetings in May 2026",
-   "Cleveland's home form will be tested as they've alternated results in their last 5 games"
+   "Cavaliers looking to defend the belt for the first time after claiming it with a 119\u201395 win over Philadelphia",
+   "Hornets searching for answers after five straight losses, most recently an 80\u2013119 defeat to Boston",
+   "Cleveland holds an 82-52 edge in the all-time series and won both meetings earlier in 2026"
   ],
-  "betting_angles": "The Elo model sees this as a toss-up despite New York's recent dominance in the head-to-head series. Cleveland holds a 5-4 record this season compared to New York's 4-4 mark, though the Knicks have won their last 2 games. The recent meetings strongly favor New York, who won 130\u201393, 121\u2013108, 109\u201393, and 115\u2013104 in their last four encounters.",
-  "predicted_winner": "New York Knicks",
-  "predicted_score": "Cleveland Cavaliers 108, New York Knicks 117",
-  "prediction_writeup": "Despite the home court advantage and the Elo model calling it a toss-up, the recent head-to-head history is impossible to ignore. New York swept all four meetings in May 2026, winning by margins that included a 130\u201393 blowout. The Knicks have won their last 2 games and appear to have Cleveland's number, while the Cavaliers' inconsistency shows in their 5-4 record with alternating results. New York's 205 previous belt reigns suggest they know how to handle the pressure of belt competition, and they'll look to claim it once again on the road.",
-  "written": "2026-11-07",
+  "betting_angles": "Cleveland enters with momentum from a 119\u201395 victory while Charlotte is reeling from five consecutive defeats, including a 80\u2013119 drubbing by Boston. The Cavaliers are 5-4 this season compared to Charlotte's 3-7 mark, and they've won the last two head-to-head meetings. Our Elo model sees this as a toss-up despite the contrasting recent form.",
+  "predicted_winner": "Cleveland Cavaliers",
+  "predicted_score": "Cleveland Cavaliers 114, Charlotte Hornets 107",
+  "prediction_writeup": "Cleveland should carry the belt out of Charlotte based on their recent 119\u201395 statement win and the Hornets' five-game slide. The Cavaliers have won both 2026 meetings between these teams, taking 118\u2013113 and 94\u201387 decisions. Charlotte's recent struggles include losses by margins like 80\u2013119 and 91\u2013124, suggesting defensive issues the Cavaliers can exploit. While the Elo model calls it a toss-up, Cleveland's superior form and head-to-head success point to a successful first belt defense.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,

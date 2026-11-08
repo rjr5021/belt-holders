@@ -1,56 +1,45 @@
 {
- "key": "Bayern Munchen|1. FSV Mainz 05|2026-11-07",
- "updated": "2026-11-01T06:10Z",
- "start_utc": "2026-11-07T14:30Z",
+ "key": "Bayern Munchen|1. FC Koln|2026-11-20",
+ "updated": "2026-11-08T01:31Z",
+ "start_utc": "2026-11-20T19:30Z",
  "espn": {
-  "event_id": "401884740",
-  "start_utc": "2026-11-07T14:30Z",
+  "event_id": "401884736",
+  "start_utc": "2026-11-20T19:30Z",
   "state": "pre",
   "tv": [],
-  "odds": {
-   "details": "MUN -230",
-   "over_under": 4.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "1. FSV Mainz 05": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-    "abbr": "M05",
-    "record": "3-1-4",
-    "rank": null,
-    "home_away": "home"
-   },
    "Bayern Munchen": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
     "abbr": "MUN",
-    "record": "5-3-0",
+    "record": "6-3-0",
     "rank": null,
-    "home_away": "away"
+    "home_away": "home"
    }
   },
   "venue": {
-   "name": "MEWA ARENA",
-   "city": "Mainz",
+   "name": "Allianz Arena",
+   "city": "M\u00fcnchen",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Bayern Munich bring the Belt Holders lineal championship to Mainz, having defended it 14 times in their current reign. The belt passes to whoever wins on the pitch, with no polls or committees involved\u2014just pure on-field results stretching back through league history.",
+  "overview": "Bayern Munich puts their lineal championship belt on the line when they host 1. FC K\u00f6ln on 2026-11-20. The belt has changed hands based purely on results since the league's first game, with no committees involved. Bayern Munich have defended the belt 14 times in this reign and will look to extend that run against a K\u00f6ln side they've dominated recently.",
   "key_matchups": [
-   "Bayern's devastating attack (7\u20130, 5\u20131, 5\u20131 in three of their last five) against a Mainz side that just conceded three to Eintracht Frankfurt",
-   "Mainz's home form matters: they've won 2\u20130 at Heidenheim and 5\u20130 at Hamburg recently, though this is a different challenge",
-   "Historical dominance: Bayern lead the all-time series 28-8-4 and have won three straight meetings, including 4\u20133 at Mainz last April"
+   "Bayern Munich's recent 7\u20130 victory over Union Berlin showcases their attacking form heading into this belt defense",
+   "1. FC K\u00f6ln seeking revenge after their 1\u20135 loss to Bayern Munich earlier this season",
+   "Bayern Munich have won their last 2 games while K\u00f6ln have lost their last 1 game"
   ],
-  "betting_angles": "Bayern have won their last 2 games and sit at 3-0-1 this season, while the Elo model tabs them as clear favorites. Their recent attacking output\u20147\u20130, 5\u20131, 5\u20131\u2014contrasts with Mainz's 2-1-1 record and a defense that allowed three goals in their last home loss. Head-to-head history overwhelmingly favors the visitors, who've won three consecutive meetings.",
+  "betting_angles": "Bayern Munich enter with a 3-0-1 record this season compared to K\u00f6ln's 1-2-1 mark. The sides met earlier this season with Bayern winning 5\u20131, and Bayern hold a commanding 55-23-24 edge in the all-time series across 102 games. Our Elo model makes Bayern Munich a clear favorite in this matchup.",
   "predicted_winner": "Bayern Munich",
-  "predicted_score": "Bayern Munich 3, 1. FSV Mainz 05 1",
-  "prediction_writeup": "Bayern Munich arrive in devastating form, having won their last 2 games including a 7\u20130 demolition of Union Berlin. Their 3-0-1 record and recent attacking explosions suggest they're operating at a high level. While Mainz have won their last 1 game and posted impressive road victories at Hamburg (5\u20130) and Heidenheim (2\u20130), Bayern hold a commanding 28-8-4 all-time edge and have won three straight meetings. The Elo model's clear favoritism aligns with Bayern's superior form and historical dominance in this matchup.",
-  "written": "2026-11-01",
+  "predicted_score": "Bayern Munich 3, 1. FC K\u00f6ln 1",
+  "prediction_writeup": "Bayern Munich have won their last 2 games and sit at 3-0-1 on the season, while K\u00f6ln have lost their last 1 game and stand at 1-2-1. The recent head-to-head history heavily favors Bayern, including a 5\u20131 victory when these teams last met. With the Elo model making Bayern a clear favorite and the belt holder showing strong form after their 7\u20130 win over Union Berlin, expect Bayern to successfully defend the belt at home. K\u00f6ln have held the belt 28 times before, but they'll need to overcome significant historical and current form disadvantages to claim it here.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

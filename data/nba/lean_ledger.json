@@ -194,5 +194,15 @@
    "over_under": 224.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "CLE|CHA|2026-11-09",
+  "date": "2026-11-09",
+  "holder": "CLE",
+  "challenger": "CHA",
+  "pick": "CLE",
+  "score": "Cleveland Cavaliers 114, Charlotte Hornets 107",
+  "made": "2026-11-08",
+  "line": null
  }
 ]

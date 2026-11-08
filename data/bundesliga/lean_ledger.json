@@ -64,5 +64,15 @@
    "over_under": 4.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Bayern Munchen|1. FC Koln|2026-11-20",
+  "date": "2026-11-20",
+  "holder": "Bayern Munchen",
+  "challenger": "1. FC Koln",
+  "pick": "Bayern Munchen",
+  "score": "Bayern Munich 3, 1. FC K\u00f6ln 1",
+  "made": "2026-11-08",
+  "line": null
  }
 ]

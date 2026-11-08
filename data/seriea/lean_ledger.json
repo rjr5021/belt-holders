@@ -78,5 +78,19 @@
   "score": "AS Roma 2, Sassuolo Calcio 1",
   "made": "2026-11-01",
   "line": null
+ },
+ {
+  "key": "AS Roma|Parma FC|2026-11-21",
+  "date": "2026-11-21",
+  "holder": "AS Roma",
+  "challenger": "Parma FC",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, Parma FC 1",
+  "made": "2026-11-08",
+  "line": {
+   "details": "ROMA -310",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

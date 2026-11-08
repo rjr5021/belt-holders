@@ -1,53 +1,53 @@
 {
- "key": "Manchester City|Nottingham Forest|2026-11-07",
- "updated": "2026-11-01T06:09Z",
- "start_utc": "2026-11-07T17:30Z",
+ "key": "Manchester City|Fulham|2026-11-21",
+ "updated": "2026-11-08T01:30Z",
+ "start_utc": "2026-11-21T12:30Z",
  "espn": {
-  "event_id": "401878757",
-  "start_utc": "2026-11-07T17:30Z",
+  "event_id": "401879233",
+  "start_utc": "2026-11-21T12:30Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "MNC -145",
-   "over_under": 2.5,
+   "details": "MNC -235",
+   "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Nottingham Forest": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-    "abbr": "NFO",
-    "record": "1-3-5",
-    "rank": null,
-    "home_away": "home"
-   },
    "Manchester City": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
     "abbr": "MNC",
-    "record": "7-0-2",
+    "record": "7-0-3",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Fulham": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "abbr": "FUL",
+    "record": "2-4-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "The City Ground",
-   "city": "Nottingham",
+   "name": "Etihad Stadium",
+   "city": "Manchester",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Manchester City put their Belt Holders championship on the line when they visit Nottingham Forest on November 7th, 2026. City have defended the belt 4 times in this reign and arrive on a 5-game winning streak, while Forest stumble in having lost their last outing 0\u20131 to Coventry City. The lineal belt passes directly to whoever wins, with no committees involved\u2014just the result on the pitch.",
+  "overview": "Manchester City put their lineal championship belt on the line when they host Fulham on November 21st. The belt passes to whoever beats the current holder, tracing an unbroken chain back to the league's first game. City have successfully defended the belt 4 times in this reign and look to extend their perfect 5-0 season.",
   "key_matchups": [
-   "Manchester City's perfect 5-0 season record against Nottingham Forest's inconsistent 1-2-2 form",
-   "City's 5-game winning streak including a 5\u20133 thriller versus Sunderland against Forest's recent defensive struggles",
-   "Head-to-head history shows City leading 32-27 in 82 all-time meetings, but their last encounter ended 2-2"
+   "Manchester City's five-game winning streak against Fulham's winless run (0-3-2 this season)",
+   "City's dominant head-to-head record (31-9-10 all-time) including five straight victories",
+   "Fulham's recent defensive sturdiness (back-to-back draws, 1-1 and 0-0) facing City's potent attack (5-3 in their last outing)"
   ],
-  "betting_angles": "Manchester City have won their last 5 games with a 5-0 record this season, while Nottingham Forest sit at 1-2-2 and just lost 0\u20131 to Coventry City. The all-time head-to-head slightly favors City at 32-27, though their most recent meeting in March 2026 ended 2-2. Our Elo model makes Manchester City the favorite, aligning with their current form and perfect start to the campaign.",
+  "betting_angles": "Manchester City enter in exceptional form with five consecutive wins and a perfect 5-0 record this season, while Fulham have yet to win in five attempts (0-3-2). The all-time head-to-head heavily favors City at 31-9-10, and they've won all five recent meetings, including 3-0 and 5-4 scorelines earlier this year. Our Elo model reflects this dominance, rating Manchester City as a clear favorite.",
   "predicted_winner": "Manchester City",
-  "predicted_score": "Manchester City 2, Nottingham Forest 1",
-  "prediction_writeup": "Manchester City's 5-game winning streak and perfect 5-0 season record make them formidable visitors, even against a Nottingham Forest side that has held the belt 35 times historically. Forest's recent form shows vulnerability with back-to-back losses bookending a couple of draws, and they've managed just 1 win in 5 outings. City have defended the belt 4 times already in this reign and showed attacking firepower in their 5\u20133 win over Sunderland last time out. While the March 2026 meeting ended 2-2, City's current momentum and Elo edge suggest they'll edge a tight contest at the City Ground.",
-  "written": "2026-11-01",
+  "predicted_score": "Manchester City 3, Fulham 1",
+  "prediction_writeup": "Manchester City's perfect 5-0 start and five-game winning streak suggest they're in commanding form, while Fulham remain winless at 0-3-2. City have won all five recent meetings between these sides, including a 3-0 victory in February 2026 and a 5-4 thriller in December 2025. While Fulham showed some resilience with consecutive draws against Manchester United and Liverpool, they face a much tougher test against a dominant City side. The belt should stay at the Etihad for a fifth consecutive defense.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
