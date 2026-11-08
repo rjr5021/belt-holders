@@ -62,6 +62,21 @@
   "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/"
  ],
  "pending": {
+  "eredivisie|AZ Alkmaar|FC Groningen|2026-11-08": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-11-08",
+   "defenses": 11,
+   "espn_id": "401875548",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "FC Groningen",
+   "opponent_short": "Groningen",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "nfl|New York Giants|Philadelphia Eagles|2026-11-08": {
    "belt_name": "The NFL Belt",
    "date": "2026-11-08",
