@@ -1,1 +1,40 @@
-[]
+[
+ {
+  "id": "espn-401933535",
+  "date": "2026-11-19",
+  "season_type": "regular",
+  "home": "Orlando City SC",
+  "away": "FC Cincinnati",
+  "home_id": "12011",
+  "away_id": "18267",
+  "home_abbr": "ORL",
+  "away_abbr": "CIN",
+  "home_loc": "Orlando City SC",
+  "away_loc": "FC Cincinnati",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 13844,
+  "start_et": "19:30",
+  "season": 2026
+ },
+ {
+  "id": "espn-401933555",
+  "date": "2026-11-19",
+  "season_type": "regular",
+  "home": "Seattle Sounders FC",
+  "away": "Real Salt Lake",
+  "home_id": "9726",
+  "away_id": "4771",
+  "home_abbr": "SEA",
+  "away_abbr": "RSL",
+  "home_loc": "Seattle Sounders FC",
+  "away_loc": "Real Salt Lake",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 13843,
+  "start_et": "22:00",
+  "season": 2026
+ }
+]
