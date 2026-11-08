@@ -1,57 +1,5 @@
 [
  {
-  "id": "espn-401909938",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "IND",
-  "away": "DEN",
-  "neutral": "1",
-  "source": "espn",
-  "start_et": "17:00",
-  "venue": "Arena CDMX",
-  "spread": -7.5
- },
- {
-  "id": "espn-401909939",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ATL",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "State Farm Arena",
-  "spread": 6.5
- },
- {
-  "id": "espn-401909940",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CLE",
-  "away": "NY",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Rocket Arena",
-  "spread": -5.5
- },
- {
-  "id": "espn-401909941",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "OKC",
-  "away": "WSH",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Paycom Center",
-  "spread": 11.5
- },
- {
   "id": "espn-401909942",
   "date": "2026-11-07",
   "season": 2026,
@@ -114,7 +62,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "Little Caesars Arena",
-  "spread": 2.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909947",
@@ -127,7 +75,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 11.5
  },
  {
   "id": "espn-401909948",
@@ -153,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": -12.5
  },
  {
   "id": "espn-401909950",
@@ -166,7 +114,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909951",
@@ -179,7 +127,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -8.5
  },
  {
   "id": "espn-401909952",
@@ -988,19 +936,6 @@
   "spread": null
  },
  {
-  "id": "espn-401910005",
-  "date": "2026-11-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "LAL",
-  "away": "CHA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "crypto.com Arena",
-  "spread": null
- },
- {
   "id": "espn-401910006",
   "date": "2026-11-17",
   "season": 2026,
@@ -1009,8 +944,21 @@
   "away": "UTAH",
   "neutral": "",
   "source": "espn",
-  "start_et": "23:00",
+  "start_et": "22:30",
   "venue": "Intuit Dome",
+  "spread": null
+ },
+ {
+  "id": "espn-401910005",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "LAL",
+  "away": "CHA",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "23:00",
+  "venue": "crypto.com Arena",
   "spread": null
  },
  {
