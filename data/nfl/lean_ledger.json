@@ -56,5 +56,15 @@
   "score": "New York Giants 20, Philadelphia Eagles 27",
   "made": "2026-10-25",
   "line": null
+ },
+ {
+  "key": "NYG|WSH|2026-11-12",
+  "date": "2026-11-12",
+  "holder": "NYG",
+  "challenger": "WSH",
+  "pick": "NYG",
+  "score": "New York Giants 24, Washington Commanders 17",
+  "made": "2026-11-08",
+  "line": null
  }
 ]

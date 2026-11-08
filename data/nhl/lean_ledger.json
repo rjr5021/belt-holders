@@ -306,5 +306,15 @@
   "score": "Buffalo Sabres 4, Vegas Golden Knights 2",
   "made": "2026-11-07",
   "line": null
+ },
+ {
+  "key": "BUF|TBL|2026-11-11",
+  "date": "2026-11-11",
+  "holder": "BUF",
+  "challenger": "TBL",
+  "pick": "TBL",
+  "score": "Buffalo Sabres 3, Tampa Bay Lightning 4",
+  "made": "2026-11-08",
+  "line": null
  }
 ]

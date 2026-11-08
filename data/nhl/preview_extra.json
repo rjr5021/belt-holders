@@ -1,15 +1,14 @@
 {
- "key": "BUF|VGK|2026-11-08",
- "updated": "2026-11-07T08:51Z",
- "start_utc": "2026-11-08T20:30Z",
+ "key": "BUF|TBL|2026-11-11",
+ "updated": "2026-11-08T22:09Z",
+ "start_utc": "2026-11-12T00:00Z",
  "espn": {
-  "event_id": "401892675",
-  "start_utc": "2026-11-08T20:30Z",
+  "event_id": "401892690",
+  "start_utc": "2026-11-12T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN+",
-   "MSGB",
-   "Scripps Sports"
+   "TNT",
+   "truTV"
   ],
   "odds": null,
   "teams": {
@@ -20,10 +19,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "VGK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-    "abbr": "VGK",
-    "record": "11-5-2",
+   "TBL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
+    "abbr": "TB",
+    "record": "11-3-2",
     "rank": null,
     "home_away": "away"
    }
@@ -37,17 +36,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Buffalo Sabres put their lineal championship belt on the line when they host the Vegas Golden Knights on November 8th, 2026. Buffalo enters with an 8-8 record but holds the belt in their first defense of this reign, while Vegas comes in at 11-7 and riding a two-game winning streak. The Golden Knights have held the belt 23 times previously and will look to reclaim it in Western New York.",
+  "overview": "The Buffalo Sabres put their newly-acquired lineal championship belt on the line when they host the Tampa Bay Lightning on November 11, 2026. Buffalo claimed the belt in their most recent outing and have yet to defend it in this reign, while Tampa Bay are no strangers to belt competition having held it 63 times previously. The two teams have battled for the belt 8 times before in this lineal championship's history.",
   "key_matchups": [
-   "Buffalo's recent offensive firepower (5-2 win over Columbus, 7-6 thriller at Anaheim) versus Vegas's tighter defensive structure on their current streak (2-1 and 3-2 wins)",
-   "The Sabres' 9-7 all-time edge in the series, including a 2-0 shutout victory in their most recent meeting on 2026-03-17",
-   "Vegas looking to avenge back-to-back losses to Buffalo earlier in 2026 (0-2 and 2-3 defeats)"
+   "Hot Lightning offense riding a 3-game winning streak against a Buffalo team that's won 4 of their last 5",
+   "Tampa Bay seeking redemption after losing all three meetings with Buffalo earlier this calendar year",
+   "First belt defense for the Sabres in this reign against a Lightning squad with extensive belt experience"
   ],
-  "betting_angles": "Buffalo holds home ice and the Elo model's favor despite an even 8-8 record, having won four of their last five games including three straight before the Ottawa stumble. Vegas brings the superior record at 11-7 and current momentum with consecutive road wins, but the head-to-head history tilts toward the Sabres at 9-7 all-time with Buffalo taking the last two meetings. The Golden Knights' experience holding the belt 23 times before suggests they understand what's required in these pressure situations.",
-  "predicted_winner": "Buffalo Sabres",
-  "predicted_score": "Buffalo Sabres 4, Vegas Golden Knights 2",
-  "prediction_writeup": "Buffalo's home ice advantage and the Elo edge prove decisive in this belt defense. The Sabres have shown they can score in bunches recently, posting 5 goals against Columbus and 7 at Anaheim, while their 9-7 all-time series lead includes a 2-0 shutout of Vegas in their most recent March meeting. Vegas is the hotter team with back-to-back wins and a better overall record, but they've struggled against Buffalo historically and face a motivated belt holder in front of their home crowd. The Sabres successfully defend for the first time in this reign.",
-  "written": "2026-11-07",
+  "betting_angles": "Tampa Bay enters with superior form, winning their last 3 games compared to Buffalo's 1-game win streak, and holds the better record at 11-5 versus Buffalo's 8-8. However, the Sabres have dominated the recent head-to-head series, taking three of the last four meetings including a wild 8-7 victory in March and a 6-2 win in February. The Elo model rates this as a toss-up despite Tampa Bay's stronger season record, likely factoring in Buffalo's home ice and recent dominance in the matchup.",
+  "predicted_winner": "Tampa Bay Lightning",
+  "predicted_score": "Buffalo Sabres 3, Tampa Bay Lightning 4",
+  "prediction_writeup": "While Buffalo has owned this matchup recently and holds home ice, Tampa Bay's superior season record of 11-5 and current 3-game winning streak suggest they're the sharper team right now. The Lightning have shown they can score consistently, posting 4 goals in each of their last three wins, and their 63 previous belt reigns demonstrate they know how to handle pressure in lineal championship situations. Buffalo's 8-8 record and tendency toward high-scoring affairs this season could leave them vulnerable to a focused Tampa Bay attack. The Elo model calls it a toss-up, but the Lightning's form and experience give them a narrow edge in what should be a tightly-contested game.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

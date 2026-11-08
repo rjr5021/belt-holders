@@ -1,59 +1,59 @@
 {
- "key": "NYG|PHI|2026-11-08",
- "updated": "2026-10-25T20:53Z",
- "start_utc": "2026-11-08T18:00Z",
+ "key": "NYG|WSH|2026-11-12",
+ "updated": "2026-11-08T22:07Z",
+ "start_utc": "2026-11-13T01:15Z",
  "espn": {
-  "event_id": "401873044",
-  "start_utc": "2026-11-08T18:00Z",
+  "event_id": "401873052",
+  "start_utc": "2026-11-13T01:15Z",
   "state": "pre",
   "tv": [
-   "Fox"
+   "Prime Video"
   ],
   "odds": null,
   "teams": {
-   "PHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-    "abbr": "PHI",
-    "record": "2-4",
-    "rank": null,
-    "home_away": "home"
-   },
    "NYG": {
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
     "abbr": "NYG",
-    "record": "4-2-1",
+    "record": "5-2-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "WSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "abbr": "WSH",
+    "record": "2-5-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Lincoln Financial Field",
-   "city": "Philadelphia",
-   "state": "PA",
+   "name": "MetLife Stadium",
+   "city": "East Rutherford",
+   "state": "NJ",
    "indoor": false
   }
  },
  "weather": {
-  "temp_f": 64,
-  "feels_like_f": 62,
-  "precip_chance": 13,
-  "wind_mph": 4,
-  "condition": "Mostly clear",
-  "as_of": "2026-10-25",
-  "venue": "Lincoln Financial Field"
+  "temp_f": 57,
+  "feels_like_f": 55,
+  "precip_chance": 70,
+  "wind_mph": 6,
+  "condition": "Drizzle",
+  "as_of": "2026-11-08",
+  "venue": "MetLife Stadium"
  },
  "ai": {
-  "overview": "The New York Giants bring the lineal championship belt to Philadelphia for a divisional showdown on November 8, 2026. The Giants claimed the belt in their most recent outing and now face their first defense against an Eagles team desperate to snap a four-game skid. With 16 previous belt meetings in this storied rivalry, both teams know what's at stake when the lineal title is on the line.",
+  "overview": "The New York Giants host the Washington Commanders with the lineal championship belt on the line, having defended it once in their current reign. This NFC East rivalry renewal pits a Giants squad riding a two-game winning streak against a Commanders team looking to snap a one-game skid and claim the belt for the 28th time in franchise history.",
   "key_matchups": [
-   "Giants' recent 27-21 road win at Houston versus Eagles' four-game losing streak that includes a 14-25 home loss to Carolina",
-   "Philadelphia's 27-point home edge in the Elo model despite their 2-4 record and current form",
-   "The Giants' mixed recent results (three wins, a tie, and a loss in their last five) against an Eagles team that has dropped four straight"
+   "Giants' recent defensive form after holding Philadelphia to 11 points versus a Commanders offense that managed just 13 in their last outing against the Rams",
+   "Washington's familiarity with New York after their 27-27 tie just a month ago on October 11th",
+   "The Giants' 5-2-1 record and momentum from victories over Philadelphia and Houston against Washington's 2-5-1 mark and three losses in their last four games"
   ],
-  "betting_angles": "The Elo model strongly favors Philadelphia despite their 2-4 record and four-game losing streak, suggesting the underlying metrics still believe in the Eagles at home. New York enters with better recent form at 4-2-1 and momentum from a 27-21 road victory, though they're coming off a tie and a loss in two of their last five. The all-time series is nearly even at 96-89-2 in Philadelphia's favor, and the recent head-to-head has been highly competitive with four of the last five meetings decided by double digits but split evenly.",
-  "predicted_winner": "Philadelphia Eagles",
-  "predicted_score": "New York Giants 20, Philadelphia Eagles 27",
-  "prediction_writeup": "The Elo model's clear designation of Philadelphia as favorites at home carries significant weight, even against their current four-game slide. The Giants have shown inconsistency with a tie at Washington and a home loss to New Orleans mixed into their recent stretch. Philadelphia has held the belt 27 times previously and knows how to win these lineal championship games, having met the Giants 16 times before with the belt on the line. While New York's 4-2-1 record looks better on paper, the underlying numbers suggest the Eagles are due for a bounce-back performance at home, and a divisional rivalry game provides the perfect opportunity to end their skid and claim the belt.",
-  "written": "2026-10-25",
+  "betting_angles": "The Giants enter as Elo favorites with clear advantages in current form, having won their last two games while Washington has dropped three of four. The all-time series favors New York 108-75-6, though their recent meetings have been competitive, including the 27-27 deadlock last month and Washington winning both matchups in 2025. The Giants' superior 5-2-1 record compared to Washington's 2-5-1 mark suggests a significant gap in quality this season.",
+  "predicted_winner": "New York Giants",
+  "predicted_score": "New York Giants 24, Washington Commanders 17",
+  "prediction_writeup": "The Giants have found their stride with consecutive wins, including a defensive statement holding Philadelphia to just 11 points in their most recent outing. Washington's offense has struggled, scoring 13 points in back-to-back losses to the Rams and 49ers. While these division rivals played to a 27-27 tie on October 11th, New York's improved form since then\u2014coupled with home field advantage and the Elo edge\u2014tips the scales in their favor. The Giants retain the belt with a workmanlike victory.",
+  "written": "2026-11-08",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
