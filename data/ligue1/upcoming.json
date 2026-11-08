@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-82",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AJ Auxerre",
-  "away": "Paris FC",
-  "start_et": "11:15"
- },
- {
-  "id": "of-2026-83",
-  "date": "2026-11-07",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Paris Saint-Germain",
-  "away": "ESTAC Troyes",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-84",
   "date": "2026-11-08",
   "season": 2026,

@@ -275,17 +275,6 @@
   "tournament": "CONCACAF Nations League"
  },
  {
-  "id": "int-espn-401931957",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "United Arab Emirates",
-  "away": "Honduras",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401916338",
   "date": "2026-11-13",
   "season": 2026,
@@ -341,6 +330,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401931957",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "United Arab Emirates",
+  "away": "Honduras",
+  "neutral": "",
+  "start_et": "09:10",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401931476",
   "date": "2026-11-13",
   "season": 2026,
@@ -360,6 +360,17 @@
   "away": "Australia",
   "neutral": "",
   "start_et": "09:45",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401933636",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Iraq",
+  "away": "Lebanon",
+  "neutral": "",
+  "start_et": "10:00",
   "tournament": "Friendly"
  },
  {
@@ -722,7 +733,7 @@
   "home": "Palestine",
   "away": "Iran",
   "neutral": "",
-  "start_et": "11:00",
+  "start_et": "10:00",
   "tournament": "Friendly"
  },
  {
@@ -1232,17 +1243,6 @@
   "tournament": "Friendly"
  },
  {
-  "id": "int-espn-401932718",
-  "date": "2026-11-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "United Arab Emirates",
-  "away": "Syria",
-  "neutral": "",
-  "start_et": null,
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401930237",
   "date": "2026-11-17",
   "season": 2026,
@@ -1273,6 +1273,17 @@
   "away": "Vietnam",
   "neutral": "",
   "start_et": "07:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401933635",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Lebanon",
+  "away": "Palestine",
+  "neutral": "",
+  "start_et": "08:00",
   "tournament": "Friendly"
  },
  {
@@ -1361,6 +1372,17 @@
   "away": "South Korea",
   "neutral": "",
   "start_et": "09:00",
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401932718",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "United Arab Emirates",
+  "away": "Syria",
+  "neutral": "",
+  "start_et": "09:10",
   "tournament": "Friendly"
  },
  {
@@ -1461,6 +1483,17 @@
   "neutral": "",
   "start_et": "11:00",
   "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401933615",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Iraq",
+  "away": "Iran",
+  "neutral": "",
+  "start_et": "11:15",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401929769",
