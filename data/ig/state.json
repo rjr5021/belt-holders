@@ -76,6 +76,21 @@
    "opponent_short": "Eagles",
    "reign_no": 28,
    "since": "2026-10-25"
+  },
+  "nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-08",
+   "defenses": 0,
+   "espn_id": "401892675",
+   "espn_path": "hockey/nhl",
+   "game_no": 8452,
+   "holder": "Buffalo Sabres",
+   "holder_short": "Sabres",
+   "lg": "nhl",
+   "opponent": "Vegas Golden Knights",
+   "opponent_short": "Golden Knights",
+   "reign_no": 88,
+   "since": "2026-11-06"
   }
  },
  "previews": [
