@@ -61,7 +61,23 @@
   "2026-11-07 18:07 result ligue1|Paris FC|AJ Auxerre|2026-11-07 https://www.instagram.com/p/DfdVI7bmTQR/",
   "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/"
  ],
- "pending": {},
+ "pending": {
+  "nfl|New York Giants|Philadelphia Eagles|2026-11-08": {
+   "belt_name": "The NFL Belt",
+   "date": "2026-11-08",
+   "defenses": 0,
+   "espn_id": "401873044",
+   "espn_path": "football/nfl",
+   "game_no": 1650,
+   "holder": "New York Giants",
+   "holder_short": "Giants",
+   "lg": "nfl",
+   "opponent": "Philadelphia Eagles",
+   "opponent_short": "Eagles",
+   "reign_no": 28,
+   "since": "2026-10-25"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
