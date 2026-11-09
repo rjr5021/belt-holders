@@ -1,21 +1,21 @@
 {
- "key": "Athletic Bilbao|CA Osasuna|2026-11-08",
- "updated": "2026-11-02T06:09Z",
+ "key": "Athletic Bilbao|Espanyol Barcelona|2026-11-22",
+ "updated": "2026-11-09T01:48Z",
  "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Athletic Bilbao bring the Belt Holders lineal championship to CA Osasuna on November 8, 2026, having defended it twice in their current reign. The belt changes hands with every defeat, meaning Bilbao must avoid a loss to keep their hold on this historic prize that has passed through La Liga since the league's inception.",
+  "overview": "Athletic Bilbao put their lineal championship belt on the line when they host Espanyol on November 22, 2026. The belt, which changes hands with every defeat and has been tracked game-by-game since La Liga's inception, is currently in its third game of Bilbao's latest reign after two successful defenses. Espanyol, who have held the belt 60 times previously, will look to claim it once again in what has historically been a tight rivalry.",
   "key_matchups": [
-   "Athletic Bilbao's recent scoring drought\u2014just one goal in their last two draws\u2014meets a CA Osasuna side that conceded four at Atl\u00e9tico Madrid and five at Deportivo Alav\u00e9s in their last five",
-   "Bilbao's all-time head-to-head dominance (44-20-26 in 90 meetings) versus Osasuna's home advantage and desperation to reverse a run of three losses in their last four",
-   "The belt's history: Osasuna have held it 31 times before and will be motivated to reclaim it from visitors who have defended twice already"
+   "Athletic Bilbao's unbeaten three-game stretch at home before their recent draws versus Espanyol's two-game losing streak",
+   "Bilbao's defensive solidity shown in the 3\u20130 win over Atl\u00e9tico Madrid and 2\u20130 win at Celta Vigo against Espanyol's recent struggles to keep games close",
+   "The head-to-head history slightly favors Athletic Bilbao (74-68-36 in 178 meetings), but Espanyol won both meetings in 2026 and 2025"
   ],
-  "betting_angles": "Athletic Bilbao's form shows resilience with two wins by clean sheet (3-0 vs Atl\u00e9tico Madrid, 2-0 at Celta Vigo) in their last five, though back-to-back draws suggest recent inconsistency. CA Osasuna have struggled badly, losing three of their last four including heavy defeats of 0-4 and 2-5, and their 2-3-2 record trails Bilbao's 2-2-2. Our Elo model calls this a toss-up despite Bilbao's superior head-to-head record and recent form edge.",
+  "betting_angles": "Athletic Bilbao enter as Elo favorites with superior recent form, having tied their last 2 games after posting shutout wins over Atl\u00e9tico Madrid and Celta Vigo. Espanyol have lost their last 2 games and carry a 2-4-1 record compared to Bilbao's 2-2-2 mark. However, the head-to-head history shows Espanyol won both recent meetings 2-0 and 2-1, suggesting they've found success against Bilbao despite their current struggles.",
   "predicted_winner": "Athletic Bilbao",
-  "predicted_score": "Athletic Bilbao 1, CA Osasuna 0",
-  "prediction_writeup": "Athletic Bilbao have shown they can shut down quality opposition with clean sheets against Atl\u00e9tico Madrid and Celta Vigo in their last five games. While their attack has stalled recently with consecutive draws, CA Osasuna's defensive fragility\u2014conceding four and five goals in two of their last four matches\u2014presents an opportunity for the visitors to break through. Bilbao's historical dominance in this fixture (44 wins to 20) and their 1-0 victory in the most recent meeting this past April suggest they can grind out a narrow result. The belt holders should escape with a tight win to extend their reign to three defenses.",
-  "written": "2026-11-02",
+  "predicted_score": "Athletic Bilbao 2, Espanyol 0",
+  "prediction_writeup": "Athletic Bilbao should retain the belt playing at home against a struggling Espanyol side. While Espanyol won both recent meetings, Bilbao's recent form is considerably stronger, with draws against Deportivo Alav\u00e9s and Elche CF following impressive shutout victories over Atl\u00e9tico Madrid and Celta Vigo. Espanyol have lost their last 2 games and carry a losing record of 2-4-1 this season. The Elo model favoring Bilbao combined with home advantage and superior current form should be enough to secure a third belt defense, likely by a clean sheet margin similar to their recent wins.",
+  "written": "2026-11-09",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

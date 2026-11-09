@@ -1,10 +1,10 @@
 {
- "key": "BUF|TBL|2026-11-11",
- "updated": "2026-11-08T22:09Z",
- "start_utc": "2026-11-12T00:00Z",
+ "key": "VGK|UTA|2026-11-11",
+ "updated": "2026-11-09T01:46Z",
+ "start_utc": "2026-11-12T02:30Z",
  "espn": {
-  "event_id": "401892690",
-  "start_utc": "2026-11-12T00:00Z",
+  "event_id": "401892693",
+  "start_utc": "2026-11-12T02:30Z",
   "state": "pre",
   "tv": [
    "TNT",
@@ -12,44 +12,44 @@
   ],
   "odds": null,
   "teams": {
-   "BUF": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
-    "abbr": "BUF",
-    "record": "8-5-3",
+   "VGK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
+    "abbr": "VGK",
+    "record": "12-5-2",
     "rank": null,
     "home_away": "home"
    },
-   "TBL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
-    "abbr": "TB",
-    "record": "11-3-2",
+   "UTA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+    "abbr": "UTA",
+    "record": "10-7-1",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "KeyBank Center",
-   "city": "Buffalo",
-   "state": "NY",
+   "name": "T-Mobile Arena",
+   "city": "Las Vegas",
+   "state": "NV",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Buffalo Sabres put their newly-acquired lineal championship belt on the line when they host the Tampa Bay Lightning on November 11, 2026. Buffalo claimed the belt in their most recent outing and have yet to defend it in this reign, while Tampa Bay are no strangers to belt competition having held it 63 times previously. The two teams have battled for the belt 8 times before in this lineal championship's history.",
+  "overview": "The Vegas Golden Knights put their lineal championship belt on the line when they host the Utah Mammoth on November 11, 2026. Vegas has yet to defend the belt in this reign, making this their first defense opportunity. The belt passes to whoever wins, with no committee or poll involved\u2014just the result on the ice.",
   "key_matchups": [
-   "Hot Lightning offense riding a 3-game winning streak against a Buffalo team that's won 4 of their last 5",
-   "Tampa Bay seeking redemption after losing all three meetings with Buffalo earlier this calendar year",
-   "First belt defense for the Sabres in this reign against a Lightning squad with extensive belt experience"
+   "Vegas riding a 3-game winning streak against Utah's 2-game skid",
+   "Golden Knights hold 7-5 edge in all-time head-to-head series",
+   "The belt has been contested 6 times previously between these teams"
   ],
-  "betting_angles": "Tampa Bay enters with superior form, winning their last 3 games compared to Buffalo's 1-game win streak, and holds the better record at 11-5 versus Buffalo's 8-8. However, the Sabres have dominated the recent head-to-head series, taking three of the last four meetings including a wild 8-7 victory in March and a 6-2 win in February. The Elo model rates this as a toss-up despite Tampa Bay's stronger season record, likely factoring in Buffalo's home ice and recent dominance in the matchup.",
-  "predicted_winner": "Tampa Bay Lightning",
-  "predicted_score": "Buffalo Sabres 3, Tampa Bay Lightning 4",
-  "prediction_writeup": "While Buffalo has owned this matchup recently and holds home ice, Tampa Bay's superior season record of 11-5 and current 3-game winning streak suggest they're the sharper team right now. The Lightning have shown they can score consistently, posting 4 goals in each of their last three wins, and their 63 previous belt reigns demonstrate they know how to handle pressure in lineal championship situations. Buffalo's 8-8 record and tendency toward high-scoring affairs this season could leave them vulnerable to a focused Tampa Bay attack. The Elo model calls it a toss-up, but the Lightning's form and experience give them a narrow edge in what should be a tightly-contested game.",
-  "written": "2026-11-08",
+  "betting_angles": "Vegas has won their last 3 games while Utah has lost their last 2, suggesting divergent form heading into this matchup. The Golden Knights hold a 12-7 record this season compared to Utah's 10-8 mark, and Vegas leads the all-time series 7-5 across 12 games. Our Elo model favors the home side in this belt defense.",
+  "predicted_winner": "Vegas Golden Knights",
+  "predicted_score": "Vegas Golden Knights 4, Utah Mammoth 2",
+  "prediction_writeup": "Vegas enters with momentum from their 3-game winning streak, most recently a 4-1 victory at Buffalo, while Utah limps in having dropped their last 2 games. The Golden Knights' 12-7 record edges Utah's 10-8 mark, and Vegas holds the historical advantage at 7-5 in the all-time series. With the Elo model backing the home side and Utah struggling on their current road trip, Vegas should secure their first belt defense of this reign. The Golden Knights have shown they can win tight games during this streak, taking 3-2 and 2-1 decisions before their latest victory.",
+  "written": "2026-11-09",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }
