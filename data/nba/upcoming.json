@@ -1,57 +1,5 @@
 [
  {
-  "id": "espn-401909946",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DET",
-  "away": "LAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "18:00",
-  "venue": "Little Caesars Arena",
-  "spread": 7.5
- },
- {
-  "id": "espn-401909947",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "UTAH",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Target Center",
-  "spread": 12.5
- },
- {
-  "id": "espn-401909948",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DAL",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "American Airlines Center",
-  "spread": 7.5
- },
- {
-  "id": "espn-401909949",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIL",
-  "away": "BOS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Fiserv Forum",
-  "spread": -13.5
- },
- {
   "id": "espn-401909950",
   "date": "2026-11-08",
   "season": 2026,
@@ -75,7 +23,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Golden 1 Center",
-  "spread": -10.5
+  "spread": -11.5
  },
  {
   "id": "espn-401909952",
@@ -153,7 +101,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 4.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909958",
@@ -166,7 +114,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": -7.5
+  "spread": -8.5
  },
  {
   "id": "espn-401909959",
@@ -205,7 +153,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909962",
@@ -390,19 +338,6 @@
   "spread": null
  },
  {
-  "id": "espn-401909977",
-  "date": "2026-11-12",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "WSH",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Capital One Arena",
-  "spread": null
- },
- {
   "id": "espn-401909976",
   "date": "2026-11-12",
   "season": 2026,
@@ -413,6 +348,19 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
+  "spread": null
+ },
+ {
+  "id": "espn-401909977",
+  "date": "2026-11-12",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "WSH",
+  "away": "DET",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "19:00",
+  "venue": "Capital One Arena",
   "spread": null
  },
  {
