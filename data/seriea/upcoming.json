@@ -1,50 +1,5 @@
 [
  {
-  "id": "of-2026-105",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SSC Napoli",
-  "away": "Lazio Roma",
-  "start_et": "06:30"
- },
- {
-  "id": "of-2026-106",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Genoa CFC",
-  "away": "AC Milan",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-107",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Monza",
-  "away": "Atalanta",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-108",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Inter",
-  "away": "Como Calcio",
-  "start_et": "12:00"
- },
- {
-  "id": "of-2026-109",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "ACF Fiorentina",
-  "away": "Juventus",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-110",
   "date": "2026-11-21",
   "season": 2026,
