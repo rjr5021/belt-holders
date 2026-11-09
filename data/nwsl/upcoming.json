@@ -1,1 +1,40 @@
-[]
+[
+ {
+  "id": "espn-401933734",
+  "date": "2026-11-14",
+  "season_type": "regular",
+  "home": "Washington Spirit",
+  "away": "Utah Royals",
+  "home_id": "15365",
+  "away_id": "19141",
+  "home_abbr": "WAS",
+  "away_abbr": "UTA",
+  "home_loc": "Washington Spirit",
+  "away_loc": "Utah Royals",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 14022,
+  "start_et": "12:00",
+  "season": 2026
+ },
+ {
+  "id": "espn-401933740",
+  "date": "2026-11-15",
+  "season_type": "regular",
+  "home": "Gotham FC",
+  "away": "Kansas City Current",
+  "home_id": "15364",
+  "away_id": "20907",
+  "home_abbr": "GFC",
+  "away_abbr": "KC",
+  "home_loc": "Gotham FC",
+  "away_loc": "Kansas City Current",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 14022,
+  "start_et": "15:00",
+  "season": 2026
+ }
+]
