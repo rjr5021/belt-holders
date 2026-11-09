@@ -48,6 +48,7 @@
    "danger": "2026-10-31T16:47-04:00",
    "end": "2026-10-31T17:57-04:00"
   },
+  "eredivisie|2026-11-08|azalkmaar|groningen": {},
   "intl|2026-10-06|spain|croatia": {
    "danger": "2026-10-06T15:31-04:00",
    "end": "2026-10-06T16:37-04:00"
@@ -67,6 +68,9 @@
   },
   "laliga|2026-11-01|athleticbilbao|realsociedad": {
    "end": "2026-11-01T18:40-05:00"
+  },
+  "laliga|2026-11-08|athleticbilbao|caosasuna": {
+   "end": "not-on-espn"
   },
   "ligamx|2026-10-10|atlante|queretaro": {
    "danger": "2026-10-10T19:47-04:00",
@@ -698,168 +702,53 @@
   ]
  ],
  "today": {
-  "day": "2026-11-07",
+  "day": "2026-11-08",
   "games": [
    {
-    "belt": "NBA",
+    "belt": "La Liga",
     "colors": [
-     "#860038",
-     "#fdbb30"
-    ],
-    "defenses": 0,
-    "holder": "Cleveland Cavaliers",
-    "holder_short": "Cavaliers",
-    "home": true,
-    "lg": "nba",
-    "name": "The NBA Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nba/next/",
-    "opponent": "New York Knicks",
-    "opponent_short": "Knicks",
-    "reign_no": 85,
-    "since": "2026-11-06",
-    "time_et": "20:00",
-    "tv": "NBA TV \u00b7 DAZN CLE",
-    "url": "https://beltholders.com/nba/",
-    "win_prob": 0.502
-   },
-   {
-    "belt": "MLS",
-    "colors": [
-     "#ece83a",
-     "#1f1646"
-    ],
-    "defenses": 5,
-    "holder": "Nashville SC",
-    "holder_short": "Nashville",
-    "home": false,
-    "lg": "mls",
-    "name": "The MLS Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/mls/next/",
-    "opponent": "FC Cincinnati",
-    "opponent_short": "Cincinnati",
-    "reign_no": 3,
-    "since": "2026-10-10",
-    "time_et": "16:00",
-    "tv": "Apple TV",
-    "url": "https://beltholders.com/mls/",
-    "win_prob": 0.563
-   },
-   {
-    "belt": "NWSL",
-    "colors": [
-     "#62cbc9",
-     "#cf3339"
-    ],
-    "defenses": 4,
-    "holder": "Kansas City Current",
-    "holder_short": "KC Current",
-    "home": true,
-    "lg": "nwsl",
-    "name": "The NWSL Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/nwsl/next/",
-    "opponent": "Angel City FC",
-    "opponent_short": "Angel City",
-    "reign_no": 4,
-    "since": "2026-09-26",
-    "time_et": "12:00",
-    "tv": "CBS",
-    "url": "https://beltholders.com/nwsl/",
-    "win_prob": 0.633
-   },
-   {
-    "belt": "Premier League",
-    "colors": [
-     "#6cabdd",
-     "#1c2c5b"
-    ],
-    "defenses": 4,
-    "holder": "Manchester City",
-    "holder_short": "Man City",
-    "home": false,
-    "lg": "epl",
-    "name": "The English Football Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/epl/next/",
-    "opponent": "Nottingham Forest",
-    "opponent_short": "Forest",
-    "reign_no": 62,
-    "since": "2026-08-23",
-    "time_et": "10:00",
-    "tv": "NBC \u00b7 Tele",
-    "url": "https://beltholders.com/epl/",
-    "win_prob": 0.649
-   },
-   {
-    "belt": "Serie A",
-    "colors": [
-     "#8e1f2f",
-     "#f0bc42"
-    ],
-    "defenses": 8,
-    "holder": "AS Roma",
-    "holder_short": "Roma",
-    "home": true,
-    "lg": "seriea",
-    "name": "The Serie A Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/seriea/next/",
-    "opponent": "Sassuolo Calcio",
-    "opponent_short": "Sassuolo",
-    "reign_no": 66,
-    "since": "2026-05-04",
-    "time_et": "14:45",
-    "tv": "Paramount+",
-    "url": "https://beltholders.com/seriea/",
-    "win_prob": 0.742
-   },
-   {
-    "belt": "Bundesliga",
-    "colors": [
-     "#dc052d",
-     "#0066b2"
-    ],
-    "defenses": 14,
-    "holder": "Bayern Munich",
-    "holder_short": "Bayern",
-    "home": false,
-    "lg": "bundesliga",
-    "name": "The Bundesliga Belt",
-    "neutral": false,
-    "next_url": "https://beltholders.com/bundesliga/next/",
-    "opponent": "1. FSV Mainz 05",
-    "opponent_short": "Mainz",
-    "reign_no": 57,
-    "since": "2026-02-28",
-    "time_et": "09:30",
-    "tv": null,
-    "url": "https://beltholders.com/bundesliga/",
-    "win_prob": 0.672
-   },
-   {
-    "belt": "Ligue 1",
-    "colors": [
-     "#1d2f5c",
+     "#ee2523",
      "#ffffff"
     ],
-    "defenses": 0,
-    "holder": "Paris FC",
-    "holder_short": "Paris",
+    "defenses": 2,
+    "holder": "Athletic Bilbao",
+    "holder_short": "Athletic",
     "home": false,
-    "lg": "ligue1",
-    "name": "The Ligue 1 Belt",
+    "lg": "laliga",
+    "name": "The La Liga Belt",
     "neutral": false,
-    "next_url": "https://beltholders.com/ligue1/next/",
-    "opponent": "AJ Auxerre",
-    "opponent_short": "Auxerre",
-    "reign_no": 2,
-    "since": "2026-09-19",
-    "time_et": "11:15",
-    "tv": "beIn Sports",
-    "url": "https://beltholders.com/ligue1/",
-    "win_prob": 0.528
+    "next_url": "https://beltholders.com/laliga/next/",
+    "opponent": "CA Osasuna",
+    "opponent_short": "Osasuna",
+    "reign_no": 76,
+    "since": "2026-09-05",
+    "time_et": null,
+    "tv": null,
+    "url": "https://beltholders.com/laliga/",
+    "win_prob": 0.473
+   },
+   {
+    "belt": "Eredivisie",
+    "colors": [
+     "#e30613",
+     "#ffffff"
+    ],
+    "defenses": 11,
+    "holder": "AZ Alkmaar",
+    "holder_short": "AZ",
+    "home": true,
+    "lg": "eredivisie",
+    "name": "The Eredivisie Belt",
+    "neutral": false,
+    "next_url": "https://beltholders.com/eredivisie/next/",
+    "opponent": "FC Groningen",
+    "opponent_short": "Groningen",
+    "reign_no": 19,
+    "since": "2026-04-12",
+    "time_et": "10:45",
+    "tv": "ESPN+",
+    "url": "https://beltholders.com/eredivisie/",
+    "win_prob": 0.675
    }
   ]
  }
