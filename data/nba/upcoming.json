@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909950",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "LAC",
-  "away": "NO",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Intuit Dome",
-  "spread": -1.5
- },
- {
-  "id": "espn-401909951",
-  "date": "2026-11-08",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SAC",
-  "away": "MIA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Golden 1 Center",
-  "spread": -11.5
- },
- {
   "id": "espn-401909952",
   "date": "2026-11-09",
   "season": 2026,
@@ -36,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "State Farm Arena",
-  "spread": null
+  "spread": -2.5
  },
  {
   "id": "espn-401909953",
@@ -49,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": null
+  "spread": -8.5
  },
  {
   "id": "espn-401909954",
@@ -62,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Little Caesars Arena",
-  "spread": null
+  "spread": 10.5
  },
  {
   "id": "espn-401909955",
@@ -75,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909956",
@@ -88,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "American Airlines Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909957",
@@ -127,7 +101,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401909960",
