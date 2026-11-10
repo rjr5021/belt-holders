@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-27 22:51 result nba|Detroit Pistons|New York Knicks|2026-10-27 https://www.instagram.com/p/DfBZvVmgAVA/",
   "2026-10-27 22:51 result nhl|Dallas Stars|New Jersey Devils|2026-10-27 https://www.instagram.com/p/DfBZyG5AAXq/",
   "2026-10-28 14:40 preview nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfDGVhuGeoQ/",
   "2026-10-28 14:40 preview nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfDGY4Gmfp7/",
@@ -59,7 +58,8 @@
   "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/",
   "2026-11-08 18:06 result nfl|New York Giants|Philadelphia Eagles|2026-11-08 https://www.instagram.com/p/Dff5iD9HYjT/",
   "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/",
-  "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/"
+  "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/",
+  "2026-11-10 15:15 preview nba|New York Knicks|Milwaukee Bucks|2026-11-10 https://www.instagram.com/p/Dfkvh5FiShT/"
  ],
  "pending": {
   "nba|New York Knicks|Milwaukee Bucks|2026-11-10": {
@@ -133,7 +133,8 @@
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06",
   "nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06",
   "ligamx|Tijuana|Necaxa|2026-11-06",
-  "nba|Cleveland Cavaliers|New York Knicks|2026-11-07"
+  "nba|Cleveland Cavaliers|New York Knicks|2026-11-07",
+  "nba|New York Knicks|Milwaukee Bucks|2026-11-10"
  ],
  "results": [
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20",
