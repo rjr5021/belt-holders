@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909963",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "23:00",
   "venue": "Moda Center",
-  "spread": -1.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909966",
