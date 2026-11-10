@@ -1,55 +1,53 @@
 {
- "key": "AZ Alkmaar|FC Groningen|2026-11-08",
- "updated": "2026-11-02T06:09Z",
- "start_utc": "2026-11-08T15:45Z",
+ "key": "AZ Alkmaar|Sparta Rotterdam|2026-11-22",
+ "updated": "2026-11-10T12:43Z",
+ "start_utc": "2026-11-22T13:30Z",
  "espn": {
-  "event_id": "401875548",
-  "start_utc": "2026-11-08T15:45Z",
+  "event_id": "401875540",
+  "start_utc": "2026-11-22T13:30Z",
   "state": "pre",
-  "tv": [
-   "ESPN+"
-  ],
+  "tv": [],
   "odds": {
-   "details": "AZ -200",
+   "details": "AZ -140",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "AZ Alkmaar": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-    "abbr": "AZ",
-    "record": "6-2-3",
+   "Sparta Rotterdam": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+    "abbr": "SPA",
+    "record": "3-3-6",
     "rank": null,
     "home_away": "home"
    },
-   "FC Groningen": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
-    "abbr": "GRO",
-    "record": "4-3-4",
+   "AZ Alkmaar": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+    "abbr": "AZ",
+    "record": "7-2-3",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "AFAS Stadion",
-   "city": "Alkmaar",
+   "name": "Sparta-Stadion Het Kasteel",
+   "city": "Rotterdam",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AZ Alkmaar put their lineal championship belt on the line when they host FC Groningen on November 8th, 2026. The belt has been with AZ for 11 successful defenses in this reign, while Groningen have held it 20 times previously in the league's history. This marks the fifth all-time meeting between these sides with the belt at stake.",
+  "overview": "AZ Alkmaar bring the lineal championship belt to Sparta Rotterdam on November 22nd, 2026, having defended it 11 times in their current reign. The belt passes to whoever wins this Eredivisie clash, with no committees involved\u2014just the result on the pitch.",
   "key_matchups": [
-   "AZ's strong 6-0-1 season record against Groningen's inconsistent 3-2-2 form",
-   "Recent head-to-head clash saw Groningen dominate 3-0 in March 2026, reversing AZ's prior 4-1 victory",
-   "AZ's 11-defense reign faces a Groningen side that just posted a clean 3-0 win over PEC Zwolle"
+   "AZ Alkmaar's 6-0-1 season record against Sparta Rotterdam's struggling 1-4-2 form",
+   "Sparta's two-game losing streak including a 0\u20134 home defeat versus AZ's recent W 1\u20130 vs Telstar",
+   "Historical dominance: AZ lead the all-time series 27-5-10 and won both meetings in 2026 and 2025"
   ],
-  "betting_angles": "AZ Alkmaar enter as clear Elo favorites with an impressive 6-0-1 record this season, having won 1\u20130 against Telstar most recently. FC Groningen bring mixed form with their 3-2-2 record, though they stunned AZ 3-0 in their last meeting in March. The all-time series favors AZ 26-15-14 across 55 matches, but recent history shows volatility between these sides.",
+  "betting_angles": "AZ Alkmaar enter as Elo favorites with strong underlying numbers: a 6-0-1 record this season and four wins in their last five games including a 5\u20132 victory and a 3\u20132 result. Sparta Rotterdam have dropped their last two matches by a combined 0\u20136 margin and sit at just 1-4-2 on the season. The head-to-head history heavily favors the visitors at 27-5-10 all-time, with AZ winning the last two meetings 3-1 and 1-0.",
   "predicted_winner": "AZ Alkmaar",
-  "predicted_score": "AZ Alkmaar 2, FC Groningen 1",
-  "prediction_writeup": "AZ Alkmaar's 6-0-1 season record and 11 successful belt defenses suggest they're hitting their stride at home. While Groningen shocked them 3-0 in March, AZ had previously dominated 4-1 and 3-0 in their two meetings before that. The Elo model backs AZ as clear favorites, and their recent form includes high-scoring wins like 5-2 against Go Ahead Eagles and 3-2 at sc Heerenveen. Groningen's inconsistency, including heavy defeats like 1-5 at PSV Eindhoven, suggests they'll struggle to repeat their March heroics on the road.",
-  "written": "2026-11-02",
+  "predicted_score": "AZ Alkmaar 2, Sparta Rotterdam 1",
+  "prediction_writeup": "AZ Alkmaar's superior form and dominant head-to-head record make them the clear favorite to retain the belt. Their 6-0-1 season stands in stark contrast to Sparta's 1-4-2 mark, and the visitors have won both recent meetings by 3-1 and 1-0 scorelines. While Sparta have shown they can find the net\u2014evidenced by their 3\u20133 draw with FC Utrecht and 2\u20132 result against PEC Zwolle\u2014their back-to-back losses of 1\u20132 and 0\u20134 suggest defensive vulnerabilities that AZ should exploit. The belt stays with the visitors in a competitive but ultimately controlled road win.",
+  "written": "2026-11-10",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
