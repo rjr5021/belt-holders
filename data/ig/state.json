@@ -61,7 +61,23 @@
   "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/",
   "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/"
  ],
- "pending": {},
+ "pending": {
+  "nba|New York Knicks|Milwaukee Bucks|2026-11-10": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-10",
+   "defenses": 0,
+   "espn_id": "401909960",
+   "espn_path": "basketball/nba",
+   "game_no": 7542,
+   "holder": "New York Knicks",
+   "holder_short": "Knicks",
+   "lg": "nba",
+   "opponent": "Milwaukee Bucks",
+   "opponent_short": "Bucks",
+   "reign_no": 206,
+   "since": "2026-11-07"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
