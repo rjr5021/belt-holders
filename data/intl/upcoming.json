@@ -18,7 +18,7 @@
   "home": "New Zealand",
   "away": "India",
   "neutral": "",
-  "start_et": "01:00",
+  "start_et": "01:10",
   "tournament": "Friendly"
  },
  {
@@ -682,6 +682,17 @@
   "tournament": "CONCACAF Nations League"
  },
  {
+  "id": "int-espn-401933864",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tahiti",
+  "away": "Cook Islands",
+  "neutral": "",
+  "start_et": "23:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401930879",
   "date": "2026-11-14",
   "season": 2026,
@@ -887,7 +898,7 @@
   "home": "New Zealand",
   "away": "India",
   "neutral": "",
-  "start_et": "22:00",
+  "start_et": "22:10",
   "tournament": "Friendly"
  },
  {
@@ -911,6 +922,17 @@
   "neutral": "",
   "start_et": "09:00",
   "tournament": "UEFA Nations League"
+ },
+ {
+  "id": "int-espn-401933837",
+  "date": "2026-11-15",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Suriname",
+  "away": "Eswatini",
+  "neutral": "",
+  "start_et": "12:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401861173",
@@ -1221,14 +1243,14 @@
   "tournament": "CONCACAF Nations League"
  },
  {
-  "id": "int-espn-401930895",
-  "date": "2026-11-17",
+  "id": "int-espn-401933879",
+  "date": "2026-11-16",
   "season": 2026,
   "season_type": "regular",
-  "home": "Argentina",
-  "away": "Costa Rica",
+  "home": "Tahiti",
+  "away": "Cook Islands",
   "neutral": "",
-  "start_et": null,
+  "start_et": "23:00",
   "tournament": "Friendly"
  },
  {
@@ -1670,6 +1692,17 @@
   "neutral": "",
   "start_et": "15:00",
   "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401930895",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Argentina",
+  "away": "Costa Rica",
+  "neutral": "",
+  "start_et": "18:00",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401921304",
