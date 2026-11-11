@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909960",
-  "date": "2026-11-10",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "MIL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Madison Square Garden",
-  "spread": 15.5
- },
- {
-  "id": "espn-401909961",
-  "date": "2026-11-10",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "BOS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Xfinity Mobile Arena",
-  "spread": -1.5
- },
- {
   "id": "espn-401909962",
   "date": "2026-11-10",
   "season": 2026,
@@ -49,7 +23,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": -9.5
+  "spread": -8.5
  },
  {
   "id": "espn-401909964",
@@ -62,7 +36,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": -6.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909965",
@@ -88,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": null
+  "spread": 4.5
  },
  {
   "id": "espn-401909967",
@@ -127,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "United Center",
-  "spread": null
+  "spread": -15.5
  },
  {
   "id": "espn-401909970",
@@ -140,7 +114,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909971",
@@ -166,7 +140,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909973",
@@ -192,7 +166,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Toyota Center (Houston)",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909975",
