@@ -1,14 +1,13 @@
 {
- "key": "NYK|MIL|2026-11-10",
- "updated": "2026-11-08T09:02Z",
- "start_utc": "2026-11-11T00:30Z",
+ "key": "NYK|CLE|2026-11-11",
+ "updated": "2026-11-11T01:58Z",
+ "start_utc": "2026-11-12T00:00Z",
  "espn": {
-  "event_id": "401909960",
-  "start_utc": "2026-11-11T00:30Z",
+  "event_id": "401909967",
+  "start_utc": "2026-11-12T00:00Z",
   "state": "pre",
   "tv": [
-   "MyMi",
-   "Bucks App"
+   "ESPN"
   ],
   "odds": null,
   "teams": {
@@ -19,10 +18,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "MIL": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-    "abbr": "MIL",
-    "record": "1-8",
+   "CLE": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+    "abbr": "CLE",
+    "record": "5-6",
     "rank": null,
     "home_away": "away"
    }
@@ -36,17 +35,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The New York Knicks put their lineal championship belt on the line when they host the Milwaukee Bucks on November 10, 2026. The Knicks are looking to defend the belt for the first time in this reign, having just claimed it. The belt changes hands with every loss, making each game a winner-take-all battle with no committees or polls involved.",
+  "overview": "The New York Knicks put their lineal championship belt on the line when they host the Cleveland Cavaliers on November 11, 2026. The Knicks won the belt in their most recent outing and will be looking to defend it for the first time in this reign. The belt changes hands with every loss, making each game a high-stakes winner-take-all affair.",
   "key_matchups": [
-   "Knicks riding momentum with 3 straight wins versus Bucks mired in a 5-game losing streak",
-   "Milwaukee's struggles evident in recent blowout losses of 111\u2013136 to Cleveland and 100\u2013132 to Houston",
-   "New York dominated the last meeting 127-98 back in February 2026"
+   "New York's current 3-game winning streak versus Cleveland's 2-game skid",
+   "The Knicks have won all 5 of the last meetings between these teams",
+   "Cleveland seeking their 86th belt reign after 85 previous stints as holder"
   ],
-  "betting_angles": "The Knicks enter on a 3-game winning streak with a 5-4 record, while Milwaukee has dropped 5 straight and sits at 1-8. New York won the most recent head-to-head meeting 127-98, though Milwaukee holds the all-time edge 127-116 over 243 games. Our Elo model makes the Knicks a clear favorite at home.",
+  "betting_angles": "The Knicks enter on a 3-game winning streak and have dominated recent head-to-head matchups, winning 109\u201397 at Cleveland just four days ago. New York holds a 5-4 record this season compared to Cleveland's 5-6 mark, and the all-time series favors the Knicks 140-112. The Elo model designates New York as a clear favorite at home.",
   "predicted_winner": "New York Knicks",
-  "predicted_score": "New York Knicks 118, Milwaukee Bucks 104",
-  "prediction_writeup": "The Knicks should retain the belt given their current form versus Milwaukee's struggles. New York has won 3 straight games and looked sharp in their 109\u201397 win at Cleveland, while the Bucks have been blown out repeatedly during their 5-game skid, including losses by margins like 111\u2013136 and 100\u2013132. The Knicks dominated Milwaukee 127-98 in their last meeting in February 2026. With home court and momentum on their side, plus the Elo model backing them as clear favorites, New York should defend the belt successfully for the first time in this reign.",
-  "written": "2026-11-08",
+  "predicted_score": "New York Knicks 114, Cleveland Cavaliers 102",
+  "prediction_writeup": "The Knicks have won their last 3 games and swept all 5 recent meetings with Cleveland, including a 109\u201397 road victory on November 7. Cleveland has lost their last 2 games and struggled to find consistency with a 5-6 record. The Elo model favors New York as a clear favorite, and their recent dominance in this matchup suggests they should successfully defend the belt for the first time in this reign. Playing at home after just beating the Cavaliers on the road gives the Knicks momentum to keep the belt in New York.",
+  "written": "2026-11-11",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
