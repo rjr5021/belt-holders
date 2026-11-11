@@ -61,7 +61,23 @@
   "2026-11-10 15:15 preview nba|New York Knicks|Milwaukee Bucks|2026-11-10 https://www.instagram.com/p/Dfkvh5FiShT/",
   "2026-11-10 21:53 result nba|New York Knicks|Milwaukee Bucks|2026-11-10 https://www.instagram.com/p/DfldCq9G9zv/"
  ],
- "pending": {},
+ "pending": {
+  "nba|New York Knicks|Cleveland Cavaliers|2026-11-11": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-11",
+   "defenses": 1,
+   "espn_id": "401909967",
+   "espn_path": "basketball/nba",
+   "game_no": 7543,
+   "holder": "New York Knicks",
+   "holder_short": "Knicks",
+   "lg": "nba",
+   "opponent": "Cleveland Cavaliers",
+   "opponent_short": "Cavaliers",
+   "reign_no": 206,
+   "since": "2026-11-07"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
