@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401904712",
-  "date": "2026-11-10",
-  "season_type": "regular",
-  "home": "BU",
-  "away": "HARV",
-  "home_id": "104",
-  "away_id": "108",
-  "home_abbr": "BU",
-  "away_abbr": "HARV",
-  "home_loc": "Boston University",
-  "away_loc": "Harvard",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2027,
-  "stype": 2,
-  "start_et": "19:00",
-  "season": 2026,
-  "home_name": "Boston University",
-  "away_name": "Harvard"
- },
- {
   "id": "espn-401923153",
   "date": "2026-11-12",
   "season_type": "regular",
