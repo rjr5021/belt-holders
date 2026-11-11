@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909967",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Scotiabank Arena",
-  "spread": -7.5
+  "spread": -5.5
  },
  {
   "id": "espn-401909969",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": -11.5
+  "spread": -14.5
  },
  {
   "id": "espn-401909972",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": 4.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909973",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": -4.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909974",
