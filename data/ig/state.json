@@ -76,6 +76,21 @@
    "opponent_short": "Cavaliers",
    "reign_no": 206,
    "since": "2026-11-07"
+  },
+  "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-11",
+   "defenses": 0,
+   "espn_id": "401892693",
+   "espn_path": "hockey/nhl",
+   "game_no": 8453,
+   "holder": "Vegas Golden Knights",
+   "holder_short": "Golden Knights",
+   "lg": "nhl",
+   "opponent": "Utah Mammoth",
+   "opponent_short": "Mammoth",
+   "reign_no": 24,
+   "since": "2026-11-08"
   }
  },
  "previews": [
