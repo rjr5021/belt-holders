@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401930244",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Vietnam",
-  "away": "Taiwan",
-  "neutral": "",
-  "start_et": "07:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401906458",
   "date": "2026-11-12",
   "season": 2026,
@@ -683,13 +672,13 @@
  },
  {
   "id": "int-espn-401933864",
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "season": 2026,
   "season_type": "regular",
   "home": "Tahiti",
   "away": "Cook Islands",
   "neutral": "",
-  "start_et": "23:00",
+  "start_et": "00:30",
   "tournament": "Friendly"
  },
  {
@@ -1243,17 +1232,6 @@
   "tournament": "CONCACAF Nations League"
  },
  {
-  "id": "int-espn-401933879",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Tahiti",
-  "away": "Cook Islands",
-  "neutral": "",
-  "start_et": "23:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401931956",
   "date": "2026-11-17",
   "season": 2026,
@@ -1262,6 +1240,17 @@
   "away": "Honduras",
   "neutral": "",
   "start_et": null,
+  "tournament": "Friendly"
+ },
+ {
+  "id": "int-espn-401933879",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Tahiti",
+  "away": "Cook Islands",
+  "neutral": "",
+  "start_et": "00:30",
   "tournament": "Friendly"
  },
  {
