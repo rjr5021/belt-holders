@@ -62,6 +62,21 @@
   "2026-11-11 23:29 result nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfoM4MJDqNf/"
  ],
  "pending": {
+  "nfl|New York Giants|Washington Commanders|2026-11-12": {
+   "belt_name": "The NFL Belt",
+   "date": "2026-11-12",
+   "defenses": 1,
+   "espn_id": "401873052",
+   "espn_path": "football/nfl",
+   "game_no": 1651,
+   "holder": "New York Giants",
+   "holder_short": "Giants",
+   "lg": "nfl",
+   "opponent": "Washington Commanders",
+   "opponent_short": "Commanders",
+   "reign_no": 28,
+   "since": "2026-10-25"
+  },
   "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11": {
    "belt_name": "The NHL Belt",
    "date": "2026-11-11",
