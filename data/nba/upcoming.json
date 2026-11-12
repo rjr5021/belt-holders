@@ -1,96 +1,5 @@
 [
  {
-  "id": "espn-401909969",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHI",
-  "away": "SA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "United Center",
-  "spread": -15.5
- },
- {
-  "id": "espn-401909970",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MEM",
-  "away": "DEN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "FedExForum",
-  "spread": -3.5
- },
- {
-  "id": "espn-401909971",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIL",
-  "away": "LAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Fiserv Forum",
-  "spread": -14.5
- },
- {
-  "id": "espn-401909972",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": 2.5
- },
- {
-  "id": "espn-401909973",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "UTAH",
-  "away": "ORL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Delta Center",
-  "spread": -4.5
- },
- {
-  "id": "espn-401909974",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "HOU",
-  "away": "GS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:30",
-  "venue": "Toyota Center (Houston)",
-  "spread": 6.5
- },
- {
-  "id": "espn-401909975",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "POR",
-  "away": "OKC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Moda Center",
-  "spread": 2.5
- },
- {
   "id": "espn-401909976",
   "date": "2026-11-12",
   "season": 2026,
@@ -101,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401909977",
@@ -114,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": null
+  "spread": -10.5
  },
  {
   "id": "espn-401909978",
@@ -127,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909979",
@@ -140,7 +49,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": 6.5
  },
  {
   "id": "espn-401909296",
