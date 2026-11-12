@@ -68,5 +68,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "KC|NJY|2026-11-15",
+  "date": "2026-11-15",
+  "holder": "KC",
+  "challenger": "NJY",
+  "pick": "NJY",
+  "score": "Kansas City Current 1, Gotham FC 2",
+  "made": "2026-11-12",
+  "line": {
+   "details": "GFC +135",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

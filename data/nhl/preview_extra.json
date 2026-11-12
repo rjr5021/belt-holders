@@ -1,14 +1,14 @@
 {
- "key": "VGK|UTA|2026-11-11",
- "updated": "2026-11-09T01:46Z",
- "start_utc": "2026-11-12T02:30Z",
+ "key": "VGK|NSH|2026-11-13",
+ "updated": "2026-11-12T00:48Z",
+ "start_utc": "2026-11-14T03:00Z",
  "espn": {
-  "event_id": "401892693",
-  "start_utc": "2026-11-12T02:30Z",
+  "event_id": "401892707",
+  "start_utc": "2026-11-14T03:00Z",
   "state": "pre",
   "tv": [
-   "TNT",
-   "truTV"
+   "ESPN+",
+   "Scripps Sports"
   ],
   "odds": null,
   "teams": {
@@ -19,10 +19,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "UTA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
-    "abbr": "UTA",
-    "record": "10-7-1",
+   "NSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+    "abbr": "NSH",
+    "record": "9-4-5",
     "rank": null,
     "home_away": "away"
    }
@@ -36,20 +36,20 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Vegas Golden Knights put their lineal championship belt on the line when they host the Utah Mammoth on November 11, 2026. Vegas has yet to defend the belt in this reign, making this their first defense opportunity. The belt passes to whoever wins, with no committee or poll involved\u2014just the result on the ice.",
+  "overview": "The Vegas Golden Knights put their lineal championship belt on the line for the first time in this reign when they host the Nashville Predators on November 13, 2026. Vegas enters on a three-game winning streak with a 12-7 record, while Nashville brings scorching five-game winning momentum despite a .500 record at 9-9. The belt passes to whoever wins this game, with no committee or poll involved\u2014just the ice.",
   "key_matchups": [
-   "Vegas riding a 3-game winning streak against Utah's 2-game skid",
-   "Golden Knights hold 7-5 edge in all-time head-to-head series",
-   "The belt has been contested 6 times previously between these teams"
+   "Vegas' three-game win streak versus Nashville's five-game heater in a clash of hot teams",
+   "Nashville's 31 previous belt reigns versus Vegas defending for the first time in this current reign",
+   "Recent head-to-head edge favoring Vegas, who won 5-2 when these teams last met on October 13"
   ],
-  "betting_angles": "Vegas has won their last 3 games while Utah has lost their last 2, suggesting divergent form heading into this matchup. The Golden Knights hold a 12-7 record this season compared to Utah's 10-8 mark, and Vegas leads the all-time series 7-5 across 12 games. Our Elo model favors the home side in this belt defense.",
+  "betting_angles": "The Elo model favors Vegas at home despite Nashville's longer winning streak, likely weighing the Golden Knights' superior 12-7 record against the Predators' .500 mark. Vegas has won three straight including road victories by margins of 4-1, 2-1, and 3-2, showing they can win tight games. The head-to-head history leans Vegas with a 14-11 all-time edge and a 5-2 victory in the most recent October meeting, though Nashville has proven capable of winning this matchup as evidenced by their 4-1 result last March.",
   "predicted_winner": "Vegas Golden Knights",
-  "predicted_score": "Vegas Golden Knights 4, Utah Mammoth 2",
-  "prediction_writeup": "Vegas enters with momentum from their 3-game winning streak, most recently a 4-1 victory at Buffalo, while Utah limps in having dropped their last 2 games. The Golden Knights' 12-7 record edges Utah's 10-8 mark, and Vegas holds the historical advantage at 7-5 in the all-time series. With the Elo model backing the home side and Utah struggling on their current road trip, Vegas should secure their first belt defense of this reign. The Golden Knights have shown they can win tight games during this streak, taking 3-2 and 2-1 decisions before their latest victory.",
-  "written": "2026-11-09",
+  "predicted_score": "Vegas Golden Knights 3, Nashville Predators 2",
+  "prediction_writeup": "Vegas gets the nod to retain the belt in what should be a tight contest between two hot teams. The Golden Knights' superior season record of 12-7 and home ice advantage offset Nashville's impressive five-game winning streak. Vegas won the most recent meeting 5-2 on October 13 and holds a 14-11 all-time edge in the series. The Elo model's favor combined with their recent 3-2 and 2-1 victories shows Vegas knows how to grind out close wins, which is what this game projects to be against a surging Predators squad.",
+  "written": "2026-11-12",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
+   "attempts": 1,
    "dropped": []
   }
  }

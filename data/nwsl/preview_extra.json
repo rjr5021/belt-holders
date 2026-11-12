@@ -1,3 +1,62 @@
 {
- "key": null
+ "key": "KC|NJY|2026-11-15",
+ "updated": "2026-11-12T00:49Z",
+ "start_utc": "2026-11-15T20:00Z",
+ "espn": {
+  "event_id": "401933740",
+  "start_utc": "2026-11-15T20:00Z",
+  "state": "pre",
+  "tv": [
+   "ABC",
+   "ESPN Deportes"
+  ],
+  "odds": {
+   "details": "GFC +135",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "NJY": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png",
+    "abbr": "GFC",
+    "record": null,
+    "rank": null,
+    "home_away": "home"
+   },
+   "KC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
+    "abbr": "KC",
+    "record": null,
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Icahn Stadium",
+   "city": "New York City, New York",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "The Current have defended the belt 5 times in this reign and carry a 5-game winning streak into hostile territory. Gotham FC, who have held the belt 11 times before, are riding their own 3-game winning streak and boast a superior 19-5-7 record this season.",
+  "key_matchups": [
+   "Kansas City's 5-game winning streak versus Gotham's 3-game winning streak in a clash of in-form teams",
+   "Kansas City's 6-2-5 all-time head-to-head edge against Gotham's superior 19-5-7 season record",
+   "The belt has been contested 4 times between these sides, with Gotham looking to reclaim it for the 12th time"
+  ],
+  "betting_angles": "Gotham FC enter as Elo favorites despite Kansas City's longer winning streak and historical head-to-head advantage. The Current's recent 1\u20130 win over Angel City FC suggests they're grinding out results, while Gotham's 19-5-7 record reflects consistent excellence all season. The teams split their two 2026 meetings, with each winning at home.",
+  "predicted_winner": "Gotham FC",
+  "predicted_score": "Kansas City Current 1, Gotham FC 2",
+  "prediction_writeup": "Gotham FC's 19-5-7 record stands out as the best in this matchup, and the Elo model backs them at home. While Kansas City have won their last 5 games and hold the all-time head-to-head edge, Gotham won the most recent meeting 2-1 in August 2026. The Current's recent 1\u20130 win suggests tight margins, and Gotham's three consecutive wins show they're peaking at the right time. In a game likely decided by fine margins, Gotham's home advantage and superior season record tip the scales toward a belt change.",
+  "written": "2026-11-12",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": [
+    "15"
+   ]
+  }
+ }
 }

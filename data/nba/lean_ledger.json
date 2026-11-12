@@ -224,5 +224,15 @@
   "score": "New York Knicks 114, Cleveland Cavaliers 102",
   "made": "2026-11-11",
   "line": null
+ },
+ {
+  "key": "NYK|IND|2026-11-13",
+  "date": "2026-11-13",
+  "holder": "NYK",
+  "challenger": "IND",
+  "pick": "NYK",
+  "score": "New York Knicks 118, Indiana Pacers 106",
+  "made": "2026-11-12",
+  "line": null
  }
 ]

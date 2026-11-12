@@ -1,21 +1,27 @@
 {
- "key": "VAN|SEA|2026-12-05",
- "updated": "2026-09-29T18:39Z",
- "start_utc": "2026-12-05T20:00Z",
+ "key": "VAN|MIN|2026-11-23",
+ "updated": "2026-11-12T00:49Z",
+ "start_utc": "2026-11-23T21:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Vancouver Goldeneyes put their Belt Holders championship on the line when they host the Seattle Torrent on December 5th. Vancouver has defended the belt once in their current reign and will look to extend their dominance over Seattle, having won all four meetings in the all-time series. This marks the first time these teams have ever met with the belt at stake.",
+  "overview": "The Vancouver Goldeneyes bring the Belt Holders lineal championship to Minnesota on November 23rd, fresh off a 4-3 victory over these same Frost. Vancouver has defended the belt 1 time in this reign and will look to extend their winning streak against a Minnesota side that has held the belt 8 times previously but enters on a loss.",
   "key_matchups": [
-   "Vancouver's four-game winning streak versus Seattle's recent 2-1 loss to Montr\u00e9al\u2014momentum clearly favors the home side",
-   "Seattle seeking their first-ever belt and their first-ever win against Vancouver after going 0-4 in the all-time series",
-   "Recent high-scoring affairs between these teams, with three of the last four meetings decided by one goal"
+   "Vancouver's four-game winning streak versus Minnesota's recent playoff exit and current one-game skid",
+   "Head-to-head history favors Minnesota 4-1 all-time, but Vancouver won the most recent meeting 4-3",
+   "Minnesota's home ice advantage against a Vancouver team the Elo model considers the underdog"
   ],
-  "betting_angles": "Vancouver holds every statistical advantage: a four-game winning streak, 4-0 all-time dominance over Seattle, and a 65% win probability from the Elo model. Seattle comes in on a loss and sits at 9-21 on the season compared to Vancouver's 12-18 mark. The recent head-to-head meetings have been tight affairs with narrow margins, though Vancouver prevailed in all four, suggesting close games that ultimately break the Goldeneyes' way.",
-  "predicted_winner": "Vancouver Goldeneyes",
-  "predicted_score": "Vancouver Goldeneyes 4, Seattle Torrent 3",
-  "prediction_writeup": "Vancouver has owned this matchup historically, winning all four meetings including both encounters earlier this season by 4-1 and 6-5 margins. The Goldeneyes are riding a four-game winning streak and have the home ice advantage. While Seattle has shown they can score\u2014evidenced by the 5-6 and 5-4 results in recent games\u2014they haven't figured out how to finish against Vancouver. Expect another tight, high-scoring contest, but the trends and Elo model both point to the belt staying in Vancouver.",
-  "written": "2026-09-29",
-  "model": "claude-sonnet-4-5"
+  "betting_angles": "Vancouver has won their last 4 games including a 4-3 win over Minnesota in their most recent encounter, while the Frost have lost their last 1 game. The Elo model favors Minnesota despite Vancouver's current form.",
+  "predicted_winner": "Minnesota Frost",
+  "predicted_score": "Vancouver Goldeneyes 2, Minnesota Frost 3",
+  "prediction_writeup": "While Vancouver has won their last 4 games and took the most recent meeting 4-3, the underlying numbers suggest regression. The Elo model backs Minnesota as the favorite at home. Despite the recent form favoring the Goldeneyes, the deeper trends and home ice point to a tight Minnesota victory that reclaims the belt for a team that has held it 8 times before.",
+  "written": "2026-11-12",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": [
+    "17"
+   ]
+  }
  }
 }

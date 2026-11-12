@@ -1,51 +1,51 @@
 {
- "key": "NYK|CLE|2026-11-11",
- "updated": "2026-11-11T01:58Z",
- "start_utc": "2026-11-12T00:00Z",
+ "key": "NYK|IND|2026-11-13",
+ "updated": "2026-11-12T00:47Z",
+ "start_utc": "2026-11-14T00:00Z",
  "espn": {
-  "event_id": "401909967",
-  "start_utc": "2026-11-12T00:00Z",
+  "event_id": "401909296",
+  "start_utc": "2026-11-14T00:00Z",
   "state": "pre",
   "tv": [
-   "ESPN"
+   "Prime Video"
   ],
   "odds": null,
   "teams": {
-   "NYK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-    "abbr": "NY",
-    "record": "5-4",
+   "IND": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+    "abbr": "IND",
+    "record": "3-8",
     "rank": null,
     "home_away": "home"
    },
-   "CLE": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-    "abbr": "CLE",
-    "record": "5-6",
+   "NYK": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+    "abbr": "NY",
+    "record": "6-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Madison Square Garden",
-   "city": "New York",
-   "state": "NY",
+   "name": "Gainbridge Fieldhouse",
+   "city": "Indianapolis",
+   "state": "IN",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The New York Knicks put their lineal championship belt on the line when they host the Cleveland Cavaliers on November 11, 2026. The Knicks won the belt in their most recent outing and will be looking to defend it for the first time in this reign. The belt changes hands with every loss, making each game a high-stakes winner-take-all affair.",
+  "overview": "The New York Knicks bring the lineal championship belt to Indiana on November 13, 2026, having defended it once in their current reign. The belt passes to whoever wins this game, with no committees or polls involved\u2014just the simple rule that has traced this championship back to the league's first game.",
   "key_matchups": [
-   "New York's current 3-game winning streak versus Cleveland's 2-game skid",
-   "The Knicks have won all 5 of the last meetings between these teams",
-   "Cleveland seeking their 86th belt reign after 85 previous stints as holder"
+   "New York's four-game winning streak versus Indiana's two-game losing skid",
+   "The Knicks' 6-4 record against the Pacers' struggling 3-8 start to the season",
+   "An evenly-matched all-time series: New York leads 129-127 across 256 games"
   ],
-  "betting_angles": "The Knicks enter on a 3-game winning streak and have dominated recent head-to-head matchups, winning 109\u201397 at Cleveland just four days ago. New York holds a 5-4 record this season compared to Cleveland's 5-6 mark, and the all-time series favors the Knicks 140-112. The Elo model designates New York as a clear favorite at home.",
+  "betting_angles": "New York arrives with momentum from four straight wins, including a dominant 117-85 victory over Milwaukee in their most recent outing. Indiana has dropped their last two games and sits at 3-8 on the season. The Elo model favors the Knicks as clear favorites, and the recent form differential supports that assessment.",
   "predicted_winner": "New York Knicks",
-  "predicted_score": "New York Knicks 114, Cleveland Cavaliers 102",
-  "prediction_writeup": "The Knicks have won their last 3 games and swept all 5 recent meetings with Cleveland, including a 109\u201397 road victory on November 7. Cleveland has lost their last 2 games and struggled to find consistency with a 5-6 record. The Elo model favors New York as a clear favorite, and their recent dominance in this matchup suggests they should successfully defend the belt for the first time in this reign. Playing at home after just beating the Cavaliers on the road gives the Knicks momentum to keep the belt in New York.",
-  "written": "2026-11-11",
+  "predicted_score": "New York Knicks 118, Indiana Pacers 106",
+  "prediction_writeup": "The Knicks have won four straight games and hold a 6-4 record, while the Pacers are struggling at 3-8 with back-to-back losses. New York's recent results show consistent scoring output, including their 117-85 dismantling of Milwaukee. The all-time head-to-head is nearly even at 129-127, but current form heavily favors the visitors. The Knicks should extend their winning streak and retain the belt.",
+  "written": "2026-11-12",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
