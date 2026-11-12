@@ -234,5 +234,15 @@
   "score": "New York Knicks 118, Indiana Pacers 106",
   "made": "2026-11-12",
   "line": null
+ },
+ {
+  "key": "CLE|MIA|2026-11-13",
+  "date": "2026-11-13",
+  "holder": "CLE",
+  "challenger": "MIA",
+  "pick": "MIA",
+  "score": "Cleveland Cavaliers 110, Miami Heat 116",
+  "made": "2026-11-12",
+  "line": null
  }
 ]
