@@ -1,16 +1,5 @@
 [
  {
-  "id": "int-espn-401906458",
-  "date": "2026-11-12",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "New Zealand",
-  "away": "India",
-  "neutral": "",
-  "start_et": "01:10",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401930962",
   "date": "2026-11-12",
   "season": 2026,
@@ -308,17 +297,6 @@
   "tournament": "African Cup of Nations qualification"
  },
  {
-  "id": "int-espn-401931978",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Kuwait",
-  "away": "Syria",
-  "neutral": "",
-  "start_et": "09:00",
-  "tournament": "Friendly"
- },
- {
   "id": "int-espn-401931957",
   "date": "2026-11-13",
   "season": 2026,
@@ -427,6 +405,17 @@
   "neutral": "",
   "start_et": "11:00",
   "tournament": "African Cup of Nations qualification"
+ },
+ {
+  "id": "int-espn-401931978",
+  "date": "2026-11-13",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Kuwait",
+  "away": "Syria",
+  "neutral": "",
+  "start_et": "11:30",
+  "tournament": "Friendly"
  },
  {
   "id": "int-espn-401861162",
@@ -887,7 +876,7 @@
   "home": "New Zealand",
   "away": "India",
   "neutral": "",
-  "start_et": "22:10",
+  "start_et": "22:00",
   "tournament": "Friendly"
  },
  {
