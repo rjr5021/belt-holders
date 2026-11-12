@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-28 14:40 preview ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfDGfZ1GVfM/",
   "2026-10-29 00:58 result nba|Detroit Pistons|Charlotte Hornets|2026-10-28 https://www.instagram.com/p/DfENBrJG8fE/",
   "2026-10-29 00:58 result nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfENFOPGwZW/",
   "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/",
@@ -59,7 +58,8 @@
   "2026-11-10 21:53 result nba|New York Knicks|Milwaukee Bucks|2026-11-10 https://www.instagram.com/p/DfldCq9G9zv/",
   "2026-11-11 15:00 preview nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfnSmf2j6bq/",
   "2026-11-11 15:00 preview nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfnSqIlD5ut/",
-  "2026-11-11 23:29 result nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfoM4MJDqNf/"
+  "2026-11-11 23:29 result nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfoM4MJDqNf/",
+  "2026-11-12 08:05 result nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfpH72cliaL/"
  ],
  "pending": {
   "nfl|New York Giants|Washington Commanders|2026-11-12": {
@@ -76,21 +76,6 @@
    "opponent_short": "Commanders",
    "reign_no": 28,
    "since": "2026-10-25"
-  },
-  "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-11-11",
-   "defenses": 0,
-   "espn_id": "401892693",
-   "espn_path": "hockey/nhl",
-   "game_no": 8453,
-   "holder": "Vegas Golden Knights",
-   "holder_short": "Golden Knights",
-   "lg": "nhl",
-   "opponent": "Utah Mammoth",
-   "opponent_short": "Mammoth",
-   "reign_no": 24,
-   "since": "2026-11-08"
   }
  },
  "previews": [
@@ -154,7 +139,6 @@
   "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11"
  ],
  "results": [
-  "laliga|Athletic Bilbao|Levante UD|2026-10-21",
   "ligamx|Santos Laguna|Pumas UNAM|2026-10-21",
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22",
   "nhl|Dallas Stars|Winnipeg Jets|2026-10-22",
@@ -213,6 +197,7 @@
   "nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08",
   "eredivisie|AZ Alkmaar|FC Groningen|2026-11-08",
   "nba|New York Knicks|Milwaukee Bucks|2026-11-10",
-  "nba|New York Knicks|Cleveland Cavaliers|2026-11-11"
+  "nba|New York Knicks|Cleveland Cavaliers|2026-11-11",
+  "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11"
  ]
 }
