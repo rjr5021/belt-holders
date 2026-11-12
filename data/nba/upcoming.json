@@ -1,44 +1,5 @@
 [
  {
-  "id": "espn-401909966",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "IND",
-  "away": "WSH",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Gainbridge Fieldhouse",
-  "spread": 2.5
- },
- {
-  "id": "espn-401909967",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NY",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Madison Square Garden",
-  "spread": 4.5
- },
- {
-  "id": "espn-401909968",
-  "date": "2026-11-11",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "TOR",
-  "away": "BOS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Scotiabank Arena",
-  "spread": -5.5
- },
- {
   "id": "espn-401909969",
   "date": "2026-11-11",
   "season": 2026,
@@ -88,7 +49,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909973",
@@ -101,7 +62,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Delta Center",
-  "spread": -2.5
+  "spread": -4.5
  },
  {
   "id": "espn-401909974",
@@ -127,7 +88,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Moda Center",
-  "spread": -1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909976",
@@ -325,19 +286,6 @@
   "spread": null
  },
  {
-  "id": "espn-401909984",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Target Center",
-  "spread": null
- },
- {
   "id": "espn-401909982",
   "date": "2026-11-14",
   "season": 2026,
@@ -361,6 +309,19 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
+  "spread": null
+ },
+ {
+  "id": "espn-401909984",
+  "date": "2026-11-14",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "MIN",
+  "away": "CHI",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "20:00",
+  "venue": "Target Center",
   "spread": null
  },
  {
