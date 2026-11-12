@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-29 00:58 result nba|Detroit Pistons|Charlotte Hornets|2026-10-28 https://www.instagram.com/p/DfENBrJG8fE/",
   "2026-10-29 00:58 result nba|New York Knicks|Chicago Bulls|2026-10-28 https://www.instagram.com/p/DfENFOPGwZW/",
   "2026-10-29 14:48 result nhl|New Jersey Devils|Colorado Avalanche|2026-10-28 https://www.instagram.com/p/DfFr_1bmcQ2/",
   "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/",
@@ -59,7 +58,8 @@
   "2026-11-11 15:00 preview nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfnSmf2j6bq/",
   "2026-11-11 15:00 preview nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfnSqIlD5ut/",
   "2026-11-11 23:29 result nba|New York Knicks|Cleveland Cavaliers|2026-11-11 https://www.instagram.com/p/DfoM4MJDqNf/",
-  "2026-11-12 08:05 result nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfpH72cliaL/"
+  "2026-11-12 08:05 result nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfpH72cliaL/",
+  "2026-11-12 17:45 preview nfl|New York Giants|Washington Commanders|2026-11-12 https://www.instagram.com/p/DfqKRaolsZI/"
  ],
  "pending": {
   "nfl|New York Giants|Washington Commanders|2026-11-12": {
@@ -136,7 +136,8 @@
   "nba|Cleveland Cavaliers|New York Knicks|2026-11-07",
   "nba|New York Knicks|Milwaukee Bucks|2026-11-10",
   "nba|New York Knicks|Cleveland Cavaliers|2026-11-11",
-  "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11"
+  "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11",
+  "nfl|New York Giants|Washington Commanders|2026-11-12"
  ],
  "results": [
   "ligamx|Santos Laguna|Pumas UNAM|2026-10-21",
