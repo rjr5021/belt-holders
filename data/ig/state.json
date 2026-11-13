@@ -76,6 +76,21 @@
    "opponent_short": "Heat",
    "reign_no": 86,
    "since": "2026-11-11"
+  },
+  "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-13",
+   "defenses": 1,
+   "espn_id": "401892707",
+   "espn_path": "hockey/nhl",
+   "game_no": 8454,
+   "holder": "Vegas Golden Knights",
+   "holder_short": "Golden Knights",
+   "lg": "nhl",
+   "opponent": "Nashville Predators",
+   "opponent_short": "Predators",
+   "reign_no": 24,
+   "since": "2026-11-08"
   }
  },
  "previews": [
