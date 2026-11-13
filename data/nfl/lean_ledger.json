@@ -66,5 +66,19 @@
   "score": "New York Giants 24, Washington Commanders 17",
   "made": "2026-11-08",
   "line": null
+ },
+ {
+  "key": "NYG|JAX|2026-11-22",
+  "date": "2026-11-22",
+  "holder": "NYG",
+  "challenger": "JAX",
+  "pick": "JAX",
+  "score": "New York Giants 20, Jacksonville Jaguars 27",
+  "made": "2026-11-13",
+  "line": {
+   "details": "JAX -6",
+   "over_under": 44.5,
+   "provider": "Draft Kings"
+  }
  }
 ]

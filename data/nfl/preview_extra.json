@@ -1,15 +1,19 @@
 {
- "key": "NYG|WSH|2026-11-12",
- "updated": "2026-11-08T22:07Z",
- "start_utc": "2026-11-13T01:15Z",
+ "key": "NYG|JAX|2026-11-22",
+ "updated": "2026-11-13T01:08Z",
+ "start_utc": "2026-11-22T21:25Z",
  "espn": {
-  "event_id": "401873052",
-  "start_utc": "2026-11-13T01:15Z",
+  "event_id": "401873069",
+  "start_utc": "2026-11-22T21:25Z",
   "state": "pre",
   "tv": [
-   "Prime Video"
+   "CBS"
   ],
-  "odds": null,
+  "odds": {
+   "details": "JAX -6",
+   "over_under": 44.5,
+   "provider": "Draft Kings"
+  },
   "teams": {
    "NYG": {
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
@@ -18,10 +22,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "WSH": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-    "abbr": "WSH",
-    "record": "2-5-1",
+   "JAX": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "abbr": "JAX",
+    "record": "6-2",
     "rank": null,
     "home_away": "away"
    }
@@ -33,27 +37,19 @@
    "indoor": false
   }
  },
- "weather": {
-  "temp_f": 57,
-  "feels_like_f": 55,
-  "precip_chance": 70,
-  "wind_mph": 6,
-  "condition": "Drizzle",
-  "as_of": "2026-11-08",
-  "venue": "MetLife Stadium"
- },
+ "weather": null,
  "ai": {
-  "overview": "The New York Giants host the Washington Commanders with the lineal championship belt on the line, having defended it once in their current reign. This NFC East rivalry renewal pits a Giants squad riding a two-game winning streak against a Commanders team looking to snap a one-game skid and claim the belt for the 28th time in franchise history.",
+  "overview": "The New York Giants put their Belt Holders lineal championship on the line when they host the Jacksonville Jaguars on November 22, 2026. The Giants have defended the belt once in their current reign and enter with a 5-2-1 record, while the Jaguars sit at 6-2. ThisMatchup features two teams riding identical two-game winning streaks in what promises to be a compelling belt defense.",
   "key_matchups": [
-   "Giants' recent defensive form after holding Philadelphia to 11 points versus a Commanders offense that managed just 13 in their last outing against the Rams",
-   "Washington's familiarity with New York after their 27-27 tie just a month ago on October 11th",
-   "The Giants' 5-2-1 record and momentum from victories over Philadelphia and Houston against Washington's 2-5-1 mark and three losses in their last four games"
+   "Both teams enter on two-game winning streaks, with the Jaguars fresh off a dominant 33-10 win at Baltimore and the Giants coming off a 19-11 road victory at Philadelphia",
+   "The all-time series is deadlocked at 4-4 across 8 meetings, with the Giants winning the most recent encounter 23-17 in 2022",
+   "Jacksonville has held the belt 6 times previously and will look to reclaim it from a Giants team that our Elo model surprisingly pegs as the home underdog"
   ],
-  "betting_angles": "The Giants enter as Elo favorites with clear advantages in current form, having won their last two games while Washington has dropped three of four. The all-time series favors New York 108-75-6, though their recent meetings have been competitive, including the 27-27 deadlock last month and Washington winning both matchups in 2025. The Giants' superior 5-2-1 record compared to Washington's 2-5-1 mark suggests a significant gap in quality this season.",
-  "predicted_winner": "New York Giants",
-  "predicted_score": "New York Giants 24, Washington Commanders 17",
-  "prediction_writeup": "The Giants have found their stride with consecutive wins, including a defensive statement holding Philadelphia to just 11 points in their most recent outing. Washington's offense has struggled, scoring 13 points in back-to-back losses to the Rams and 49ers. While these division rivals played to a 27-27 tie on October 11th, New York's improved form since then\u2014coupled with home field advantage and the Elo edge\u2014tips the scales in their favor. The Giants retain the belt with a workmanlike victory.",
-  "written": "2026-11-08",
+  "betting_angles": "Despite playing at home and defending the belt, the Giants are rated as underdogs by our Elo model against a Jaguars team with a superior 6-2 record. Jacksonville's recent form has been explosive, scoring 42 against Indianapolis and 33 at Baltimore in their last two wins, while New York's recent victories have been closer affairs at 27-21 and 19-11. The all-time head-to-head series being tied at 4-4 suggests these teams are evenly matched historically, making the Elo edge for Jacksonville noteworthy.",
+  "predicted_winner": "Jacksonville Jaguars",
+  "predicted_score": "New York Giants 20, Jacksonville Jaguars 27",
+  "prediction_writeup": "The Jaguars' offensive firepower in recent weeks\u2014scoring 33 and 42 in their last two games\u2014gives them the edge over a Giants team that has won more modestly. While both teams are riding two-game winning streaks, Jacksonville's 6-2 record is slightly better than New York's 5-2-1 mark. The Elo model making the Giants a home underdog is telling, and with the all-time series knotted at 4-4, there's no historical advantage for the home side. Jacksonville should have enough offensive momentum to take the belt on the road.",
+  "written": "2026-11-13",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
