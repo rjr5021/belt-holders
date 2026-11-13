@@ -80,5 +80,19 @@
    "over_under": 44.5,
    "provider": "Draft Kings"
   }
+ },
+ {
+  "key": "WSH|CIN|2026-11-23",
+  "date": "2026-11-23",
+  "holder": "WSH",
+  "challenger": "CIN",
+  "pick": "CIN",
+  "score": "Washington Commanders 23, Cincinnati Bengals 30",
+  "made": "2026-11-13",
+  "line": {
+   "details": "CIN -3.5",
+   "over_under": 51.5,
+   "provider": "DraftKings"
+  }
  }
 ]
