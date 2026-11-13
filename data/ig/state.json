@@ -61,7 +61,23 @@
   "2026-11-12 17:45 preview nfl|New York Giants|Washington Commanders|2026-11-12 https://www.instagram.com/p/DfqKRaolsZI/",
   "2026-11-12 23:20 result nfl|New York Giants|Washington Commanders|2026-11-12 https://www.instagram.com/p/DfqwqrIFiAU/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Cleveland Cavaliers|Miami Heat|2026-11-13": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-13",
+   "defenses": 0,
+   "espn_id": "401909298",
+   "espn_path": "basketball/nba",
+   "game_no": 7544,
+   "holder": "Cleveland Cavaliers",
+   "holder_short": "Cavaliers",
+   "lg": "nba",
+   "opponent": "Miami Heat",
+   "opponent_short": "Heat",
+   "reign_no": 86,
+   "since": "2026-11-11"
+  }
+ },
  "previews": [
   "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
