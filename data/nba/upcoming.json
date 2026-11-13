@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909976",
-  "date": "2026-11-12",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "TOR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Xfinity Mobile Arena",
-  "spread": 7.5
- },
- {
-  "id": "espn-401909977",
-  "date": "2026-11-12",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "WSH",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Capital One Arena",
-  "spread": -10.5
- },
- {
   "id": "espn-401909978",
   "date": "2026-11-12",
   "season": 2026,
@@ -62,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": null
+  "spread": -6.5
  },
  {
   "id": "espn-401909297",
@@ -75,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Kia Center",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401909298",
@@ -88,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Kaseya Center",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909299",
@@ -101,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "United Center",
-  "spread": null
+  "spread": -6.5
  },
  {
   "id": "espn-401909300",
@@ -114,7 +88,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909301",
@@ -127,7 +101,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": null
+  "spread": 17.5
  },
  {
   "id": "espn-401909302",
@@ -140,7 +114,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Frost Bank Center",
-  "spread": null
+  "spread": 13.5
  },
  {
   "id": "espn-401909303",
@@ -153,7 +127,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -10.5
  },
  {
   "id": "espn-401909304",
@@ -166,7 +140,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909980",
