@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -7.5
+  "spread": -8.5
  },
  {
   "id": "espn-401909297",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Smoothie King Center",
-  "spread": -3.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909301",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Toyota Center (Houston)",
-  "spread": 16.5
+  "spread": 15.5
  },
  {
   "id": "espn-401909302",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Frost Bank Center",
-  "spread": 12.5
+  "spread": 11.5
  },
  {
   "id": "espn-401909303",
