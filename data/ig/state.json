@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-29 14:48 result mls|Nashville SC|Philadelphia Union|2026-10-28 https://www.instagram.com/p/DfFsDIlGaxb/",
   "2026-10-29 14:48 result ligamx|Tijuana|Club Am\u00e9rica|2026-10-28 https://www.instagram.com/p/DfFsGLCGUp0/",
   "2026-10-30 14:25 preview nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfIONA9IyWS/",
   "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/",
@@ -59,7 +58,8 @@
   "2026-11-12 08:05 result nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11 https://www.instagram.com/p/DfpH72cliaL/",
   "2026-11-12 17:45 preview nfl|New York Giants|Washington Commanders|2026-11-12 https://www.instagram.com/p/DfqKRaolsZI/",
   "2026-11-12 23:20 result nfl|New York Giants|Washington Commanders|2026-11-12 https://www.instagram.com/p/DfqwqrIFiAU/",
-  "2026-11-13 15:21 preview nba|Cleveland Cavaliers|Miami Heat|2026-11-13 https://www.instagram.com/p/DfseiyHFKtR/"
+  "2026-11-13 15:21 preview nba|Cleveland Cavaliers|Miami Heat|2026-11-13 https://www.instagram.com/p/DfseiyHFKtR/",
+  "2026-11-13 15:21 preview nhl|Vegas Golden Knights|Nashville Predators|2026-11-13 https://www.instagram.com/p/DfselKpFHWT/"
  ],
  "pending": {
   "nba|Cleveland Cavaliers|Miami Heat|2026-11-13": {
@@ -109,7 +109,6 @@
   }
  },
  "previews": [
-  "nhl|Florida Panthers|San Jose Sharks|2026-10-01",
   "nhl|San Jose Sharks|Los Angeles Kings|2026-10-03",
   "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
@@ -168,7 +167,8 @@
   "nba|New York Knicks|Cleveland Cavaliers|2026-11-11",
   "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11",
   "nfl|New York Giants|Washington Commanders|2026-11-12",
-  "nba|Cleveland Cavaliers|Miami Heat|2026-11-13"
+  "nba|Cleveland Cavaliers|Miami Heat|2026-11-13",
+  "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13"
  ],
  "results": [
   "nba|Philadelphia 76ers|Cleveland Cavaliers|2026-10-22",
