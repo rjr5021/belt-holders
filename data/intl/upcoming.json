@@ -1,82 +1,5 @@
 [
  {
-  "id": "int-espn-401927191",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Morocco",
-  "away": "Niger",
-  "neutral": "",
-  "start_et": "15:00",
-  "tournament": "African Cup of Nations qualification"
- },
- {
-  "id": "int-espn-401930876",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Argentina",
-  "away": "Uruguay",
-  "neutral": "",
-  "start_et": "18:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401921325",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Colombia",
-  "away": "Chile",
-  "neutral": "",
-  "start_et": "19:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401930898",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Ecuador",
-  "away": "Costa Rica",
-  "neutral": "",
-  "start_et": "19:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401929775",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Montserrat",
-  "away": "Nicaragua",
-  "neutral": "",
-  "start_et": "19:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401930878",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Peru",
-  "away": "Bolivia",
-  "neutral": "",
-  "start_et": "20:00",
-  "tournament": "Friendly"
- },
- {
-  "id": "int-espn-401929711",
-  "date": "2026-11-13",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Guatemala",
-  "away": "Canada",
-  "neutral": "",
-  "start_et": "21:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401933864",
   "date": "2026-11-14",
   "season": 2026,
@@ -293,7 +216,7 @@
   "home": "New Zealand",
   "away": "India",
   "neutral": "",
-  "start_et": "22:00",
+  "start_et": "22:10",
   "tournament": "Friendly"
  },
  {
