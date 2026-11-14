@@ -76,6 +76,21 @@
    "opponent_short": "Pistons",
    "reign_no": 77,
    "since": "2026-11-13"
+  },
+  "ncaah|Michigan|Penn State|2026-11-14": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-11-14",
+   "defenses": 0,
+   "espn_id": "401923157",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 498,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Penn State",
+   "opponent_short": "Penn State",
+   "reign_no": 6,
+   "since": "2026-11-01"
   }
  },
  "previews": [
