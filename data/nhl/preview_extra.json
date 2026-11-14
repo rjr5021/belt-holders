@@ -1,52 +1,53 @@
 {
- "key": "VGK|NSH|2026-11-13",
- "updated": "2026-11-12T00:48Z",
- "start_utc": "2026-11-14T03:00Z",
+ "key": "NSH|SJS|2026-11-15",
+ "updated": "2026-11-14T06:27Z",
+ "start_utc": "2026-11-16T02:00Z",
  "espn": {
-  "event_id": "401892707",
-  "start_utc": "2026-11-14T03:00Z",
+  "event_id": "401892725",
+  "start_utc": "2026-11-16T02:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "Scripps Sports"
+   "Scripps Sports",
+   "NBC Sports BA"
   ],
   "odds": null,
   "teams": {
-   "VGK": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-    "abbr": "VGK",
-    "record": "12-5-2",
+   "SJS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+    "abbr": "SJ",
+    "record": "8-11-2",
     "rank": null,
     "home_away": "home"
    },
    "NSH": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
     "abbr": "NSH",
-    "record": "9-4-5",
+    "record": "11-4-5",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "T-Mobile Arena",
-   "city": "Las Vegas",
-   "state": "NV",
+   "name": "SAP Center at San Jose",
+   "city": "San Jose",
+   "state": "CA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Vegas Golden Knights put their lineal championship belt on the line for the first time in this reign when they host the Nashville Predators on November 13, 2026. Vegas enters on a three-game winning streak with a 12-7 record, while Nashville brings scorching five-game winning momentum despite a .500 record at 9-9. The belt passes to whoever wins this game, with no committee or poll involved\u2014just the ice.",
+  "overview": "The Nashville Predators bring the lineal championship belt to SAP Center to face the San Jose Sharks on November 15, 2026. Nashville claimed the belt in their most recent victory and has yet to defend it in this reign, making San Jose's challenge an immediate test. The Sharks have held the belt 41 times previously and will look to reclaim it on home ice.",
   "key_matchups": [
-   "Vegas' three-game win streak versus Nashville's five-game heater in a clash of hot teams",
-   "Nashville's 31 previous belt reigns versus Vegas defending for the first time in this current reign",
-   "Recent head-to-head edge favoring Vegas, who won 5-2 when these teams last met on October 13"
+   "Nashville's perfect 5-game win streak versus San Jose's recent struggles, having lost their last game and 4 of their last 5",
+   "Recent head-to-head history favors San Jose with wins in 2 of the last 3 meetings, including a 3-2 victory on 2026-10-15",
+   "Nashville's defensive form during their streak, allowing 2 goals or fewer in 4 of their last 5 games"
   ],
-  "betting_angles": "The Elo model favors Vegas at home despite Nashville's longer winning streak, likely weighing the Golden Knights' superior 12-7 record against the Predators' .500 mark. Vegas has won three straight including road victories by margins of 4-1, 2-1, and 3-2, showing they can win tight games. The head-to-head history leans Vegas with a 14-11 all-time edge and a 5-2 victory in the most recent October meeting, though Nashville has proven capable of winning this matchup as evidenced by their 4-1 result last March.",
-  "predicted_winner": "Vegas Golden Knights",
-  "predicted_score": "Vegas Golden Knights 3, Nashville Predators 2",
-  "prediction_writeup": "Vegas gets the nod to retain the belt in what should be a tight contest between two hot teams. The Golden Knights' superior season record of 12-7 and home ice advantage offset Nashville's impressive five-game winning streak. Vegas won the most recent meeting 5-2 on October 13 and holds a 14-11 all-time edge in the series. The Elo model's favor combined with their recent 3-2 and 2-1 victories shows Vegas knows how to grind out close wins, which is what this game projects to be against a surging Predators squad.",
-  "written": "2026-11-12",
+  "betting_angles": "Nashville arrives riding a 5-game winning streak and carrying an 11-9 record, while San Jose sits at 8-13 with just one win in their last 5 games. However, the Sharks have recent head-to-head success, taking 2 of the last 3 meetings including their most recent matchup in October. The Elo model views this as a toss-up despite Nashville's superior current form, likely factoring in San Jose's home ice and their historical competitiveness in this matchup (56-51-2 all-time).",
+  "predicted_winner": "Nashville Predators",
+  "predicted_score": "Nashville Predators 3, San Jose Sharks 2",
+  "prediction_writeup": "Nashville's 5-game winning streak is too strong to ignore, even against a San Jose team that has shown it can beat the Predators this season. The Predators have been disciplined defensively during their run, and their 11-9 record reflects a team finding consistency. While the Sharks won the last meeting 3-2 and have home ice advantage, their 8-13 record and recent form suggest they'll struggle to contain a confident Nashville squad. Expect a close game that Nashville edges out late, successfully defending the belt for the first time in this reign.",
+  "written": "2026-11-14",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

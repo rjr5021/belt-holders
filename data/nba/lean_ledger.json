@@ -244,5 +244,19 @@
   "score": "Cleveland Cavaliers 110, Miami Heat 116",
   "made": "2026-11-12",
   "line": null
+ },
+ {
+  "key": "MIA|DET|2026-11-14",
+  "date": "2026-11-14",
+  "holder": "MIA",
+  "challenger": "DET",
+  "pick": "DET",
+  "score": "Miami Heat 118, Detroit Pistons 124",
+  "made": "2026-11-14",
+  "line": {
+   "details": "DET -4.5",
+   "over_under": 228.5,
+   "provider": "DraftKings"
+  }
  }
 ]
