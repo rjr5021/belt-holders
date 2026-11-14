@@ -61,7 +61,23 @@
   "2026-11-14 00:57 result nhl|Vegas Golden Knights|Nashville Predators|2026-11-13 https://www.instagram.com/p/Dftgn-Tkfuf/",
   "2026-11-14 00:57 result ncaah|Michigan|Penn State|2026-11-13 https://www.instagram.com/p/DftgrQ1Eboh/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Miami Heat|Detroit Pistons|2026-11-14": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-14",
+   "defenses": 0,
+   "espn_id": "401909982",
+   "espn_path": "basketball/nba",
+   "game_no": 7545,
+   "holder": "Miami Heat",
+   "holder_short": "Heat",
+   "lg": "nba",
+   "opponent": "Detroit Pistons",
+   "opponent_short": "Pistons",
+   "reign_no": 77,
+   "since": "2026-11-13"
+  }
+ },
  "previews": [
   "nhl|San Jose Sharks|Dallas Stars|2026-10-05",
   "intl|Spain|Croatia|2026-10-06",
