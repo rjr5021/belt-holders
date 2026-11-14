@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-30 22:06 result nba|New York Knicks|Philadelphia 76ers|2026-10-30 https://www.instagram.com/p/DfJC975FW7U/",
   "2026-10-31 15:30 preview nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfK6X1ej342/",
   "2026-10-31 15:30 preview nhl|Colorado Avalanche|Calgary Flames|2026-10-31 https://www.instagram.com/p/DfK6bMtD5PP/",
   "2026-10-31 15:30 result epl|Manchester City|Brighton & Hove Albion|2026-10-31 https://www.instagram.com/p/DfK6eEYj8wN/",
@@ -59,7 +58,8 @@
   "2026-11-13 15:21 preview nba|Cleveland Cavaliers|Miami Heat|2026-11-13 https://www.instagram.com/p/DfseiyHFKtR/",
   "2026-11-13 15:21 preview nhl|Vegas Golden Knights|Nashville Predators|2026-11-13 https://www.instagram.com/p/DfselKpFHWT/",
   "2026-11-13 15:21 preview ncaah|Michigan|Penn State|2026-11-13 https://www.instagram.com/p/DfsenuNFD8C/",
-  "2026-11-14 00:57 result nba|Cleveland Cavaliers|Miami Heat|2026-11-13 https://www.instagram.com/p/DftgkhmkSj4/"
+  "2026-11-14 00:57 result nba|Cleveland Cavaliers|Miami Heat|2026-11-13 https://www.instagram.com/p/DftgkhmkSj4/",
+  "2026-11-14 00:57 result nhl|Vegas Golden Knights|Nashville Predators|2026-11-13 https://www.instagram.com/p/Dftgn-Tkfuf/"
  ],
  "pending": {
   "ncaah|Michigan|Penn State|2026-11-13": {
@@ -76,21 +76,6 @@
    "opponent_short": "Penn State",
    "reign_no": 6,
    "since": "2026-11-01"
-  },
-  "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-11-13",
-   "defenses": 1,
-   "espn_id": "401892707",
-   "espn_path": "hockey/nhl",
-   "game_no": 8454,
-   "holder": "Vegas Golden Knights",
-   "holder_short": "Golden Knights",
-   "lg": "nhl",
-   "opponent": "Nashville Predators",
-   "opponent_short": "Predators",
-   "reign_no": 24,
-   "since": "2026-11-08"
   }
  },
  "previews": [
@@ -156,7 +141,6 @@
   "ncaah|Michigan|Penn State|2026-11-13"
  ],
  "results": [
-  "nhl|Dallas Stars|Winnipeg Jets|2026-10-22",
   "ncaah|Michigan|Western Michigan|2026-10-23",
   "epl|Manchester City|Aston Villa|2026-10-24",
   "mls|Nashville SC|CF Montr\u00e9al|2026-10-24",
@@ -215,6 +199,7 @@
   "nba|New York Knicks|Cleveland Cavaliers|2026-11-11",
   "nhl|Vegas Golden Knights|Utah Mammoth|2026-11-11",
   "nfl|New York Giants|Washington Commanders|2026-11-12",
-  "nba|Cleveland Cavaliers|Miami Heat|2026-11-13"
+  "nba|Cleveland Cavaliers|Miami Heat|2026-11-13",
+  "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13"
  ]
 }
