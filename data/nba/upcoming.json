@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "13:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 6.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909986",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "16:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": -2.5
  },
  {
   "id": "espn-401909987",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "16:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909988",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "17:00",
   "venue": "Delta Center",
-  "spread": null
+  "spread": -17.5
  },
  {
   "id": "espn-401909989",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "TD Garden",
-  "spread": null
+  "spread": 13.5
  },
  {
   "id": "espn-401909990",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": null
+  "spread": -9.5
  },
  {
   "id": "espn-401909992",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Fiserv Forum",
-  "spread": null
+  "spread": -7.5
  },
  {
   "id": "espn-401909993",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -10.5
  },
  {
   "id": "espn-401909994",
