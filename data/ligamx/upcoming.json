@@ -1,26 +1,5 @@
 [
  {
-  "id": "espn-401876988",
-  "date": "2026-11-14",
-  "season_type": "regular",
-  "home": "Quer\u00e9taro",
-  "away": "Monterrey",
-  "home_id": "222",
-  "away_id": "220",
-  "home_abbr": "QRO",
-  "away_abbr": "MTY",
-  "home_loc": "Quer\u00e9taro",
-  "away_loc": "Monterrey",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 14277,
-  "start_et": "18:00",
-  "season": 2026,
-  "home_name": "Quer\u00e9taro",
-  "away_name": "Monterrey"
- },
- {
   "id": "espn-401877054",
   "date": "2026-11-20",
   "season_type": "regular",
