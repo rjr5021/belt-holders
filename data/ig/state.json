@@ -76,6 +76,21 @@
    "opponent_short": "Sharks",
    "reign_no": 32,
    "since": "2026-11-13"
+  },
+  "nwsl|Kansas City Current|Gotham FC|2026-11-15": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-11-15",
+   "defenses": 5,
+   "espn_id": "401933740",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 308,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Gotham FC",
+   "opponent_short": "Gotham",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
