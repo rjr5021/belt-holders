@@ -1,70 +1,5 @@
 [
  {
-  "id": "espn-401909980",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "DEN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Smoothie King Center",
-  "spread": -12.5
- },
- {
-  "id": "espn-401909981",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CLE",
-  "away": "DAL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Rocket Arena",
-  "spread": -4.5
- },
- {
-  "id": "espn-401909982",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIA",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Kaseya Center",
-  "spread": -4.5
- },
- {
-  "id": "espn-401909983",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MEM",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "FedExForum",
-  "spread": 1.5
- },
- {
-  "id": "espn-401909984",
-  "date": "2026-11-14",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Target Center",
-  "spread": 15.5
- },
- {
   "id": "espn-401909985",
   "date": "2026-11-15",
   "season": 2026,
@@ -75,7 +10,7 @@
   "source": "espn",
   "start_et": "13:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": null
+  "spread": 6.5
  },
  {
   "id": "espn-401909986",
@@ -140,7 +75,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909991",
@@ -299,19 +234,6 @@
   "spread": null
  },
  {
-  "id": "espn-401910004",
-  "date": "2026-11-17",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "DET",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Frost Bank Center",
-  "spread": null
- },
- {
   "id": "espn-401910003",
   "date": "2026-11-17",
   "season": 2026,
@@ -322,6 +244,19 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
+  "spread": null
+ },
+ {
+  "id": "espn-401910004",
+  "date": "2026-11-17",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "SA",
+  "away": "DET",
+  "neutral": "",
+  "source": "espn",
+  "start_et": "20:00",
+  "venue": "Frost Bank Center",
   "spread": null
  },
  {
