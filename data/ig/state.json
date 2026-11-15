@@ -61,7 +61,23 @@
   "2026-11-14 22:20 result ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/DfvzUX1jeqT/",
   "2026-11-15 06:16 result nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfwp3JeIKm8/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Nashville Predators|San Jose Sharks|2026-11-15": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-15",
+   "defenses": 0,
+   "espn_id": "401892725",
+   "espn_path": "hockey/nhl",
+   "game_no": 8455,
+   "holder": "Nashville Predators",
+   "holder_short": "Predators",
+   "lg": "nhl",
+   "opponent": "San Jose Sharks",
+   "opponent_short": "Sharks",
+   "reign_no": 32,
+   "since": "2026-11-13"
+  }
+ },
  "previews": [
   "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
