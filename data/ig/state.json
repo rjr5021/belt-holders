@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-31 15:30 result seriea|AS Roma|Udinese Calcio|2026-10-31 https://www.instagram.com/p/DfK6hMPlMy1/",
   "2026-10-31 15:30 result bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31 https://www.instagram.com/p/DfK6j-dFEdQ/",
   "2026-10-31 15:30 preview ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfK6m9_lBwY/",
   "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
@@ -59,7 +58,8 @@
   "2026-11-14 00:57 result nhl|Vegas Golden Knights|Nashville Predators|2026-11-13 https://www.instagram.com/p/Dftgn-Tkfuf/",
   "2026-11-14 00:57 result ncaah|Michigan|Penn State|2026-11-13 https://www.instagram.com/p/DftgrQ1Eboh/",
   "2026-11-14 13:39 preview nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfu3wHFHXE4/",
-  "2026-11-14 13:39 preview ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/Dfu3zcMHUUI/"
+  "2026-11-14 13:39 preview ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/Dfu3zcMHUUI/",
+  "2026-11-14 22:20 result ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/DfvzUX1jeqT/"
  ],
  "pending": {
   "nba|Miami Heat|Detroit Pistons|2026-11-14": {
@@ -76,21 +76,6 @@
    "opponent_short": "Pistons",
    "reign_no": 77,
    "since": "2026-11-13"
-  },
-  "ncaah|Michigan|Penn State|2026-11-14": {
-   "belt_name": "The College Hockey Belt",
-   "date": "2026-11-14",
-   "defenses": 0,
-   "espn_id": "401923157",
-   "espn_path": "hockey/mens-college-hockey",
-   "game_no": 498,
-   "holder": "Michigan",
-   "holder_short": "Michigan",
-   "lg": "ncaah",
-   "opponent": "Penn State",
-   "opponent_short": "Penn State",
-   "reign_no": 6,
-   "since": "2026-11-01"
   }
  },
  "previews": [
@@ -156,7 +141,6 @@
   "ncaah|Michigan|Penn State|2026-11-14"
  ],
  "results": [
-  "epl|Manchester City|Aston Villa|2026-10-24",
   "mls|Nashville SC|CF Montr\u00e9al|2026-10-24",
   "seriea|AS Roma|SSC Napoli|2026-10-24",
   "ligue1|Paris FC|RC Lens|2026-10-24",
@@ -215,6 +199,7 @@
   "nfl|New York Giants|Washington Commanders|2026-11-12",
   "nba|Cleveland Cavaliers|Miami Heat|2026-11-13",
   "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13",
-  "ncaah|Michigan|Penn State|2026-11-13"
+  "ncaah|Michigan|Penn State|2026-11-13",
+  "ncaah|Michigan|Penn State|2026-11-14"
  ]
 }
