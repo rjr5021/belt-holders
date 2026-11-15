@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-10-31 15:30 preview ligamx|Tijuana|Monterrey|2026-10-31 https://www.instagram.com/p/DfK6m9_lBwY/",
   "2026-10-31 15:30 preview ncaah|Michigan|Ohio State|2026-10-31 https://www.instagram.com/p/DfK6p0llA1b/",
   "2026-10-31 20:40 result nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31 https://www.instagram.com/p/DfLd18VjV-9/",
   "2026-10-31 20:40 result eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31 https://www.instagram.com/p/DfLd5BXjW3R/",
@@ -59,7 +58,8 @@
   "2026-11-14 13:39 preview nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfu3wHFHXE4/",
   "2026-11-14 13:39 preview ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/Dfu3zcMHUUI/",
   "2026-11-14 22:20 result ncaah|Michigan|Penn State|2026-11-14 https://www.instagram.com/p/DfvzUX1jeqT/",
-  "2026-11-15 06:16 result nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfwp3JeIKm8/"
+  "2026-11-15 06:16 result nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfwp3JeIKm8/",
+  "2026-11-15 14:15 preview nhl|Nashville Predators|San Jose Sharks|2026-11-15 https://www.instagram.com/p/DfxgoiTo1Du/"
  ],
  "pending": {
   "intl|Spain|England|2026-11-15": {
@@ -109,7 +109,6 @@
   }
  },
  "previews": [
-  "nhl|Dallas Stars|Buffalo Sabres|2026-10-08",
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
@@ -168,7 +167,8 @@
   "nhl|Vegas Golden Knights|Nashville Predators|2026-11-13",
   "ncaah|Michigan|Penn State|2026-11-13",
   "nba|Miami Heat|Detroit Pistons|2026-11-14",
-  "ncaah|Michigan|Penn State|2026-11-14"
+  "ncaah|Michigan|Penn State|2026-11-14",
+  "nhl|Nashville Predators|San Jose Sharks|2026-11-15"
  ],
  "results": [
   "seriea|AS Roma|SSC Napoli|2026-10-24",
