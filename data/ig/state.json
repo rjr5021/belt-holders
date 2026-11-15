@@ -62,6 +62,21 @@
   "2026-11-15 06:16 result nba|Miami Heat|Detroit Pistons|2026-11-14 https://www.instagram.com/p/Dfwp3JeIKm8/"
  ],
  "pending": {
+  "intl|Spain|England|2026-11-15": {
+   "belt_name": "The International Football Belt",
+   "date": "2026-11-15",
+   "defenses": 13,
+   "espn_id": "401861175",
+   "espn_path": "soccer/uefa.nations",
+   "game_no": 1066,
+   "holder": "Spain",
+   "holder_short": "Spain",
+   "lg": "intl",
+   "opponent": "England",
+   "opponent_short": "England",
+   "reign_no": 8,
+   "since": "2026-06-08"
+  },
   "nhl|Nashville Predators|San Jose Sharks|2026-11-15": {
    "belt_name": "The NHL Belt",
    "date": "2026-11-15",
