@@ -258,5 +258,15 @@
    "over_under": 228.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "MIA|HOU|2026-11-16",
+  "date": "2026-11-16",
+  "holder": "MIA",
+  "challenger": "HOU",
+  "pick": "HOU",
+  "score": "Miami Heat 116, Houston Rockets 119",
+  "made": "2026-11-15",
+  "line": null
  }
 ]

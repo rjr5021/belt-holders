@@ -1,25 +1,27 @@
 {
- "key": "MICH|PSU|2026-11-14",
- "updated": "2026-11-14T06:29Z",
- "start_utc": "2026-11-15T00:00Z",
+ "key": "MICH|MSU|2026-11-20",
+ "updated": "2026-11-15T02:01Z",
+ "start_utc": "2026-11-21T00:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan puts the lineal championship belt on the line when they host Penn State on November 14, 2026. The Wolverines claimed the belt in their most recent outing and have yet to defend it in this reign. Penn State, despite having held the belt twice before in program history, arrives in Ann Arbor struggling through a three-game losing streak.",
+  "overview": "The Wolverines are defending the belt for just the second time in this reign, having claimed it through their recent strong play. This marks the third time these teams will meet with the belt at stake.",
   "key_matchups": [
-   "Michigan's 8-1 record and recent offensive surge (5-4, 4-3, 4-1 wins) against Penn State's defensive struggles in a 2-7-1 campaign",
-   "The Wolverines' dominant head-to-head history (34-21-2 all-time) including wins in three of the last five meetings",
-   "Penn State's search for consistency after going winless in their last three games against Notre Dame and Minnesota"
+   "Michigan State's recent 1\u20131 tie at Notre Dame snapped a scoring drought, but can they find offense against a Michigan defense that's won 2 straight?",
+   "The all-time series favors Michigan 35-21-6 across 62 games, but the Spartans took 3 of the last 5 meetings including a 5-2 win in February 2026",
+   "Michigan's 9-1 record suggests dominance, while Michigan State's 6-3-1 mark shows vulnerability despite flashes like their 5-0 win over Boston University"
   ],
-  "betting_angles": "Michigan enters as a clear Elo favorite with an 8-1 record and four wins in their last five games, while Penn State has dropped three straight and sits at 2-7-1. The head-to-head history heavily favors the Wolverines at 34-21-2 all-time, and Michigan took two of three decisions last season including a 7-1 victory. The recent form disparity is stark, with Michigan coming off a 5-4 road win at Ohio State while the Nittany Lions have been outscored in losses to Notre Dame and Minnesota.",
+  "betting_angles": "Michigan enters with a 9-1 record and wins in 2 straight games, most recently 6\u20133 over Penn State. Michigan State sits at 6-3-1 but managed just a 1\u20131 tie in their last outing and took a 2-3 loss to Notre Dame before that. The Elo model favors Michigan clearly, and the home ice advantage combined with superior form this season supports that edge, though the recent head-to-head history has been competitive with the road team winning several recent matchups.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 5, Penn State 2",
-  "prediction_writeup": "Michigan's combination of superior form, home ice, and dominant head-to-head history makes them the logical pick to defend the belt for the first time in this reign. The Wolverines have won four of their last five games and boast an 8-1 record, while Penn State limps in on a three-game skid at 2-7-1. Michigan's recent 5-2 victory over Penn State in March 2026 provides a template for this matchup. The Elo model's assessment aligns with both the records and recent trends pointing toward a comfortable home win for the belt holders.",
-  "written": "2026-11-14",
+  "predicted_score": "Michigan 4, Michigan State 2",
+  "prediction_writeup": "Michigan's 9-1 record and current 2-game winning streak give them clear momentum entering this rivalry clash. While Michigan State has held the belt 3 times before and won 3 of the last 5 meetings between these teams, their 6-3-1 record and recent 1\u20131 tie suggest they're not firing on all cylinders. The Elo model clearly favors the Wolverines, and home ice at Yost should be the difference. Michigan has defended the belt once already in this reign and should make it twice, keeping the lineal championship in Ann Arbor.",
+  "written": "2026-11-15",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "20"
+   ]
   }
  }
 }

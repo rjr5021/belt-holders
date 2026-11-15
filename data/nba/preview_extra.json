@@ -1,19 +1,13 @@
 {
- "key": "MIA|DET|2026-11-14",
- "updated": "2026-11-14T06:26Z",
- "start_utc": "2026-11-15T01:00Z",
+ "key": "MIA|HOU|2026-11-16",
+ "updated": "2026-11-15T01:58Z",
+ "start_utc": "2026-11-17T00:30Z",
  "espn": {
-  "event_id": "401909982",
-  "start_utc": "2026-11-15T01:00Z",
+  "event_id": "401909998",
+  "start_utc": "2026-11-17T00:30Z",
   "state": "pre",
-  "tv": [
-   "NBA TV"
-  ],
-  "odds": {
-   "details": "DET -4.5",
-   "over_under": 228.5,
-   "provider": "DraftKings"
-  },
+  "tv": [],
+  "odds": null,
   "teams": {
    "MIA": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
@@ -22,10 +16,10 @@
     "rank": null,
     "home_away": "home"
    },
-   "DET": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-    "abbr": "DET",
-    "record": "8-3",
+   "HOU": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+    "abbr": "HOU",
+    "record": "10-3",
     "rank": null,
     "home_away": "away"
    }
@@ -39,17 +33,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Miami Heat put their lineal championship belt on the line for the first time in this reign when they host the Detroit Pistons on November 14th, 2026. Miami claimed the belt in their most recent win, 133\u2013121 over Cleveland, and now face a Pistons squad that has held the belt 149 times previously and knows what it takes to claim it.",
+  "overview": "The Miami Heat put their lineal championship belt on the line for the first time in this reign when they host the Houston Rockets on November 16th. Miami claimed the belt in their recent winning streak and now face a Houston squad that has raced to a 10-3 record. The Rockets have held this belt 107 times previously and will be looking to reclaim it.",
   "key_matchups": [
-   "Miami's three-game winning streak versus Detroit's two-game streak, with both teams finding offensive rhythm in recent wins",
-   "Detroit's 8-3 record as the better performing team this season against Miami's .500 mark at 6-6",
-   "The revenge factor after Detroit's dominant 128-111 victory over Miami on October 23rd in their most recent meeting"
+   "Momentum collision: Both teams riding three-game winning streaks into this belt showdown",
+   "Houston's 10-3 record versus Miami's .500 mark (6-6) despite the Heat's recent surge",
+   "Recent history favors tight contests: their last meeting ended 123-122 in Houston's favor"
   ],
-  "betting_angles": "Detroit enters with the superior record at 8-3 compared to Miami's 6-6, and the Elo model favors the Pistons despite Miami having home court. The Pistons won the most recent meeting 128-111, though the all-time head-to-head favors Miami 84-68. Both teams are in good form with winning streaks, but Detroit's recent offensive output\u2014144 and 122 points in their last two\u2014suggests they're peaking at the right time.",
-  "predicted_winner": "Detroit Pistons",
-  "predicted_score": "Miami Heat 118, Detroit Pistons 124",
-  "prediction_writeup": "Detroit's superior 8-3 record and the Elo model's backing make them the pick to reclaim the belt they've held 149 times before. The Pistons dominated Miami 128-111 in their October meeting and have shown explosive offense with 144 and 122 points in their last two wins. While Miami has won three straight and defends at home, their 6-6 record and underdog status against a Pistons team firing on all cylinders suggests the belt changes hands. Detroit has the momentum and metrics to win this matchup.",
-  "written": "2026-11-14",
+  "betting_angles": "Houston enters with a superior record at 10-3 compared to Miami's 6-6, though both teams have won their last three games. The Elo model calls this a toss-up despite the Rockets' better season performance. Head-to-head history is fairly even with Miami leading 43-35 all-time, and their last five meetings have been competitive, including a one-point thriller in March.",
+  "predicted_winner": "Houston Rockets",
+  "predicted_score": "Miami Heat 116, Houston Rockets 119",
+  "prediction_writeup": "While Miami has home court and momentum from three straight wins, Houston's 10-3 record reflects a more consistent team this season. The Rockets have shown they can win in different ways, beating quality opponents like Golden State 115-108 and Denver 110-100 in their recent streak. Their last meeting ended 123-122 in Houston's favor, and with the belt on the line, the Rockets' superior season form should prove decisive in another close contest. Houston reclaims the belt they've held 107 times before.",
+  "written": "2026-11-15",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
