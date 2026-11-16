@@ -346,5 +346,15 @@
   "score": "Nashville Predators 3, San Jose Sharks 2",
   "made": "2026-11-14",
   "line": null
+ },
+ {
+  "key": "SJS|CGY|2026-11-17",
+  "date": "2026-11-17",
+  "holder": "SJS",
+  "challenger": "CGY",
+  "pick": "SJS",
+  "score": "San Jose Sharks 4, Calgary Flames 3",
+  "made": "2026-11-16",
+  "line": null
  }
 ]

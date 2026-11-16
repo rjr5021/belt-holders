@@ -1,14 +1,13 @@
 {
- "key": "NSH|SJS|2026-11-15",
- "updated": "2026-11-14T06:27Z",
- "start_utc": "2026-11-16T02:00Z",
+ "key": "SJS|CGY|2026-11-17",
+ "updated": "2026-11-16T06:33Z",
+ "start_utc": "2026-11-18T03:00Z",
  "espn": {
-  "event_id": "401892725",
-  "start_utc": "2026-11-16T02:00Z",
+  "event_id": "401892738",
+  "start_utc": "2026-11-18T03:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "Scripps Sports",
    "NBC Sports BA"
   ],
   "odds": null,
@@ -16,14 +15,14 @@
    "SJS": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
     "abbr": "SJ",
-    "record": "8-11-2",
+    "record": "10-11-2",
     "rank": null,
     "home_away": "home"
    },
-   "NSH": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-    "abbr": "NSH",
-    "record": "11-4-5",
+   "CGY": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+    "abbr": "CGY",
+    "record": "9-11-1",
     "rank": null,
     "home_away": "away"
    }
@@ -37,17 +36,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Nashville Predators bring the lineal championship belt to SAP Center to face the San Jose Sharks on November 15, 2026. Nashville claimed the belt in their most recent victory and has yet to defend it in this reign, making San Jose's challenge an immediate test. The Sharks have held the belt 41 times previously and will look to reclaim it on home ice.",
+  "overview": "The San Jose Sharks put their lineal championship belt on the line for the first time in this reign when they host the Calgary Flames on November 17th. San Jose captured the belt in their most recent victory and will look to defend it at home against a Calgary side that has held the belt 68 times previously in franchise history. This matchup features two teams below .500 battling for lineal bragging rights.",
   "key_matchups": [
-   "Nashville's perfect 5-game win streak versus San Jose's recent struggles, having lost their last game and 4 of their last 5",
-   "Recent head-to-head history favors San Jose with wins in 2 of the last 3 meetings, including a 3-2 victory on 2026-10-15",
-   "Nashville's defensive form during their streak, allowing 2 goals or fewer in 4 of their last 5 games"
+   "San Jose riding momentum with 2 straight wins including a 4\u20132 victory over Nashville, while Calgary limps in after a devastating 1\u20136 loss at Anaheim",
+   "Calgary holds a 2-0-1 edge in the last 3 meetings, including a 2-1 victory on November 2nd",
+   "Both teams struggling this season at 10-13 and 9-12 respectively, making this belt defense wide open"
   ],
-  "betting_angles": "Nashville arrives riding a 5-game winning streak and carrying an 11-9 record, while San Jose sits at 8-13 with just one win in their last 5 games. However, the Sharks have recent head-to-head success, taking 2 of the last 3 meetings including their most recent matchup in October. The Elo model views this as a toss-up despite Nashville's superior current form, likely factoring in San Jose's home ice and their historical competitiveness in this matchup (56-51-2 all-time).",
-  "predicted_winner": "Nashville Predators",
-  "predicted_score": "Nashville Predators 3, San Jose Sharks 2",
-  "prediction_writeup": "Nashville's 5-game winning streak is too strong to ignore, even against a San Jose team that has shown it can beat the Predators this season. The Predators have been disciplined defensively during their run, and their 11-9 record reflects a team finding consistency. While the Sharks won the last meeting 3-2 and have home ice advantage, their 8-13 record and recent form suggest they'll struggle to contain a confident Nashville squad. Expect a close game that Nashville edges out late, successfully defending the belt for the first time in this reign.",
-  "written": "2026-11-14",
+  "betting_angles": "The Elo model sees this as a toss-up, which aligns with two evenly-matched struggling teams. San Jose has won their last 2 games and holds home ice, while Calgary was crushed 1\u20136 in their most recent outing. The Flames have owned the recent head-to-head series with wins in 3 of the last 4 meetings, though the all-time series shows Calgary ahead 89-71-8.",
+  "predicted_winner": "San Jose Sharks",
+  "predicted_score": "San Jose Sharks 4, Calgary Flames 3",
+  "prediction_writeup": "San Jose gets the nod in what should be a tight contest between two below-.500 clubs. The Sharks have won their last 2 games and will have the home crowd behind them in their first belt defense. Calgary's brutal 1\u20136 loss at Anaheim suggests they may still be reeling, despite their recent success against San Jose. In a toss-up game, momentum and home ice prove decisive for the belt holder.",
+  "written": "2026-11-16",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
