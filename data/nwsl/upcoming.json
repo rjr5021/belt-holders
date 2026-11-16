@@ -1,21 +1,21 @@
 [
  {
-  "id": "espn-401933740",
-  "date": "2026-11-15",
+  "id": "espn-401934232",
+  "date": "2026-11-21",
   "season_type": "regular",
-  "home": "Gotham FC",
+  "home": "Washington Spirit",
   "away": "Kansas City Current",
-  "home_id": "15364",
+  "home_id": "15365",
   "away_id": "20907",
-  "home_abbr": "GFC",
+  "home_abbr": "WAS",
   "away_abbr": "KC",
-  "home_loc": "Gotham FC",
+  "home_loc": "Washington Spirit",
   "away_loc": "Kansas City Current",
   "neutral": "",
   "source": "espn",
   "season_year": 2026,
-  "stype": 14022,
-  "start_et": "15:00",
+  "stype": 14021,
+  "start_et": "20:00",
   "season": 2026
  }
 ]
