@@ -61,7 +61,23 @@
   "2026-11-15 18:28 result intl|Spain|England|2026-11-15 https://www.instagram.com/p/Dfx9nHwltU6/",
   "2026-11-15 23:38 result nhl|Nashville Predators|San Jose Sharks|2026-11-15 https://www.instagram.com/p/DfyhFf1HIXj/"
  ],
- "pending": {},
+ "pending": {
+  "nba|Miami Heat|Houston Rockets|2026-11-16": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-16",
+   "defenses": 1,
+   "espn_id": "401909998",
+   "espn_path": "basketball/nba",
+   "game_no": 7546,
+   "holder": "Miami Heat",
+   "holder_short": "Heat",
+   "lg": "nba",
+   "opponent": "Houston Rockets",
+   "opponent_short": "Rockets",
+   "reign_no": 77,
+   "since": "2026-11-13"
+  }
+ },
  "previews": [
   "nhl|Dallas Stars|Pittsburgh Penguins|2026-10-10",
   "mls|Austin FC|Nashville SC|2026-10-10",
