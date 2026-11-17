@@ -61,7 +61,23 @@
   "2026-11-16 17:45 preview nba|Miami Heat|Houston Rockets|2026-11-16 https://www.instagram.com/p/Df0daidFN0f/",
   "2026-11-16 23:49 result nba|Miami Heat|Houston Rockets|2026-11-16 https://www.instagram.com/p/Df1HEl2jmQI/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|San Jose Sharks|Calgary Flames|2026-11-17": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-17",
+   "defenses": 0,
+   "espn_id": "401892738",
+   "espn_path": "hockey/nhl",
+   "game_no": 8456,
+   "holder": "San Jose Sharks",
+   "holder_short": "Sharks",
+   "lg": "nhl",
+   "opponent": "Calgary Flames",
+   "opponent_short": "Flames",
+   "reign_no": 42,
+   "since": "2026-11-15"
+  }
+ },
  "previews": [
   "mls|Austin FC|Nashville SC|2026-10-10",
   "ligue1|Paris FC|FC Lorient|2026-10-10",
