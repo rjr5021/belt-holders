@@ -1,109 +1,5 @@
 [
  {
-  "id": "espn-401909994",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BOS",
-  "away": "ORL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "TD Garden",
-  "spread": 8.5
- },
- {
-  "id": "espn-401909995",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CLE",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Rocket Arena",
-  "spread": 8.5
- },
- {
-  "id": "espn-401909996",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "WSH",
-  "away": "MEM",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Capital One Arena",
-  "spread": -3.5
- },
- {
-  "id": "espn-401909997",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "BKN",
-  "away": "PHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Barclays Center",
-  "spread": -4.5
- },
- {
-  "id": "espn-401909998",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIA",
-  "away": "HOU",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Kaseya Center",
-  "spread": -1.5
- },
- {
-  "id": "espn-401909999",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Target Center",
-  "spread": 2.5
- },
- {
-  "id": "espn-401910000",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "GS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": -3.5
- },
- {
-  "id": "espn-401910001",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "DEN",
-  "away": "PHX",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "21:00",
-  "venue": "Ball Arena",
-  "spread": 9.5
- },
- {
   "id": "espn-401910002",
   "date": "2026-11-17",
   "season": 2026,
@@ -114,7 +10,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": -3.5
  },
  {
   "id": "espn-401910003",
@@ -140,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Frost Bank Center",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401910006",
@@ -153,7 +49,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401910005",
@@ -166,7 +62,7 @@
   "source": "espn",
   "start_et": "23:00",
   "venue": "crypto.com Arena",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401910007",
