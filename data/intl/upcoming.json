@@ -1,27 +1,5 @@
 [
  {
-  "id": "int-espn-401929705",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Trinidad and Tobago",
-  "away": "Antigua and Barbuda",
-  "neutral": "",
-  "start_et": "19:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
-  "id": "int-espn-401929770",
-  "date": "2026-11-16",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Canada",
-  "away": "Guatemala",
-  "neutral": "",
-  "start_et": "20:00",
-  "tournament": "CONCACAF Nations League"
- },
- {
   "id": "int-espn-401933879",
   "date": "2026-11-17",
   "season": 2026,
