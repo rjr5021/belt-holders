@@ -1,25 +1,29 @@
 {
- "key": "MIA|HOU|2026-11-16",
- "updated": "2026-11-15T01:58Z",
- "start_utc": "2026-11-17T00:30Z",
+ "key": "MIA|MIL|2026-11-18",
+ "updated": "2026-11-17T02:58Z",
+ "start_utc": "2026-11-19T00:00Z",
  "espn": {
-  "event_id": "401909998",
-  "start_utc": "2026-11-17T00:30Z",
+  "event_id": "401910009",
+  "start_utc": "2026-11-19T00:00Z",
   "state": "pre",
-  "tv": [],
+  "tv": [
+   "ESPN",
+   "MyMi",
+   "Bucks App"
+  ],
   "odds": null,
   "teams": {
    "MIA": {
     "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
     "abbr": "MIA",
-    "record": "6-6",
+    "record": "8-6",
     "rank": null,
     "home_away": "home"
    },
-   "HOU": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-    "abbr": "HOU",
-    "record": "10-3",
+   "MIL": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+    "abbr": "MIL",
+    "record": "1-13",
     "rank": null,
     "home_away": "away"
    }
@@ -33,21 +37,24 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Miami Heat put their lineal championship belt on the line for the first time in this reign when they host the Houston Rockets on November 16th. Miami claimed the belt in their recent winning streak and now face a Houston squad that has raced to a 10-3 record. The Rockets have held this belt 107 times previously and will be looking to reclaim it.",
+  "overview": "The belt passes to whoever beats the holder, tracing an unbroken chain back to the league's first game, and Miami has successfully defended it 2 times in this reign.",
   "key_matchups": [
-   "Momentum collision: Both teams riding three-game winning streaks into this belt showdown",
-   "Houston's 10-3 record versus Miami's .500 mark (6-6) despite the Heat's recent surge",
-   "Recent history favors tight contests: their last meeting ended 123-122 in Houston's favor"
+   "Miami's five-game winning streak against Milwaukee's five-game losing skid",
+   "Heat's offensive surge, scoring 128, 137, 133, 115, and 114 in their last five wins",
+   "Bucks' struggles on both ends, allowing 113, 107, 123, 117, and 117 in their recent losses"
   ],
-  "betting_angles": "Houston enters with a superior record at 10-3 compared to Miami's 6-6, though both teams have won their last three games. The Elo model calls this a toss-up despite the Rockets' better season performance. Head-to-head history is fairly even with Miami leading 43-35 all-time, and their last five meetings have been competitive, including a one-point thriller in March.",
-  "predicted_winner": "Houston Rockets",
-  "predicted_score": "Miami Heat 116, Houston Rockets 119",
-  "prediction_writeup": "While Miami has home court and momentum from three straight wins, Houston's 10-3 record reflects a more consistent team this season. The Rockets have shown they can win in different ways, beating quality opponents like Golden State 115-108 and Denver 110-100 in their recent streak. Their last meeting ended 123-122 in Houston's favor, and with the belt on the line, the Rockets' superior season form should prove decisive in another close contest. Houston reclaims the belt they've held 107 times before.",
-  "written": "2026-11-15",
+  "betting_angles": "Miami enters with momentum from five straight wins while Milwaukee has dropped five consecutive games. Our Elo model designates Miami as a clear favorite, and the all-time head-to-head leans Miami's way at 90-64 across 154 meetings.",
+  "predicted_winner": "Miami Heat",
+  "predicted_score": "Miami Heat 118, Milwaukee Bucks 104",
+  "prediction_writeup": "The contrasting trajectories could not be starker: Miami has reeled off five straight victories while Milwaukee has lost five in a row. The Heat's recent offensive output has been impressive, posting 128 points in their latest win over Houston and 137 against Detroit. With the Elo model backing Miami as a clear favorite and home court advantage, the Heat should extend both their winning streak and their belt reign.",
+  "written": "2026-11-17",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "13",
+    "18"
+   ]
   }
  }
 }
