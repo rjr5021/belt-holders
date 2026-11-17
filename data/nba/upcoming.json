@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Target Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401910004",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Frost Bank Center",
-  "spread": 8.5
+  "spread": 9.5
  },
  {
   "id": "espn-401910006",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "22:30",
   "venue": "Intuit Dome",
-  "spread": 5.5
+  "spread": 6.5
  },
  {
   "id": "espn-401910005",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "23:00",
   "venue": "crypto.com Arena",
-  "spread": 8.5
+  "spread": 7.5
  },
  {
   "id": "espn-401910007",
