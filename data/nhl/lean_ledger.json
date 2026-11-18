@@ -356,5 +356,15 @@
   "score": "San Jose Sharks 4, Calgary Flames 3",
   "made": "2026-11-16",
   "line": null
+ },
+ {
+  "key": "CGY|MIN|2026-11-19",
+  "date": "2026-11-19",
+  "holder": "CGY",
+  "challenger": "MIN",
+  "pick": "MIN",
+  "score": "Calgary Flames 2, Minnesota Wild 4",
+  "made": "2026-11-18",
+  "line": null
  }
 ]

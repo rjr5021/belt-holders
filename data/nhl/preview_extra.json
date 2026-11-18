@@ -1,52 +1,52 @@
 {
- "key": "SJS|CGY|2026-11-17",
- "updated": "2026-11-16T06:33Z",
- "start_utc": "2026-11-18T03:00Z",
+ "key": "CGY|MIN|2026-11-19",
+ "updated": "2026-11-18T07:34Z",
+ "start_utc": "2026-11-20T01:00Z",
  "espn": {
-  "event_id": "401892738",
-  "start_utc": "2026-11-18T03:00Z",
+  "event_id": "401892750",
+  "start_utc": "2026-11-20T01:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "NBC Sports BA"
+   "MINNHL"
   ],
   "odds": null,
   "teams": {
-   "SJS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-    "abbr": "SJ",
-    "record": "10-11-2",
-    "rank": null,
-    "home_away": "home"
-   },
    "CGY": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
     "abbr": "CGY",
-    "record": "9-11-1",
+    "record": "10-11-1",
+    "rank": null,
+    "home_away": "home"
+   },
+   "MIN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
+    "abbr": "MIN",
+    "record": "16-3-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "SAP Center at San Jose",
-   "city": "San Jose",
-   "state": "CA",
+   "name": "Scotiabank Saddledome",
+   "city": "Calgary",
+   "state": "AB",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The San Jose Sharks put their lineal championship belt on the line for the first time in this reign when they host the Calgary Flames on November 17th. San Jose captured the belt in their most recent victory and will look to defend it at home against a Calgary side that has held the belt 68 times previously in franchise history. This matchup features two teams below .500 battling for lineal bragging rights.",
+  "overview": "The Calgary Flames host the Minnesota Wild with the lineal championship belt on the line, though Calgary has yet to successfully defend it in their current reign. The Flames enter at 10-12 after bouncing back with a 5\u20132 win at San Jose, while the red-hot Wild arrive at 16-7 riding a four-game winning streak that includes a dominant 7\u20133 victory over Nashville.",
   "key_matchups": [
-   "San Jose riding momentum with 2 straight wins including a 4\u20132 victory over Nashville, while Calgary limps in after a devastating 1\u20136 loss at Anaheim",
-   "Calgary holds a 2-0-1 edge in the last 3 meetings, including a 2-1 victory on November 2nd",
-   "Both teams struggling this season at 10-13 and 9-12 respectively, making this belt defense wide open"
+   "Minnesota's four-game win streak and potent offense (7\u20133, 6\u20132, 5\u20132, 2\u20131 in those victories) against a Calgary team that just allowed six goals to Anaheim two games ago",
+   "Calgary's home ice advantage versus a Wild team that has won three straight on the road, including convincing wins at Boston (6\u20132) and Toronto (5\u20132)",
+   "The all-time series favors Calgary 61-46-4, but the last five meetings are split 3-2 in favor of the Flames, with the most recent a narrow 2-1 Calgary win in October"
   ],
-  "betting_angles": "The Elo model sees this as a toss-up, which aligns with two evenly-matched struggling teams. San Jose has won their last 2 games and holds home ice, while Calgary was crushed 1\u20136 in their most recent outing. The Flames have owned the recent head-to-head series with wins in 3 of the last 4 meetings, though the all-time series shows Calgary ahead 89-71-8.",
-  "predicted_winner": "San Jose Sharks",
-  "predicted_score": "San Jose Sharks 4, Calgary Flames 3",
-  "prediction_writeup": "San Jose gets the nod in what should be a tight contest between two below-.500 clubs. The Sharks have won their last 2 games and will have the home crowd behind them in their first belt defense. Calgary's brutal 1\u20136 loss at Anaheim suggests they may still be reeling, despite their recent success against San Jose. In a toss-up game, momentum and home ice prove decisive for the belt holder.",
-  "written": "2026-11-16",
+  "betting_angles": "Minnesota arrives with superior momentum and a significantly better record (16-7 vs 10-12), having won four straight while Calgary has dropped three of their last five. The Wild's recent road form is particularly impressive with wins at Boston and Toronto, and the Elo model favors them as well despite Calgary holding home ice. However, Calgary owns the recent head-to-head edge with three wins in the last five meetings, including a 2-1 victory just a month ago.",
+  "predicted_winner": "Minnesota Wild",
+  "predicted_score": "Calgary Flames 2, Minnesota Wild 4",
+  "prediction_writeup": "Minnesota's current form is simply too strong to ignore, with four consecutive wins including dominant road performances at Toronto and Boston. While Calgary won the most recent meeting 2-1 in October, the Wild's 16-7 record and offensive firepower evident in their last five games outweigh the Flames' home advantage. Calgary's inconsistency is troubling, alternating between a 5\u20132 win and a 1\u20136 loss in their recent stretch. The Elo model correctly identifies Minnesota as the favorite, and with the belt on the line, the Wild should claim it with a workmanlike road victory.",
+  "written": "2026-11-18",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
