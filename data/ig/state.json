@@ -62,6 +62,21 @@
   "2026-11-17 16:31 preview nhl|San Jose Sharks|Calgary Flames|2026-11-17 https://www.instagram.com/p/Df25u8DIwqO/"
  ],
  "pending": {
+  "nba|Miami Heat|Milwaukee Bucks|2026-11-18": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-18",
+   "defenses": 2,
+   "espn_id": "401910009",
+   "espn_path": "basketball/nba",
+   "game_no": 7547,
+   "holder": "Miami Heat",
+   "holder_short": "Heat",
+   "lg": "nba",
+   "opponent": "Milwaukee Bucks",
+   "opponent_short": "Bucks",
+   "reign_no": 77,
+   "since": "2026-11-13"
+  },
   "nhl|San Jose Sharks|Calgary Flames|2026-11-17": {
    "belt_name": "The NHL Belt",
    "date": "2026-11-17",
