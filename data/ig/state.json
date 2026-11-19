@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-01 13:16 preview ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfNW4f_oLeB/",
   "2026-11-01 22:00 result nwsl|Kansas City Current|Racing Louisville FC|2026-11-01 https://www.instagram.com/p/DfOSwOUFGEy/",
   "2026-11-01 22:00 result laliga|Athletic Bilbao|Real Sociedad|2026-11-01 https://www.instagram.com/p/DfOSy2ClHAD/",
   "2026-11-01 22:00 result ncaah|Michigan|Ohio State|2026-11-01 https://www.instagram.com/p/DfOS1fvlFcl/",
@@ -59,7 +58,8 @@
   "2026-11-17 16:31 preview nhl|San Jose Sharks|Calgary Flames|2026-11-17 https://www.instagram.com/p/Df25u8DIwqO/",
   "2026-11-18 00:42 result nhl|San Jose Sharks|Calgary Flames|2026-11-17 https://www.instagram.com/p/Df3x785DjWJ/",
   "2026-11-18 16:06 preview nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df5bwFeIPI6/",
-  "2026-11-18 23:40 result nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df6PrNpFj-W/"
+  "2026-11-18 23:40 result nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df6PrNpFj-W/",
+  "2026-11-19 16:12 preview nhl|Calgary Flames|Minnesota Wild|2026-11-19 https://www.instagram.com/p/Df8BMMiEvqr/"
  ],
  "pending": {
   "nhl|Calgary Flames|Minnesota Wild|2026-11-19": {
@@ -79,7 +79,6 @@
   }
  },
  "previews": [
-  "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
   "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
@@ -138,7 +137,8 @@
   "nhl|Nashville Predators|San Jose Sharks|2026-11-15",
   "nba|Miami Heat|Houston Rockets|2026-11-16",
   "nhl|San Jose Sharks|Calgary Flames|2026-11-17",
-  "nba|Miami Heat|Milwaukee Bucks|2026-11-18"
+  "nba|Miami Heat|Milwaukee Bucks|2026-11-18",
+  "nhl|Calgary Flames|Minnesota Wild|2026-11-19"
  ],
  "results": [
   "eredivisie|AZ Alkmaar|FC Twente|2026-10-25",
