@@ -1064,8 +1064,8 @@
   "date": "2027-02-07",
   "season": 2026,
   "season_type": "regular",
-  "home": "9",
-  "away": "12",
+  "home": "12",
+  "away": "9",
   "neutral": "",
   "start_et": "18:00"
  },
@@ -1554,8 +1554,8 @@
   "date": "2027-03-21",
   "season": 2026,
   "season_type": "regular",
-  "home": "12",
-  "away": "9",
+  "home": "9",
+  "away": "12",
   "neutral": "",
   "start_et": "16:30"
  },
