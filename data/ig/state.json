@@ -61,7 +61,23 @@
   "2026-11-18 16:06 preview nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df5bwFeIPI6/",
   "2026-11-18 23:40 result nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df6PrNpFj-W/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Calgary Flames|Minnesota Wild|2026-11-19": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-19",
+   "defenses": 0,
+   "espn_id": "401892750",
+   "espn_path": "hockey/nhl",
+   "game_no": 8457,
+   "holder": "Calgary Flames",
+   "holder_short": "Flames",
+   "lg": "nhl",
+   "opponent": "Minnesota Wild",
+   "opponent_short": "Wild",
+   "reign_no": 69,
+   "since": "2026-11-17"
+  }
+ },
  "previews": [
   "eredivisie|AZ Alkmaar|Feyenoord|2026-10-10",
   "ligamx|Atlante|Quer\u00e9taro|2026-10-10",
