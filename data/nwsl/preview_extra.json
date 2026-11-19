@@ -1,3 +1,60 @@
 {
- "key": null
+ "key": "KC|WAS|2026-11-21",
+ "updated": "2026-11-19T00:27Z",
+ "start_utc": "2026-11-22T01:00Z",
+ "espn": {
+  "event_id": "401934232",
+  "start_utc": "2026-11-22T01:00Z",
+  "state": "pre",
+  "tv": [
+   "CBS",
+   "Paramount+"
+  ],
+  "odds": {
+   "details": "WAS +135",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "WAS": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png",
+    "abbr": "WAS",
+    "record": null,
+    "rank": null,
+    "home_away": "home"
+   },
+   "KC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png",
+    "abbr": "KC",
+    "record": null,
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "Audi Field",
+   "city": "Washington, District of Columbia",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Kansas City Current bring the Belt Holders lineal championship to Washington on November 21st, riding a 5-game winning streak against a Spirit side that has won their last 3. The Current have defended the belt 6 times in this reign, while Washington\u2014who have held the belt 13 times before\u2014will look to reclaim it on home turf in what the Elo model calls a toss-up.",
+  "key_matchups": [
+   "Kansas City's 5-game winning streak meets Washington's 3-game surge in a rematch of their recent 2-1 Kansas City victory",
+   "The Spirit hold a 6-5 all-time edge in the series with 1 tie across 12 meetings",
+   "These teams have met 3 times with the belt on the line, adding championship history to an already tight rivalry"
+  ],
+  "betting_angles": "Both sides enter in excellent form, with Kansas City on a 5-game winning streak and Washington having won their last 3. The all-time head-to-head is nearly even at 6-5-1 in Washington's favor, though Kansas City took their most recent meeting 2-1. The Elo model rates this as a toss-up, reflecting how evenly matched these clubs are\u2014Washington edges the season record at 19-9-4 versus Kansas City's 18-9-5.",
+  "predicted_winner": "Kansas City Current",
+  "predicted_score": "Kansas City Current 1, Washington Spirit 0",
+  "prediction_writeup": "Kansas City's 5-game winning streak is the longest active run between these two, and they've been stingy defensively with four clean sheets in their last 5 victories. The Current won the most recent meeting 2-1 and have defended the belt 6 times already in this reign, showing they know how to protect what's theirs. While Washington's 3-game winning streak and home field make this close, the Elo toss-up call combined with Kansas City's momentum tips the scales toward a narrow Current victory. Expect a tight, low-scoring affair befitting two teams separated by just one game in the standings.",
+  "written": "2026-11-19",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 2,
+   "dropped": []
+  }
+ }
 }
