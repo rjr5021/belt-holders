@@ -1,57 +1,5 @@
 [
  {
-  "id": "espn-401910019",
-  "date": "2026-11-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MEM",
-  "away": "GS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "FedExForum",
-  "spread": 5.5
- },
- {
-  "id": "espn-401910020",
-  "date": "2026-11-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIL",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Fiserv Forum",
-  "spread": -10.5
- },
- {
-  "id": "espn-401910021",
-  "date": "2026-11-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "NY",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Target Center",
-  "spread": -1.5
- },
- {
-  "id": "espn-401910022",
-  "date": "2026-11-19",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SA",
-  "away": "LAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Frost Bank Center",
-  "spread": 15.5
- },
- {
   "id": "espn-401909305",
   "date": "2026-11-20",
   "season": 2026,
@@ -62,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "State Farm Arena",
-  "spread": null
+  "spread": 5.5
  },
  {
   "id": "espn-401909306",
@@ -75,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Barclays Center",
-  "spread": null
+  "spread": -5.5
  },
  {
   "id": "espn-401909307",
@@ -88,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Rocket Arena",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909308",
@@ -101,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Little Caesars Arena",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401909309",
@@ -114,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "United Center",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909310",
@@ -127,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Paycom Center",
-  "spread": null
+  "spread": 11.5
  },
  {
   "id": "espn-401909311",
@@ -140,7 +88,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Delta Center",
-  "spread": null
+  "spread": -4.5
  },
  {
   "id": "espn-401909312",
@@ -153,7 +101,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Ball Arena",
-  "spread": null
+  "spread": 1.5
  },
  {
   "id": "espn-401909313",
@@ -166,7 +114,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "crypto.com Arena",
-  "spread": null
+  "spread": 14.5
  },
  {
   "id": "espn-401910023",
