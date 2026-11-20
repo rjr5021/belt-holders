@@ -1,3 +1,60 @@
 {
- "key": null
+ "key": "NSH|CIN|2026-11-22",
+ "updated": "2026-11-20T12:58Z",
+ "start_utc": "2026-11-22T21:00Z",
+ "espn": {
+  "event_id": "401933731",
+  "start_utc": "2026-11-22T21:00Z",
+  "state": "pre",
+  "tv": [
+   "FS1",
+   "Apple TV"
+  ],
+  "odds": {
+   "details": "NSH -200",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  },
+  "teams": {
+   "NSH": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+    "abbr": "NSH",
+    "record": null,
+    "rank": null,
+    "home_away": "home"
+   },
+   "CIN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+    "abbr": "CIN",
+    "record": null,
+    "rank": null,
+    "home_away": "away"
+   }
+  },
+  "venue": {
+   "name": "GEODIS Park",
+   "city": "Nashville, Tennessee",
+   "state": null,
+   "indoor": null
+  }
+ },
+ "weather": null,
+ "ai": {
+  "overview": "Nashville SC host FC Cincinnati with the lineal championship belt on the line, having defended it 6 times in their current reign. The two sides just met two weeks ago, with Nashville taking a 2-0 victory at Cincinnati to claim their second straight win. This marks the third time these clubs will battle with the belt at stake.",
+  "key_matchups": [
+   "Nashville's dominant form against Cincinnati: 4-0 and 2-0 wins in their last two meetings after Cincinnati won both matchups in 2025",
+   "Nashville's 23-3-8 record versus Cincinnati's 12-12-10 season suggests a significant gap in class this year",
+   "Home advantage for Nashville, who have won their last 2 games and went 2-0 at CF Montr\u00e9al in their recent stretch"
+  ],
+  "betting_angles": "Nashville SC enter as clear Elo favorites with a 23-3-8 record that towers over Cincinnati's 12-12-10 mark. The recent head-to-head has swung decisively in Nashville's favor with shutout wins of 4-0 and 2-0 in 2026 after dropping both 2025 meetings. Nashville's current two-game winning streak and home field advantage align with their status as belt holders defending for the seventh time.",
+  "predicted_winner": "Nashville SC",
+  "predicted_score": "Nashville SC 2, FC Cincinnati 0",
+  "prediction_writeup": "Nashville SC have dominated this matchup in 2026 with 4-0 and 2-0 victories, and their 23-3-8 record suggests they're a class above Cincinnati's 12-12-10 campaign. The belt holders have won their last 2 games and already shut out Cincinnati just two weeks ago at their place. With home field advantage and the Elo model backing them as clear favorites, Nashville should extend their defensive dominance. Another clean sheet feels likely given they've recorded three shutouts in their last five games, including both recent meetings with Cincinnati.",
+  "written": "2026-11-20",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
 }

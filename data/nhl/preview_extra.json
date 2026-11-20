@@ -1,56 +1,58 @@
 {
- "key": "CGY|CHI|2026-11-21",
- "updated": "2026-11-20T03:21Z",
- "start_utc": "2026-11-21T20:30Z",
+ "key": "MIN|VAN|2026-11-21",
+ "updated": "2026-11-20T12:57Z",
+ "start_utc": "2026-11-22T03:00Z",
  "espn": {
-  "event_id": "401892755",
-  "start_utc": "2026-11-21T20:30Z",
+  "event_id": "401892766",
+  "start_utc": "2026-11-22T03:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "CHSN"
+   "MINNHL"
   ],
   "odds": null,
   "teams": {
-   "CGY": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-    "abbr": "CGY",
-    "record": "10-11-1",
+   "VAN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+    "abbr": "VAN",
+    "record": "5-18-1",
     "rank": null,
     "home_away": "home"
    },
-   "CHI": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-    "abbr": "CHI",
-    "record": "6-13-2",
+   "MIN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
+    "abbr": "MIN",
+    "record": "17-3-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Scotiabank Saddledome",
-   "city": "Calgary",
-   "state": "AB",
+   "name": "Rogers Arena",
+   "city": "Vancouver",
+   "state": "BC",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Calgary Flames put their Belt Holders championship on the line for the first time in this reign when they host the Chicago Blackhawks on November 21, 2026. Calgary claimed the belt with their recent 5\u20132 victory at San Jose and will look to begin a defensive streak at home. The Blackhawks, who have held the belt 241 times previously, trail 90-93-26 in the all-time series but know exactly what it takes to capture lineal gold.",
+  "overview": "The Wild haven't defended it yet in this run, while the Canucks have held the belt 69 times previously and will look to reclaim it on home ice.",
   "key_matchups": [
-   "Calgary's immediate test: The Flames are 10-12 this season and face a Chicago team that just posted 6 goals against Toronto",
-   "Chicago's road woes: The Blackhawks are 6-15 overall and suffered blowout losses of 2\u20139 and 1\u20134 in their last road stretch",
-   "Recent history favors Calgary: The Flames won 3-1 in January and have taken 3 of the last 5 meetings"
+   "Wild's recent offensive output including a 7\u20133 win over Nashville and 6\u20132 win at Boston against a Canucks team that just lost 1\u20135 in Seattle",
+   "Head-to-head history shows Minnesota won the last meeting 4-2 on October 25, 2026, and lead the all-time series 60-56-5"
   ],
-  "betting_angles": "Calgary enters as the Elo favorite with home ice and a slightly better 10-12 record compared to Chicago's 6-15 mark. Both teams are riding one-game winning streaks, but the Flames showed offensive balance in their 5\u20132 belt-winning performance while Chicago's defense has been shaky, allowing 5 goals to Winnipeg and 9 at Carolina in recent outings. The head-to-head history is nearly even at 90-93-26, though Calgary has won the last meeting and three of the last five.",
-  "predicted_winner": "Calgary Flames",
-  "predicted_score": "Calgary Flames 4, Chicago Blackhawks 2",
-  "prediction_writeup": "The Flames should hold serve in their first belt defense, banking on home ice and their Elo advantage against a Blackhawks squad that sits at 6-15. While Chicago showed offensive firepower with 6 goals against Toronto, their recent road results include a 2\u20139 drubbing at Carolina and a 1\u20134 loss at Tampa Bay. Calgary has won 3 of the last 5 meetings between these clubs, including a 3-1 decision in January. The Flames' 5\u20132 performance at San Jose suggests enough offensive rhythm to protect the belt, even if their 10-12 record indicates inconsistency.",
+  "betting_angles": "Minnesota has won three straight against the Canucks, including a 4-2 victory on October 25, 2026. Our Elo model identifies the Wild as a clear favorite.",
+  "predicted_winner": "Minnesota Wild",
+  "predicted_score": "Minnesota Wild 4, Vancouver Canucks 2",
+  "prediction_writeup": "The Wild have been scoring consistently, posting 4\u20131, 7\u20133, 6\u20132, 5\u20132, and 2\u20131 victories in their last five outings. Minnesota swept the last three meetings including a 4-2 win on October 25, 2026, and the Elo model backs them as a clear favorite. The belt should stay with the Wild through this road trip.",
   "written": "2026-11-20",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "19",
+    "21"
+   ]
   }
  }
 }
