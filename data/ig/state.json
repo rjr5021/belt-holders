@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-01 22:00 result ncaah|Michigan|Ohio State|2026-11-01 https://www.instagram.com/p/DfOS1fvlFcl/",
   "2026-11-01 22:00 result ncaah|Ohio State|Michigan|2026-11-01 https://www.instagram.com/p/DfOS4NilM6W/",
   "2026-11-02 17:10 preview nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQWRt9idK-/",
   "2026-11-02 17:10 preview nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQWVYqCcjB/",
@@ -59,25 +58,10 @@
   "2026-11-18 23:40 result nba|Miami Heat|Milwaukee Bucks|2026-11-18 https://www.instagram.com/p/Df6PrNpFj-W/",
   "2026-11-19 16:12 preview nhl|Calgary Flames|Minnesota Wild|2026-11-19 https://www.instagram.com/p/Df8BMMiEvqr/",
   "2026-11-19 22:42 result nhl|Calgary Flames|Minnesota Wild|2026-11-19 https://www.instagram.com/p/Df8t3EfjO0D/",
-  "2026-11-20 17:30 preview ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df-u7XQj3M1/"
+  "2026-11-20 17:30 preview ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df-u7XQj3M1/",
+  "2026-11-20 21:33 result ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df_KuJRGx1a/"
  ],
- "pending": {
-  "ncaah|Michigan|Michigan State|2026-11-20": {
-   "belt_name": "The College Hockey Belt",
-   "date": "2026-11-20",
-   "defenses": 2,
-   "espn_id": "401923159",
-   "espn_path": "hockey/mens-college-hockey",
-   "game_no": 500,
-   "holder": "Michigan",
-   "holder_short": "Michigan",
-   "lg": "ncaah",
-   "opponent": "Michigan State",
-   "opponent_short": "Michigan State",
-   "reign_no": 6,
-   "since": "2026-11-01"
-  }
- },
+ "pending": {},
  "previews": [
   "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
@@ -141,7 +125,6 @@
   "ncaah|Michigan|Michigan State|2026-11-20"
  ],
  "results": [
-  "nba|Philadelphia 76ers|Detroit Pistons|2026-10-25",
   "nhl|Dallas Stars|New York Islanders|2026-10-25",
   "nwsl|Kansas City Current|Washington Spirit|2026-10-25",
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
@@ -200,6 +183,7 @@
   "nba|Miami Heat|Houston Rockets|2026-11-16",
   "nhl|San Jose Sharks|Calgary Flames|2026-11-17",
   "nba|Miami Heat|Milwaukee Bucks|2026-11-18",
-  "nhl|Calgary Flames|Minnesota Wild|2026-11-19"
+  "nhl|Calgary Flames|Minnesota Wild|2026-11-19",
+  "ncaah|Michigan|Michigan State|2026-11-20"
  ]
 }
