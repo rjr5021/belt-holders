@@ -61,7 +61,23 @@
   "2026-11-20 17:30 preview ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df-u7XQj3M1/",
   "2026-11-20 21:33 result ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df_KuJRGx1a/"
  ],
- "pending": {},
+ "pending": {
+  "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-21",
+   "defenses": 0,
+   "espn_id": "401892766",
+   "espn_path": "hockey/nhl",
+   "game_no": 8458,
+   "holder": "Minnesota Wild",
+   "holder_short": "Wild",
+   "lg": "nhl",
+   "opponent": "Vancouver Canucks",
+   "opponent_short": "Canucks",
+   "reign_no": 38,
+   "since": "2026-11-19"
+  }
+ },
  "previews": [
   "nhl|Pittsburgh Penguins|Chicago Blackhawks|2026-10-13",
   "mls|Nashville SC|Sporting Kansas City|2026-10-14",
