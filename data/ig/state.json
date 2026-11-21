@@ -77,6 +77,21 @@
    "reign_no": 62,
    "since": "2026-08-23"
   },
+  "ncaah|Michigan|Michigan State|2026-11-21": {
+   "belt_name": "The College Hockey Belt",
+   "date": "2026-11-21",
+   "defenses": 3,
+   "espn_id": "401923162",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 501,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Michigan State",
+   "opponent_short": "Michigan State",
+   "reign_no": 6,
+   "since": "2026-11-01"
+  },
   "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21": {
    "belt_name": "The NHL Belt",
    "date": "2026-11-21",
