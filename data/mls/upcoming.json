@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401933733",
-  "date": "2026-11-21",
-  "season_type": "regular",
-  "home": "New England Revolution",
-  "away": "Philadelphia Union",
-  "home_id": "189",
-  "away_id": "10739",
-  "home_abbr": "NE",
-  "away_abbr": "PHI",
-  "home_loc": "New England Revolution",
-  "away_loc": "Philadelphia Union",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13842,
-  "start_et": "14:00",
-  "season": 2026
- },
- {
   "id": "espn-401933732",
   "date": "2026-11-21",
   "season_type": "regular",

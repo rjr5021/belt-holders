@@ -11,6 +11,17 @@
   "tournament": "Friendly"
  },
  {
+  "id": "int-espn-401936213",
+  "date": "2026-12-09",
+  "season": 2026,
+  "season_type": "regular",
+  "home": "Peru",
+  "away": "Panama",
+  "neutral": "",
+  "start_et": "18:00",
+  "tournament": "Friendly"
+ },
+ {
   "id": "int-espn-401930977",
   "date": "2026-12-13",
   "season": 2026,
