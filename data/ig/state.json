@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-02 17:10 preview nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQWVYqCcjB/",
   "2026-11-02 22:53 result nba|Philadelphia 76ers|Chicago Bulls|2026-11-02 https://www.instagram.com/p/DfQ9ke9jenG/",
   "2026-11-02 22:53 result nhl|Colorado Avalanche|Chicago Blackhawks|2026-11-02 https://www.instagram.com/p/DfQ9neujRmE/",
   "2026-11-03 14:59 preview nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfSsFx1gZKf/",
@@ -59,24 +58,10 @@
   "2026-11-20 17:30 preview ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df-u7XQj3M1/",
   "2026-11-20 21:33 result ncaah|Michigan|Michigan State|2026-11-20 https://www.instagram.com/p/Df_KuJRGx1a/",
   "2026-11-21 14:56 preview nhl|Minnesota Wild|Vancouver Canucks|2026-11-21 https://www.instagram.com/p/DgBCHuwozyg/",
-  "2026-11-21 14:56 preview nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgBCK4HowRF/"
+  "2026-11-21 14:56 preview nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgBCK4HowRF/",
+  "2026-11-21 14:56 result epl|Manchester City|Fulham|2026-11-21 https://www.instagram.com/p/DgBCOBnI0RX/"
  ],
  "pending": {
-  "epl|Manchester City|Fulham|2026-11-21": {
-   "belt_name": "The English Football Belt",
-   "date": "2026-11-21",
-   "defenses": 4,
-   "espn_id": "401879233",
-   "espn_path": "soccer/eng.1",
-   "game_no": 4918,
-   "holder": "Manchester City",
-   "holder_short": "Man City",
-   "lg": "epl",
-   "opponent": "Fulham",
-   "opponent_short": "Fulham",
-   "reign_no": 62,
-   "since": "2026-08-23"
-  },
   "ncaah|Michigan|Michigan State|2026-11-21": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
@@ -201,7 +186,6 @@
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21"
  ],
  "results": [
-  "nhl|Dallas Stars|New York Islanders|2026-10-25",
   "nwsl|Kansas City Current|Washington Spirit|2026-10-25",
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
   "seriea|AS Roma|Cagliari Calcio|2026-10-27",
@@ -260,6 +244,7 @@
   "nhl|San Jose Sharks|Calgary Flames|2026-11-17",
   "nba|Miami Heat|Milwaukee Bucks|2026-11-18",
   "nhl|Calgary Flames|Minnesota Wild|2026-11-19",
-  "ncaah|Michigan|Michigan State|2026-11-20"
+  "ncaah|Michigan|Michigan State|2026-11-20",
+  "epl|Manchester City|Fulham|2026-11-21"
  ]
 }
