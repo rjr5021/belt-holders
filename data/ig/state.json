@@ -76,6 +76,21 @@
    "opponent_short": "Canucks",
    "reign_no": 38,
    "since": "2026-11-19"
+  },
+  "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-11-21",
+   "defenses": 6,
+   "espn_id": "401934232",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 309,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Washington Spirit",
+   "opponent_short": "Spirit",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
