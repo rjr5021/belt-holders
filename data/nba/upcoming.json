@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Frost Bank Center",
-  "spread": 16.5
+  "spread": 17.5
  },
  {
   "id": "espn-401910028",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Golden 1 Center",
-  "spread": null
+  "spread": -13.5
  },
  {
   "id": "espn-401910029",
