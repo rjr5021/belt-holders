@@ -1,27 +1,25 @@
 {
- "key": "MICH|MSU|2026-11-20",
- "updated": "2026-11-15T02:01Z",
- "start_utc": "2026-11-21T00:00Z",
+ "key": "MICH|MSU|2026-11-21",
+ "updated": "2026-11-21T03:19Z",
+ "start_utc": "2026-11-21T23:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Wolverines are defending the belt for just the second time in this reign, having claimed it through their recent strong play. This marks the third time these teams will meet with the belt at stake.",
+  "overview": "Michigan brings the lineal championship belt to Munn Ice Arena for a rivalry showdown with Michigan State on November 21, 2026. The Wolverines have defended the belt 2 times in this reign and enter with a 10-1 record, while the Spartans sit at 6-3-1 and have held the belt 3 times before in program history.",
   "key_matchups": [
-   "Michigan State's recent 1\u20131 tie at Notre Dame snapped a scoring drought, but can they find offense against a Michigan defense that's won 2 straight?",
-   "The all-time series favors Michigan 35-21-6 across 62 games, but the Spartans took 3 of the last 5 meetings including a 5-2 win in February 2026",
-   "Michigan's 9-1 record suggests dominance, while Michigan State's 6-3-1 mark shows vulnerability despite flashes like their 5-0 win over Boston University"
+   "Michigan's three-game win streak meets a Michigan State team coming off a 1\u20131 tie at Notre Dame",
+   "Recent head-to-head history favors the Spartans, who won three of the last five meetings including a 5-2 victory in February 2026",
+   "The belt has been contested between these rivals 2 times previously"
   ],
-  "betting_angles": "Michigan enters with a 9-1 record and wins in 2 straight games, most recently 6\u20133 over Penn State. Michigan State sits at 6-3-1 but managed just a 1\u20131 tie in their last outing and took a 2-3 loss to Notre Dame before that. The Elo model favors Michigan clearly, and the home ice advantage combined with superior form this season supports that edge, though the recent head-to-head history has been competitive with the road team winning several recent matchups.",
+  "betting_angles": "Michigan enters in strong form with wins in their last 3 games, including an 8\u20133 dismantling of Penn State in their most recent outing. The Elo model calls this a toss-up despite Michigan's superior 10-1 record. The head-to-head history shows Michigan State has taken three of the last five meetings, suggesting this rivalry game could be closer than the records indicate.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 4, Michigan State 2",
-  "prediction_writeup": "Michigan's 9-1 record and current 2-game winning streak give them clear momentum entering this rivalry clash. While Michigan State has held the belt 3 times before and won 3 of the last 5 meetings between these teams, their 6-3-1 record and recent 1\u20131 tie suggest they're not firing on all cylinders. The Elo model clearly favors the Wolverines, and home ice at Yost should be the difference. Michigan has defended the belt once already in this reign and should make it twice, keeping the lineal championship in Ann Arbor.",
-  "written": "2026-11-15",
+  "predicted_score": "Michigan 4, Michigan State 3",
+  "prediction_writeup": "Michigan's current form is undeniable\u2014they've won their last 3 games and sport a 10-1 record compared to Michigan State's 6-3-1 mark. While the Spartans own recent head-to-head success and have held the belt 3 times before, Michigan's offensive firepower has been evident with their 8\u20133 and 6\u20133 victories over Penn State. The Elo model seeing this as a toss-up suggests it will be tight, but the Wolverines' momentum and overall record give them the edge in a one-goal thriller. Michigan escapes East Lansing with the belt still around their waist.",
+  "written": "2026-11-21",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
-   "dropped": [
-    "20"
-   ]
+   "dropped": []
   }
  }
 }
