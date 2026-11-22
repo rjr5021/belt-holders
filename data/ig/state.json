@@ -62,6 +62,21 @@
   "2026-11-22 00:40 result nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgCE8DTkRYn/"
  ],
  "pending": {
+  "ligue1|Paris FC|Angers SCO|2026-11-22": {
+   "belt_name": "The Ligue 1 Belt",
+   "date": "2026-11-22",
+   "defenses": 0,
+   "espn_id": "401876397",
+   "espn_path": "soccer/fra.1",
+   "game_no": 2961,
+   "holder": "Paris FC",
+   "holder_short": "Paris",
+   "lg": "ligue1",
+   "opponent": "Angers SCO",
+   "opponent_short": "Angers",
+   "reign_no": 2,
+   "since": "2026-09-19"
+  },
   "mls|Nashville SC|FC Cincinnati|2026-11-22": {
    "belt_name": "The MLS Belt",
    "date": "2026-11-22",
