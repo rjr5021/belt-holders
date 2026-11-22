@@ -1,58 +1,55 @@
 {
- "key": "MIA|OKC|2026-11-22",
- "updated": "2026-11-19T00:26Z",
- "start_utc": "2026-11-22T23:00Z",
+ "key": "MIA|PHI|2026-11-25",
+ "updated": "2026-11-22T23:39Z",
+ "start_utc": "2026-11-25T22:00Z",
  "espn": {
-  "event_id": "401910030",
-  "start_utc": "2026-11-22T23:00Z",
+  "event_id": "401909317",
+  "start_utc": "2026-11-25T22:00Z",
   "state": "pre",
   "tv": [
-   "KSBI",
-   "Thunder App"
+   "ESPN"
   ],
   "odds": null,
   "teams": {
-   "MIA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-    "abbr": "MIA",
-    "record": "8-6",
+   "PHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+    "abbr": "PHI",
+    "record": "14-3",
     "rank": null,
     "home_away": "home"
    },
-   "OKC": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-    "abbr": "OKC",
-    "record": "9-5",
+   "MIA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+    "abbr": "MIA",
+    "record": "9-6",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Kaseya Center",
-   "city": "Miami",
-   "state": "FL",
+   "name": "Xfinity Mobile Arena",
+   "city": "Philadelphia",
+   "state": "PA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Miami has defended the belt 2 times in this reign and enters on a 5-game winning streak, while Oklahoma City looks to reclaim hardware they've held 96 times before in franchise history.",
+  "overview": "The Miami Heat bring the Belt Holders lineal championship to Philadelphia on November 25, 2026, having defended it 3 times in their current reign. Both teams arrive scorching hot with identical 5-game winning streaks, setting up a clash between the 14-3 Sixers and the 9-6 Heat in what promises to be a high-stakes battle for lineal supremacy.",
   "key_matchups": [
-   "Miami's 5-game winning streak versus Oklahoma City's recent 1-2-2 road trip split",
-   "Thunder's 46-35 all-time series edge against a Heat team that won the most recent meeting 122-120",
-   "Belt history: these teams have met 9 times with the championship on the line"
+   "Two teams riding 5-game winning streaks meet with Miami coming off a 137-130 victory over Milwaukee while Philadelphia also just beat the Bucks 132-129",
+   "Philadelphia's 14-3 record and home court advantage against a Miami team that holds an 86-76 all-time series edge",
+   "The Heat have defended the belt 3 times already while the 76ers have held it 202 times historically and will look to reclaim it"
   ],
-  "betting_angles": "Miami has won their last 5 games while Oklahoma City took their most recent contest 125-103 at Sacramento Kings after dropping two straight in Portland. The Thunder hold the all-time series advantage 46-35, though Miami won the last meeting 122-120 in January. Despite Miami's current form, the Elo model makes them the underdog at home.",
-  "predicted_winner": "Oklahoma City Thunder",
-  "predicted_score": "Miami Heat 118, Oklahoma City Thunder 121",
-  "prediction_writeup": "Miami's 5-game winning streak is impressive, but the Elo model favoring Oklahoma City as the road favorite carries weight. The Thunder own a 46-35 all-time edge in this series and have held the belt 96 times previously, suggesting championship pedigree. Oklahoma City's 9-5 record edges Miami's 8-6 mark, and while the Heat won the last meeting 122-120, the Thunder took three of the previous four. The model's confidence in the visitors tips the scales despite Miami's hot streak.",
-  "written": "2026-11-19",
+  "betting_angles": "Philadelphia enters with the superior record at 14-3 compared to Miami's 9-6, and the Elo model rates the Heat as clear underdogs. Both teams have been rolling with identical 5-game winning streaks, though the Sixers have been slightly more dominant at home. The all-time head-to-head favors Miami 86-76, but recent meetings have been split, with the Heat winning the most recent encounter 119-109 in March 2026.",
+  "predicted_winner": "Philadelphia 76ers",
+  "predicted_score": "Miami Heat 122, Philadelphia 76ers 128",
+  "prediction_writeup": "While both teams enter on 5-game winning streaks, Philadelphia's 14-3 record and home court advantage are too strong to ignore. The Elo model clearly favors the Sixers, and their superior season performance suggests they're the sharper team right now. Miami has shown offensive firepower with scores like 137-130 and 128-110 in their recent wins, but Philadelphia has been equally potent with games like 135-123 and 132-129. The 76ers' home floor and overall dominance this season should be enough to claim the belt, ending Miami's 3-defense reign. Expect a high-scoring affair between two teams in excellent form, but Philadelphia's edge in the standings reflects a team ready to reclaim lineal championship glory.",
+  "written": "2026-11-22",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "22"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
