@@ -1,41 +1,5 @@
 [
  {
-  "id": "of-2026-110",
-  "date": "2026-11-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Como Calcio",
-  "away": "Cagliari Calcio",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-111",
-  "date": "2026-11-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Lazio Roma",
-  "away": "US Lecce",
-  "start_et": "09:00"
- },
- {
-  "id": "of-2026-112",
-  "date": "2026-11-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Parma FC",
-  "away": "AS Roma",
-  "start_et": "12:00"
- },
- {
-  "id": "of-2026-113",
-  "date": "2026-11-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SSC Napoli",
-  "away": "Torino FC",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-114",
   "date": "2026-11-22",
   "season": 2026,
