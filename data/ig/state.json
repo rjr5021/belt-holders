@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-06 14:51 preview nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfaZnY8GNwY/",
   "2026-11-06 14:51 preview nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfaZqxRGLGB/",
   "2026-11-06 14:51 preview ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfaZt51mNq4/",
   "2026-11-06 22:14 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfbMPMqEdq7/",
@@ -59,7 +58,8 @@
   "2026-11-03 14:59 preview nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfSsFx1gZKf/",
   "2026-11-03 21:38 result nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfTZxRClQlL/",
   "2026-11-22 00:56 result nhl|Minnesota Wild|Vancouver Canucks|2026-11-21 https://www.instagram.com/p/DgCGyPZFe2q/",
-  "2026-11-22 15:09 preview nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgDocAfH3-Z/"
+  "2026-11-22 15:09 preview nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgDocAfH3-Z/",
+  "2026-11-22 15:09 preview nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgDoe3jn6z3/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
@@ -184,7 +184,6 @@
   }
  },
  "previews": [
-  "nhl|Chicago Blackhawks|Dallas Stars|2026-10-17",
   "mls|Nashville SC|San Jose Earthquakes|2026-10-17",
   "nwsl|Kansas City Current|Utah Royals|2026-10-17",
   "laliga|Athletic Bilbao|Valencia CF|2026-10-17",
@@ -243,7 +242,8 @@
   "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21",
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21",
   "ncaah|Michigan|Michigan State|2026-11-21",
-  "nba|Miami Heat|Oklahoma City Thunder|2026-11-22"
+  "nba|Miami Heat|Oklahoma City Thunder|2026-11-22",
+  "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22"
  ],
  "results": [
   "nba|New York Knicks|Chicago Bulls|2026-10-28",
