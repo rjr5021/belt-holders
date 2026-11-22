@@ -62,6 +62,21 @@
   "2026-11-22 00:40 result nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgCE8DTkRYn/"
  ],
  "pending": {
+  "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
+   "belt_name": "The Eredivisie Belt",
+   "date": "2026-11-22",
+   "defenses": 11,
+   "espn_id": "401875540",
+   "espn_path": "soccer/ned.1",
+   "game_no": 2263,
+   "holder": "AZ Alkmaar",
+   "holder_short": "AZ",
+   "lg": "eredivisie",
+   "opponent": "Sparta Rotterdam",
+   "opponent_short": "Sparta",
+   "reign_no": 19,
+   "since": "2026-04-12"
+  },
   "ligue1|Paris FC|Angers SCO|2026-11-22": {
    "belt_name": "The Ligue 1 Belt",
    "date": "2026-11-22",
