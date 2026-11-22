@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-06 14:51 preview ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfaZt51mNq4/",
   "2026-11-06 22:14 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfbMPMqEdq7/",
   "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/",
   "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/",
@@ -59,24 +58,10 @@
   "2026-11-22 00:56 result nhl|Minnesota Wild|Vancouver Canucks|2026-11-21 https://www.instagram.com/p/DgCGyPZFe2q/",
   "2026-11-22 15:09 preview nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgDocAfH3-Z/",
   "2026-11-22 15:09 preview nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgDoe3jn6z3/",
-  "2026-11-22 15:09 result ligue1|Paris FC|Angers SCO|2026-11-22 https://www.instagram.com/p/DgDoh3sHwOk/"
+  "2026-11-22 15:09 result ligue1|Paris FC|Angers SCO|2026-11-22 https://www.instagram.com/p/DgDoh3sHwOk/",
+  "2026-11-22 15:09 result eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22 https://www.instagram.com/p/DgDokSnH6EB/"
  ],
  "pending": {
-  "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
-   "belt_name": "The Eredivisie Belt",
-   "date": "2026-11-22",
-   "defenses": 11,
-   "espn_id": "401875540",
-   "espn_path": "soccer/ned.1",
-   "game_no": 2263,
-   "holder": "AZ Alkmaar",
-   "holder_short": "AZ",
-   "lg": "eredivisie",
-   "opponent": "Sparta Rotterdam",
-   "opponent_short": "Sparta",
-   "reign_no": 19,
-   "since": "2026-04-12"
-  },
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22": {
    "belt_name": "The Liga MX Belt",
    "date": "2026-11-22",
@@ -231,7 +216,6 @@
   "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22"
  ],
  "results": [
-  "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
@@ -290,6 +274,7 @@
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
   "seriea|AS Roma|Cagliari Calcio|2026-10-27",
   "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21",
-  "ligue1|Paris FC|Angers SCO|2026-11-22"
+  "ligue1|Paris FC|Angers SCO|2026-11-22",
+  "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22"
  ]
 }
