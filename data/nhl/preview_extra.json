@@ -1,40 +1,60 @@
 {
- "key": "MIN|SJS|2026-11-23",
- "updated": "2026-11-22T02:17Z",
- "start_utc": "2026-11-24T03:00Z",
+ "key": "VAN|CHI|2026-11-22",
+ "updated": "2026-11-22T09:53Z",
+ "start_utc": "2026-11-23T01:00Z",
  "espn": {
-  "event_id": "401892779",
-  "start_utc": "2026-11-24T03:00Z",
+  "event_id": "401892772",
+  "start_utc": "2026-11-23T01:00Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "NBC Sports BA",
-   "MINNHL"
+   "CHSN"
   ],
-  "odds": null,
+  "odds": {
+   "details": "CHI -112",
+   "over_under": 6.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "SJS": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-    "abbr": "SJ",
-    "record": "10-12-2",
+   "VAN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+    "abbr": "VAN",
+    "record": "6-18-1",
     "rank": null,
     "home_away": "home"
    },
-   "MIN": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
-    "abbr": "MIN",
-    "record": "17-3-4",
+   "CHI": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+    "abbr": "CHI",
+    "record": "7-14-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "SAP Center at San Jose",
-   "city": "San Jose",
-   "state": "CA",
+   "name": "Rogers Arena",
+   "city": "Vancouver",
+   "state": "BC",
    "indoor": true
   }
  },
  "weather": null,
- "ai": null
+ "ai": {
+  "overview": "The Vancouver Canucks put their newly acquired belt on the line for the first time, hosting the Chicago Blackhawks on November 22nd. Vancouver claimed the lineal championship with their 4\u20133 victory over Minnesota Wild and now faces a Chicago team that has held the belt 241 times previously across 26 prior championship meetings between these clubs. With both teams struggling this season at 6-19 and 7-16 respectively, this belt defense could swing either way.",
+  "key_matchups": [
+   "Vancouver's first belt defense after claiming it with a 4\u20133 win over Minnesota",
+   "Chicago's championship pedigree: 241 previous reigns versus Vancouver's current struggle at 6-19",
+   "Recent form collision: both teams riding one-game winning streaks after identical 4\u20133 victories"
+  ],
+  "betting_angles": "The Elo model calls this a toss-up, fitting for two struggling teams separated by just one win in the standings. Vancouver holds a narrow 109-107 edge in the all-time series with 22 ties across 238 meetings, and they've won three of the last five head-to-head matchups including a 6-3 victory in their most recent meeting on March 6th, 2026. Both teams enter on single-game winning streaks with identical 4\u20133 victories, though Vancouver's recent form shows wider scoring variance including a 6\u20133 win at Vegas and two 1\u20135 losses.",
+  "predicted_winner": "Vancouver Canucks",
+  "predicted_score": "Vancouver Canucks 4, Chicago Blackhawks 3",
+  "prediction_writeup": "In a game the Elo model rates as a toss-up, home ice provides the slimmest of edges for Vancouver. The Canucks have won three of the last five meetings including a 6-3 victory in March 2026, suggesting they match up reasonably well against Chicago despite their poor overall record. Both teams are coming off identical 4\u20133 wins and sit near the bottom of the standings, but Vancouver gets the nod defending their first belt at home. Expect a close, low-scoring affair between two offensively challenged clubs, with the Canucks narrowly holding serve in their inaugural championship defense.",
+  "written": "2026-11-22",
+  "model": "claude-sonnet-4-5",
+  "factcheck": {
+   "attempts": 1,
+   "dropped": []
+  }
+ }
 }

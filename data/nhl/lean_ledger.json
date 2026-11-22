@@ -386,5 +386,19 @@
   "score": "Minnesota Wild 4, Vancouver Canucks 2",
   "made": "2026-11-20",
   "line": null
+ },
+ {
+  "key": "VAN|CHI|2026-11-22",
+  "date": "2026-11-22",
+  "holder": "VAN",
+  "challenger": "CHI",
+  "pick": "VAN",
+  "score": "Vancouver Canucks 4, Chicago Blackhawks 3",
+  "made": "2026-11-22",
+  "line": {
+   "details": "CHI -112",
+   "over_under": 6.5,
+   "provider": "DraftKings"
+  }
  }
 ]

@@ -1,27 +1,25 @@
 {
- "key": "MICH|FRST|2026-11-27",
- "updated": "2026-11-22T02:20Z",
- "start_utc": "2026-11-28T00:00Z",
+ "key": "MSU|OSU|2026-12-03",
+ "updated": "2026-11-22T09:55Z",
+ "start_utc": "2026-12-04T01:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Wolverines have defended the belt 3 times in this reign and enter on a four-game winning streak, while the Bulldogs arrive in Ann Arbor having lost their last 3 games and struggling with a 1-8-2 record this season.",
+  "overview": "Michigan State brings the Belt Holders lineal championship to Columbus to face Ohio State on December 3rd, 2026. The Spartans claimed the belt in their most recent outing and now defend it for the first time in this reign. Ohio State, who have held the belt four times previously, will look to reclaim it on home ice.",
   "key_matchups": [
-   "Michigan's four-game winning streak and 11-1 record against Ferris State's three-game losing skid and 1-8-2 season",
-   "Historical edge: Michigan leads the all-time series 4-2-1 across 7 meetings",
-   "Belt defense success: Michigan looking to extend their current reign beyond 3 successful defenses"
+   "Michigan State's fresh belt reign versus Ohio State's historical dominance in the all-time series (33-21-6)",
+   "The Spartans' recent 2-0 shutout win over Michigan against the Buckeyes' two-game losing streak",
+   "Michigan State's 7-4-1 record this season against Ohio State's struggling 4-8 mark"
   ],
-  "betting_angles": "The form gap is substantial: Michigan has won their last 4 games including a 5-1 victory over Michigan State, while Ferris State has lost their last 3 games. Michigan holds a 4-2-1 edge in the all-time series and won the most recent meeting 4-1 back in 2019. Our Elo model makes Michigan a clear favorite, which aligns with both the season records (11-1 versus 1-8-2) and recent form.",
-  "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 5, Ferris State 2",
-  "prediction_writeup": "Michigan's four-game winning streak and 11-1 record stand in stark contrast to Ferris State's 1-8-2 season and three-game losing streak. The Wolverines have been scoring freely in their recent wins, putting up 5, 6, 8, and 5 goals in their last four victories. While Ferris State has held the belt once before in program history, Michigan's current form and home ice advantage should prove decisive. The 4-2-1 all-time head-to-head record favors the Wolverines, and their Elo edge reinforces their status as clear favorites to retain the belt.",
+  "betting_angles": "Michigan State enters as the Elo favorite despite Ohio State owning the all-time head-to-head advantage. The Spartans have won their last game and show a significantly better record at 7-4-1 compared to Ohio State's 4-8. However, the Buckeyes won three of the last five meetings between these teams, including a 3-2 victory in their most recent encounter on March 14th, 2026.",
+  "predicted_winner": "Michigan State",
+  "predicted_score": "Michigan State 3, Ohio State 2",
+  "prediction_writeup": "Michigan State gets the nod based on their superior season record and momentum from their 2-0 shutout of Michigan. While Ohio State has historically dominated this matchup and won three of the last five meetings, the Buckeyes are currently on a two-game losing streak and have struggled to an 4-8 record. The Spartans' Elo advantage and recent defensive performance, including a 2-0 shutout and 5-0 victory in their last five games, suggest they can defend the belt in a tight road contest. Ohio State's home ice and familiarity with Michigan State keeps this competitive.",
   "written": "2026-11-22",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "27"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
