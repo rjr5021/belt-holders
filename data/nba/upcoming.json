@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "15:30",
   "venue": "State Farm Arena",
-  "spread": -2.5
+  "spread": -1.5
  },
  {
   "id": "espn-401910030",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "18:00",
   "venue": "Kaseya Center",
-  "spread": 2.5
+  "spread": 4.5
  },
  {
   "id": "espn-401910031",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Capital One Arena",
-  "spread": -5.5
+  "spread": -4.5
  },
  {
   "id": "espn-401910032",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "United Center",
-  "spread": -8.5
+  "spread": -9.5
  },
  {
   "id": "espn-401910033",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Delta Center",
-  "spread": -1.5
+  "spread": 1.5
  },
  {
   "id": "espn-401910034",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Madison Square Garden",
-  "spread": 9.5
+  "spread": 8.5
  },
  {
   "id": "espn-401910035",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Chase Center",
-  "spread": -9.5
+  "spread": -8.5
  },
  {
   "id": "espn-401910036",
