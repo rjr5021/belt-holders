@@ -152,6 +152,21 @@
    "reign_no": 6,
    "since": "2026-11-01"
   },
+  "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-22",
+   "defenses": 0,
+   "espn_id": "401892772",
+   "espn_path": "hockey/nhl",
+   "game_no": 8459,
+   "holder": "Vancouver Canucks",
+   "holder_short": "Canucks",
+   "lg": "nhl",
+   "opponent": "Chicago Blackhawks",
+   "opponent_short": "Blackhawks",
+   "reign_no": 70,
+   "since": "2026-11-21"
+  },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
    "date": "2026-11-21",
