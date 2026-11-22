@@ -62,6 +62,21 @@
   "2026-11-21 14:56 preview ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgBCUKzo3ua/"
  ],
  "pending": {
+  "nba|Miami Heat|Oklahoma City Thunder|2026-11-22": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-22",
+   "defenses": 3,
+   "espn_id": "401910030",
+   "espn_path": "basketball/nba",
+   "game_no": 7548,
+   "holder": "Miami Heat",
+   "holder_short": "Heat",
+   "lg": "nba",
+   "opponent": "Oklahoma City Thunder",
+   "opponent_short": "Thunder",
+   "reign_no": 77,
+   "since": "2026-11-13"
+  },
   "ncaah|Michigan|Michigan State|2026-11-21": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
