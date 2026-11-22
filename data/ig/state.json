@@ -77,6 +77,21 @@
    "reign_no": 19,
    "since": "2026-04-12"
   },
+  "ligamx|Necaxa|Quer\u00e9taro|2026-11-22": {
+   "belt_name": "The Liga MX Belt",
+   "date": "2026-11-22",
+   "defenses": 0,
+   "espn_id": "401877046",
+   "espn_path": "soccer/mex.1",
+   "game_no": 547,
+   "holder": "Necaxa",
+   "holder_short": "Necaxa",
+   "lg": "ligamx",
+   "opponent": "Quer\u00e9taro",
+   "opponent_short": "Quer\u00e9taro",
+   "reign_no": 3,
+   "since": "2026-11-06"
+  },
   "ligue1|Paris FC|Angers SCO|2026-11-22": {
    "belt_name": "The Ligue 1 Belt",
    "date": "2026-11-22",
