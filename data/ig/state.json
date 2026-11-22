@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-03 21:38 result nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfTZxRClQlL/",
   "2026-11-04 15:17 preview nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfVS_AZGyDH/",
   "2026-11-04 21:58 result nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfWA4VhoATL/",
   "2026-11-05 15:28 preview nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfX5EdREunf/",
@@ -59,7 +58,8 @@
   "2026-11-21 14:56 result epl|Manchester City|Fulham|2026-11-21 https://www.instagram.com/p/DgBCOBnI0RX/",
   "2026-11-21 14:56 result seriea|AS Roma|Parma FC|2026-11-21 https://www.instagram.com/p/DgBCRChI9KD/",
   "2026-11-21 14:56 preview ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgBCUKzo3ua/",
-  "2026-11-22 00:40 result nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgCE8DTkRYn/"
+  "2026-11-22 00:40 result nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgCE8DTkRYn/",
+  "2026-11-22 00:40 result ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgCE_e-kfKC/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
@@ -136,21 +136,6 @@
    "opponent_short": "Thunder",
    "reign_no": 77,
    "since": "2026-11-13"
-  },
-  "ncaah|Michigan|Michigan State|2026-11-21": {
-   "belt_name": "The College Hockey Belt",
-   "date": "2026-11-21",
-   "defenses": 3,
-   "espn_id": "401923162",
-   "espn_path": "hockey/mens-college-hockey",
-   "game_no": 501,
-   "holder": "Michigan",
-   "holder_short": "Michigan",
-   "lg": "ncaah",
-   "opponent": "Michigan State",
-   "opponent_short": "Michigan State",
-   "reign_no": 6,
-   "since": "2026-11-01"
   },
   "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21": {
    "belt_name": "The NHL Belt",
@@ -231,7 +216,6 @@
   "ncaah|Michigan|Michigan State|2026-11-21"
  ],
  "results": [
-  "seriea|AS Roma|Cagliari Calcio|2026-10-27",
   "nba|Detroit Pistons|New York Knicks|2026-10-27",
   "nhl|Dallas Stars|New Jersey Devils|2026-10-27",
   "nba|Detroit Pistons|Charlotte Hornets|2026-10-28",
@@ -290,6 +274,7 @@
   "ncaah|Michigan|Michigan State|2026-11-20",
   "epl|Manchester City|Fulham|2026-11-21",
   "seriea|AS Roma|Parma FC|2026-11-21",
-  "nwsl|Kansas City Current|Washington Spirit|2026-11-21"
+  "nwsl|Kansas City Current|Washington Spirit|2026-11-21",
+  "ncaah|Michigan|Michigan State|2026-11-21"
  ]
 }
