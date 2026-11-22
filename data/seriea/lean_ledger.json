@@ -92,5 +92,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AS Roma|AC Monza|2026-11-29",
+  "date": "2026-11-29",
+  "holder": "AS Roma",
+  "challenger": "AC Monza",
+  "pick": "AS Roma",
+  "score": "AS Roma 2, AC Monza 0",
+  "made": "2026-11-22",
+  "line": {
+   "details": "ROMA -550",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

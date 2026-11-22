@@ -82,5 +82,15 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Manchester City|Arsenal|2026-11-28",
+  "date": "2026-11-28",
+  "holder": "Manchester City",
+  "challenger": "Arsenal",
+  "pick": "Arsenal",
+  "score": "Manchester City 1, Arsenal 2",
+  "made": "2026-11-22",
+  "line": null
  }
 ]

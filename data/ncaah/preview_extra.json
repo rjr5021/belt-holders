@@ -1,25 +1,27 @@
 {
- "key": "MICH|MSU|2026-11-21",
- "updated": "2026-11-21T03:19Z",
- "start_utc": "2026-11-21T23:00Z",
+ "key": "MICH|FRST|2026-11-27",
+ "updated": "2026-11-22T02:20Z",
+ "start_utc": "2026-11-28T00:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Michigan brings the lineal championship belt to Munn Ice Arena for a rivalry showdown with Michigan State on November 21, 2026. The Wolverines have defended the belt 2 times in this reign and enter with a 10-1 record, while the Spartans sit at 6-3-1 and have held the belt 3 times before in program history.",
+  "overview": "The Wolverines have defended the belt 3 times in this reign and enter on a four-game winning streak, while the Bulldogs arrive in Ann Arbor having lost their last 3 games and struggling with a 1-8-2 record this season.",
   "key_matchups": [
-   "Michigan's three-game win streak meets a Michigan State team coming off a 1\u20131 tie at Notre Dame",
-   "Recent head-to-head history favors the Spartans, who won three of the last five meetings including a 5-2 victory in February 2026",
-   "The belt has been contested between these rivals 2 times previously"
+   "Michigan's four-game winning streak and 11-1 record against Ferris State's three-game losing skid and 1-8-2 season",
+   "Historical edge: Michigan leads the all-time series 4-2-1 across 7 meetings",
+   "Belt defense success: Michigan looking to extend their current reign beyond 3 successful defenses"
   ],
-  "betting_angles": "Michigan enters in strong form with wins in their last 3 games, including an 8\u20133 dismantling of Penn State in their most recent outing. The Elo model calls this a toss-up despite Michigan's superior 10-1 record. The head-to-head history shows Michigan State has taken three of the last five meetings, suggesting this rivalry game could be closer than the records indicate.",
+  "betting_angles": "The form gap is substantial: Michigan has won their last 4 games including a 5-1 victory over Michigan State, while Ferris State has lost their last 3 games. Michigan holds a 4-2-1 edge in the all-time series and won the most recent meeting 4-1 back in 2019. Our Elo model makes Michigan a clear favorite, which aligns with both the season records (11-1 versus 1-8-2) and recent form.",
   "predicted_winner": "Michigan",
-  "predicted_score": "Michigan 4, Michigan State 3",
-  "prediction_writeup": "Michigan's current form is undeniable\u2014they've won their last 3 games and sport a 10-1 record compared to Michigan State's 6-3-1 mark. While the Spartans own recent head-to-head success and have held the belt 3 times before, Michigan's offensive firepower has been evident with their 8\u20133 and 6\u20133 victories over Penn State. The Elo model seeing this as a toss-up suggests it will be tight, but the Wolverines' momentum and overall record give them the edge in a one-goal thriller. Michigan escapes East Lansing with the belt still around their waist.",
-  "written": "2026-11-21",
+  "predicted_score": "Michigan 5, Ferris State 2",
+  "prediction_writeup": "Michigan's four-game winning streak and 11-1 record stand in stark contrast to Ferris State's 1-8-2 season and three-game losing streak. The Wolverines have been scoring freely in their recent wins, putting up 5, 6, 8, and 5 goals in their last four victories. While Ferris State has held the belt once before in program history, Michigan's current form and home ice advantage should prove decisive. The 4-2-1 all-time head-to-head record favors the Wolverines, and their Elo edge reinforces their status as clear favorites to retain the belt.",
+  "written": "2026-11-22",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
-   "dropped": []
+   "dropped": [
+    "27"
+   ]
   }
  }
 }
