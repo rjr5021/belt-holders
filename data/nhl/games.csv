@@ -70709,3 +70709,7 @@ id,date,season,season_type,home,away,home_points,away_points,neutral,note,source
 2026020356,2026-11-19,2026,regular,21,24,4,0,,,nhl
 2026020357,2026-11-19,2026,regular,55,23,5,1,,,nhl
 2026020358,2026-11-19,2026,regular,54,25,3,4,,SO,nhl
+2026020359,2026-11-21,2026,regular,12,22,7,4,,,nhl
+2026020360,2026-11-21,2026,regular,20,16,3,4,,OT,nhl
+2026020361,2026-11-21,2026,regular,13,7,4,3,,,nhl
+2026020362,2026-11-21,2026,regular,18,5,4,3,,,nhl
