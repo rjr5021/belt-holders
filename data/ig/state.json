@@ -1,8 +1,5 @@
 {
  "log": [
-  "2026-11-04 15:17 preview nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfVS_AZGyDH/",
-  "2026-11-04 21:58 result nba|Philadelphia 76ers|Detroit Pistons|2026-11-04 https://www.instagram.com/p/DfWA4VhoATL/",
-  "2026-11-05 15:28 preview nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfX5EdREunf/",
   "2026-11-05 21:55 result nhl|Columbus Blue Jackets|Dallas Stars|2026-11-05 https://www.instagram.com/p/DfYlY7AGzxs/",
   "2026-11-06 14:51 preview nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfaZnY8GNwY/",
   "2026-11-06 14:51 preview nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfaZqxRGLGB/",
@@ -59,7 +56,10 @@
   "2026-11-21 14:56 result seriea|AS Roma|Parma FC|2026-11-21 https://www.instagram.com/p/DgBCRChI9KD/",
   "2026-11-21 14:56 preview ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgBCUKzo3ua/",
   "2026-11-22 00:40 result nwsl|Kansas City Current|Washington Spirit|2026-11-21 https://www.instagram.com/p/DgCE8DTkRYn/",
-  "2026-11-22 00:40 result ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgCE_e-kfKC/"
+  "2026-11-22 00:40 result ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgCE_e-kfKC/",
+  "2026-11-03 14:59 preview nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfSsFx1gZKf/",
+  "2026-11-03 21:38 result nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfTZxRClQlL/",
+  "2026-11-22 00:56 result nhl|Minnesota Wild|Vancouver Canucks|2026-11-21 https://www.instagram.com/p/DgCGyPZFe2q/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
@@ -137,20 +137,35 @@
    "reign_no": 77,
    "since": "2026-11-13"
   },
-  "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21": {
-   "belt_name": "The NHL Belt",
+  "ncaah|Michigan|Michigan State|2026-11-21": {
+   "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
-   "defenses": 0,
-   "espn_id": "401892766",
-   "espn_path": "hockey/nhl",
-   "game_no": 8458,
-   "holder": "Minnesota Wild",
-   "holder_short": "Wild",
-   "lg": "nhl",
-   "opponent": "Vancouver Canucks",
-   "opponent_short": "Canucks",
-   "reign_no": 38,
-   "since": "2026-11-19"
+   "defenses": 3,
+   "espn_id": "401923162",
+   "espn_path": "hockey/mens-college-hockey",
+   "game_no": 501,
+   "holder": "Michigan",
+   "holder_short": "Michigan",
+   "lg": "ncaah",
+   "opponent": "Michigan State",
+   "opponent_short": "Michigan State",
+   "reign_no": 6,
+   "since": "2026-11-01"
+  },
+  "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
+   "belt_name": "The NWSL Belt",
+   "date": "2026-11-21",
+   "defenses": 6,
+   "espn_id": "401934232",
+   "espn_path": "soccer/usa.nwsl",
+   "game_no": 309,
+   "holder": "Kansas City Current",
+   "holder_short": "KC Current",
+   "lg": "nwsl",
+   "opponent": "Washington Spirit",
+   "opponent_short": "Spirit",
+   "reign_no": 4,
+   "since": "2026-09-26"
   }
  },
  "previews": [
@@ -216,9 +231,6 @@
   "ncaah|Michigan|Michigan State|2026-11-21"
  ],
  "results": [
-  "nba|Detroit Pistons|New York Knicks|2026-10-27",
-  "nhl|Dallas Stars|New Jersey Devils|2026-10-27",
-  "nba|Detroit Pistons|Charlotte Hornets|2026-10-28",
   "nba|New York Knicks|Chicago Bulls|2026-10-28",
   "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
@@ -275,6 +287,9 @@
   "epl|Manchester City|Fulham|2026-11-21",
   "seriea|AS Roma|Parma FC|2026-11-21",
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21",
-  "ncaah|Michigan|Michigan State|2026-11-21"
+  "ncaah|Michigan|Michigan State|2026-11-21",
+  "ligamx|Santos Laguna|Tijuana|2026-10-25",
+  "seriea|AS Roma|Cagliari Calcio|2026-10-27",
+  "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21"
  ]
 }
