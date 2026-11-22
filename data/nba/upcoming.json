@@ -1,18 +1,5 @@
 [
  {
-  "id": "espn-401910028",
-  "date": "2026-11-21",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SAC",
-  "away": "BOS",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Golden 1 Center",
-  "spread": -12.5
- },
- {
   "id": "espn-401910029",
   "date": "2026-11-22",
   "season": 2026,
@@ -75,7 +62,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Delta Center",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401910034",
@@ -88,7 +75,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Madison Square Garden",
-  "spread": null
+  "spread": 9.5
  },
  {
   "id": "espn-401910035",
@@ -101,7 +88,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Chase Center",
-  "spread": null
+  "spread": -9.5
  },
  {
   "id": "espn-401910036",
