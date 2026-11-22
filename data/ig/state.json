@@ -62,6 +62,21 @@
   "2026-11-21 14:56 preview ncaah|Michigan|Michigan State|2026-11-21 https://www.instagram.com/p/DgBCUKzo3ua/"
  ],
  "pending": {
+  "mls|Nashville SC|FC Cincinnati|2026-11-22": {
+   "belt_name": "The MLS Belt",
+   "date": "2026-11-22",
+   "defenses": 6,
+   "espn_id": "401933731",
+   "espn_path": "soccer/usa.1",
+   "game_no": 1130,
+   "holder": "Nashville SC",
+   "holder_short": "Nashville",
+   "lg": "mls",
+   "opponent": "FC Cincinnati",
+   "opponent_short": "Cincinnati",
+   "reign_no": 3,
+   "since": "2026-10-10"
+  },
   "nba|Miami Heat|Oklahoma City Thunder|2026-11-22": {
    "belt_name": "The NBA Belt",
    "date": "2026-11-22",
