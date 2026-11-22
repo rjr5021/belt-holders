@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-06 14:51 preview nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfaZqxRGLGB/",
   "2026-11-06 14:51 preview ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfaZt51mNq4/",
   "2026-11-06 22:14 result nba|Philadelphia 76ers|Cleveland Cavaliers|2026-11-06 https://www.instagram.com/p/DfbMPMqEdq7/",
   "2026-11-06 22:14 result nhl|Columbus Blue Jackets|Buffalo Sabres|2026-11-06 https://www.instagram.com/p/DfbMSLLkcc9/",
@@ -59,7 +58,8 @@
   "2026-11-03 21:38 result nhl|Colorado Avalanche|Columbus Blue Jackets|2026-11-03 https://www.instagram.com/p/DfTZxRClQlL/",
   "2026-11-22 00:56 result nhl|Minnesota Wild|Vancouver Canucks|2026-11-21 https://www.instagram.com/p/DgCGyPZFe2q/",
   "2026-11-22 15:09 preview nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgDocAfH3-Z/",
-  "2026-11-22 15:09 preview nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgDoe3jn6z3/"
+  "2026-11-22 15:09 preview nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgDoe3jn6z3/",
+  "2026-11-22 15:09 result ligue1|Paris FC|Angers SCO|2026-11-22 https://www.instagram.com/p/DgDoh3sHwOk/"
  ],
  "pending": {
   "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22": {
@@ -91,21 +91,6 @@
    "opponent_short": "Quer\u00e9taro",
    "reign_no": 3,
    "since": "2026-11-06"
-  },
-  "ligue1|Paris FC|Angers SCO|2026-11-22": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-11-22",
-   "defenses": 0,
-   "espn_id": "401876397",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "Angers SCO",
-   "opponent_short": "Angers",
-   "reign_no": 2,
-   "since": "2026-09-19"
   },
   "mls|Nashville SC|FC Cincinnati|2026-11-22": {
    "belt_name": "The MLS Belt",
@@ -246,7 +231,6 @@
   "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22"
  ],
  "results": [
-  "nba|New York Knicks|Chicago Bulls|2026-10-28",
   "nhl|New Jersey Devils|Colorado Avalanche|2026-10-28",
   "mls|Nashville SC|Philadelphia Union|2026-10-28",
   "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
@@ -305,6 +289,7 @@
   "ncaah|Michigan|Michigan State|2026-11-21",
   "ligamx|Santos Laguna|Tijuana|2026-10-25",
   "seriea|AS Roma|Cagliari Calcio|2026-10-27",
-  "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21"
+  "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21",
+  "ligue1|Paris FC|Angers SCO|2026-11-22"
  ]
 }
