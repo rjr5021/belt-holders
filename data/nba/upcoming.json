@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Spectrum Center",
-  "spread": -3.5
+  "spread": -2.5
  },
  {
   "id": "espn-401910037",
@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Xfinity Mobile Arena",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401910038",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -4.5
+  "spread": -5.5
  },
  {
   "id": "espn-401910039",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Target Center",
-  "spread": 12.5
+  "spread": 10.5
  },
  {
   "id": "espn-401910041",
