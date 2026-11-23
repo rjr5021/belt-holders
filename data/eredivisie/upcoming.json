@@ -1,41 +1,5 @@
 [
  {
-  "id": "of-2026-113",
-  "date": "2026-11-22",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "FC Twente",
-  "away": "Willem II",
-  "start_et": "06:15"
- },
- {
-  "id": "of-2026-114",
-  "date": "2026-11-22",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Sparta Rotterdam",
-  "away": "AZ Alkmaar",
-  "start_et": "08:30"
- },
- {
-  "id": "of-2026-115",
-  "date": "2026-11-22",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AFC Ajax",
-  "away": "ADO Den Haag",
-  "start_et": "08:30"
- },
- {
-  "id": "of-2026-116",
-  "date": "2026-11-22",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Go Ahead Eagles",
-  "away": "Fortuna Sittard",
-  "start_et": "10:45"
- },
- {
   "id": "of-2026-117",
   "date": "2026-11-27",
   "season": 2026,
