@@ -1,6 +1,6 @@
 {
- "key": "NSH|CIN|2026-11-28",
- "updated": "2026-11-23T07:43Z",
+ "key": "CIN|NSH|2026-11-28",
+ "updated": "2026-11-23T20:18Z",
  "start_utc": "2026-11-28T23:30Z",
  "espn": {
   "event_id": "401933722",
@@ -39,16 +39,16 @@
  },
  "weather": null,
  "ai": {
-  "overview": "Nashville SC bring the Belt Holders lineal championship to TQL Stadium for a rematch with FC Cincinnati on November 28th. Nashville have defended the belt 6 times in their current reign and are coming off a 2\u20130 victory at Cincinnati just three weeks ago. The belt passes to whoever wins, with no polls or committees involved\u2014just the result on the pitch.",
+  "overview": "FC Cincinnati host Nashville SC with the lineal championship belt on the line, having just claimed it with a 1\u20130 playoff victory at Nashville six days ago. The two sides have split their all-time series 5-5-3, and this marks their fourth meeting with the belt at stake. Cincinnati have won their last 2 games while Nashville stumbled in that playoff defeat after a strong regular season that saw them finish 23-4-8.",
   "key_matchups": [
-   "Nashville's recent dominance: They've won their last 2 games overall and swept both 2026 meetings with Cincinnati by a combined 6\u20130 scoreline",
-   "Cincinnati's playoff momentum versus Nashville's belt reign: The home side just won 3\u20131 at Orlando City in the playoffs but face a Nashville team with a 23-3-8 record",
-   "Head-to-head history: Nashville lead the all-time series 5-4-3 and have won the last two encounters, both by 2\u20130"
+   "Recent playoff revenge: Nashville won 2\u20130 at Cincinnati on 2026-11-07 before Cincinnati returned the favor 1\u20130 in the playoffs on 2026-11-22",
+   "Defense tightening: Three of the last four meetings have featured 2 or fewer total goals after Nashville's 4\u20130 rout on 2026-08-29",
+   "Belt debut pressure: FC Cincinnati have defended the belt 0 times in this reign and face a Nashville side that has held it 3 times before"
   ],
-  "betting_angles": "Nashville SC enter as Elo favorites with an elite 23-3-8 record and are riding a 2-game winning streak. They've also shut out Cincinnati twice in 2026, including a 2\u20130 road victory on November 7th and a dominant 4\u20130 win back in August. Cincinnati have only won 1 of their last 5 regular season games before their playoff victory, and their 13-12-10 record suggests inconsistency against a Nashville side that has been exceptional all season.",
-  "predicted_winner": "Nashville SC",
-  "predicted_score": "Nashville SC 2, FC Cincinnati 1",
-  "prediction_writeup": "Nashville SC have been near-perfect this season with their 23-3-8 mark and have owned this matchup in 2026, winning both meetings by 2\u20130 margins. While FC Cincinnati showed life with their 3\u20131 playoff win at Orlando City, they've struggled against Nashville's structured defense, failing to score in either 2026 encounter. The belt has been on the line twice before between these sides, and Nashville's current 6-defense reign suggests they know how to protect it. On the road against a team they've thoroughly dominated this year, Nashville should retain the belt with a narrow victory.",
+  "betting_angles": "The Elo model calls this a toss-up despite Nashville's superior regular season record of 23-4-8 compared to Cincinnati's 14-12-10. Cincinnati have won their last 2 games including the most recent 1\u20130 playoff win at Nashville, though Nashville had won 2\u20130 at Cincinnati just two weeks prior. The all-time head-to-head is perfectly even at 5-5-3, suggesting these teams are closely matched regardless of seasonal form.",
+  "predicted_winner": "FC Cincinnati",
+  "predicted_score": "FC Cincinnati 2, Nashville SC 1",
+  "prediction_writeup": "Cincinnati have the momentum of consecutive wins including that playoff victory over Nashville just six days ago, and home field should provide an edge in what the Elo model sees as a toss-up. While Nashville's 23-4-8 record is superior, their recent loss snapped strong form and coming back to the venue of their playoff elimination could be mentally challenging. The all-time series being dead even at 5-5-3 suggests these teams know each other well, but Cincinnati's current 2-game winning streak and the confidence of holding the belt for the first time tips the scales. Expect another tight, low-scoring affair like their recent meetings, but Cincinnati should defend the belt successfully in front of their home crowd.",
   "written": "2026-11-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
