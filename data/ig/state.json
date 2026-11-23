@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-06 22:14 result ligamx|Tijuana|Necaxa|2026-11-06 https://www.instagram.com/p/DfbMVY6EY8H/",
   "2026-11-07 18:07 preview nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdU2bvmXig/",
   "2026-11-07 18:07 result mls|Nashville SC|FC Cincinnati|2026-11-07 https://www.instagram.com/p/DfdU5aemQ-1/",
   "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
@@ -59,7 +58,8 @@
   "2026-11-22 15:09 result ligue1|Paris FC|Angers SCO|2026-11-22 https://www.instagram.com/p/DgDoh3sHwOk/",
   "2026-11-22 15:09 result eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22 https://www.instagram.com/p/DgDokSnH6EB/",
   "2026-11-22 15:09 preview ligamx|Necaxa|Quer\u00e9taro|2026-11-22 https://www.instagram.com/p/DgDom1IHzvs/",
-  "2026-11-22 22:45 result nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgEcnLfoSIS/"
+  "2026-11-22 22:45 result nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgEcnLfoSIS/",
+  "2026-11-22 22:45 result nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgEcqbVoVud/"
  ],
  "pending": {
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22": {
@@ -106,21 +106,6 @@
    "opponent_short": "Michigan State",
    "reign_no": 6,
    "since": "2026-11-01"
-  },
-  "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-11-22",
-   "defenses": 0,
-   "espn_id": "401892772",
-   "espn_path": "hockey/nhl",
-   "game_no": 8459,
-   "holder": "Vancouver Canucks",
-   "holder_short": "Canucks",
-   "lg": "nhl",
-   "opponent": "Chicago Blackhawks",
-   "opponent_short": "Blackhawks",
-   "reign_no": 70,
-   "since": "2026-11-21"
   },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
@@ -201,7 +186,6 @@
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22"
  ],
  "results": [
-  "ligamx|Tijuana|Club Am\u00e9rica|2026-10-28",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-30",
   "epl|Manchester City|Brighton & Hove Albion|2026-10-31",
   "seriea|AS Roma|Udinese Calcio|2026-10-31",
@@ -260,6 +244,7 @@
   "nhl|Minnesota Wild|Vancouver Canucks|2026-11-21",
   "ligue1|Paris FC|Angers SCO|2026-11-22",
   "eredivisie|AZ Alkmaar|Sparta Rotterdam|2026-11-22",
-  "nba|Miami Heat|Oklahoma City Thunder|2026-11-22"
+  "nba|Miami Heat|Oklahoma City Thunder|2026-11-22",
+  "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22"
  ]
 }
