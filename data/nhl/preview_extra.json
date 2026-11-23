@@ -1,56 +1,53 @@
 {
- "key": "VAN|CHI|2026-11-22",
- "updated": "2026-11-22T09:53Z",
- "start_utc": "2026-11-23T01:00Z",
+ "key": "CHI|SEA|2026-11-25",
+ "updated": "2026-11-23T07:43Z",
+ "start_utc": "2026-11-26T02:40Z",
  "espn": {
-  "event_id": "401892772",
-  "start_utc": "2026-11-23T01:00Z",
+  "event_id": "401892794",
+  "start_utc": "2026-11-26T02:40Z",
   "state": "pre",
   "tv": [
    "ESPN+",
-   "CHSN"
+   "CHSN",
+   "KONG"
   ],
-  "odds": {
-   "details": "CHI -112",
-   "over_under": 6.5,
-   "provider": "DraftKings"
-  },
+  "odds": null,
   "teams": {
-   "VAN": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
-    "abbr": "VAN",
-    "record": "6-18-1",
+   "SEA": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
+    "abbr": "SEA",
+    "record": "10-9-1",
     "rank": null,
     "home_away": "home"
    },
    "CHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
     "abbr": "CHI",
-    "record": "7-14-2",
+    "record": "8-14-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Rogers Arena",
-   "city": "Vancouver",
-   "state": "BC",
+   "name": "Climate Pledge Arena",
+   "city": "Seattle",
+   "state": "WA",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Vancouver Canucks put their newly acquired belt on the line for the first time, hosting the Chicago Blackhawks on November 22nd. Vancouver claimed the lineal championship with their 4\u20133 victory over Minnesota Wild and now faces a Chicago team that has held the belt 241 times previously across 26 prior championship meetings between these clubs. With both teams struggling this season at 6-19 and 7-16 respectively, this belt defense could swing either way.",
+  "overview": "The Chicago Blackhawks bring the Belt Holders lineal championship to Climate Pledge Arena for the first time, as these teams have never met with the belt on the line. Chicago arrives having won their last 2 games, including a 6\u20133 victory at Vancouver, but carry a struggling 8-16 record. Seattle sits at 10-10 after falling 3\u20134 at San Jose, and the Kraken have held the belt 6 times previously in their franchise history.",
   "key_matchups": [
-   "Vancouver's first belt defense after claiming it with a 4\u20133 win over Minnesota",
-   "Chicago's championship pedigree: 241 previous reigns versus Vancouver's current struggle at 6-19",
-   "Recent form collision: both teams riding one-game winning streaks after identical 4\u20133 victories"
+   "Chicago's offensive surge vs. Seattle's home advantage: The Blackhawks have scored 6 goals in each of their last 2 wins, but face a Kraken team that owns a 10-5 all-time edge in this matchup",
+   "Belt defense debut: Chicago won the belt recently and hasn't defended it yet, making this their first title defense of the current reign",
+   "Recent history favors Seattle: The Kraken took 3 of the last 5 meetings, though Chicago won the most recent clash 4-2 in April 2026"
   ],
-  "betting_angles": "The Elo model calls this a toss-up, fitting for two struggling teams separated by just one win in the standings. Vancouver holds a narrow 109-107 edge in the all-time series with 22 ties across 238 meetings, and they've won three of the last five head-to-head matchups including a 6-3 victory in their most recent meeting on March 6th, 2026. Both teams enter on single-game winning streaks with identical 4\u20133 victories, though Vancouver's recent form shows wider scoring variance including a 6\u20133 win at Vegas and two 1\u20135 losses.",
-  "predicted_winner": "Vancouver Canucks",
-  "predicted_score": "Vancouver Canucks 4, Chicago Blackhawks 3",
-  "prediction_writeup": "In a game the Elo model rates as a toss-up, home ice provides the slimmest of edges for Vancouver. The Canucks have won three of the last five meetings including a 6-3 victory in March 2026, suggesting they match up reasonably well against Chicago despite their poor overall record. Both teams are coming off identical 4\u20133 wins and sit near the bottom of the standings, but Vancouver gets the nod defending their first belt at home. Expect a close, low-scoring affair between two offensively challenged clubs, with the Canucks narrowly holding serve in their inaugural championship defense.",
-  "written": "2026-11-22",
+  "betting_angles": "Chicago has won their last 2 games and scored 6 goals in both victories, showing offensive firepower that contrasts with their poor 8-16 overall record. Seattle holds a commanding 10-5 advantage in the all-time series and stands at .500 this season compared to Chicago's .333 winning percentage. The Elo model favors Seattle at home, aligning with their superior record and historical dominance in this matchup.",
+  "predicted_winner": "Seattle Kraken",
+  "predicted_score": "Chicago Blackhawks 3, Seattle Kraken 4",
+  "prediction_writeup": "Seattle's 10-5 all-time edge over Chicago is significant, and the Kraken have the better record this season at 10-10 versus Chicago's 8-16 mark. While the Blackhawks have won their last 2 games with impressive 6-goal performances, they remain substantial underdogs according to the Elo model. Seattle has held the belt 6 times before and will be motivated to reclaim it at home. The Kraken's overall body of work this season and historical success against Chicago tips this toward a narrow home victory.",
+  "written": "2026-11-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

@@ -120,5 +120,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "NSH|CIN|2026-11-28",
+  "date": "2026-11-28",
+  "holder": "NSH",
+  "challenger": "CIN",
+  "pick": "NSH",
+  "score": "Nashville SC 2, FC Cincinnati 1",
+  "made": "2026-11-23",
+  "line": {
+   "details": "NSH +125",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

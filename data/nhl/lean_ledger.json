@@ -400,5 +400,15 @@
    "over_under": 6.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "CHI|SEA|2026-11-25",
+  "date": "2026-11-25",
+  "holder": "CHI",
+  "challenger": "SEA",
+  "pick": "SEA",
+  "score": "Chicago Blackhawks 3, Seattle Kraken 4",
+  "made": "2026-11-23",
+  "line": null
  }
 ]

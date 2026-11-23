@@ -1,56 +1,56 @@
 {
- "key": "AZ Alkmaar|Sparta Rotterdam|2026-11-22",
- "updated": "2026-11-10T12:43Z",
- "start_utc": "2026-11-22T13:30Z",
+ "key": "AZ Alkmaar|PEC Zwolle|2026-11-29",
+ "updated": "2026-11-23T07:45Z",
+ "start_utc": "2026-11-29T15:45Z",
  "espn": {
-  "event_id": "401875540",
-  "start_utc": "2026-11-22T13:30Z",
+  "event_id": "401875532",
+  "start_utc": "2026-11-29T15:45Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "AZ -140",
+   "details": "AZ -205",
    "over_under": 3.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Sparta Rotterdam": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
-    "abbr": "SPA",
-    "record": "3-3-6",
+   "PEC Zwolle": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+    "abbr": "PEC",
+    "record": "4-3-6",
     "rank": null,
     "home_away": "home"
    },
    "AZ Alkmaar": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
     "abbr": "AZ",
-    "record": "7-2-3",
+    "record": "8-2-3",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Sparta-Stadion Het Kasteel",
-   "city": "Rotterdam",
+   "name": "MAC\u00b3PARK Stadion",
+   "city": "Zwolle",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "AZ Alkmaar bring the lineal championship belt to Sparta Rotterdam on November 22nd, 2026, having defended it 11 times in their current reign. The belt passes to whoever wins this Eredivisie clash, with no committees involved\u2014just the result on the pitch.",
+  "overview": "AZ Alkmaar bring the Belt Holders lineal championship to PEC Zwolle on November 29th, having successfully defended it 11 times in their current reign. The belt passes to whoever wins this Eredivisie clash, with no polls or committees involved\u2014just the unbroken chain of results stretching back through league history.",
   "key_matchups": [
-   "AZ Alkmaar's 6-0-1 season record against Sparta Rotterdam's struggling 1-4-2 form",
-   "Sparta's two-game losing streak including a 0\u20134 home defeat versus AZ's recent W 1\u20130 vs Telstar",
-   "Historical dominance: AZ lead the all-time series 27-5-10 and won both meetings in 2026 and 2025"
+   "AZ Alkmaar's 6-0-1 record this season against PEC Zwolle's struggling 1-5-1 form",
+   "PEC Zwolle's recent 0-7 loss to Feyenoord and 0-3 defeat at FC Groningen contrast sharply with AZ's 1-0 win over Telstar",
+   "AZ Alkmaar hold a commanding 14-3-9 edge in the all-time head-to-head series across 26 meetings"
   ],
-  "betting_angles": "AZ Alkmaar enter as Elo favorites with strong underlying numbers: a 6-0-1 record this season and four wins in their last five games including a 5\u20132 victory and a 3\u20132 result. Sparta Rotterdam have dropped their last two matches by a combined 0\u20136 margin and sit at just 1-4-2 on the season. The head-to-head history heavily favors the visitors at 27-5-10 all-time, with AZ winning the last two meetings 3-1 and 1-0.",
+  "betting_angles": "AZ Alkmaar enter as Elo favorites with a 6-0-1 season record and victories in four of their last five, including a 5-2 win over Go Ahead Eagles and 3-2 at sc Heerenveen. PEC Zwolle have lost their last 2 games and sit at 1-5-1, though they did defeat AZ Alkmaar 3-1 in their most recent meeting on January 17th, 2026. The historical head-to-head heavily favors the visitors, who have won 14 of 26 all-time encounters.",
   "predicted_winner": "AZ Alkmaar",
-  "predicted_score": "AZ Alkmaar 2, Sparta Rotterdam 1",
-  "prediction_writeup": "AZ Alkmaar's superior form and dominant head-to-head record make them the clear favorite to retain the belt. Their 6-0-1 season stands in stark contrast to Sparta's 1-4-2 mark, and the visitors have won both recent meetings by 3-1 and 1-0 scorelines. While Sparta have shown they can find the net\u2014evidenced by their 3\u20133 draw with FC Utrecht and 2\u20132 result against PEC Zwolle\u2014their back-to-back losses of 1\u20132 and 0\u20134 suggest defensive vulnerabilities that AZ should exploit. The belt stays with the visitors in a competitive but ultimately controlled road win.",
-  "written": "2026-11-10",
+  "predicted_score": "AZ Alkmaar 2, PEC Zwolle 1",
+  "prediction_writeup": "AZ Alkmaar's 6-0-1 record and momentum from winning their last 1 game should carry them past a PEC Zwolle side that has lost their last 2 games, including a 0-3 defeat at FC Groningen. While PEC Zwolle did win 3-1 when these teams last met in January 2026, the visitors' 14-3-9 all-time advantage and current form make them clear favorites. The Elo model backs AZ Alkmaar, and their 11 successful belt defenses in this reign suggest they know how to protect the lineal championship. Expect a competitive match, but AZ Alkmaar should leave with the belt still around their waist.",
+  "written": "2026-11-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
+   "attempts": 2,
    "dropped": []
   }
  }

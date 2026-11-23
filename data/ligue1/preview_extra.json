@@ -1,53 +1,59 @@
 {
- "key": "Paris FC|Angers SCO|2026-11-22",
- "updated": "2026-11-08T01:31Z",
- "start_utc": "2026-11-22T14:00Z",
+ "key": "Paris FC|Stade Brest|2026-11-27",
+ "updated": "2026-11-23T07:44Z",
+ "start_utc": "2026-11-27T19:45Z",
  "espn": {
-  "event_id": "401876397",
-  "start_utc": "2026-11-22T14:00Z",
+  "event_id": "401876392",
+  "start_utc": "2026-11-27T19:45Z",
   "state": "pre",
   "tv": [],
-  "odds": null,
+  "odds": {
+   "details": "PAR +120",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  },
   "teams": {
-   "Paris FC": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-    "abbr": "PAR",
-    "record": "6-2-2",
+   "Stade Brest": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+    "abbr": "BRE",
+    "record": "5-3-3",
     "rank": null,
     "home_away": "home"
    },
-   "Angers SCO": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-    "abbr": "ANG",
-    "record": "2-2-5",
+   "Paris FC": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "abbr": "PAR",
+    "record": "7-2-2",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade Jean Bouin",
-   "city": "Paris",
+   "name": "Stade Francis-Le Bl\u00e9",
+   "city": "Brest",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC puts the lineal championship belt on the line for the first time in this reign when they host Angers SCO on November 22, 2026. The belt, which passes to whoever beats the current holder regardless of league standings, has never been contested between these two sides despite eight all-time meetings. Angers SCO, a 22-time belt holder historically, will look to reclaim the strap from a Paris FC side that has yet to defend it.",
+  "overview": "Paris FC captured the belt in their most recent outing and will look to defend it for the first time in this reign. Stade Brest, despite having held the belt 10 times previously, enters as the underdog coming off back-to-back losses.",
   "key_matchups": [
-   "Paris FC's unbeaten home form this season (3-0-2 overall) against an Angers side that has struggled on the road, losing 0-2 at Lille and 1-2 to Rennes in recent weeks",
-   "The head-to-head history favors Angers with 2 wins to Paris FC's 1 across 8 meetings, though 5 have ended in draws including a 0-0 stalemate in their last encounter on January 25, 2026",
-   "Paris FC's recent attacking output (3-2 at Marseille, 3-0 vs Nice, 2-1 vs Strasbourg) versus Angers' mixed defensive record (clean sheet vs Troyes, but conceded 2 to Lille and Rennes)"
+   "Paris FC's unbeaten streak in head-to-head meetings (2-0 all-time) versus Stade Brest's familiarity with belt pressure from 10 previous reigns",
+   "Paris FC's solid 3-0-2 season record against Stade Brest's struggling 1-2-2 mark",
+   "The visitors' recent scoring form (3 goals vs Nice, 3 at Marseille, 2 vs Strasbourg) against a Brest defense that has conceded in four straight"
   ],
-  "betting_angles": "Paris FC enters as a clear Elo favorite and boasts superior form with a 3-0-2 record compared to Angers' 2-2-1 mark. Both teams have won their last 1 game, but Paris FC has shown more consistency with three wins in their last five, while Angers has dropped two of five. The head-to-head history slightly favors Angers, though five of eight meetings have been draws, including the most recent 0-0 result.",
+  "betting_angles": "Paris FC holds a perfect 2-0 record in the all-time head-to-head, including a dominant 4-0 victory in their last meeting on May 3, 2026. The visitors have won their last 1 game while Stade Brest have lost their last 2, and Paris FC's 3-0-2 season record compares favorably to Brest's 1-2-2 mark. The Elo model calls this a toss-up, suggesting the match could be closer than recent form and history indicate.",
   "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 2, Angers SCO 1",
-  "prediction_writeup": "Paris FC should successfully defend the belt for the first time in this reign based on their stronger overall form and home advantage. Their 3-0-2 record reflects a side that has found ways to win, including impressive results like the 3-2 victory at Olympique Marseille. While Angers holds a slight edge in the all-time series and has held the belt 22 times previously, their 2-2-1 record and road struggles suggest they'll fall short. The Elo model's clear favor toward Paris FC aligns with the recent form that has seen the hosts score in three of their last five, including the 2-1 win over Strasbourg in their most recent outing.",
-  "written": "2026-11-08",
+  "predicted_score": "Paris FC 2, Stade Brest 1",
+  "prediction_writeup": "Paris FC's perfect head-to-head record against Stade Brest, including victories of 4-0 and 2-1 in their last two meetings, gives them a clear psychological edge. The visitors enter having won their last 1 game with a 2-1 result over Strasbourg, while Brest have lost their last 2 games. Paris FC's 3-0-2 season record demonstrates consistency that Stade Brest's 1-2-2 mark lacks. Even with the Elo model calling it a toss-up and Brest having held the belt 10 times before, Paris FC's superior recent form and head-to-head dominance should carry them through their first belt defense.",
+  "written": "2026-11-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 1,
-   "dropped": []
+   "attempts": 2,
+   "dropped": [
+    "27"
+   ]
   }
  }
 }

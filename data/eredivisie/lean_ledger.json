@@ -82,5 +82,19 @@
    "over_under": 3.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "AZ Alkmaar|PEC Zwolle|2026-11-29",
+  "date": "2026-11-29",
+  "holder": "AZ Alkmaar",
+  "challenger": "PEC Zwolle",
+  "pick": "AZ Alkmaar",
+  "score": "AZ Alkmaar 2, PEC Zwolle 1",
+  "made": "2026-11-23",
+  "line": {
+   "details": "AZ -205",
+   "over_under": 3.5,
+   "provider": "DraftKings"
+  }
  }
 ]

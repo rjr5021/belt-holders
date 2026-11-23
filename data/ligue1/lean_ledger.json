@@ -74,5 +74,19 @@
   "score": "Paris FC 2, Angers SCO 1",
   "made": "2026-11-08",
   "line": null
+ },
+ {
+  "key": "Paris FC|Stade Brest|2026-11-27",
+  "date": "2026-11-27",
+  "holder": "Paris FC",
+  "challenger": "Stade Brest",
+  "pick": "Paris FC",
+  "score": "Paris FC 2, Stade Brest 1",
+  "made": "2026-11-23",
+  "line": {
+   "details": "PAR +120",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

@@ -1,21 +1,21 @@
 {
- "key": "Athletic Bilbao|Espanyol Barcelona|2026-11-22",
- "updated": "2026-11-09T01:48Z",
+ "key": "Athletic Bilbao|Malaga CF|2026-11-29",
+ "updated": "2026-11-23T07:44Z",
  "start_utc": null,
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Athletic Bilbao put their lineal championship belt on the line when they host Espanyol on November 22, 2026. The belt, which changes hands with every defeat and has been tracked game-by-game since La Liga's inception, is currently in its third game of Bilbao's latest reign after two successful defenses. Espanyol, who have held the belt 60 times previously, will look to claim it once again in what has historically been a tight rivalry.",
+  "overview": "Athletic Bilbao bring the lineal championship belt to M\u00e1laga CF on November 29th, with the title passing to whoever wins this La Liga clash. The Basque side have defended the belt 2 times in this reign and look to extend their hold, while M\u00e1laga CF, who have held the belt 4 times previously, will aim to reclaim it on home soil. This marks the fourth meeting between these sides with the belt on the line.",
   "key_matchups": [
-   "Athletic Bilbao's unbeaten three-game stretch at home before their recent draws versus Espanyol's two-game losing streak",
-   "Bilbao's defensive solidity shown in the 3\u20130 win over Atl\u00e9tico Madrid and 2\u20130 win at Celta Vigo against Espanyol's recent struggles to keep games close",
-   "The head-to-head history slightly favors Athletic Bilbao (74-68-36 in 178 meetings), but Espanyol won both meetings in 2026 and 2025"
+   "Athletic Bilbao's recent defensive solidity (two straight scoreless draws) versus M\u00e1laga CF's struggling attack (just 2 goals in their last 5 games)",
+   "The all-time head-to-head stands nearly even at 12-11-11 across 34 meetings, with Athletic holding a slim edge",
+   "M\u00e1laga CF's winless streak (0-4-3 this season) against a belt holder that has gone unbeaten in their last 4 games"
   ],
-  "betting_angles": "Athletic Bilbao enter as Elo favorites with superior recent form, having tied their last 2 games after posting shutout wins over Atl\u00e9tico Madrid and Celta Vigo. Espanyol have lost their last 2 games and carry a 2-4-1 record compared to Bilbao's 2-2-2 mark. However, the head-to-head history shows Espanyol won both recent meetings 2-0 and 2-1, suggesting they've found success against Bilbao despite their current struggles.",
+  "betting_angles": "Athletic Bilbao arrive with superior form despite back-to-back draws, having gone unbeaten in four straight with wins over Atl\u00e9tico Madrid (3-0) and Celta Vigo (2-0) in that stretch. M\u00e1laga CF have lost their last 2 games and remain winless this season at 0-4-3, though the all-time series is remarkably balanced. The Elo model calls this a toss-up, suggesting the numbers see more competitive balance than recent form would indicate.",
   "predicted_winner": "Athletic Bilbao",
-  "predicted_score": "Athletic Bilbao 2, Espanyol 0",
-  "prediction_writeup": "Athletic Bilbao should retain the belt playing at home against a struggling Espanyol side. While Espanyol won both recent meetings, Bilbao's recent form is considerably stronger, with draws against Deportivo Alav\u00e9s and Elche CF following impressive shutout victories over Atl\u00e9tico Madrid and Celta Vigo. Espanyol have lost their last 2 games and carry a losing record of 2-4-1 this season. The Elo model favoring Bilbao combined with home advantage and superior current form should be enough to secure a third belt defense, likely by a clean sheet margin similar to their recent wins.",
-  "written": "2026-11-09",
+  "predicted_score": "Athletic Bilbao 1, M\u00e1laga CF 0",
+  "prediction_writeup": "Athletic Bilbao have shown they can defend, keeping clean sheets in three of their last four games including that 3-0 win over Atl\u00e9tico Madrid. M\u00e1laga CF meanwhile have scored just twice in their last five outings and carry an 0-4-3 record into this belt defense. While the Elo model sees a toss-up and the all-time head-to-head is nearly dead even at 12-11-11, current form points decisively toward the visitors. Athletic's recent defensive organization should be enough to grind out a narrow result and retain the belt, even if their own attack has cooled with consecutive scoreless draws.",
+  "written": "2026-11-23",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,
