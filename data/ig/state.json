@@ -77,6 +77,21 @@
    "reign_no": 6,
    "since": "2026-11-01"
   },
+  "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23": {
+   "belt_name": "The NFL Belt",
+   "date": "2026-11-23",
+   "defenses": 0,
+   "espn_id": "401873078",
+   "espn_path": "football/nfl",
+   "game_no": 1652,
+   "holder": "Washington Commanders",
+   "holder_short": "Commanders",
+   "lg": "nfl",
+   "opponent": "Cincinnati Bengals",
+   "opponent_short": "Bengals",
+   "reign_no": 28,
+   "since": "2026-11-12"
+  },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
    "date": "2026-11-21",
