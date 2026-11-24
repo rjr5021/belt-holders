@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401933728",
-  "date": "2026-11-23",
-  "season_type": "regular",
-  "home": "St. Louis CITY SC",
-  "away": "LAFC",
-  "home_id": "21812",
-  "away_id": "18966",
-  "home_abbr": "STL",
-  "away_abbr": "LAFC",
-  "home_loc": "St. Louis CITY SC",
-  "away_loc": "LAFC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13837,
-  "start_et": "20:15",
-  "season": 2026
- },
- {
   "id": "espn-401933738",
   "date": "2026-11-24",
   "season_type": "regular",

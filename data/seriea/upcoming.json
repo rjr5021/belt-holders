@@ -1,23 +1,5 @@
 [
  {
-  "id": "of-2026-118",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "AC Monza",
-  "away": "ACF Fiorentina",
-  "start_et": "12:30"
- },
- {
-  "id": "of-2026-119",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "Juventus",
-  "away": "AC Venezia",
-  "start_et": "14:45"
- },
- {
   "id": "of-2026-120",
   "date": "2026-11-29",
   "season": 2026,
