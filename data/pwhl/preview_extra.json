@@ -1,26 +1,26 @@
 {
- "key": "VAN|MIN|2026-11-23",
- "updated": "2026-11-12T00:49Z",
- "start_utc": "2026-11-23T21:00Z",
+ "key": "VAN|VGS|2026-11-24",
+ "updated": "2026-11-24T04:53Z",
+ "start_utc": "2026-11-24T20:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "The Vancouver Goldeneyes bring the Belt Holders lineal championship to Minnesota on November 23rd, fresh off a 4-3 victory over these same Frost. Vancouver has defended the belt 1 time in this reign and will look to extend their winning streak against a Minnesota side that has held the belt 8 times previously but enters on a loss.",
+  "overview": "Vancouver enters riding a five-game winning streak and has already defended the belt twice in this reign, while Las Vegas seeks to claim the belt for the first time in franchise history.",
   "key_matchups": [
-   "Vancouver's four-game winning streak versus Minnesota's recent playoff exit and current one-game skid",
-   "Head-to-head history favors Minnesota 4-1 all-time, but Vancouver won the most recent meeting 4-3",
-   "Minnesota's home ice advantage against a Vancouver team the Elo model considers the underdog"
+   "Vancouver's five-game winning streak versus a Las Vegas team coming off a 1\u20132 loss to Minnesota Frost",
+   "Vancouver's potent offense that posted 4 goals in each of their last two wins against a Las Vegas defense that allowed 2 in their last outing",
+   "PWHL Las Vegas attempting to become first-time belt holders against an Elo favorite"
   ],
-  "betting_angles": "Vancouver has won their last 4 games including a 4-3 win over Minnesota in their most recent encounter, while the Frost have lost their last 1 game. The Elo model favors Minnesota despite Vancouver's current form.",
-  "predicted_winner": "Minnesota Frost",
-  "predicted_score": "Vancouver Goldeneyes 2, Minnesota Frost 3",
-  "prediction_writeup": "While Vancouver has won their last 4 games and took the most recent meeting 4-3, the underlying numbers suggest regression. The Elo model backs Minnesota as the favorite at home. Despite the recent form favoring the Goldeneyes, the deeper trends and home ice point to a tight Minnesota victory that reclaims the belt for a team that has held it 8 times before.",
-  "written": "2026-11-12",
+  "betting_angles": "The Elo model favors Vancouver, whose five-game winning streak includes convincing victories like 4\u20131 at Minnesota Frost and 6\u20135 at Seattle Torrent. Las Vegas enters with a 0-1 season record after falling 1\u20132 to Minnesota Frost in their opener. Vancouver has defended the belt twice already and has won games by multiple-goal margins in four of their last five contests.",
+  "predicted_winner": "Vancouver Goldeneyes",
+  "predicted_score": "Vancouver Goldeneyes 4, PWHL Las Vegas 2",
+  "prediction_writeup": "Vancouver has won their last 5 games and scored 4 goals in each of their last two outings, showing both offensive consistency and momentum. Las Vegas lost their last game 1\u20132 to Minnesota Frost and have never held the belt. The Elo model favors the Goldeneyes, who have already defended twice in this reign. Vancouver's home ice and recent form across five straight wins should prove decisive against a Las Vegas squad still seeking its first victory of the season.",
+  "written": "2026-11-24",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 2,
    "dropped": [
-    "17"
+    "24"
    ]
   }
  }

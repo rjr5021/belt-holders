@@ -94,5 +94,15 @@
    "over_under": 51.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "WSH|ARI|2026-11-29",
+  "date": "2026-11-29",
+  "holder": "WSH",
+  "challenger": "ARI",
+  "pick": "WSH",
+  "score": "Washington Commanders 24, Arizona Cardinals 13",
+  "made": "2026-11-24",
+  "line": null
  }
 ]
