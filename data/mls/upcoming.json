@@ -171,25 +171,6 @@
   "season": 2026
  },
  {
-  "id": "espn-401933717",
-  "date": "2026-12-02",
-  "season_type": "regular",
-  "home": "Vancouver Whitecaps",
-  "away": "Real Salt Lake",
-  "home_id": "9727",
-  "away_id": "4771",
-  "home_abbr": "VAN",
-  "away_abbr": "RSL",
-  "home_loc": "Vancouver Whitecaps",
-  "away_loc": "Real Salt Lake",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13836,
-  "start_et": null,
-  "season": 2026
- },
- {
   "id": "espn-401933719",
   "date": "2026-12-02",
   "season_type": "regular",
@@ -301,6 +282,25 @@
   "season_year": 2026,
   "stype": 13837,
   "start_et": "20:00",
+  "season": 2026
+ },
+ {
+  "id": "espn-401933717",
+  "date": "2026-12-02",
+  "season_type": "regular",
+  "home": "Vancouver Whitecaps",
+  "away": "Real Salt Lake",
+  "home_id": "9727",
+  "away_id": "4771",
+  "home_abbr": "VAN",
+  "away_abbr": "RSL",
+  "home_loc": "Vancouver Whitecaps",
+  "away_loc": "Real Salt Lake",
+  "neutral": "",
+  "source": "espn",
+  "season_year": 2026,
+  "stype": 13836,
+  "start_et": "21:00",
   "season": 2026
  },
  {
