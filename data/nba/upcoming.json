@@ -1,135 +1,5 @@
 [
  {
-  "id": "espn-401910036",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHA",
-  "away": "MEM",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Spectrum Center",
-  "spread": -2.5
- },
- {
-  "id": "espn-401910037",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "POR",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Xfinity Mobile Arena",
-  "spread": 2.5
- },
- {
-  "id": "espn-401910038",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "IND",
-  "away": "OKC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Gainbridge Fieldhouse",
-  "spread": -5.5
- },
- {
-  "id": "espn-401910039",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "TOR",
-  "away": "MIL",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Scotiabank Arena",
-  "spread": 10.5
- },
- {
-  "id": "espn-401910040",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "MIN",
-  "away": "BKN",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:30",
-  "venue": "Target Center",
-  "spread": 10.5
- },
- {
-  "id": "espn-401910041",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHI",
-  "away": "CLE",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "United Center",
-  "spread": -8.5
- },
- {
-  "id": "espn-401910042",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "NO",
-  "away": "PHX",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:00",
-  "venue": "Smoothie King Center",
-  "spread": -3.5
- },
- {
-  "id": "espn-401910043",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "HOU",
-  "away": "LAC",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "20:30",
-  "venue": "Toyota Center (Houston)",
-  "spread": 12.5
- },
- {
-  "id": "espn-401910044",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "LAL",
-  "away": "UTAH",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "crypto.com Arena",
-  "spread": 13.5
- },
- {
-  "id": "espn-401910045",
-  "date": "2026-11-23",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "SAC",
-  "away": "SA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "22:00",
-  "venue": "Golden 1 Center",
-  "spread": -10.5
- },
- {
   "id": "espn-401909314",
   "date": "2026-11-24",
   "season": 2026,
@@ -140,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Kia Center",
-  "spread": null
+  "spread": -1.5
  },
  {
   "id": "espn-401909315",
@@ -153,7 +23,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "Capital One Arena",
-  "spread": null
+  "spread": -10.5
  },
  {
   "id": "espn-401909316",
@@ -166,7 +36,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Ball Arena",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401909317",
