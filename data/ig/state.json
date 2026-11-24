@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-07 18:07 result nwsl|Kansas City Current|Angel City FC|2026-11-07 https://www.instagram.com/p/DfdU8qxmdIQ/",
   "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/",
   "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/",
   "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/",
@@ -59,7 +58,8 @@
   "2026-11-22 22:45 result nba|Miami Heat|Oklahoma City Thunder|2026-11-22 https://www.instagram.com/p/DgEcnLfoSIS/",
   "2026-11-22 22:45 result nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgEcqbVoVud/",
   "2026-11-22 22:45 result mls|Nashville SC|FC Cincinnati|2026-11-22 https://www.instagram.com/p/DgEctrAoZn_/",
-  "2026-11-22 22:45 result ligamx|Necaxa|Quer\u00e9taro|2026-11-22 https://www.instagram.com/p/DgEcw30ISPk/"
+  "2026-11-22 22:45 result ligamx|Necaxa|Quer\u00e9taro|2026-11-22 https://www.instagram.com/p/DgEcw30ISPk/",
+  "2026-11-24 02:13 result nfl|Washington Commanders|Cincinnati Bengals|2026-11-23 https://www.instagram.com/p/DgHZNlRm3Th/"
  ],
  "pending": {
   "ncaah|Michigan|Michigan State|2026-11-21": {
@@ -76,21 +76,6 @@
    "opponent_short": "Michigan State",
    "reign_no": 6,
    "since": "2026-11-01"
-  },
-  "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23": {
-   "belt_name": "The NFL Belt",
-   "date": "2026-11-23",
-   "defenses": 0,
-   "espn_id": "401873078",
-   "espn_path": "football/nfl",
-   "game_no": 1652,
-   "holder": "Washington Commanders",
-   "holder_short": "Commanders",
-   "lg": "nfl",
-   "opponent": "Cincinnati Bengals",
-   "opponent_short": "Bengals",
-   "reign_no": 28,
-   "since": "2026-11-12"
   },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
@@ -171,7 +156,6 @@
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22"
  ],
  "results": [
-  "seriea|AS Roma|Udinese Calcio|2026-10-31",
   "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
@@ -230,6 +214,7 @@
   "nba|Miami Heat|Oklahoma City Thunder|2026-11-22",
   "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22",
   "mls|Nashville SC|FC Cincinnati|2026-11-22",
-  "ligamx|Necaxa|Quer\u00e9taro|2026-11-22"
+  "ligamx|Necaxa|Quer\u00e9taro|2026-11-22",
+  "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23"
  ]
 }
