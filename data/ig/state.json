@@ -92,6 +92,21 @@
    "reign_no": 6,
    "since": "2026-11-01"
   },
+  "nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25": {
+   "belt_name": "The NHL Belt",
+   "date": "2026-11-25",
+   "defenses": 0,
+   "espn_id": "401892794",
+   "espn_path": "hockey/nhl",
+   "game_no": 8460,
+   "holder": "Chicago Blackhawks",
+   "holder_short": "Blackhawks",
+   "lg": "nhl",
+   "opponent": "Seattle Kraken",
+   "opponent_short": "Kraken",
+   "reign_no": 242,
+   "since": "2026-11-22"
+  },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
    "date": "2026-11-21",
