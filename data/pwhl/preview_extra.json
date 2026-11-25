@@ -1,27 +1,25 @@
 {
- "key": "VAN|VGS|2026-11-24",
- "updated": "2026-11-24T04:53Z",
- "start_utc": "2026-11-24T20:00Z",
+ "key": "VAN|SEA|2026-12-05",
+ "updated": "2026-11-25T02:33Z",
+ "start_utc": "2026-12-05T20:00Z",
  "espn": null,
  "weather": null,
  "ai": {
-  "overview": "Vancouver enters riding a five-game winning streak and has already defended the belt twice in this reign, while Las Vegas seeks to claim the belt for the first time in franchise history.",
+  "overview": "The Vancouver Goldeneyes put their Belt Holders championship on the line when they host the Seattle Torrent on December 5th, 2026. Vancouver has defended the belt twice in this reign and enters riding a five-game winning streak, while Seattle has never held the belt in their history. This marks the first time these teams will meet with the lineal championship at stake.",
   "key_matchups": [
-   "Vancouver's five-game winning streak versus a Las Vegas team coming off a 1\u20132 loss to Minnesota Frost",
-   "Vancouver's potent offense that posted 4 goals in each of their last two wins against a Las Vegas defense that allowed 2 in their last outing",
-   "PWHL Las Vegas attempting to become first-time belt holders against an Elo favorite"
+   "Vancouver's perfect 4-0 all-time record against Seattle, including two wins already this season by scores of 6-5 and 4-1",
+   "Vancouver's five-game winning streak against Seattle coming off a 1-2 loss to Montr\u00e9al",
+   "Home ice advantage for the Goldeneyes, who have won both previous meetings at their venue by 4-1 margins"
   ],
-  "betting_angles": "The Elo model favors Vancouver, whose five-game winning streak includes convincing victories like 4\u20131 at Minnesota Frost and 6\u20135 at Seattle Torrent. Las Vegas enters with a 0-1 season record after falling 1\u20132 to Minnesota Frost in their opener. Vancouver has defended the belt twice already and has won games by multiple-goal margins in four of their last five contests.",
+  "betting_angles": "Vancouver holds every advantage in this matchup: a five-game winning streak, perfect 4-0 all-time dominance over Seattle, and home ice where they've twice beaten the Torrent 4-1. Seattle is coming off a 1-2 loss and has never solved Vancouver, losing twice this season including a 6-5 thriller and a 4-1 decision. The Elo model favors Vancouver, which aligns with the historical data showing complete Goldeneyes supremacy in this matchup.",
   "predicted_winner": "Vancouver Goldeneyes",
-  "predicted_score": "Vancouver Goldeneyes 4, PWHL Las Vegas 2",
-  "prediction_writeup": "Vancouver has won their last 5 games and scored 4 goals in each of their last two outings, showing both offensive consistency and momentum. Las Vegas lost their last game 1\u20132 to Minnesota Frost and have never held the belt. The Elo model favors the Goldeneyes, who have already defended twice in this reign. Vancouver's home ice and recent form across five straight wins should prove decisive against a Las Vegas squad still seeking its first victory of the season.",
-  "written": "2026-11-24",
+  "predicted_score": "Vancouver Goldeneyes 4, Seattle Torrent 2",
+  "prediction_writeup": "Vancouver's perfect record against Seattle speaks volumes, and their current form only reinforces their edge. The Goldeneyes have won five straight games overall and all four meetings with the Torrent, never losing to them in franchise history. While two of their recent wins over Seattle were close (4-3 and 6-5), Vancouver also posted convincing 4-1 victories both at home and on the road. Seattle's 1-2 loss to Montr\u00e9al in their most recent outing suggests they're not clicking offensively, making it hard to see them breaking through against a hot Vancouver squad defending their belt at home.",
+  "written": "2026-11-25",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "24"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }
