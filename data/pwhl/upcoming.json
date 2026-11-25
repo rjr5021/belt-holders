@@ -1,35 +1,5 @@
 [
  {
-  "id": "pwhl-355",
-  "date": "2026-11-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "9",
-  "away": "12",
-  "neutral": "",
-  "start_et": "15:00"
- },
- {
-  "id": "pwhl-357",
-  "date": "2026-11-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "4",
-  "away": "3",
-  "neutral": "",
-  "start_et": "16:00"
- },
- {
-  "id": "pwhl-359",
-  "date": "2026-11-24",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "6",
-  "away": "5",
-  "neutral": "",
-  "start_et": "19:00"
- },
- {
   "id": "pwhl-358",
   "date": "2026-11-25",
   "season": 2026,

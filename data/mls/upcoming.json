@@ -1,24 +1,5 @@
 [
  {
-  "id": "espn-401933738",
-  "date": "2026-11-24",
-  "season_type": "regular",
-  "home": "San Jose Earthquakes",
-  "away": "Houston Dynamo FC",
-  "home_id": "191",
-  "away_id": "6077",
-  "home_abbr": "SJ",
-  "away_abbr": "HOU",
-  "home_loc": "San Jose Earthquakes",
-  "away_loc": "Houston Dynamo FC",
-  "neutral": "",
-  "source": "espn",
-  "season_year": 2026,
-  "stype": 13835,
-  "start_et": "22:00",
-  "season": 2026
- },
- {
   "id": "espn-401933727",
   "date": "2026-11-27",
   "season_type": "regular",
