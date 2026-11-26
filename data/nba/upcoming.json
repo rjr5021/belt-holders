@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Little Caesars Arena",
-  "spread": null
+  "spread": 11.5
  },
  {
   "id": "espn-401909328",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -4.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909329",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": null
+  "spread": 7.5
  },
  {
   "id": "espn-401909330",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Target Center",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909332",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": null
+  "spread": 2.5
  },
  {
   "id": "espn-401909333",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Frost Bank Center",
-  "spread": 6.5
+  "spread": 5.5
  },
  {
   "id": "espn-401909334",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Intuit Dome",
-  "spread": null
+  "spread": 3.5
  },
  {
   "id": "espn-401909336",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Moda Center",
-  "spread": null
+  "spread": 8.5
  },
  {
   "id": "espn-401910046",
