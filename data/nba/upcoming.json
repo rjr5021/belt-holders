@@ -1,31 +1,5 @@
 [
  {
-  "id": "espn-401909317",
-  "date": "2026-11-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "PHI",
-  "away": "MIA",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "17:00",
-  "venue": "Xfinity Mobile Arena",
-  "spread": 1.5
- },
- {
-  "id": "espn-401909318",
-  "date": "2026-11-25",
-  "season": 2026,
-  "season_type": "regular",
-  "home": "CHA",
-  "away": "CHI",
-  "neutral": "",
-  "source": "espn",
-  "start_et": "19:00",
-  "venue": "Spectrum Center",
-  "spread": 3.5
- },
- {
   "id": "espn-401909319",
   "date": "2026-11-25",
   "season": 2026,
@@ -36,7 +10,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Madison Square Garden",
-  "spread": 2.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909320",
@@ -49,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Paycom Center",
-  "spread": 1.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909321",
@@ -62,7 +36,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "FedExForum",
-  "spread": 6.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909322",
@@ -101,7 +75,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Chase Center",
-  "spread": 6.5
+  "spread": 7.5
  },
  {
   "id": "espn-401909325",
@@ -114,7 +88,7 @@
   "source": "espn",
   "start_et": "22:00",
   "venue": "Moda Center",
-  "spread": -2.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909326",
