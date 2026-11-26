@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/",
   "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/",
   "2026-11-07 18:07 result ligue1|Paris FC|AJ Auxerre|2026-11-07 https://www.instagram.com/p/DfdVI7bmTQR/",
   "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/",
@@ -59,7 +58,8 @@
   "2026-11-22 22:45 result mls|Nashville SC|FC Cincinnati|2026-11-22 https://www.instagram.com/p/DgEctrAoZn_/",
   "2026-11-22 22:45 result ligamx|Necaxa|Quer\u00e9taro|2026-11-22 https://www.instagram.com/p/DgEcw30ISPk/",
   "2026-11-24 02:13 result nfl|Washington Commanders|Cincinnati Bengals|2026-11-23 https://www.instagram.com/p/DgHZNlRm3Th/",
-  "2026-11-25 23:09 result nba|Miami Heat|Philadelphia 76ers|2026-11-25 https://www.instagram.com/p/DgMNtrygIww/"
+  "2026-11-25 23:09 result nba|Miami Heat|Philadelphia 76ers|2026-11-25 https://www.instagram.com/p/DgMNtrygIww/",
+  "2026-11-26 00:37 result nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25 https://www.instagram.com/p/DgMXyIFG49d/"
  ],
  "pending": {
   "ncaah|Michigan|Michigan State|2026-11-21": {
@@ -76,21 +76,6 @@
    "opponent_short": "Michigan State",
    "reign_no": 6,
    "since": "2026-11-01"
-  },
-  "nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25": {
-   "belt_name": "The NHL Belt",
-   "date": "2026-11-25",
-   "defenses": 0,
-   "espn_id": "401892794",
-   "espn_path": "hockey/nhl",
-   "game_no": 8460,
-   "holder": "Chicago Blackhawks",
-   "holder_short": "Blackhawks",
-   "lg": "nhl",
-   "opponent": "Seattle Kraken",
-   "opponent_short": "Kraken",
-   "reign_no": 242,
-   "since": "2026-11-22"
   },
   "nwsl|Kansas City Current|Washington Spirit|2026-11-21": {
    "belt_name": "The NWSL Belt",
@@ -171,7 +156,6 @@
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22"
  ],
  "results": [
-  "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
   "ncaah|Michigan|Ohio State|2026-10-31",
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31",
@@ -230,6 +214,7 @@
   "mls|Nashville SC|FC Cincinnati|2026-11-22",
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22",
   "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23",
-  "nba|Miami Heat|Philadelphia 76ers|2026-11-25"
+  "nba|Miami Heat|Philadelphia 76ers|2026-11-25",
+  "nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25"
  ]
 }
