@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-07 18:07 result epl|Manchester City|Nottingham Forest|2026-11-07 https://www.instagram.com/p/DfdU_kDmZnA/",
   "2026-11-07 18:07 result seriea|AS Roma|Sassuolo Calcio|2026-11-07 https://www.instagram.com/p/DfdVC3jmXxA/",
   "2026-11-07 18:07 result bundesliga|Bayern Munich|1. FSV Mainz 05|2026-11-07 https://www.instagram.com/p/DfdVF-cGURx/",
   "2026-11-07 18:07 result ligue1|Paris FC|AJ Auxerre|2026-11-07 https://www.instagram.com/p/DfdVI7bmTQR/",
@@ -59,24 +58,10 @@
   "2026-11-22 22:45 result nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22 https://www.instagram.com/p/DgEcqbVoVud/",
   "2026-11-22 22:45 result mls|Nashville SC|FC Cincinnati|2026-11-22 https://www.instagram.com/p/DgEctrAoZn_/",
   "2026-11-22 22:45 result ligamx|Necaxa|Quer\u00e9taro|2026-11-22 https://www.instagram.com/p/DgEcw30ISPk/",
-  "2026-11-24 02:13 result nfl|Washington Commanders|Cincinnati Bengals|2026-11-23 https://www.instagram.com/p/DgHZNlRm3Th/"
+  "2026-11-24 02:13 result nfl|Washington Commanders|Cincinnati Bengals|2026-11-23 https://www.instagram.com/p/DgHZNlRm3Th/",
+  "2026-11-25 23:09 result nba|Miami Heat|Philadelphia 76ers|2026-11-25 https://www.instagram.com/p/DgMNtrygIww/"
  ],
  "pending": {
-  "nba|Miami Heat|Philadelphia 76ers|2026-11-25": {
-   "belt_name": "The NBA Belt",
-   "date": "2026-11-25",
-   "defenses": 4,
-   "espn_id": "401909317",
-   "espn_path": "basketball/nba",
-   "game_no": 7549,
-   "holder": "Miami Heat",
-   "holder_short": "Heat",
-   "lg": "nba",
-   "opponent": "Philadelphia 76ers",
-   "opponent_short": "76ers",
-   "reign_no": 77,
-   "since": "2026-11-13"
-  },
   "ncaah|Michigan|Michigan State|2026-11-21": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
@@ -186,7 +171,6 @@
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22"
  ],
  "results": [
-  "bundesliga|Bayern Munich|Borussia Dortmund|2026-10-31",
   "nba|Philadelphia 76ers|Charlotte Hornets|2026-10-31",
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
   "ncaah|Michigan|Ohio State|2026-10-31",
@@ -245,6 +229,7 @@
   "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22",
   "mls|Nashville SC|FC Cincinnati|2026-11-22",
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22",
-  "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23"
+  "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23",
+  "nba|Miami Heat|Philadelphia 76ers|2026-11-25"
  ]
 }
