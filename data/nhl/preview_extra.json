@@ -1,53 +1,52 @@
 {
- "key": "CHI|SEA|2026-11-25",
- "updated": "2026-11-23T07:43Z",
- "start_utc": "2026-11-26T02:40Z",
+ "key": "CHI|NYR|2026-11-27",
+ "updated": "2026-11-26T00:24Z",
+ "start_utc": "2026-11-27T22:30Z",
  "espn": {
-  "event_id": "401892794",
-  "start_utc": "2026-11-26T02:40Z",
+  "event_id": "401892806",
+  "start_utc": "2026-11-27T22:30Z",
   "state": "pre",
   "tv": [
-   "ESPN+",
-   "CHSN",
-   "KONG"
+   "TNT",
+   "truTV"
   ],
   "odds": null,
   "teams": {
-   "SEA": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
-    "abbr": "SEA",
-    "record": "10-9-1",
-    "rank": null,
-    "home_away": "home"
-   },
    "CHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
     "abbr": "CHI",
     "record": "8-14-2",
     "rank": null,
+    "home_away": "home"
+   },
+   "NYR": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+    "abbr": "NYR",
+    "record": "13-9-1",
+    "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Climate Pledge Arena",
-   "city": "Seattle",
-   "state": "WA",
+   "name": "United Center",
+   "city": "Chicago",
+   "state": "IL",
    "indoor": true
   }
  },
  "weather": null,
  "ai": {
-  "overview": "The Chicago Blackhawks bring the Belt Holders lineal championship to Climate Pledge Arena for the first time, as these teams have never met with the belt on the line. Chicago arrives having won their last 2 games, including a 6\u20133 victory at Vancouver, but carry a struggling 8-16 record. Seattle sits at 10-10 after falling 3\u20134 at San Jose, and the Kraken have held the belt 6 times previously in their franchise history.",
+  "overview": "The Chicago Blackhawks put their lineal championship belt on the line for the first time in this reign when they host the New York Rangers on November 27, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back to the league's origins. Chicago claimed the belt in their most recent victory and now faces a Rangers squad that has held it 268 times previously across 137 head-to-head belt meetings.",
   "key_matchups": [
-   "Chicago's offensive surge vs. Seattle's home advantage: The Blackhawks have scored 6 goals in each of their last 2 wins, but face a Kraken team that owns a 10-5 all-time edge in this matchup",
-   "Belt defense debut: Chicago won the belt recently and hasn't defended it yet, making this their first title defense of the current reign",
-   "Recent history favors Seattle: The Kraken took 3 of the last 5 meetings, though Chicago won the most recent clash 4-2 in April 2026"
+   "Chicago's offensive surge vs. Rangers' recent defensive struggles: The Blackhawks posted 6 goals in each of their last two wins, while New York surrendered 5 in their most recent loss to Carolina",
+   "Home ice advantage for an 8-16 Blackhawks team facing a 13-10 Rangers squad that just snapped a three-game winning streak",
+   "Head-to-head history nearly split: Chicago leads the all-time series 268-260-98 across 626 meetings, though the Rangers won the most recent matchup 6-1 in March 2026"
   ],
-  "betting_angles": "Chicago has won their last 2 games and scored 6 goals in both victories, showing offensive firepower that contrasts with their poor 8-16 overall record. Seattle holds a commanding 10-5 advantage in the all-time series and stands at .500 this season compared to Chicago's .333 winning percentage. The Elo model favors Seattle at home, aligning with their superior record and historical dominance in this matchup.",
-  "predicted_winner": "Seattle Kraken",
-  "predicted_score": "Chicago Blackhawks 3, Seattle Kraken 4",
-  "prediction_writeup": "Seattle's 10-5 all-time edge over Chicago is significant, and the Kraken have the better record this season at 10-10 versus Chicago's 8-16 mark. While the Blackhawks have won their last 2 games with impressive 6-goal performances, they remain substantial underdogs according to the Elo model. Seattle has held the belt 6 times before and will be motivated to reclaim it at home. The Kraken's overall body of work this season and historical success against Chicago tips this toward a narrow home victory.",
-  "written": "2026-11-23",
+  "betting_angles": "Chicago has won their last 2 games and scored 6 goals in both victories, showing offensive firepower despite their poor 8-16 record. New York's superior 13-10 record and status as the Elo favorite contrast with their recent form, having just lost 2-5 to Carolina and surrendering 5 goals. The all-time head-to-head is essentially even with Chicago holding a slim 268-260-98 edge, and the last five meetings have split 3-2 in favor of New York.",
+  "predicted_winner": "New York Rangers",
+  "predicted_score": "Chicago Blackhawks 3, New York Rangers 4",
+  "prediction_writeup": "Despite Chicago's recent offensive explosion with back-to-back 6-goal performances, New York's superior season record of 13-10 and Elo model favoritism suggest they have the edge to reclaim the belt. The Rangers have held the belt 268 times before and know how to win these matchups, having taken 3 of the last 5 meetings including a 6-1 drubbing in March 2026. While Chicago's momentum is real, their 8-16 record reflects underlying struggles that should catch up to them against a disciplined Rangers squad looking to bounce back from the Carolina loss. The nearly even all-time series of 268-260-98 suggests this will be close, but New York's overall quality should prevail in a tight contest.",
+  "written": "2026-11-26",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

@@ -410,5 +410,15 @@
   "score": "Chicago Blackhawks 3, Seattle Kraken 4",
   "made": "2026-11-23",
   "line": null
+ },
+ {
+  "key": "CHI|NYR|2026-11-27",
+  "date": "2026-11-27",
+  "holder": "CHI",
+  "challenger": "NYR",
+  "pick": "NYR",
+  "score": "Chicago Blackhawks 3, New York Rangers 4",
+  "made": "2026-11-26",
+  "line": null
  }
 ]
