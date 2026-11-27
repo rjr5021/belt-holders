@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Madison Square Garden",
-  "spread": 4.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909327",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Target Center",
-  "spread": 4.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909332",
@@ -88,7 +88,7 @@
   "source": "espn",
   "start_et": "21:00",
   "venue": "Mortgage Matchup Center",
-  "spread": 2.5
+  "spread": 3.5
  },
  {
   "id": "espn-401909333",
@@ -101,7 +101,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Frost Bank Center",
-  "spread": 5.5
+  "spread": 6.5
  },
  {
   "id": "espn-401909334",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Delta Center",
-  "spread": -10.5
+  "spread": -9.5
  },
  {
   "id": "espn-401909335",
@@ -127,7 +127,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Intuit Dome",
-  "spread": 3.5
+  "spread": 2.5
  },
  {
   "id": "espn-401909336",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Moda Center",
-  "spread": 9.5
+  "spread": 7.5
  },
  {
   "id": "espn-401910046",
