@@ -23,7 +23,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Little Caesars Arena",
-  "spread": 11.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909328",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -3.5
+  "spread": -2.5
  },
  {
   "id": "espn-401909329",
@@ -140,7 +140,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Moda Center",
-  "spread": 8.5
+  "spread": 9.5
  },
  {
   "id": "espn-401910046",
