@@ -10,7 +10,7 @@
   "source": "espn",
   "start_et": "19:00",
   "venue": "Madison Square Garden",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909327",
@@ -36,7 +36,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Gainbridge Fieldhouse",
-  "spread": -2.5
+  "spread": -3.5
  },
  {
   "id": "espn-401909329",
@@ -49,7 +49,7 @@
   "source": "espn",
   "start_et": "19:30",
   "venue": "Scotiabank Arena",
-  "spread": 7.5
+  "spread": 9.5
  },
  {
   "id": "espn-401909330",
@@ -62,7 +62,7 @@
   "source": "espn",
   "start_et": "20:00",
   "venue": "TD Garden",
-  "spread": 9.5
+  "spread": 8.5
  },
  {
   "id": "espn-401909331",
@@ -75,7 +75,7 @@
   "source": "espn",
   "start_et": "20:30",
   "venue": "Target Center",
-  "spread": 3.5
+  "spread": 4.5
  },
  {
   "id": "espn-401909332",
@@ -114,7 +114,7 @@
   "source": "espn",
   "start_et": "21:30",
   "venue": "Delta Center",
-  "spread": -9.5
+  "spread": -10.5
  },
  {
   "id": "espn-401909335",
