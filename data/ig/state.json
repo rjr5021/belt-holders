@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-08 18:06 result nfl|New York Giants|Philadelphia Eagles|2026-11-08 https://www.instagram.com/p/Dff5iD9HYjT/",
   "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/",
   "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/",
   "2026-11-10 15:15 preview nba|New York Knicks|Milwaukee Bucks|2026-11-10 https://www.instagram.com/p/Dfkvh5FiShT/",
@@ -59,24 +58,10 @@
   "2026-11-26 00:37 result nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25 https://www.instagram.com/p/DgMXyIFG49d/",
   "2026-11-27 10:33 preview nba|Philadelphia 76ers|Indiana Pacers|2026-11-27 https://www.instagram.com/p/DgQAxnAG713/",
   "2026-11-27 10:33 preview nhl|Chicago Blackhawks|New York Rangers|2026-11-27 https://www.instagram.com/p/DgQA0sem6Ds/",
-  "2026-11-27 10:33 preview ligue1|Paris FC|Stade Brest|2026-11-27 https://www.instagram.com/p/DgQA3l3myCG/"
+  "2026-11-27 10:33 preview ligue1|Paris FC|Stade Brest|2026-11-27 https://www.instagram.com/p/DgQA3l3myCG/",
+  "2026-11-27 16:49 result ligue1|Paris FC|Stade Brest|2026-11-27 https://www.instagram.com/p/DgQrxgGj-2i/"
  ],
  "pending": {
-  "ligue1|Paris FC|Stade Brest|2026-11-27": {
-   "belt_name": "The Ligue 1 Belt",
-   "date": "2026-11-27",
-   "defenses": 0,
-   "espn_id": "401876392",
-   "espn_path": "soccer/fra.1",
-   "game_no": 2961,
-   "holder": "Paris FC",
-   "holder_short": "Paris",
-   "lg": "ligue1",
-   "opponent": "Stade Brest",
-   "opponent_short": "Brest",
-   "reign_no": 2,
-   "since": "2026-09-19"
-  },
   "nba|Philadelphia 76ers|Indiana Pacers|2026-11-27": {
    "belt_name": "The NBA Belt",
    "date": "2026-11-27",
@@ -201,7 +186,6 @@
   "ligue1|Paris FC|Stade Brest|2026-11-27"
  ],
  "results": [
-  "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
   "ncaah|Michigan|Ohio State|2026-10-31",
   "nhl|Colorado Avalanche|Calgary Flames|2026-10-31",
   "ligamx|Tijuana|Monterrey|2026-10-31",
@@ -260,6 +244,7 @@
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22",
   "nfl|Washington Commanders|Cincinnati Bengals|2026-11-23",
   "nba|Miami Heat|Philadelphia 76ers|2026-11-25",
-  "nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25"
+  "nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25",
+  "ligue1|Paris FC|Stade Brest|2026-11-27"
  ]
 }
