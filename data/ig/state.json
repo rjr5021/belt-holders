@@ -1,6 +1,5 @@
 {
  "log": [
-  "2026-11-07 22:24 result nba|Cleveland Cavaliers|New York Knicks|2026-11-07 https://www.instagram.com/p/DfdyNwqDZow/",
   "2026-11-08 18:06 result nfl|New York Giants|Philadelphia Eagles|2026-11-08 https://www.instagram.com/p/Dff5iD9HYjT/",
   "2026-11-08 18:06 result nhl|Buffalo Sabres|Vegas Golden Knights|2026-11-08 https://www.instagram.com/p/Dff5lo_nXbD/",
   "2026-11-08 18:06 result eredivisie|AZ Alkmaar|FC Groningen|2026-11-08 https://www.instagram.com/p/Dff5o9FHU66/",
@@ -59,7 +58,8 @@
   "2026-11-25 23:09 result nba|Miami Heat|Philadelphia 76ers|2026-11-25 https://www.instagram.com/p/DgMNtrygIww/",
   "2026-11-26 00:37 result nhl|Chicago Blackhawks|Seattle Kraken|2026-11-25 https://www.instagram.com/p/DgMXyIFG49d/",
   "2026-11-27 10:33 preview nba|Philadelphia 76ers|Indiana Pacers|2026-11-27 https://www.instagram.com/p/DgQAxnAG713/",
-  "2026-11-27 10:33 preview nhl|Chicago Blackhawks|New York Rangers|2026-11-27 https://www.instagram.com/p/DgQA0sem6Ds/"
+  "2026-11-27 10:33 preview nhl|Chicago Blackhawks|New York Rangers|2026-11-27 https://www.instagram.com/p/DgQA0sem6Ds/",
+  "2026-11-27 10:33 preview ligue1|Paris FC|Stade Brest|2026-11-27 https://www.instagram.com/p/DgQA3l3myCG/"
  ],
  "pending": {
   "ligue1|Paris FC|Stade Brest|2026-11-27": {
@@ -139,7 +139,6 @@
   }
  },
  "previews": [
-  "seriea|AS Roma|Genoa CFC|2026-10-17",
   "ligamx|Quer\u00e9taro|Santos Laguna|2026-10-17",
   "ncaah|Michigan|Denver|2026-10-17",
   "nba|New York Knicks|Philadelphia 76ers|2026-10-20",
@@ -198,7 +197,8 @@
   "nhl|Vancouver Canucks|Chicago Blackhawks|2026-11-22",
   "ligamx|Necaxa|Quer\u00e9taro|2026-11-22",
   "nba|Philadelphia 76ers|Indiana Pacers|2026-11-27",
-  "nhl|Chicago Blackhawks|New York Rangers|2026-11-27"
+  "nhl|Chicago Blackhawks|New York Rangers|2026-11-27",
+  "ligue1|Paris FC|Stade Brest|2026-11-27"
  ],
  "results": [
   "eredivisie|AZ Alkmaar|AFC Ajax|2026-10-31",
