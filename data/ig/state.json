@@ -92,6 +92,21 @@
    "reign_no": 3,
    "since": "2026-11-22"
   },
+  "nba|Philadelphia 76ers|Houston Rockets|2026-11-28": {
+   "belt_name": "The NBA Belt",
+   "date": "2026-11-28",
+   "defenses": 1,
+   "espn_id": "401910050",
+   "espn_path": "basketball/nba",
+   "game_no": 7551,
+   "holder": "Philadelphia 76ers",
+   "holder_short": "76ers",
+   "lg": "nba",
+   "opponent": "Houston Rockets",
+   "opponent_short": "Rockets",
+   "reign_no": 203,
+   "since": "2026-11-25"
+  },
   "ncaah|Michigan|Michigan State|2026-11-21": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
