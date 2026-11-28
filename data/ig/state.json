@@ -62,6 +62,21 @@
   "2026-11-27 22:43 result nhl|Chicago Blackhawks|New York Rangers|2026-11-27 https://www.instagram.com/p/DgRUWTYjZdx/"
  ],
  "pending": {
+  "mls|FC Cincinnati|Nashville SC|2026-11-28": {
+   "belt_name": "The MLS Belt",
+   "date": "2026-11-28",
+   "defenses": 0,
+   "espn_id": "401933722",
+   "espn_path": "soccer/usa.1",
+   "game_no": 1131,
+   "holder": "FC Cincinnati",
+   "holder_short": "Cincinnati",
+   "lg": "mls",
+   "opponent": "Nashville SC",
+   "opponent_short": "Nashville",
+   "reign_no": 3,
+   "since": "2026-11-22"
+  },
   "ncaah|Michigan|Michigan State|2026-11-21": {
    "belt_name": "The College Hockey Belt",
    "date": "2026-11-21",
