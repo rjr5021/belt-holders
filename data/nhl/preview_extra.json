@@ -1,28 +1,29 @@
 {
- "key": "CHI|NYR|2026-11-27",
- "updated": "2026-11-26T00:24Z",
- "start_utc": "2026-11-27T22:30Z",
+ "key": "CHI|MIN|2026-11-29",
+ "updated": "2026-11-28T07:53Z",
+ "start_utc": "2026-11-29T19:00Z",
  "espn": {
-  "event_id": "401892806",
-  "start_utc": "2026-11-27T22:30Z",
+  "event_id": "401892823",
+  "start_utc": "2026-11-29T19:00Z",
   "state": "pre",
   "tv": [
-   "TNT",
-   "truTV"
+   "NHL Net",
+   "CHSN",
+   "MINNHL"
   ],
   "odds": null,
   "teams": {
    "CHI": {
     "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
     "abbr": "CHI",
-    "record": "8-14-2",
+    "record": "10-14-2",
     "rank": null,
     "home_away": "home"
    },
-   "NYR": {
-    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-    "abbr": "NYR",
-    "record": "13-9-1",
+   "MIN": {
+    "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
+    "abbr": "MIN",
+    "record": "18-4-6",
     "rank": null,
     "home_away": "away"
    }
@@ -36,17 +37,17 @@
  },
  "weather": null,
  "ai": {
-  "overview": "The Chicago Blackhawks put their lineal championship belt on the line for the first time in this reign when they host the New York Rangers on November 27, 2026. The belt passes to whoever beats the current holder, tracing an unbroken chain back to the league's origins. Chicago claimed the belt in their most recent victory and now faces a Rangers squad that has held it 268 times previously across 137 head-to-head belt meetings.",
+  "overview": "The Chicago Blackhawks put their Belt Holders lineal championship on the line when they host the Minnesota Wild on November 29th, 2026. Chicago has defended the belt 2 times in this reign and enters riding a 4-game winning streak, while Minnesota arrives having dropped their last 2 games. The belt passes to whoever wins this game, with no committees involved\u2014just pure on-ice results dating back to the league's origins.",
   "key_matchups": [
-   "Chicago's offensive surge vs. Rangers' recent defensive struggles: The Blackhawks posted 6 goals in each of their last two wins, while New York surrendered 5 in their most recent loss to Carolina",
-   "Home ice advantage for an 8-16 Blackhawks team facing a 13-10 Rangers squad that just snapped a three-game winning streak",
-   "Head-to-head history nearly split: Chicago leads the all-time series 268-260-98 across 626 meetings, though the Rangers won the most recent matchup 6-1 in March 2026"
+   "Chicago's 4-game win streak versus Minnesota's 2-game skid\u2014momentum heavily favors the home side",
+   "Wild's superior 18-10 record against Chicago's 10-16 mark suggests overall quality advantage for the visitors",
+   "Minnesota holds the all-time edge 63-47-1 and has won 4 of the last 5 meetings between these clubs"
   ],
-  "betting_angles": "Chicago has won their last 2 games and scored 6 goals in both victories, showing offensive firepower despite their poor 8-16 record. New York's superior 13-10 record and status as the Elo favorite contrast with their recent form, having just lost 2-5 to Carolina and surrendering 5 goals. The all-time head-to-head is essentially even with Chicago holding a slim 268-260-98 edge, and the last five meetings have split 3-2 in favor of New York.",
-  "predicted_winner": "New York Rangers",
-  "predicted_score": "Chicago Blackhawks 3, New York Rangers 4",
-  "prediction_writeup": "Despite Chicago's recent offensive explosion with back-to-back 6-goal performances, New York's superior season record of 13-10 and Elo model favoritism suggest they have the edge to reclaim the belt. The Rangers have held the belt 268 times before and know how to win these matchups, having taken 3 of the last 5 meetings including a 6-1 drubbing in March 2026. While Chicago's momentum is real, their 8-16 record reflects underlying struggles that should catch up to them against a disciplined Rangers squad looking to bounce back from the Carolina loss. The nearly even all-time series of 268-260-98 suggests this will be close, but New York's overall quality should prevail in a tight contest.",
-  "written": "2026-11-26",
+  "betting_angles": "The Blackhawks have won their last 4 games including a tight 2\u20131 victory over the Rangers, but carry a poor 10-16 record that explains why the Elo model favors Minnesota despite Chicago's hot streak. The Wild's 18-10 record and 63-47-1 all-time advantage suggest they're the better team, though recent losses to Colorado and Utah by identical 3\u20134 scores show some vulnerability. Chicago has only defended the belt twice in this reign, while Minnesota has held it 38 times previously, indicating the visitors are more accustomed to belt pressure.",
+  "predicted_winner": "Minnesota Wild",
+  "predicted_score": "Chicago Blackhawks 2, Minnesota Wild 3",
+  "prediction_writeup": "While Chicago's 4-game winning streak is impressive, Minnesota's overall body of work is superior with an 18-10 record compared to Chicago's 10-16 mark. The Wild dominate the all-time series 63-47-1 and have won 4 of the last 5 head-to-head meetings, including three of those by a single goal. The Elo model favoring Minnesota despite their recent 2-game slide suggests the underlying metrics point toward the visitors. Chicago's recent wins have been increasingly tight\u20142\u20131 and 3\u20131 in their last two\u2014which may indicate regression coming, allowing Minnesota to reclaim the belt they've held 38 times before.",
+  "written": "2026-11-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
    "attempts": 1,

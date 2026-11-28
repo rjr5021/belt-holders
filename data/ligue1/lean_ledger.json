@@ -88,5 +88,19 @@
    "over_under": 2.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "Paris FC|Le Mans UC 72|2026-12-05",
+  "date": "2026-12-05",
+  "holder": "Paris FC",
+  "challenger": "Le Mans UC 72",
+  "pick": "Paris FC",
+  "score": "Paris FC 2, Le Mans 1",
+  "made": "2026-11-28",
+  "line": {
+   "details": "PAR -240",
+   "over_under": 2.5,
+   "provider": "DraftKings"
+  }
  }
 ]

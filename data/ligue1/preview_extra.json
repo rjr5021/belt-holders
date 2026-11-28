@@ -1,59 +1,57 @@
 {
- "key": "Paris FC|Stade Brest|2026-11-27",
- "updated": "2026-11-23T07:44Z",
- "start_utc": "2026-11-27T19:45Z",
+ "key": "Paris FC|Le Mans UC 72|2026-12-05",
+ "updated": "2026-11-28T07:54Z",
+ "start_utc": "2026-12-05T19:45Z",
  "espn": {
-  "event_id": "401876392",
-  "start_utc": "2026-11-27T19:45Z",
+  "event_id": "401876381",
+  "start_utc": "2026-12-05T19:45Z",
   "state": "pre",
   "tv": [],
   "odds": {
-   "details": "PAR +120",
+   "details": "PAR -240",
    "over_under": 2.5,
    "provider": "DraftKings"
   },
   "teams": {
-   "Stade Brest": {
-    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-    "abbr": "BRE",
-    "record": "5-3-3",
-    "rank": null,
-    "home_away": "home"
-   },
    "Paris FC": {
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
     "abbr": "PAR",
-    "record": "7-2-2",
+    "record": "7-2-3",
+    "rank": null,
+    "home_away": "home"
+   },
+   "Le Mans UC 72": {
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+    "abbr": "MNS",
+    "record": "2-5-4",
     "rank": null,
     "home_away": "away"
    }
   },
   "venue": {
-   "name": "Stade Francis-Le Bl\u00e9",
-   "city": "Brest",
+   "name": "Stade Jean Bouin",
+   "city": "Paris",
    "state": null,
    "indoor": null
   }
  },
  "weather": null,
  "ai": {
-  "overview": "Paris FC captured the belt in their most recent outing and will look to defend it for the first time in this reign. Stade Brest, despite having held the belt 10 times previously, enters as the underdog coming off back-to-back losses.",
+  "overview": "Paris FC host Le Mans on December 5th, 2026, with the lineal championship belt on the line. Paris FC claimed the belt in their current reign and have yet to defend it, while Le Mans arrive as three-time former holders looking to reclaim the prize. This marks the first time these sides have met with the belt at stake.",
   "key_matchups": [
-   "Paris FC's unbeaten streak in head-to-head meetings (2-0 all-time) versus Stade Brest's familiarity with belt pressure from 10 previous reigns",
-   "Paris FC's solid 3-0-2 season record against Stade Brest's struggling 1-2-2 mark",
-   "The visitors' recent scoring form (3 goals vs Nice, 3 at Marseille, 2 vs Strasbourg) against a Brest defense that has conceded in four straight"
+   "Paris FC's perfect home form this season against Le Mans' draw-heavy road record",
+   "Paris FC seeking their first belt defense after claiming it in their current reign",
+   "Le Mans' three-time belt pedigree versus Paris FC's maiden voyage as holders"
   ],
-  "betting_angles": "Paris FC holds a perfect 2-0 record in the all-time head-to-head, including a dominant 4-0 victory in their last meeting on May 3, 2026. The visitors have won their last 1 game while Stade Brest have lost their last 2, and Paris FC's 3-0-2 season record compares favorably to Brest's 1-2-2 mark. The Elo model calls this a toss-up, suggesting the match could be closer than recent form and history indicate.",
+  "betting_angles": "Paris FC enter with a superior 3-0-2 record compared to Le Mans' 1-1-3 mark, and both sides are coming off identical 2\u20131 victories in their most recent outings. The Elo model favors the hosts, who have shown more consistency with three wins in their last five compared to Le Mans' single victory amid three draws. Paris FC's recent 3\u20132 win at Olympique Marseille and 3\u20130 victory over OGC Nice demonstrate an ability to put up goals, while Le Mans have been involved in several low-scoring draws.",
   "predicted_winner": "Paris FC",
-  "predicted_score": "Paris FC 2, Stade Brest 1",
-  "prediction_writeup": "Paris FC's perfect head-to-head record against Stade Brest, including victories of 4-0 and 2-1 in their last two meetings, gives them a clear psychological edge. The visitors enter having won their last 1 game with a 2-1 result over Strasbourg, while Brest have lost their last 2 games. Paris FC's 3-0-2 season record demonstrates consistency that Stade Brest's 1-2-2 mark lacks. Even with the Elo model calling it a toss-up and Brest having held the belt 10 times before, Paris FC's superior recent form and head-to-head dominance should carry them through their first belt defense.",
-  "written": "2026-11-23",
+  "predicted_score": "Paris FC 2, Le Mans 1",
+  "prediction_writeup": "Paris FC's 3-0-2 record gives them a clear edge over Le Mans' struggling 1-1-3 campaign. The hosts have shown they can win tight matches, as evidenced by their most recent 2\u20131 victory over RC Strasbourg, and have demonstrated attacking quality with their 3\u20132 win at Marseille and 3\u20130 triumph over Nice. Le Mans have managed just one win in five outings and have drawn three of their last four, suggesting they lack the cutting edge to overturn an Elo favorite on the road. Paris FC should successfully defend the belt for the first time in this reign.",
+  "written": "2026-11-28",
   "model": "claude-sonnet-4-5",
   "factcheck": {
-   "attempts": 2,
-   "dropped": [
-    "27"
-   ]
+   "attempts": 1,
+   "dropped": []
   }
  }
 }

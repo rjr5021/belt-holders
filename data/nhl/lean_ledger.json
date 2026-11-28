@@ -420,5 +420,15 @@
   "score": "Chicago Blackhawks 3, New York Rangers 4",
   "made": "2026-11-26",
   "line": null
+ },
+ {
+  "key": "CHI|MIN|2026-11-29",
+  "date": "2026-11-29",
+  "holder": "CHI",
+  "challenger": "MIN",
+  "pick": "MIN",
+  "score": "Chicago Blackhawks 2, Minnesota Wild 3",
+  "made": "2026-11-28",
+  "line": null
  }
 ]

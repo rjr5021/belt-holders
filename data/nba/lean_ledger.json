@@ -322,5 +322,19 @@
    "over_under": 234.5,
    "provider": "DraftKings"
   }
+ },
+ {
+  "key": "PHI|HOU|2026-11-28",
+  "date": "2026-11-28",
+  "holder": "PHI",
+  "challenger": "HOU",
+  "pick": "HOU",
+  "score": "Philadelphia 76ers 108, Houston Rockets 116",
+  "made": "2026-11-28",
+  "line": {
+   "details": "HOU -12.5",
+   "over_under": 219.5,
+   "provider": "Draft Kings"
+  }
  }
 ]
