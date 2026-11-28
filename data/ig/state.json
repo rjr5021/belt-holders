@@ -62,6 +62,21 @@
   "2026-11-27 22:43 result nhl|Chicago Blackhawks|New York Rangers|2026-11-27 https://www.instagram.com/p/DgRUWTYjZdx/"
  ],
  "pending": {
+  "bundesliga|Bayern Munich|Hamburger SV|2026-11-28": {
+   "belt_name": "The Bundesliga Belt",
+   "date": "2026-11-28",
+   "defenses": 14,
+   "espn_id": "401884722",
+   "espn_path": "soccer/ger.1",
+   "game_no": 2135,
+   "holder": "Bayern Munich",
+   "holder_short": "Bayern",
+   "lg": "bundesliga",
+   "opponent": "Hamburger SV",
+   "opponent_short": "Hamburg",
+   "reign_no": 57,
+   "since": "2026-02-28"
+  },
   "mls|FC Cincinnati|Nashville SC|2026-11-28": {
    "belt_name": "The MLS Belt",
    "date": "2026-11-28",
